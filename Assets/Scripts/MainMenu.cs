@@ -5,12 +5,13 @@ public class MainMenu:MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("SimpleScene");
+        SceneManager.LoadScene("lvlSelect");
         Debug.Log("Игра начата");
     }
 
     public void Settings()
     {
+        SceneManager.LoadScene("SettingsMenu");
         Debug.Log("Переходим в настройки");
     }
 
