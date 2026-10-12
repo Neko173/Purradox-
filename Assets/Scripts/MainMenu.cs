@@ -5,7 +5,7 @@ public class MainMenu:MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("lvlSelect");
+        SceneManager.LoadScene("lvlSelect1");
         Debug.Log("Игра начата");
     }
 
