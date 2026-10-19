@@ -61,6 +61,27 @@ public class PlayerGridMovement : MonoBehaviour
             // Если коробка не сдвинулась (за ней стена) — стоим
         }
         // Иначе там стена — стоим
+        if (hit.collider == null)
+        {
+            MoveToCell(direction);
+        }
+        else if (hit.collider.CompareTag("Box"))
+        {
+            PushableBox box = hit.collider.GetComponent<PushableBox>();
+            if (box != null && box.TryPush(direction))
+            {
+                MoveToCell(direction);
+            }
+        }
+        else if (hit.collider.CompareTag("Ball"))
+        {
+            RollingBall yarn = hit.collider.GetComponent<RollingBall>();
+            if (yarn != null && yarn.TryPush(direction))
+            {
+                MoveToCell(direction);
+            }
+        }
+        // иначе — стена, стоим
     }
 
     void MoveToCell(Vector2 direction)
