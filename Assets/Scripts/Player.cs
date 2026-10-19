@@ -15,7 +15,6 @@ public class PlayerGridMovement : MonoBehaviour
 
     void Update()
     {
-        // Если уже движемся — плавно идём к цели, новое нажатие не читаем
         if (isMoving)
         {
             transform.position = Vector2.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
@@ -28,33 +27,48 @@ public class PlayerGridMovement : MonoBehaviour
             return;
         }
 
-        // Читаем ввод
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-
-        // Определяем направление (одна ось за раз)
         Vector2 direction = Vector2.zero;
-        if (horizontal != 0)
-            direction = new Vector2(horizontal, 0);
-        else if (vertical != 0)
-            direction = new Vector2(0, vertical);
 
-        // Если направление не выбрано — ничего не делаем
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+            direction = Vector2.up;
+        else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+            direction = Vector2.down;
+        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+            direction = Vector2.left;
+        else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+            direction = Vector2.right;
+
         if (direction == Vector2.zero) return;
 
-        // ПРОВЕРКА: есть ли коллайдер (стена) в целевой клетке
+        // Луч в целевуют клетку
         Vector2 rayStart = (Vector2)transform.position + direction * 0.5f;
         RaycastHit2D hit = Physics2D.Raycast(rayStart, direction, gridSize * 0.5f);
 
-        // Если луч ничего не встретил — путь свободен, начинаем движение
         if (hit.collider == null)
         {
-            targetPos = new Vector2(
-                transform.position.x + direction.x * gridSize,
-                transform.position.y + direction.y * gridSize
-            );
-            isMoving = true;
+            // Пусто — идём
+            MoveToCell(direction);
         }
-        // Если hit.collider != null — там стена, движение не начинаем
+        else if (hit.collider.CompareTag("Box"))
+        {
+            // Там коробка — пробуем толкнуть
+            PushableBox box = hit.collider.GetComponent<PushableBox>();
+            if (box != null && box.TryPush(direction))
+            {
+                // Коробка сдвинулась — идём на её место
+                MoveToCell(direction);
+            }
+            // Если коробка не сдвинулась (за ней стена) — стоим
+        }
+        // Иначе там стена — стоим
+    }
+
+    void MoveToCell(Vector2 direction)
+    {
+        targetPos = new Vector2(
+            transform.position.x + direction.x * gridSize,
+            transform.position.y + direction.y * gridSize
+        );
+        isMoving = true;
     }
 }
