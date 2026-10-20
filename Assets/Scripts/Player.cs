@@ -11,6 +11,7 @@ public class PlayerGridMovement : MonoBehaviour
     void Start()
     {
         targetPos = transform.position;
+        Physics2D.queriesHitTriggers = false; // лучи игнорируют триггеры
     }
 
     void Update()
