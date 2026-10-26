@@ -28,12 +28,15 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/SettingsMenu.unity
     m_guid: 54cc2a77529725248b26c6eaacf0795c
-  - m_enabled: 1
+  - m_enabled: 0
     m_path: Assets/Scenes/lvlSelect.unity
     m_guid: bc4d7b05220ddd84ca811f678cb3526e
   - m_enabled: 1
+    m_path: Assets/Scenes/lvlSelect1.unity
+    m_guid: 56f8cc0ca5c806d47acba5e361c2c278
+  - m_enabled: 1
     m_path: Assets/Scenes/Levels/Level1.unity
-    m_guid: f00150a32fbb4bb4ab00497a3e59b847
+    m_guid: 37c150754578af0428e9f03c03570751
   - m_enabled: 1
     m_path: Assets/Scenes/Levels/Level2.unity
     m_guid: c5062a61aacf9ca46a09c61e8079be6f
@@ -58,6 +61,9 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/Levels/Level9.unity
     m_guid: f87202d4e2c647f4a962a5dd4f510916
+  - m_enabled: 1
+    m_path: Assets/Scenes/Levels/LevelComponents.unity
+    m_guid: f00150a32fbb4bb4ab00497a3e59b847
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:

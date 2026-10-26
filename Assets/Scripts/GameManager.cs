@@ -1,10 +1,13 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
     public bool hasMilkBowl = false;
+
+    public int stepCount;
 
     void Awake()
     {
@@ -23,5 +26,10 @@ public class GameManager : MonoBehaviour
     {
         hasMilkBowl = true;
         Debug.Log("Миска собрана! Дверь открыта.");
+    }
+
+    public void AddStep()
+    {
+        stepCount++;
     }
 }

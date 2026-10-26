@@ -75,13 +75,35 @@ public class RollingBall : MonoBehaviour
     {
         if (!isRolling) return;
 
+        // Проверяем лунку впереди
+        Vector2 nextPos = (Vector2)transform.position + rollDirection * gridSize;
+        Collider2D pitCol = Physics2D.OverlapCircle(nextPos, 0.3f);
+
+        if (pitCol != null && pitCol.CompareTag("Pit"))
+        {
+            Pit pit = pitCol.GetComponent<Pit>();
+            if (pit != null && !pit.isFilled)
+            {
+                // Лунка не заткнута — падаем в неё
+                pit.Fill();
+                gameObject.SetActive(false);
+                return;
+            }
+            else
+            {
+                // Лунка уже заткнута — стоим
+                isRolling = false;
+                return;
+            }
+        }
+
+        // Обычная проверка: свободна ли следующая клетка
         if (IsCellFree(rollDirection))
         {
             MoveOneCell(rollDirection);
         }
         else
         {
-            // Упёрлись — останавливаемся
             isRolling = false;
         }
     }

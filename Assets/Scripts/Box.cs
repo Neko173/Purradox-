@@ -33,10 +33,9 @@ public class PushableBox : MonoBehaviour
         if (isMoving) return false; // коробка ещё едет — не трогаем
 
         // Проверяем, свободна ли клетка ЗА коробкой
+        int obstacleMask = LayerMask.GetMask("Obstacles");
         Vector2 checkStart = (Vector2)transform.position + direction * 0.6f;
-        RaycastHit2D hit = Physics2D.Raycast(checkStart, direction, gridSize * 0.5f);
-
-        // Если там что-то есть (стена или другая коробка) — не двигаем
+        RaycastHit2D hit = Physics2D.Raycast(checkStart, direction, gridSize * 0.5f, obstacleMask);
         if (hit.collider != null) return false;
 
         // Свободно — двигаем коробку на клетку

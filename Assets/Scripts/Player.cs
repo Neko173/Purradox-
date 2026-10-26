@@ -11,7 +11,6 @@ public class PlayerGridMovement : MonoBehaviour
     void Start()
     {
         targetPos = transform.position;
-        Physics2D.queriesHitTriggers = false; // лучи игнорируют триггеры
     }
 
     void Update()
@@ -41,46 +40,38 @@ public class PlayerGridMovement : MonoBehaviour
 
         if (direction == Vector2.zero) return;
 
-        // Луч в целевуют клетку
+        // 1. СНАЧАЛА проверяем лунку в целевой клетке
+        Vector2 checkPos = (Vector2)transform.position + direction * gridSize;
+        Collider2D pitCol = Physics2D.OverlapCircle(checkPos, 0.3f, LayerMask.GetMask("Triggers"));
+
+        if (pitCol != null && pitCol.CompareTag("Pit"))
+        {
+            Pit pit = pitCol.GetComponent<Pit>();
+            if (pit != null && !pit.isFilled)
+            {
+                // Лунка не заткнута — стоим, даже если там коробка
+                return;
+            }
+        }
+
+        // 2. Только теперь проверяем препятствия через Raycast
+        int obstacleMask = LayerMask.GetMask("Obstacles");
         Vector2 rayStart = (Vector2)transform.position + direction * 0.5f;
-        RaycastHit2D hit = Physics2D.Raycast(rayStart, direction, gridSize * 0.5f);
+        RaycastHit2D hit = Physics2D.Raycast(rayStart, direction, gridSize * 0.5f, obstacleMask);
 
         if (hit.collider == null)
         {
-            // Пусто — идём
-            MoveToCell(direction);
-        }
-        else if (hit.collider.CompareTag("Box"))
-        {
-            // Там коробка — пробуем толкнуть
-            PushableBox box = hit.collider.GetComponent<PushableBox>();
-            if (box != null && box.TryPush(direction))
-            {
-                // Коробка сдвинулась — идём на её место
-                MoveToCell(direction);
-            }
-            // Если коробка не сдвинулась (за ней стена) — стоим
-        }
-        // Иначе там стена — стоим
-        if (hit.collider == null)
-        {
             MoveToCell(direction);
         }
         else if (hit.collider.CompareTag("Box"))
         {
             PushableBox box = hit.collider.GetComponent<PushableBox>();
-            if (box != null && box.TryPush(direction))
-            {
-                MoveToCell(direction);
-            }
+            if (box != null && box.TryPush(direction)) MoveToCell(direction);
         }
         else if (hit.collider.CompareTag("Ball"))
         {
             RollingBall yarn = hit.collider.GetComponent<RollingBall>();
-            if (yarn != null && yarn.TryPush(direction))
-            {
-                MoveToCell(direction);
-            }
+            if (yarn != null && yarn.TryPush(direction)) MoveToCell(direction);
         }
         // иначе — стена, стоим
     }
@@ -92,5 +83,6 @@ public class PlayerGridMovement : MonoBehaviour
             transform.position.y + direction.y * gridSize
         );
         isMoving = true;
+        GameManager.Instance.AddStep(); // считаем шаг
     }
 }

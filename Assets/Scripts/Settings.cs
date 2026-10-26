@@ -72,6 +72,7 @@ public class Settings : MonoBehaviour
     public void CloseSettings()
     {
         SceneManager.LoadScene("MainMenu");
+        Debug.Log("Мяу");   
     }
 
     private void LoadSettings()
