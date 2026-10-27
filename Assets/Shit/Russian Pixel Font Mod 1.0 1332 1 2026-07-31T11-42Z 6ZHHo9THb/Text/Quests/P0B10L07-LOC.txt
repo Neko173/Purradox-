@@ -1,0 +1,212 @@
+-- Quest: C:\QUESTS\WORKING\P0B10L07.Qbn.
+-- StartsBy: letter
+-- Questee: member
+-- Questor: vampire
+-- Repute: 10
+-- QuestId: 7
+Messages: 18
+Quest: P0B10L07
+DisplayName: Pfgeubdfybt
+-- Message panels
+QRC:
+
+RefuseQuest:  [1001]
+Error: Questtext 1001 Called.
+
+AcceptQuest:  [1002]
+Error: Questtext 1002 Called.
+
+QuestComplete:  [1004]
+<ce> ^njn hswfhm ghjcnj nb[j b vbhyj
+<ce> cjitk c evf. %pcn, xnj *t
+<ce> ds c ybv nfrjt e*fcyjt cltkfkb?
+<ce> _knight_ ntgthm yt crjhj
+<ce> jghfdbncz. Lf... yt [jxtncz vyt
+<ce> `snm yf %g4 vtcnt. %vam cxbnftn,
+<ce> xnj ds pfcke*bkb @njn gjlfhjr - _jewelry_
+<ce> d pyfr cdjtuj ghbpyfybz b dtkbrjktgyjq
+<ce> hf`jns... Ghjljk*fqnt d njv *t le[t.
+
+RumorsDuringQuest:  [1005]
+Tckb _knight_ yt `eltn yfxtre, nt cfvst dfvgbhs ghblen gthte`t*lfnm %g4.
+   <--->
+_knight_ levftn, `elnj %g j dfvgbhf[ pyftn dct. Yj, ghfdj, @nj ukegj.
+
+RumorsPostfailure:  [1006]
+_knight_ gthtctrftn Pfkbd lth*f yfujnjdt cdjq rkbyjr ghjnbd dfvgbhjd.
+   <--->
+_knight_ yt `jbncz ybrjuj bp yb[. {jlzn cke[b, xnj e*t eybxnj*tyj ytcrjkmrj nsczx dfvgbhjd.
+
+RumorsPostsuccess:  [1007]
+_knight_ ecdjbn ehjrb *bpyb. Yt cnjbn gkfnbnm pf eybxnj*tybt dfvgbhjd.
+   <--->
+_knight_ dctuj kbim negjq `kfujltntkm. Yflj dctuj kbim jcnfdbnm dfvgbhjd d gjrjt.
+
+QuestorPostsuccess:  [1008]
+Error: Questtext 1008 Called.
+
+QuestorPostfailure:  [1009]
+Error: Questtext 1009 Called.
+
+QuestLogEntry:  [1010]
+      __vamp_
+       ___vamp_
+<ce>
+Ljhjujq lheu, %pcn.
+<ce>
+  %vam ye*lftncz d dfitq gjvjob
+Ghbtp*fqnt ytvtlktyyj.
+<ce>
+<ce> Dctulf dfi lheu d Cvthnb,
+<ce>
+    _vamp_
+<ce> ----
+
+Message:  1011
+<ce> Lj`hsq dtxth, vjq cjhjlbx. E yfc
+<ce> djpybrkb ckj*yjcnb c jlybv vtcnysv
+<ce> djtyfxfkmybrjv, rjnjhsq, ytcvjnhz yf
+<ce> vyj*tcndj yfib[ dt*kbds[ gbcmvtyys[
+<ce> euhjp, ghjljk*ftn dtcnb djqye ghjnbd
+<ce> ctvmb %vam. J`sxyj nfrbt yfljtlkbdst
+<ce> hswfhb jrfpfkbcm `s d pfuhj`yjq *bpyb
+<ce> e*t ytcrjkmrj ytltkm yfpfl. Nfrjt yfit
+<ce> vbkjcthlbt jny<lm yt ghjzdktybt
+<ce> ctynbvtynfkmyjcnb. Yfv ye*ty cbkmysq
+<ce> cj<pybr d ghjdbywbb %reg, yj
+<ce> _knight_ yt gjybvftn dctq wtyyjcnb
+<ce> yfituj ghtlkj*tybz. Ghbltncz ghtgjlfnm
+<ce> yt`jkmijq ehjr. Yfv `s [jntkjcm, xnj`s
+<ce> ds dcnhtnbkb %g4 d rhtgjcnb ___mondung_,
+<ce> ult %g xedcndetn ct`z jxtym lf*t cgjrjqyj.
+<ce> Yt e`bdfqnt %g4, dctuj kbim gjujdjhbnt.
+<ce> Uhe`jcnm ghbdtncndetncz. Z *le dfc xthtp
+<ce> =queston_ yjxtq. Yflt<cm, _knight_
+<ce> cnfytn dtcnb ct`z `jktt gjrkflbcnj.
+
+Message:  1012
+%qdt:
+ D cdjtv gbcmvt _vamp_
+ hjlf %vam cjj`oftn,
+ xnj ctvmz ye*lftncz dj vyt.
+ Vyt ye*yj ghb`snm d ujhjl
+ ___vamp_ d vtcnj __vamp_
+ nfr `scnhj, rfr njkmrj vj*yj.
+
+Message:  1013
+%qdt:
+ _vamp_
+ jnghfdkztn vtyz d rhtgjcnm ___mondung_
+ xnj`s ckturf ghbleibnm hswfhz
+ gj bvtyb _knight_. ^njn hswfhm
+ jnrfpsdftncz gjlxbybnmcz djkt ctvmb
+ %vam. Vyt ghbrfpfyj yt e`bdfnm %g4,
+ f dctuj kbim ghbgeuyenm b dthyenmcz
+ yfpfl d ujhjl ___vamp_ d ntxtybt
+ =queston_ lytq.
+
+Message:  1014
+<ce> J %god, crf*b ctvmt %vam,
+<ce> xnj z cltkf< dct xnj eujlyj!
+<ce> Njkmrj yt e`bdfqnt vtyz!
+   <--->
+<ce> %oth, z clf<cm!
+<ce> Z cltkf< dct, xnj jyb pf[jnzn.
+<ce> Njkmrj gj*fkeqcnf, yt e`bdfqnt
+<ce> vtyz!
+
+Message:  1015
+<ce> _knight_ evbhftn.
+<ce> _vamp_ yt jlj`hbn
+<ce> nfrjq cgjcj` dtcnb ltkf.
+
+Message:  1016
+<ce> Vyt e*t dct hfccrfpfkb, %pcf.
+<ce> _knight_ e*t yf njv cdtnt,
+<ce> [jnz vjb ghjcm`s `skb dctuj
+<ce> kbim pfgeufnm %g4. %oth, ds
+<ce> yt `jktt xtv e`bqwf, yt nfr kb?
+<ce> %vam b z jxtym hfpjxfhjdfys,
+<ce> %pcf.
+
+Message:  1017
+<ce> Ds ikb gj ekbwt, dtctkj yfcdbcnsdfz rfre<-nj
+<ce> gtctyre b yfckf*lfzcm gjujljq, rfr dlheu dfc
+<ce> c[dfnbkb pf here b htprj lthyekb d cnjhjye.
+<ce> B d njn *t vjvtyn d lthtdj, gthtl rjnjhsv ds
+<ce> njkmrj xnj `skb, djypbkfcm cnhtkf. "Xnj *t ds
+<ce> nfr ytjcnjhj*yj", - crfpfk cnjzdibq gthtl
+<ce> dfvb vjkjljq dfvgbh. Jy `sk bp nt[, rnj e*t
+<ce> jcjpyfk cdj< bcnbyye< cbke, yj tot yt yfexbkcz
+<ce> hfcgjhz*fnmcz tq ghfdbkmyj.
+<ce> "Ytkmpz lfdfnm djk< `tcgtxyjcnb",- dsdtk dfc
+<ce> bp jwtgtytybz tuj ujkjc, - "Ds yfv tot ghbujlbntcm.
+<ce> Djpmvbnt gbcmvj, jyj flhtcjdfyj dfv, f j` @njv
+<ce> j[jnybrt yt `tcgjrjqntcm, z j ytv gjpf`jxecm..."
+
+
+
+QBN:
+Item _letter_ letter used 1010
+Item _jewelry_ trinket
+
+Person _vamp_ factiontype Vampire_Clan local
+Person _knight_ face 69 factiontype Knightly_Guard male remote
+
+Place _mondung_ remote dungeon2
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Knight
+
+--	Quest start-up:
+	dialog link for person _vamp_
+	_letter_ used do _readletter_
+	have _letter_ set _S.09_
+	give pc _letter_ notify 1017
+	place foe _F.00_ at _mondung_
+
+variable _S.00_
+_queston_ task:
+	change repute with _vamp_ by -5
+	end quest
+
+_vampclicked_ task:
+	clicked npc _vamp_
+	reveal _mondung_
+	log 1013 step 1
+	say 1011
+
+_S.03_ task:
+	when _vampclicked_ and not _S.05_ and not _S.04_
+	clear _vampclicked_ _S.03_
+
+_S.04_ task:
+	injured _F.00_
+	say 1014
+	restrain foe _F.00_
+--task _S.04_
+--This was appended to the restrain foe action, not sure why
+
+_S.05_ task:
+	killed 1 _F.00_
+	say 1015
+
+_reward_ task:
+	when _vampclicked_ and _S.04_ and not _S.05_
+	give pc _jewelry_
+	end quest
+
+_S.07_ task:
+	when _vampclicked_ and _S.05_
+	say 1016
+	change repute with _vamp_ by -5
+	end quest
+
+_readletter_ task:
+	add dialog for location _mondung_ person _vamp_
+	log 1012 step 0
+	create npc _vamp_
+
+_S.09_ task:
+	start timer _queston_

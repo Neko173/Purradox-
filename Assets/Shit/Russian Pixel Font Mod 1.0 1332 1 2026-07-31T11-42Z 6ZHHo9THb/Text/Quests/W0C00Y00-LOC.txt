@@ -1,0 +1,196 @@
+-- Quest: C:\QUESTS\WORKING\W0C00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: Hermaeus Mora
+-- Repute: 0
+-- QuestId: 0
+Messages: 46
+Quest: W0C00Y00
+DisplayName: Pflfybt {thvtecf Vjhs
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Dkfcnm b cbkf, lf, @nj *tkfyyfz yj nz*tkfz yjif.
+<ce> Jlby bp vjb[ gjlxbytyys[ jdkfltk lhtdybv
+<ce> njvjv, rjnjhsq yfpsdftncz J[vf Byabybev,
+<ce> rjnjhsq jlfhbdftn dtkbrjq cbkjq ghjxbnfdituj
+<ce> tuj cnhfybws. Tckb ns eybxnj*bim @njuj
+<ce> ytljyjcrf cdzotyybrf, rjnjhsq dspdfk vjt
+<ce> ytljdjkmcndj, z jhufybpe< nt`t pyfrjvcndj
+<ce> c @njq rybujq. ^nj ghbtvktvj lkz nt`z?
+
+RefuseQuest:  [1001]
+<ce> Ndjq jndtn jnhbwfntkty. Z nfr gjybvf<, xnj botim
+<ce> ns dkfcnb b cbks, yj botim, ult `s b[ ehdfnm
+<ce> `tcgkfnyj? Nt`t cktljdfkj `s pyfnm xnj pf
+<ce> pyfybz yflj gkfnbnm, d pfdbcbvjcnb jn njuj,
+<ce> ns botim. Z jxtym hfpjxfhjdfy nj`jq...ghjofq.
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj. Ye*ysq vyt xtkjdtr ghj*bdftn dj
+<ce> ldjhwt __palace_. Pfgbib bvz cdjtq *thnds:
+<ce> _enemy_.
+<ce> E`tq %g4 b blb d vtcntxrj ___contact_,
+<ce> ult vjq ckeuf _contact_ `eltn
+<ce> *lfnm nt`z d `b`kbjntrt. Levf< byajhvfwbb
+<ce> lkz nt`z ljcnfnjxyj. Yt gjldtlb vtyz d @njv
+<ce> ltkt, %pcf, b ndjz *f*lf
+<ce> `eltn enjktyf.
+
+QuestFail:  [1003]
+<ce> Gjckeifq, tckb ns %pcf,
+<ce> djpdhfofqcz b e`tq _enemy_.
+<ce> {thvtec Vjhf crfpfk vyt yt lfdfnm
+<ce> nt`t rybue, gjrf %g jcnftncz
+<ce> d *bds[. Bpdbyb rjytxyj, yj
+<ce> ghbrfp tcnm ghbrfp.
+
+QuestComplete:  [1004]
+<ce> %pcf, z ytljjwtybk nt`z. Ujdjhbk z Vjht, xnj
+<ce> dhzl kb nt`t @nj elfcncz, yj ns pltcm, f dtcm
+<ce> htubjy %reg gjcnfdkty yf eib
+<ce> d gjbcrf[ dbyjdyjuj d cvthnb xtkjdtrf
+<ce> _enemy_.
+<ce> Rfr b j`tofyj, djn rybuf. Gjvyb: ghjxtcnm tt
+<ce> vj*yj njkmrj jlby hfp.
+<ce> Edblbvcz gjp*t...vj*tn `snm.
+
+RumorsDuringQuest:  [1005]
+Ujdjhzn, xnj _enemy_ xthgftn dc< cdj< cbke yfghzve< jn lf@lhf.
+   <--->
+_enemy_ ljk*yj `snm pfrk<xbk cltkre c lf@lhf. Ybrjve yt vj*tn nfr lbrj dtpnb.
+
+RumorsPostfailure:  [1006]
+_enemy_ jcnfdbk %reg nfr `scnhj, rfr nt`t [jntkjcm. Yflt<cm, @nj gjcktlybq hfp rjulf jy gjgfkcz.
+   <--->
+Ns vj*tim j`vfyenm lf@lhf. _enemy_ j`vfyek. E`t*fk ghjxm, yj dct tot *bd.
+
+RumorsPostsuccess:  [1007]
+Cdthibkjcm nj, xnj ljk*yj `skj cdthibncz. _enemy_ gsnfkcz j`vfyenm celm`e, nfr ujdjhzn.
+   <--->
+Z cksifk, rfr _enemy_ [dfkbkcz, xnj j`vfyek lf@lhf. Xnj pf lehfr.
+
+Message:  1011
+=contact_, rjnjhsq pfrk<xbk cltkre c lf@lhf.
+   <--->
+Ytrnj =contact_, *bdeobq d __contact_.
+
+Message:  1012
+Ghbyw lf@lhf, dkfcnbntkm Pfghtnyjuj Pyfybz, evytqitt bp dct[ flcrb[ ceotcnd.
+   <--->
+{thvtec Vjhf j`kflftn hfpevjv, nfrbv *t cnfhsv rfr b Nfvhb@km, yj ntkjv ckbpyzrf.
+
+Message:  1013
+J[vf Byabybev rybuf gjpyfybz. Yj k<`jt pyfybt vj*tn `snm pf`snj.
+   <--->
+^nj rybuf, rjnjhfz jlfhztn cdjtuj xbnfntkz abpbxtcrjq b evcndtyyjq cbkjq.
+
+Message:  1020
+%qdt:
+ Ghbyw lf@lhf {thvtec Vjhf [jxtn
+ dbltnm vthndsv cgtkkcdjhlf, rjnjhsq [jxtn
+ hfpjhdfnm c ybv rjynhfrn. _enemy_
+ j`bnftn dj ldjhwt __palace_.
+ D j`vty pf tuj e`bqcndj z gjkexe rybue
+ dtkbrjuj pyfybz, J[vf Byabybev, e cdzpyjuj
+ {thvtecf Vjhs gj bvtyb _contact_,
+ *bdeotuj d ___contact_, tckb
+ dthyecm lj bcntxtybz =1stparton_ lytq bkb
+ hfymit. _contact_ `eltn *lfnm vtyz
+ d `b`kbjntrt.
+
+Message:  1030
+<ce> {thvtec Vjhf `eltn ljdjkty --
+<ce> ds e`bkb tuj dhfuf _enemy_.
+
+Message:  1035
+<ce> Ytn! Gjlj*lb! Rkzyecm, z pfgkfnbk dct gjkyjcnm<
+<ce> kjhle Vjht. Yt e`bdfq vtyz, ghjie nt`z!
+<ce> Djn, jcnfdm vyt *bpym b djpmvb @nj _magic_,
+<ce> xnj`s jnlfnm tve rfr pyfr vjtq lj`hjq djkb
+<ce> b gjlndth*ltybt, xnj z jnlfk dtcm ljku.
+<ce> Gj*fkeqcnf, ghjie nt`z, gjvj*tim vyt?
+
+Message:  1040
+<ce> {vv, bnfr, cgfcb`j pf _magic_, z levf<...
+<ce> F ntgthm, pfrjyxbv @nj ltkj.
+
+QuestTimeLapse:  [1045]
+<ce> Ns ujdjhbim vyt, xnj jcnfdbk @njve vfktymrjve
+<ce> xthd< *bpym, b ghbytc vyt @njn *fkrbq _magic_
+<ce> dvtcnj rhjdb _enemy_ yf cdjb[ herf[?
+<ce> {thvtec Vjhf yt j`hfletncz @njq yjdjcnb.
+
+
+
+QBN:
+Item _artifact_ artifact Oghma_Infinium anyInfo 1013
+Item _magic_ magic_item
+
+Person _questgiver_ face 112 named Hermaeus_Mora anyInfo 1012
+Person _contact_ group Librarian remote anyInfo 1011
+Person _enemy_ face 1 factiontype Province remote
+
+Place _palace_ remote palace
+Place _L.01_ remote dungeon
+
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
+
+Foe _monster_ is Spellsword
+Foe _guard1_ is Barbarian
+Foe _guard2_ is Ranger
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1020 step 0
+	pc at _palace_ set _S.06_
+	place npc _enemy_ at _palace_
+
+_1stparton_ task:
+	end quest
+
+variable _2ndparton_
+_pcgetsgold_ task:
+	when _npcclicked_ and _mondead_
+	when _S.10_ and _mondead_
+	give pc _artifact_
+	end quest
+--removed unnecessary delay
+
+_mondead_ task:
+	killed 1 _monster_
+	create foe _guard2_ every 3 minutes 5 times with 50% success
+	say 1030
+
+_npcclicked_ task:
+	clicked npc _contact_
+
+_clearclick_ task:
+	when not _mondead_ and _npcclicked_
+	say 1003
+	clear _npcclicked_ _clearclick_
+
+_S.06_ task:
+	hide npc _enemy_
+	restrain foe _monster_
+	place foe _monster_ at _palace_
+
+_S.07_ task:
+	injured _monster_
+	prompt 1035 yes yes no _no_
+
+yes task:
+	get item _magic_
+	place foe _monster_ at _L.01_
+
+_no_ task:
+	create foe _guard1_ every 2 minutes 5 times with 35% success
+
+_S.10_ task:
+	toting _magic_ and _contact_ clicked
+	say 1040
+
+_S.11_ task:
+	when _S.10_ and not _mondead_
+	say 1045

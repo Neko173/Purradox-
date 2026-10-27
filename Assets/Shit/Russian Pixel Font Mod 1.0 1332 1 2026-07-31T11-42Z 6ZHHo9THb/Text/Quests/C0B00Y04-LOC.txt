@@ -1,0 +1,150 @@
+-- Quest: C:\QUESTS\WORKING\C0B00Y04.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: temple
+-- Repute: 0
+-- QuestId: 4
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 13
+Quest: C0B00Y04
+DisplayName: ~tpevysq cdzotyybr
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> __qgiver_ xfcnj euke`kztncz
+<ce> d djghjc j nfqyt hfpvthjd dctktyyjq,
+<ce> ye b rjytxyj *t vs ytdthyj jwtybkb vytybt
+<ce> jlyjuj bp yfib[ [hfvjdybrjd, j`dbybd tuj
+<ce> d `tpevbb gthtl kbwjv dtxyjcnb. Lheubvb
+<ce> ckjdfvb jlby bp yfib[ cdzotyybrjd ldbyekcz
+<ce> evjv. Yt vjukb `s ds gjvjxm yfv dthyenm
+<ce> @njuj `tpevwf j`hfnyj d __qgiver_?
+   <--->
+<ce> Cnfhsq =priest_ cyjdf d ghbgflrt
+<ce> `tpevbz. Gj[j*t, xnj jy cyjdf gjgthcz d
+<ce> dbyysq gjuht`jr __qgiver_.
+<ce> ~snm vj*tn ds yfqltnt dhtvz, xnj`s
+<ce> gjvjxm dthyenm @njuj xjryenjuj cnfhwf?
+
+RefuseQuest:  [1001]
+<ce> %oth, yflt<cm, xnj rjulf ds gjnthztnt
+<ce> cdjq hfpev, ybrjuj yt `eltn hzljv,
+<ce> xnj`s ghbqnb dfv yf gjvjom, %pct.
+
+AcceptQuest:  [1002]
+<ce> Ds nfr lj`hs, %pct. F ntgthm,
+<ce> =priest_ e`t*fk d vtcntxrj
+<ce> gjl yfpdfybtv ___mondung_. Gjcnfhfqntcm
+<ce> yt ghbxbyznm vyjuj dhtlf `tlyjve lehfre.
+<ce> =priest_ ghjcnj yt gjybvftn, xnj ndjhbn.
+<ce> Ghjcnj lfqnt tve [jhjitymrj gj ujkjdt b
+<ce> ghbdtlbnt c<lf. Z `ele *lfnm =queston_
+<ce> lytq. ~elmnt jcnjhj*ys b frrehfnys.
+
+QuestComplete:  [1004]
+<ce> Hfl cyjdf dbltnm dfc, %pct.
+<ce> yt `tcgjrjqntcm yfcxtn =priest_.
+<ce> Vs gjpf`jnbvcz j ytv.
+
+RumorsDuringQuest:  [1005]
+~tpevtw =priest_ cghznfkcz d ___mondung_. Njkmrj gjkysq blbjn gjghtncz nelf.
+   <--->
+___mondung_ - jgfcyjt vtcnj lkz `tpevwtd. =priest_ jlby bp yb[.
+
+RumorsPostfailure:  [1006]
+Celz gj dctve, =priest_ e*t ybrjulf yt dthytncz ljvjq.
+   <--->
+=priest_ dct tot `tpevty, `jhvjxf ghj ___mondung_.
+
+RumorsPostsuccess:  [1007]
+%ra, hfpscrfdibq @njuj `tpevwf =priest_. D gjhzlrt kb tuj hfpev, djn djghjc.
+   <--->
+=priest_ jxtym ukeg, gmzy bkb `tpevty. Yt bcrk<xtyj xnj dct jlyjdhtvtyyj.
+
+QuestorPostsuccess:  [1008]
+Ds lj`hjcthltxyj cgfckb =priest_, z gjvy<. Xnj z vjue cltkfnm lkz dfc?
+
+QuestorPostfailure:  [1009]
+Vyt ytxtuj crfpfnm dfv. Rfr dblbnt, z dct tot gjvy< =priest_.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp
+ __qgiver_, ___qgiver_
+ gjckfk vtyz yfqnb cdzotyybrf gj bvtyb
+ =priest_, rjnjhsq dgfd d `tpevbt,
+ jnghfdbkcz d vtcnj, yfpsdftvjt
+ ___mondung_. E vtyz
+ =queston_ lytq, xnj`s lj`hfnmcz lj nelf,
+ yfqnb `tpevwf b dthyenm tuj j`hfnyj r
+ _qgiver_.
+
+Message:  1011
+<ce> "%oth, @nj *t vjz ujkjdf!"
+<ce> =priest_ gflftn yfdpybxm
+<ce> `tp cjpyfybz b ds, rhz[nz, gjlybvftnt
+<ce> tuj ct`t yf pfrjhrb.
+   <--->
+<ce> =priest_ d `tpevbb jn `jkb
+<ce> pfrfnsdftn cdjb ukfpf. ~tp
+<ce> tlbyjuj pderf jy gflftn d
+<ce> pf`jnkbdj gjlcnfdktyyst dfvb herb.
+
+Message:  1012
+<ce> Ds cksibnt kturbq, `tpevysq
+<ce> cvt[ b =priest_ ghjgflftn,
+<ce> hfcndjhzzcm d djple[t gjlj`yj
+<ce> rkjxre nevfyf.
+   <--->
+<ce> "E vtyz tcnm rjhjktdcndj, rjnjhsv z
+<ce> ljk*ty ghfdbnm, b e vtyz ytn dhtvtyb
+<ce> yf @nb ghjrkznst ekjdrb!" - =priest_
+<ce> c ytj`]zcybvjq kjdrjcnm< dscrfkmpsdftn
+<ce> bp dfituj pf[dfnf b e`tuftn ghjxm.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+
+Place _mondung_ remote dungeon
+--removed fake dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _priest_ is Monk
+
+--	Quest start-up:
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	place foe _priest_ at _mondung_
+
+variable _reward_
+_bonk_ task:
+	injured _priest_
+	say 1011
+	add foe _priest_ face
+	remove foe _priest_
+	--changed "place foe in fake dungeon" to remove foe action.
+
+_queston_ task:
+	end quest
+
+_cick_ task:
+	when _bonk_ and _queston_
+	say 1012
+
+_S.04_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.04_ and _bonk_
+	give pc nothing
+	end quest
+
+_nope_ task:
+	when _S.04_ and not _bonk_
+	clear _S.04_ _nope_

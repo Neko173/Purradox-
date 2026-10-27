@@ -1,0 +1,201 @@
+-- Quest: C:\QUESTS\WORKING\O0B00Y01.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: thief
+-- Repute: 0
+-- QuestId: 1
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 31
+Quest: O0B00Y01
+DisplayName: Gjcnfdrf djjhe*tybq
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ckeifq, %pcf. ^nj `eltn ghjcnj
+<ce> xnj-nj dhjlt rjvfylbhjdrb. Ghj`ktv
+<ce> c @nbv ytn njkmrj e nt`z.
+<ce> Dct, xnj ye*yj - ghbytcnb rjt-xnj
+<ce> yfitve ghtlcnfdbntk< d ujhjlt
+<ce> ___contact_, dpznm e y%g4 gkfne
+<ce> b dthyenmcz yfpfl. "Rjt-xnj" -
+<ce> @nj  _weapons_. Cghfdbimcz?
+
+RefuseQuest:  [1001]
+<ce> Ytn?!? Xnj *t tot ghjot nt`t
+<ce> gjhexbnm? Cnjznm b [kjgfnm
+<ce> eifvb, gjrf z nt`t xnj-nj ujdjh<?
+<ce> {jnz, vj*tn `snm, njkmrj @nj nt`t b
+<ce> gjl[jlbn. %oth, xnj pf lhzym!
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj, ndjq futyn, -
+<ce> =contact_. F ns levftim, @nj ljk*ty
+<ce> `snm rnj-nj lheujq?! ^nf
+<ce> kbxyjcnm, rcnfnb pjden %g4 _contact_?
+<ce> `hjlbn ult-nj jrjkj ljvf __contact_
+<ce> d ujhjlt ___contact_ b yjcbn c cj`jq
+<ce> lj`sxe, yfuhf`ktyye< d @njv *t ujhjlt.
+<ce> %g *ltn, xnj ns ghbltim b pf`thtim tt,
+<ce> xnj`s ghbytcnb c<lf. Rjhjxt ujdjhz
+<ce> nt`t yflj ghbytcnb dct, xnj %g lfcn.
+<ce> Z *le nt`z xthtp =1stparton_ lytq bkb hfymit.
+<ce> B xnj` `tp ghbrk<xtybq. Dct. Dgthtl.
+
+QuestFail:  [1003]
+<ce> Fuf, ns e*t pltcm. Yj pltcm tot
+<ce> ljk*yf `snm lj`sxf djhf _contact_.
+<ce> Xnj-nj z tt yt db*e. Ns, yfdthyj,
+<ce> yt levftim j gjcktlcndbz[, %pcf?
+<ce> Ye njulf blb b gjhfpvsikzq yf ljceut.
+
+QuestComplete:  [1004]
+<ce> J, rfrjq rhfcbdsq rfvtitr. ^nj
+<ce> _gems_... _contact_, rfr dctulf,
+<ce> gjcnfdkztn yfv jnkbxyst dtob.
+<ce> %oth, gj[j*t, e y%g4 ltkf blen jnkbxyj
+<ce> {jhjifz hf`jnf, %pcf. Lth*b cdj<
+<ce> yfuhfle.  Pltcm _reward_ pjkjns[.
+<ce> Blb b dsgtq pf pljhjdmt yfituj lheuf.
+
+RumorsDuringQuest:  [1005]
+Cnhf*f pjhrj yf`k<lftn pf rf*lsv, e rjuj tcnm jhe*bt. Rfr zcnht`s.
+   <--->
+%t `jbncz gjreitybz. Cnhf*f yf[jlbncz d `jtdjq ujnjdyjcnb.
+
+RumorsPostfailure:  [1006]
+Ytrbq =contact_ `sk ytlfdyj fhtcnjdfy. Dthjznyj, %g njhujdtw jhe*btv.
+   <--->
+Ubkmlbz Djhjd yt nfr e* b cbkmyf. Rnj-nj bp yb[ `sk fhtcnjdfy d ujhjlt __contact_.
+
+RumorsPostsuccess:  [1007]
+{jlzn cke[b, xnj rnj-nj nfqyj ghjytc d ujhjl jhe*bt, - _weapons_. ^nj `tcgjrjbn.
+   <--->
+%t gfybxtcrb `jbncz njuj, xnj Ubkmlbz Djhjd pfybvftncz rjynhf`fyljq.
+
+QuestorPostsuccess:  [1008]
+Pljhjdj, %pcf, xnj yflj? Yfdthyjt, jnlfnm nt`t @njn rfvtitr, _gems_?
+
+QuestorPostfailure:  [1009]
+<ce> Tckb e nt`z ybxtuj ytn jn djhf _contact_,
+<ce> nj vyt yt j xtv c nj`jq hfpujdfhbdfnm.
+
+QuestLogEntry:  [1010]
+<ce> Jnkbxyj, %pcf. Ujhfplj ktuxt ghjytcnb
+<ce> c<lf jhe*bt, xtv bcrfnm tuj nen.
+<ce> Lth*b. ^nj _gems_, j`hfptw njuj, xnj
+<ce> vyt elfkjcm nen ytlfdyj cgthtnm.
+<ce> Nfob tuj yfpfl b crf*b xnj z d gjhzlrt.
+<ce> _questgiver_ zdyj j`hfletncz @njve.
+<ce> Tot hfp cgfcb`j, %pcf. Edblbvcz.
+
+Message:  1020
+<ce> Bvtytv %nrn! Cnjqnt!
+<ce> Z pyf<, ds ytpfrjyyj dtptnt
+<ce> jhe*bt. Clfdfqntcm bkb evhbnt!
+
+Message:  1021
+<ce> Vyt bpdtcnyj, xnj ds ytpfrjyyj
+<ce> ghjytckb jhe*bt, - _weapons_, lkz
+<ce> Ubkmlbb Djhjd. Jnlfqnt tuj vyt,
+<ce> b z cj[hfy< dfv *bpym.
+
+Message:  1022
+<ce> Dct, xnj yfv ye*yj, @nj _weapons_.
+<ce> Jnlfqnt @ne buheire yfv,
+<ce> b vs yt `eltv dfc cbkmyj `bnm.
+
+Message:  1023
+<ce> F ntgthm yjub d herb b `tub
+<ce> jnc<lf, gjrf tcnm pljhjdmt.
+
+Message:  1030
+%qdt:
+ _questgiver_ bp Ubkmlbb Djhjd ujhjlf
+ ___questgiver_ ghjcbn vtyz ljcnfdbnm
+ jhe*bt, - _weapons_ r futyne _contact_
+ d plfybb __contact_ d ujhjlt ___contact_,
+ %g gthtlfcn vyt cdj< lj`sxe.
+ E vtyz tcnm =1stparton_ lytq xnj`s pfrjyxbnm @nj ltkj.
+
+
+
+QBN:
+Item _reward_ gold range 25 to 75
+Item _weapons_ weapon
+Item _gems_ gem
+
+Person _questgiver_ face 72 group Questor
+Person _contact_ face 80 group Group_5.0 remote
+
+
+Clock _1stparton_ 00:00 0 flag 18 range 1 4
+
+Foe _guards_ is Warrior
+Foe _F.01_ is 2 Thief
+Foe _F.02_ is Spellsword
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1030 step 0
+	get item _weapons_
+
+variable _pcgetsgold_
+_qgclicked_ task:
+	toting _gems_ and _questgiver_ clicked
+	give pc _reward_
+	end quest
+
+_npcclicked_ task:
+	toting _weapons_ and _contact_ clicked
+	get item _gems_
+	say 1010
+
+until _npcclicked_ performed:
+	create foe _guards_ every 150 minutes 4 times with 5% success
+	create foe _F.02_ every 179 minutes 4 times with 5% success
+	create foe _F.01_ every 163 minutes 4 times with 5% success
+
+_qgtalk_ task:
+	clicked npc _questgiver_
+
+_clearclick_ task:
+	when _qgtalk_ and not _qgclicked_
+	say 1003
+	clear _clearclick_ _qgtalk_
+--added _qgtalk_ and _clearclick_
+
+_1stparton_ task:
+	make _weapons_ permanent
+	make _gems_ permanent
+	have _weapons_ set _S.11_
+	have _gems_ set _keptgems_
+	end quest
+
+variable _pchasitem1_
+variable _pchasitem2_
+_S.06_ task:
+	injured _F.01_
+	prompt 1022 yes _yes_ no _no_
+
+_yes_ task:
+	take _weapons_ from pc saying 1023
+	change repute with _questgiver_ by -20
+	restrain foe _guards_
+	restrain foe _F.02_
+	restrain foe _F.01_
+
+variable _no_
+_S.09_ task:
+	injured _F.02_
+	prompt 1021 yes _yes_ no _no_
+
+_greklith_ task:
+	injured _guards_
+	prompt 1020 yes _yes_ no _no_
+
+_S.11_ task:
+	change repute with _questgiver_ by -10
+
+_keptgems_ task:
+	change repute with _questgiver_ by -20

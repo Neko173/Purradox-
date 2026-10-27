@@ -1,0 +1,139 @@
+-- Quest: C:\QUESTS\WORKING\C0B00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: temple
+-- Repute: 0
+-- QuestId: 0
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 13
+Quest: C0B00Y00
+DisplayName: Ljv c ghbdbltybzvb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ljv d __house_
+<ce> `sk pfctkty rfrjq-nj yt*bnm<. Yfv ye*ty rnj-nj,
+<ce> rnj cvj*tn ghjuyfnm ytxbcnm. Ds d ltkt?
+<ce> Gkfnf pf hf`jne _gold_ pjkjns[.
+
+RefuseQuest:  [1001]
+<ce> Ybxtuj cnhfiyjuj. Gjboe rjuj-nj, rjve
+<ce> yhfdbncz gjlj`yfz hf`jnf.
+
+AcceptQuest:  [1002]
+<ce> Gjvybnt, tckb ytxbcnm jrf*tncz ckbirjv cbkmyjq
+<ce> lkz dfc, e`bhfqntcm jnnelf gj`scnhtt. Ybrnj yt
+<ce> `eltn dbybnm dfc d njv, xnj ds cgfcftnt cdj< irehe.
+<ce> Vtcnj yfpsdftncz - _house_ b yf[jlbncz jyj d
+<ce> __house_.
+<ce> E dfc =traveltime_ lytq bkb vs gjiktv rjuj-nj
+<ce> lheujuj yf @ne hf`jne.
+
+QuestComplete:  [1004]
+<ce> Yfrjytw-nj c ghbphfrfvb gjrjyxtyj. Z pf*ue kflfyre
+<ce> yf fknfht lkz @nb[ le[jd. Djn dfit [hfvjdjt gjcj`bt
+
+RumorsDuringQuest:  [1005]
+Ujdjhzn, xnj ghbdbltybt bp _house_ ytdjpvj*yj e`bnm.
+
+RumorsPostfailure:  [1006]
+Ghbphfrb bp _house_ gjcnjzyyj `elen djpdhfofnmcz.
+   <--->
+Le[b d _house_ dct tot yt egjrjtys.
+
+RumorsPostsuccess:  [1007]
+Yfrjytw-nj _house_ dsxboty.
+   <--->
+Le[b bp _house_ yfrjytw-nj egjrjtys.
+
+QuestorPostsuccess:  [1008]
+Xtv z vjue gjvjxm dfv, Bpujyz<obq Le[jd?
+
+QuestorPostfailure:  [1009]
+_house_ dct tot pfhf*ty, b ds [jnbnt, xnj`s z pfgkfnbk dfv?
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp __qgiver_
+ d ___qgiver_
+ gjckfk vtyz c gjhextybtv bpuyfnm
+ `tcgjrjqys[ le[jd d _house_ d
+ __house_. E vtyz =traveltime_ lytq
+ yf dc< hf`jne.
+
+Message:  1011
+<ce> Z ghtljr jcyjdfntkz @njuj ljvf. Ntgthm jy
+<ce> ghbyflkt*bn vthndsv. Gecnm dct *bdst cjplfybz
+<ce> jcnfdzn @nj vtcnj.
+
+Message:  1012
+<ce> Gjybvf<, gjxtve ds yt hfcghfdbkbcm cfvb c @nbv
+<ce> rjivfhjv, %pcn. {jhjij, xnj [jnm
+<ce> j`yfhe*bkb cfv afrn yfkbxbz ghbphfrjd. {hfv
+<ce> `kfujlfhbn dfc. Djn gfhf pjkjns[.
+
+
+
+QBN:
+Item _gold_ gold
+Item boobyprize gold range 2 to 2
+
+Person _qgiver_ face 1 group Questor
+
+Place _house_ remote house2
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _ghost_ is Ghost
+Foe _skeleton_ is Skeletal_warrior
+Foe _wraith_ is Wraith
+Foe _zombie_ is Zombie
+
+--	Quest start-up:
+	start timer _traveltime_
+	log 1010 step 0
+	pick one of _S.02_ _S.03_ _S.04_ _S.05_
+	pc at _house_ set _S.08_
+	create npc at _house_
+
+_traveltime_ task:
+	end quest
+
+_questdone_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _questdone_ and _S.06_
+	give pc _gold_
+	end quest
+
+_S.02_ task:
+	place foe _ghost_ at _house_
+
+_S.03_ task:
+	place foe _skeleton_ at _house_
+
+_S.04_ task:
+	place foe _wraith_ at _house_
+
+_S.05_ task:
+	place foe _zombie_ at _house_
+
+_S.06_ task:
+	killed 1 _zombie_
+	killed 1 _skeleton_
+	killed 1 _wraith_
+	killed 1 _ghost_
+
+_S.07_ task:
+	injured _zombie_ saying 1011
+	injured _wraith_ saying 1011
+	injured _skeleton_ saying 1011
+	injured _ghost_ saying 1011
+
+variable _S.08_
+variable _S.09_
+_clearclick_ task:
+	when _questdone_ and not _S.06_
+	clear _questdone_ _clearclick_

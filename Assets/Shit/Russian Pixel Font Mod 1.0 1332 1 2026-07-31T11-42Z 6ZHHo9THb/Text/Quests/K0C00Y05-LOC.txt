@@ -1,0 +1,279 @@
+-- Quest: C:\QUESTS\WORKING\K0C00Y05.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: merchant
+-- Repute: 0
+-- QuestId: 5
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 20
+Quest: K0C00Y05
+DisplayName: Gjnthzyyjt lbnz
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Z j`hfofkcz r Ubkmlbb ~jqwjd, yj e yb[
+<ce> gjkyj ltk gj hjpscre dscjrjhj*ltyys[
+<ce> jnghscrjd, lkz yb[ @nj df*ytt hjpscrf
+<ce> ltntq, hjlbdib[cz e j`sxys[ k<ltq. Vjt
+<ce> lbnz _child_ @nj dct, xnj e vtyz tcnm.
+<ce> Gj*fkeqcnf, yt vjukb `s gjbcrfnm tt,
+<ce> vjq lheu?
+   <--->
+<ce> ^nb e*fcyst jhrb gj[bnbkb vj< vfktymre<
+<ce> repbye, f yfi nfr yfpsdftvsq "pfobnybr",
+<ce> Ubkmlbz ~jqwjd jnrfpfkfcm gjvjxm.
+<ce> _child_ @nj =child_, ytljcnjqyfz
+<ce> b[ dybvfybz, yj jyf, @nj dct xnj e vtyz
+<ce> tcnm. Gj*fkeqcnf, lj`hsq %ra,
+<ce> gjvjubnt vyt.
+
+RefuseQuest:  [1001]
+<ce> Dfit cthlwt bp rfvyz, ghzvj rfr
+<ce> e xktyjd Ubkmlbb ~jqwjd. D xtv
+<ce> ghjdbybkjcm @nj ytdbyyjt lbnz?
+
+AcceptQuest:  [1002]
+<ce> Cgfcb`j, cgfcb`j dfv. Z lfv dfv
+<ce> _gold_ pjkjns[, tckb ds yfqltnt
+<ce> _child_ -- jyf @nj dct, xnj e
+<ce> vtyz tcnm. Jhrb, gj[bnbdibt tt,
+<ce> jcnfyjdbkbcm d lehyjgf[yeotv vtcntxrt,
+<ce> ___mondung_. Vyt ye*yj epyfnm
+<ce> j celm`t _child_ d ntxtybt
+<ce> =queston_ lytq bkb z gjik< rjuj tot.
+<ce> Gj*fkeqcnf, yt ljdjlbnt vtyz lj `tpevbz.
+<ce> %god ght`eltn c dfvb, lj`hsq uthjq
+<ce> %pcn.
+
+QuestComplete:  [1004]
+<ce> _child_, j, `kfujlfhtybt %god!
+<ce> %oth, vjq lj`hsq, lj`hsq lheu %pcn,
+<ce> ds vjq cgfcbntkm. Djn, djn
+<ce> dfib _gold_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+_qgiver_ d gjkyjv hfccnhjqcndt jn ghjgf*b _child_.
+
+RumorsPostfailure:  [1006]
+_qgiver_ e*t jnxfzkcz yfqnb _child_.
+
+RumorsPostsuccess:  [1007]
+_qgiver_ b _child_ cyjdf djccjtlbybkbcm, cgfcb`j yftvybre-%ra.
+
+QuestorPostsuccess:  [1008]
+Ds dthyekb vyt _child_, %pcf. Xnj z vjue cltkfnm lkz dfc?
+
+QuestorPostfailure:  [1009]
+<ce> Ds yt gjvybnt vtyz, %pcf?
+<ce> _qgiver_? Ds crfpfkb,
+<ce> xnj dthytnt vyt _child_,
+<ce> yj gjnthgtkb ytelfxe. Vyt
+<ce> ytxtuj crfpfnm dfv.
+<ce> Ghjdfkbdfqnt d J`kbdbjy.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_
+ bp __qgiver_, ___qgiver_
+ gjckfk vtyz yfqnb tuj vfktymre< repbye,
+ _child_. Dthjznytt dctuj
+ jyf yf[jlbncz e uheggs jhrjd d
+ ___mondung_. E vtyz =queston_ lytq
+ yf cgfctybt ht`tyrf.
+
+Message:  1011
+      __knight_
+       ___knight_
+<ce>
+Ljhjujq lheu %pcn,
+<ce>
+_child_ yt `skf gj[botyf yb jhrfvb,
+yb rtv kb`j tot. D ltqcndbntkmyjcnb jyf
+yf[jlbncz e yfc, lkz pfobns jn _qgiver_,
+rjnjhsq zdkztncz cnhfiysv gmzybwtq. Tckb
+ds [jnbnt edbltnm tt cj`cndtyysvb ukfpfvb,
+ghb[jlbnt d __knight_.
+<ce>
+Dfi gjxntyysq,
+<ce> _knight_
+<ce> ----
+
+
+Message:  1012
+<ce> Gjcskmysq, yjczobq uthfkmlbxtcrbt pyfrb
+<ce> Ubkmlbb ~jqwjd gjzdkztncz ghzvj gthtl dfvb.
+<ce> Jy dhexftn dfv pfgtxfnfyysq rjydthn
+<ce> b `scnhj cvsdftncz djy.
+
+Message:  1013
+%qdt:
+ Vyt ghbikj gbcmvj jn
+ _knight_, hswfhz bp
+ Ubkmlbb ~jqwjd, yfgbcfdituj, xnj hfpscrbdftvjt
+ d ___mondung_ lbnz yf[jlbncz e ytuj.
+ _knight_ pf`hfk _child_ e
+ _qgiver_, gjnjve xnj =qgiver_ rjyxtysq
+ gmzybwf. Tckb z [jxe e`tlbnmcz cj`cndtyysvb
+ ukfpfvb, _knight_ yf[jlbncz d
+ __knight_ d ___knight_.
+
+Message:  1014
+<ce> Gjkfuf<, ds gjkexbkb vjt gbcmvj, %pcf.
+<ce> ^nj [jhjij. Vyt jxtym ytghbznyj, xnj ds
+<ce> jrfpfkbcm djdktxtys d @ne ytghbznye< cbnefwb<.
+<ce> _child_ - repbyf _qgiver_, yj,
+<ce> xnj `jktt df*yj, =child_ eyfcktljdfkf
+<ce> elfxe cdjb[ ghtlrjd. Hflb tt `tpjgfcyjcnb
+<ce> vs gthtdtpkb tt d __childlocale_.
+<ce> Gjkfuf<, z vjue crfpfnm dfv ult @nj --
+<ce> _childlocale_.
+<ce> Dfif htgenfwbz d Ubkmlbb ~jqwjd `eltn
+<ce> yfvyjuj dsit, tckb ds jcnfdbnt
+<ce> _child_ d gjrjt.
+
+Message:  1015
+<ce> Ghbdtn, z _child_.
+<ce> Vyt ctvm ktn.
+   <--->
+<ce> Ghbdtn. Vtyz pjden _child_.
+<ce> {jnbnt ienre? {jhjij, djn jyf.
+<ce> %jok.
+   <--->
+<ce> Vjq ltleirf gj`jufxt dfc.
+   <--->
+<ce> Ghbdtn, vyt ytkmpz ujdjhbnm c
+<ce> ytpyfrjvwfvb. Yj tckb z yt `ele
+<ce> ujdjhbnm c ytpyfrjvwfvb, nj vyt
+<ce> yt c rtv `eltn ujdjhbnm. Vtyz
+<ce> pjden _child_.
+   <--->
+<ce> Ghbdtn, ds %ra? Z nj*t.
+<ce> B vtyz pjden _child_.
+
+Message:  1016
+<ce> _child_ e`tuftn ghjxm, rfr
+<ce> njkmrj ds jndjhfxbdftntcm jn ytt.
+
+Message:  1017
+<ce> Ds pf`bhftnt _child_?
+
+Message:  1018
+<ce> Djbntkm yjcbn uthfkmlbxtcrbt yfibdrb
+<ce> Ubkmlbb ~jqwjd.
+
+Message:  1019
+%qdt:
+ Cjcnjzkfcm dcnhtxf c _knight_ bp
+ Ubkmlbb ~jqwjd. %g ujdjhbn, xnj
+ _child_ d gjkyjq `tpjgfcyjcnb d
+ _childlocale_ d __childlocale_.
+
+
+
+QBN:
+Item _letter11_ letter used 1011
+-added underscores to letter11
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+Person _knight_ face 216 faction The_Fighters_Guild remote
+Person _child_ faction Children female
+
+Place _mondung_ remote dungeon1
+Place _childlocale_ local house2
+
+Clock _queston_ 00:00 0 flag 17 range 0 5
+Clock _S.04_ 01:40 06:40
+
+Foe _warrior_ is Knight
+
+--	Quest start-up:
+	dialog link for location _childlocale_ person _child_
+	start timer _queston_
+	reveal _mondung_
+	--moved injured warrior say 1018 to new task S.10
+	log 1010 step 0
+	pick one of _metal_ _S.01_
+
+_queston_ task:
+	end quest
+--removed unnecessary delay
+
+_S.01_ task:
+	place npc _child_ at _mondung_
+
+_metal_ task:
+	repute with _knight_ exceeds 10 do _S.03_
+	place npc _child_ at _childlocale_
+
+_S.03_ task:
+	start timer _S.04_
+
+_altsafe_ task:
+	when _metal_ and not _S.03_
+	start task _S.01_
+--if FG rep not met, reverts to normal path
+
+_S.04_ task:
+	_letter11_ used do _S.05_
+	--removed say nothing
+	give pc _letter11_ notify 1012
+
+_S.05_ task:
+	log 1013 step 1
+
+_S.06_ task:
+	clicked npc _knight_
+	add dialog for location _childlocale_
+	log 1019 step 2
+	say 1014
+
+_S.07_ task:
+	clicked npc _child_
+	prompt 1017 yes _S.09_ no _no_
+
+_S.08_ task:
+	when _S.09_ and _S.04_
+	create foe _warrior_ every 21 minutes 10 times with 20% success
+	change repute with _knight_ by -15
+--changed _metal_ here to _s.04_ to prevent false knight spawning
+
+_S.09_ task:
+	hide npc _child_
+	say 1015
+	add _child_ face
+
+_S.10_ task:
+	injured _warrior_
+	say 1018
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_reward_ task:
+	when _qgclicked_ and _S.09_
+	give pc _gold_
+	drop _child_ face
+	end quest
+--removed unnecessary delay
+-added drop child face. child would remain on HUD until delay finished.
+
+_S.13_ task:
+	when _S.01_ and _reward_
+	change repute with _knight_ by +5
+	change repute with _qgiver_ by +15
+
+_S.14_ task:
+	when _queston_ and _S.06_ and not _S.08_
+	change repute with _knight_ by +20
+
+_S.15_ task:
+	when _queston_ and _S.09_
+	say 1016
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.09_
+	clear _qgclicked_ _clearclick_
+
+variable _no_

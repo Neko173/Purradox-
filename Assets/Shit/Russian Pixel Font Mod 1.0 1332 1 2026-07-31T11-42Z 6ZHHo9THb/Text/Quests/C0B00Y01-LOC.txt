@@ -1,0 +1,560 @@
+-- Quest: C:\QUESTS\WORKING\C0B00Y01.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: temple
+-- Repute: 0
+-- QuestId: 1
+Messages: 38
+Quest: C0B00Y01
+DisplayName: Thtnbr
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Lf `eltn %god c dfvb, %pct.
+<ce> Ljk*yj `snm ds cksifkb ghj _prophet_.
+<ce> Ye tckb yt cksifkb, nj pf[jnbnt ecksifnm.
+<ce> Vs hfccktletv %g4 pfzdktybz, xnj %g
+<ce> zdkztncz ghjhjrjv. Vs, gjkfuf<,
+<ce> yt vybntkmys gj yfneht, yj vs j`zpfys
+<ce> jnckt*bdfnm k<`st ghjzdktybz
+<ce> thtnbxtcrb[ dscrfpsdfybq. Ds cvj*tnt
+<ce> gjvjxm yfv d @njv ytcjvytyyj df*yjv
+<ce> hfccktljdfybb?
+   <--->
+<ce> Yf yfc cdfkbkfcm j`zpfyyjcnm hfccktljdfnm
+<ce> pfzdktybz _prophet_, xnj %g kbwtphttn
+<ce> b cksibn ckjdf `j*tcndf %god. ~snm vj*tn
+<ce> e dfc yfqltncz dhtvz, xnj`s gjvjxm
+<ce> d @njv hfccktljdfybb?
+
+RefuseQuest:  [1001]
+<ce> Jxtym *fkm, %pct.
+<ce> Yflt<cm ds bpsotnt dhtvz lkz [hfvf
+<ce> d cdjtv yfcsotyyjv hfcgbcfybb d
+<ce> `kb*fqitv `eleotv.
+
+AcceptQuest:  [1002]
+<ce> {jhjij. Vs e*t gjcskfkb jlyjuj bp [hfvjdybrjd,
+<ce> _priest_ d ghjrkznjt vtcnj ___mondung_,
+<ce> ult gj ckjdfv _prophet_ %g2 ljdtkjcm
+<ce> dbltnm gthdjt zdktybt xelf. Tckb _priest_
+<ce> ye*lftncz d cjltqcndbb, z gjik< pf dfvb.
+<ce> Ntv dhtvtytv z [jxe, xnj`s ds yfikb
+<ce> rfr vj*yj `jkmit vbhcrjq byajhvfwbb j
+<ce> _prophet_, jghjcbd k<ltq, *bdeob[
+<ce> d %g4 hjlyjv ujhjlt, d __tavern_.
+<ce> Vtcnysq cdzotyybr bp yfib[, _contact_
+<ce> dcnhtnbncz c dfvb d _tavern_.
+<ce> Z [jxe edbltnm ljrfpfntkmcndf bcnbyyjcnb
+<ce> dbltybq _prophet_ d ntxtybt
+<ce> =queston_ lytq. Ctqxfc vyt ye*yj
+<ce> ytvtlktyyj etp*fnm. Vj*tn %god
+<ce> `kfujckjdbn dfit ghtlghbznbt, %pct.
+
+QuestComplete:  [1004]
+<ce> Jnkbxyj, %pct. Z lhj*e ghb jlyjq
+<ce> njkmrj vsckb, xnj _prophet_ vju
+<ce> exbybnm yfitve [hfve, hfcghjcnhfyzz
+<ce> cdjb `juj[ekmyst htxb. Lf `kfujckjdbn
+<ce> b [hfybn dfc %god, `kfujhjlysq
+<ce> %ra. Djn vfktymrbq pyfr vjtuj
+<ce> gjxntybz dfituj `kfujxtcnbz.
+
+RumorsDuringQuest:  [1005]
+Crf*b, xnj ns [jxtim epyfnm j dthjdfybz[ _prophet_, %g - dtcmvf yfcnjqxbdsq gbcfntkm.
+   <--->
+__qgiver_ djkyetncz bp-pf ghbcencndbz `eynfhz yfdhjlt _prophet_.
+   <--->
+Z xbnfk ghj dbltybz _prophet_ d %g4 nhfrnfnt. Yflj pfvtnbnm, ljdjkmyj nfrb e`tlbntkmyj.
+
+RumorsPostfailure:  [1006]
+_prophet_ eitk ghjgjdtljdfnm cdjb jnrhjdtybz zpsxysv yfhjlfv Nfvhb@kz.
+   <--->
+_prophet_ eitk bp Pfkbdf, yj %g4 hf`jnf tot yt pfdthityf.
+   <--->
+_prophet_ vj*tn `snm dtkbxfqibq kblth, ghbitlibq bp __tavern_.
+   <--->
+_prophet_ ghjdjlbn cdjt dhtvz pf `evfufvb d cdjtq rjvyfnt d _prophouse_.
+   <--->
+_prophet_ yt `sk ghbyzn yf ehf d __qgiver_.
+
+RumorsPostsuccess:  [1007]
+^njn _prophet_ - ceobq ifhkfnfy, gjlj`hfdibq d __tavern_ gfhe lehfrjd d cjghjdj*ltybt.
+
+QuestorPostsuccess:  [1008]
+Jnrelf `s ds yb `skb hjljv, z `ele hfl gjvjxm dfv.
+
+QuestorPostfailure:  [1009]
+Vyt ytxtuj crfpfnm dfv, thtnbxtcrbq gjcktljdfntkm _prophet_.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp ___qgiver_
+ gjckfk vtyz bccktljdfnm *bpym
+ _prophet_, ghtntyle<otuj yf hjkm
+ ghjhjrf. Vyt ye*yj jghjcbnm vtcnys[
+ j "ghjhjrt" d %g4 hjlyjv ujhjlt, __tavern_.
+ _contact_ `eltn j*blfnm vtyz nfv,
+ xnj`s lfnm lfkmytqibt bycnherwbb.
+ Dcnhtxf yfpyfxtyf d _tavern_.
+
+Message:  1011
+  Tldf kb z cvjue ghbgjvybnm gjlhj`yjcnb
+gentitcndbz d vtcnj, yfpsdftvjt ___mondung_:
+vyt dct tot rf*tncz, xnj @nj `skj rfr dj cyt.
+Uke`jrj, chtlb heby ghjrkznjuj [hfvf, z edbltk
+dtkbrbq jujym b ecksifk z bp @njuj gkfvtyb
+ujkjc, crfpfdibq: "Lj`hj gj*fkjdfnm".
+"Rnj @nj ujdjhbn?" - j`hfnbkcz z r gkfvtyb.
+"Z njn, rjve `sk ghtlyfpyfxty __qgiver_,
+yj rf*lsq frn gjrkjytybz jcrdthyzk vj< `j*tcn-
+dtyyjcnm. R nt`t dpsdf< z, b`j gjhf djpldbuyenm
+yjdsq __qgiver_, dtljvsq bcnbyjq b yfcnjzobv
+gjybvfybtv vjtuj `snbz. Zpsxybrfv ljk*yj ytcnb
+ghjcdtotybt b ns `eltim @nbv vtccbtq".
+~ju ujdjhbk cj vyjq `jkmit lyz, yj gjrf
+kerfdsq __qgiver_ ghjljk*ftn cdj<
+gjkbnbre ujytybq k<`juj, jcvtkbditujcz `hjcbnm
+dspjd b[ ghjlf*yjq, ghtphtyyjq ntjkjubb, z
+ljk*ty [hfybnm cdjb nhfrnfns gjlfkmit jn k<lcrb[
+ukfp. Vyjujt d lfkmytqitv crjhj bpvtybncz.
+
+Message:  1012
+      __qgiver_
+       ___qgiver_
+<ce>
+%pct %pcn,
+<ce>
+_priest_ gjnthgtk ytelfxe d gjgsnrt
+dcnhtnbnmcz c xtkjdtrjv, rjnjhsq gj tuj
+ckjdfv vj*yj yfqnb d ___mondung_.
+Vs ghtlgjkfuftv, ckexbkjcm cfvjt [elitt.
+Dfv ytvtlktyyj cktletn jnghfdbnmcz d
+___mondung_ b yfqnb kb`j _priest_,
+kb`j %g4 ntkj, gjckt xtuj ljk*bnmcz vyt.
+Dct jcnfkmyst yfpyfxtybz b hfccktljdfybz
+gjkexf<n cfvsq ybprbq ghbjhbntn.
+<ce>
+<ce> _qgiver_
+<ce> ----
+
+Message:  1013
+<ce> F, ghbdtn, %pcf. Lj`hj gj*fkjdfnm d __tavern_.
+<ce> Dtcm ujhjl cnjbn yf eif[ bp-pf <yjuj
+<ce> djpvenbntkz cgjrjqcndbz: _prophet_.
+<ce> Yj cfv jy yt pltcm - jy d __prophouse_ d
+<ce> nfdthyt, yfpsdftvjq _prophouse_,
+<ce> hf`jnftn yfl yjdsv nhfrnfnjv ghj nfbycndtyyjuj
+<ce> le[f bp ___mondung_, bvtdituj
+<ce> c ybv hfpujdjh j vjhfkmyjv hfpkj*tybb
+<ce> __qgiver_. Djn rjgbz jhbubyfkf, xnj`s ds
+<ce> pyfkb, xnj b rfr c @nbv _prophet_.
+<ce> Jxtym jgfcyfz kbxyjcnm, cfvfz jgfcyfz bp nt[,
+<ce> rnj vyt dcnhtxfkbcm. Z `kbprj j`of<cm c
+<ce> _lover_, =lover_ d ___lover_, c rtv
+<ce> e _prophet_ [jhjibt jnyjitybz. Yfdthyjt `skj
+<ce> `s ytgkj[j lkz dfc c]tplbnm d ___lover_
+<ce> b gjgsnfnmcz eujdjhbnm %g4 gjujdjhbnm c
+<ce> yfvb. Yflt<cm, @nf byajhvfwbz gjvj*tn
+<ce> dfv, %pcf.
+
+Message:  1014
+      _tavern_
+       __tavern_
+<ce>
+Ljhjujq lheu, %pcn,
+<ce>
+Ghjbpjikj juhjvyjt ytljhfpevtybt pltcm
+d _tavern_, drk<xfz b _contact_.
+Ghb[jlbnt gj*fkeqcnf,
+rfr njkmrj cvj*tnt.
+<ce>
+Bcrhtyyt dfi,
+<ce> _replace_
+<ce> ----
+
+Message:  1015
+<ce> Vjkjljq gfhtym dhexftn dfv
+<ce> rjydthn b e`tuftn ghjxm.
+
+Message:  1016
+<ce> %oth, %pcf, @nj ghjcnj e*fcyj.
+<ce> {jpzby nfdthys yfitk `tpls[fyyjt
+<ce> ntkj _contact_ d jlyjq bp rjvyfn.
+<ce> %g4 ntkj hfcxktytyj cfvsv cnhfiysv
+<ce> gentv, e*fcyjq gfhjlbtq yf cnfhst
+<ce> gjrjqybwrbt j`hzls __qgiver_.
+<ce> Ytn ybrfrb[ cjvytybq, @nj `sk
+<ce> _prophet_. Djn @nf dtobwf
+<ce> `skf yfqltyf d gjnfqyjv jnltktybb
+<ce> ceylerf, ghbyflkt*fotuj _contact_.
+<ce> Gjcvjnhbnt, vj*tn _lover_
+<ce> d ___lover_ epyftn tt.
+
+Message:  1017
+_lover_ -- =lover_. Ye, %g cnfhftncz ds*bnm ukfdysv j`hfpjv.
+   <--->
+_lover_ - =lover_ d __lover_. Ujdjhzn, xnj %g jgkfrbdftn cdj< eitlie< k<`jdm.
+   <--->
+^nj crf*tn dfv k<`jq, *tyb[ _lover_ yt vthnd. ~tpevty, yj yt vthnd.
+   <--->
+_lover_ - @nj jlyf bp cfvs[ gtxfkmysq nhfutlbq d ___lover_. Ujdjhzn, %g4 *tyb[ cjitk c evf.
+
+Message:  1018
+<ce> Xnj `s yb ujdjhbkb, z yt pyf< ybrfrjuj _prophet_. Crf*bnt _contact_, xnj
+<ce> %g jib`cz c =lover_.
+
+Message:  1019
+<ce> _prophet_ e`mtn vtyz, tckb
+<ce> epyftn, xnj z ujdjhbkf c dfvb. Yj z
+<ce> pyf<, xnj ds yt ljytctnt tve j` @njv.
+<ce> Djn gbcmvj, rjnjhjt jy yfgbcfk vyt
+<ce> vtczw yfpfl. Levf<, jyj hfccrf*tn
+<ce> j`j dctv, xnj dfc bynthtcetn.
+
+Message:  1020
+<ce> _relartifact_! %oth, @nj
+<ce> cj`cndtyyjcnm _prophet_.
+<ce> %oth, z pyfkf, xnj e ytuj yt dct d gjhzlrt
+<ce> c ujkjdjq, yj lf*t yt ghtlgjkfufkf, xnj
+<ce> dct nfr pfgeotyj. %oth, `tlysq
+<ce> _contact_. Tckb `s z gjvjukf tve,
+<ce> jy dct tot `sk `s *bd. Z yfheibkf
+<ce> lfyyjt ckjdj, yj ds pyftnt, xnj ltkfnm
+<ce> c @nbv gbcmvjv.
+<ce> Lf ghjcnbn vtyz %god.
+
+Message:  1021
+_lover_, k<`jdm vjz,
+<ce>
+  Dyfxfkt, ghjcnb vjt ljkujt vjkxfybt.
+^nj `sk yt jxthtlyjq ghbcneg vjpujdjq
+kb[jhflrb. Ytcrjkmrj vtczwtd yfpfl z `sk
+d gjkyjv cvzntybb le[f, yt *tkfk ybrfrjq
+rjvgfybb, lf*t entitybz ndjtuj `kbprjuj
+ghbcencndbz. Vjb lyb, yfgjkytyyst `jkm<,
+pfrjyxbkbcm, yj -- z `jkmit ybrjulf yt
+edb*e nt`z. Vjz *bpym ckbirjv wtyyf, xnj`s
+ctqxfc jnlfdfnm tt yf fknfhm cvt[jndjhyjq
+k<`db.
+  Z vjue `jkmit yt jgfcfnmcz pkf, bc[j-
+lzotuj jn __qgiver_, pkf, rjnjhjt jyb vyt
+ghbxbybkb b pkf, rjnjhjt jyb [jnzn ghbxbybnm
+Nfvhb@k<. Lyb, ghtlcrfpfyyst ghjhjrjv Vfhe[jv,
+yfcnegbkb. Z ljk*ty cgkjnbnm yfhjl gthtl
+kbwjv k*b, bycbyefwbq, afyfnbpvf b euhjpjq
+le[jdyjq nbhfybb, bc[jlzobvb bp
+__qgiver_.
+  Ghjcnb vtyz, vjz `sdifz k<`jdm. B tckb
+cvj*tim, pf`elm vtyz. B tckb cvj*tim cltkfnm
+@nj, yt gsnfqcz yfqnb b edbltnm vtyz. Tckb
+ns jckeiftimcz, z e`m< nt`z b gjcnfdk< d ndjb[
+ukfpybwf[ pf**tyyst cdtxb, f nfr*t jgktne
+ndjb jhufys dthtdrfvb hflb njh*tcndf dtkb-
+xfqitq ckfds `jujd dctktyyjq. Vthprfz
+=lover_, yt vexfq `jkmit vtyz.
+<ce>
+<ce> _prophet_
+<ce> ----
+
+Message:  1022
+^nj bcgjkmpetncz d gj[jhjyys[ hbnefkf[ __qgiver_.
+
+Message:  1023
+_replace_ - =replace_. Rfrbv-nj j`hfpjv cdzpfyj c __qgiver_.
+   <--->
+_replace_ `sk cnfhsv lheujv _contact_ lj @njuj... ytcxfcnyjuj ckexfz.
+
+Message:  1024
+<ce> J! ^nj _relartifact_
+<ce> _prophet_! %oth, `tlysq
+<ce> _contact_. Gjxtve `s dfv yt
+<ce> jnytcnb gbcmvj, rjnjhjt z lfkf dfv,
+<ce> rjve-yb`elm d __qgiver_?
+<ce> Rjytxyj *t @njuj `eltn ljcnfnjxyj, xnj`s
+<ce> lbcrhtlbnbhjdfnm _prophet_,
+<ce> yt nfr kb?
+
+Message:  1025
+<ce> %pcf, z gjkfufk, xnj ds
+<ce> pfyzns hfccktljdfybtv cbnefwbb d
+<ce> __tavern_.
+<ce> Xnj *, hfp ds pltcm, e vtyz lkz
+<ce> dfc lheujt gjhextybt. Z yfitk
+<ce> gfxre cj**tyys[ gbctv, jcnfkbcm
+<ce> njkmrj rkjxrb, ult egjvbyftncz j
+<ce> =lover_ jnrelf-nj bp ___lover_
+<ce> gj bvtyb _lover_.
+<ce> Gjcvjnhbnt, xnj elfcncz yfqnb
+<ce> gj @njve gjdjle. Yt pyf<, pfujdjhbn
+<ce> kb jyf c dfvb, yj cnjbn gjghj`jdfnm.
+
+Message:  1026
+<ce> Ds gjlj`hfkb rkjxjr gkjnb, jcnjhj*yj,
+<ce> lf*t `tht*yj, `tht*ytt `tht*yjuj
+<ce> cyznjuj c herb =priest_.
+<ce> Tot ytlfdyj @nj `sk gfktw, ghbyflkt*fobq
+<ce> _priest_.
+
+Message:  1027
+Djbcnbye jndhfnbntkmyj.
+   <--->
+Jnctxtyysq gfktw.
+   <--->
+Recjr xmtq-nj herb.
+   <--->
+Rhfqyt `tpdrecyj.
+   <--->
+Yt nfr e* b gkj[j, tckb gjcjkbnm b gjgthxbnm.
+   <--->
+^nj gj[j*t yf jlby bp cnfhs[ hbnefkjd __qgiver_. Nfr gjcnegfkb c nhegfvb.
+   <--->
+Yf[jlzcm d __qgiver_, _prophet_ bpexfk cgjcj`s frrehfnyjuj hfcxktytybz vthndtwjd.
+   <--->
+__qgiver_ lfdyj pf`skb ghj @nb gjuht`fkmyst hbnefks, f _prophet_ djdc< bcgjkmpetn b[.
+
+Message:  1028
+<ce> Levf<, _priest_ c dtkbrjq hfljcnm<
+<ce> jnlfk vyt here, ns yt levftim?
+   <--->
+<ce> %oth, xnj z [jntk cltkfnm yf cfvjv
+<ce> ltkt? _priest_ euhj*fk vyt
+<ce> gfkmwtv, djn b gjkexbk.
+   <--->
+<ce> Rfrbt pf`fdyst dtob ns ujdjhbim,
+<ce> %pcf. Cvjnhb rfr @nj `skj.
+
+Message:  1029
+<ce> Rfr vyt yfljtkb b[ ghtcktljdfybz.
+<ce> Pfrhjq cdjq ytxtcnbdsq hjn, bcxflbt
+<ce> __qgiver_. Z gjl pfobnjq
+<ce> vjtuj `juf ... b %t
+<ce> ghjdbywbb %reg.
+
+Message:  1030
+<ce> _lover_! K*bdjt cjplfybt,
+<ce> j`vfyobr! %g pfgkfnbn pf dct!
+<ce> =fighter_, hfp`thbcm
+<ce> c @nbv %ra!
+
+Message:  1031
+<ce> ~kfujlfhtybt %god, z levfk, xnj
+<ce> gjnthzk @nj. ~kfujlfh< dfc,
+<ce> lj`hsq %ra.
+
+Message:  1032
+%qdt:
+ _contact_ hfccrfpfk
+ vyt, xnj _prophet_ *bdtn d
+ _prophouse_ d __prophouse_,
+ yj kexit dctuj `skj `s yfdtlfnmcz
+ r =lover_ gj bvtyb
+ _lover_ d ___lover_.
+ _contact_ yt pyftn, rfrbt jnyjitybz
+ vt*le @nbvb ldevz, yj cnjbn
+ @nj hfccktljdfnm.
+
+Message:  1033
+%qdt:
+ _priest_ crfpfk vyt
+ bvz: _lover_
+ b ujhjl: ___lover_,
+ byajhvfwb< j` @njv jy yfitk
+ d rkjxrf[ gbctv bp ___mondung_,
+ ghjdjlz hfccktljdfybt.
+
+Message:  1034
+%qdt:
+ _replace_ hfccrfpfk
+ vyt ghj hbnefkmyjt e`bqcndj
+ _contact_ b lfk vyt rjt-xnj,
+ vjueott bvtnm jnyjitybt r @njve:
+ _relartifact_. _replace_
+ gjkfuftn, xnj vyt yflj c[jlbnm d
+ ___lover_, gjrfpfnm @nj _lover_,
+ xnj`s pfcnfdbnm gjujdjhbnm tt
+ cj vyjq.
+
+Message:  1035
+%qdt:
+ Yfikjcm gbcmvj,
+ rjnjhjt _prophet_ gjcskfk _lover_
+ c vtczw yfpfl. Gbcmvj ghfrnbxtcrb
+ gjkyjcnm< hfpj`kfxbn _prophet_
+ e e`tlbn dct[ d %g4 gjntywbfkmyjv
+ ghtj`hf*tybb. =prophet_ - ghjcnj
+ cevfcitlifz j`tpmzyf.
+
+Message:  1036
+%qdt:
+ Ghbikj gbcmvj jn
+ _qgiver_, d rjnjhjv jy ghtlgbcfk vyt
+ jn`snm d ___mondung_
+ b gjcvjnhtnm, xnj ckexbkjcm cj
+ cdzotyybrjv _priest_.
+ Vyt ye*yj yfqnb kb`j =priest_,
+ kb`j ljrfpfntkmcndf %g4 cvthnb.
+
+Message:  1037
+%qdt:
+ Yfqlty gfktw, rjnjhsq, rfr gjkfuf<, rjulf-nj
+ ghbyflkt*fk hert _priest_. Jxtym k<`jgsnyj,
+ jnctxty jy `sk gj dctv ghfdbkfv rfrjuj-nj hbnefkf.
+
+
+
+
+QBN:
+--moved erroneous 1009 entries to 1006
+Item _letter7_ letter used 1011
+Item _letter_ letter used 1012
+Item _letter8_ letter used 1014
+Item _relartifact_ religious anyInfo 1022
+Item _letter9_ letter used 1021
+Item _finger_ finger anyInfo 1027
+Item _reward_ gem
+--added underscores to letter7,8,9
+
+Person _qgiver_ group Questor
+Person _contact_ face 105 group Local_3.0
+Person _priest_ face 49 group Group_5.0
+Person _prophet_ face 1 group Local_4.0 anyInfo 1038
+--changed anyInfo QuestorPostFailure to 1005
+Person _replace_ face 3 factiontype Temple female anyInfo 1023
+Person _lover_ face 104 group Group_7.0 remote anyInfo 1017
+
+Place _mondung_ remote dungeon4
+Place _tavern_ remote tavern
+Place _prophouse_ remote tavern
+
+Clock _queston_ 00:00 flag 1 range 0 1
+--quest timer was too short, edited to more generous
+Clock _S.04_ 2.02:00 20.20:00
+Clock _S.06_ 03:20 11:40
+Clock _S.14_ 2.02:00 20.20:00
+Clock _S.16_ 05:00 11:40
+
+Foe _fighter_ is Warrior
+
+--	Quest start-up:
+	dialog link for location _prophouse_ person _replace_ item _relartifact_
+	dialog link for person _priest_
+	dialog link for person _lover_
+	dialog link for person _replace_
+	dialog link for item _finger_
+	start timer _S.04_
+	start timer _S.14_
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	_letter9_ used do _readletter_
+	create npc _lover_
+	place npc _contact_ at _tavern_
+	place npc _prophet_ at _prophouse_
+	place npc _priest_ at _mondung_
+
+_queston_ task:
+	end quest
+
+_pcgetsgold_ task:
+	toting _letter9_ and _qgiver_ clicked
+	toting _finger_ and _qgiver_ clicked
+	give pc _reward_
+	end quest
+
+variable _S.02_
+_S.03_ task:
+	clicked npc _contact_
+	add dialog for location _prophouse_ person _lover_
+	log 1032 step 1
+	get item _letter7_
+	say 1013
+	clear _S.06_
+
+_S.04_ task:
+	start timer _S.06_
+	hide npc _contact_
+	place npc _replace_ at _tavern_
+
+variable _S.05_
+_S.06_ task:
+	give pc _letter8_ notify 1015
+
+_S.07_ task:
+	clicked npc _replace_
+	add dialog for person _lover_ item _relartifact_
+	log 1034 step 3
+	get item _relartifact_
+	say 1016
+
+_S.08_ task:
+	clicked npc _lover_
+	repute with _lover_ exceeds 5 do _S.09_
+
+_S.09_ task:
+	get item _letter9_
+	say 1019
+
+_S.10_ task:
+	toting _relartifact_ and _lover_ clicked
+
+_S.11_ task:
+	when _S.10_ and not _S.09_
+	get item _letter9_
+	say 1020
+	clear _S.08_
+
+_S.12_ task:
+	when _S.10_ and _S.09_
+	say 1024
+
+_S.13_ task:
+	when _S.08_ and not _S.09_
+	say 1018
+
+_S.14_ task:
+	place item _finger_ at _mondung_
+	start timer _S.16_
+	hide npc _priest_
+
+_S.15_ task:
+	clicked npc _priest_
+	add dialog for person _lover_
+	log 1033 step 2
+	say 1025
+
+_S.16_ task:
+	have _letter_ set _S.16a_
+	give pc _letter_ notify 1015
+
+_S.16a_ task:
+	log 1036 step 5
+--this log was getting written too soon
+
+_S.17_ task:
+	clicked item _finger_
+	add dialog for item _finger_
+	log 1037 step 6
+	say 1026
+
+_S.18_ task:
+	clicked npc _prophet_
+	say 1029
+
+_S.19_ task:
+	toting _finger_ and _prophet_ clicked
+	say 1028
+
+_S.20_ task:
+	toting _letter9_ and _prophet_ clicked
+	hide npc _prophet_
+	say 1030
+	place foe _fighter_ at _prophouse_
+
+_S.21_ task:
+	toting _relartifact_ and _prophet_ clicked
+	say 1031
+
+_readletter_ task:
+	log 1035 step 4

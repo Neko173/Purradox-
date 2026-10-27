@@ -1,0 +1,147 @@
+-- Quest: C:\QUESTS\WORKING\L0B00Y01.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 0
+-- QuestId: 1
+Messages: 14
+Quest: L0B00Y01
+DisplayName: Ds[jlf ytn
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Rfr dfv bpdtcnyj, %pct, D Ntvyjv
+<ce> ~hfncndt ytn vtcnf ytelfxfv.
+<ce> ~hfnmz, rjnjhst ljgecrf<n ghjdfks
+<ce> cnfyjdzncz wtkm< rjynhfrnf.
+<ce> Dfv yflj yfqnb b bcghfdbnm
+<ce> jlyjuj bp nfrb[ ytghfdbkmys[
+<ce> `sdib[ `hfnmtd.
+   <--->
+<ce> Cdznfz b cjdctv yt ytghbznyfz j`zpfyyjcnm
+<ce> rf*ljuj xktyf ~hfncndf ghtcktljdfnm
+<ce> nt[ futynjd ~hfncndf, rjnjhst yt jghfdlfkb
+<ce> yfituj ljdthbz. Z vjue ljdthbnm dfv @ne
+<ce> pflfxe?
+
+RefuseQuest:  [1001]
+<ce> Vyt yt gjcksifkjcm?
+<ce> %pct, ds vtyz jujhxbkb
+<ce> dfibv jnyjitybtv r lheubv
+<ce> `hfnmzv.
+
+AcceptQuest:  [1002]
+<ce> {jhjij, %pct.
+<ce> =target_, %g4 xtve-nj yfexbkb
+<ce> pf dhtvz ght`sdfybz d `hfncndt.
+<ce> Rjhjxt, %g `kfujhfpevyj crhsdftncz ult-nj
+<ce> lfktrj, yj e yfc d ujhjlt __snitch_
+<ce> j`yfhe*bkcz jcdtljvbntkm, -  *fkrbq =snitch_
+<ce> gj bvtyb _snitch_.
+<ce> Gjujdjhbnt c ybv b epyfqnt vtcnjyf[j*ltybt
+<ce> dfitq wtkb, - =target_.
+<ce> Z levf<, xnj dfi rjynhfrn `eltn
+<ce> `kfujgjkexyj bcgjkyty, b ds dthytntcm
+<ce> c<lf d ntxtybt =queston_ lytq.
+
+QuestComplete:  [1004]
+<ce> Jnkbxyj, %pct.
+<ce> ^nj [jhjibq ehjr lkz nt[, rnj
+<ce> gj*tkftn gjldtcnb ~hfncndj.
+
+RumorsDuringQuest:  [1005]
+Lth*e gfhb, =target_ yf[jlbncz d ghjdbywbb %reg, nhzczcm, rfr jcbyf.
+   <--->
+=target_, z tuj pyf<, rfr ghbkbxyjuj e`bqwe. Rf*tncz, xnj-nj gjikj yt nfr.
+
+RumorsPostfailure:  [1006]
+Rf*tncz, ds vj*tnt yflenm ~hfncndj. Cdbltntkm - =target_, r ghbvthe.
+   <--->
+=target_ ltqcndbntkmyj ceytn cdjq yjc d Ntvyjt ~hfncndj.
+
+RumorsPostsuccess:  [1007]
+=target_, ujdjhzn, xnj %g4 pflfybt jlyf*ls `skj ghjdfktyj. B %g4 *ltn yfuhflf pf @nj.
+   <--->
+Ntvyjt ~hfncndj yt nthgbn ytelfx. Gjcvjnhbnt, xnj ckexbkjcm c ytelfxybrjv, - =target_.
+
+QuestorPostsuccess:  [1008]
+Plhfdcndeqnt, %pcn. Xtv vjue gjvjxm dfv, e`bqwt `kelys[ `hfnmtd?
+
+QuestorPostfailure:  [1009]
+<ce> Lfqnt vyt gjyznm. Vs lfkb dfv
+<ce> rjynhfrn, - _target_, xmt pflfybt
+<ce> `skj ytelfxysv ... b ds nj*t gjnthgtkb ytelfxe?
+<ce> B ntgthm ds [jnbnt hfpujdjhf? Ytdthjznyj.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ntvyjt ~hfncndj jnghfdbkj vtyz e`bnm `hfnf,
+ rjnjhsq yt jghfdlfk ljdthbz.
+ Vyt ye*yj gjujdjhbnm c ljyjcxbrjv
+ gj bvtyb _snitch_ d ljvt __snitch_
+ d ujhjlt ___snitch_, xnj`s epyfnm,
+ relf bcxtp njn cfvsq `hfn, - =target_.
+
+Message:  1011
+<ce> %pcn? Z _snitch_.
+<ce> Hs`f, rjnjhfz ytlfdyj cjcrjkmpyekf
+<ce> c rh<xrf *bdtn ctqxfc jnkbxyjq *bpym<
+<ce> d cdjtq yjht, - ___mondung_. Njkmrj
+<ce> `thtubnt ct`z, %ra.
+<ce> =target_ pyftn, rfr chf*fnmcz
+<ce> b %g `jbncz.
+
+Message:  1012
+%qdt:
+ Vyt cnfkj bpdtcnyj, xnj =target_
+ yf[jlbncz d gjlptvtkmt ___mondung_.
+
+Message:  1013
+<ce> Ds eybxnj*bkb wtkm, - =target_.
+<ce> ~hfncndj `eltn eljdktndjhtyj.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+Person _snitch_ factiontype Temple local
+
+Place _mondung_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _target_ is Assassin
+
+--	Quest start-up:
+	dialog link for location _mondung_
+	start timer _queston_
+	log 1010 step 0
+	place foe _target_ at _mondung_
+
+_queston_ task:
+	end quest
+
+_reward_ task:
+	when _qgclicked_ and _S.02_
+	give pc nothing
+	end quest
+
+_S.02_ task:
+	killed 1 _target_
+	say 1013
+
+_S.03_ task:
+	clicked npc _snitch_
+	add dialog for location _mondung_
+	reveal _mondung_
+	log 1012 step 1
+	say 1011
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_S.05_ task:
+	when _qgclicked_ and not _S.02_
+	clear _qgclicked_ _S.05_

@@ -1,0 +1,119 @@
+-- Quest: C:\QUESTS\WORKING\L0B00Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 0
+-- QuestId: 3
+Messages: 12
+Quest: L0B00Y03
+DisplayName: Vfu-jncnegybr
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ubkmlbz Vfujd [jxtn yfyznm yfc lkz
+<ce> uhzpyjdfnjuj ltkf, rjnjhjt lkz yb[
+<ce> e* jxtym dekmufhyj b ytghbznyj.
+<ce> Vfu-jncnegybr ghjcnj nfrb *tkftn
+<ce> gjkexbnm pfrfp yf ct`z. Bynthtcetntcm?
+   <--->
+<ce> E yfc cyjdf tcnm rkbtyn d Ubkmlbb Vfujd.
+<ce> Rf*tncz, xnj rnj-nj bp b[ gfhytq ckbirjv
+<ce> uhjvrj geryek, b tuj bpuyfkb d zhjcnb.
+<ce> Ghbznyst pderb, %pct?
+
+RefuseQuest:  [1001]
+<ce> Gtxfkmyj.
+
+AcceptQuest:  [1002]
+<ce> {jhjij. Bnfr, @njn vfu -- %g pjden
+<ce> =mage_ -- cvskcz c ytrjnjhsv
+<ce> rjkbxtcndjv vfubxtcrb[ fhntafrnjd,
+<ce> yj Ubkmlbz Vfujd yt levftn, xnj dfv ye*yj
+<ce> `eltn dct, xnj `skj erhfltyj. Bv dctuj kbim
+<ce> ye*yf %g4 cvthnm. E dfc tcnm dctuj =queston_
+<ce> lytq lkz dsgjkytybz rjynhfrnf.
+<ce> Dfv cktletn bcrfnm %g4 d uhecnyjv
+<ce> vtcnt gjl yfpdfybtv ___mondung_.
+<ce> Dthybntcm c<lf c elfxtq, b vbh bp`fdbncz
+<ce> tot jn jlyjuj vfuf-hfp`jqybrf. Blbnt, b
+<ce> gecnm Vtafkf yfghfdbn dfie here, %pct.
+
+QuestComplete:  [1004]
+<ce> Bnfr, ds gjneibkb bcrjhrb njuj
+<ce> Bcrhjvtnf, %pcf? J,
+<ce> Vtafkf ljdjkmyf dfvb, rfr
+<ce> cdjbv lbnz.
+
+RumorsDuringQuest:  [1005]
+Ubkmlbz Vfujd jnhbwftn, xnj =mage_ `jkmit yt rjynhjkbhetncz bvb.
+   <--->
+Jhlty Kfvgs - ckbirjv cnhjufz jhufybpfwbz, xnj`s hfpujdfhbdfnm c jncnegybrjv, - =mage_.
+
+RumorsPostfailure:  [1006]
+=mage_ `t*bn xthtp dtcm Pfkbd. Rnj vj*tn crfpfnm, ult %g ctqxfc?
+
+RumorsPostsuccess:  [1007]
+=mage_, k<lb ujdjhzn, xnj %g yf[jlbncz e Jhltyf Kfvgs.
+   <--->
+Ybrnj yt vj*tn ghtlgjkj*bnm, xnj ckexbncz, tckb _mage_ jcnfytncz *bnm.
+
+QuestorPostsuccess:  [1008]
+Gjrkjy dfv b ghbdtncndbz. Rfr vj*tn =qgiver_ gjvjxm dfv, e`bqwf vfujd?
+
+QuestorPostfailure:  [1009]
+<ce> Ds yt dsgjkybkb dfi rjynhfrn c yfvb, cjjndtncndtyyj
+<ce> vs yt dsgjkybkb cdjq rjynhfrn c Ubkmlbtq Vfujd.
+<ce> E vtyz gjzdbkjcm yt`jkmijt ghtphtybt r dfv,
+<ce> %pcf, b jyj `eltn cnjbnm dfv *bpyb.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp Ntvyjuj ~hfncndf:
+ __qgiver_, ___qgiver_
+ jnghfdkztn vtyz d e`t*bot ___mondung_
+ xnj`s pfrjyxbnm ltkj c vfujv-jncnegybrjv
+ bp Ubkmlbb Vfujd. E vtyz tcnm =queston_ lytq
+ xnj`s pfrjyxbnm ltkj.
+
+Message:  1011
+<ce> Cdtn *bpyb vfuf gjne[.
+<ce> ~hfncndj b Ubkmlbz Vfujd `elen eljdktndjhtys.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+
+Place _mondung_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _mage_ is Mage
+
+--	Quest start-up:
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	place foe _mage_ at _mondung_
+
+_queston_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _mage_
+	say 1011
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+variable _ma1_
+_S.04_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _S.04_
+
+_reward_ task:
+	when _S.02_ and _S.01_
+	give pc nothing
+	end quest

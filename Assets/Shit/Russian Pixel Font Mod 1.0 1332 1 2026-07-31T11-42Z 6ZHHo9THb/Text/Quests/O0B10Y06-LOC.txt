@@ -1,0 +1,120 @@
+-- Quest: C:\QUESTS\WORKING\O0B10Y06.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: thief
+-- Repute: 10
+-- QuestId: 6
+Messages: 11
+Quest: O0B10Y06
+DisplayName: Gj[botybt lhfujwtyyjcntq
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Djn nj, xnj nt`t gjljqltn.
+<ce> Yflj erhfcnm lhfujwtyyjcnb
+<ce> e <dtkbhf. {jxtim gjghj`jdfnm?
+<ce> Wtyf j`sxyfz -
+<ce> _gold_ pjkjns[.
+
+RefuseQuest:  [1001]
+<ce> Ye b %god c nj`jq. Gjghj`eq yfqlb
+<ce> ctqxfc djhf, rjnjhsq dpzkcz `s pf @nj ltkj.
+
+AcceptQuest:  [1002]
+<ce> %oth, vjq rhjdj*flysq `hbkkbfyn.
+<ce> Nt`t yflj ghbqnb d ujhjl __mansion_
+<ce> b yfqnb ljv __mansion_.
+<ce> Nfv jxtym gkj[j kt*bn _jewelry_.
+<ce> Yj lth*b e[j djcnhj. Djpvj*yj
+<ce> nfv `eltn lhs[yenm ytcrjkmrj
+<ce> j[hfyybrjd.
+
+QuestComplete:  [1004]
+<ce> Rkfccyfz hf`jnf, %pcn.
+<ce> Djn ndjt pjkjnj.
+
+RumorsDuringQuest:  [1005]
+Ujdjhzn, xnj ljv _mansion_ ytghbcnegty.
+
+RumorsPostfailure:  [1006]
+Rnj-nj gjgsnfkcz ghjybryenm d jcj`yzr _mansion_, yj e ytuj ybxtuj yt gjkexbkjcm.
+
+RumorsPostsuccess:  [1007]
+Ljv _mansion_ juhf`bkb. {jnz @nj dhzl kb djj`ot djpvj*yj.
+   <--->
+Tckb jcj`yzr _mansion_ juhf`zn, nj njulf d Nfvhb@kt djj`ot yt jcnfytncz `tpjgfcys[ vtcn.
+
+QuestorPostsuccess:  [1008]
+B xnj ns ltkftim ctqxfc, %pcf? E*t ghtlcnfdkztim, xnj dct _gold_ pjkjns[ gjnhfxtys?
+
+QuestorPostfailure:  [1009]
+<ce> %oth, @nj ns. Njn vfksq, dkfltktw
+<ce> jcj`yzrf _mansion_, e`hfk cdj<
+<ce> hfljcnm - _jewelry_ c ukfp gjlfkmit.
+<ce> Nfr xnj dct ecbkbz gjikb ghf[jv. B `kfujlfhbnm
+<ce> pf dct @nj vs `eltv nt`z... `kfujlfhbnm `eltv
+<ce> `jkmyj, yj frrehfnyj... Cgfcb`j
+<ce> nt`t pf dc< ndj< ckturf nz*tke< hf`jne.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp ujhjlf ___qgiver_
+ jnghfdkztn vtyz enfobnm ytre< lhfujwtyyjcnm,-
+ _jewelry_ bp ljvf _mansion_, xnj
+ d vtcntxrt ___mansion_. Vyt lf<n
+ =traveltime_ lytq.
+
+
+
+QBN:
+Item _jewelry_ trinket
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _mansion_ remote house1
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Grizzley_bear
+Foe _F.01_ is Giant_scorpion
+Foe _F.02_ is Ranger
+Foe _F.03_ is Thief
+
+--	Quest start-up:
+	place item _jewelry_ at _mansion_
+	start timer _traveltime_
+	log 1010 step 0
+	pc at _mansion_ set _S.01_
+
+_traveltime_ task:
+	end quest
+
+_S.01_ task:
+	pick one of _guard1_ _guard2_ _guard3_ _guard4_
+
+_questdone_ task:
+	toting _jewelry_ and _qgiver_ clicked
+	give pc _gold_
+	end quest
+
+_guard1_ task:
+	create foe _F.00_ every 4 minutes 1 times with 10% success
+
+_guard2_ task:
+	create foe _F.01_ every 4 minutes 1 times with 10% success
+
+_guard3_ task:
+	create foe _F.02_ every 4 minutes 1 times with 10% success
+
+_guard4_ task:
+	create foe _F.03_ every 4 minutes 1 times with 10% success
+
+wizard0 task:
+	clicked item _jewelry_
+
+_S.08_ task:
+	when wizard0 and _traveltime_
+	make _jewelry_ permanent
+	change repute with _qgiver_ by -20

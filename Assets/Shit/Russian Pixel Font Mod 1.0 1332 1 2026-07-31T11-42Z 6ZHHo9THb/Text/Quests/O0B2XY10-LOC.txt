@@ -1,0 +1,117 @@
+-- Quest: C:\QUESTS\WORKING\O0B2XY10.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: thief
+-- Repute: 2X
+-- QuestId: 10
+Messages: 11
+Quest: O0B2XY10
+DisplayName: Pfdtnyjt ptkmt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ghbdtn, %pcn, vtyz pjden
+<ce> _qgiver_. Vyt ye*ty rnj-nj,
+<ce> rnj ghbytctn ptkmt _potion_.
+<ce> Xnj crf*tim? Z pfgkfxe nt`t
+<ce> _gold_ pjkjns[, tckb cltkftim @nj.
+
+RefuseQuest:  [1001]
+<ce> Lfq vyt pyfnm, tckb nt`t ye*yf
+<ce> `eltn yfcnjzofz hf`jnf, %pcn.
+
+AcceptQuest:  [1002]
+<ce> D vfufpbyt _alchemyshop_ ujhjlf
+<ce> __alchemyshop_ ns yfqltim
+<ce> _potion_. Cnfob b ghbytcb vyt
+<ce> d ntxtybt =traveltime_ lytq, b z jgkfxe
+<ce> ndjb eckeub. ^nj cjdctv ytnhelyj.
+<ce> Elfxb.
+
+QuestComplete:  [1004]
+<ce> Ytgkj[j, %pcn. Djn ndjb
+<ce> _gold_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+D vfufpbyt _alchemyshop_ vj*yj yfqnb kexibt rjvgjytyns ptkbq d ujhjlt __alchemyshop_.
+   <--->
+Tckb ds pf`jktkb, blbnt d fgntre _alchemyshop_ d vtcntxrt __alchemyshop_.
+
+RumorsPostfailure:  [1006]
+D fgntrt _alchemyshop_ `skj jlyj htlrjt ptkmt, _potion_, yj tuj e`hfkb d `tpjgfcyjt vtcnj.
+
+RumorsPostsuccess:  [1007]
+Rnj-nj cnfobk cyflj`mt _potion_ bp fgntrb _alchemyshop_. Rfrfz lthpjcnm!
+
+QuestorPostsuccess:  [1008]
+Z gjvy< nt`z, %pcf. _potion_, ghfdbkmyj?
+
+QuestorPostfailure:  [1009]
+<ce> Cnjg. Lfq z euflf<. Ns gktntimcz
+<ce> d fgntre _alchemyshop_, yf[jlbim
+<ce> ptkmt _potion_, b, cjdthityyj
+<ce> ckexfqyj, dsgbdftim tuj. Ghfdbkmyj?
+<ce> %oth, hfpyst djhs, f bcnjhbz jlyf b nf *t.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_, djh bp Ubkmlbb
+ ujhjlf ___qgiver_, yfybvftn vtyz
+ yf hf`jne gj rhf*t ptkmz _potion_
+ bp vfufpbyf _alchemyshop_ d
+ ujhjlt __alchemyshop_. Yf dct e
+ vtyz tcnm =traveltime_ lytq.
+
+
+
+QBN:
+Item _potion_ Elixir_vitae
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _alchemyshop_ remote apothecary
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Battle_mage
+Foe _F.01_ is Iron_atronach
+Foe _F.02_ is Daedra_seducer
+Foe _F.03_ is Werewolf
+
+--	Quest start-up:
+	place item _potion_ at _alchemyshop_
+	start timer _traveltime_
+	log 1010 step 0
+	pc at _alchemyshop_ set _S.01_
+
+_traveltime_ task:
+	end quest
+
+_S.01_ task:
+	pick one of _guard1_ _guard2_ _guard3_ _guard4_
+
+_questdone_ task:
+	toting _potion_ and _qgiver_ clicked
+	give pc _gold_
+	end quest
+
+_guard1_ task:
+	create foe _F.00_ every 4 minutes 1 times with 10% success
+
+_guard2_ task:
+	create foe _F.01_ every 4 minutes 1 times with 10% success
+
+_guard3_ task:
+	create foe _F.02_ every 4 minutes 1 times with 10% success
+
+_guard4_ task:
+	create foe _F.03_ every 4 minutes 1 times with 10% success
+
+_S.07_ task:
+	clicked item _potion_
+
+_S.08_ task:
+	when _traveltime_ and _S.07_
+	make _potion_ permanent

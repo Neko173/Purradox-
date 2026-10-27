@@ -1,0 +1,151 @@
+-- Quest: C:\QUESTS\WORKING\R0C10Y15.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 15
+Messages: 17
+Quest: R0C10Y15
+DisplayName: Xtndthnsq xtkjdtr
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> E vtyz tcnm ljdjkmyj ckj*yjt pflfybt, rjnjhjt
+<ce> nht`etn dvtifntkmcndf xtnsht[ xtkjdtr.
+<ce> ^nj vj*tn pfyznm ytcrjkmrj lytq, yj pfnj
+<ce> gkfnf pf hf`jne `eltn _reward_ pjkjns[,
+<ce> pdtyzob[ d dfitv rfhvfyt.
+<ce> Pdexbn bynhbue<ot?
+
+RefuseQuest:  [1001]
+<ce> Jxtym jxtym *fkm.
+<ce> F b kflyj.
+
+AcceptQuest:  [1002]
+<ce> E vtyz tcnm pyfrjvsq d ___npc1_, e
+<ce> rjnjhjuj tcnm jlyf dtom, rjnjhfz ye*yf
+<ce> lheujve vjtve pyfrjvjve d ___npc2_.
+<ce> Tcntcndtyyj, xnj _npc1_, vjq pyfrjvsq d
+<ce> ___npc1_ [jxtn ltymub pf cdj< dtom.
+<ce> Djn gjxtve d sye*ys vyt, xnj`s jnytcnb
+<ce> djn @njn fkvfp d rfxtcndt gkfns tve.
+<ce> Fkvfp ytj`[jlbvj ljcnfdnbm d ntxtybt
+<ce> =1stparton_ lytq. Rfr cltkftnt @nj
+<ce> _npc1_ lfcn dfv lfkmytqibt bycnherwbb.
+<ce> ~kfujlfh<, %pcf, b gecnm %god
+<ce> `kfujckjdbn dfit gentitcndbt.
+
+QuestFail:  [1003]
+<ce> Pyf<, @nj ckj*yj, %pcf,
+<ce> yj z yt ghtlgjkfufk, xnj e dfc cjdctv
+<ce> ytn vjpujd d nfrjv `jkmijv xthtgt.
+<ce> Ds e*t gjkexbkb erfpfybz, nfr xnj
+<ce> ytxtuj djle d cnegt njkjxm.
+
+QuestComplete:  [1004]
+<ce> F, _item2_.
+<ce> Vyt e*t yfxfkj rfpfnmcz, xnj ds yt ghbltnt.
+<ce> Xnj *, djn _reward_ pjkjns[.
+<ce> Crf*bnt _npc2_, xnj z d ljkue gthtl ybv.
+<ce> Tot hfp `kfujlfh< dfc.
+
+RumorsDuringQuest:  [1005]
+_npc2_ d __npc2_ dct tot dbp*bn gj gjdjle cdjtq dtob _item2_.
+   <--->
+%oth, _npc1_ dyt ct`z jn pkjcnb, xnj yt vj*tn gjvjxm ltymufvb cdjtq vfnthb.
+
+RumorsPostfailure:  [1006]
+Ujdjhzn _questgiver_ hfpjpkty rfr xthn yf jlyjuj %ra-fdfyn<hbcnf.
+   <--->
+_npc2_ eitk bp __npc2_ dyt ct`z jn pkjcnb jn gjnthb cdjtq djkit`yjq dtobws.
+
+RumorsPostsuccess:  [1007]
+Cnhfyyj, xnj pf jnyjitybz vt*le _questgiver_ b _npc2_.
+   <--->
+_npc1_ ghjlftn cdj< dtom _item2_. Dct d Nfvhb@kt bvttn cdj< wtye.
+
+QuestorPostsuccess:  [1008]
+Ye-rf ye-rf, @nj yt %pcn, hfcnjhjgysq rehmth? Rfr gj*bdftnt, lheu vjq?
+   <--->
+Ds gjvjukb vyt d xfc ye*ls, %pcf. Xnj z vjue cltkfnm lkz dfc?
+
+QuestorPostfailure:  [1009]
+<ce> Z nfr gjybvf<, xnj ds ghbikb
+<ce> bpdbybnmcz pf ytljcnfdktyye<
+<ce> djdhtvz gjcskre, %pcf?
+<ce> Bpdbytybz yt ghbybvf<ncz.
+<ce> E[jlbnt.
+
+QuestLogEntry:  [1010]
+<ce> %god! Ds ghb`skb, %pcf.
+<ce> ~scnhtt, lfdfqnt vyt fkvfp. Pf`bhfqnt
+<ce> _item2_ b ytcbnt @nj r
+<ce> _npc2_ d __npc2_ --
+<ce> @nj d ___npc2_. Rjulf
+<ce> `eltnt nfv, %g dfv pfgkfnbn.
+
+Message:  1015
+%qdt:
+ _questgiver_ bp ___questgiver_
+ gjcskftn vtyz r pyfrjvjve
+ d ___npc1_,
+ =npc1_ gj bvtyb _npc1_,
+ d __npc1_. Vyt ye*yj ljcnfdbnm
+ _item1_ b gjkexbnm lfkmytqibt bycnherwbb.
+ E vtyz =1stparton_ lytq, xnj`s ljcnbxm ___npc1_.
+
+Message:  1016
+%qdt:
+ _npc1_ gjcskftn vtyz r
+ _npc2_ d __npc2_
+ bp ___npc2_. Ye*yj ljcnfdbnm
+ _item2_ d ntxtybt =2ndparton_ lytq.
+
+
+
+QBN:
+Item _reward_ gold
+Item _item1_ diamond
+Item _item2_ magic_item
+
+Person _questgiver_ face 136 group Questor
+Person _npc1_ group Local_3.0 remote
+Person _npc2_ face 248 group Local_3.1 remote
+
+
+Clock _1stparton_ 00:00 0 flag 1 range 1 4
+Clock _2ndparton_ 00:00 0 flag 1 range 1 4
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1015 step 0
+	get item _item1_
+
+_pcgetsgold_ task:
+	toting _item2_ and _npc2_ clicked
+	give pc _reward_
+	end quest
+--removed unnecessary delay
+
+variable _pchasitem1_
+variable _pchasitem2_
+_S.03_ task:
+	toting _item1_ and _npc1_ clicked
+	start timer _2ndparton_
+	log 1016 step 1
+	get item _item2_
+	say 1010
+
+variable _S.04_
+_queston_ task:
+	when _1stparton_ and not _S.03_
+	make _item1_ permanent
+	change repute with _questgiver_ by -20
+	end quest
+
+variable _1stparton_
+_2ndparton_ task:
+	make _item2_ permanent
+	change repute with _questgiver_ by -20
+	end quest

@@ -1,0 +1,154 @@
+-- Quest: C:\QUESTS\WORKING\A0C01Y01.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 01
+-- QuestId: 1
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 14
+Quest: A0C01Y01
+DisplayName: Ntkj[hfybntkm
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcn, z jxtym jgfcf<cm pf cdj< *bpym.
+<ce> Pfobnbnt vtyz! _villains_s euhj*f<n
+<ce> e`bnm vtyz @njq yjxm<, gjnjve xnj z
+<ce> jnrfpfkcz ghjlfnm bv cdjb ptvkb. Z
+<ce> pfgkfxe dfv _gold_ pjkjns[.
+   <--->
+<ce> Z d jnxfzyyjv gjkj*tybb, vjq ljhjujq %ra.
+<ce> Lj vtyz ljikb cke[b, xnj %cn `fylbns
+<ce> cj`bhf<ncz dkjvbnmcz d vjq ljv @njq yjxm<.
+<ce> Z `sk `s jxtym `kfujlfhty, tckb `s ds
+<ce> cjukfcbkbcm ghjdtcnb bv gkfcnbxtcre<
+<ce> jgthfwb< yf kbwt b lheub[ xfcnz[ ntkf.
+
+RefuseQuest:  [1001]
+<ce> Yt `jqntcm pf vj< `tpjgfcyjcnm, %pcn.
+<ce> Z yfqle tot rjuj-yb`elm...yflt<cm.
+
+AcceptQuest:  [1002]
+<ce> Cgfcb`j b lf `kfujckjdbn dfc `ju! Jyb gjghj`e<n
+<ce> dkjvbnmcz d _qgiverhome_ pf nhb xfcf
+<ce> gjgjkeyjxb. ~elmnt nfv b *lbnt vtyz r @njve
+<ce> dhtvtyb. Njkmrj rjulf jyb `elen gj`t*ltys,
+<ce> njkmrj njulf z `ele xedcndjdnfm ct`z d
+<ce> `tpjgfcyjcnb.
+
+QuestComplete:  [1004]
+<ce> Ds cgfckb vj< *bpym, %pcf. Z pfgkfxe
+<ce> pf dfib eckeub lf*t `jkmit, xtv
+<ce> ljujdfhbdfkbcm.
+
+RumorsDuringQuest:  [1005]
+<ce> E _qgiver_ ghj`ktvs c Ubkmlbtq Djhjd.
+<ce> Z cksifk, jyb cj`bhf<ncz ghjexbnm tuj.
+
+RumorsPostfailure:  [1006]
+<ce> Z dbltk _qgiver_ ytlfdyj. %g `sk
+<ce> bp`bn rfrbvb-nj `fylbnfvb.
+
+RumorsPostsuccess:  [1007]
+<ce> Ds ckexfqyj yt njn %ra, rjnjhsq
+<ce> ujyzk rfr otyrjd nt[ `fyl<rjd,
+<ce> gjgsnfdib[cz gj`bnm _qgiver_?
+
+QuestorPostsuccess:  [1008]
+<ce> Z dct tot gjvy<, xnj ds cltkfkb lkz
+<ce> vtyz, %pcf. Z `tcrjytxyj dfv
+<ce> `kfujlfhty pf pfobne jn nt[ `fylbnjd.
+
+QuestorPostfailure:  [1009]
+<ce> Vtyz dct tot nhzctn gjckt dcnhtxb c ntvb
+<ce> `fylbnfvb. Z yfyzk dfc pfobofnm vtyz, f
+<ce> ds cvskbcm. E[jlbnt ghjxm.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp ___qgiver_ gjghjcbk
+ vtyz pfobnbnm tuj. _villains_s euhj*f<n
+ dkjvbnmcz d tuj ljv _qgiverhome_ ult-nj
+ vt*le 9 dtxthf b gjkeyjxm<.
+
+Message:  1011
+<ce> ^nj yt ndjt ltkj, ytpyfrjvtw. Jcnfdm
+<ce> _qgiver_ yfv bkb vs cvtntv nt`z cj
+<ce> cdjtuj genb!
+
+Message:  1013
+<ce> Ljk*yj `snm @nj nj cfvjt vtcnj. Gj
+<ce> jgbcfyb< gj[j*t yf nj, j xtv ujdjhbk
+<ce> _qgiver_.
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _qgiver_ face 1 group Questor
+
+Place _qgiverhome_ local house2
+
+Clock _S.00_ 1.03:00
+--removed flags to make time limit exact
+
+Foe _villains_ is 2 Assassin
+
+--	Quest start-up:
+	start timer _S.00_
+	log 1010 step 0
+	pc at _qgiverhome_ set _S.05_
+	---removed "saying" as unacceptable argument. moved to S.05
+	create npc at _qgiverhome_
+
+_S.00_ task:
+	end quest
+
+_S.01_ task:
+	daily from 21:00 to 22:59
+	--changed 24:00 to 23:59. 24:00 shouldn't exist.
+	place npc _qgiver_ at _qgiverhome_
+
+_S.02_ task:
+	killed 2 _villains_
+
+_questdone_ task:
+	when _S.04_ and _S.02_
+	give pc _gold_
+
+_S.04_ task:
+	clicked npc _qgiver_
+
+_S.05_ task:
+	say 1013
+
+_S.06_ task:
+	injured _villains_ saying 1011
+
+_clearclick_ task:
+	when not _S.02_ and _S.04_
+	clear _S.04_ _clearclick_
+
+_S.08_ task:
+	when _S.05_ and _S.01_ and not _S.06_
+	create foe _villains_ every 10 minutes 1 times with 25% success
+--added "not S06" to prevent multiple spawns
+
+_mmap_ task:
+	when _questdone_ and not _S.05_
+	end quest
+
+--on rare occasions, the enemies still would not spawn with the above logic.
+--A new back-up logic starting from 11PM is given below, to force an enemy
+--spawn if none has been injured by 11PM. If there's a better way to ensure
+--the enemies haven't spawned than with "injured," it would be preferable.
+
+_latehour_ task:
+	daily from 23:00 to 23:59
+	place npc _qgiver_ at _qgiverhome_
+
+_backupspawn_ task:
+	when _S.05_ and _latehour_ and not _S.06_
+	create foe _villains_ every 0 minutes 1 times with 100% success

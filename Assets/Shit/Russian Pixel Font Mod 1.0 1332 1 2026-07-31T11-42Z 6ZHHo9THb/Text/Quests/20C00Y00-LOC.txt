@@ -1,0 +1,177 @@
+-- Quest: C:\QUESTS\WORKING\20C00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: Molag Bal
+-- Repute: 0
+-- QuestId: 0
+Messages: 61
+Quest: 20C00Y00
+DisplayName: Pflfybt Vjkfu ~fkf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Bnfr, ns botim vjueotcndj, %pcn. Vjueotcndj yfvyjuj
+<ce> `jktt htfkmyj gj chfdytyb< cj pyfybzvb, ns nj*t nfr
+<ce> levftim? Ye f ght*lt xtv ns gjkexbim cdjt, e vtyz
+<ce> tcnm gjhextybt lkz nt`z. Ybxtuj ckj*yjuj, tcntcndtyyj.
+<ce> Ns kturj dsgjkybim tuj. J`sxyjt e`bqcndj, pf rjnjhjt
+<ce> ns gjkexbim _artifact_. Djn njulf vs b gjcvjnhbv, xnj
+<ce> vj*yj cltkfnm c yfcnjotq dkfcnm< b vjueotcndjv.
+<ce> Ghbtvktvj kb @nj lkz nt`z?
+
+RefuseQuest:  [1001]
+<ce> Ns nhfnbim vjt dhtvz. Vs jxtym ytljdjkmys.
+
+AcceptQuest:  [1002]
+<ce> Vs yt cjvytdfkbcm, xnj nt`t gjyhfdbncz. Ntgthm ckeifq
+<ce> dybvfntkmyj: ndjz wtkm - _monster_ gj bvtyb
+<ce> =monster_. ^njn flcrbq bcrhjvtnfntkm dpsdfk r yfitve
+<ce> bvtyb, gjkmpjdfkcz yfibv vjueotcndjv yt pfrk<xfz
+<ce> rjynhfrnf. ~snm vj*tn vj*yj `skj b ghjbuyjhbhjdfnm @nj,
+<ce> yj vs yt vj*tv `snm vbkjcthlysvb. Bob vfuf d tuj
+<ce> kf`jhfnjhbb, ___mondung_ b eybxnj*m tuj.
+<ce> Gjnjv, ght*lt xtv ghjqltn =1stparton_ lytq, dcnhtnmcz c
+<ce> yfibv futynjv, _contact_, =contact_, d
+<ce> __tavern_ d vtcntxrt gjl yfpdfybtv_tavern_.
+<ce> Nfv %g lfcn nt`t _artifact_. Yt vtlkb,
+<ce> dhtvtyb jxtym vfkj. Vs cktlbv pf nj`jq.
+<ce> Yt gjldtlb yfc.
+
+QuestFail:  [1003]
+<ce> Ckeifq, %pcf, ns b z j`f pyftv, xnj
+<ce> =monster_ dct tot *bd. Rjynhfrn tcnm
+<ce> rjynhfrn, f Vjkfu ~fk gjvybn dct.
+
+QuestComplete:  [1004]
+<ce> Ghbdtncnde<, %pcf. Nt`t elfkjcm. Vjkfu ~fk gjcskftn
+<ce> cdjb gjplhfdktybz. B rjytxyj *t djn _artifact_.
+<ce> Ghbznyj ghjdtcnb dhtvz b lj dcnhtxb.
+
+RumorsDuringQuest:  [1005]
+Dct itgxencz j` @rcgthbvtynf[, ghjdjlzob[cz d ___mondung_.
+   <--->
+Cnhfyyst dtob ghjbc[jlzn d ___mondung_ yf %di jnc<lf.
+
+RumorsPostfailure:  [1006]
+Nf rhfcyfz pdtplf ujdjhbn j uytdt lf@lhf Vjkfu ~fkf.
+   <--->
+~sk pltcm cevfcitlibq =contact_, `tuf<obq djrheu b rhbxfobq ghj rfrbt-nj rjynhfrns.
+
+RumorsPostsuccess:  [1007]
+Yfrjytw-nj ctqxfc d jrheut ___mondung_ nb[j.
+   <--->
+~skb rjt-rfrbt nhtdjkytybz d jrheut ___mondung_, yj ctqxfc dct ecgjrjbkjcm.
+
+Message:  1011
+Dtkbxtcndtyysq ghbyw lf@lhf. Gjujdfhbdf<n, xnj jy cfvsq vjueotcndtyysq bp dct[ lf@lhf.
+   <--->
+Ujdjhzn xnj Vjkfu ~fk `sk jlth*bv blttq cltkfnm Nfvhb@km xfcnm< cdjtuj rjhjktdcndf.
+
+Message:  1012
+Jxtym cnhfyysq =contact_ `sk __tavern_, yf %di jnc<lf.
+   <--->
+=contact_ c @nbv bvtytv `sk d __tavern_, yf %di jnc<lf, rf*tncz.
+
+Message:  1013
+~ekfdf Vjkfu ~fkf djhetn vfub< cdjb[ *thnd.
+   <--->
+<ce> ~ekfdf Vjkfu ~fkf bkb, rfr tt yfpsdf<n, ~ekfdf Dfvgbhjd, ghjdjlybr
+<ce> vfubxtcrjq @ythubb jn *thnds cdjtve dkfltkmwe.
+
+Message:  1020
+%qdt:
+ Ghbyw lf@lhf Vjkfu ~fk gjckfk vtyz e`bnm
+ jlyjuj pfrkbyfntkz d gjlptvtkmt ___mondung_.
+ Tckb vfu `eltn vthnd, nj lj bc[jlf =1stparton_ lytq
+ vyt ye*yj gjdblfnmcz c _contact_ d __tavern_
+ d vtcntxrt gjl yfpdfybtv _tavern_
+ b z gjkexe _artifact_.
+
+Message:  1030
+<ce> =monster_ vthnd.
+<ce> Ds dsgjkybkb rjynhfrn,
+<ce> pfrk<xtyysq c Vjkfu
+<ce> ~fkjv. F ntgthm gjhf
+<ce> pf yfuhfljq.
+
+Message:  1040
+<ce> =monster_ djpltk cdjq gjcj[
+<ce> b ghjgfk dj dcgsirt cdtnf.
+
+Message:  1060
+Rfhnf, gjrfpsdf<ofz vtcnjgjkj*tybt erhsnbz
+___hideout_ cj cktle<otq gjvtnrjq: "Yfgjvybnm
+_dummy_ yf`hfnm ghbgfcjd. Xedcnde<, xnj
+Vjkfu ~fk j`yfhe*bk vtyz".
+
+
+
+QBN:
+Item _artifact_ artifact Mace_of_Molag_Bal anyInfo 1013
+Item _map_ letter used 1060
+
+Person _questgiver_ face 112 named Molag_Bal anyInfo 1011
+Person _contact_ face 233 faction The_Cabal remote anyInfo 1012
+Person _dummy_ face 1 group Spellcaster remote
+
+Place _mondung_ remote dungeon9
+Place _tavern_ remote tavern
+Place _hideout_ remote dungeon11
+
+Clock _1stparton_ 00:00 0 flag 1 range 0 5
+Clock _S.08_ 00:01 00:04
+
+Foe _monster_ is Mage
+Foe _monster1_ is Mage
+
+--	Quest start-up:
+	place item _map_ at _mondung_
+	start timer _1stparton_
+	reveal _mondung_
+	log 1020 step 0
+	_map_ used do _readmap_
+	place foe _monster_ at _mondung_
+	place npc _contact_ at _tavern_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _mondead_
+	give pc _artifact_
+	end quest
+--removed unnecessary delay
+
+variable _queston_
+--unused variable
+_mondead_ task:
+	killed 1 _monster_
+	killed 1 _monster1_
+	say 1030
+	--added kill condition for monster1
+
+_qgclicked_ task:
+	clicked npc _contact_
+
+_1stparton_ task:
+	end quest
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_
+	--this used the timer 2ndparton erroneously. properly changed to mondead.
+	say 1003
+	clear _qgclicked_ _clearclick_
+
+variable _S.08_
+_S.09_ task:
+	injured _monster_
+	start timer _S.08_
+
+_S.10_ task:
+	when _S.08_ and not _mondead_
+	remove foe _monster_
+	place foe _monster1_ at _hideout_
+	say 1040
+--saying 1040 was previously used here as an invalid argument. Moved it to its own line.
+--added new monster1 creature and properly enabled disappearing act with new remove action.
+
+_readmap_ task:
+	reveal _hideout_ readmap

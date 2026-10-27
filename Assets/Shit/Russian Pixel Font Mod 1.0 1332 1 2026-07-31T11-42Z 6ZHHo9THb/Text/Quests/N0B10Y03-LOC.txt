@@ -1,0 +1,185 @@
+-- Quest: C:\QUESTS\WORKING\N0B10Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 10
+-- QuestId: 3
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 14
+Quest: N0B10Y03
+DisplayName: J[hfyznm ubkmlb<
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ubkmlbb ye*ty j[hfyybr yf yjxm,
+<ce> gjcnthtxm vfubxtcrbq ghtlvtn:
+<ce> _treasure_. Yt cjukfcbntcm kb
+<ce> ds cltkfnm @ne hf`jne lkz yfc?
+<ce> D yfuhfle gjkexbnt _potion_.
+   <--->
+<ce> Pfk Ubkmlbb -- b rnj njkmrj ghblevfk
+<ce> nfrjt yfpdfybt? D *bpyb, z levf<
+<ce> ds cj vyjq cjukfcbntcm, tcnm nfrbt
+<ce> k<lb, rjnjhst ... ye, hfyj bkb gjplyj
+<ce> e ubkmlbb gjzdkz<ncz ghj`ktvs c ...
+<ce> Gjckeifqnt, %pct, yfv ye*yf j[hfyf.
+<ce> Cjukfcys?
+
+RefuseQuest:  [1001]
+<ce> Ytn ghj`ktv. Dctulf yfqlencz `jktt
+<ce> jndtncndtyyst xktys ubkmlbb.
+
+AcceptQuest:  [1002]
+<ce> ~elmnt d Ubkmlbb Vfujd
+<ce> hjdyj d gjkyjxm. Dhtvz dfitq
+<ce> cnhf*b - lj 3:00 enhf.
+
+QuestComplete:  [1004]
+<ce> Jnkbxyj, %pcf. E @nb[
+<ce> djhjd yt `skj ybrfrb[ ifycjd
+<ce> ghjnbd dfc. Djn, djpmvbnt @njn
+<ce> rfvtym: _potion_. ^nj
+<ce> cfvjt vfkjt, xnj vs vj*tv cltkfnm.
+
+RumorsDuringQuest:  [1005]
+Djhbirb ljk*yj `snm levf<n, xnj _treasure_ d Ubkmlbb Vfujd dtcmvf b dtcmvf wtyyfz dtobxrf.
+   <--->
+Djhs e*t euhj*fkb gj[bnbnm _treasure_ bp Ubkmlbb Vfujd.
+
+RumorsPostfailure:  [1006]
+Djhs ecgtiyj gj[bnbkb _treasure_.
+   <--->
+Xnj pf *fkrfz j[hfyf e Ubkmlbb Vfujd. Djn gjxtve `skf gj[botyf @nf dtom.
+
+RumorsPostsuccess:  [1007]
+Levf<, @nb djhs ntgthm gjlevf<n cnj hfp, ght*lt xtv gjgsnf<ncz erhfcnm _treasure_ tot hfp.
+   <--->
+Djhs, gsnfdibtcz dpznm _treasure_, lf*t b yt gjljphtdfkb j ghjatccbjyfkmyjv j[hfyybrt.
+
+QuestorPostsuccess:  [1008]
+Rfr ds, %pcf? Yfikb rfrjt-yb`elm ghbvtytybt njve rfvy<? _potion_?
+
+QuestorPostfailure:  [1009]
+<ce> Ghtlvtn _treasure_ bcxtp,
+<ce> f ult `skb ds? Rfrjq gjpjh!
+<ce> Jcnfdmnt vtyz, %pcn.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Vtyz eujdjhbkb
+ gjcnjhj*bnm vfubxtcrbq ghtlvtn:
+ _treasure_ d Ubkmlbb Vfujd.
+ Vyt ye*yj ghb`snm nelf d gjkyjxm
+ b ghj`snm lj nht[ xfcjd enhf.
+
+-moved line down from %qdt line.
+
+Message:  1011
+%qdt:
+ Cj`kfpy `sk jxtym dtkbr. Z gj[bnbk
+ _treasure_, rjnjhjt vtyz gjcnfdbkb
+ j[hfyznm. Vtyz `elen
+ ljghfibdfnm... djpvj*yj.
+
+Message:  1012
+<ce> Gfhyb, gjukzlbnt rf! J[hfyf!
+<ce> Us, z ghzv dtcm lhj*e jn
+<ce> cnhf[f. Lfdfqnt-rf jnht*tv
+<ce> tve zpsr b gjdtcbv yf ldthb,
+<ce> rfr ghtleght*ltybt, xnj`s
+<ce> yt cdzpsdfkbcm c Ubkmlbtq
+<ce> Djhjd. Dpznm tuj!
+
+Message:  1013
+<ce> Z gjkexe yfuhfle pf ujkjde
+<ce> djhf b ghtlfntkz ubkmlbb
+<ce> vfujd.
+
+
+
+QBN:
+Item _treasure_ magic_item
+Item _potion_ gem
+
+Person _qgiver_ group Questor
+
+Place _magesguild_ local magery
+
+Clock _oneday_ 1.03:00
+Clock _S.10_ 3.00:00
+
+Foe _F.00_ is Thief
+Foe _F.01_ is 4 Knight
+
+--	Quest start-up:
+	place item _treasure_ at _magesguild_
+	start timer _oneday_
+	log 1010 step 0
+	create npc at _magesguild_
+
+variable _oneday_
+
+_timeout_ task:
+	when _oneday_ and not _S.07_
+	end quest
+
+_clickonqgiver_ task:
+	clicked npc _qgiver_
+
+_S.02_ task:
+	daily from 00:00 to 03:00
+	pc at _magesguild_ set _S.03_
+
+_S.03_ task:
+	create foe _F.00_ every 3 minutes 1 times with 100% success
+	create foe _F.00_ every 3 minutes 1 times with 100% success
+	create foe _F.00_ every 3 minutes 1 times with 100% success
+	create foe _F.00_ every 3 minutes 1 times with 100% success
+	--spawn times reduced. leaving them at classic values would be very disjointed; one thief would arrive nearly half an hour later. classic tended to spawn all at once
+
+_S.04_ task:
+	injured _F.00_ saying 1012
+
+_S.05_ task:
+	killed 2 _F.00_
+
+_S.06_ task:
+	clicked item _treasure_
+	clear _dropped_
+
+_dropped_ task:
+	dropped _treasure_ at _magesguild_
+	clear _S.06_
+
+_S.07_ task:
+	when _S.06_ and not _S.02_
+	create foe _F.01_ every 60 minutes 5 times with 10% success
+	start timer _S.10_
+	log 1011 step 1
+	change repute with _qgiver_ by -30
+
+_S.08_ task:
+	injured _F.01_ saying 1013
+
+_questdone_ task:
+	when _S.10_ and _S.07_
+	make _treasure_ permanent
+	end quest
+
+variable _S.10_
+
+_pcgetsgold_ task:
+	when _clickonqgiver_ and _S.05_ and not _S.07_ and not _S.02_
+	give pc _potion_
+	end quest
+
+_clearclick_ task:
+               when _clickonqgiver_ and not _S.05_
+               clear _clearclick_ _clickonqgiver_
+
+_clearclick2_ task:
+               when _clickonqgiver_ and _S.02_
+               clear _clearclick2_ _clickonqgiver_
+
+variable _S.13_

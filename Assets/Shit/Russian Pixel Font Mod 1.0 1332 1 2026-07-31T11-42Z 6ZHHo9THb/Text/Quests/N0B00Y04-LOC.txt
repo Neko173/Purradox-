@@ -1,0 +1,168 @@
+-- Quest: C:\QUESTS\WORKING\N0B00Y04.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 0
+-- QuestId: 4
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 46
+Quest: N0B00Y04
+DisplayName: Gjbcr byuhtlbtynf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ds ljk*ys ljcnfnm jlby htlrbq
+<ce> htfutyn, rjnjhsq yf[jlbncz
+<ce> d jlyjv gjlptvtkmt. Pf yf[jlre
+<ce> gjkexbnt _gold_ pjkjns[.
+<ce> Cjukfcys?
+   <--->
+<ce> Jlby bp yfib[ kexib[ cneltynjd
+<ce> f`cjk<nyj cdb[yekcz yf gjxdt jlyjuj
+<ce> bp htfutynjd, rjnjhsq yfpsdftncz
+<ce> _ingredient_. F e yfc tuj
+<ce> yt nfr e* b vyjuj. Vj*tn `snm ds
+<ce> c[jlbnt d jlyj vtcntxrj, lf yf`thtnt
+<ce> crjkmrj nj @njuj ghtgfhfnf?
+
+RefuseQuest:  [1001]
+<ce> Aeee. Yflt<cm lheujq xkty
+<ce> ubkmlbb `eltn `jktt jnpsdxbdsv.
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyjt htitybt, %pcf.
+<ce> Gjbobnt _ingredient_ d
+<ce> gjlptvtkmt ___dungeon_.
+<ce> E dfc =traveltime_ lytq, xnj`s
+<ce> j`thyenmcz nelf b j`hfnyj.
+
+QuestComplete:  [1004]
+<ce> Gjkfuf<, @nj nj, xnj ye*yj.
+<ce> |fkm xnj ds yt cvjukb ghbytcnb
+<ce> @rptvgkzh gjcdt*tt. ^nj
+<ce> ytvyjuj yt njuj rfxtcndf,
+<ce> rjnjhjt gjljqltn xktyfv yfitq
+<ce> ubkmlbb. Djn dfif yfuhflf, %pcf.
+
+RumorsDuringQuest:  [1005]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostfailure:  [1006]
+_qgiver_ *fkjdfkcz yf ytghjatccbjyfkbpv xktyjd Ubkmlbb Vfujd.
+
+RumorsPostsuccess:  [1007]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+QuestorPostsuccess:  [1008]
+Ye rfr *t z yt `ele hfl dbltnm dfc, tckb ds ljcnfkb _ingredient_?
+
+QuestorPostfailure:  [1009]
+<ce> Yfv jxtym ye*ty @njn htfutyn: _ingredient_.
+<ce> Ntgthm nj vs e* gjlevftv, ght*lt xtv ljdthbnm
+<ce> dfv gjlj`yjt ghtlghbznbt.
+
+QuestLogEntry:  [1010]
+%qdt:
+ __qgiver_, ___qgiver_.
+ Vtyz gjghjcbkb yfqnb j`hfptw jlyjuj
+ htfutynf: _ingredient_, rjnjhsq
+ ghtlgjkj*bntkmyj vj*yj yfqnb d
+ ___dungeon_.
+ E vtyz =traveltime_ lytq, xnj`s yfqnb
+ bcrjvjt b dthyenmcz.
+
+Message:  1040
+<ce> _ingredient_. Gj[j*t @nj nj, xnj
+<ce> b [jntk _qgiver_.
+
+QuestTimeLapse:  [1045]
+<ce> Dytpfgyj ds dcgjvybkb, xnj
+<ce> _qgiver_ ghjcbk dfc ghbytcnb
+<ce> _ingredient_ ctujlyz. ~tp cjvytybz
+<ce> jy `eltn jxtym hfpjxfhjdfy.
+
+
+
+QBN:
+Item _ingredient_ organs
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _dungeon_ remote dungeon
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+
+--	Quest start-up:
+	place item _ingredient_ at _dungeon_
+	start timer _traveltime_
+	reveal _dungeon_
+	log 1010 step 0
+
+_traveltime_ task:
+	make _ingredient_ permanent
+                say 1045
+	end quest
+
+_S.01_ task:
+	clicked item _ingredient_
+	say 1040
+
+_questdone_ task:
+	toting _ingredient_ and _qgiver_ clicked
+	give pc _gold_
+	end quest

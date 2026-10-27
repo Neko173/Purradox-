@@ -1,0 +1,138 @@
+-- Quest: C:\QUESTS\WORKING\R0C20Y07.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 20
+-- QuestId: 7
+Messages: 12
+Quest: R0C20Y07
+DisplayName: Gjnthzyysq cfgabh
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> E vtyz tcnm lheu, gjntywbfkmysq cj<pybr, rjnjhsq
+<ce> ye*lftncz d yt`jkmijq gjvjob. ^nj ljdjkmyj
+<ce> nfrb ghjcnfz jgthfwbz gj cgfctyb<, yj pf ytt
+<ce> vjq lheu ujnjd jrfpfnm `jkmie< ghbpyfntkmyjcnm
+<ce> b jncsgfnm rheuke< cevve. ^nj gjhextybt ytj`[jlbvj
+<ce> pfdthibnm d c*fnst chjrb, d ghtltkf[ =1stparton_
+<ce> lytq. J ltnfkz[ gjujdjhbv, tckb ds cjukfcys.
+
+RefuseQuest:  [1001]
+<ce> Xnj *, crfpfnm "ytn" c cfvjuj yfxfkf kexit,
+<ce> xtv crfpfnm "lf" b gjnthgtnm ytelfxe. Ds vtyz
+<ce> ytvyjuj hfpjxfhjdfkb, ye lf kflyj.
+
+AcceptQuest:  [1002]
+<ce> Dtkbrjktgyj, vyt chfpe gjlevfkjcm, xnj ds yt
+<ce> jnrf*tntcm. Bnfr, vjq lheu _qgfriend_ bp
+<ce> ___qgfriend_ gjnthzk cfvjwdtn, cfgabh.
+<ce> Vjb igbjys jnncktlbkb genm rfvyz lj gjlptvtkmz
+<ce> ___itemdung_. _qgfriend_ [jxtn dthyenm
+<ce> @njn rfvtym, gjrf jy yt gjgfk d nhtnmb herb.
+<ce> Tckb rfvtym yt gjgfltn r vjtve lheue d ntxtybt
+<ce> =1stparton_ lytq, nj djpybryen jghtltktyyst
+<ce> ytghbznyjcnb. ~jktt njuj, kbxyjcnb, rjnjhst ctqxfc
+<ce> dkflt<n @nbv rfveirjv, cjukfcyj byajhvfwbb vjb[
+<ce> igbjyjd, yf lyz[ cj`bhf<ncz yfdtlfnmcz d
+<ce> ___itemdung_. Rfr ds gjybvftnt, jnghfdkznmcz
+<ce> ye*yj ytvtlktyyj, xnj`s ghb`snm d ___qgfriend_
+<ce> d ntxtybt =1stparton_ lytq c cfgabhjv.
+<ce> Elfxb, %pcf. Yt gjldtlbnt vtyz.
+
+QuestFail:  [1003]
+<ce> Cfgabh, %pcf! Ds xnj,
+<ce> e*t pf`skb? %oth!
+
+QuestComplete:  [1004]
+<ce> J, %pcf, ds yt ghtlcnfdkztnt, rfr
+<ce> vyt hfljcnyj, xnj ds yfikb @njn nhtrkznsq
+<ce> cfgabh. Yt [jxe lf*t levfnm, xnj `skj `s, tckb
+<ce> `s ds yt yfikb tuj. Djn ljcnjqyjt djpyfuhf*ltybt,
+<ce> rjnjhjt z njkmrj vjue dfv ghtlkj*bnm - _reward_.
+<ce> Ghbvbnt @nj gj*fkeqcnf d pyfr vjq yb*fqitq
+<ce> `kfujlfhyjcnb.
+
+RumorsDuringQuest:  [1005]
+E @nb[ djhbitr bp ___itemdung_ dtcmvf b dtcmvf cbkmyfz j[hfyf.
+   <--->
+_qgfriend_ d gjcktlytt dhtvz d e*fcyjv hfccnhjqcndt.
+
+RumorsPostfailure:  [1006]
+Gj dctq dblbvjcnb yf cnjhjyt _qgfriend_ dscnegbk vjueotcndtyysq djkit`ybr.
+   <--->
+_questgiver_ dsgkfnbk ghbkbxye< cevve uheggt %ra-yftvybrjd.
+
+RumorsPostsuccess:  [1007]
+Jrfpfkjcm, xnj _qgfriend_ yt rhfk cfvjwdtn. ^njn rfvtitr yfitkcz.
+   <--->
+_qgfriend_ yfpsdfkb djhjv, yj rfvtym yfitkcz, tuj erhfk rnj-nj lheujq.
+
+QuestorPostsuccess:  [1008]
+Vjq lheu hfccrfpsdfk vyt, xnj ds yfikb tuj cfvjwdtn. Xnj z vjue lkz dfc ltkfnm?
+   <--->
+Vyt jxtym ghbznyj dbltnm dfc cyjdf. Vjq lheu jxtym ghbpyfntkty pf gjlfhjr yt`tcyjuj wdtnf.
+
+QuestorPostfailure:  [1009]
+<ce> Vtyz gjhf*f<n dfib dslth*rf b
+<ce> yfukjcnm, %pcn.
+<ce> Ds ghjdfkbkb pflfybt b jndf*bkbcm
+<ce> dthyenmcz `tp cfgabhf.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_
+ bp ___questgiver_ gjcskftn vtyz
+ c pflfybtv yfqnb cfgabh, erhfltyysq e
+ lheuf, _qgfriend_ bp
+ __qgfriend_ d ___qgfriend_.
+ E vtyz =1stparton_ lytq, xn`s yfqnb cfgabh
+ d ___itemdung_ b dthyenm tuj d __qgfriend_,
+ xnj`s gjkexbnm djpyfuhf*ltybt.
+
+Message:  1011
+Ds yfikb cfgabh.
+
+
+
+QBN:
+Item _reward_ magic_item
+Item _item_ sapphire
+
+Person _questgiver_ face 112 group Questor
+Person _qgfriend_ group Local_3.0 remote
+
+Place _itemdung_ remote dungeon13
+
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
+--changed flags on timer, was giving very short time limits before
+Clock _2ndparton_ 00:00 0 flag 3 range 1 2
+
+Foe _giant_ is Giant
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _itemdung_
+	log 1010 step 0
+	give item _item_ to _giant_
+	place foe _giant_ at _itemdung_
+
+_pcgetsgold_ task:
+	toting _item_ and _qgfriend_ clicked
+	give pc _reward_
+	end quest
+--removed unnecessary delay
+
+variable _queston_
+_pchasitem_ task:
+	clicked item _item_
+	say 1011
+	create npc _qgfriend_
+
+_1stparton_ task:
+	make _item_ permanent
+	change repute with _qgfriend_ by -10
+	end quest
+
+variable _2ndparton_

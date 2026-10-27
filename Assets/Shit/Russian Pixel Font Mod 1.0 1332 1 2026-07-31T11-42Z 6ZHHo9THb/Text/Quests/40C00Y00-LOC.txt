@@ -1,0 +1,476 @@
+-- Quest: C:\QUESTS\WORKING\40C00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: Nocturnal
+-- Repute: 0
+-- QuestId: 0
+Messages: 51
+Quest: 40C00Y00
+DisplayName: Pflfybt Yjrn<hyfk
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> |tkftim vjueotcndf, %pcn?
+<ce> C ybv ns cvj*tim ghjhdfnm ntyb b gjkexbnm
+<ce> yflt*le. Tckb z lfv nt`t @ne yflt*le, xnj
+<ce> lfim ns vyt? D cjcnjzybb kb kb ns eybxnj*bnm njuj,
+<ce> rnj ghbxbybk vyt `jkm?
+
+RefuseQuest:  [1001]
+<ce> Rfr z b gjkfufkf, d @njv dcz cenm. Yfv yt
+<ce> j xtv ljujdfhbdfnmcz b z jxtym, jxtym
+<ce> hfpjxfhjdfyf, `elexb dsye*ltyyjq djpdhfofnmcz
+<ce> d vjq [jkjlysq ldjhtw. Le[b dyenhb yt nfr
+<ce> lj`hs, rfr pltcm, yj pltcm jyb gjckeiys.
+
+AcceptQuest:  [1002]
+<ce> Ns `thtimcz? Ns [jxtim `snm vjbv j`tp`j-
+<ce> kbdf<obv? Ns [jxtim blnb d uytplj _monster_
+<ce> =monster_ d ___mondung_ b e`bnm %g4?
+<ce> F[, %pcf, pf @nj z lfv nt`t
+<ce> vjq fhntafrn: _artifact_, rjnjhsq z
+<ce> ljdthbkf vjtve ckeut _qgfriend_.
+<ce> Gjckt njuj rfr =monster_ evhtn, blb d
+<ce> ___qgfriend_ b gjdcnhtxfqcz c vjbv hf`jv d
+<ce> __qgfriend_. Epyfnm %g4 kturj - =qgfriend_.
+<ce> Nfv ns gjkexbim _artifact_.
+<ce> F ntgthm, z ljk*yf dthyenmcz d cdjq pfvjr
+<ce> yf J`kbdbjyt. ~ele *lfnm yjdjcntq.
+
+QuestFail:  [1003]
+<ce> Ytn. Ljk*yj `snm ns botim yt
+<ce> njuj =qgfriend_.
+<ce> Vtyz pjden yt _qgfriend_.
+
+QuestComplete:  [1004]
+<ce> Bnfr, ns %pcn, dthyj?
+<ce> Z _qgfriend_.
+<ce> Ljk*ty crfpfnm, elbdkty, xnj yfitkcz %ra,
+<ce> jcvtkbdibqcz ghjcrjkmpyenm d pfvjr
+<ce> _monster_, e`bnm dkfltkmwf b lj`hfnmcz
+<ce> lj c<lf. Dgtxfnkztn. Yjrn<hyfk nj*t dtcmvf
+<ce> pfbynhbujdfyf nj`jq, dhexfz @njn lfh:
+<ce> _artifact_.
+<ce> Jcnjhj*ytt c @nbv, %pcf.
+
+RumorsDuringQuest:  [1005]
+=monster_ nf tot [bnh<uf -- %g gjldtk dc< Ubkmlb< Vfujd gjl gjljphtybt.
+   <--->
+Z yt ljdthz< ybrjve bp Ubkmlbb Vfujd, pyfz, xnj =monster_ zdkztncz b[ xktyjv.
+   <--->
+Vfub ujdjhzn, xnj =monster_ ghzxtncz jn uytdf J`kbdbjyf d ___fakedung_.
+   <--->
+Vfub cj`bhf<ncz ghjxtcfnm ___fakedung_ d gjbcrf[ ytujlzz =monster_.
+   <--->
+Z dbltk uhegge vfujd, yfghfdkz<ob[cz d ___fakedung_.
+   <--->
+Z cksifk, xnj ghtlfntkm =monster_ ctqxfc ghzxtncz d ___fakedung_.
+
+RumorsPostfailure:  [1006]
+Z pyf<, xnj e =monster_ `skb ytrjnjhst ytghbznyjcnb, djn gjxtve %g nfr `scnhj cvskcz?
+   <--->
+Ubkmlbz Vfujd ljk*yj `snm gjybvftn, xnj =monster_ `hjcftn ntym yf b[ htgenfwb<.
+
+RumorsPostsuccess:  [1007]
+Bnfr, yt vjue crfpfnm xnj gjhf*ty @nbv =monster_.
+   <--->
+Yt levf<, xnj fh[vfubcnh `eltn jgtxfkty, ecksifd j cvthnb =monster_.
+
+Message:  1011
+_qgfriend_ jlby bp pfdctulfnftd d __qgfriend_, ghjcn yf %di jnc<lf.
+   <--->
+_qgfriend_ @nj =qgfriend_, gjctof<obq __qgfriend_. ^nj yf %di jnc<lf.
+
+Message:  1012
+_qgfriend_ futyn Yjrn<hyfk, ghjbc[jlzobq bp __qgfriend_ yf %di jnc<lf.
+   <--->
+_qgfriend_ jlby bp hf`jd Yjrn<hyfk, ktlb lf@lhf, gjdtkbntkmybws Yjxb.
+
+Message:  1013
+Yjrn<hyfk - nfbycndtyyfz Gjdtkbntkmybwf Yjxb, jlyf bp ghbywtd lf@lhf.
+   <--->
+Yjrn<hyfk - ghbywtccf J`kbdbjyf, xmtq cathjq dkbzybz zdkz<ncz nmvf b nfqys.
+
+Message:  1014
+_artifact_ vj*tn jnrhsnm k<`jq pfvjr.
+
+Message:  1015
+Vfub ujdjhzn, xnj =monster_ ghzxtncz jn uytdf J`kbdbjyf d ___fakedung_.
+   <--->
+Vfub cj`bhf<ncz ghjxtcfnm ___fakedung_ d gjbcrf[ ytujlzz =monster_.
+   <--->
+Z dbltk uhegge vfujd, yfghfdkz<ob[cz d ___fakedung_.
+   <--->
+Z cksifk, xnj ghtlfntkm =monster_ ctqxfc ghzxtncz d ___fakedung_.
+
+Message:  1016
+%oth!  =monster_,
+futyn J`kbdbjyf yfcnbu yfc! Z gthtytc
+cfvst wtyyst htfutyns d ___fakedung_.
+Ghb[jlb, rjulf yfpjqkbdsq %ra `eltn vthnd.
+<ce>
+Y.
+
+
+Message:  1017
+<ce> Hfplfkcz ujkjc d ujkjdt:
+<ce> =monster_ ... ghfdlf...
+<ce> jcj`jt vtcnj...
+<ce> yjdjcnb...
+
+Message:  1018
+%qdt:
+ Gj ghb`snb< r ___mondung_
+ @[j cnfkj pfpsdfnm vtyz d
+ "jcj`jt vtcnj".
+
+Message:  1019
+%qdt:
+ Z yfitk pfvtnre jn =monster_, d rjnjhjq ujdjhbncz, xnj
+ %g *ltn vtyz d ___fakedung_ gjckt gjgsnrb
+ gjlregbnm vtyz
+
+Message:  1020
+%qdt:
+ E vtyz rjynhfrn c Yjrn<hyfk, jlyjq bp ghbywtcc lf@lhf
+ bp J`kbdbjyf. Ye*yj e`bnm _monster_ =monster_ d %g4
+ rhtgjcnb d ___mondung_ d j`vty pf fhntafrn
+ Yjrn<hyfk, _artifact_. Ltkj @nj ljk*yj `snm
+ pfrjyxtyj b vyt ye*yj gjdcnhtxfnmcz c tt futynjv
+ _qgfriend_ d __qgfriend_ bp ___qgfriend_
+ d ntxtybt =1stparton_ lytq bkb z yt cj`k<le
+ eckjdbz rjynhfrnf.
+ Djpvj*yj vtyz vjuen j*blfnm yfvyjuj [elibt gjcktlcndbz,
+ xtv yt gjkextybt _artifact_.
+
+Message:  1021
+%qdt:
+ =monster_ ghtlkj*bk vyt _bow_ d j`vty
+ yf %g4 *bpym, z yt d cjcnjzybb elth*fnmcz.
+ %g crfpfk, xnj bcrjvjt yf[jlbncz ult-nj
+ d ___bowdung_.  Ye f gjcrjkmre
+ Yjrn<hyfk ghtlfyf, nfr xnj vj*yj blnb
+ b gjbcrfnm @nj.
+
+Message:  1022
+%qdt:
+ =monster_ ghtlkj*bk vyt _ring_ d j`vty
+ yf %g4 *bpym, z yt d cjcnjzybb elth*fnmcz.
+ %g crfpfk, xnj bcrjvjt yf[jlbncz ult-nj
+ d ___ringdung_.  Ye f gjcrjkmre
+ Yjrn<hyfk e*t ghtlfyf, nfr xnj vj*yj blnb
+ b gjbcrfnm @nj.
+
+Message:  1023
+%qdt:
+ =monster_ ghtlkj*bk vyt _staff_ d j`vty
+ yf %g4 *bpym, z yt d cjcnjzybb elth*fnmcz.
+ %g crfpfk, xnj bcrjvjt yf[jlbncz ult-nj
+ d ___staffdung_.  Ye f gjcrjkmre
+ Yjrn<hyfk e*t ghtlfyf, nfr xnj vj*yj blnb
+ b gjbcrfnm @nj.
+
+Message:  1030
+<ce> Gjcnjq!  Z pyf<, xnj nt`z gjckfkf Yjrn<hyfk
+<ce> b xnj jyf gjj`tofkf nt`t _artifact_. Yj
+<ce> tckb ns botim bcnbyyjt vjueotcndj, nj z vjue
+<ce> ghtlkj*bnm yfvyjuj `jkmitt -- tckb ns
+<ce> ghtrhfnbim `jq, z crf*e nt`t, ult vj*yj yfqnb
+<ce> _bow_.
+<ce> Ghbtvktvj kb vjt ghtlkj*tybt?
+
+Message:  1031
+<ce> Gjcnjq!  Z pyf<, xnj nt`z gjckfkf Yjrn<hyfk
+<ce> b xnj jyf gjj`tofkf nt`t _artifact_. Yj
+<ce> tckb ns botim bcnbyyjt vjueotcndj, nj z vjue
+<ce> ghtlkj*bnm yfvyjuj `jkmitt -- tckb ns
+<ce> ghtrhfnbim `jq, z crf*e nt`t, ult vj*yj yfqnb
+<ce> _ring_.
+<ce> Ghbtvktvj kb vjt ghtlkj*tybt?
+
+Message:  1032
+<ce> Gjcnjq!  Z pyf<, xnj nt`z gjckfkf Yjrn<hyfk
+<ce> b xnj jyf gjj`tofkf nt`t _artifact_. Yj
+<ce> tckb ns botim bcnbyyjt vjueotcndj, nj z vjue
+<ce> ghtlkj*bnm yfvyjuj `jkmitt -- tckb ns
+<ce> ghtrhfnbim `jq, z crf*e nt`t, ult vj*yj yfqnb
+<ce> _staff_.
+<ce> Ghbtvktvj kb vjt ghtlkj*tybt?
+
+Message:  1035
+<ce> Ds e`bkb =monster_.
+<ce> Ntgthm ghbywtccf Yjrn<hyfk
+<ce> vj*tn cgfnm cgjrjqyj.
+
+Message:  1040
+<ce> Dtkbrjktgyj.  Z pyfk, xnj e nt`z
+<ce> cthlwt bcnbyyjuj yftvybrf. _bow_
+<ce> {hfybncz d ___bowdung_.
+<ce> Nt`t ye*yj dctuj kbim yfqnb @nj b
+<ce> ns gjkexbim vjueotcndj, rjnjhjt
+<ce> *tkftim. F ctqxfc z gj*tkf< nt`t
+<ce> [jhjituj lyz, xnj`s ns cvju ghtntyljdfnm
+<ce> b yf _bow_ b yf _artifact_ pf e`bqcndj
+<ce> vtyz. Cthlwe yftvybrf dhjlt nt`z
+<ce> yt cnjbn ckbirjv ljdthznm!
+
+Message:  1041
+<ce> Dtkbrjktgyj.  Z pyfk, xnj e nt`z
+<ce> cthlwt bcnbyyjuj yftvybrf. _ring_
+<ce> {hfybncz d ___ringdung_.
+<ce> Nt`t ye*yj dctuj kbim yfqnb @nj b
+<ce> ns gjkexbim vjueotcndj, rjnjhjt
+<ce> *tkfk. F ctqxfc z gj*tkf< nt`t
+<ce> [jhjituj lyz, xnj`s ns cvju ghtntyljdfnm
+<ce> b yf _ring_ b yf _artifact_ pf e`bqcndj
+<ce> vtyz. Cthlwe yftvybrf dhjlt nt`z
+<ce> yt cnjbn ckbirjv ljdthznm!
+
+Message:  1042
+<ce> Dtkbrjktgyj.  Z pyfk, xnj e nt`z
+<ce> cthlwt bcnbyyjuj yftvybrf. _staff_
+<ce> {hfybncz d ___staffdung_.
+<ce> Nt`t ye*yj dctuj kbim yfqnb @nj b
+<ce> ns gjkexbim vjueotcndj, rjnjhjt
+<ce> *tkftim. F ctqxfc z gj*tkf< nt`t
+<ce> [jhjituj lyz, xnj`s ns cvju ghtntyljdfnm
+<ce> b yf _staff_ b yf _artifact_ pf e`bqcndj
+<ce> vtyz. Cthlwe yftvybrf dhjlt nt`z
+<ce> yt cnjbn ckbirjv ljdthznm!
+
+QuestTimeLapse:  [1045]
+<ce> Bpltdfntkmcrbq cvtijr hfplfkcz d
+<ce> dfitq ujkjdt:
+<ce>
+<ce> "Nt`t ytj`[jlbvj pyfnm, xnj kexit vyt
+<ce> dthbnm, %pcn. Djpvj*yj @nf ntym
+<ce> vjueotcndf b eljdktndjhbn yf dhtvz
+<ce> ndj< *f*le, gjrf ndjq notnysq uytd
+<ce> yt j`hfnbncz ghjnbd njuj, rnj bcnbyyj
+<ce> dkflttn @nbv. Yfghbvth vtyz.
+<ce> Yflt<cm vbkfz Yjrn<hyfk yt `eltn
+<ce> ckbirjv hfpjxfhjdfyf ndjbv
+<ce> ghtlfntkmcndjv".
+<ce>
+<ce> _bow_ hfccsgfkcz d ghf[ d dfib[ herf[.
+
+Message:  1046
+<ce> Bpltdfntkmcrbq cvtijr hfplfkcz d
+<ce> dfitq ujkjdt:
+<ce>
+<ce> "Ns ytj`[jlbvj pyfnm, xnj kexit vyt
+<ce> dthbnm, %pcn. Djpvj*yj @nf ntym
+<ce> vjueotcndf b eljdktndjhbn yf dhtvz
+<ce> ndj< *f*le, gjrf ndjq notnysq uytd
+<ce> yt j`hfnbncz ghjnbd njuj, rnj bcnbyyj
+<ce> dkflttn @nbv. Yfghbvth vtyz.
+<ce> Yflt<cm vbkfz Yjrn<hyfk yt `eltn
+<ce> ckbirjv hfpjxfhjdfyf ndjbv
+<ce> ghtlfntkmcndjv".
+<ce>
+<ce> _ring_ hfccsgfkjcm d ghf[ d dfib[ herf[.
+
+Message:  1047
+<ce> Bpltdfntkmcrbq cvtijr hfplfkcz d
+<ce> dfitq ujkjdt:
+<ce>
+<ce> "Nt`t ytj`[jlbvj pyfnm, xnj kexit vyt
+<ce> dthbnm, %pcn. Djpvj*yj @nf ntym
+<ce> vjueotcndf b eljdktndjhbn yf dhtvz
+<ce> ndj< *f*le, gjrf ndjq notnysq uytd
+<ce> yt j`hfnbncz ghjnbd njuj, rnj bcnbyyj
+<ce> dkflttn @nbv. Yfghbvth vtyz.
+<ce> Yflt<cm vbkfz Yjrn<hyfk yt `eltn
+<ce> ckbirjv hfpjxfhjdfyf ndjbv
+<ce> ghtlfntkmcndjv".
+<ce>
+<ce> _staff_ hfccsgfkcz d ghf[ d dfib[ herf[.
+
+Message:  1050
+<ce> Yjrn<hyfk dgtxfnktyf ndjtq lthpjcnm<,
+<ce> %pcn. Jyf ghjcbkf vtyz e`bnm nt`z
+<ce> `scnhj, d yfuhfle pf nfrjt lthprjt
+<ce> ghtlfntkmcndj.
+
+
+
+QBN:
+Item _artifact_ artifact Skeletons_Key anyInfo 1014
+Item _bow_ artifact Auriels_Bow
+Item _ring_ artifact Warlocks_Ring
+Item _staff_ artifact Staff_of_Magnus
+Item _letter_ letter used 1016
+
+Person _questgiver_ face 112 named Nocturnal anyInfo 1013
+Person _qgfriend_ group Librarian anyInfo 1011 rumors 1012
+
+Place _mondung_ remote dungeon
+Place _bowdung_ remote dungeon
+Place _ringdung_ remote dungeon
+Place _staffdung_ remote dungeon
+Place _fakedung_ remote dungeon
+
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
+Clock _bonk_ 01:00 0 flag 1 range 0 1
+Clock _S.22_ 1.00:00 2.18:40
+Clock _betrayQuestor_ 00:02 00:30
+
+Foe _monster_ is Mage
+Foe _monster1_ is Mage
+Foe _daedra_ is Frost_daedra
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1020 step 0
+	pick one of _S.08_ _S.09_ _S.33_
+	pc at _mondung_ set _S.00_
+	_letter_ used do _S.02_
+	place foe _monster_ at _mondung_
+
+variable _S.00_
+_S.01_ task:
+	when _S.00_ and not _S.05_ and not _S.17_
+	log 1018 step 1
+	say 1017
+
+_S.02_ task:
+	reveal _fakedung_
+	log 1019 step 1
+
+_1stparton_ task:
+	end quest
+
+_S.04_ task:
+	clicked npc _qgfriend_
+
+_S.05_ task:
+	killed 1 _monster_
+	killed 1 _monster1_
+	say 1035
+
+_S.06_ task:
+	when _S.04_ and _S.05_
+	give pc _artifact_
+	start timer _bonk_
+	unset _S.04_
+
+_clearclick_ task:
+	when _S.04_ and not _S.05_
+	say 1003
+	clear _S.04_ _clearclick_
+
+_S.07_ task:
+	injured _monster_
+	place item _letter_ at _mondung_
+
+variable _S.08_
+variable _S.09_
+variable _betrayQuestor_
+_S.11_ task:
+	clicked item _bow_
+	clear _S.08_
+
+_S.12_ task:
+	clicked item _ring_
+	clear _S.09_
+
+_S.13_ task:
+	clicked item _staff_
+	clear _S.33_
+
+_S.14_ task:
+	when _S.17_ and _S.19_
+	place item _bow_ at _bowdung_
+	reveal _bowdung_
+	log 1021 step 2
+	say 1040
+
+_S.15_ task:
+	when _S.17_ and _S.20_
+	place item _ring_ at _ringdung_
+	reveal _ringdung_
+	log 1022 step 2
+	say 1041
+
+_S.16_ task:
+	when _S.17_ and _S.21_
+	place item _staff_ at _staffdung_
+	reveal _staffdung_
+	log 1023 step 2
+	say 1042
+
+_S.17_ task:
+	place item _letter_ at _mondung_
+	dialog link for location _fakedung_
+	start timer _S.22_
+	rumor mill 1015
+	change repute with _questgiver_ by -20
+	remove foe _monster_
+	place foe _monster1_ at _fakedung_
+--replaced faulty action "place foe _monster_ at _fakedung_" with remove foe, otherwise foe would not disappear. added new monster1 variable
+
+
+variable _S.18_
+_S.19_ task:
+	when _S.07_ and _S.08_
+	prompt 1030 yes _S.17_ no _S.18_
+
+_S.20_ task:
+	when _S.07_ and _S.09_
+	prompt 1031 yes _S.17_ no _S.18_
+
+_S.21_ task:
+	when _S.07_ and _S.33_
+	prompt 1032 yes _S.17_ no _S.18_
+
+_S.22_ task:
+	create foe _daedra_ every 3 minutes 4 times with 100% success
+
+_S.23_ task:
+	injured _daedra_
+	say 1050
+
+_S.24_ task:
+	when _betrayQuestor_ and _S.14_
+	place item _bow_ at _fakedung_
+	say 1045
+
+_S.25_ task:
+	when _betrayQuestor_ and _S.15_
+	place item _ring_ at _fakedung_
+	say 1046
+
+_S.26_ task:
+	when _betrayQuestor_ and _S.16_
+	place item _staff_ at _fakedung_
+	say 1047
+
+_S.27_ task:
+	when _S.11_ and not _S.05_
+	start timer _betrayQuestor_
+
+_S.28_ task:
+	when _S.12_ and not _S.05_
+	start timer _betrayQuestor_
+
+_S.29_ task:
+	when _S.13_ and not _S.05_
+	start timer _betrayQuestor_
+
+_S.30_ task:
+	when _S.11_ and _S.05_
+	make _bow_ permanent
+
+_S.31_ task:
+	when _S.12_ and _S.05_
+	make _ring_ permanent
+
+_S.32_ task:
+	when _S.13_ and _S.05_
+	make _staff_ permanent
+
+variable _S.33_
+_bonk_ task:
+	end quest

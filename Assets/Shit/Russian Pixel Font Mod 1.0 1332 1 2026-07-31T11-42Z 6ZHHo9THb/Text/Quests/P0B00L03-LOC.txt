@@ -1,0 +1,224 @@
+-- Quest: C:\QUESTS\WORKING\P0B00L03.Qbn.
+-- StartsBy: letter
+-- Questee: member
+-- Questor: vampire
+-- Repute: 0
+-- QuestId: 3
+Messages: 27
+Quest: P0B00L03
+DisplayName: ~jb pf nthhbnjhbb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcn, dfv dsgfkf
+<ce> dtkbrfz xtcnm jnghfdbnmcz
+<ce> pf dtkbrjq ckfdjq d ctvmt %vam.
+<ce> Lflbnt kb ds cdjt cjukfcbt?
+
+RefuseQuest:  [1001]
+<ce> Ds jcnfdbnt @nj pflfybt lkz lheub[
+<ce> b egecnbnt djpvj*yjcnm ghjckfdbnmcz?
+<ce> Xnj *, ltkj dfit, yj, ghbpyfnmcz, z
+<ce> d hfpjxfhjdfybb.
+
+AcceptQuest:  [1002]
+<ce> {jhjij, %pcf, njulf ckeifqnt.
+<ce> Dfvgbh bp cjgthybxf<otq ctvmb
+<ce> gthtitk yfie uhfybwe. Nfrbt yf[fks
+<ce> pfcke*bdf<n cvthnb. Yj `elmnt
+<ce> jcnjhj*ys, %pcf.  Lhtdybq dfvgbh,
+<ce> cnfhtqibyf ctvmb, gecnm lf*t `jktt ybprjuj
+<ce> hfyuf, xtv ctvmz %vam, jny<lm yt ckf`sq
+<ce> ghjnbdybr. Ght*lt xtv ktpnm d lhfre,
+<ce> jcyjdfntkmyj gjlujnjdmntcm.
+<ce> Pjden @njuj dfvgbhf - _vampname_.
+<ce> Lhtdybq [hfv, ult %g ctqxfc yf[jlbncz,
+<ce> yfpsdftncz ___mondung_. E y%g4 tcnm jlyf
+<ce> ckf`jcnm. %g jxtym cbkmyj ujhlbncz cdjtq
+<ce> kexitq dtom<, - _vampproof_
+<ce> cltkfyyjq bp rj*b tuj *thnd.
+<ce> Tckb ds ghbytctnt vyt @ne ghtktcnm, yt njkmrj
+<ce> djphfcntn dfif ckfdf, yj b ctvmz njuj dfvgbhf
+<ce> epyftn, rfr gjczufnm yf nj, xnj tq yt ghbyflkt*bn
+<ce> Jxtym yflt<cm edbltnm dfc pltcm xthtp
+<ce> =1stparton_ yjxtq. Yt lfqnt ct`z e`bnm,
+<ce> %pcf.
+
+QuestFail:  [1003]
+<ce> Gj[j*t, ds yflttntcm, xnj
+<ce> _vampname_ gjrjyxbn c cj`jq?
+<ce> ^nj dhzl kb.
+<ce> Dfvgbhfv xe*ls xedcndf, yj nhecjcnm
+<ce> gjhbwftncz dctulf.
+
+QuestComplete:  [1004]
+<ce> Lj`hj gj*fkjdfnm ljvjq, %pcf, lbnz vjt.
+<ce> Cnhfyyj, yj vyt `skj ytcgjrjqyj yf leit,
+<ce> rjulf ds bcrfkb dfie *thnde.
+<ce> Ytktgj, rjytxyj - e vtyz *t ytn leib.
+<ce> Lf b ctvmz %vam yt nthgbn ctynbvtynfkmyjcnb.
+<ce> Gthtlf< dfv gjplhfdktybz jn ukfds
+<ce> ctvmb %vam. Vyt gjhexbkb vyt gthtlfnm dfv
+<ce> djn @nj, - _reward_. Ytn, yt levfqnt,
+<ce> xnj @nj dekmufhyfz gkfnf pf nhel. Ghbvbnt
+<ce> @nj rfr gjlfhjr jn yfituj ctvtqcndf.
+
+RumorsDuringQuest:  [1005]
+{hfv ___mondung_ rjulf-nj `sk wdtneobv, yj tuj e*t lfdyj pf`hjcbkb.
+   <--->
+_vampname_ - fhbcnjrhfn. Ujdjhzn, %g yf[jlbncz ult-nj d [hfvt ___mondung_.
+
+RumorsPostfailure:  [1006]
+_vampname_... %g4 `jkmit yt dblyj d [hfvt ___mondung_. Lkz fhbcnjrhfnf @nj vtcnj zdyj yt gjl[jlbn.
+   <--->
+Ctqxfc, rjulf _vampname_ d gjlptvtkmt ___mondung_, d %g jgznm ljcnfnjxyj vtcnf.
+
+RumorsPostsuccess:  [1007]
+Ytn, @nj ytdjpvj*yj,... _vampname_ - dfvgbh! E vtyz ytn ckjd!
+   <--->
+%god, ckfdf nt`t. %ra e`bk dfvgbhf bp [hfvf ___mondung_.
+
+QuestorPostsuccess:  [1008]
+Ghbdtncnde<, %pcf. Yflt<cm, dfv yhfdbncz dfif yjdfz buheirf, - _reward_.
+
+QuestorPostfailure:  [1009]
+<ce> _vampname_ dct tot [jlbn
+<ce> gj yjxfv gj yfibv nthhbnjhbzv.
+<ce> Yfv ghbikjcm jnghfdbnm pf ybv lheujuj,
+<ce> `jktt cbkmyjuj dfvgbhf. Xnj rfcftncz dfc
+<ce> Tckb ds pyfkb, xnj yt cghfdbntcm c
+<ce> pflfybtv, pfxtv *t njulf `hfkbcm pf
+<ce> ytuj. Ctvmz %vam hfpjxfhjdfyf
+<ce> d dfc. Vzurj ujdjhz.
+
+Message:  1020
+Ljhjujq lheu, %pcn.
+<ce>
+  Rf*tncz, e ctvmb %vam gjzdbkfcm
+cthmtpyfz ghj`ktvf. |le dfc
+c ytnthgtybtv d ujhjlt ___vampire_.
+Evjkz<, gjcrjhtt.
+Dfi lheu d cvthnb,
+_vampire_
+<ce> ----
+
+Message:  1011
+=vampire_ bp ljvf __vampire_? %g dctulf ujdjhbn jxtym dt*kbdj b ghbznyj.
+   <--->
+_vampire_, @nj =vampire_, bobnt d ljvt __vampire_, yf %di jnc<lf.
+
+Message:  1012
+_vampire_ - dfvgbh bp ctvmb %vam.
+   <--->
+_vampire_ - vjkjljq xkty ctvmb %vam. J`exftn tot `jktt vjkjls[ dfvgbhjd.
+
+Message:  1013
+_vampproof_ cltkfkb bp cnhfyyjq `ktlyjq rj*b. Yflgbcm cybpe ukfcbn, - "fdnjh -  _vampname_".
+
+Message:  1015
+Error -- 1015 is being displayed
+
+Message:  1021
+<ce> "Gjvjubnt vyt, jyb e`m<n vtyz...",- vjkjltymrfz
+<ce> ltdeirf, tot gjxnb ht`tyjr, rbyekfcm r dfv
+<ce> bof pfobns. Xenm dlfkb `scnhj ghb`kb*fkbcm
+<ce> ldf ntvys[ cbke@nf.
+<ce> "Fuf, gj[j*t @nj bvtyyj nj, xnj vs botv",-
+<ce> ghjibgtk jlby bp yb[,-"ltdxjyrf, e`bhfqcz
+<ce> jnc<lf, nj, xnj nen ctqxfc ghjbpjqltn, yt
+<ce> lkz ndjb[ ukfp",- c @nbvb ckjdfvb jy dsnfobk
+<ce> vtx. Lheujq nj*t yt pfcnfdbk ct`z *lfnm.
+<ce> ...
+<ce> ~jq `sk ljkubv b nz*tksv, yj ds cghfdbkbcm.
+<ce> Gj[j*t, xnj `jub ytphbvj dvtifkbcm d dfie c[dfnre.
+<ce> Jcvfnhbdfz nhegs dfvgbhjd,- @nj `skb bvtyyj
+<ce> dfvgbhs, njkmrj bp lheujq ctvmb, ds yfikb rkjxjr
+<ce> `evfub, yf rjnjhjv xnj-nj `skj yfgbcfyj.
+<ce> Jcnfkjcm ytgjyznysv njkmrj nj, xnj pltcm
+<ce> ltkfkb xktys lheujq ctvmb dfvgbhjd...
+
+Message:  1022
+<ce> Vyt elfkjcm jlyf*ls djccnfnm bp vthnds[.
+<ce> B @nj ghjbpjqltn cyjdf b cyjdf.
+<ce> b rjulf z djccnfye, z dsrjgf< dfc b
+<ce> dfituj [jpzbyf, - _vampire_ rfr
+<ce> xthdtq! Z cyjdf j`vfye cvthnm.
+
+Message:  1025
+%qdt:
+ _vampire_ bp
+ ujhjlf ___vampire_ dspsdftn
+ vtyz d ljv __vampire_.
+ Ctvmz %vam yt k<`bn *lfnm.
+
+Message:  1026
+%qdt:
+ _vampire_ jnghfdkztn
+ vtyz d lhtdybq [hfv ___mondung_.
+ Vyt ye*yj jnscrfnm nfv b e`bnm
+ lhtdytuj dfvgbhf gj bvtyb
+ _vampname_.
+ D rfxtcndt ljrfpfntkmcndf vtyz ghjczn
+ ghbytcnb ytj`sxye< dtom, - _vampproof_
+ Dthyenmcz d ljv __vampire_ vyt yflj
+ yt gjplytt xtv xthtp =1stparton_ yjxtq.
+
+
+
+QBN:
+Item _reward_ magic_item
+Item _vampproof_ boots anyInfo 1013
+Item _letter_ letter used 1020
+
+Person _vampire_ face 40 factiontype Vampire_Clan local anyInfo 1011 rumors 1012
+Person _vampname_ face 4 factiontype Vampire_Clan male remote
+
+Place _mondung_ remote dungeon8
+
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
+
+Foe _vamprival_ is Ancient_vampire
+
+--	Quest start-up:
+	dialog link for person _vampire_ item _vampproof_
+	pc at _mondung_ set _S.10_
+	_letter_ used do _readletter_
+	have _letter_ set _S.12_
+	give pc _letter_ notify 1021
+	create npc _vampire_
+
+_falseAide0_ task:
+-added underscores to falseaide0
+	toting _vampproof_ and _vampire_ clicked
+	give pc _reward_
+	end quest
+
+variable _queston_
+_S.02_ task:
+	killed 1 _vamprival_ saying 1022
+
+_vampclicked_ task:
+	clicked npc _vampire_ say AcceptQuest
+	reveal _mondung_
+	log 1026 step 1
+
+_1stparton_ task:
+	make _vampproof_ permanent
+	end quest
+
+_S.06_ task:
+	when _S.07_ and not _vampclicked_
+
+variable _S.07_
+_readletter_ task:
+	add dialog for person _vampire_
+	log 1025 step 0
+
+variable _S.09_
+_S.10_ task:
+	give item _vampproof_ to _vamprival_
+	place foe _vamprival_ at _mondung_
+
+_S.12_ task:
+	start timer _1stparton_

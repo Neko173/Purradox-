@@ -1,0 +1,140 @@
+-- Quest: C:\QUESTS\WORKING\B0C00Y05.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: knight
+-- Repute: 0
+-- QuestId: 5
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 81
+Quest: B0C00Y05
+DisplayName: Ghtlfntkm
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ds dct tot yt ljdthtyysq xkty yfituj
+<ce> hswfhcrjuj jhltyf, %pcn.
+<ce> Jlyfrj, gjkfuf<, xnj pyf< genm
+<ce> pfcke*bnm yfit ljdthbt. D jhltyt tcnm
+<ce> ghtlfntkm d ___qgiver_,
+<ce> vthprbq _monster_, rjnjhsq dslfk
+<ce> yfc yfibv dhfufv. Cvthnm - @njuj
+<ce> ytljcnfnjxyj lkz yfrfpfybz ghtlfntkz,
+<ce> ds yt levftnt, %pcn? Ds cjukfcys
+<ce> dsgjkybnm @ne hf`jne lkz jhltyf?
+
+RefuseQuest:  [1001]
+<ce> Lf*t yt hfccxbnsdfqnt yf `kfujcrkjyyjcnm
+<ce> yfituj jhltyf d lfkmytqitv!
+
+AcceptQuest:  [1002]
+<ce> Ghtlfntkm - _monster_
+<ce> gj bvtyb =monster_, ghzxeobqcz
+<ce> gjlj`yj nheckbdjve ckbpy< d
+<ce> ___mondun_.
+<ce> Tckb ds yt dthytntcm d ntxtybt
+<ce> =queston_ lytq, yfib yflt*ls yt
+<ce> `elen jghfdlfys b rnj-nj lheujq
+<ce> pfqvtn dfit vtcnj.
+
+QuestFail:  [1003]
+<ce> _monster_ yt vthnd. B yt gsnfqntcm
+<ce> e`tlbnm vtyz d j`hfnyjv.
+
+QuestComplete:  [1004]
+<ce> Yfdthyjt ds yt nfr e* b gkj[b, rfr
+<ce> vyt rfpfkjcm. %pcn, ds
+<ce> pfcke*bkb yt`jkmie< njkbre
+<ce> edf*tybz d yfitv hswfhcrjv jhltyt.
+
+RumorsDuringQuest:  [1005]
+^njn _monster_ crhskcz d ___mondun_ gjlj`yj bcxflbzv flf, cnjzobvb pf ybv.
+   <--->
+_qgiver_ yt vj*tn gjpdjkbnm, xnj`s =monster_ cvskcz gjckt dctuj njuj, xnj jy cjndjhbk lkz jhltyf.
+
+RumorsPostfailure:  [1006]
+=monster_ yfvyjuj cbkmytt, xtv levfk _qgiver_. Jy `t*fk.
+   <--->
+=monster_ gthtvtcnbkcz yf ctdth, rfr z cksifk, yj gfvznm j ytv dct tot yfrkflsdftn ntym yf yfi jhlty.
+
+RumorsPostsuccess:  [1007]
+Bcnjhbz =monster_ njkmrj ljrfpsdftn @nj. Yt cnjbn pfbuhsdfnm c ==qgiver_.
+   <--->
+Z dctulf gjkfufk, xnj jhlty `eltn vbkjcthlty r ckbpy< yfdhjlt =monster_.
+
+QuestorPostsuccess:  [1008]
+~ele cxfcnkbd gjvjxm dfv rfr njkmrj cvjue, e`bqwf.
+
+QuestorPostfailure:  [1009]
+Dfit nfr vzurjcthltxys, %pcf. Yt nhfnmnt vjt dhtvz.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp ___qgiver_
+ gjckfk vtyz yfqnb b eybxnj*bnm _monster_
+ ghjpsdftvjuj =monster_, rjnjhsq
+ ghzxtncz ult-nj d jrhtcnyjcnz[ ___mondun_. E vtyz
+ =queston_ lytq, xnj`s pfrjyxbnm ltkj.
+
+Message:  1011
+<ce> =monster_, _monster_ e`bn.
+<ce> Hswfhcrbq jhlty `eltn ljdjkty.
+
+Message:  1080
+<ce> D pyfr yfitq ghbpyfntkmyjcnb, djpmvbnt
+<ce> gj*fkeqcnf @ne rfhne r ___newdung_,
+<ce> jndhfnbntkmyfz, rbifofz gfhfpbnfvb
+<ce> lshf cj dctvb dsntrf<obvb bp @njuj
+<ce> gjcktlcndbzvb. ^nj dctuj kbim
+<ce> vtcntxrj, rjnjhjt k<`jq gjlf<obq
+<ce> yflt*ls hswfhm `eltn hfl j`xbcnbnm.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+
+Place _mondun_ remote dungeon
+Place _newdung_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Nightblade
+
+--	Quest start-up:
+	start timer _queston_
+	reveal _mondun_
+	log 1010 step 0
+	pick one of _map_ _nomap_ _nomap_
+	place foe _monster_ at _mondun_
+
+_queston_ task:
+	end quest
+
+_pcgetsgold_ task:
+	when _mondead_ and _qgclicked_
+	give pc nothing
+
+_mondead_ task:
+	killed 1 _monster_ saying 1011
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_clearclick_ task:
+	when not _mondead_ and _qgclicked_
+	say 1003
+	clear _qgclicked_ _clearclick_
+
+variable _map_
+variable _nomap_
+_S.07_ task:
+	when _map_ and _pcgetsgold_
+    say 1080
+	reveal _newdung_
+	end quest
+
+_S.08_ task:
+    when not _map_ and _pcgetsgold_
+    end quest

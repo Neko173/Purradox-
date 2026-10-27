@@ -1,0 +1,128 @@
+-- Quest: C:\QUESTS\WORKING\R0C10Y11.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 11
+Messages: 16
+Quest: R0C10Y11
+DisplayName: Rjynhf`fylyst njdfhs
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> E dfc ytn, ckexfqyj, ytvyjuj dhtvtyb
+<ce> yf dsgjkytybt vfktymrjuj vjtuj pflfybz?
+<ce> ^nj jxtym ghjcnj, z `s b cfv @nj cltkfk
+<ce> bkb jnghfdbk `s jlyjuj bp vjb[ gjcskmys[,
+<ce> yj vs dct nfr pfyzns. ^nj gjlhfpevtdftn
+<ce> _reward_ pjkjns[ d yfuhfle.
+<ce> Ljcnfnjxyj ytgkj[j.
+<ce> Yf dfc vj*yj hfccxbnsdfnm?
+
+RefuseQuest:  [1001]
+<ce> Ytn? %god, [hfyb vtyz jn
+<ce> %ra `tpltkmybrf!
+
+AcceptQuest:  [1002]
+<ce> Rfrfz elfxf! F ctqxfc `thbnt @njn _item_
+<ce> b blbnt d ___qgfriend_
+<ce> d vtcnj, yfpsdftvjt __qgfriend_.
+<ce> Nfv `eltn cnhfyysq =qgfriend_,
+<ce> gj bvtyb _qgfriend_.
+<ce> Lfqnt %g2 _item_ b %g
+<ce> lfcn dfv _reward_ pjkjns[.
+<ce> Lf, rcnfnb, dfv ye*yj `snm nfv yt gjplytt
+<ce> =queston_ lytq, yj @nj yt cnfytn
+<ce> ghj`ktvjq. Dtlm e dfc rhtgrbt vjkjlst
+<ce> yjub. Yb ge[f, yb gthf.
+
+QuestFail:  [1003]
+<ce> Ds gj[j*b yf %pcf,
+<ce> yj @njuj yt vj*tn `snm.  %pcn
+<ce> e*t yf genb r ___qgfriend_.
+
+QuestComplete:  [1004]
+<ce> _questgiver_ yfyzk dfc d rfxtcndt gjcskmyjuj?
+<ce> F djn b _item_, rjnjhsq z j*blfk.
+<ce> Jxtym [jhjij. Djn dfit pjkjnj. ~kfujlfh<.
+
+RumorsDuringQuest:  [1005]
+_questgiver_, z cksifk, dct tot ghjvsikztn rjynhf`fyljq.
+   <--->
+ Pf gjcktlytt dhtvz ghjbpjitk gjhfpbntkmysq hjcn rjynhf`fyls.
+
+RumorsPostfailure:  [1006]
+Z cksifk, rnj-nj yfnjkryekcz yf _item_ yf rhf< ptvkb.
+   <--->
+ _questgiver_ cdbhtg rfr fl r ytrjtve %ra fdfyn<hbcne.
+
+RumorsPostsuccess:  [1007]
+Ytrbq =qgfriend_ `sk ghzvj pltcm, jrjkfxbdfzcm djrheu _item_.
+   <--->
+<ce> Gjkfuf<, _questgiver_ dct-nfrb yt erhfk @njn _item_,
+<ce> byfxt %g c]tk `s tuj.
+
+QuestorPostsuccess:  [1008]
+Epyf< @nb rhtgrbt vjkjlst yjub. Rfr ds, vjq rehmth?
+   <--->
+Ghbikb yfdtcnbnm dfituj yfybvfntkz, %pcf?
+
+QuestorPostfailure:  [1009]
+<ce> Z nt`z gjvy<. Ns njn
+<ce> %ra, rnj ghjdfkbk @nj ghjcnjt
+<ce> gjhextybt gj ljcnfdrt.  %oth,
+<ce> e vtyz ytn dhtvtyb lkz nt`z.
+
+Message:  1011
+%g ljdjkmyj gjxntyysq ujcgjlby, c djhjdcrbvb yfrkjyyjcnzvb.
+   <--->
+Vfnthsq rjynhf`fylbcn, djn xnj z cksifk.
+
+Message:  1012
+Jlby bp cregobrjd rhfltyjuj _questgiver_. _qgfriend_ ghfrnbxtcrb *bdtn d __qgfriend_.
+   <--->
+^njn =qgfriend_? _qgfriend_ - jlby bp cregobrjd rhfltyjuj lkz kjujdf rjynhf`fylbcnjd d __qgfriend_.
+
+Message:  1015
+%qdt:
+ _questgiver_ bp
+ __questgiver_ gjghjcbk vtyz
+ ljcnfdbnm ytrbq _item_
+ cdjtve rjkktut gj bvtyb _qgfriend_.
+ Vtcnj ght`sdfybz _qgfriend_ -
+ __qgfriend_ d ___qgfriend_,
+ gentitcndbt yf =queston_ lytq.
+ Cnjkmrj dhtvtyb e vtyz tcnm.
+
+
+
+QBN:
+Item _reward_ gold
+Item _item_ ring
+
+Person _questgiver_ group Questor anyInfo 1011
+Person _qgfriend_ group Local_3.0 remote anyInfo 1012
+
+
+Clock _queston_ 00:00 0 flag 1 range 1 4
+
+
+--	Quest start-up:
+	start timer _queston_
+	log 1015 step 0
+	get item _item_
+	create npc _qgfriend_
+
+_pcgetsgold_ task:
+	toting _item_ and _qgfriend_ clicked
+	give pc _reward_
+	end quest
+
+variable _pchasitem_
+_queston_ task:
+	make _item_ permanent
+	change repute with _questgiver_ by -30
+	end quest
+
+variable _npcclicked_

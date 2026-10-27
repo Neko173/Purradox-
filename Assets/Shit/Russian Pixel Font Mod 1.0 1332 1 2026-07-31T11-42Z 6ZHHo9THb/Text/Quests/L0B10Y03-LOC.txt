@@ -1,0 +1,169 @@
+-- Quest: C:\QUESTS\WORKING\L0B10Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 10
+-- QuestId: 3
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 15
+Quest: L0B10Y03
+DisplayName: Cfvjdjkmyjt jncencndbt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> ~hfncndj ujhlbncz ntv, xnj dctulf
+<ce> pyftn, ult yf[jlbncz rf*lsq `hfn.
+<ce> Z vjue crfpfnm dfv, ult ds `skb d
+<ce> ghjiksq Nbhlfc b rfrfz uhzpm `skf
+<ce> yf dfib[ cfgjuf[. Jlyfrj, jlby bp
+<ce> yfib[ `hfnmtd bcxtp dj dhtvz cdjtq
+<ce> rjvfylbhjdrb. Dfv yflj gjghj`jdfnm
+<ce> yfqnb %g4, rcnfnb, pjden %g4 =target_,
+<ce> b, tckb e y%g4 ytn fltrdfnys[ j`]zcytybq
+<ce> cdjtuj jncencndbz, eybxnj*bnm %g4.
+<ce> Z pyf<, e dfc yfqltncz dhtvz lkz
+<ce> @njuj, nfr?
+   <--->
+<ce> Rfr ds pyftnt, ybrnj yt vj*tn ghjcnj nfr
+<ce> dsqnb bp Ntvyjuj ~hfncndf. Jlby `hfn
+<ce> bcxtp dj dhtvz rjvfylbhjdrb b yfv
+<ce> ytj`[jlbvj pyfnm, =target_
+<ce> d *bds[ bkb ytn. Dfv ghjcnj ytj`[jlbvj
+<ce> ghbyznm @ne rjvfylbhjdre.
+
+RefuseQuest:  [1001]
+<ce> Ghfdlf? {jhjij, z gjkfuf<,
+<ce> e dfc tcnm ghfdj yf jnrfp jn
+<ce> htlrb[ rjvfylbhjdjr.
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj. =target_ bvttn
+<ce> hjlcndtyybrf d ujhjlt ___contact_ --
+<ce> =contact_ gj bvtyb
+<ce> _contact_. Gjbobnt d
+<ce> vtcnt, yfpsdftvjv __contact_.
+<ce> Gjujdjhbnt... gj*tcnxt...
+<ce> b epyfqnt, ult yf[jlbncz %g4 repty.
+<ce> Z lf< dfv =queston_ lytq yf pfdthitybt
+<ce> @njuj... vvv... ltkf b djpdhfn.
+
+QuestComplete:  [1004]
+<ce> =target_ dfvgbh?
+<ce> Xnj *. ^nj vyjujt j`]zcyztn.
+<ce> Tckb dfc pfltkb, dfv ye*yj
+<ce> chjxyj `t*fnm d [hfv - ktxbnmcz.
+<ce> Ds yt ljk*ys cnfnm xktyjv ctvmb
+<ce> rhjdjcjcjd.
+
+RumorsDuringQuest:  [1005]
+Tot ybrnj yt gtht[bnhbk Ntvyjt ~hfncndj.
+   <--->
+Vyt rf*tncz, rfrjq-nj `fhjy ghbxfcnty r bcxtpyjdtyb< dfitq wtkb, - =target_.
+
+RumorsPostfailure:  [1006]
+=target_? Rnj-nj ujdjhbn, xnj cvthnm ghbyzkf %g4. Yj lheubt dbltkb %g4 ... ghfdlf njkmrj yjxm<.
+
+RumorsPostsuccess:  [1007]
+Dtctkj, ~hfncndj ghbrjyxbkj njuj rhjdjcjcf. Rfr levftnt, jyb ljkuj e*bdfkbcm dvtcnt?
+   <--->
+=target_? %g4 gjcktlyzz wtkm `skf cbkmytt, xtv vj*yj `skj j*blfnm
+
+QuestorPostsuccess:  [1008]
+Plhfdcndeqnt, %pcf. Z yflt<cm, ds gjl ghbcvjnhjv cdzotyybrf gjckt `bnds c dfvgbhjv.
+
+QuestorPostfailure:  [1009]
+<ce> E vtyz ytn ybxtuj rhjvt ghtphtybz
+<ce> r ntv, rnj yt jghfdlfk ljdthbz.
+<ce> E`bhfqntcm jnc<lf, %pcf.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp Ntvyjuj ~hfncndf d
+ ujhjlt ___qgiver_, __qgiver_
+ jnghfdkztn vtyz yf dsckt*bdfybt `hfnf,
+ rjnjhsq bcxtp. B, tckb yt `eltn ybrfrb[
+ ghbtvktvs[ j`]zcytybq, dsgjkytybt rjynhfrnf.
+ ^nf kbxyjcnm, bvz %g4 - =target_,
+ bvttn hjlcndtyybrf d ujhjlt
+ ___contact_.
+ =contact_ gj bvtyb
+ _contact_. Bcrfnm yflj d
+ vtcnt gjl yfpdfybtv  ___contact_.
+ Vyt lfkb =queston_ lytq xnj`s yfqnb njuj
+ hjlcndtyybrf, dscktlbnm lbxm b dthyenmcz yfpfl.
+
+Message:  1011
+<ce> Vyt ybxtuj ytbpdtcnyj j hjlcndtyybrt, - =target_,
+<ce> c nt[ gjh, rfr %g4 jnghfdbkb yf gjbcrb `fhjyf
+<ce> d pfvjr ___mondung_. Cnhfyyfz kbxyjcnm,
+<ce> @njn `fhjy. Ybrjulf yt gjzdkztncz lytv,
+<ce> *bdtn d vhfxyjv vtcnt. Z yt elbdkz<cm,
+<ce> xnj rnj-nj *tkftn tuj cvthnb. Dct *t, tckb
+<ce> rnj-nj jcnfyjdbn rfhmthe vjtuj hjlcndtyybrf
+<ce> d ~hfncndt, z yfnhfdk< yf ytuj
+<ce> njuj njotuj `ktlyjuj `fhjyf.
+
+Message:  1012
+%qdt:
+ _contact_ ujdjhbn vyt,
+ xnj =target_ yf[jlbncz d pfvrt
+ ___mondung_, d gjbcrf[
+ rfrjuj-nj pfufljxyjuj `fhjyf bp rjynhfrnf.
+ ___mondung_ `eltn vjtq cktle<otq jcnfyjdrjq.
+
+Message:  1013
+<ce> "Gjpdjkm vyt gjltkbnmcz `tccvthnbtv,
+<ce> rjnjhjt vyt gjlfhbk `fhjy"
+<ce> ibgbn =target_.
+
+Message:  1014
+<ce> Dfvgbh, =target_,
+<ce> egjrjty.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+Person _contact_ face 176 group Innkeeper
+
+Place _mondung_ remote dungeon8
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _target_ is Vampire
+
+--	Quest start-up:
+	start timer _queston_
+	log 1010 step 0
+	place foe _target_ at _mondung_
+
+_queston_ task:
+	end quest
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_reward_ task:
+    when _qgclicked_ and _S.04_
+    give pc nothing
+	end quest
+
+_S.02_ task:
+	clicked npc _contact_
+	reveal _mondung_
+	log 1012 step 1
+	say 1011
+
+_S.03_ task:
+	injured _target_ saying 1013
+
+_S.04_ task:
+	killed 1 _target_ saying 1014
+
+variable _S.06_
+--unused variables
+_clearclick_ task:
+	when _qgclicked_ and not _S.04_
+	clear _qgclicked_ _clearclick_

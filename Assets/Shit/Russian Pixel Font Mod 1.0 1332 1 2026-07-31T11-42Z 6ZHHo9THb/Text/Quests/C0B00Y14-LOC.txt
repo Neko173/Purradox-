@@ -1,0 +1,197 @@
+-- Quest: C:\QUESTS\WORKING\C0B00Y14.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: temple
+-- Repute: 0
+-- QuestId: 14
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 62
+Quest: C0B00Y14
+DisplayName: J[jnf yf yt*bnm
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pct, e vtyz tcnm lkz dfc jgfcyjt pflfybt.
+<ce> Crf*e ghzvj, ye*yj eybxnj*bnm cbkmye<
+<ce> ndfhm rkfccf yt*bnb.
+<ce> __questgiver_ ghjcbn dfc cltkfnm @nj.
+<ce> Djpmvtntcm?
+
+RefuseQuest:  [1001]
+<ce> {jhjij, z yt `ele dbybnm dfc.
+<ce> Vyt jcnftncz yfltznmcz njkmrj yf ct`z.
+
+AcceptQuest:  [1002]
+<ce> Dfif [hf`hjcnm ghjckfdbn yfi jhlty, %pcf.
+<ce> Yfv ye*yj jxbcnbnm jlyj vtcnj, bvtyetvjt
+<ce> ___mondung_.  Vyjuj ktn yfpfl
+<ce> @nj `sk jlby bp yfib[ [hfvjd, yj ntgthm
+<ce> tuj jcrdthytyyst ufkthtb yfctktys yt*bnm<.
+<ce> Dfv ye*yj eybxnj*bnm cbkmytqituj ghbphfrf
+<ce> b jrhjgbnm nj, xnj jn ytuj jcnfytncz
+<ce> cgtwbfkmyj ghbujnjdktyyjq lkz @njuj cdznjq
+<ce> djljq. Tckb ds yt dthytntcm xthtp =qtime_ lytq,
+<ce> z djcreh< `kfujdjybz d xtcnm dfitq gjub`itq
+<ce> leib b jnghfdk< tot rjuj-yb`elm jnjvcnbnm
+<ce> pf dfc. %god `eltn c dfvb, lbnz vjt.
+
+QuestFail:  [1003]
+<ce> %pct, tckb ds yt [jnbnt gjvjxm
+<ce> jxbcnbnm [hfv ___mondung_, nj
+<ce> dfv ye*yj `skj crfpfnm j` @njv hfymit.
+
+QuestComplete:  [1004]
+<ce> %god, [dfkf nt`t! Ds `kfujgjkexyj dthyekbcm!
+<ce> Yfib ghjdblws e*t cjj`obkb xnj pkj gjrbyekj
+<ce> [hfv ___mondung_.
+<ce> Ds [jhjij gjcke*bkb, b
+<ce> __questgiver_ hfletncz dfv.
+
+RumorsDuringQuest:  [1005]
+__questgiver_ gkfybhetn djccnfyjdbnm [hfv ___mondung_ dj bvz `skjq ckfds.
+
+RumorsPostfailure:  [1006]
+<ce> Rf*tncz, yt*bnm d [hfvt ___mondung_ ckbirjv cbkmyf.
+
+RumorsPostsuccess:  [1007]
+<ce> __questgiver_ jnghfdbk jlyjuj bp cdjb[ k<ltq yf jxbcnre [hfvf ___mondung_.
+
+QuestorPostsuccess:  [1008]
+<ce> Ybprbq gjrkjy, %pcf. Dfi htql d [hfv ___mondung_ @nj `jkmifz gjvjom
+<ce> yfv.
+
+QuestorPostfailure:  [1009]
+<ce> Xnj z vjue cltkfnm lkz dfc? Ds yt cltkfkb njuj, j xtv z dfc ghjie.
+<ce> Pkjq le[ dct tot j`bnftn d [hfvt ___mondung_.
+
+Message:  1020
+%qdt:
+ _questgiver_ bp [hfvf __questgiver_,
+ ___questgiver_ jnghfdkztn vtyz
+ eybxnj*bnm yt*bnm, j`bnf<oe< d pf`hjityyjv
+ [hfvt ___mondung_. Vyt lfkb
+ crkzyre cgtwbfkmyj ghbujnjdktyyjq cdznjq
+ djls xnj`s vyt vj*yj `skj jhjcbnm tq
+ ntkf xeljdbo b egjrjbnm b[ yfdctulf.
+ E vtyz tcnm =qtime_ lytq, xnj`s dthyenmcz
+ yfpfl, bkb _questgiver_
+ jnghfdbn yf pflfybt rjuj-yb`elm tot.
+
+Message:  1021
+%qdt:
+ _questgiver_ bp [hfvf __questgiver_
+ d ujhjlt ___questgiver_ jnghfdkztn vtyz
+ eybxnj*bnm yt*bnm, j`bnf<oe< d pf`hjityyjv
+ [hfvt ___mondung_. Cyfxfkf, jlyfrj, vyt yflj
+ yfdtcnbnm cdzotyybrf _priest_, __priest_
+ d ujhjlt ___priest_, rjnjhsq `kfujckjdbn
+ djle, rjnjhe< vyt dhexbkb, cbkmytqibv
+ ckjdjv. Vyt yflj `eltn jhjcbnm ntkf
+ xeljdbo, xnj`s jyb `jkmit yt dthyekbcm
+ d [hfv ___mondung_.
+ E vtyz tcnm =qtime_ lytq, xnj`s dthyenmcz
+ yfpfl, bkb _questgiver_
+ jnghfdbn yf pflfybt rjuj-yb`elm tot.
+
+Message:  1050
+<ce> J, gjlj*lbnt, e vtyz d gjcktlytt dhtvz crkthjp!
+<ce> Dfv cyfxfkf yflj yfqnb cdzotyybrf
+<ce> _priest_, bobnt d vtcnt __priest_ d
+<ce> ujhjlt ___priest_.  %g jcdznbn djle
+<ce> cbkmytqibv `kfujckjdtybtv.
+
+Message:  1051
+<ce> _priest_ `thtn crkzyre bp dfib[ her
+<ce> yt ujdjhz yb ckjdf.  %g `kfujckjdkztn
+<ce> tt b jnlftn dfv, gjckt xtuj djpdhfoftncz
+<ce> r vtlbnfwbb.
+
+Message:  1060
+<ce> "Z =monster1_!  Ns vj*tim
+<ce> eybxnj*bnm vj< abpbxtcre< ajhve,
+<ce> yj z dctulf cvjue dthyenmcz c<lf,
+<ce> ljvjq, d [hfv ___mondung_!"
+
+Message:  1061
+<ce> Rfr njkmrj ds jhjcbkb cdznjq djljq
+<ce> jcnfyrb xeljdbof,
+<ce> rhbr jnxfzybz hfpytccz @[jv gjl
+<ce> vhfxysvb cdjlfvb [hfvf b
+<ce> pfnb[ dlfkb.
+
+
+
+QBN:
+Item _I.00_ item class 10 subclass 4
+
+Person _questgiver_ group Questor
+Person _priest_ group Cleric remote
+
+Place _mondung_ remote dungeon4
+
+Clock _qtime_ 00:00 0 flag 17 range 1 5
+
+Foe _monster1_ is Zombie
+Foe _monster2_ is Mummy
+Foe _monster3_ is Ghost
+
+--	Quest start-up:
+	start timer _qtime_
+	reveal _mondung_
+	get item _I.00_
+	pick one of _S.05_ _S.05_ _S.04_
+	pick one of _S.00_ _S.01_ _S.02_
+
+_S.00_ task:
+	place foe _monster1_ at _mondung_
+
+_S.01_ task:
+	place foe _monster2_ at _mondung_
+
+_S.02_ task:
+	place foe _monster3_ at _mondung_
+
+_qtime_ task:
+	end quest
+
+_S.04_ task:
+	log 1021 step 0
+	say 1050
+
+_S.05_ task:
+	log 1020 step 0
+
+_mondead_ task:
+	killed 1 _monster1_
+	killed 1 _monster2_
+	killed 1 _monster3_
+	say 1060
+	have _I.00_ set _S.09_
+
+_S.07_ task:
+	when _mondead_ and _S.09_ and not _S.10_
+	take _I.00_ from pc
+	say 1061
+
+_S.08_ task:
+	toting _I.00_ and _priest_ clicked
+	get item _I.00_
+	say 1051
+
+variable _S.09_
+_S.10_ task:
+	when _S.09_ and not _S.08_ and _S.04_
+
+_clickqgiver_ task:
+	clicked npc _questgiver_
+
+_success_ task:
+	when _clickqgiver_ and _S.07_
+	give pc nothing
+	end quest
+
+_clearclick_ task:
+	when not _S.07_ and _clickqgiver_
+	say 1003
+	clear _clickqgiver_ _clearclick_

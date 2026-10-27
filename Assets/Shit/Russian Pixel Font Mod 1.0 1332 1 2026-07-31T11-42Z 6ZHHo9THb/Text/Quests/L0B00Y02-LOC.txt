@@ -1,0 +1,179 @@
+-- Quest: C:\QUESTS\WORKING\L0B00Y02.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 0
+-- QuestId: 2
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 16
+Quest: L0B00Y02
+DisplayName: Ytghbznyfz rjyrehtywbz
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Yfv cnfkj bpdtcnyj, xnj d ghjdbywbb
+<ce> %reg ltqcndetn `fylf yftvys[ e`bqw.
+<ce> Tt yflj eybxnj*bnm lj njuj, rfr jyf hfcwdtntn.
+<ce> Z [jxe, xnj`s ds dsgjkybkb pfrfp yf e`bqwe b
+<ce> yf njuj ve*xbye bkb *tyobye, rnj pfrfpfk
+<ce> e`bqcndj. E dfc *t [dfnbn dhtvtyb,
+<ce> xnj`s gjcnfhfnmcz dsgjkybnm @nj, ghfdlf?
+   <--->
+<ce> Ntvyjt ~hfncndj `skj tlbycndtyyjq ubkmlbtq yftvys[
+<ce> e`bqw d Nfvhb@kt c rjywf Dnjhjq ^hs.
+<ce> Vs yfvthtdfkbcm cj[hfybnm @ne vjyjgjkb<.
+<ce> Yj ytrfz `fylf yftvybrjd, ltqcnde<ofz yf cdjq
+<ce> cnhf[ b hbcr, `erdfkmyj gk<tn yf Ntvyjt ~hfncndj.
+<ce> Yj elfxf b[ ukfds, - @nj =assassin_, pfrjyxbkfcm.
+<ce> Z [jxe, xnj`s ds ghtgjlfkb %g2 gj*bpytyysq ehjr
+<ce> b ghjexbkb %g4 ukegs[ yfybvfntktq
+
+RefuseQuest:  [1001]
+<ce> Ytn? Rfr cnhfyyj b `tphfccelyj.
+
+AcceptQuest:  [1002]
+<ce> {jhjij. Bnfr, vs pyftv, xnj
+<ce> e`bqwf, =assassin_,
+<ce> ghtcktletn cdj< *thnde d gjlptvtkmt,
+<ce> bvtyetvjv ___mondung_. Tckb dfv
+<ce> yt elfcncz yfqnb ybnm, dtleoe< r pfrfpxbre,
+<ce> djpdhfofqntcm c<lf.
+<ce> Rjytxyj *t z ghtlgjxne, xnj`s `sk dsgjkyty
+<ce> pfrfp yf e`bqwe, b yf %g4
+<ce> yfybvfntkz, yj `eltn ljcnfnjxyj cvthnb
+<ce> njkmrj yftvybrf.
+<ce> E dfc tcnm yt `jkmit =queston_ lytq,
+<ce> xnj`s dsgjkybnm j`f rjynhfrnf.
+
+QuestComplete:  [1004]
+<ce> Dtkbrjktgyj, %pct. Yfv `skj `s ljcnfnjxyj
+<ce> ecnhfytybz njkmrj kbim e`bqws
+<ce> Yj ntgthm b pfrfpxbr gjpyfrjvbkcz
+<ce> c Ntvysv ~hfncndjv, b pyfrjvcndj
+<ce> `skj yt bp ghbznys[.
+<ce> Ghjofq, =boss_, elfxb d J`kbdbjyt, =assassin_.
+
+RumorsDuringQuest:  [1005]
+=assassin_ - @nj yftvysq e`bqwf bp ghjdbywbb %reg.
+   <--->
+=assassin_ - yt kexibq yftvybr, yj e y%g4 vyjuj @ynepbfpvf.
+
+RumorsPostfailure:  [1006]
+=assassin_ njkmrj kbim ljrfpsdftn, xnj vj*yj hf`jnfnm b dyt ~hfncndf.
+   <--->
+Gj[j*t, xnj ~hfncndj yt vj*tn jcnfyjdbnm dct[ djkmys[ yftvybrjd d Nfvhb@kt.
+
+RumorsPostsuccess:  [1007]
+=boss_ levftn, xnj %g vj*tn c@rjyjvbnm ytcrjkmrj pjkjns[, yfybvfz djkmybrf, ... blbjns.
+   <--->
+Gj[j*t xnj vj*yj pfgkfnbnm yt njkmrj e`bqwfv bp ~hfncndf. B =boss_ pyftn, rfr.
+
+QuestorPostsuccess:  [1008]
+Ghbdtncnde<, e`bqwf hfp`jqybrjd.
+
+QuestorPostfailure:  [1009]
+<ce> You're that worthless thug who can't account
+<ce> a bumbling freelancer like =assassin_.
+<ce> Why should I waste my breath on you?
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp Ntvyjuj ~hfncndf:
+ __qgiver_, ___qgiver_
+ yfghfdkztn vtyz yfytcnb dbpbn ytrjtve ltkmwe,-
+ =assassin_. ^nj e`bqwf-rjyrehtyn, %g dsgjkyztn
+ rjynhfrn d gjlptvtkmt ___mondung_.
+ Tckb vyt elfcncz yfqnb ybnm, rjnjhfz dtltn
+ r pfrfpxbre, nj yf @njn ckexfq vyt `sk
+ ghtlkj*ty rjynhfrn b yf ytuj bkb ytt.
+ Rjhjxt ujdjhz, dtcm rjynhfrn ljk*ty `snm bcgjkyty
+ d ntxtybt =queston_ lytq.
+
+Message:  1011
+  Gjckt e`bqcndf rkbtynf %n,
+ghb[jlbnt d rhtgjcnm ___stronghold_ d
+pfgeotyyjq xfcnb ghjdbywbb %reg
+pf yfuhfljq.
+<ce>
+<ce>
+-- =boss_
+<ce> ----
+
+Message:  1012
+%qdt:
+ Vyt elfkjcm yfqnb yf ntkt ytpflfxkbdjuj
+ e`bqws, - =assassin_, pfgbcre jn yfybvfntkz.
+ %g4 pfrfpxbr - =boss_ b %g4
+ rhtgjcnm - ___stronghold_.
+
+Message:  1013
+<ce> Ds e`bkb ytelfxybrf, - =assassin_.
+<ce> ~hfncndj `eltn eljdktndjhtyj.
+
+Message:  1014
+<ce> =boss_ ghbcjtlbybncz r cdjtve yftvybre.
+<ce> ~hfncndj `eltn eljdktndjhtyj.
+
+Message:  1015
+<ce> Vs `s ghtlgjxkb, xnj`s ds bcgjkybkb
+<ce> rjynhfrn yf pfrfpxbrf.
+<ce> Yj yfv ljcnfnjxyj pyfnm, xnj
+<ce> =assassin_ `jkmit yt `eltn ghbybvfnm
+<ce> exfcnbt d "cjhtdyjdfybb"
+
+
+
+QBN:
+Item _letter_ letter used 1011
+
+Person _qgiver_ face 110 group Questor
+
+Place _mondung_ remote dungeon
+Place _stronghold_ remote dungeon2
+
+Clock _queston_ 00:00 0 flag 17 range 0 5
+
+Foe _assassin_ is Assassin
+Foe _boss_ is Knight
+
+--	Quest start-up:
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	give item _letter_ to _assassin_
+	_letter_ used do _S.05_
+	place foe _boss_ at _stronghold_
+	place foe _assassin_ at _mondung_
+
+_queston_ task:
+	end quest
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+variable _reward_
+_S.03_ task:
+	killed 1 _assassin_
+	say 1013
+
+_S.04_ task:
+	killed 1 _boss_
+	say 1014
+
+_S.05_ task:
+	reveal _stronghold_ readmap
+	log 1012 step 1
+
+_S.06_ task:
+	when _S.03_ and not _S.04_ and _qgclicked_
+	say 1015
+
+_S.07_ task:
+	when _S.03_ and _S.04_ and _qgclicked_
+	give pc nothing
+	end quest
+
+_S.08_ task:
+	when not _S.03_ and not _S.04_ and _qgclicked_
+	clear _qgclicked_ _S.08_

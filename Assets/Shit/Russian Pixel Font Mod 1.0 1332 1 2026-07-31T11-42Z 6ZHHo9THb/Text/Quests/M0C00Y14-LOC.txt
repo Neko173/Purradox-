@@ -1,0 +1,124 @@
+-- Quest: C:\QUESTS\WORKING\M0C00Y14.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: fighter
+-- Repute: 0
+-- QuestId: 14
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 21
+Quest: M0C00Y14
+DisplayName: Rhscbyjt yfitcndbt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vtyz pjden _qgiver_.
+<ce> Vs lftv hf`jne njkmrj xktyfv ubkmlbb. {jnz
+<ce> dhtvz jn dhtvtyb e yfc gjzdkztncz hf`jntyrf,
+<ce> rjnjhjq yt [jnzn vfhfnm herb yfib `jqws.
+<ce> Rfr hfp ctqxfc e vtyz tcnm gjlj`yfz hf`jnf.
+<ce> Tckb ds cjukfcbntcm, @nj gjrf*tn yfv yfcrjkmrj
+<ce> ds ltqcndbntkmyj [jnbnt jrfpsdfnm gjvjom.
+<ce> Xnj crf*tnt?
+
+RefuseQuest:  [1001]
+<ce> Gj[j*t xnj dct nfrb ds yt bcgsnsdftnt
+<ce> k<`db r Ubkmlbb ~jqwjd. Z crf*e
+<ce> bv, xnj ds nfrjt d ltqcndbntkmyjcnb.
+
+AcceptQuest:  [1002]
+<ce> Ubufyncrbt rhscs pfgjkjybkb _house_.
+<ce> Gjkfuf<, xnj b[ nfv yt vtymit l<*bys.
+<ce> Blbnt b e`tqnt b[ dct[, f gjnjv z
+<ce> bcgjkmpe< cdjb cdzpb lkz gjvjob dfv.
+<ce> Yf dsgjkytybt lf< hjdyj jlby ltym.
+
+QuestComplete:  [1004]
+<ce> E`bqcndj rhsc, gecnm b `jkmib[,
+<ce> yt nfrjq e* b `jkmijq gjldbu.
+<ce> Yj pfnj ds pfcke*bkb yfit edf*tybt.
+<ce> {jhjifz hf`jnf.
+
+RumorsDuringQuest:  [1005]
+<ce> Rfrjq-nj blbjn hfccsgfk xtnsht zobrf
+<ce> c cshjv. Ntgthm tuj ljv pfgjkjybkb
+<ce> `jkmieobt rhscs.
+
+RumorsPostfailure:  [1006]
+<ce> Jlyf *tyobyf regbkf pf`hjityysq ljv,
+<ce> f jy rbivz rbibn `jkmibvb rhscfvb.
+<ce> Ltytu yf jgkfne eckeu ubkmlbb e ytt
+<ce> tcntcndtyyj nj*t ytn.
+
+RumorsPostsuccess:  [1007]
+<ce> Z cksifk, xnj `jqwjdcrfz ubkmlbz gjckfkf
+<ce> rjuj-nj bp %ra e`bnm dct[ rhsc d ljvt
+<ce> jlyjq *tyobys. B gkfne c ytt yt dpzkb.
+
+QuestorPostsuccess:  [1008]
+<ce> Bnfr, ds e`bkb dct[ rhsc. Njkmrj yt
+<ce> cbkmyj pfpyfdfqntcm. ^nj `skb dctuj
+<ce> kbim rhscs.
+
+QuestorPostfailure:  [1009]
+<ce> Ds yt cvjukb lf*t gjlrhfcnmcz r @nbv
+<ce> rhscfv. Ds `tpyflt*ys, %pcn.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ubkmlbz ~jqwjd bp
+ ___qgiver_ yfghfdbkf vtyz e`bnm
+ ubufyncrb[ rhsc, gjctkbdib[cz d
+ _house_. E vtyz jlby ltym yf
+ dsgjkytybt @njq hf`jns.
+
+Message:  1011
+<ce> D plfybb *enrj djyztn rhscfvb.
+<ce> Dfi d[jl, dthjznyj, gjnhtdj*bk b[ *bpym.
+
+Message:  1020
+<ce> ^nj ghfrnbxtcrb dct. Ubkmlbz
+<ce> ~jqwjd yt `eltn djphf*fnm.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+
+Place _house_ local random
+
+Clock _2dung_ 1.00:00 0 flag 1 range 0 1
+
+Foe _monster_ is Giant_rat
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _house_
+	log 1010 step 0
+	pc at _house_ set _S.04_
+	create npc at _house_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 4 _monster_
+	say 1020
+
+_S.02_ task:
+	when _qgclicked_ and _S.01_
+	give pc nothing
+	end quest
+
+_qgclicked_ task:
+    clicked npc _qgiver_
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.01_
+	clear _qgclicked_ _clearclick_
+
+_S.04_ task:
+	say 1011
+	create foe _monster_ every 2 minutes 7 times with 100% success
+--slowed enemy spawn due to feedback

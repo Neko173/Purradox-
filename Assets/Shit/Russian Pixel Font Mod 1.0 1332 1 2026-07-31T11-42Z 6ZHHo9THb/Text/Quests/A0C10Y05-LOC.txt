@@ -1,0 +1,206 @@
+-- Quest: C:\QUESTS\WORKING\A0C10Y05.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 10
+-- QuestId: 5
+-- Edited for Daggerfall Unity by Jay_H
+Quest: A0C10Y05
+DisplayName: Cdfnjdcndj
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Z j`hexty c _betrothed_. Vjz ghj`ktvf
+<ce> pfrk<xftncz d njv, xnj e _ruler_
+<ce> cdjb gkfys yf _betrothed_.
+<ce> Tlbycndtyyfz vjz yflt*lf - jndtcnb tt d [hfv
+<ce> b pfdthibnm wthtvjyb< j`hextybz ght*lt,
+<ce> xtv _ruler_ gjqvftn yfc. Yt cjukfcbntcm
+<ce> kb ds pfobofnm vtyz, gjrf d [hfvt `eltn
+<ce> blnb wthtvjybz j`hextybz? Z pfgkfxe dfv
+<ce> _gold_ pjkjns[.
+   <--->
+<ce> D __betrothedhome_ vtyz *ltn vjz
+<ce> djpk<`ktyyfz _betrothed_, vexbvfz
+<ce> nbhfybtq *tcnjrjuj _ruler_.
+<ce> Z yt cvjue cgjrjqyj cgfnm, gjrf _betrothed_
+<ce> yf[jlbncz dpfgthnb, yj z jgfcf<cm futynjd
+<ce> _ruler_, rjnjhsq ghbrkflsdftn dct cbks,
+<ce> xnj`s lth*fnm yfc d hfpkert. Yt cjukfcbntcm
+<ce> kb ds jnghfdbnmcz cj vyjq d __betrothedhome_
+<ce> b j`tcgtxbnm vyt pfobne?
+
+RefuseQuest:  [1001]
+<ce> Eds, gjghj`e< gjbcrfnm lheujuj j[hfyybrf,
+<ce> vjueotuj pfobnbnm vtyz b vj< djpk<`ktyye<
+<ce> _betrothed_ jn _ruler_.
+
+AcceptQuest:  [1002]
+<ce> Vjz `kfujlfhyjcnm `eltn `tpuhfybxyf, %pcn.
+<ce> ~scnhtt, yfv yflj jnghfdkznmcz
+<ce> dshexfnm _betrothed_. Vs yfqltv tt
+<ce> d _betrothedhome_
+<ce> d __betrothedhome_.
+
+QuestComplete:  [1004]
+<ce> %pcf, vs d ytjgkfnyjv ljkue gthtl dfvb.
+<ce> Ctqxfc _ruler_ yt vj*tn gjvtifnm yfitve
+<ce> `hfrjcjxtnfyb<. Djn _gold_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+<ce> _ruler_ ljk*yj `snm gsnftncz cjplfnm ufhtv.
+<ce> Z cksifk, rfr jy gjckfk cdjb[ udfhltqwtd
+<ce> pf`hfnm _betrothed_.
+
+RumorsPostfailure:  [1006]
+<ce> Z cksifk, xnj _betrothed_ pf`hfkb d
+<ce> ufhtv _ruler_. Yt db*e `jkmijq hfpybws
+<ce> vt*le @nbv b gj[botybtv.
+
+RumorsPostsuccess:  [1007]
+<ce> _qgiver_ b _betrothed_ yfrjytw-nj
+<ce> gj*tybkbcm. Ye hfpdt yt xeltcyjt bpdtcnbt?
+
+QuestorPostsuccess:  [1008]
+<ce> _betrothed_ b z `kfujlfhbv dfc. ~tp
+<ce> dfitq gjvjob tt pfcnfdbkb `s dsqnb pfve*
+<ce> pf _ruler_.
+
+QuestorPostfailure:  [1009]
+<ce> Z gjnthzk vj< _betrothed_ yfdtrb!
+<ce> Tt cbkjq pfcnfdbkb dsqnb pf _ruler_.
+<ce> B ds tot [jnbnt, xjn`s z gjvju dfv?
+<ce> E`bhfqntcm!
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp ___qgiver_
+ gjghjcbk vtyz cjghjdjlbnm tuj d
+ __betrothedhome_ yfqnb
+ _betrothed_. _qgiver_
+ gjvjkdkty c _betrothed_,
+ yj _ruler_ [jxtn e`bnm
+ _qgiver_, xj`s gjvtifnm *tybnm`t
+ Jyb cj`bhf<ncz gj*tybnmcz
+ d _temple_
+ d __temple_.
+
+Message:  1011
+<ce> F[, vjz k<`bvfz _betrothed_!
+<ce> %pcn cjukfcbkcz
+<ce> pfobofnm yfc jn _ruler_.
+<ce> ~scnhtt, %pcn, ghjdjlb
+<ce> yfc d _temple_
+<ce> d __temple_.
+
+Message:  1012
+<ce> E yfc ghzvjq ghbrfp jn
+<ce> _ruler_ djcghtgzncndjdfnm
+<ce> @njq cdflm`t. Tckb _betrothed_
+<ce> gjqltn c yfvb, ybrnj
+<ce> yt gjcnhflftn.
+
+Message:  1013
+<ce> Bnfr, _qgiver_, ns
+<ce> yfyzk rfrjuj-nj ytljvthrf
+<ce> cvjhxrf, xnj`s jy pfobofk nt`z.
+<ce> _ruler_ yt j`hfletncz njve,
+<ce> xnj ns ghjnbdbimcz tve.
+<ce> Eqlb d cnjhjye, vs pf`thtv
+<ce> _betrothed_ c cj`jq.
+<ce> ^nj gkfxtdyj pfrjyxbncz
+<ce> lkz nt`z.
+
+Message:  1014
+<ce> _qgiver_ djp`e*ltyyj
+<ce> ghjitgnfk: "Lf!  ^nj nj
+<ce> vtcnj, ult `fylbns _ruler_'f
+<ce> lth*fn vj< k<`bve<.
+<ce> Vs ljk*ys gjnjhjgbnmcz!"
+
+Message:  1015
+<ce> "%oth," dc[kbgyek
+<ce> _qgiver_, " - djn
+<ce> _temple_!  Ntgthm yfv ye*yj
+<ce> yfqnb _priest_, xnj`s jy j`dtyxfk
+<ce> yfc b _betrothed_ `eltn dyt
+<ce> djpltqcndbz _ruler_.
+
+Message:  1020
+<ce> _qgiver_ c jndhfotybtv nhzctn cdjtq
+<ce> ujkjdjq.  "~snm vj*tn _betrothed_
+<ce> yfqltn cgjcj` cgfcnbcm.
+<ce> Ds gjlcnfdbkb vtyz, %pcf".
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _betrothed_ face 1 group Group_7.0 remote
+Person _qgiver_ group Questor
+Person _priest_ face 201 factiontype Temple remote
+Person _ruler_ factiontype Province remote
+
+Place _betrothedhome_ remote house2
+Place _temple_ remote temple
+
+Clock _traveltime_ 00:00 0 flag 1 range 0 5
+
+Foe _F.00_ is 3 Burglar
+Foe _F.01_ is 2 Warrior
+
+--	Quest start-up:
+	start timer _traveltime_
+	--this odd location marker has no use
+	log 1010 step 0
+	pc at _temple_ set _S.03_ saying 1015
+	pc at _betrothedhome_ set _S.02_ saying 1014
+	hide npc _qgiver_
+	add _qgiver_ face
+	place npc _betrothed_ at _betrothedhome_
+	place npc _priest_ at _temple_
+
+_traveltime_ task:
+	restore _qgiver_
+	say 1020
+	drop _betrothed_ face
+	drop _qgiver_ face
+	end quest
+
+_S.01_ task:
+	clicked npc _betrothed_ say 1011
+	hide npc _betrothed_
+	add _betrothed_ face
+
+_S.02_ task:
+	create foe _F.00_ every 1 minutes 1 times with 15% success
+
+_S.03_ task:
+	create foe _F.01_ every 2 minutes 1 times with 50% success
+
+_dummy_ task:
+	injured _F.01_ saying 1012
+	injured _F.00_ saying 1013
+
+_S.05_ task:
+	clicked npc _priest_
+
+_success_ task:
+    when _S.01_ and _S.05_
+	give pc _gold_
+	drop _qgiver_ face
+	drop _betrothed_ face
+	change repute with _ruler_ by -20
+	place npc _qgiver_ at _temple_
+	place npc _betrothed_ at _temple_
+
+_clearclick_ task:
+	when not _S.01_ and _S.05_
+	clear _S.05_ _clearclick_
+
+_questdone_ task:
+	when _success_ and not _S.03_
+	restore _qgiver_
+	end quest

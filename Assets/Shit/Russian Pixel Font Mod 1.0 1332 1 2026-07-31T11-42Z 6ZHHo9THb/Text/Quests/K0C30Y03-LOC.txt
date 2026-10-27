@@ -1,0 +1,626 @@
+-- Quest: C:\QUESTS\WORKING\K0C30Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: merchant
+-- Repute: 30
+-- QuestId: 3
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 56
+Quest: K0C30Y03
+DisplayName: Ljkub pyfnyjuj xtkjdtrf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> F[, lheu vjq. R cj*fktyb< dsye*lty ghbpyfnm, xnj
+<ce> z ghbyzk ytdthyjt yfghfdktybt d cdjtv ltkt, yj
+<ce> ghjnbd afrnjd yt gjqltim. Z ccelbk ytrjnjhe<
+<ce> cevve jlyjve ldjhzybye gj bvtyb _patsy_,
+<ce> j rjnjhjv ds vjukb b yt cksifnm. Ufhfynbtq pfqvf
+<ce> `sk ljrevtyn yf dkfltybt dtcmvf wtyyjq xfcnm<
+<ce> ytldb*bvjcnb. Ntgthm b _patsy_ b ljrevtyn
+<ce> ghjgfkb. Gj cke[fv e ytuj djpybrkb yt`jkmibt
+<ce> abyfycjdst nhelyjcnb, yj cevve, rjnjhe< z
+<ce> ccelbk, ytdjpvj*yj `skj ghjvjnfnm nfr `scnhj.
+<ce> Tckb htxm bltn j xtkjdtrt, gj[j*tv yf
+<ce> _patsy_, @nj vj*tn `snm jgfcysv cjdgfltybtv,
+<ce> nfr xnj vyt ye*ty yfcnjzobq hswfhm-djbntkm.
+<ce> Ds gjvj*tnt vyt, vjq lheu, d j`vty yf `jkmijq,
+<ce> ytjuhfytysq fkvfp?
+
+RefuseQuest:  [1001]
+<ce> Vyt *fkm cksifnm @nj. Rjytxyj z dfc,
+<ce> yj @nj jxtym jujhxbntkmyj.
+
+AcceptQuest:  [1002]
+<ce> {jhjij cksifnm @nj. Ghbcnegbv r ltke. E vtyz
+<ce> nhblwfnm lytq gthtl ntv, rfr vtyz ghbyelzn
+<ce> j`]zdbnm ct`z `fyrhjnjv. Pfrkflyfz `skf
+<ce> gj[botyf bp vtcnyjuj exht*ltybz - _bank_ -
+<ce> d __bank_ dvtcnt c lheubvb wtyyjcnzvb, yj vyt
+<ce> yt yhfdbncz nj, xnj _patsy_ bcxtp d nj
+<ce> *t cfvjt dhtvz, rjulf gj pfrkflyjq htibkb
+<ce> ghjdtcnb yt`jkmijt hfccktljdfybt. Cnfhfz
+<ce> htpbltywbz _patsy_ - _house2_ d
+<ce> __house2_, rjnjhfz, rfr z gjybvf<, ctqxfc
+<ce> gecnetn. D k<`jv ckexft e vtyz ytn lheub[
+<ce> pfwtgjr. Vyt ecnhjbn xnj eujlyj: pjkjnj,
+<ce> rjnjhjt pf*bkbk _patsy_, pfrkflye<
+<ce> yf ljv bkb ujkjde @njuj fhbcnjrhfnf yf `k<lt,
+<ce> ghbxtv d ntxtybt nhblwfnb lytq.
+<ce> Yt gjldtlbnt vtyz, %pcf.
+
+QuestFail:  [1003]
+<ce> Dfv cktljdfkj `s gjghj`jdfnm
+<ce> clth*fnm cdjt ckjdj.
+
+QuestComplete:  [1004]
+<ce> Ekjdrb _patsy_ yt chf`jnfkb, lf,
+<ce> %pcf? Djn j`tofyysq fkvfp.
+<ce> Ghtrhfcyfz hf`jnf, vjq lheu.
+
+RumorsDuringQuest:  [1005]
+_qgiver_ yt tlbycndtyysq ghjcnjabkz, rjnjhjuj j`vfyek _patsy_. Vyjubt k<lb cce*fkb tve ltymub.
+   <--->
+_patsy_ dytpfgyj et[fk bp __house2_, jcnfdbd gjckt ct`z rexe ljkujd b hfpbns[ cthltw.
+
+RumorsPostfailure:  [1006]
+Gj[j*e _patsy_ dct nfrb cvskcz. Z cksifk, xnj jy gjlfkcz yf ctdth d gjbcrf[ elfxb.
+   <--->
+Gj[j*t, xnj _patsy_ vthnd. Z yt gjdth< d @nj ldf*ls.
+
+RumorsPostsuccess:  [1007]
+Ybrnj yt gsnftncz lfdbnm yf _qgiver_, njkmrj yt gjckt ckexfz c _patsy_.
+   <--->
+Dct yf xnj cgjcj`ty _patsy_, @nj ytevyfz gjgsnrf yflenm rjuj-nj yfdhjlt _qgiver_.
+
+QuestLogEntry:  [1010]
+%qdt:
+ E vtyz nhblwfnm lytq yf nj, xnj`s
+ yfqnb pfrkflye<, rjnjhe< lfkb _qgiver_
+ bp __qgiver_ d ___qgiver_, rfr ufhfyn
+ yf djpdhfn ccels, lfltyyjq jlyjve ldjhzybye
+ gj bvtyb _patsy_, bkb yfqnb pjkjnj, rjnjhjt
+ _qgiver_ lfk _patsy_,
+ bkb, tckb dct dsiterfpfyyjt yt gjvj*tn, yfqnb
+ _patsy_, Rjnjhjuj-Yt-Bpdtcnyj-Ult-Bcrfnm.
+ Ufhfyn `sk d _bank_ d
+ __bank_, gjrf `fyr yt `sk juhf`kty.
+ Tlbycndtyyjt lheujt vtcnj, cdzpfyyjt c @nbv
+ ltkjv - _house2_, cnfhfz htpbltywbz
+ _patsy_ d __house2_.
+ Tckb z ljcnbuye [jnz `s jlyjq bp @nb[
+ wtktq d nhblwfnm lytq, _qgiver_
+ lfcn vyt `jkmijq, ytjuhfytysq fkvfp.
+
+Message:  1011
+Jnlflbnt pjkjnj d herb _hooker_?
+
+Message:  1012
+<ce> Cgfcb`j nt`t, leirf. Z cksifkf, xnj ns gjhzljxysq
+<ce> xtkjdtr, b htibkf lfnm nt`t gthtlsire. Z `skf yfyznf
+<ce> _patsy_ ytcrjkmrj ytltkm yfpfl - yt gj njq ghbxbyt, j
+<ce> rjnjhjq ds gjlevfkb. Dct, xnj vyt ye*yj `skj cltkfnm,
+<ce> @nj gjakbhnjdfnm c rfrbv-yb`elm cnfhbrfirjq b
+<ce> pfcnfdbnm tuj ghbukfcbnm vtyz yf e*by d jghtltktyysq
+<ce> ltym. Z levf<, xnj`s dsnfobnm tuj bp ljvf, gjnjve xnj
+<ce> gjp*t z epyfkf, xnj ljv @njuj gfhyz `sk juhf`kty,
+<ce> gjrf yfc yt `skj. Z cksifkf, vyjuj xtuj pf`hfkb.
+<ce> Cnfhbr `sk cbvgfnbxysv b vbksv, b vyt `skj ytkjdrj
+<ce> bp-pf @njuj. Djpvj*yj, ds pf[jnbnt gjujdjhbnm c ybv.
+<ce> Tuj pjden _gaffer_. Bkb ns vju `s gjqnb d nj vtcnj,
+<ce> ult z dcnhtnbk @njuj _patsy_, _house2_ d __house2_ b
+<ce> gjcvjnhtnm, pyftn kb rnj-yb`elm nfv xnj-yb`elm.
+<ce> Yflt<cm, dct @nj gjvj*tn, %pcf. Z `s cfvf [jntk
+<ce> gjcvjnhtnm, rfr eghzxen cnfhjuj _patsy_.
+
+Message:  1013
+%pcn,
+<ce>
+  Tckb ds ghtldreiftnt ljkue< b cxfcnkbde< *bpym
+d hfqjyt pfkbdf, ljk*ty hfpheibnm dfib `tccvscktyyst
+b j`htxtyyst yf ghjdfk vtnfybz. Ytcxfcnysq ckexfq -
+- tlbycndtyysq djpvj*ysq bc[jl, b @nj ckexfq vj*tn
+ghjbpjqnb njkmrj c dfvb.
+Vtyz yt gjqvfnm, %pcf. E vtyz ckbirjv
+vyjuj ltytu, xnj`s `snm gjqvfyysv.
+<ce>
+Djbcnbye Dfi,
+<ce>
+_patsy_
+<ce> ----
+
+Message:  1014
+  Ndjz wtkm - %pcn, %ra fdfyn<hbcn
+b yftvybr. Cj`k<lfq rhfqy<< jcnjhj*yjcnm b
+`elm ujnjd r rhjdjghjkbnyjq c[dfnrt.
+<ce>
+^nj lfktrj yt djlzybcnfz vtlepf.
+<ce>
+-- _patsy_
+<ce> ----
+
+--eliminating unmarked white spaces. this problem was patched out in previous versions but i still prefer to have lines with blank spaces filled just in case.
+
+Message:  1015
+_banker_ hf`jnftn d _bank_ d __bank_. jxtym edf*ftvsq xtkjdtr.
+   <--->
+Nbgbxysq pfyelf `fyrbh. _banker_ hf`jnftn d _bank_ d __bank_.
+
+Message:  1016
+<ce> {jxe hfccrfpfnm dfv, xnj z ujdjhbk
+<ce> _patsy_. __banker_ j`zpfy djpvtcnbnm dct pjkjnj,
+<ce> rjnjhjt `skj gj[botyj, lj tlbyjuj gtyyb.
+<ce> Vs dctuj kbim [jnbv gjkexbnm jndtns yf
+<ce> ytrjnjhst djghjcs ghj juhf`ktybt. ^nj
+<ce> nfrbt dtob, rjnjhst yt cktletn j`ce*lfnm
+<ce> c ytpyfrjvwfvb, ye ds gjybvftnt, j xtv z.
+
+Message:  1017
+<ce> F, ghbznyj dbltnm dfc, %pcf. E yfc
+<ce> nen ytrjnjhjt djp`e*ltybt gjckt gjcktlytuj
+<ce> juhf`ktybz. ~skb pfnhjyens njkmrj
+<ce> jghtltktyyst cxtnf b ltgjpbns, gj@njve
+<ce> _guard_, yfi ctrhtnysq futyn,
+<ce> pfybvftncz lth*fntkzvb @nb[ cxtnjd.
+<ce> ~snm vj*tn jy cvj*tn lfnm dfv rjt-rfre<
+<ce> byajhvfwb<, %pcf.
+<ce> _guard_ yf[jlbncz d __guard_
+<ce> d ___guard_.
+
+Message:  1018
+<ce> ~j<cm, z yt vjue j`ce*lfnm @nb ltkf c dfvb,
+<ce> %pcn. ^nj ltkj rfcftncz njkmrj _patsy_,
+<ce> vtyz b `jkmit ybrjuj. Tckb ds ltqcndbntkmyj
+<ce> [jnbnt gjvjxm, blbnt gjj`ofqntcm c _hooker_,
+<ce> ghjcnbnenrjq, e rjnjhjq `skb rjt-rfrbt cdzpb
+<ce> c yfibv j`obv lheujv _patsy_. Jyf gjnht`etn
+<ce> ltcznm pjkjns[ pf j`otybt, ds yfqltnt tt d
+<ce> ___hooker_ d vtcntxrt gjl yfpdfybtv
+<ce> __hooker_. Elfxb, %pcf.
+<ce> Vtyz vj*tn yt jrfpfnmcz pltcm, rjulf ds
+<ce> dthytntcm, yj ds cgjcj`ys dpdfkbnm hfccktljdfybt
+<ce> yf cdjb vjuexbt gktxb.
+
+Message:  1019
+<ce> F[, %pcn, vjq lheu. levf<, vs vj*tv
+<ce> dpfbvyj gjvjxm lheu lheue d @njv ltkt. Z pyf<,
+<ce> ult yf[jlbncz _patsy_, yj tuj
+<ce> cj<pybrb vjuen cjplfnm ghj`ktvs ghb gjgsnrt
+<ce> ljcnfnm tuj. Vbkkbjys pjkjns[ vjytn vjuen
+<ce> regbnm jxtym dkbzntkmys[ lheptq. Vyt ye*yj,
+<ce> xnj`s ds gjhdfkb @ne cdzpm, b njulf vs cvj*tv
+<ce> dvtcnt ghtrhfnbnm ceotcndjdfybt _patsy_
+<ce> r dpfbvyjve eljdktndjhtyb<. Jndtpbnt @nj
+<ce> gbcmvj d rhtgjcnm tuj cj<pybrjd ___mondung_
+<ce> b gjnjv blbnt d ___mondung2_. Tckb
+<ce> gjdtptn, gbcmvj pfcnfdbn jndktxm tuj cjklfn,
+<ce> nfr xnj _patsy_ jcnfytncz ghfrnbxtcrb
+<ce> `tp pfobns, pf bcrk<xtybtv tuj kbxys[
+<ce> j[hfyybrjd rjytxyj. Jxtym [jhjij, %pcf,
+<ce> edblbvcz gjp*t.
+
+Message:  1020
+_guard_ eitk bp __guard_. Gj[j*t %g pyftn, relf eitk _patsy_.
+   <--->
+_guard_ yt gjrbytn __guard_ gjrf yt `eltn pyfnm, ult ghzxtncz _patsy_.
+   <--->
+Dct gsnf<ncz gjyznm, gjxtve _guard_ nfr dytpfgyj eitk bp __guard_.
+
+Message:  1021
+  Yfhjl, ghbrfps bpvtybkbcm. Ds ye*ys vyt d
+___qgiver_ ytvtlktyyj. Lfdfqnt `scnhj nelf b
+*lbnt vjb[ hfcgjhz*tybq. ^nj yt pfqvtn
+`jkmit ytcrjkmrb[ lytq.
+<ce>
+-- _patsy_
+<ce> ----
+
+Message:  1023
+<ce> Ds vuyjdtyyj gjybvftnt, xnj
+<ce> @nj ljk*yj `snm _patsy_.
+
+Message:  1024
+<ce> Ytcjvytyyj ds e`bkb _patsy_.
+
+Message:  1025
+  Vyt ye*yj gjlrhtgktybt, tckb @nb cke[b j %ra
+dthys. Cghzxmnt pfrkflye< d ___mondung_,
+yj pjkjnj b dfib k<lb ljk*ys ghb`snm d
+___mondung2_. Vs gjujdjhbv, xnj ltkfnm
+lfkmit, rjulf ds ghb`eltnt.
+<ce>
+-- _patsy_
+<ce> ----
+
+Message:  1026
+<ce> Yf recrt _rock_ dblyttncz cktgjr,
+<ce> rjnjhsq vj*yj ghjxbnfnm rfr ___mondung_.
+
+Message:  1027
+Ghjcnj recjr _rock_. Njkmrj [kfv d ___house2_.
+   <--->
+_rock_ cjlth*bn rfrjq-nj cktgjr bkb uhfdbhjdre.
+   <--->
+Nfrjt joeotybt, xnj pltcm [hfybkfcm helf bp ___mondung_.
+
+Message:  1028
+_rock_ `sk lj`sn d ___mondung_; @nj pf`hjityyfz if[nf yf %di jnc<lf.
+   <--->
+^njn _rock_ ljk*yj `snm lj`skb vyjuj ktn yfpfl, rjulf d ___mondung_ `skf if[nf.
+
+Message:  1029
+<ce> Gj[j*t @nj pfrkflyfz, rjnjhe<
+<ce> _patsy_ lfk d rfxtcndt ufhfynf
+<ce> _qgiver_.
+
+Message:  1030
+<ce> ^nj nj cfvjt pjkjnj, rjnjhjt
+<ce> _qgiver_ ccelbk _patsy_.
+
+Message:  1031
+Ljv Yjxys[ Cnhf[jd
+<ce>
+Ljhjujq lheu %pcf,
+<ce>
+  Vs d rehct, xnj ds botnt _patsy_.
+Vs edf*ftv dfie hf`jne, gj@njve [jnbv gjvjxm d @njv
+ltkt. Ytcrjkmrj ytltkm yfpfl _patsy_
+djcgjkmpjdfkcz yfibvb eckeufvb, f ytlfdyj vs gjkexbkb
+gkfne xthtp herb tuj vfktymrjq, yj *enrjq `fyls,
+ecnhjbditqcz d vtcnt gjl yfpdfybtv ___mondung_.
+Tckb ds ltqcndbntkmyj [jnbnt yfqnb _patsy_,
+nj `eltn hfpevyj yfxfnm gjbcrb jnnelf.
+Elfxb b gecnm Vtafkf gjvj*tn dfv d @njv ltkt.
+<ce>
+<ce> -- ~hfncndj
+
+Message:  1032
+<ce> Ds lf*t yt gjxedcndjdfkb, rfr <yjif, cktljdfdibq
+<ce> pf dfvb, dcexbk rjydthn dfv d herb. Gjrf ds
+<ce> j`jhfxbdfkbcm, jy e`t*fk, `scnhj hfcndjhbdibcm
+<ce> d njkgt, yt jcnfdbd dfv yb tlbyjuj ifycf.
+
+Message:  1033
+%pcn,
+<ce>
+  _patsy_ djh, yj jy yt bp yfib[. Vs [jntkb
+`s, xnj`s tuj gjqvfkb. Ghbvb gj*fkeqcnf yfi
+crhjvysq drkfl d @nj ltkj: _patsy_ hf`jnftn
+yt jlby. Tcnm ifqrf yftvybrjd gjl tuj eghfdktybtv
+d vtcnt gjl yfpdfybtv ___mondung_. Ytrjnjhst
+bp tuj cjrhjdbo vjuen [hfybnmcz nfv, yj yt levf<,
+xnj b cfv _patsy_ vj*tn `snm nfv.
+Elfxb, %pcf, blb d vbht c ~ffy Lfhjv.
+<ce>
+-- Ubkmlbz
+
+Message:  1034
+<ce> F, %pcf, vjq lheu. B jgznm vtyz cj`kfpybkb
+<ce> b ghtlfkb. Gj[*t vyt cnjbn eqnb d vjyfcnshm.
+<ce> Vjz *bpym `eltn vyjuj ghjot `tp *tyoby, %oth.
+<ce> Djn, djpmvbnt @nj pjkjnj, rfr ghbpyfybt dfib[
+<ce> pfckeu d gjbcrt b gjbvrt @njuj pkjltz _patsy_.
+<ce> Tckb `s vju, nj lfk `s `jkmit, yj d cdtnt
+<ce> gjcktlyb[ cj`snbq, z ghfrnbxtcrb hfpjhty. Lkz
+<ce> byajhvfwbb, e _patsy_ `skj ldf erhsnbz d %reg,
+<ce> jlyj d ___mondung_ b lheujt d ___mondung2_.
+<ce> Yt pyf<, rfrjt bp yb[ frnbdyj bcgjkmpjdfkjcm,
+<ce> yj [jxe ghtleghtlbnm, xnj`s ds lth*fkb yfujnjdt
+<ce> cdjq rkbyjr. Elfxb b lf ght`eltn c dfvb %god.
+
+Message:  1035
+<ce> Gjxtve @nj z ljk*ty hfccrfpsdfnm nt`t xnj-nj?
+<ce> Ns ghjcnj e`k<ljr jn _qgiver_, rjnjhsq
+<ce> yflek vtyz nfr *t rfr b _patsy_ bkb rfr
+<ce> @nf ghjrkznfz %god _hooker_ j`vfyekf vtyz.
+<ce> Lf xnj ` ns pf`kelbkjcm d lsht yfdhjlt
+<ce> ___mondung_, pfcj[kj b clj[kj nfv,
+<ce> ns lbnz cbabkbnbxtcrjq %ra ik<[b.
+
+Message:  1036
+Ljhjujq lheu %pcn,
+<ce>
+  E vtyz tcnm rjt-rfrfz byajhvfwbz, rjnjhfz
+vj*tn gjvjxm dfibv gjbcrfv @njq rhscs _patsy_.
+Tckb dfv bynthtcyj, gjbobnt vtyz d ___hooker_
+d lsht, yfpsdftvjq __hooker_.
+B ghb[dfnbnt c cj`jq ltcznm pjkjns[.
+^nf byajhvfwbz yt `tcgkfnyf.
+<ce>
+_hooker_
+<ce> ----
+
+Message:  1037
+<ce> "^nj jn _hooker_," hfplfkcz ujkjc
+<ce> b <ysq gjcskmysq dhexbk dfv pfgbcre.
+<ce> Ght*lt xtv ds jnhtfubhjdfkb, jy e`t*fk
+<ce> ghjxm.
+
+Message:  1055
+<ce> Ghjcnb, ljhjufz, e vjb[ pyfybq tcnm wtyf.
+
+Message:  1038
+%qdt:
+ _banker_ crfpfk vyt gjbcrfnm
+ _guard_ d __guard_ d
+ ___guard_, rjnjhsq pfyzn hfccktljdfybtv
+ rhf*b d `fyrt b boeotuj _patsy_
+ lkz _bank_.
+
+Message:  1039
+%qdt:
+ ~skf dcnhtxf c _guard_. %g epyfk vtcnjyf[j*ltybt
+ _patsy_ - vtcnj gjl yfpdfybtv ___mondung2_.
+ Xnj`s jndktxm tuj cjklfn, vyt yflj ljcnfdbnm d
+ gbcmvj d rhtgjcnm, ___mondung_, f pfntv
+ dnhtnbnmcz c _guard_ d ___mondung2_, xnj`s
+ ljcnfnm _patsy_.
+
+Message:  1040
+%qdt:
+ Cjcnjzkfcm dcnhtxf c _guard_. %g crfpfk vyt,
+ xnj e _patsy_ `skb rfrbt-nj ltkf c
+ _hooker_, ghjcnbnenrjq bp __house1_.
+ Z vjue yfqnb tt d _house1_.
+
+Message:  1041
+%qdt:
+ _hooker_ crfpfkf vyt, xnj _patsy_ yfybvfk
+ tt, xnj`s jndktxm jlyjuj xtkjdtrf gj bvtyb
+ _gaffer_ yf jlye yjxm. Z vjue yfqnb
+ tuj d _tavern_ d __tavern_.
+
+Message:  1042
+%qdt:
+ _gaffer_ crfpfk vyt, xnj e _patsy_
+ `skj ldf erhsnbz, jlyj - ___mondung_,
+ f dnjhjt - ___mondung2_.
+
+Message:  1050
+^njn ljrevtyn zdkztncz cdbltntkmcndjv yf
+dkfltybt _house3_ bp __house3_ d %reg.
+K<`jq ghjxbnfdibq @nj epyftn, xnj
+_patsy_ tlbycndtyysq b gjkyjghfdysq
+dkfltktw dsiegjvzyenjq cj`cndtyyjcnb.
+
+
+
+QBN:
+Item _deed_ letter used 1050
+Item _reward_ diamond
+Item _letter27_ letter used 1036
+Item _bribe4_ gold range 10 to 10
+Item _letter28_ letter used 1013
+Item _bribe2_ letter used 1014
+Item _deed3_ gold_bar
+Item _letter29_ letter used 1021
+Item _letter30_ letter used 1025
+Item _rock_ element anyInfo 1027
+Item _letter32_ letter used 1031
+Item _letter15_ letter used 1033
+Item _bothdorjii_ gold range 15 to 50
+Item _letter33_ gold range 20 to 40
+
+Person _qgiver_ group Questor
+Person _patsy_ face 1 factiontype Province
+Person _hooker_ face 187 faction The_Prostitutes female
+Person _gaffer_ face 73 named Chulmore_Quill
+Person _banker_ face 1 group Banker local anyInfo 1015
+Person _guard_ face 80 factiontype Knightly_Guard
+Person _darkb_ face 81 faction The_Dark_Brotherhood
+Person _tguild_ face 81 faction The_Thieves_Guild local
+
+Place _bank_ remote bank
+Place _house1_ remote house2
+Place _house2_ remote house1
+Place _mondung_ remote dungeon
+--changed from dungeon2 which is very restricted; in DF region it's only Privateer's Hold
+Place _mondung2_ remote dungeon
+Place _tavern_ remote tavern
+Place _house3_ local house2
+
+Clock _queston_ 30.00:00 0 flag 1 range 0 1
+Clock _S.03_ 1.09:20 2.03:40
+Clock _S.13_ 1.01:00 2.13:40
+Clock _S.26_ 1.09:20 2.02:00
+Clock _S.27_ 16:40 2.02:00 flag 9 range 0 0
+Clock _2letter_ 00:25 00:50
+
+Foe _warrior_ is Warrior
+Foe _F.01_ is Knight
+Foe _F.02_ is Barbarian
+Foe _F.03_ is Spellsword
+Foe _F.04_ is Rogue
+
+--	Quest start-up:
+	place item _deed_ at _mondung_
+	place item _rock_ at _house2_
+	place item _letter30_ at _mondung_
+	dialog link for location _house3_ person _gaffer_ item _rock_
+	dialog link for person _guard_
+	dialog link for location _house1_ person _hooker_
+	start timer _queston_
+	start timer _2letter_
+	log 1010 step 0
+	repute with _hooker_ exceeds 10 do _S.02_
+	repute with _darkb_ exceeds 15 do _S.25_
+	repute with _tguild_ exceeds 15 do _S.28_
+	pc at _mondung2_ set _S.16_
+	_letter30_ used do _S.35_
+	_rock_ used do _S.19_
+	place npc _hooker_ at _house1_
+	place npc _gaffer_ at _tavern_
+	place npc _banker_ at _bank_
+
+_pcgetsgold1_ task:
+	toting _deed3_ and _qgiver_ clicked
+	give pc _reward_
+	end quest
+
+_pcgetsgold2_ task:
+	toting _deed_ and _qgiver_ clicked
+	give pc _reward_
+	end quest
+
+_pcgetsgold3_ task:
+	when _qgclicked_ and _S.18_
+	give pc _reward_
+	end quest
+
+_queston_ task:
+	end quest
+
+_S.02_ task:
+	start timer _S.03_
+
+_S.03_ task:
+	add dialog for person _hooker_
+	add dialog for location _house1_
+	get item _letter27_
+	say 1037
+
+_S.04_ task:
+	clicked _hooker_ and at least 10 gold otherwise do _S.34_
+	prompt 1011 yes _thankyou_ no _gimme_
+
+_thankyou_ task:
+	add dialog for person _gaffer_
+	log 1041 step 4
+	give item _bribe2_ to _F.01_
+	say 1012
+	change repute with _hooker_ by +5
+	send _F.01_ every 80 minutes 30 times with 15% success
+	--data taken from UESP
+
+_gimme_ task:
+	get item _bribe4_
+	make _bribe4_ permanent
+
+_S.07_ task:
+	clicked npc _banker_
+	start timer _S.13_
+	repute with _banker_ exceeds 10 do _S.08_
+
+_S.08_ task:
+	log 1038 step 1
+	say 1017
+
+_S.09_ task:
+	when _S.07_ and not _S.08_
+	say 1016
+
+_S.10_ task:
+	clicked npc _guard_
+	repute with _guard_ exceeds 10 do _S.11_
+
+_S.11_ task:
+	reveal _mondung_
+	reveal _mondung2_
+	log 1039 step 2
+	get item _letter29_
+	say 1019
+
+_S.12_ task:
+	when not _S.11_ and _S.10_
+	add dialog for location _house1_
+	add dialog for person _hooker_
+	log 1040 step 3
+	say 1018
+
+_S.13_ task:
+	rumor mill 1020
+	hide npc _guard_
+
+_S.14_ task:
+	dropped _letter29_ at _mondung2_
+
+_S.15_ task:
+	when _S.16_ and not _S.14_
+	create foe _F.02_ every 221 minutes 200 times with 10% success
+
+_S.16_ task:
+	place item _deed3_ at _mondung2_
+	create foe _F.04_ every 111 minutes 200 times with 5% success
+	create foe _F.03_ every 100 minutes 200 times with 5% success
+	place foe _warrior_ at _mondung2_
+
+_S.17_ task:
+	injured _warrior_
+	say 1023
+
+_S.18_ task:
+	killed 1 _warrior_
+	say 1024
+
+_S.19_ task:
+	say 1026
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+variable _S.21_
+variable _S.22_
+_S.23_ task:
+	clicked item _deed_
+	say 1029
+
+_S.24_ task:
+	clicked item _deed3_
+	say 1030
+
+_S.25_ task:
+	start timer _S.26_
+
+_S.26_ task:
+	reveal _mondung_ readmap
+	get item _letter32_
+	say 1032
+
+_S.27_ task:
+	reveal _mondung_ readmap
+	get item _letter15_
+	get item _bothdorjii_
+	say 1032
+	make _bothdorjii_ permanent
+
+_S.28_ task:
+	start timer _S.27_
+
+_S.29_ task:
+	clicked npc _gaffer_
+	repute with _gaffer_ exceeds 10 do _S.30_
+
+_S.30_ task:
+	reveal _mondung_ readmap
+	reveal _mondung2_ readmap
+	log 1042 step 4
+	get item _letter33_
+	say 1034
+	make _letter33_ permanent
+
+_S.31_ task:
+	when _S.29_ and not _S.30_
+	reveal _mondung_
+	say 1035
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.18_
+	say 1003
+	clear _qgclicked_ _clearclick_
+
+_S.33_ task:
+	clicked item _rock_
+	say 1026
+	add dialog for item _rock_
+	reveal _mondung_
+
+_S.34_ task:
+	say 1055
+
+_S.35_ task:
+	reveal _mondung2_ readmap
+
+_2letter_ task:
+	get item _letter28_
+	say 1032

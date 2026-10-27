@@ -1,0 +1,149 @@
+-- Quest: C:\QUESTS\WORKING\O0B10Y05.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: thief
+-- Repute: 10
+-- QuestId: 5
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 11
+Quest: O0B10Y05
+DisplayName: Wtyyst ghjbpdtltybz bcreccndf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Pljhjd, %pcf!
+<ce> Gjvybim vtyz? z - _qgiver_.
+<ce> Yt [jxtim gjhf`jnfnm ytvyjuj?
+<ce> Tcnm e vtyz hf`jntyrf, vjueofz
+<ce> pfcnfdbnm nt`z gjgjntnm.
+
+RefuseQuest:  [1001]
+<ce> Vj*tn `snm d cktle<obq hfp.
+
+AcceptQuest:  [1002]
+<ce> Jlby `jufntymrbq njdfhbo
+<ce> njkmrj xnj gjkexbk d yfcktlcndj
+<ce> rfhnbye, rjnjhe< vj*yj ghjlfnm
+<ce> pf `jkmibt ltymub, b cghznfk tt
+<ce> jcj`yzrt  _townhouse_ d ujhjlt
+<ce> __townhouse_. Ghbnfob tt c<lf
+<ce> b djpyfuhf*ltybt yt pfcnfdbn
+<ce> ct`z *lfnm. Gjkexbim pf @nj _gold_
+<ce> pjkjns[. Ye, b xnj`s *bpym vtljv yt
+<ce> rfpfkfcm, e nt`z tcnm yf dct
+<ce> =traveltime_ lytq. Yhfdbncz vyt
+<ce> cnfdbnm ytvsckbvst chjrb...
+
+QuestComplete:  [1004]
+<ce> Yb wfhfgbyrb. Jnkbxyj. Ghjcnb,
+<ce> vs yt pyfkb, xnj nfv `eltn
+<ce> j[hfyf. Djpmvb cdjt pjkjnj.
+
+RumorsDuringQuest:  [1005]
+_townhouse_ djbcnbye rfr rfhnbyyfz ufkthtz.
+
+RumorsPostfailure:  [1006]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostsuccess:  [1007]
+Ufkthtz _townhouse_ juhf`ktyf. Lf*t ytcvjnhz yf nj, xnj nfv `skf cbkmyfz cnhf*f.
+   <--->
+Njn, rnj juhf`bk jcj`yzr _townhouse_, jghtltktyyj pyfk yf xnj bltn.
+
+QuestorPostsuccess:  [1008]
+Yf xthyjv hsyrt @nf rfhnbyf gjnzytn yf rheuktymre< cevve, %pcf.
+
+QuestorPostfailure:  [1009]
+<ce> Rjuj z db*e!!! Rfrjt cxfcnmt!!!
+<ce> Lkz gjkyjuj cxfcnmz yt [dfnftn
+<ce> njkmrj rfhnbys, pf rjnjhjq nt`z
+<ce> gjckfkb. B gjxtve vyt ye*yj nhfnbnm
+<ce> cdjt dhtvz yf dczrb[ xthtgf[?
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ gjcskftn vtyz
+ erhfcnm rfhnbye bp jcj`yzrf _townhouse_
+ d ujhjlt __townhouse_.
+ E vtyz tcnm =traveltime_ lytq, xnj`s
+ jnlfnm tt yfybvfntk< _qgiver_
+ d ljvt __qgiver_, xnj d ujhjlt
+ ___qgiver_.
+
+
+
+QBN:
+Item _painting_ painting
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _townhouse_ remote house4
+--reverted to house4 as original
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Barbarian
+Foe _F.01_ is Giant_bat
+Foe _F.02_ is Spider
+Foe _F.03_ is Sabretooth_tiger
+
+--	Quest start-up:
+	place item _painting_ at _townhouse_
+	start timer _traveltime_
+	log 1010 step 0
+	pc at _townhouse_ set _S.01_
+
+_traveltime_ task:
+	end quest
+
+_S.01_ task:
+	start task _S.01a_
+
+_S.01a_ task:
+	pick one of _guard1_ _guard2_ _guard3_ _guard4_
+--set this apart to a permanent task, previous setup would randomly pick again upon re-entering the house
+
+_questdone_ task:
+	toting _painting_ and _qgiver_ clicked
+	give pc _gold_
+	end quest
+
+_guard1_ task:
+	create foe _F.00_ every 4 minutes 1 times with 10% success
+
+_guard2_ task:
+	create foe _F.01_ every 4 minutes 1 times with 10% success
+
+_guard3_ task:
+	create foe _F.02_ every 4 minutes 1 times with 10% success
+
+_guard4_ task:
+	create foe _F.03_ every 4 minutes 1 times with 10% success

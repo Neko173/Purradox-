@@ -1,0 +1,158 @@
+-- Quest: C:\QUESTS\WORKING\10C00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: Meridia
+-- Repute: 0
+-- QuestId: 0
+Messages: 41
+Quest: 10C00Y00
+DisplayName: Pflfybt Vthblbb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> J lf, ljhjueif. Levf< z cvjue gjcgjcj`cndjdfnm ndjbv
+<ce> fv`bwbzv. Tckb z gjj`tof< nt`t xnj-nj wtyyjt, yt
+<ce> dsgjkybim kb lkz vtyz rjt-xnj?
+
+RefuseQuest:  [1001]
+<ce> Rfr *fkm! Djn nt`t lhe*tcrjt ghtleght*ltybt:
+<ce> c *flysvb fdfyn<hbcnfvb, yt *tkf<obvb ltkbnmcz
+<ce> c lheubvb, xfcnj ckexf<ncz dczrbt...ytghbznyjcnb.
+
+AcceptQuest:  [1002]
+<ce> Ns `thtimcz? J, rfr @nj vbkj. Yfvyjuj ghbznytt, xtv
+<ce> jlby _monster_, bpdtcnysq gjl bvtytv =monster_,
+<ce> rjnjhsq pfrk<xbk cj vyjq cltkre, yj ghtyt`htu tt
+<ce> dsgjkytybtv. Djn `s nt`t yfytcnb tve dbpbn b
+<ce> yfgjvybnm, xnj nfrjt ytlj`ktcnyjt gjdtltybt vj*tn
+<ce> jrfpfnmcz afnfkmysv. Gjckt @njuj blb r vjtve ljhjujve
+<ce> lheue, _qgfriend_, rjnjhsq `eltn *lfnm =1stparton_ lytq
+<ce> d __qgfriend_ d ___qgfriend_,
+<ce> b lfcn nt`t vjq fhntafrn _artifact_, rjulf ns ghb`eltim.
+<ce> ^nf dtobxrf nt`t jxtym ghbujlbncz. F ntgthm ghjdfkbdfq.
+<ce> ~elm jcnjhj*ytt.
+
+QuestFail:  [1003]
+<ce> Ns dtlm yt hfccxbnsdftim pfcke*bnm vbkjcnm Vthblbb,
+<ce> crfpfd vyt, xnj nt`t yt elfkjcm e`bnm =monster_?
+<ce> Yflt<cm, xnj @nj yt nfr.
+
+QuestComplete:  [1004]
+<ce> %pcn? Z _qgfriend_. Pyf<, xnj ns botim
+<ce> vtyz. Pltcm e vtyz _artifact_, rfr b `skj
+<ce> j`tofyj Vthblbtq. Vthblbz dgtxfnktyf ndjbv
+<ce> ecgtiysv dsgjkytybtv rjynhfrnf.
+
+RumorsDuringQuest:  [1005]
+Djkit`ybr bp ___mondung_ bpdtcnysq rjkktrwbjyth cnhfyys[ fhntafrnjd.
+   <--->
+Z cksifk, xnj =monster_ pfrk<xftn cltkrb c le[fvb lkz gjgjkytybz cdjtq rjkktrwbb.
+
+RumorsPostfailure:  [1006]
+^njn jnkbxyj jcyfotyysq djkit`ybr eitk bp ___mondung_. Levf<, nfv vj*yj yfqnb vyjuj bynthtcyjuj
+   <--->
+^njn =qgfriend_ _qgfriend_ eitk bp __qgfriend_ j`tcgjrjtyysq `tcxtcnysv %ra.
+
+RumorsPostsuccess:  [1007]
+Ujdjhzn, xnj jlyj bp ceotcnd bp rjkktrwbb =monster_ j*bkj b e`bkj %g4.
+   <--->
+=monster_ `sk e`bn rtv-nj pfbynthtcjdfyysv d tuj cjrhjdbof[.
+
+Message:  1011
+_qgfriend_ @nj bvz =qgfriend_ bp __qgfriend_, ghjcnj yf %di jnc<lf.
+   <--->
+_qgfriend_ @nj crhjvysq =qgfriend_, rjnjhjuj z dcnhtxfk d __qgfriend_. ^nj yf %di.
+
+Message:  1012
+_qgfriend_ jlby bp cj`bhfntktq Vthblbb d %reg. Jxfhjdfntkmyj, yt ghfdlf kb?
+   <--->
+_qgfriend_ ghbcke*ybr lf@lhf, Gjdtkbntkmybws |flyjcnb, Vthblbb.
+
+Message:  1013
+Vthblbz - ghbywtccf lf@lhf b cj`bhfntkmybwf xtkjdtxtcrb[ lei.
+   <--->
+Vthblbz bp hjlf ltzntkmys[ ghbywtd lf@lhf b jyf `tcgjoflyf r cdjbv dhfufv.
+
+Message:  1014
+<ce> ^nj rjkmwj lsibn lhtdytq cbkjq. Gj j`otve vytyb< jyj cgjcj`yj
+<ce> cltkfnm cdjtuj dkfltkmwf ytdblbvsv, `tcievysv b `scnhsv rfr
+<ce> dtnth.
+
+Message:  1020
+%qdt:
+ E vtyz =1stparton_ lytq, xnj`s yfqnb b e`bnm
+ _monster_ gj bvtyb =monster_, dthyenmcz d
+ ___qgfriend_, xnj`s gjdcnhtxfnm =qgfriend_
+ gj bvtyb _qgfriend_ b pf`hfnm fhntafrn,
+ j`tofyysq Vthblbtq, _artifact_.
+ =monster_ yf[jlbncz ctqxfc d
+ ___mondung_, f _qgfriend_ d
+ ___qgfriend_.
+
+
+Message:  1030
+<ce> Bcgecnbd le[ =monster_ gflftn e dfib[ yju.
+<ce> Ktlb Vthblbz d ljkue gthtl dfvb.
+
+Message:  1040
+<ce> Nfffr. Vthblbz gjcskftn cdjb[ kfrttd ghjnbd
+<ce> vtyz. Yj vyt yt ye*ys cj<pybrb. Blb c<lf,
+<ce> lbnz J`kbdbjyf! Gjcke*b cdjtve gjdtkbntk<
+<ce> d xfc cdjtq ye*ls!
+
+
+
+QBN:
+Item _artifact_ artifact Ring_of_Khajiit anyInfo 1014
+
+Person _questgiver_ face 112 named Meridia anyInfo 1013
+Person _qgfriend_ group Librarian anyInfo 1011 rumors 1012
+
+Place _mondung_ remote dungeon
+
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
+
+Foe _monster_ is Sorceror
+Foe _daedra1_ is Fire_daedra
+Foe _daedra2_ is Daedroth
+--added dungeon name to block 1002. Quest previously did not name dungeon except in journal.
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1020 step 0
+	place foe _monster_ at _mondung_
+
+_1stparton_ task:
+	end quest
+
+variable _2ndparton_
+--unused variable
+_pcgetsgold_ task:
+	when _npcclicked_ and _mondead_
+	give pc _artifact_
+	end quest
+--removed unnecessary delay
+
+_mondead_ task:
+	killed 1 _monster_
+	say 1030
+	clear _S.08_
+
+_npcclicked_ task:
+	clicked npc _qgfriend_
+
+_clearclick_ task:
+	when _npcclicked_ and not _mondead_
+	say 1003
+	clear _npcclicked_ _clearclick_
+
+_S.07_ task:
+	injured _monster_
+	say 1040
+
+_S.08_ task:
+	when _S.07_ and not _mondead_
+	create foe _daedra2_ every 3 minutes 3 times with 100% success
+	create foe _daedra1_ every 2 minutes 2 times with 100% success

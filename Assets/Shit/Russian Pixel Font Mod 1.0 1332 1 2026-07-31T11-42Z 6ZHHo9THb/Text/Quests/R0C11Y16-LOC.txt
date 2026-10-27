@@ -1,0 +1,160 @@
+-- Quest: C:\QUESTS\WORKING\R0C11Y16.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 11
+-- QuestId: 16
+Messages: 17
+Quest: R0C11Y16
+DisplayName: Igbjycrjt j`jheljdfybt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Tckb ds yt ghjnbd gjnhfnbnm ytcrjkmrj lytq
+<ce> b cnfnm yf _reward_ pjkjns[ `jufxt,
+<ce> e vtyz tcnm jlyj pflfybt, nht`e<ott
+<ce> crjhjcnb, bcgjkybntkmyjcnb b ltkbrfnyjcnb.
+
+RefuseQuest:  [1001]
+<ce> Ytn? Z hfccxbnsdfk hfcgkfnbnmcz c dfvb
+<ce> cgecnz ytcrjkmrj lytq. Vyjubt kb bp
+<ce> rhtcnmzy cjukfczncz e`bnm k<`juj pf
+<ce> ltymub? F, ye xnj *. ^nj dfif *bpym,
+<ce> yt `ele vtifnm.
+
+AcceptQuest:  [1002]
+<ce> Dtkbrjktgyj, %pcf. Bnfr, e vty tcnm
+<ce> jcdtljvbntkm, _npc1_ d ___npc1_,
+<ce> rjnjhjve ye*yf gjlpjhyfz nhe`f, xnj`s
+<ce> ghjljk*fnm yf`k<ltybz. Z nfr gjybvf<,
+<ce> xnj jy yfitk xnj-nj jxtym bynthtcyjt
+<ce> lkz yfib[ j`ob[ lheptq. B @nj xnj-nj
+<ce> yflj ljcnfdbnm frrehfnyj. Djn nhe`f.
+<ce> Eytcbnt @nj d vtcntxrj gjl yfpdfybtv
+<ce> __npc1_ d ___npc1_, nfv
+<ce> gjkexbnt lfkmytqibt erfpfybz. Elfxb
+<ce> dfv, %pcf.
+
+QuestFail:  [1003]
+<ce> Iyshzybt nelf c<lf yt cltkftn
+<ce> dfc `jufxt, %pcf.
+
+QuestComplete:  [1004]
+<ce> Ljk*yj `snm ds %pcn.
+<ce> _npc1_ hfccrfpsdfk vyt j dfc.
+<ce> Z _npc2_. Gjpdjkmnt vyt
+<ce> ukzyenm yf @ne htkbrdb<. Jxtym
+<ce> bynthtcyfz inerf. Ye xnj *, djn
+<ce> dfib _reward_ pjkjns[. B ds ybrjulf
+<ce> yt dbltkb vtyz, ljujdjhbkbcm?
+
+RumorsDuringQuest:  [1005]
+Tckb _questgiver_ dkflttn hfpdtndktyyjq ctnm< jcdtljvbntktq, nj ctnm @nf jxtym [jhjij pfvfcrbhjdfyf.
+   <--->
+Ujdjhzn, xnj _npc1_ - igbjy, yj %g ybrjulf yt gjrblftn __npc1_.
+
+RumorsPostfailure:  [1006]
+J`thyekjcm nfr, xnj _npc1_ gjqvfkb b rjyabcrjdfkb dct yfuhf`ktyyjt bveotcndj.
+   <--->
+Ujdjhzn _npc1_ - igbjy yf gj`tueirf[ e _questgiver_.
+
+RumorsPostsuccess:  [1007]
+E vtyz nfrjt xedcndj, xnj pf vyjq ___npc1_ dct cktlzn.
+   <--->
+Yt elbdk<cm, tckb jrf*tncz, xnj @nf htkbrdbz e*t gjrbyekf ldjhtw.
+
+QuestorPostsuccess:  [1008]
+{vvv, @nj ckexfqyj yt yfi edf*ftvsq igbjy? Rfr gj*bdftnt, <ysq lheu %pcf?
+   <--->
+Rfr z gjybvf< yfit ltkj ghjikj `tp cexrf `tp pfljhbyrb. Jnkbxyj, %pcf.
+
+QuestorPostfailure:  [1009]
+<ce> Ds ghjdfkbkb jndtncndtyyjt pflfybt, c
+<ce> rjnjhsv z dfc jnghfdkzk, nfr dtlm?
+<ce> Yfqlbnt [jnz `s jlye ghbxbye, gj rjnjhjq
+<ce> vyt ye*yj j`ofnmcz c dfvb?
+
+QuestLogEntry:  [1010]
+<ce> Jnkbxysq ds`jh, %pcf. Gjpdjkmnt
+<ce> ghtlcnfdbnmcz. Vtyz pjden _npc1_
+<ce> b z pyf<, xnj ds ytctnt lkz vtyz
+<ce> gjlpjhye< nhe`e. _questgiver_, rfr
+<ce> z pyf<, ujdjhbk, xnj e vtyz lkz
+<ce> dfc tcnm hf`jntyrf. Djpmvbnt djn @ne
+<ce> inerjdbye b jnytcbnt r =npc2_ d
+<ce> ___npc2_. Bvz - _npc2_. Bcrfnm
+<ce> d __npc2_.
+<ce> Dfit pjkjnj `eltn *lfnm dfc nfv.
+<ce> Gjcnfhfqntcm yt jgjplfnm; dfc `elen
+<ce> *lfnm =2ndparton_ lytq.
+
+Message:  1015
+%qdt:
+ Igbjye yf cke*`t e _questgiver_
+ bp ___questgiver_ ye*yf
+ gjlpjhyfz nhe`f b vtyz gjghjcbkb ghbytcnb
+ tt nelf. E vtyz =1stparton_ lytq,
+ xnj`s lj`hfnmcz lj _npc1_ d
+ ___npc1_ d vtcnt gjl yfpdfybtv
+ __npc1_. Gjgfd nelf, z gjkexe
+ lfkmytqibt erfpfybz.
+
+Message:  1016
+%qdt:
+ _npc1_ gjkexbk cdj< gjlpjhye< nhe`e
+ b jnghfdbk vtyz r rjve-nj gj bvtyb _npc2_
+ bp ___npc2_ c jlyjq lhfujwtyyjcnm<.
+ E vtyz =2ndparton_ lytq, xnj `s lj`hfnmcz lj
+ _npc2_ d ___npc2_ d __npc2_.
+
+
+
+QBN:
+Item _reward_ gold
+Item _item1_ telescope
+Item _item2_ Holy_relic
+
+Person _questgiver_ face 140 group Questor
+Person _npc1_ group Local_3.0 remote
+Person _npc2_ face 248 group Local_3.1 remote
+
+
+Clock _1stparton_ 00:00 0 flag 1 range 1 4
+Clock _2ndparton_ 00:00 0 flag 1 range 1 4
+
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1015 step 0
+	get item _item1_
+	create npc _npc1_
+
+_pcgetsgold_ task:
+	toting _item2_ and _npc2_ clicked
+	give pc _reward_
+	end quest
+
+variable _pchasitem1_
+variable _pchasitem2_
+_S.03_ task:
+	toting _item1_ and _npc1_ clicked
+	start timer _2ndparton_
+	log 1016 step 1
+	get item _item2_
+	say 1010
+	create npc _npc2_
+
+variable _S.04_
+_queston_ task:
+	when _1stparton_ and not _S.03_
+	change repute with _questgiver_ by -20
+	end quest
+
+_1stparton_ task:
+	make _item1_ permanent
+
+_2ndparton_ task:
+	make _item2_ permanent
+	change repute with _questgiver_ by -20
+	end quest

@@ -1,0 +1,205 @@
+-- Quest: C:\QUESTS\WORKING\N0B40Y07.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 40
+-- QuestId: 7
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 61
+Quest: N0B40Y07
+DisplayName: Bpuyfybt lf@lhf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Yt pyf<, cvj*tnt kb ds gjvjxm vyt d
+<ce> jlyjv ltkt, %pcf. Z boe
+<ce> vjueotcndtyyjuj vfuf cgjcj`yjuj
+<ce> dspdfnm pfrkznbt bpuyfybz lf@lhf c
+<ce> vbybvfkmysv ifycjv yf ytelfxe.
+<ce> ~snm vj*tn @nj ds?
+   <--->
+<ce> Bpuyfybt lf@lhf - jlyj bp cfvs[
+<ce> ckj*ys[ cnfylfhnys[ pfrkbyfybq.
+<ce> Nfrbt pfrkznbz nht`e<n vyjuj vfubb
+<ce> b evtybz. Ds yt gj[j*b yf cgjcj`yjuj
+<ce> bcgjkmpjdfnm @nj pfrkznbt. Bkb
+<ce> @nj yt nfr?
+   <--->
+<ce> Yfcvtirf celm`s cjcnjbn d njv, xnj
+<ce> lf@lhf dspdfnm yfvyjuj ghjot, xtv
+<ce> bpuyfnm j`hfnyj, djn nfr. Ds yt gj[j*b
+<ce> yf cgjcj`yjuj bcgjkmpjdfnm cnfylfhnyjt
+<ce> pfrkznbt bpuyfybz lf@lhf.
+<ce> {jnbnt gjghj`jdfnm?
+
+RefuseQuest:  [1001]
+<ce> F, ye kflyj, `ele ghjljk*fnm gjbcrb.
+
+AcceptQuest:  [1002]
+<ce> Z jxtym yflt<cm, xnj ds vyt yt k*tnt.
+<ce> Z yt [jxe, xnj`s lf@lhf `skf e`bnf,
+<ce> gjnjve xnj jyf vj*tn gjyflj`bnmcz vyt
+<ce> gjplytt, yj tt ghbcencndbt d @njv vbht
+<ce> ctqxfc jxtym yt*tkfntkmyj. B yt
+<ce> gsnfqntcm cltkfnm pfrkznbt gjlj`yjt
+<ce> cnfylfhnyjve e rjycnhernjhf pfrkznbq.
+<ce> Ytj`[jlbvj bcgjkmpjdfnm bvtyyj cnfylfhnyjt.
+<ce> F ntgthm, gjcrjkmre z `sk ghbxfcnty r
+<ce> dspjde @njq lf@lhf, gjgsnf<cm j`ktuxbnm
+<ce> dfie hf`jne. Djpmvbnt @njn cdbnjr,
+<ce> cjlth*fobq pfrkznbt, rjnjhjt vuyjdtyyj
+<ce> pfghtnbn lf@lhf djcgjkmpjdfnmcz cdjbv
+<ce> bcnbyysv bvtytv. Gthtl bcgjkmpjdfybtv
+<ce> cdbnrf e`tlbntcm, xnj gecnbkb rhjdm
+<ce> ceotcnde, byfxt gjcktlcndbz vjuen `snm
+<ce> ytghtlcrfpetvsvb. Rfr njkmrj lf@lhf
+<ce> `eltn pfrk<xtyf d "rktnre", ye*yj
+<ce> bcgjkmpjdfnm "Bpuyfybt lf@lhf" c
+<ce> vbybvfkmysv ifycjv yf ytelfxe.
+<ce> Bcrjvjt cjplfybt j`bnftn d ___mondung_.
+<ce> ~ele *lfnm dfituj djpdhfotybz d ntxtybt
+<ce> =queston_ lytq.
+<ce> Elfxb dfv, %pct.
+
+QuestComplete:  [1004]
+<ce> Ghtrhfcyj, %pct. Ctqxfc e vtyz
+<ce> yt nfr vyjuj ltytu, yj djn rybuf,
+<ce> rjnjhfz ytcjvytyyj dfv ghbujlbncz.
+
+RumorsDuringQuest:  [1005]
+Gj[j*t yf nj, xnj lf@lhf ghbdzpfyf r ___mondung_. ~snm vj*tn @nj xnj-nj yf le[jdyjv gkfyt.
+   <--->
+<ce> Cnfhsq _qgiver_ dctulf dspsdftn nfrjt, xnj cjplftn njkmrj ghj`ktvs.
+
+RumorsPostfailure:  [1006]
+Lf@lhbxtcrbt pdtpls ghjikjq yjxm< cdtnbkbcm ytj`sxyj zhrj.
+
+RumorsPostsuccess:  [1007]
+C lf@lhf gjrjyxtyj. Yj e yb[ tcnm ghbdsxrf djpdhfofnmcz, rjulf b[ yt *len.
+   <--->
+___mondung_ gjxnb jxbotyj jn ghbcencndbz lf@lhf, dhjlt `s rfr.
+
+QuestorPostsuccess:  [1008]
+Ye rfr, [jhjifz rybuf, %pcf? Lkz vtyz jyf cnfkf ghjcnj nfrb jnrhjdtybtv.
+
+QuestorPostfailure:  [1009]
+<ce> Tckb e dfc ytn pfrkbyfybz
+<ce> "Bpuyfybt lf@lhf", nj yt cvj*tnt
+<ce> dsgjkybnm pflfybt. F ctqxfc
+<ce> jcnfdmnt vtyz.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp Ubkmlbb Vfujd
+ d ___qgiver_
+ gjckfk vtyz d ___mondung_,
+ ult vyt ye*yj bcgjkmpjdfnm "Bpuyfybt lf@lhf"
+ ghjnbd lf@lhf. _qgiver_
+ lfk vyt cdbnjr c pfrkznbtv, gjpdjkz<obv
+ j`ktuxbnm @njn ghjwtcc, yj pfrkznbt @nj
+ hf`jnftn njkmrj, tckb lf@lhf gecnbnm rhjdm.
+ Vbccbz `eltn cxbnfnmcz dsgjkytyyjq, tckb
+ z dthyecm lj bc[jlf =queston_ lytq.
+
+Message:  1030
+Pfyjn yf' =daedra_.
+Pfyjn yf' ==dummydaedra_.
+Ctytn ctytn vjh.
+
+Message:  1040
+<ce> Ns `tpvjpukfz negbwf! Z dtlm yfhjxyj
+<ce> ghjbycnhernbhjdfk nt`z BPUYFNM lf@lhf
+<ce> =daedra_, f yt e`bdfnm tt. Ntgthm vyt
+<ce> ye*yj jgznm gjuhepbnmcz d ghjwtcc gjpyfybz
+<ce> bcnbyyjuj bvtyb lheujq lf@lhf.
+<ce> Ndjt ghbcencndbt uytntn vtyz, %pcf.
+<ce> Eqlb c ukfp ljkjq.
+
+Message:  1050
+<ce> Zpsrb gkfvtyb gj*hfkb cdbnjr, rfr
+<ce> njkmrj ds ghjxkb gjcktlybt ckjdf.
+
+Message:  1051
+<ce> Z =firedaedra_.
+<ce> Rnj ghbpdfk vtyz bp
+<ce> vjtuj ljvf d J`kbdbjyt?
+
+Message:  1060
+<ce> Lf@lhf =daedra_ jrjyxfntkmyj
+<ce> bpuyfyf j`hfnyj d gkfy J`kbdbjyf.
+
+
+--in msg 1015, shifted text downward to avoid exposed hyphen
+
+QBN:
+Item _book_ book
+Item _spellScroll_ letter used 1030
+--added underscores to spellScroll
+
+Person _qgiver_ group Questor
+Person _dummydaedra_ face 249 factiontype Daedra remote
+
+Place _mondung_ remote dungeon9
+Place aide remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _daedra_ is Frost_daedra
+Foe _firedaedra_ is Fire_daedra
+
+--	Quest start-up:
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	get item _spellScroll_
+	place foe _daedra_ at _mondung_
+
+_queston_ task:
+	end quest
+
+_reward_ task:
+	when _qgclicked_ and _S.10_ and not _S.06_
+	give pc _book_
+	unset _qgclicked_
+	end quest
+
+_out_ task:
+	remove foe _daedra_
+	--changed faulty "place enemy at other dungeon" task with simple "remove" for reliability
+
+variable _S.03_
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_S.05_ task:
+	take _spellScroll_ from pc
+	--changed "place item spellScroll at aide" to this "take from pc" action.
+	say 1050
+	--"say 1050" transferred from middle of "until _S.07_ performed," had faulty placing and this is a better ordering
+	create foe _firedaedra_ every 1 minutes 1 times with 100% success
+	say 1051
+	--transferred "msg 1051" from previous line to this one, not known to be a valid argument
+
+_S.06_ task:
+	killed 1 _daedra_
+
+_S.07_ task:
+	injured _daedra_
+	_spellScroll_ used do _S.08_
+
+until _S.07_ performed:
+	_spellScroll_ used do _S.05_
+
+_S.08_ task:
+	cast Banish_Daedra spell do _out_
+	restrain foe _daedra_
+
+_S.09_ task:
+	when _qgclicked_ and _S.06_
+	say 1040
+	end quest
+
+_S.10_ task:
+	when _out_ and not _S.06_
+	say 1060

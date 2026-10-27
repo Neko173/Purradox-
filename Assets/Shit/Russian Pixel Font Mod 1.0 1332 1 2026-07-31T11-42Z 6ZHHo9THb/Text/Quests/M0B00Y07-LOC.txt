@@ -1,0 +1,131 @@
+-- Quest: C:\QUESTS\WORKING\M0B00Y07.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 0
+-- QuestId: 7
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 81
+Quest: M0B00Y07
+DisplayName: Yt*tkfyysq ujcnm
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Dhtvz jn dhtvtyb gjgflf<ncz nfrbt blbjns,
+<ce> rfr @njn rkbtyn. ^njn ghblehjr jcnfdbk
+<ce> jnrhsnjq pfly<< ldthm, b d ytt pfktp
+<ce> rfrjq-nj lbrbq pdthm. Jy njxyj yt pyftn,
+<ce> nbuh @nj, bkb vtldtlm, yj d k<`jv ckexft
+<ce> ^NJ [jxtn tuj c]tcnm. Yfv ye*yj jnghfdbnm
+<ce> rjuj-nj nelf b ghbrjyxbnm *bdjnyjt.
+<ce> Cnfylfhnyfz nfrcf - _gold_ vjytn.
+<ce> Pfqvticz @nbv, %pcn?
+
+RefuseQuest:  [1001]
+<ce> Gjyznyj. Gecnm nbuh c]tcn tuj. Lehfr cfv
+<ce> *t b dbyjdfn - gecnbk pdthz d ljv, lf?
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj. Ndjz wtkm - _house_ d __house_.
+<ce> Xnj`s e`bnm vjycnhf b dthyenmcz lytq lftncz
+<ce> nt`t: =2dung_.
+
+QuestComplete:  [1004]
+<ce> Yt ib`rj nhelyj `skj? Levf<, ytn.
+<ce> Djn ndjb pjkjnst, _gold_.
+
+RumorsDuringQuest:  [1005]
+<ce> Nbuh pf`hfkcz d _house_. {jpzbye
+<ce> ghbltncz hfcrjitkbnmcz, xnj`s tuj
+<ce> ghbrjyxbkb.
+
+RumorsPostfailure:  [1006]
+<ce> Nbuh hfcnthpfk `tlyjuj vfkjuj d tuj
+<ce> cj`cndtyyjv ljvt. E*fcyfz nhfutlbz!
+
+RumorsPostsuccess:  [1007]
+<ce> Yt ns kb ghbxbyf cvthnb njuj `tityjuj
+<ce> nbuhf, xnj pf`hfkcz d _house_?
+
+QuestorPostsuccess:  [1008]
+<ce> Jnkbxyj chf`jnfyj c @nbv nbuhjv.
+
+QuestorPostfailure:  [1009]
+<ce> Nbuhs - @nj ckbirjv rhenj. Vj*tv yflj
+<ce> `skj yfxfnm c `eheylexrjd? Xnj pf jke[...
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ d ___qgiver_, gjhexbk
+ vyt e`bnm nbuhf bkb vtldtlz, rjnjhsq
+ ghjybr d jlby ljv _house_ d
+ ujhjlt __house_. Tckb z dsgjky<
+ pflfybt b dthyecm r ytve pf =2dung_ lyz,
+ nj gjkexe _gold_ pjkjns[.
+
+Message:  1011
+<ce> _monster_ vthnd.
+
+Message:  1012
+<ce> _bear_ vthnd.
+
+Message:  1080
+<ce> ^q, lth*b, - jlby bp yfib[ djbyjd ytlfdyj
+<ce> yfitk @ne rfhne, ult erfpfyj gjlptvtkmt
+<ce> "___newdung_". Yt e`bdfq dct[ d
+<ce> gthdsq *t ltym.
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _house_ remote random
+Place _newdung_ remote dungeon
+
+Clock _2dung_ 1.00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Sabretooth_tiger
+Foe _bear_ is Grizzley_bear
+
+--	Quest start-up:
+	start timer _2dung_
+	log 1010 step 0
+	pick one of _map_ _nomap_ _nomap_
+	pick one of _monster1_ _monster2_
+	create npc at _house_
+
+_2dung_ task:
+	end quest
+
+_mondead_ task:
+	killed 1 _monster_ saying 1011
+	killed 1 _bear_ saying 1012
+
+_S.02_ task:
+	when _qgclicked_ and _mondead_
+	give pc _gold_
+	end quest
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_
+	clear _qgclicked_ _clearclick_
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+variable _map_
+variable _nomap_
+_S.06_ task:
+	when _map_ and _S.02_
+	reveal _newdung_ readmap
+    say 1080
+
+_monster1_ task:
+	place foe _bear_ at _house_
+
+_monster2_ task:
+	place foe _monster_ at _house_

@@ -1,0 +1,167 @@
+-- Quest: C:\QUESTS\WORKING\M0B00Y06.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 0
+-- QuestId: 6
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 81
+Quest: M0B00Y06
+DisplayName: Lbrjt *bdjnyjt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vtyz pjden _qgiver_.
+<ce> E yfc tcnm pfrfp jn vtcnyjuj *bntkz.
+<ce> Rfrjq-nj lbrbq pdthm ghj`hfkcz r ytve d ljv.
+<ce> Rnj-nj ljk*ty jnghfdbnmcz b e`bnm @ne ndfhm.
+<ce> Ubkmlbz ujnjdf pfgkfnbnm pf @nj _gold_ vjytn.
+<ce> Bltn, %pcn?
+
+RefuseQuest:  [1001]
+<ce> Edthty, rnj-yb`elm pf[jxtn pfyznmcz
+<ce> @nbv yfljtlkbdsv pdthtv.
+
+AcceptQuest:  [1002]
+<ce> "Jnkbxyj, %pcf. Ndjz wtkm -- _house_,
+<ce> @nj pltcm, d ujhjlt. Gjrjyxb c @nbv pf ltym.
+<ce> Ybrnj yt [jxtn, xnj`s lbrbt ndfhb hfpuekbdfkb
+<ce> e ytuj d ljvt. Djpdhfofqcz, rjulf pdthm `eltn
+<ce> vthnd, b ndjz yfuhflf `eltn *lfnm nt`z".
+<ce> _qgiver_ jrkbryek rjuj-nj: "^q, xnj
+<ce> nfv pf pdthm d _house_?"
+
+QuestComplete:  [1004]
+<ce> Jnkbxyj, %pcf.
+<ce> Djn ndjb pjkjnst, _gold_.
+
+RumorsDuringQuest:  [1005]
+<ce> Ns d rehct? Lbrbq pdthm ghjybr d jlby bp
+<ce> ujhjlcrb[ ljvjd. Yflt<cm tuj crjhj ghbrjyxfn.
+
+RumorsPostfailure:  [1006]
+<ce> Ubkmlbz ~jqwjd ghbrjyxbkf @njuj
+<ce> pdthz d _house_. Dct-nfrb
+<ce> pljhjdj, xnj jyf tcnm e yfc.
+
+RumorsPostsuccess:  [1007]
+<ce> ^nf pdth<uf gjrfktxbkf *tyobye, ght*lt
+<ce> xtv tt dsuyfkb bp ujhjlf. Rfrfz *fkjcnm!
+
+QuestorPostsuccess:  [1008]
+<ce> {jhjij chf`jnfyj - xeljdbot vthndj!
+<ce> Xtv vjue cke*bnm?
+
+QuestorPostfailure:  [1009]
+<ce> Ujdjhzn, @nf ndfhm cj*hfkf [jpzbyf ljvf.
+<ce> Elfh gj yfitq htgenfwbb! D cktle<obq hfp
+<ce> gjcnfhfqcz gjkexit.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ubkmlbz ~jqwjd bp ___qgiver_ gjhexbkf vyt
+ eybxnj*bnm lbrjuj pdthz, ghjybrituj d *bkbot:
+ _house_. Ye*yj cltkfnm @nj pf ltym.
+
+Message:  1011
+<ce> Vtldtlm vthnd.
+
+Message:  1012
+<ce> Ufhgbz vthndf.
+
+Message:  1013
+<ce> Gfer vthnd.
+
+Message:  1014
+<ce> Nbuh vthnd.
+
+Message:  1021
+<ce> C dth[ytuj @nf*f gjcksifkcz ujkjc:
+<ce> "^nj vtldtlm".
+
+Message:  1022
+<ce> C dth[ytuj @nf*f gjcksifkcz ujkjc:
+<ce> "^nj ufhgbz".
+
+Message:  1023
+<ce> C dth[ytuj @nf*f gjcksifkcz ujkjc:
+<ce> "^nj gfer".
+
+Message:  1024
+<ce> C dth[ytuj @nf*f gjcksifkcz ujkjc:
+<ce> "^nj nbuh".
+
+Message:  1080
+<ce> Rcnfnb, tckb nt`z nfr pf`fdkz<n @nb pdthb,
+<ce> djn nt`t rfhnf r ___newdung_. Ghjuekzqcz
+<ce> ghb ckexft.
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _house_ local random
+Place _newdung_ remote dungeon
+
+Clock _2dung_ 1.00:00 0 flag 1 range 0 1
+
+Foe _bear_ is Grizzley_bear
+Foe _tiger_ is Sabretooth_tiger
+Foe _harpy_ is Harpy
+Foe _spider_ is Spider
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _house_
+	log 1010 step 0
+	pick one of _map_ _nomap_ _nomap_ _nomap_
+	pick one of _monster1_ _monster2_ _monster3_ _monster4_
+	create npc at _house_
+
+_2dung_ task:
+	end quest
+
+_mondead_ task:
+	killed 1 _spider_ saying 1013
+	killed 1 _tiger_ saying 1014
+	killed 1 _harpy_ saying 1012
+	killed 1 _bear_ saying 1011
+
+_S.02_ task:
+	when _qgclicked_ and _mondead_
+	give pc _gold_
+	end quest
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_
+	clear _qgclicked_ _clearclick_
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+variable _map_
+variable _nomap_
+_S.06_ task:
+	when _map_ and _S.02_
+	reveal _newdung_ readmap
+    say 1080
+
+_monster1_ task:
+	say 1021
+	place foe _bear_ at _house_
+
+_monster2_ task:
+	say 1022
+	place foe _harpy_ at _house_
+
+_monster3_ task:
+	say 1023
+	place foe _spider_ at _house_
+
+_monster4_ task:
+	say 1024
+	place foe _tiger_ at _house_

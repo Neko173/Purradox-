@@ -1,0 +1,225 @@
+-- Quest: C:\QUESTS\WORKING\S0000004.Qbn.
+-- Main story quest.
+-- QuestId: 4
+Messages: 16
+Quest: S0000004
+DisplayName: Cdflm`f Vjhufqb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ds gsnftntcm jncktlbnm vtcnjyf[j*ltybt
+<ce> bvgthfnjhcrjuj gbcmvf, lf? Dhzl kb yfqltncz
+<ce> nfrjt cj`snbt d pfkbdt j rjnjhjv z yt `skf
+<ce> `s jcdtljvktyf. Z lfv dfv byajhvfwb<, yj dct
+<ce> bvttn cdj< wtye. Vyt ye*ty xtvgbjy, ghjitlibq
+<ce> crdjpm jujym J`kbdbjyf. Pfbynthtcjdfys?
+
+RefuseQuest:  [1001]
+<ce> |fkm. Yfqle rjuj-yb`elm lheujuj, cgjcj`yjuj
+<ce> gjvjxm vyt. Yj djn rnj gjvj*tn dfv, yt pyf<.
+
+AcceptQuest:  [1002]
+<ce> %oth, rfrjt j`ktuxtybt lkz vtyz. Yt pflfdfqnt
+<ce> djghjcjd -- ghjcnj jnytcbnt @nj gbcmvj r
+<ce> jlyjve dscjrjgjcnfdktyyjve djkit`ybre d
+<ce> ytrhjvfyncrjv ghb`t*bot d Rehufyt Crehu d
+<ce> ujhf[ Lhfrjymtuj {djcnf. Bp`tufqnt hfpkjvf. Tckb
+<ce> ds edblbnt tuj, pyfxbn pfikb ckbirjv lfktrj.
+<ce>
+<ce> Jyb yt *len dfc b yt `elen *lfnm, gjrf ds
+<ce> ghtlcnfdbntcm. Ytrhjvfyns cxbnf<n, xnj cvthnm
+<ce> @nj yfuhflf pf *bpym, f yt yfrfpfybt. Gjckt
+<ce> njuj rfr ds ljcnfdbnt gbcmvj, bv `jkmit yt ye*yj
+<ce> `eltn ufhfynbhjdfnm dfie `tpjgfcyjcnm. ^nj
+<ce> b[ genm. Vyt ye*yj, xnj`s @nj gbcmvj `skj
+<ce> ljcnfdktyj, f jndtn jn _necs_ `skb lflty vyt
+<ce> d ntxtybt vtczwf yfxbyfz c @njuj vjvtynf.
+<ce> Hbcr jxtym dtkbr, %pcf, `elmnt jcnjhj*ys.
+
+QuestFail:  [1003]
+<ce> Vyt ye*ty jndtn yf vjt gbcmvj
+<ce> jn _necs_, %pcf.
+
+QuestComplete:  [1004]
+<ce> Cdthibkjcm! Z `ele rjhjktdjq Atcn[jkmlf!
+<ce> {jnz z edthtyf, ljujdjhtyyjcnm `eltn ljcnfnjxyj
+<ce> lkbntkmyjq. F ntgthm, rfr z b j`tofkf, byajhvfwbz
+<ce> j` bvgthfnjhcrjv gbcmvt.
+<ce>
+<ce> Gbcmvj, rjnjhjt ds botnt, d herf[ Ujhndjuf,
+<ce> ghfdbntkz jhrjd. Jy gjkexbk tuj jn Ubkmlbb
+<ce> Djhjd d Lfuuthajkkt gjckt njuj, rfr jyb gj[bnbkb
+<ce> @nj gbcmvj e rjhjktds Fe`r-b
+<ce>
+<ce> Ghbpyf<cm, xnj vyt ytbpdtcnyj, gjxtve bvgthfnjh
+<ce> gjckfk tuj Fe`r-b. Ltdjxrf f`cjk<nyj ytdbyyf b
+<ce> rf*lsq pyftn, xnj Ujnhbl yt nfr e* b ghtlfy nhjye
+<ce> gj chfdytyb< c Kbpfylecjv. Ye b rjytxyj *t vjz
+<ce> cj`cndtyyfz ctvmz...dghjxtv ljcnfnjxyj @nb[
+<ce> ldjhwjds[ cgktnty.
+<ce>
+<ce> Tckb ds ltqcndbntkmyj [jnbnt yfqnb @nj gbcmvj,
+<ce> cjdtne< gjj`ofnmcz c Vbybcthjq, ght*ytq rjhjktdjq
+<ce> Lfuuthajkkf b vfnthm< rjhjktdjq Ujnhblf. Z `s
+<ce> yt cnfkf j`hfofnmcz r ytq yfghzve<. Yfxybnt c
+<ce> rjuj-yb`elm bp ybpib[ rheujd, ghb`kb*tyys[ r ytq.
+
+RumorsDuringQuest:  [1005]
+Tckb `s yt htgenfwbz Vjhufqb, tt `hfn ghfdbk `s D@qhtcnjv.
+   <--->
+Rfr vs vj*tv rjhjyjdfnm `hfnf, rjnjhsv vfybgekbhetn dtlmvf yfdhjlt ghbywtccs Vjhufqb?
+
+RumorsPostfailure:  [1006]
+Yfcnhjtybt Vjhufqbb jrjyxfntkmyj bcgjhxtyj. Ybrnj tot yt dbltk tt d nfrjv yfcnhjtybb.
+   <--->
+Gjkfuf<, Vjhufqt cfvjt dhtvz ds[jlbnm pfve*. Rnj djn njkmrj tt pf[jxtn?
+
+RumorsPostsuccess:  [1007]
+Ghbywtccf Vjhufqz gjlwtgbkf rjhjkz Atcn[jkmlf. Xelj bp xeltc, lf b njkmrj.
+   <--->
+Xnj ds levftnt j njv, xnj Rjhjkm Atcn[jkmlf ghtlkj*bk here b cthlwt Vjhufqt?
+   <--->
+Vjhufqz nhb ujlf rhenbkf hjvfy! ^nb `kfujhjlyst jxtym cnhfyysq yfhjl.
+
+QuestorPostfailure:  [1009]
+<ce> Ds gjldtkb vtyz, %pcf. Z [jntk gjkexbnm
+<ce> jndtn jn _necs_ d ntxtybt vtczwf. B ntgthm
+<ce> ns cvttim djpdhfofnmcz rj vyt nfr gjplyj? Cubym!
+
+
+QuestLogEntry:  [1010]
+_necs_,
+<ce>
+  Z cjukfcyf yf dfib eckjdbz. Z lfv dfv
+vjtuj gthdtywf, f ds jrf*tnt cdjt dkbzybt
+yf rjhjkz Atcn[jkmlf yf jcnhjdt Cfvvthctn.
+Njkmrj ds vj*tnt gjujdjhbnm c tuj evthibv
+csyjv. Pf @nj jy lf*t `eltn ujnjd *tybnmcz
+yf Yekmafut!
+<ce>
+-- V
+
+Message:  1011
+Ghbywtccf,
+<ce>
+  Dsgjkytyj.
+<ce>
+-- _necs_
+<ce> ----
+
+Message:  1012
+%qdt:
+ Ghbywtccf Vjhufqz bp D@qhtcnf gjghjcbkf
+ vtyz ljcnfdbnm gbcmvj lkz _necs_ bp
+ jhltyf ytrhjvfynjd d Rehufy Crehu, xnj
+ d ujhf[ Lhfrjymtuj {djcnf. Jyf crfpfkf bp`tufnm
+ nhtobys, xnj `s @nj yb `skj. Tckb z @nj
+ edb*e, nj z pfitk ckbirjv lfktrj. Jyf [jxtn
+ gjkexbnm jndtn d ntxtybt vtczwf.
+
+Message:  1013
+Ghbywtccf Vjhufqz jcnfdbkf D@qhtcn hflb jcnhjdf Cfvvthctn b rjhjkz Atcn[jkmlf.
+   <--->
+D@qhtcn erhtgbk jnyjitybz c dscibvb @kmafvb Atcn[jkmlf `kfujlfhz *tybnm`t.
+   <--->
+E Atcn[jkmlf yjdfz rjhjktdf, f D@qhtcn gjnthzk ghbywtcce.
+   <--->
+Vjhufqz `eltn cxfcnkbdf `snm rjhjktdjq Rfhelfqkf d Atcn[jkmlt.
+   <--->
+Vjhufqz `eltn gthdjq rjhjktdjq Atcn[jkmlf, rjnjhfz yt bp rheujd dscib[ @kmajd.
+
+Message:  1014
+<ce> Rjhjkm ^fldbh b
+<ce> rjhjktdf ~fhtypbz,
+<ce> Ghfdbntkb rjhjktdcndf D@qhtcn
+<ce> c ujhljcnm< j`]zdkz<n j gjvjkdrt
+<ce> Vjhufqb, ghbywtccs D@qhtcnf,
+<ce> b Rfhelfqkf, rjhjkz Atcn[jkmlf
+<ce> c jcnhjdf Cfvvthctn.
+
+Message:  1015
+<ce> Gthtl dfvb gjzdbkcz vjkjljq <yjif c Hjpjq D@qhtcnf
+<ce> yf cdjtq rehnrt, rjnjhsq dhexbk dfv rfhnjxre c
+<ce> dsuhfdbhjdfyyjq yflgbcm<, gjckt xtuj bcxtp d
+<ce> ytbpdtcnyjv yfghfdktybb.
+
+Message:  1016
+<ce> Jxtym [jhjij. Tckb vjb ghtlfyyst
+<ce> ckeub bp Rehufyf yt yfuhflzn dfc
+<ce> cvthnm<, jnlfqnt @ne pfgbcre ghbywtcct
+<ce> Vjhufqt gj*fkeqcnf.
+
+
+
+QBN:
+Item letter44 letter used 1010
+Item letter13 letter used 1011
+Item _reward_ trinket
+Item engagement letter used 1014
+
+Person _morgiah_ named Princess_Morgiah
+Person _necs_ named King_of_Worms atHome
+
+Place _scourgbarrow_ permanent ScourgBarrow1
+
+Clock _2ndgo_ 30.00:00 0 flag 1 range 0 1
+Clock _S.01_ 7.00:00 14.00:00
+Clock _letterdelay_ 1.00:00
+
+--	Quest start-up:
+	prompt QuestorOffer yes yes no _no_
+
+_2ndgo_ task:
+	drop _morgiah_ as questor
+	end quest
+
+_S.01_ task:
+	repute with _morgiah_ exceeds 10 do _S.07_
+	rumor mill 1013
+
+_S.07_ task:
+	have engagement set _S.10_
+	give pc engagement notify 1015
+
+_S.02_ task:
+	toting letter13 and _morgiah_ clicked
+	give pc _reward_
+	start timer _S.01_
+	stop timer _2ndgo_
+	remove log step 0
+	start task _S.08_
+	change repute with _morgiah_ by +10
+	drop _morgiah_ as questor
+
+_S.03_ task:
+	toting letter44 and _necs_ clicked saying 1016
+	get item letter13
+	change repute with _necs_ by +10
+
+variable _S.04_
+yes task:
+	start timer _2ndgo_
+	log 1012 step 0
+	get item letter44
+	reveal _scourgbarrow_ in province 1 at 450958
+	say AcceptQuest
+	add _morgiah_ as questor
+
+_no_ task:
+	say RefuseQuest
+	end quest
+
+MorgiahSatisfied _S.08_
+_S.09_ task:
+	when _S.01_ and not _S.07_
+	start quest 21 21
+	end quest
+
+_S.10_ task:
+	start timer _letterdelay_
+--adding 24-hour delay to allow to read letter. this is a very common bug report
+
+_letterdelay_ task:
+	start quest 21 21
+	end quest

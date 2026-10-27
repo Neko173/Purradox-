@@ -1,0 +1,366 @@
+-- Quest: C:\QUESTS\WORKING\B0B81Y02.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 81
+-- QuestId: 2
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 43
+Quest: B0B81Y02
+DisplayName: Gjnthzyysq fhntafrn
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Z _qgiver_ bp `kfujhjlyjuj
+<ce> jhltyf hswfhtq. E vtyz tcnm
+<ce> jxtym jgfcyjt pflfybt, %pcf. B ds
+<ce> bp nt[ ytvyjub[, rjnjhsv jyj gj gktxe.
+<ce> Vthprbq kbx cj`bhftn fhvb< yt*bnb lkz
+<ce> yfgfltybz yf ghjdbywb<. Yfv ye*yj
+<ce> xnj-nj cltkfnm, xnj`s jcnfyjdbnm @nj.
+<ce> Z yf dfc yflt<cm...
+
+RefuseQuest:  [1001]
+<ce> Gjybvf<, %pcn.
+<ce> ^nj ltqcndbntkmyj jxtym jgfcyj lkz
+<ce> dfc. Tcnm tot jlby bkb ldf uthjz,
+<ce> rjnjhst vjuen jcnfyjdbnm pkjltz.
+<ce> Z gjghj`e< gjghjcbnm b[ gjvjob.
+
+AcceptQuest:  [1002]
+<ce> Dfif [hf`hjcnm vtyz djc[boftn. R ltke!
+<ce> Kbx erhskcz d vhfxyjv gjlptvtkmt, -
+<ce> ___dungeon_. Ghjybrybnt d tuj kjujdj
+<ce> b eybxnj*mnt dc< vthpjcnm, rjnjhe<
+<ce> dcnhtnbnt. Yj yt pf`sdfqnt, kbx - dfif
+<ce> ukfdyfz wtkm. Tckb xthtp =2dung_ lytq ds yt
+<ce> dthytntcm, yfv ghbltncz gjckfnm lheub[.
+<ce> Yflt<cm, ds dthytntcm d lj`hjv plhfdbb...
+
+QuestComplete:  [1004]
+<ce> Ghbdtncnde< uthjz, %pcn!
+<ce> Dtkbrjktgyj! Dfit bvz `eltn
+<ce> pfgbcfyj d ktnjgbcz[.
+
+RumorsDuringQuest:  [1005]
+%reg erhtgkztncz gthtl yfgfltybtv fhvbb yt*bnb.
+   <--->
+Dcz ghjdbywbz %reg yflttncz xnj ==qgiver_ eybxnj*bn kbxf.
+
+RumorsPostfailure:  [1006]
+Kbx yf dhtvz gjrbyek cdjt kjujdj ___dungeon_. Yj njkmrj yf dhtvz.
+   <--->
+Kbx dthyekcz d cdjq crktg ___dungeon_. ^nj njxyj.
+
+RumorsPostsuccess:  [1007]
+Ghjdbywb< %reg cgfckb, b ==qgiver_ gjkexbn yfie `kfujlfhyjcnm yf dc< *bpym.
+   <--->
+Hswfhm-%ra eybxnj*bk kbxf.
+
+QuestorPostsuccess:  [1008]
+~skj `s uhe`jcnm< c vjtq cnjhjys yt gjvjxm cgfcbntk< wtkjq ghjdbywbb %reg.
+
+QuestorPostfailure:  [1009]
+Dfif elfxf d njv, xnj kbx yt cvju eybxnj*bnm dc< ghjdbywb< %reg.
+   <--->
+Ghjdbywbz %reg d cthmtpyjq jgfcyjcnb, b ds nj*t.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_,
+ ==qgiver_ bp ujhjlf ___qgiver_
+ jnghfdkztn vtyz c pflfybtv
+ eybxnj*bnm kbxf d cdjtv kjujdt
+ ___dungeon_. E vtyz =2dung_
+ lytq xnj`s pfrjyxbnm @nj pflfybt.
+
+Message:  1011
+<ce> Kbx gjub`. Tuj fhvbz `tp
+<ce> vfubxtcrjq gjllth*rb
+<ce> dthytncz cyjdf d vjubke.
+
+Message:  1020
+...vyt elfkjcm yfqnb ytxnj!
+Z lf*t yt jcvtk<cm yfpdfnm bvz
+gjnthzyyjuj fhntafrnf vjoytqitq
+cbks, rjnjhfz ghjcnj `mtn rk<xjv
+bp ytuj. Vjt dhtvz gjl[jlbn r
+rjywe. Z evhe pltcm, d lhtdytv
+crktgt ___dungeon2_,
+pf`kelbdibcm d ntvys[ rjhbljhf[.
+Yj cyfxfkf vyt yflj cghznfnm yf[jlre.
+Tckb vyt yt elfcncz, nj...
+
+Message:  1028
+<ce> Cj*fkt<, %pcn. Ds yt djpdhfofkbcm
+<ce> nfr ljkuj, xnj vs htibkb, xnj
+<ce> ds gjub`kb. B yf pflfybt jnghfdbkcz
+<ce> lheujq hswfhm.
+
+Message:  1030
+<ce> Ds ghjltkfkb dtcm @njn genm lkz
+<ce> njuj, xnj`s gjujdjhbnm cj vyjq
+<ce> b ntgthm ds jnrfpsdftntcm? Ytdthjznyj!
+<ce> Ghjxm c ukfp vjb[!
+
+Message:  1031
+<ce> Xevf yf dfi ljv, b`j ds jcvtkbkbcm
+<ce> `tcgjrjbnm vtyz, %pcn. %oth, rjytxyj
+<ce> z pyf< dfit bvz b djdct yt cj`bhf<cm
+<ce> hfccrfpsdfnm dfv j ct`t. Xnj njkre
+<ce> d djkit`cndt, tckb ds yt vj*tnt
+<ce> pyfnm lf*t nt[ dtotq, rjnjhst pyf<n
+<ce> dct yjhvfkmyst k<lb. Z nfr*t pyf<,
+<ce> gjxtve ds pltcm. Ds [jnbnt pfgjkexbnm
+<ce> {hbpfvth, yj ds ybxtuj lf*t yt
+<ce> vj*tnt crfpfnm j` @njv bvtyb.
+<ce> Tlbycndtyysq genm r njve,
+<ce> xnj`s pfgjkexbnm tuj, - cyfxfkf pfcke*bnm
+<ce> vjt jlj`htybt.
+
+Message:  1032
+<ce> Xevf yf dfi ljv, b`j ds jcvtkbkbcm
+<ce> `tcgjrjbnm vtyz, %pcn. %oth, rjytxyj
+<ce> z pyf< dfit bvz b djdct yt cj`bhf<cm
+<ce> hfccrfpsdfnm dfv j ct`t. Xnj njkre
+<ce> d djkit`cndt, tckb ds yt vj*tnt
+<ce> pyfnm lf*t nt[ dtotq, rjnjhst pyf<n
+<ce> dct yjhvfkmst k<lb. Z nfr*t pyf<,
+<ce> gjxtve ds pltcm. Ds [jnbnt pfgjkexbnm
+<ce> Fvektn Ytrhjvfynf, b, rhjvt bvtyb,
+<ce> ds ybxtuj lf*t yt vj*tnt crfpfnm j
+<ce> ytv. Tlbycndtyysq genm r njve,
+<ce> xnj`s pfgjkexbnm tuj, - cyfxfkf pfcke*bnm
+<ce> vjt jlj`htybt.
+
+Message:  1033
+<ce> Xevf yf dfi ljv, b`j ds jcvtkbkbcm
+<ce> `tcgjrjbnm vtyz, %pcn. %oth, rjytxyj
+<ce> z pyf< dfit bvz b djdct yt cj`bhf<cm
+<ce> hfccrfpsdfnm dfv j ct`t. Xnj njkre
+<ce> d djkit`cndt, tckb ds yt vj*tnt
+<ce> pyfnm lf*t nt[ dtotq, rjnjhst pyf<n
+<ce> dct yjhvfkmst k<lb. Z nfr*t pyf<,
+<ce> gjxtve ds pltcm. Ds [jnbnt pfgjkexbnm
+<ce> Gjcj[ Vfuyecf, b, rhjvt bvtyb,
+<ce> ds ybxtuj lf*t yt vj*tnt crfpfnm j
+<ce> ytv. Tlbycndtyysq genm r njve,
+<ce> xnj`s pfgjkexbnm tuj, - cyfxfkf pfcke*bnm
+<ce> vjt jlj`htybt.
+
+Message:  1034
+<ce> Xevf yf dfi ljv, b`j ds jcvtkbkbcm
+<ce> `tcgjrjbnm vtyz, %pcn. %oth, rjytxyj
+<ce> z pyf< dfit bvz b djdct yt cj`bhf<cm
+<ce> hfccrfpsdfnm dfv j ct`t. Xnj njkre
+<ce> d djkit`cndt, tckb ds yt vj*tnt
+<ce> pyfnm lf*t nt[ dtotq, rjnjhst pyf<n
+<ce> dct yjhvfkmst k<lb. Z nfr*t pyf<,
+<ce> gjxtve ds pltcm. Ds [jnbnt pfgjkexbnm
+<ce> Rjkmwj Vfuf, b, rhjvt bvtyb,
+<ce> ds ybxtuj lf*t yt vj*tnt crfpfnm j
+<ce> ytv. Tlbycndtyysq genm r njve,
+<ce> xnj`s pfgjkexbnm tuj, - cyfxfkf pfcke*bnm
+<ce> vjt jlj`htybt.
+
+Message:  1035
+<ce> Gjybvftnt, z njxyj yt pyf<, ult ctqxfc
+<ce> yf[jlbncz dfi fhntafrn. Vjq ltl njkmrj
+<ce> jlyf*ls dbltk tuj. Rfr bpdtcnyj bp
+<ce> ctvtqyjq bcnjhbb, chfpe, rfr njkmrj
+<ce> jy yfitk tuj, Ubkmlbz Vfujd nen *t
+<ce> pf`hfkf tuj b ult-nj cghznfkf.
+<ce> Le[ ltlf lj cb[ gjh yt egjrjty.
+<ce> Djpmvbnt @ne ghzlm djkjc
+<ce> b, d j`vty yf egjrjtybt tuj leib,
+<ce> jy vj*tn hfccrfpfnm dfv, ult yfqnb
+<ce> nj, xnj ds botnt.
+<ce> Ghbphfr j`bnftn d vjubkt ___dungeon3_.
+
+Message:  1040
+<ce> E dfc pyfr vjtuj hjlf, ghzlm djkjc
+<ce> jlyjuj bp vjb[ ghtlrjd. Z crbnfkcz
+<ce> pltcm jxtym ljkuj, j*blfz @njn pyfr.
+<ce> Dfi genm - @nj _mageguild_,
+<ce> __mageguild_. Nfv ds yfqltnt
+<ce> nj, xnj z jlyf*ls gjnthzk.
+
+Message:  1041
+%qdt:
+ Vyt elfkjcm yfqnb vfuf, _wizard_, d
+ gjlptvtkmt ___dungeon2_. Ntgthm vyt
+ ye*yj yfqnb le[ %g4 dtkbrjuj ghtlrf d
+ crktgt ___dungeon3_.
+ Jy vj*tn hfccrfpfnm vyt, ult yf[jlbncz
+ gjnthzyysq fhntafrn dtkbrjq cbks.
+ _wizard_ nfr*t ujdjhbn, xnj kjrjy,
+ gthtlfyysq bv, vj*tn egjrjbnm crbnf<oe<cz
+ leie.
+
+Message:  1042
+%qdt:
+ _wizard_-le[ crfpfk vyt, xnj fhntafrn z cvjue yfqnb
+ d [hfvt _mageguild_,
+ __mageguild_.
+
+
+
+QBN:
+Item _I.01_ artifact Warlocks_Ring
+Item _I.02_ artifact Necromancers_Amulet
+Item _I.03_ artifact Chrysamere
+Item _I.04_ artifact Staff_of_Magnus
+Item _map_ letter used 1020
+Item _I.06_ item class 17 subclass 13
+
+Person _qgiver_ group Questor
+Person _wizard_ face 1 group Spellcaster remote
+
+Place _dungeon_ remote dungeon
+Place _dungeon2_ remote dungeon
+Place _mageguild_ remote magery
+Place _dungeon3_ remote dungeon0
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+Clock _S.30_ 180.13:20 0 flag 1 range 0 1
+
+Foe _F.00_ is Ancient_lich
+Foe _F.01_ is Lich
+Foe _ghost_ is Wraith
+Foe _battlemage_ is Battle_mage
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	pick one of _ancientlich_ _lich_ _lich_
+	pick one of _artifact1_ _artifact2_ _artifact3_ _artifact4_
+
+variable _2dung_
+_S.01_ task:
+	killed 1 _F.01_ saying 1011
+	killed 1 _F.00_ saying 1011
+	_map_ used do _readmap_
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.02_ and _S.01_
+	give pc nothing
+	remove log step 0
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_
+
+variable _S.04_
+variable _S.05_
+_ancientlich_ task:
+	give item _map_ to _F.00_
+	place foe _F.00_ at _dungeon_
+
+_lich_ task:
+	give item _map_ to _F.01_
+	place foe _F.01_ at _dungeon_
+
+_artifact1_ task:
+	place item _I.03_ at _mageguild_
+
+_artifact2_ task:
+	place item _I.02_ at _mageguild_
+
+_artifact3_ task:
+	place item _I.04_ at _mageguild_
+
+_artifact4_ task:
+	place item _I.01_ at _mageguild_
+
+_readmap_ task:
+	start timer _S.30_
+	reveal _dungeon2_ readmap
+	place npc _wizard_ at _dungeon2_
+
+_S.13_ task:
+	clicked npc _wizard_
+
+_S.14_ task:
+	when _artifact1_ and _S.13_
+	prompt 1031 yes yes no _no_
+
+_S.15_ task:
+	when _artifact2_ and _S.13_
+	prompt 1032 yes yes no _no_
+
+_S.16_ task:
+	when _artifact3_ and _S.13_
+	prompt 1033 yes yes no _no_
+
+_potion_ task:
+	when _artifact4_ and _S.13_
+	prompt 1034 yes yes no _no_
+
+_S.18_ task:
+	clicked item _I.02_
+	clicked item _I.03_
+	clicked item _I.01_
+	clicked item _I.04_
+
+_S.19_ task:
+	when _S.13_ and _S.20_
+	clear _S.13_ _S.19_
+
+variable _S.20_
+yes task:
+	pc at _mageguild_ set _S.25_
+	reveal _dungeon3_
+	say 1035
+	log 1041 step 1
+	get item _I.06_
+	place foe _ghost_ at _dungeon3_
+
+_no_ task:
+	say 1030
+
+totemReward2 task:
+	killed 1 _ghost_
+	have _I.06_ set _S.24_
+
+_S.24_ task:
+	log 1042 step 2
+	say 1040
+
+_S.25_ task:
+	create foe _battlemage_ every 5 minutes 5 times with 50% success
+
+_S.26_ task:
+	when _artifact1_ and _S.18_
+	make _I.03_ permanent
+
+_S.27_ task:
+	when _artifact2_ and _S.18_
+	make _I.02_ permanent
+
+_S.28_ task:
+	when _artifact3_ and _S.18_
+	make _I.04_ permanent
+
+_S.29_ task:
+	when _artifact4_ and _S.18_
+	make _I.01_ permanent
+
+_S.30_ task:
+	end quest
+
+_questdone_ task:
+	when _2dung_ and not _readmap_
+	end quest
+
+_S.32_ task:
+	when _clearclick_ and _2dung_
+	say 1028
+
+_S.33_ task:
+	when _S.26_ or _S.27_ or _S.28_ or _S.29_
+	end quest

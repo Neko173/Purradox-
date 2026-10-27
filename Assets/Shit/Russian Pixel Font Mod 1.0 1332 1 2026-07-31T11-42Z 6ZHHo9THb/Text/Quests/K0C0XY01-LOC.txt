@@ -1,0 +1,254 @@
+-- Quest: C:\QUESTS\WORKING\K0C0XY01.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: merchant
+-- Repute: 0X
+-- QuestId: 1
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 100
+Quest: K0C0XY01
+DisplayName: Uytplj ufhgbq
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> E yfc ckj*bkfcm ytcrjkmrj ytj`sxyfz cbnefwbz. Ufhgbb
+<ce> jhufybpjdfkb uytpljdmt d jlyjv bp j`]trnjd vjtq cnfhjq
+<ce> ytldb*bvjcnb, b gjrf z kbxyj yt dvtibdfkcz, yfi
+<ce> evytqibq b `kfuj*tkfntkmysq %rt gjcnfyjdbk, xnj
+<ce> k<`jq dkfltktw rfrjq-kb`j pfhf*tyyjq cj`cndtyyjcnb
+<ce> kbxyj ytctn jndtcndtyyjcnm pf bcnht`ktybt b pfxbcnre.
+<ce> Pltcm gj dctq dblbvjcnb ghtrhfcysq @rptvgkzh hf`jns
+<ce> `tp cjukfcjdfybz c rtv-kb`j. Jnrhjdtyyj ujdjhz e vtyz
+<ce> ghjcnj ytn dhtvtyb yf @nj, yj tckb ns yt ghjnbd
+<ce> ytvyjuj jvjxbnm cdjq vtx d rhjdb, nj z [jxe gjghjcbnm
+<ce> nt`z j gjvjob. Gjcktlybq yftvybr, rjnjhjuj z yfybvfk,
+<ce> yt cghfdbkcz c hf`jnjq, nfr xnj z gjqve, tckb ns
+<ce> ghjzdbim ythtibntkmyjcnm b jnrf*timcz. ~ele hfl
+<ce> pfgkfnbnm nt`t, crf*tv, _reward_ pjkjns[ pf ytelj`cndf.
+
+RefuseQuest:  [1001]
+<ce> %oth. Xnj *, z yt vjue nt`z dbybnm.
+<ce> Z nj*t ybrjulf yt dsyjcbk djyb ufhgbq.
+
+AcceptQuest:  [1002]
+<ce> Ns pf? Jnkbxyj. Ghbcnegbv; ltkj d njv, xnj vyt
+<ce> ye*ys cthmtpyst ljrfpfntkmcndf dsgjkytyyjq
+<ce> hf`jns gj pfxbcnrt ___mondung_ d ntxtybt =2mondung_
+<ce> lytq. Hfpevttncz yt cnjbn nzyenm c @nbv. Z
+<ce> hfccxbnsdfk, xnj _contact_, yftvybr bp
+<ce> Ubkmlbb ~jqwjd, rjnjhjuj z yfybvfk, jrf*tncz
+<ce> `jktt cgjcj`ysv. B gjckeifq, %pcf, nt`t
+<ce> yt j`zpfntkmyj dsxbofnm dct gjlptvtkmt
+<ce> ___mondung_. Ljcnfnjxyj e`bnm xtnsht
+<ce> bkb gznm ceotcnd b dthyenmcz j`hfnyj. B ukfdyjt!
+<ce> Z pyf<, xnj kblths rkfyf yjczn cgtwbfkmyj
+<ce> jrhfityyst uhbajymb gthmz. Ghbytcb vyt [jnz `s
+<ce> jlyj bp yb[ b e vtyz `eltn ye*yjt ljrfpfntkmcndj.
+<ce> Eljcnjdthmcz, xnj yt gjnthgbim ytelfxb b
+<ce> cghfdbimcz d ntxtybt =2mondung_ lytq,
+<ce> %pcf.
+
+QuestFail:  [1003]
+<ce> %oth. Pltcm ghfrnbxtcrb yt
+<ce> ye*yj ghbrkflsdfnm ecbkbq.
+
+QuestComplete:  [1004]
+<ce> Jnkbxyj, %pcf. Ntgthm z vjue ljrfpfnm
+<ce> %rt, xnj dsgjkybk cdjq uhf*lfycrbq ljku, ye bkb
+<ce> gj rhfqytq vtht gjgsnfkcz tuj dsgjkybnm.
+<ce> Djn j`tofyyfz yfuhflf _reward_ pjkjns[.
+<ce> ~kfujlfh< nt`z.
+
+RumorsDuringQuest:  [1005]
+%rt nht`etn abpbxtcrjt ljrfpfntkmcndj njuj, xnj ufhgbb bpuyfys.
+   <--->
+_qgiver_ ltqcndbntkmyj pfgecnbk ___mondung_. Dhzl kb ntgthm @nj yfgjvbyftn [hfybkbot.
+   <--->
+_qgiver_ cktljdfkj `s hfpheibnm___mondung_, tckb tuj ytkmpz e*t bcgjkmpjdfnm.
+
+RumorsPostfailure:  [1006]
+%rt yfpyfxbk _qgiver_ cnjkmrj inhfajd, xnj z elbdk<cm, tckb %g cvj*tn b[ pfgkfnbnm.
+   <--->
+E _qgiver_ tcnm ytrjnjhst ghj`ktvs c bcnht`bntkzvb ufhgbq, yfcrjkmrj z gjybvf<.
+
+RumorsPostsuccess:  [1007]
+%rt dtcmvf hfl njve, xnj _qgiver_ ghtljcnfdbk ljrfpfntkmcndf njuj, xnj ___mondung_ pfxbotyj.
+   <--->
+_qgiver_ ghtlghbyzk cdj< gthde< gjgsnre pfxbcnbnm ___mondung_.
+
+QuestorPostsuccess:  [1008]
+Ns jxtym gjvju vyt c ufhgbzvb, %pcf. Xtv z vjue nt`t gjvjxm?
+
+QuestorPostfailure:  [1009]
+Vyt ytxtuj crfpfnm njve, rnj ytcgjcj`ty ghbytcnb [jnz `s gfhjxre gthmtd.
+
+Message:  1030
+~jkmijt, `tkjt gthj, hfcrhfityyjt d jndhfnbntkmyst jnntyrb rhfcyjuj.
+
+Message:  1031
+Cthjt gthj, jrhfityyjt njiyjndjhysvb jnntyrfvb ptktyjuj.
+
+Message:  1032
+~jkmijt, `tkjt gthj, jrhfityyjt d xbcnsq xthysq wdtn.
+
+Message:  1033
+Cthjt gthj, jrhfityyjt d necrksq cbybq wdtn.
+
+Message:  1011
+<ce> ~kfujlfh<, %pcf. Z pyf< rfr
+<ce> lj`hfnmcz lj cdjtuj ljvf.
+
+Message:  1012
+__qgiver_, ___qgiver_
+Edf*ftvsq lheu %pcn,
+<ce>
+  Ghjie ghjotybz pf `tcgjrjqcndj, edthty ds
+jxtym pfyzns, yj yf lyz[ rj vyt ghbitk xtkjdtxtr bp
+Ubkmlbb ~jqwjd gj gjdjle _contact_,
+yftvybrf, rjnjhjuj z yfybvfk hfytt lkz pfxbcnrb
+gjlptvtkmz ___mondung_.
+  Xnj`s yt uhepbnm dfc ltnfkzvb `tctls, crf*e,
+xnj z gjj`tofk vfcnthe ubkmlbb j`hfnbnmcz r dfv,
+xnj`s ds gjbcrfkb _contact_, gjrf `eltnt d
+___mondung_. _contact_ dsukzlbn rfr
+=contact_, gj[j*t jy pfcnhzk d ___mondung_.
+  Xnj *, z clth*fk j`tofybt, lfyyjt vfcnthe ubkmlbb.
+Gj ctrhtne, vyt gktdfnm, tckb ds ghjcnj `hjcbnt @nj
+gbcmvj b jcnfdbnt _contact_ uybnm d ___mondung_.
+<ce>
+C djjleitdktybtv `ele *lfnm dfituj djpdhfotybz.
+<ce>
+Bcnbyyj dfi,
+_qgiver_
+<ce> ----
+
+Message:  1013
+<ce> Dfc gjckfk _qgiver_?
+<ce> ~kfujlfhtybt `jue %god,
+<ce> xnj ds ghb`skb, %pcf.
+<ce> Ds `eltnt yt ghjnbd, tckb
+<ce> z ghbcjtlby<cm r dfv?
+<ce> Djpmvbnt djn @nj: _jewelry_
+<ce> d pyfr vjtq ghbpyfntkmyjcnb.
+
+Message:  1014
+<ce> Gthtl dfvb gjzdbkcz vjkjljq rehmth, dkj*bdibq d
+<ce> dfie here gbcmvj b hfcndjhbdibqcz d njkgt yt
+<ce> crfpfd yb ckjdf.
+
+Message:  1020
+%qdt:
+ _qgiver_,
+ njhujdtw bp ___qgiver_ yfyzk vtyz
+ pfxbcnbnm cdj< pf`hjityye< cj`cndtyyjcnm,
+ ___mondung_, rjnjhe< pfctkbkb ufhgbb.
+ Gj dctq dblbvjcnb @nj vtcnj yt `skj pfxbotyj,
+ nfr xnj cnjbn ghbkj*bnm ytrjnjhst ecbkbz,
+ xnj`s gjkexbnm [jnm rfrjq-nj @aatrn. Vyt
+ ye*yj dthyenmcz c rkfyjdsvb gthmzvb [jnz `s
+ jlyjuj bp kblthjd cnfb d ntxtybt =2mondung_ lytq,
+ xnj`s gjkexbnm yfuhfle _reward_ pjkjns[.
+
+Message:  1050
+<ce> 1 ufhgbz vthndf
+
+Message:  1051
+<ce> 2 ufhgbb vthnds
+
+Message:  1052
+<ce> 3 ufhgbb vthnds
+
+Message:  1053
+<ce> 4 ufhgbb vthnds
+
+--changed these msgs from 103X to 105X since those numbers were already taken above
+
+Message:  1040
+<ce> Vyt ye*ys rfrbt-yb`elm ljrfpfntkmcndf, ght*lt xtv z pfgkfxe.
+
+Message:  1099
+<ce> Ds yfikb rkfyjdjt gthj.
+
+
+
+QBN:
+Item _item_ book2
+Item _reward_ gold
+Item _clanfeather1_ harpy_feather
+-- feather "dialogue" was weird and out of place. Removed from quest since they contribute nothing
+Item _letter26_ letter used 1012
+Item _jewelry_ trinket
+
+Person _qgiver_ group Questor
+Person _contact_ face 1 faction The_Fighters_Guild remote
+
+Place _mondung_ remote dungeon10
+
+Clock _2mondung_ 00:00 0 flag 17 range 0 2
+Clock _S.05_ 16:40 1.09:20
+Clock _S.06_ 05:00 10:00
+
+Foe _F.00_ is Harpy
+Foe _F.01_ is Harpy
+
+--	Quest start-up:
+	start timer _2mondung_
+	start timer _S.05_
+	reveal _mondung_
+	log 1020 step 0
+	give item _clanfeather1_ to _F.01_
+	pc at _mondung_ set _S.08_
+	_letter26_ used do _S.15_
+	place foe _F.01_ at _mondung_
+	have _clanfeather1_ set _S.14_
+
+_2mondung_ task:
+	end quest
+
+variable _pcgetsgold_
+_S.02_ task:
+	toting _clanfeather1_ and _qgiver_ clicked
+	give pc _reward_
+	end quest
+
+_S.03_ task:
+	clicked npc _contact_
+	start timer _S.06_
+	get item _jewelry_
+	hide npc _contact_
+	say 1013
+	make _jewelry_ permanent
+	add _contact_ face
+	change repute with _contact_ by +10
+
+_S.04_ task:
+	clicked npc _qgiver_
+
+_S.05_ task:
+	give pc _letter26_ notify 1014
+
+_S.06_ task:
+	say 1011
+	drop _contact_ face
+
+variable _S.07_
+_S.08_ task:
+	create foe _F.00_ every 21 minutes 15 times with 25% success
+
+_clearclick_ task:
+	when _S.04_ and not _S.02_
+	clear _S.04_ _clearclick_
+	say 1003
+	say 1040
+
+variable _S.10_
+variable _S.11_
+variable _S.12_
+variable _S.13_
+_S.14_ task:
+	say 1099
+--changed "clicked item clanfeather1 say 1099" to "have item do this" since feather is on enemy body
+
+_S.15_ task:
+	place npc _contact_ at _mondung_

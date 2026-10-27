@@ -1,0 +1,232 @@
+-- Quest: C:\QUESTS\WORKING\A0C00Y11.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 11
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 42
+Quest: A0C00Y11
+DisplayName: Ktrfhcndj
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Bpdbybnt, ds ckexfqyj yt ljrnjh bkb
+<ce> j`kflftnt [jnz `s xenjxre wtkbntkmcrbvb
+<ce> cgjcj`yjcnzvb? Vyt ye*ty rnj-nj, rnj
+<ce> cvj*tn dsktxbnm vj< repbye.
+   <--->
+<ce> Vjz repbyf evbhftn! Ds vj*tnt gjvjxm?
+
+RefuseQuest:  [1001]
+<ce> Ghjrkznbt. Gjboe tot rjuj-yb`elm.
+   <--->
+<ce> Yt gjdtpkj. Cgfcb`j d k<`jv ckexft.
+   <--->
+<ce> Ghjoe ghjotybz pf `tcgjrjqcndj.
+
+AcceptQuest:  [1002]
+<ce> ~kfujlfh<, `kfujlfh<!
+<ce> Vtyz pjden _giver_.
+<ce> Ytlfdyj z gjkexbk bpdtcnbt, xnj vjz repbyf
+<ce> _cousin_ bp ___cousin_
+<ce> gjl[dfnbkf cvthntkmye< `jktpym b vj*tn
+<ce> evthtnm gj bc[jle =questtime_ lytq! Xnj `s
+<ce> ds yb ghtlghbyzkb lkz bpktxtybz, @nj `eltn
+<ce> otlhj djpyfuhf*ltyj. Djn _gold1_ pjkjns[.
+<ce> Z pfgkfxe tot _gold2_ d ckexft elfxyjuj
+<ce> bcwtktybz.
+
+QuestComplete:  [1004]
+<ce> J, ds ghbytckb vyt bcwtkz<obq nfkbcvfy!
+<ce> ~tpvthyj `kfujlfhty, %pcn.
+<ce> Djn j`tofyyfz gkfnf. Yt pyf< rfr tot
+<ce> jn`kfujlfhbnm dfc. ~ele vjkbnmcz pf dfie
+<ce> `tpjgfcyjcnm d dfib[ gentitcndbz[.
+
+RumorsDuringQuest:  [1005]
+<ce> Gkj[bt yjdjcnb gj gjdjle repbys
+<ce> _giver_. Z cksifk, xnj @nf `jktpym
+<ce> ytbpktxbvf.
+
+RumorsPostfailure:  [1006]
+<ce> _cousin_ bp ___cousin_
+<ce> evthkf jn djkit`yjq kb[jhflrb. Z cksifk,
+<ce> xnj xevf ybxnj gj chfdytyb< c ytq.
+   <--->
+<ce> _giver_ ckjvkty cdfkbdibvcz yf ytuj
+<ce> ytcxfcnmtv. %g4 repbyf d ___cousin_
+<ce> ytlfdyj evthkf.
+
+RumorsPostsuccess:  [1007]
+<ce> Ds cksifkb? Ckexbkjcm xeltcyjt pyfvtybt
+<ce> c bcwtktybtv d ___cousin_!
+   <--->
+<ce> _giver_ gj*thndjdfk `jkmie< cevve
+<ce> pjkjnf [hfve. Z cksifk %g4 repbyf
+<ce> bcwtkbkfcm xeltcysv j`hfpjv.
+   <--->
+<ce> Ds ckexfqyj yt njn %ra, rjnjhsq bcwtkbk
+<ce> jlyjuj `jkmyjuj xtkjdtrf d ___cousin_?
+
+QuestorPostsuccess:  [1008]
+<ce> ~kfujckjdkz< dfc, %pcf. Z ybrjulf yt pf`ele
+<ce> njuj, xnj ds cltkfkb lkz _cousin_ b vtyz.
+<ce> %g gjkyjcnm< bcwtkbkfcm jn djkit`yjq
+<ce> kb[jhflrb.
+
+QuestorPostfailure:  [1009]
+<ce> %pcn! Ds jnhfdkztnt djple[ cdjbv
+<ce> vthprbv ls[fybtv. Vjz repbyf evthkf bp-pf
+<ce> dfc. Djy! Djy! Djy!
+
+QuestLogEntry:  [1010]
+%qdt:
+ _giver_ bp ___giver_ pfgkfnbk
+ vyt pf bcwtktybt cdjtq repbys,
+ _cousin_ bp ___cousin_.
+ %g evhtn gj bc[jle =questtime_ lytq.
+ Z gjkexe tot _gold2_ pjkjns[, rjulf cgfce
+ %g2 *bpym.
+
+Message:  1011
+%qdt:
+ Cvjnh< yf _cousin_. %g4 cjcnjzybt
+ tot [e*t, xtv ujdjhbk _giver_.
+ _cousin_ crfpfkf, xnj _healer_ bp
+ ___healer_ vj*tn gjvjxm c bcwtktybtv.
+
+Message:  1012
+<ce> Z cksifk ghj %g4 `jktpym. Yj ybrnj bp
+<ce> vtcnys[ wtkbntktq yt pyftn ktrfhcndf.
+   <--->
+<ce> Z cksifk xnj-nj ghj @nj. Xnj-nj ghj cnhfyye<
+<ce> nfbycndtyye< b cvthntkmye< `jktpym.
+<ce> Jxtym gtxfkmyj.
+   <--->
+<ce> Lf, vyt bpdtcnyfz @nf bcnjhbz. Jxtym gj[j*t
+<ce> yf djkit`ye< kb[jhflre.
+   <--->
+<ce> Ybrnj yt pyftn, xnj ckexbkjcm, yj ujdjhzn,
+<ce> xnj *bnm %g2 jcnfkjcm ytcrjkmrj lytq.
+   <--->
+<ce> Jxtym pfgeotyysq ckexfq. Ybrnj yt pyftn, xnj
+<ce> ckexbkjcm. Ds vj*tnt gjghj`jdfnm j`hfnbnmcz r
+<ce> wtkbntk< gj bvtyb _healer_, rjnjhsq
+<ce> ujdjhbk, xnj j`kflftn @ywbrkjgtlbxtcrbvb
+<ce> gjpyfybzvb gj vfkjbpdtcnysv `jktpyzv.
+   <--->
+<ce> J, lf, jlyf bp cfvs[ jgfcys[ `jktpytq.
+
+Message:  1013
+<ce> Ghbdtncnde<. Lf, vyt bpdtcnyj ghj
+<ce> _cousin_ bp ___cousin_ b %g4
+<ce> ghj`ktve. ^nj djkit`yfz kb[jhflrf. Z pyf<.
+<ce> D j`otv tcnm e vtyz jcj`sq nfkbcvfy, rjnjhsq
+<ce> vj*tn bpktxbnm tt. Z bcgjkmpjdfk tuj kbim
+<ce> jlyf*ls. Z ghjlfv tuj dfv dctuj kbim pf 20
+<ce> pjkjns[. Djn jy. Pfhfytt `kfujlfhty.
+
+Message:  1015
+<ce> Ghbdtncnde<. Lf, vyt bpdtcnyj ghj
+<ce> _cousin_ bp ___cousin_ b %g4
+<ce> ghj`ktve. ^nj djkit`yfz kb[jhflrf. Z pyf<.
+<ce> D j`otv tcnm e vtyz jcj`sq nfkbcvfy, rjnjhsq
+<ce> vj*tn bpktxbnm tt. Z bcgjkmpjdfk tuj kbim
+<ce> jlyf*ls. Z ghjlfk `s tuj dfv dctuj kbim pf 20
+<ce> pjkjns[, yj db*e, xnj dfv ytxtv pfgkfnbnm.
+
+Message:  1017
+%qdt:
+ Regkty nfkbcvfy e _healer_ bp
+ ___healer_, rjnjhsq vj*tn bpktxbnm
+ djkit`ye< kb[jhflre, `jktpym, rjnjhjq
+ `jkttn _cousin_.
+
+Message:  1019
+<ce> Ds bcgjkmpjdfkb nfkbcvfy, gjckt xtuj jy
+<ce> cnhfyysv j`hfpjv hfcndjhbkcz d djple[t.
+
+Message:  1030
+<ce> Vyt nfr gkj[j. Yt pyf<, xnj ckexbkjcm cj vyjq.
+<ce> Vjq repty, _giver_ gjckfk dfc gjvjxm vyt?
+<ce> J, `kfujlfh< dfc, `kfujlfh< dfc! Z cksifkf
+<ce> j wtkbntkt gj bvtyb _healer_ bp ___healer_,
+<ce> vjueotuj gjvjxm vyt. Blbnt gj*fkeqcnf r ytve
+<ce> b ghbytcbnt vyt bcwtktybt, gjrf yt gjplyj!
+
+Message:  1040
+<ce> Ujdjhzn, xnj _healer_ cgtwbfkbpbhetncz yf
+<ce> `jktpyz[ gjlj`yjuj hjlf.
+   <--->
+<ce> _healer_? ^nj d ___healer_, z levf<.
+
+Message:  1041
+<ce> Ujdjhzn, xnj _healer_ kexibq wtkbntkm d jrheut.
+<ce> ds yfqltnt %g4 d ___healer_.
+   <--->
+<ce> Z cksifk ghj _healer_ bp ___healer_.
+<ce> E ytuj htgenfwbz jnkbxyjuj wtkbntkz, vjueotuj
+<ce> gjvjxm d cfvs[ pfgeotyys[ ckexfz[.
+
+
+
+QBN:
+Item _gold1_ gold range 5 to 25
+Item _gold2_ gold range 10 to 50
+Item talisman talisman
+
+Person _giver_ group Questor
+Person _cousin_ group Resident4 remote anyInfo 1012 rumors 1012
+Person _healer_ face 64 group Chemist remote anyInfo 1040 rumors 1041
+
+Clock _questtime_ 00:00 0 flag 1 range 3 5
+
+--	Quest start-up:
+	dialog link for person _healer_ item talisman
+	start timer _questtime_
+	log 1010 step 0
+	get item _gold1_
+	pick one of _S.04_ _S.05_
+	make _gold1_ permanent
+	talisman used do _S.06_
+	create npc _healer_
+	create npc _cousin_
+
+_questtime_ task:
+	end quest
+
+_S.01_ task:
+	clicked npc _cousin_ say 1030
+	log 1011 step 1
+
+_S.02_ task:
+	when _S.01_ and _S.04_
+	make pc ill with Wizard_Fever
+
+variable _S.03_
+variable _S.04_
+variable _S.05_
+_S.06_ task:
+	take talisman from pc saying 1019
+	cure Wizard_Fever
+
+_S.07_ task:
+	toting talisman and _cousin_ clicked
+	give pc _gold2_
+	end quest
+--removed unnecessary delay
+
+_S.08_ task:
+	clicked npc _healer_
+
+_S.09_ task:
+	clicked _healer_ and at least 20 gold otherwise do _S.10_
+	log 1017 step 2
+	get item talisman
+	say 1013
+
+_S.10_ task:
+	say 1015
+	clear _S.08_ _S.09_ _S.10_

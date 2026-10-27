@@ -1,0 +1,238 @@
+-- Quest: C:\QUESTS\WORKING\M0B00Y16.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 0
+-- QuestId: 16
+Messages: 81
+Quest: M0B00Y16
+DisplayName: E`bqcndj ubufynf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Pljhjd *bdtim, %pcf. Tckb e nt`z tcnm cdj`jlyjuj dhtvz,
+<ce> nen nen ghbitk pfrfp yf hf`jne, ye*yj e`bnm ubufynf.
+<ce> Gjxtve nj z chfpe gjlevfk ghj nt`z. Bynthtcyj?
+
+RefuseQuest:  [1001]
+<ce> D ltkf[, frb gxtkrf, lf? D ndjtv djphfcnt
+<ce> jlby bkb ldf ubufynf yt ghtlcnfdkzkb
+<ce> lkz vtyz ghj`ktvs. Ye b ltnb gjikb,
+<ce> crf*e nt`t.
+
+AcceptQuest:  [1002]
+<ce> {jhjij. D ___mondung_ gjctkbkcz ubufyn,
+<ce> rjnjhsq k<`bn gjkfrjvbnmcz `fhfyfv cnfhbrf
+<ce> _dummy_. Xtkjdtxbyrjq jy nj*t yt `htpuetn,
+<ce> c]tk ytcrjkmrb[ vtcnys[ *bntktq. _dummy_
+<ce> [jxtn, xnj j ubufynt gjpf`jnbkbcm d ntxtybt
+<ce> =qtime_ lytq b %g pfgkfnbn _gold_ pjkjns[.
+<ce> Edblbvcz.
+
+QuestFail:  [1003]
+<ce> Xnj, ubufyn evth jn j`*jhcndf?
+<ce> Blb ltkfq cdj< hf`jne, %pcf.
+<ce> E nt`z dtlm tcnm hf`jnf.
+
+QuestComplete:  [1004]
+<ce> Lf plhfdcndetn e`bqwf ubufynjd! Z
+<ce> pyfk, rjuj ds`bhf< lkz @njq hf`jns.
+<ce> Djn _gold_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+<ce> Ubufyn bp ___mondung_ e*t pfnthhjhbpbhjdfk dct[ djrheu, yj _dummy_ b d ec
+<ce> yt letn.
+   <--->
+<ce> ^njn ubufyn bp ___mondung_ jgznm erhfk xtkjdtrf yf lyz[.
+
+RumorsPostfailure:  [1006]
+<ce> Rfr *t [jhjij, xnj @njn ubufyn yfrjytw-nj e`hfkcz bp ___mondung_. Gjkfuf<
+<ce> tve yt gjyhfdbkcz *bntkm lthtdyb, erhfltyysq ghjikjq yjxm<.
+
+RumorsPostsuccess:  [1007]
+<ce> Lf cdznbncz %god! _dummy_ yfrjytw-nj gjckfk rjuj-nj e`bnm @njuj ubufynf
+<ce> bp ___mondung_. Ljk*yj `snm jy e`bk jlye bp kexib[ jdtw cnflf.
+
+QuestorPostsuccess:  [1008]
+<ce> ~f, lf @nj * vjq lheu Ubufynje`bqwf %pcf!
+
+QuestorPostfailure:  [1009]
+<ce> D lyb vjtq vjkjljcnb nt`z `s ghjcnj dsgyekb
+<ce> bp ubkmlbb pf nj, xnj nt`t yt elfkjcm cghfdbnmcz
+<ce> c rfrbv-nj ubufynbirjq. Yj dhtvtyf vtyz<ncz.
+
+Message:  1020
+%qdt:
+ _questgiver_ bp Ubkmlbb ~jqwjd
+ d ___questgiver_ yfyzk vtyz e`bnm
+ dtkbrfyf d ___mondung_.
+ Vyt ye*yj ljkj*bnmcz j dsgjkytybb d
+ ntxtybt =qtime_ lytq, xnj`s
+ gjkexbnm _gold_ pjkjns[.
+
+Message:  1021
+%qdt:
+ Dj dhtvz gjbcrjd elfkjcm cgfcnb
+ regwf, rjnjhjuj xenm yt c]tk ubufyn.
+ _villager_ gjghjcbk vtyz ghjdjlbnm tuj
+ r _store_ d __store_.
+
+Message:  1030
+<ce> Ubufyn pfhtdtk jn `jkb. Ds ecksifkb
+<ce> uekrbt pderb ifujd e ct`z pf cgbyjq.
+<ce> Gj[j*t jy ghbukfcbk gfhjxre
+<ce> lheptq yf e*by...
+
+Message:  1031
+<ce> Ds e`bkb ubufynf, pf rjnjhsv ghbikb.
+
+Message:  1040
+<ce> %god! Rfr *t [jhjij, xnj ds pltcm!
+<ce> Dxthf z yfghfdkzkcz d cdjq vfufpby, rjulf
+<ce> vtyz b xtnsht[ lheub[ regwjd, gentitcndjdfib[
+<ce> cj vyjq, gjqvfk ubufyn. Jy e*t c]tk b[,
+<ce> jcnfdbd vtyz yfgjcktljr. Gjvjubnt vyt
+<ce> ds`hfnmcz jnc<lf. Z yt jcnfyecm d ljkue.
+
+Message:  1041
+<ce> Ds bcnbyysq uthjq. Gjpdjkmnt ghtlcnfdbnmcz:
+<ce> _villager_ bp ___villager_.
+<ce> Vjq genm kt*fk d _store_ d
+<ce> __store_. Tckb ds ghjdjlbnt vtyz lj nelf,
+<ce> `ele jxtym `kfujlfhty.
+
+Message:  1042
+<ce> ~kfujlfh< dfc pf gjvjom, yj levf<,
+<ce> xnj z b cfv yfqle ljhjue jnc<lf.
+
+Message:  1043
+<ce> Ds `tccthltxys b xthcnds.
+
+Message:  1044
+<ce> Z pfgjvy< dfc, %pcf.
+<ce> Ds cgfckb vyt *bpym, z yt pf`ele @njuj.
+
+Message:  1080
+<ce> Djn lth*bnt. ^nj rfhnf r jlyjve vtcne
+<ce> gjl yfpdfybtv ___newdung_.
+<ce> Jlby bp nt[ gfhytq yfitk @nj ytcrjkmrj
+<ce> lytq yfpfl. Tckb `s `sk [jnm xenjxre
+<ce> vjkj*t, nj jnghfdbkcz `s dvtcnt c dfvb.
+
+
+
+QBN:
+Item _gold_ gold
+Item _magic_ magic_item
+
+Person _questgiver_ group Questor
+Person _dummy_ face 9 group Noble remote
+Person _villager_ face 8 group Shopkeeper remote
+
+Place _mondung_ remote dungeon
+Place _newdung_ remote dungeon
+Place _store_ remote generalstore
+
+Clock _qtime_ 00:00 0 flag 17 range 0 2
+
+Foe _giant_ is Giant
+Foe _giantFriends_ is Giant
+
+--	Quest start-up:
+	start timer _qtime_
+	reveal _mondung_
+	log 1020 step 0
+	pick one of _victim_ _S.09_ _S.09_
+	pick one of _map_ _nomap_ _nomap_
+	pick one of _magicItem_ _noMagicItem_ _noMagicItem_ _noMagicItem_
+	place foe _giant_ at _mondung_
+
+variable _map_
+variable _nomap_
+_S.02_ task:
+	injured _giant_
+	start task _giantWaveWhileInDungeon_
+	say 1030
+
+_S.03_ task:
+	killed 1 _giant_
+	say 1031
+
+_clickqgiver_ task:
+	clicked npc _questgiver_
+
+_clearclick_ task:
+	when _clickqgiver_ and not _S.03_
+	say 1003
+	clear _clickqgiver_ _clearclick_
+
+_success_ task:
+	when _clickqgiver_ and _S.03_
+	give pc _gold_
+
+variable _qtime_
+_duelist_ task:
+	when _success_ and _map_
+	reveal _newdung_ readmap
+	say 1080
+
+_victim_ task:
+	place npc _villager_ at _mondung_
+
+variable _noMagicItem_
+_magicItem_ task:
+	give item _magic_ to _giant_
+	make _magic_ permanent
+
+_S.09_ task:
+	hide npc _villager_
+
+_S.10_ task:
+	clicked npc _villager_
+	prompt 1040 yes _yes_ no _no_
+
+_yes_ task:
+	pc at _store_ set _S.13_
+	log 1021 step 1
+	hide npc _villager_
+	say 1041
+	add _villager_ face
+
+_no_ task:
+	say 1043
+	change repute with _villager_ by -10
+
+variable _escortComplete_
+_S.13_ task:
+	say 1044
+	drop _villager_ face
+	change repute with _villager_ by +15
+	place npc _villager_ at _store_
+	start task _escortComplete_
+
+_S.14_ task:
+	when _yes_ and not _escortComplete_ and _qtime_
+	say 1042
+
+_S.15_ task:
+	when _success_ and _no_
+
+_S.16_ task:
+	when _success_ and _S.09_
+
+_S.17_ task:
+	when _success_ and _escortComplete_
+
+_S.18_ task:
+	when _qtime_ or _S.15_ or _S.16_ or _S.17_ or _S.19_
+	end quest
+
+_S.19_ task:
+	when _success_ and _victim_ and not _S.10_
+
+_giantWaveWhileInDungeon_ task:
+	pc at _mondung_ set _spawnGiants_
+
+_spawnGiants_ task:
+	create foe _giantFriends_ every 3 minutes 6 times with 50% success

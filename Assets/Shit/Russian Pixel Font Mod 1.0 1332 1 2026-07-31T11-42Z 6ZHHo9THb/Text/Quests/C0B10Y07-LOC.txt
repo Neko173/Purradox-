@@ -1,0 +1,130 @@
+-- Quest: C:\QUESTS\WORKING\C0B10Y07.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: temple
+-- Repute: 10
+-- QuestId: 7
+Messages: 12
+Quest: C0B10Y07
+DisplayName: Ljcnfdrf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> ~kfujckjdtybt c dfvb, %pcn.
+<ce> __qgiver_ ye*lftncz d dfib[
+<ce> eckeuf[. Djn @ne dtobwe -
+<ce> _religitem_ - ytj`[jlbvj
+<ce> ljcnfdbnm d ___priest_
+<ce> d ntxtybt =traveltime_ lytq.
+<ce> Ds gjkexbnt gkfne d hfpvtht
+<ce> _gold_ pjkjns[. ~thtntcm?
+
+RefuseQuest:  [1001]
+<ce> ^[. Z ljk*ty gjbcrfnm lheujuj
+<ce> cke*bntkz [hfvf lkz dsgjkytybz
+<ce> @njuj pflfybz.
+
+AcceptQuest:  [1002]
+<ce> Djn _religitem_.
+<ce> Jnlfqnt @nj _priest_
+<ce> bp __priest_ d ___priest_.
+<ce> J, xenm yt pf`sk yfgjvybnm! Yfib
+<ce> rjyrehtyns vjuen jnghfdbnm `fylbnjd
+<ce> gj dfie leie.
+
+QuestComplete:  [1004]
+<ce> Lf `kfujckjdbn dfc %god,
+<ce> %pcn. ^nf dtobwf _religitem_
+<ce> jxtym ye*yf pltcm. Z d rehct,
+<ce> xnj ds ljk*ys gjkexbnm cdj< gkfne
+<ce> d _gold_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+Yf lyz[ `skf cbkmyfz *fhf ... yj ctqxfc jyf cgfkf.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostfailure:  [1006]
+__qgiver_ ghjrkzk bvz %pcn.
+
+RumorsPostsuccess:  [1007]
+_priest_ eljdktndjhty lfhjv jn __qgiver_.
+
+QuestorPostsuccess:  [1008]
+_priest_ iktn cdjb ghbdtncndbz, %pcf. Xnj z vjue cltkfnm lkz dfc?
+
+QuestorPostfailure:  [1009]
+_priest_ ybrjulf yt ghjcnbn vtyz, tckb z [jnz `s pfbryecm j dfc.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp __qgiver_ j`zpfk vtyz
+ ljcnfdbnm _religitem_
+ r _priest_ d __priest_ d
+ ___priest_. ^nj ljk*yj `snm yf vtcnt
+ d ntxtybt =traveltime_ lytq.
+
+Message:  1011
+<ce> _religitem_ ybrjulf yt
+<ce> ghbyflkt*fkj __priest_.
+<ce> Dpfvty z ghbik< bv ndj<
+<ce> ujkjde!
+
+
+
+QBN:
+Item _religitem_ religious
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+Person _priest_ group Group_5.0 remote
+Person _enemy_ face 176 group Local_4.0 remote
+
+Clock _traveltime_ 00:00 0 flag 1 range 1 2
+
+Foe _thief_ is Thief
+Foe _spellsword_ is Spellsword
+
+--	Quest start-up:
+	create foe _thief_ every 12 minutes 2 times with 5% success
+	create foe _spellsword_ every 12 minutes 2 times with 5% success
+	start timer _traveltime_
+	log 1010 step 0
+	get item _religitem_
+
+_traveltime_ task:
+	end quest
+
+_questdone_ task:
+	toting _religitem_ and _priest_ clicked
+	give pc _gold_
+	end quest
+
+_S.02_ task:
+	injured _thief_ saying 1011
+	injured _spellsword_ saying 1011

@@ -1,0 +1,116 @@
+-- Quest: C:\QUESTS\WORKING\B0C00Y10.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: knight
+-- Repute: 0
+-- QuestId: 10
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0C00Y10
+DisplayName: Ghj`ktvs c jhrfvb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Z _qgiver_. Ns yt
+<ce> xkty @njuj hswfhcrjuj jhltyf.
+<ce> Vs yt edthtys vj*yj kb nt`t ljdthznm
+<ce> lj cb[ gjh. Tckb ns e`mtim kblthf
+<ce> `fyls jhrjd `tcgjrjzob[ yfie
+<ce> nthhbnjhb<, vs dgjkyt vj*tv gthtlevfnm.
+<ce> {dfnbn cbktyjr lkz nfrjq hf`jns?
+
+RefuseQuest:  [1001]
+<ce> Gjxtve z yt elbdkty?
+<ce> Djpdhfofqcz, rjulf `eltim ujnjd
+<ce> pfcke*bnm yfit edf*tybt.
+
+AcceptQuest:  [1002]
+<ce> E`tq cnjkmrj jhrjd crjkmrj cvj*tim,
+<ce> yj eljcnjdthmcz d cvthnb b[
+<ce> kblthf gj bvtyb =monster_.
+<ce> Vthprfz `fylf ghzxtncz d gjlptvtkmt
+<ce> ___dungeon_. Tckb ns
+<ce> yt dthytimcz xthtp  =2dung_ lytq, z
+<ce> `ele pyfnm, xnj ns ltqcndbntkmyj nhec
+<ce> rfr dct b ujdjhzn.
+
+QuestComplete:  [1004]
+<ce> {vv. Vj*tn vs ljk*ys j`celbnm
+<ce> ndjt dcnegktybt. Ytgkj[fz
+<ce> hf`jnf, %pcn.
+
+RumorsDuringQuest:  [1005]
+^nj gktvz jhrjd nofntkmyj bp`tuftn hswfhtq.
+   <--->
+Gktvz gthtcnfytn ceotcndjdfnm `tp b[ kblthf.
+
+RumorsPostfailure:  [1006]
+Jhrb dthyencz. B[ kblth dct tot *bd.
+
+RumorsPostsuccess:  [1007]
+Ytrjnjhst %ra ghb[jlzn bp ybjnrelf, e`tq kblthf jhrjd b e[jlb.
+
+QuestorPostsuccess:  [1008]
+Xnj z vjue cltkfnm lkz nt`z, e`bqwf jhrjd?
+
+QuestorPostfailure:  [1009]
+Ns yt wtybim vjt dhtvz, k<`bntkm jhrjd.
+   <--->
+Gjxtve z ljk*ty hfpujdfhbdfnm c ytelfxkbdsv k<`bntktv jhrjd?
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp
+ hswfhcrjuj jhltyf d ___qgiver_
+ lfk vyt pflfybt pfxbcnbnm
+ `fyle jhrjd cltkfdie<
+ ___dungeon_ hjlysv ljvjv.
+ D jcj`tyyjcnb z ljk*ty ljcnfnm
+ kblthf, jghtltktyyjuj vjycnhf =monster_
+ Z ljk*ty dthyenmcz r y%g2
+ xthtp =2dung_ lytq bkb %g
+ `eltn cxbnfnm, xnj vtyz e`bkb.
+
+Message:  1011
+<ce> =monster_ vthnd.
+<ce> ~tp kblthf, @nb jhrb
+<ce> ybrjulf `jktt yt `elen ghtlcnfdkznm euhjps.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+Person _local_ face 1 group Resident2 local
+
+Place _dungeon_ remote dungeon1
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Orc_sergeant
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	place foe _monster_ at _dungeon_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _monster_ saying 1011
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.02_ and _S.01_
+	give pc nothing
+	change repute with _local_ by +4
+	end quest
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_

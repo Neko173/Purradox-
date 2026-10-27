@@ -1,0 +1,155 @@
+-- Quest: C:\QUESTS\WORKING\N0B10Y01.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 10
+-- QuestId: 1
+Messages: 21
+Quest: N0B10Y01
+DisplayName: J[jnf yf Fnhjyf[f
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Rfr @nj yb cnslyj ghbpyfdfnm, yj bp-pf jlyjuj yfituj
+<ce> @rcgthbvtynf ghbikjcm chjxyj @dfrebhjdfnm jlye
+<ce> kf`jhfnjhb<. D cgtirt nfv `skj rjt-xnj pf`snj, f
+<ce> bvtyyj fnhjyf[ j`sryjdtyysq. Yfv ye*yj cj[hfybnm
+<ce> cdj< htgenfwb< b yt ljgecnbnm yf`tujd yf
+<ce> jrhtcnyst lthtdtymrb. Tckb ds dscktlbnt b e`mtnt
+<ce> tuj, vs pfgkfnbv _reward_ pjkjns[ gj
+<ce> djpdhfotybb. Cjukfcys?
+   <--->
+<ce> Rjytxyj *t e yfc tcnm ytcrjkmrj gjpf`sns[ b
+<ce> cnfhs[ vtcn lkz @rcgthbvtynjd. D jlyjv bp yb[
+<ce> pfybvfkbcm ceotcndfvb rkfccf fnhjyf[jd ... d j`otv
+<ce> ltnfkb yt nfr df*ys. Jlby bp fnhjyf[jd c`t*fk,
+<ce> tuj cktls vjuen ghbdtcnb r yfitq ubkmlbb b
+<ce> cjjndtncndtyyj r gjntht edf*tybz r yfv. Ds gj[j*b
+<ce> yf jlyjuj bp nt[ k<ltq, rnj `thtncz pf nfre< hf`jne
+<ce> `tp ntyb cveotybz. Yt nfr kb?
+
+RefuseQuest:  [1001]
+<ce> Jxtym *fkm. Levf< yfqltncz `jktt cjpyfntkmysq
+<ce> njdfhbo, rjnjhsq pf[jxtn gjvjxm yfv.
+
+AcceptQuest:  [1002]
+<ce> Ds `thtntcm? %oth, xnj pf xtcnm!
+<ce> ^nj *fkrjt cjplfybt cltkfkj cdjbv ljvjv
+<ce> vtcntxrj gjl yfpdfybtv ___mondung_.
+<ce> Xnj`s cj[hfybnm yfie htgenfwb<, tuj ye*yj
+<ce> dscktlbnm b e`bnm, yj `scnhj b nb[j, d
+<ce> ntxtybt =1stparton_ lytq. Gjnjv djpdhfofqntcm pf
+<ce> cdjtq yfuhfljq. Elfxyjuj lyz.
+
+QuestFail:  [1003]
+<ce> Hfpdt yf vjtq ujkjdt rhfcetncz ienjdcrjq rjkgfr?
+<ce> Ytn? Ds cxbnftnt vtyz ukegtt, xtv @nj rf*tncz?
+<ce> Z ghtrhfcyj jcdtljvkty, xnj fnhjyf[ dct tot
+<ce> *bd. Pfgjvybnt yf `eleott, yt `thbntcm pf
+<ce> hf`jne, tckb yt vj*tnt tt dsgjkybnm.
+
+QuestComplete:  [1004]
+<ce> Yfi j[jnybr dthyekcz! Ds cgfckb yfc jn
+<ce> ytj`[jlbvjcnb j`]zcyznm ghbxbys bywbltynf
+<ce> k<lzv. Gthdjrkfccyfz hf`jnf, jnkbxyj!
+<ce> Ghbvbnt ltymub b vj< `kfujlfhyjcnm.
+
+RumorsDuringQuest:  [1005]
+Z cksifk, ghjikjq yjxm< bp Ubkmlbb Vfujd xnj-nj c`t*fkj.
+   <--->
+%oth, z dbltk ntym gjdtkbntkz xthtgjd yf lyz[.
+
+RumorsPostfailure:  [1006]
+Ye, [jlzn cke[b j yt`jkmijv crfylfkt c j[hfyjq kf`jhfnjhbb Ubkmlbb Vfujd.
+   <--->
+Gj dctq dblbvjcnb jlby bp @rcgthbvtynjd Ubkmlbb Vfujd dsitk bp gjl rjynhjkz.
+
+RumorsPostsuccess:  [1007]
+Z cksifk, xnj d fnhjyf[f `skf dkj*tyf leif `hfnf %t!
+   <--->
+Vyjub gjxedcndjdfkb ct`z d `tpjgfcyjcnb c bpdtcnbtv j cvthnb fnhjyf[f.
+   <--->
+Dct njkmrj b ujdjhzn j` fnhjyf[t, e`bnjv ytrbv j[jnybrjv-%ra?
+
+QuestorPostsuccess:  [1008]
+Z yt pf`sk ghj ltkj c fnhjyf[jv, tckb @nj xnj-nj pyfxbn lkz dfc.
+
+QuestorPostfailure:  [1009]
+<ce> Z gjckfk dfc jcnfyjdbnm @njuj fnhjyf[f,
+<ce> f ds gjnthgtkb ytelfxe. Yt yflj bpdbytybq,
+<ce> %pcf. Eqlbnt, z [jxe gjlevfnm
+<ce> j uhecnyjv.
+
+QuestLogEntry:  [1010]
+<ce> "Kexit z evhe, xtv dthyecm
+<ce> d kf`jhfnjhb< Ubkmlbb
+<ce> Vfujd". |bpym vtlktyyj
+<ce> e[jlbn bp ukfp fnhjyf[f.
+
+Message:  1020
+%qdt:
+ Ubkmlbz Vfujd d kbwt
+ _questgiver_ yfyzkf vtyz yfqnb
+ c`t*fdituj bp b[ kf`jhfnjhbb fnhjyf[f.
+ Ceotcndj j`jcyjdfkjcm d ___mondung_.
+ Vyt ye*yj e`bnm @nj cjplfybt b dthyenmcz
+ d ___questgiver_ d ntxtybt =1stparton_ lytq.
+
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ group Questor
+
+Place _mondung_ remote dungeon
+
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Iron_atronach
+Foe _F.01_ is Ice_atronach
+Foe _F.02_ is Fire_atronach
+Foe _F.03_ is Flesh_atronach
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1020 step 0
+	pick one of _fire_ _flesh_ _ice_ _iron_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _mondead_
+	give pc _reward_
+	end quest
+
+variable _queston_
+_mondead_ task:
+	killed 1 _F.02_ saying 1010
+	killed 1 _F.03_ saying 1010
+	killed 1 _F.01_ saying 1010
+	killed 1 _F.00_ saying 1010
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+
+_1stparton_ task:
+	end quest
+
+variable _2ndparton_
+_fire_ task:
+	place foe _F.02_ at _mondung_
+
+_iron_ task:
+	place foe _F.00_ at _mondung_
+
+_flesh_ task:
+	place foe _F.03_ at _mondung_
+
+_ice_ task:
+	place foe _F.01_ at _mondung_
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_
+	say 1003
+	clear _qgclicked_ _clearclick_

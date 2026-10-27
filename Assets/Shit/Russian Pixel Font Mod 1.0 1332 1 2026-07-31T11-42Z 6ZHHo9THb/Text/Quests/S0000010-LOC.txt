@@ -1,0 +1,190 @@
+-- Quest: C:\QUESTS\WORKING\S0000010.Qbn.
+-- Main story quest.
+-- QuestId: 10
+Messages: 23
+Quest: S0000010
+DisplayName: Wbnfltkm Rkbyrjd
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ltym lj`hsq, %pcf. Vtyz pjden
+<ce> _agentuk_. Ghbpyf<, xnj dcnhtxf c dfvb
+<ce> lkz vtyz ytcrjkmrj...ytj*blfyyf. {dfnbn kb
+<ce> dfv cvtkjcnb jrfpfnm gjvjom Gjlptvyjve Rjhjk<
+<ce> ghjnbd jhltyf ytrhjvfynjd? Vs otlhj yfuhflbv
+<ce> dfc pf cke*`e b cyf`lbv byajhvfwbtq, rjnjhe<
+<ce> ds `jkmit ybult yt epyftnt.
+
+RefuseQuest:  [1001]
+<ce> "Ytn"...Gjyzk. Ghjofqnt.
+
+AcceptQuest:  [1002]
+<ce> Ds djpmvtntcm. {v. Pfvtxfntkmyj. Ytrhjvfyns
+<ce> gj[bnbkb jlye yfie dtom, ljdjkmyj wtyyfz dtom:
+<ce> _reward_. Yj wtyf - @nj dnjhbxysq afrnjh.
+<ce> Yfcnjzofz ghj`ktvf @nj nj, xnj jyb
+<ce> yfkj*bkb yf ytt ghjrkznbt b jnlfkb Rkbyrfv.
+<ce> Tckb ds yt d rehct, Rkbyrb ytrjulf `skb
+<ce> @kbnyjq j[hfyjq Nfq`thf Ctgnbvf. Yf ctujlyziybq
+<ce> ltym jyb ghtlfys bvgthbb b cdjle pfrjyjd Nfq`thf,
+<ce> yj yt dctulf ntgthtiytve bvgthfnjhe. E Gjlptvyjuj
+<ce> Rjhjkz tcnm ghbxbys yt yfyjcbnm dhtl Rkbyrfv.
+<ce> Vs [jnbv, xnj`s ds ghjybrkb d Pfvjr Kkeudbx
+<ce> d Brfkjyt b pf`hfkb _reward_.
+<ce> Gjpf`jnmntcm gj*fkeqcnf, xnj`s hf`jnf `skf
+<ce> dsgjkytyf d ntxtybt =itemindung_ lytq, tckb ds
+<ce> [jnbnt gjkexbnm nht`etve< byajhvfwb< b yfuhfle.
+
+QuestFail:  [1003]
+<ce> ~eltn _reward_, rfr b `skj ljujdjhtyj,
+<ce> `eltn b byajhvfwbz, %pcf.
+
+QuestComplete:  [1004]
+<ce> Jnkbxyfz hf`jnf, %pcf. Gjpdjkmnt z
+<ce> yfkj*e djn @nj pfrkznbt yf _reward_
+<ce> ... djn nfr. Ghtlvtn ntgthm yt jgfcty
+<ce> b ds vj*tnt jcnfdbnm tuj e ct`z.
+<ce>
+<ce> Lf*t cvthnm yt vj*tn crhsnm bcnbyyjuj
+<ce> gjnjvrf Nfq`thf Ctgnbvf jn Gjlptvyjuj Rjhjkz.
+<ce> Rjhjkm Kbpfylec evth yt d `bndt ghb Rhbyufbyt.
+<ce> Jy `sk e`bn d htpekmnfnt ghtlfntkmcndf gthtl
+<ce> cfvsv tt yfxfkjv. Vjyevtyn, gjcnfdktyysq tve d
+<ce> {fvvthatkt - dctuj kbim gecnjt pf[jhjytybt.
+<ce> Tuj jcnfyrb nfqyj pf[jhjytys d lhtdytq
+<ce> rhbgnt d Vtytdbb, vtcnjyf[j*ltybt rjnjhjq z
+<ce> dfv ctqxfc jnrhj<. Vyt ytbpdtcnyj yb rnj
+<ce> ghtlfk Kbpfylecf, yb gjxtve tuj le[ gjzdkztncz
+<ce> d cnjkbwt Lfuuthajkkf, f yt yf gjkt `bnds ghb
+<ce> Rhbyufbyt. Z dsgjkybk cdj< xfcnm cltkrb, f
+<ce> ds pfcke*bkb edf*tybt Gjlptvyjuj Rjhjkz.
+
+RumorsDuringQuest:  [1005]
+Rjhjkm Xthdtq b Gjlptvysq Rjhjkm vjuen jlyjq b njq *t kbxyjcnm<.
+   <--->
+Ghtlgjkfuftncz, xnj Gjlptvysq Rjhjkm vthnd, yj tuj futyns dct tot cktle<n tuj wtkzv.
+
+RumorsPostfailure:  [1006]
+Njkmrj `tpevtw cgjcj`ty erhfcnm xnj-kb`j e Gjlptvyjuj Rjhjkz. Yfghbvth @njn yftvybr-%ra.
+   <--->
+Cks[fkb ghj %ra, rjnjhsq gsnftncz j`jrhfcnm Gjlptvyjuj Rjhjkz? ~tlysq rhtnby.
+
+RumorsPostsuccess:  [1007]
+Gjcktlytq yjxm< pdtpls gjrfpfkb cnhfyyjt ghtlpyfvtyjdfybt. Uytdyst cnhfcnb gjke`juf.
+   <--->
+Gj[j*t xnj ytrhjvfyns hsoen gj dctq cnhfyt d gjbcrf[ _reward_.
+
+QuestorPostsuccess:  [1008]
+%qdt:
+ Futyn Gjlptvyjuj Rjhjkz gjckfk vtyz d
+ pfvjr Kkeudbx, xnj`s yfqnb jghtltktyye<
+ dtom: _reward_, rjnjhe< ytrhjvfyns gj[bnbkb
+ e Gjlptvyjuj Rjhjkz. E vtyz =itemindung_ lytq,
+ xnj`s yfqnb b dthyenm @njn ghtlvtn.
+
+QuestLogEntry:  [1010]
+<ce> Ns dvtibdftimcz d gkfys Rjhjkz Xthdtq.
+<ce> Nt`t yt ljhjuf cdjz *bpym?!
+   <--->
+<ce> Rjhjkm Xthdtq nht`etn djpvtplbz. Ns erhfk
+<ce> nj, xnj ghbyflkt*bn tve gj ghfde. F ntgthm
+<ce> ns ghbj`obimcz r rjhjktdcnde vthnds[.
+   <--->
+<ce> Ghtphtyyfz gkjnm b rhjdm. Yt cnjbn `hjcfnm
+<ce> dspjd Gjdtkbntk< Vthnds[. Rjhjkm Xthdtq
+<ce> jceotcndbn djpvtplbt.
+   <--->
+<ce> Nt`t djj`ot yt cnjbkj ghbrfcfnmcz r @njq
+<ce> dtobwt. ^nj dhfnf d cnhfye vthnds[. F
+<ce> ctqxfc ns gjgfltim nelf. Ujnjdmcz r
+<ce> cvthnb!
+
+Message:  1021
+Ljhjujq lheu %pcn,
+<ce>
+  Rjhjktdf Frjhbnb bp Ctynbytkf jnpsdfkfcm dfc, rfr j
+[hf`hjq, cgjcj`yjq b ytghtldpznjq kbxyjcnb. Tt yfcnjzobt
+ckjdf `skb "uthjq". Byjulf yfv nht`etncz ytrnj dhjlt dfc.
+Yt `ele kufnm dfv ghj dthyjcnm b ghtlfyyjcnm. Vs
+cke*bv Gjlptvyjve Rjhjk<. Tckb ds dthbnt d crfprb b
+cxbnftnt tuj pfghtltkmyjq cbkjq pkf, nj hfpjxfhe< dfc.
+F d jcnfkmyjv...yfv ye*yf dfif gjvjom. Ds vj*tnt
+yfqnb vtyz d _agentplace_, xnj d __agentplace_ d
+Ctynbytkt. Z `ele *lfnm hjdyj jlby vtczw.
+<ce>
+-- _agentuk_
+<ce> ----
+
+Message:  1022
+<ce> Vjkjljq gjcskmysq c bhjybxyjq eks`rjq
+<ce> dhexftn dfv rjydthn, gjckt xtuj e[jlbn
+<ce> yt ujdjhz yb ckjdf.
+
+
+
+QBN:
+Item _reward_ magic_item
+Item letter14 letter used 1021
+
+Person _agentuk_ face 1 faction Agents_of_The_Underking remote
+Person _necromancer_ face 1 faction The_Necromancers remote
+
+Place _llugwych_ permanent LlugwychCastle
+Place _agentplace_ remote house2
+Place _lysandustomb_ permanent LysandusTomb2
+
+Clock _S.04_ 6.23:20 0 flag 1 range 0 1
+Clock _itemindung_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Wraith
+
+--	Quest start-up:
+	repute with _agentuk_ exceeds 0 do _S.07_
+
+_pcgetsgold_ task:
+	toting _reward_ and _agentuk_ clicked
+	give pc _reward_
+	reveal _lysandustomb_ in province 33 at 210794
+	change repute with _necromancer_ by -20
+	change repute with _agentuk_ by +15
+	end quest
+
+_S.01_ task:
+	injured _F.00_ saying 1010
+
+yes task:
+	place item _reward_ at _llugwych_ marker 0
+	start timer _itemindung_
+	log 1008 step 0
+	reveal _llugwych_ in province 40 at 26340
+	say AcceptQuest
+	have _reward_ set _S.06_
+
+_no_ task:
+	say RefuseQuest
+	end quest
+
+_S.04_ task:
+	add dialog for location _agentplace_ person _agentuk_
+	give pc letter14 notify 1022
+	create npc at _agentplace_
+	place npc _agentuk_ at _agentplace_
+
+_S.05_ task:
+	clicked npc _agentuk_
+	prompt QuestorOffer yes yes no _no_
+
+_S.06_ task:
+	send _F.00_ every 50 minutes 10 times with 5% success
+
+variable _S.07_
+_S.08_ task:
+	level 8 completed
+
+_S.09_ task:
+	when _S.07_ and _S.08_
+	start timer _S.04_
+
+_itemindung_ task:
+	end quest

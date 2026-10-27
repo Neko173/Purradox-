@@ -1,0 +1,392 @@
+-- Quest: C:\QUESTS\WORKING\S0000001.Qbn.
+-- Main story quest.
+-- QuestId: 1
+Messages: 41
+Quest: S0000001
+DisplayName: Ghjgfdibq ghbyw
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Lj`hj gj*fkjdfnm d Ctynbytk, %pcf.
+<ce> Yflt<cm ds gjkexbkb vjt gbcmvj. Z pyf< rjt-xnj ghj
+<ce> Kbpfylecf b gjxtve jy nthhjhbpbhetn Lfuuthajkk. Yj
+<ce> cyfxfkf z [jntk `s, xnj`s ds dsgjkybkb lkz vtyz
+<ce> jlyj gjhextybt. Ds cjukfcys?
+
+RefuseQuest:  [1001]
+<ce> %oth, %pcf, z nfr yfltzkcz
+<ce> xnj ds yfcnjzobq uthjq. Rfr *fkm, xnj z jib`fkcz.
+
+AcceptQuest:  [1002]
+<ce> Ds cjukfcys? ~kfujlfhtybt %god! E vtyz `sk `hfn, yf
+<ce> 10 bkb 12 ktn vjkj*t vtyz, gj bvtyb _brother_.
+<ce> Rjulf `s z yb cghfibdfk, xnj c ybv ckexbkjcm, dctulf
+<ce> cksifk d jndtn cfvst hfpyst bcnjhbb. Rnj-nj ujdjhbk,
+<ce> xnj jy pf`jktk b evth, rnj-nj ujdjhbk, xnj jy `sk
+<ce> gj[boty ckeufvb Gjlptvyjuj Rjhjkz. Z [jxe pyfnm ghfdle.
+<ce> Tckb ds yfqltnt ljrfpfntkmcndf njuj, xnj *t ghjbpjikj
+<ce> c ybv d ltqcndbntkmyjcnb, z hfccrf*e dfv dct, xnj
+<ce> pyf< ghj rjhjkz Kbpfylecf.
+
+QuestFail:  [1003]
+<ce> Vyt ye*ys yfcnjzobt ljrfpfntkmcndf.
+
+QuestComplete:  [1004]
+<ce> ^nj nj xtuj z `jzkcz. ~tlysq _brother_. Rfr z
+<ce> b j`tofk, djn nj xnj z pyf< ghj Kbpfylecf.
+<ce> Yt pyf< rfr vyjuj bp @njuj lth*bncz d ctrhtnt,
+<ce> yj dfv z dth<. Kbpfylec `sk dk<`kty d ghbldjhye<
+<ce> djkit`ybwe, yj`ktcre gj bvtyb Vtljhf Lbhtyyb,
+<ce> b gjrf dtkbcm djtyyst ltqcndbz c yfvb, rjhjktdf
+<ce> epyfkf j yb[. Ujdjhzn, gjrf tt ve* `sk pfyzn
+<ce> djqyjq, Vbybcthf bpuyfkf Vtljhe bp ldjhwf.
+<ce> Vjz ctcnhf Fe`r-b ntgthm rjhjktdf, xfcnm
+<ce> vbhyjuj cjukfitybz, yj b Vbybcthf lj cb[ gjh
+<ce> j`htnftncz d pfvrt Lfuuthajkk, yj e*t rfr
+<ce> dljdcnde<ofz vfnm-rjhjktdf.
+<ce>
+<ce> Z yt pyf< ult yf[jlbncz Vtljhf, yj vyt
+<ce> bpdtcnyj, xnj e ytt tcnm juhjvysq pfvjr
+<ce> ult-nj yf jcnhjdt ~fkabthf. Z nfr*t cksifk,
+<ce> xnj yf ytt yfkj*tyj ghjrkznbt, `kfujlfhz
+<ce> rjnjhjve jyf yt vj*tn gjrbyenm pfvjr. Yt pyf<
+<ce> rfr @nj vj*tn dfv gjvjxm, yj @nj dct xnj vyt
+<ce> bpdtcnyj. Tot hfp `kfujlfh< dfv pf gbcmvj
+<ce> vjtuj `hfnf. Pyfz, xnj c ybv ckexbkjcm yf
+<ce> cfvjv ltkt vyt cnfyjdbncz ktuxt yf leit.
+<ce> Gj*fkeqcnf djpmvbnt djn @ne dtobwe: _magicitem_
+<ce> d pyfr vjtq ghbpyfntkmyjcnb.
+
+RumorsDuringQuest:  [1005]
+~tlysq ghbyw Kjnfy jgznm d gkj[jv yfcnhjtybb. Jy cjdctv yt gj[j* yf Uhbrkbnf.
+   <--->
+Rjhjktdf Frjhbnb yt vj*tn gjyznm, xnj ghjbc[jlbn c ghbywtv Kjnfyjv. Jy nfrjq vhfxysq.
+
+RumorsPostfailure:  [1006]
+Yf ghbywf Kjnfyf xfcntymrj yfrfnsdftn xthyfz njcrf. Cnhfyyj lkz gfhtymrf tuj ktn.
+   <--->
+Gj[j*t ghbyw Kjnfy jgznm d gkj[jv yfcnhjtybb. Jxtym cnhfyysq vfkmxbr.
+
+RumorsPostsuccess:  [1007]
+Yfcnhjtybt ghbywf Kjnfyf ekexibkjcm. Jy dct tot vjkxfkbd, yj dsukzlbn yjhvfkmysv.
+   <--->
+Rjhjktdf Frjhbnb hflf, xnj r tt vkflitve dthyekjcm [jhjitt hfcgjkj*tybt le[f.
+
+QuestorPostsuccess:  [1008]
+Ghbdtncnde<, %pct. Bpdbybnt, yj vtyz dct tot nhzctn gjckt ghjxntybz *ehyfkf vjtuj `hfnf.
+
+QuestorPostfailure:  [1009]
+<ce> Bnfr e dfc ytn ybxtuj cnjzotuj lkz
+<ce> vtyz? Ljk*ty crfpfnm, @nj ljdjkmyj
+<ce> nfrb gjljphbntkmyj, xnj dfv ytxtuj
+<ce> vyt ljkj*bnm. Vj*tn `snm ds hf`jnftnt
+<ce> yf vj< vfnm bkb yf rfrjuj lheujuj
+<ce> ldjhzybyf? Levf<, dfv gjhf blnb.
+
+QuestLogEntry:  [1010]
+23-t Enhtyytq Pdtpls 3^ 400
+___ukcrypt_
+<ce>
+  E*t ldf lyz rfr z pfnjxty d @njv crktgt `tp tls b djls.
+Yt pyf< jn xtuj vyt ce*ltyj evthtnm, jn ujkjlf bkb ckf-
+`juj pljhjdmz, f vj*tn jn kfgs jlyjuj bp ceotcnd, `hj-
+lzob[ gj @nbv cshsv gjlptvtkmzv -- pyf< kbim jlyj, crjhj
+z evhe, b ybrjve yt ce*ltyj `eltn yfqnb lf*t vjb[ rjcntq.
+Yflt<cm, xnj cgecnz ujls, @nj gbcmvj yfqlen b ghjxnen
+gtxfkmye< bcnjhb< xtkjdtrf gj bvtyb _brother_, b hfc-
+crf*en j ytv ghbywe Ctynbytkf.
+<ce>
+  Yf vjvtyn yfgbcfybz @njuj gbcmvf vyt bcgjkybkjcm 15 ktn,
+b c cfvjuj hj*ltybz z jxtym cnhflf< jn ckf`juj pljhjdmz,
+r ljcflt vjb[ pljhjds[ hjlbntktq. Kexibt ktrfhb b wtkbntkb
+cj dctuj pfgflyjuj Nfvhb@kz bpexbkb dct vjb [djhb, yj
+hfp pf hfpjv cgfcfz vj< *bpym, yt cvjukb lf*t ekexibnm
+vj< ckf`e< rjycnbnewb<. D htpekmnfnt z bcgsnsdfk ytljcnfnjr
+dybvfybz cj cnjhjys vjb[ wfhcndtyys[ hjlbntktq, cveotyys[
+ntv, xnj rfktrf dhjlt vtyz vj*tn `snm yfcktlybrjv nhjyf.
+Yt vjue crfpfnm, xnj k<`jdm vtyz vbyjdfkf; z yt bcgsnsdfk
+ytljcnfnrf dj dybvfybb jn ljrnjhjd, cdzotyybrjd b ktrfhtq,
+gjcnjzyyj ghbcencndjdfdib[ ghb ldjht. Rjytxyj *t vyt `skj
+lfktrj lj djbyf gjlj`yjuj rjhjk< Rfvthjye, yj jlby bp
+vjb[ kexib[ lheptq, cdzotyybr Cntylfhhf, crfpfk, xnj z
+vjue cnfnm gthdsv rjhjktv-extysv d bcnjhbb Ctynbytkf.
+<ce>
+  Vjz vkflifz ctcnhf Fe`r-b `skf yfcnjzotq k<`bvbwtq vjb[
+hjlbntktq: jyf `skf fnktnbxtcrjuj ckj*tybz, rhfcbdfz b
+ghjcnj jxfhjdfntkmyfz ltdeirf. Ghfrnbxtcrb ytdjpvj*yj
+`skj pfvtnbnm pf ytq xnj-yb`elm ytktcnyjt. Z xedcnde<
+ytvbyetve< cvthnm b vyt jxtym [jxtncz yfgjcktljr edbltnm
+tt cyjdf. D ntxtybt 6 ktn Fe`r-b b z `skb tlbycndtyysvb
+ytcktlybrfvb Ctynbytkf. Djctvm ktn cgecnz e rjhjktds
+hjlbkcz vfkmxbr, yfhtxtyysq Uhbrkbnjv, lhtdybv htlufhlcrbv
+ckjdjv, jpyfxf<obv "cbkmysq rjhjkm". Ytvyjubt gjybvfkb
+@njn lbfktrn, yj dct extyst b ghbldjhyfz pyfnm {fvvthatkf
+pyfkf, xnj @nj pyfxbn. Ye b rjytxyj *t Uhbrkbn dshjc
+cbkmysv -- z ybrjulf yt dbltk, xnj`s jy lf*t rfikzyek.
+Cktle<obq csy rjhjktds hjlbkcz ujl cgecnz gjckt Uhbrkbnf.
+Tve lfkb tot `jktt pkjdtott bvz -- Kjnfy. "Dnjhjq csy".
+Djpvj*yj `elm z vtytt pfobotyysv b `jktt gjljphbntkmysv
+gj yfneht, nj j`zpfntkmyj ecvjnhtk `s nhtdj*ysq pyfr d
+@nb[ yfpyfxtybz[. Z `sk e`t*lty, xnj Kjnfy b Uhbrkbn --
+-- @nj j`sxyst lkz yfitq ctvmb bvtyf. Ntgthm nj z pyf<,
+xnj dct @nj jpyfxfkj -- z `sk kbity ghfdf yfcktljdfybz,
+z dct hfdyj xnj `sk ytpfrjyyjhj*ltyysv.
+<ce>
+  Pf ytcrjkmrj vtczwtd lj hj*ltybz Kjnfyf b tot cdsit nht[
+ktn gjckt z `sk yf uhfyb cvthnb, cnhflfz jn nz*tkjq kb[j-
+hflrb. Ljrnjhf e*t jnxfzkbcm dsktxbnm vtyz, yj rfrbv-nj
+cjdthityyj ytj`]zcybvsv j`hfpjv z dspljhjdtk. Gthdjt
+dhtvz b gjnjv z dbltk dshf*tybt kbwf vjtuj jnwf; kbwj
+rjhjkz dshf*fkj gjkyjt `tphfpkbxbt. ^nj `skj ghjcnj
+ytdsyjcbvj lkz vtyz.
+<ce>
+  C nt[ gjh ghjikj e*t ldt ytltkb. Nhb yjxb yfpfl z `sk
+c[dfxty k<lmvb, rjnjhs[ ybrjulf yt dbltk, rjulf `sk yf
+ghjuekrt. Vjz cbltkrf jcnjk`tytkf b ghjcnj cvjnhtkf,
+rfr vtyz cdzpfkb, pfnryekb hjn rkzgjv b `hjcbkb d vtijr.
+Yt pyf< rfr ljkuj vtyz dtpkb, yj jxyekcz z e*t pltcm d
+@njq ntvybwt. Rjulf z gjkyjcnm< jcdj`jlbkcz jn cdzpsdf-
+<ob[ vtyz gen, nj j`yfhe*bk, xnj jcnfkcz jlby, f`cjk<nyj
+jlby. Vjb `ke*lfybz gj rjhbljhfv yb r xtve yt ghbdtkb.
+^nj vtcnj rbibn yt*bnm<, vtif<otq vyt bcrfnm ds[jl.
+<ce>
+  E vtyz yt jcnfkjcm yflt*ls, yj yt jcnfkjcm b cnhf[f.
+Vfkjt entitybt. ~snm vj*tn bpexfq z vfub< dvtcnj
+bcnjhbb b yferb, nj vju `s cfvjcnjzntkmyj ds`hfnmcz bp
+@njuj vtcnf. Jlby bp vjb[ exbntktq hfccrfpsdfk vyt
+bcnjhb< Gjlptvyjuj Rjhjkz, ghj nj rfr lfdysv lfdyj jy
+dkj*bk cdj< *bpytyye< cbke d ntkj vjueotcndtyyjq
+ceoyjcnb b nfrbv j`hfpjv pfdjtdfk dtcm Nfvhb@km.
+^[, tckb `s e vtyz `skj `jktt cbkmyjt b pljhjdjt
+ntkj, xtv @nj.
+<ce>
+  Yj z yt bpexfk vfub<. Z bpexfk bcnjhb<, f gj@njve
+jcnfdk< gjckt ct`z njkmrj djn @nj gbcmvj -- yt bp
+vtcnb, f ghjcnj rfr bcnjhbxtcrbq ljrevtyn.
+
+Message:  1011
+<ce> {eltymrfz, yj rhtgrfz ltdeirf jcnfyjdbkfcm gthtl
+<ce> dfvb b dhexbkf pfgbcre. Gjnjv jyf gjdthyekfcm,
+<ce> c ghtyt`ht*tybtv buyjhbhez dfib djghjcs, b eikf
+<ce> c ytdjpvenbvsv dshf*tybtv kbwf.
+
+Message:  1012
+E Gjlptvyjuj Rjhjkz d jrheut `sk crktg -- ___ukcrypt_, yf %di jnc<lf.
+   <--->
+Ybrnj ybxtuj yt cksifk j Gjlptvyjv Rjhjkt c nt[ gjh rfr tuj crktg ___ukcrypt_ `sk pf`hjity.
+   <--->
+Rjhjkm Rfvthjy cfvjkbxyj bpuyfk ckeu Gjlptvyjuj Rjhjkz bp ___ukcrypt_.
+
+Message:  1013
+Gjlptvyjve Rjhjk< ghtlgjkj*bntkmyj ytcrjkmrj dtrjd.
+   <--->
+^njn lheujq rjhjkm nfrjq abukzh. J...GJLPTVYSQ Rjhjkm! Bpdbyb, z ybxtuj yt pyf< j` @njv.
+   <--->
+Jy kbx, j`kflf<obq juhjvyjq vjom<. Nfr ujdjhzn.
+   <--->
+Z cksifk @nj jy gj[bnbk _brother_ - `hfnf ghbywf.
+   <--->
+Rjhjkm Rfvthjy ghjrkzk Gjlptvyjuj Rjhjkz pf cvthnm _brother_ - `hfnf ghbywf. {jnz vtyz @nj yt cbkmyj djkyetn.
+   <--->
+Ujdjhzn, xnj Nfq`th Ctgnbv yf cfvjv ltkt ybrjulf b yt evbhfk. Jy cnfk Gjlptvysv Rjhjktv.
+   <--->
+Fq, jy dctuj kbim e*fcnbr, rfr yfghbvth, L*fufh Nfhy.
+   <--->
+Gjlptvysq Rjhjkm - @nj dctuj kbim ltcnrfz crfprf.
+   <--->
+Gjlptvysq Rjhjkm? Ybrjulf yt cksifk j ytv.
+
+Message:  1014
+<ce> pfvjr Ctynbytk
+<ce>
+<ce>
+<ce> Edf*ftvsq lheu %pcn,
+<ce>
+<ce> Ds yt pyftnt vtyz, yj z pyf< dfc. Z pyf<, xnj dfi rjhf`km
+<ce> gjnthgtk rheitybt. Z pyf<, xnj ds gsnftntcm bpuyfnm ghbphfrf
+<ce> rjhjkz Kbpfylecf. Tckb [jnbnt, vjue hfccrfpfnm dct, xnj pyf<,
+<ce> yj dpfvty vyt ye*yf dfif gjvjom.
+<ce> Tckb *tkftnt gjujdjhbnm, vtyz pjden ghbyw Kjnfy, f *bde
+<ce> z d Ctynbytkt d Cfvfhffqrt, rjnjhsq j`sxyj yfpsdf<n pfvrjv
+<ce> Ctynbytk. Yflt<cm vs cvj*tv dcnhtnbnmcz c dfvb.
+<ce>
+<ce>
+<ce> Bcnbyyj dfi,
+<ce>
+<ce> Kjnfy,
+<ce> ghbyw Ctynbytkf
+
+Message:  1015
+___ukcrypt_ bcgjkmpjdfkcz d rfxtcndt crktgf Gjlptvyjuj Rjhjkz, yj ctqxfc @nj Ctynbytkmcrfz n<hmvf.
+   <--->
+___ukcrypt_ yf %di jnc<lf. Ytrjnjhst gjkfuf<n, xnj @nj nfv dct tot crktg Gjlptvyjuj Rjhjkz.
+
+Message:  1016
+___ukcrypt_ ghzvj yf %di jnc<lf. hfymit @nj `sk crktg Gjlptvyjuj Rjhjkz.
+   <--->
+___ukcrypt_ @nj yt njkmrj n<hmvf, rjullf-nj nfv `skf ecsgfkmybwf Gjlptvyjuj Rjhjkz.
+
+Message:  1018
+<ce> Xnj dct @nj pyfxbn? Ifynf*? Ds, ghtphtyysq ytujlzq!
+<ce> Dfc cktljdfkj `s dsgjhjnm pf gjgsnre gjlltkrb!
+<ce> ~tlysq ghbyw _brother_ evth jn kb[jhflrb e*t vyjuj,
+<ce> vyjuj ktn yfpfl. Gjxtve ds yt vj*tnt jcnfdbnm tuj
+<ce> leie gjrjbnmcz c vbhjv?
+
+Message:  1019
+%qdt:
+ Ghbyw Kjnfy bp Ctynbytkf
+ gjghjcbk vtyz ghjdtcnb hfccktljdfybt ghbxby cvthnb
+ tuj `hfnf, _brother_. Ghbyw gjkfuftn, xnj jy `sk
+ gj[boty Gjlptvysv Rjhjktv ytcrjkmrj ktn yfpfl.
+
+Message:  1020
+<ce> Ds gjlj`hfkb
+<ce> cdbltntkmcndj j cvthnb.
+
+Message:  1030
+_brother_ `sk ghbywtv Ctynbytkf. Jy evth ytcrjkmrj ktn yfpfl.
+   <--->
+_brother_ cnhflfk jn kb[jhflrb b d rjywt rjywjd crjyxfkcz.
+   <--->
+Ckexfqyj @nj yt njn ghbyw-extysq?
+   <--->
+_brother_ k<`bk rybub `jkmit vtxtq. ^nj jxtym `tcbkj rjhjkz Rfvthjyf.
+   <--->
+Jy `sk tlbycndtyysv ghbywtv, nfr b yt gj[jhjytyysv cj dctvb gjxtcnzvb.
+
+Message:  1031
+<ce> Cnfhsq rjhjkm Rfvthjy, lf ght`eltn tuj leif d vbht, dctulf ytljk<`kbdfk _brother_.
+ Yfcktlybrjv jy ghtlgjxtk dsldbyenm Uhbrkbnf.
+   <--->
+Z cksifk, xnj cbltkrf ghbywf _brother_ `skf jnjckfyf d Crfqhbv c ceylexrjv gjkysv pjkjnf.
+   <--->
+Rjhjkm Rfvthjy `sk jxtym hfl, rjulf evth _brother_.
+   <--->
+Z cksifk jy evth jn kb[jhflrb.
+   <--->
+Dctulf elbdkzkcz cke[fv djrheu gthcjys _brother_. Rjhjkm lf*t jnrfpfkcz dslfnm [hfve tuj ntkj lkz gjuht`tybz.
+
+Message:  1032
+Ljhjujq lheu %pcf,
+<ce>
+Tckb ds [jnbnt epyfnm ghfdle ghj ghbywf _brother_,
+lfdfqnt dcnhtnbvcz d _agentplace_ d __agentplace_,
+xnj d Ctynbytkt.
+
+Message:  1035
+<ce> %pcn? Nccc. Z ghtlgjxtk `s, xnj`s ybrnj
+<ce> ybrnj yt dbltk vtyz d dfitv j`otcndt. Lj vjtuj
+<ce> dybvfybz ljikj, xnj Gjlptvysq Rjhjkm `sk
+<ce> ytcghfdtlkbdj j`dbyty d gj[botybb ghbywf.
+<ce> Ght*lt xtv ds dsytctnt cdjq dthlbrn, ghjdthmnt
+<ce> crktg ___ukcrypt_. Z gjvtxe tuj yf dfitq rfhnt.
+<ce> Rnj z? Yfpsdfqnt vtyz dthysv ckeujq. Ntgthm
+<ce> e[jlbnt, gjrf ybrnj ybxtuj yt pfgjljphbk.
+<ce> Ghjdfkbdfq!
+
+Message:  1040
+%qdt:
+ Cj vyjq nfqyj dcnhtnbkcz futyn Gjlptvyjuj Rjhjkz.
+ Crjhtt dctuj Gjlptvysq Rjhjkm ytghbxfcnty r
+ gj[botyb< ghbywf _brother_. Levf< vyt yflj
+ ghjdthbnm crktg gjl yfpdfybtv ___ukcrypt_.
+
+
+
+QBN:
+Item deathCertificate letter used 1010
+Item letter38 letter used 1032
+Item _magicitem_ magic_item
+
+Person _lhotun_ named Prince_Lhotun atHome
+Person _akorithi_ named Queen_Akorithi atHome
+Person _greklith_ face 88 named Prince_Greklith atHome
+Person Vhosek face 88 named Lord_Vhosek atHome
+Person _brother_ face 5 faction Children male remote anyInfo 1030 rumors 1031
+Person _agentuk_ face 1 faction Agents_of_The_Underking remote
+Person _underking_ face 1 named The_Underking anyInfo 1013
+
+Place _ukcrypt_ randompermanent Castle_Faallem,Fortress_Fhojum anyInfo 1015 rumors 1016
+Place _dirennitower_ permanent DirenniTowerEntry
+Place _agentplace_ remote tavern
+
+Clock _S.13_ 3.00:00 7.00:00
+
+--	Quest start-up:
+	dialog link for location _ukcrypt_
+	dialog link for location _dirennitower_
+	prompt QuestorOffer yes yes no _no_
+	place npc _agentuk_ at _agentplace_
+
+_S.00_ task:
+	toting deathCertificate and _lhotun_ clicked
+	give pc _magicitem_
+	add dialog for location _dirennitower_
+	remove log step 0
+	remove log step 1
+--added additional remove log. directions would linger in journal.
+	reveal _dirennitower_ in province 9 at 204718
+	repute with _akorithi_ exceeds 0 do _S.16_
+	change repute with _lhotun_ by +15
+	change repute with _agentuk_ by +25
+	mute npc _lhotun_
+	mute npc _greklith_
+	mute npc _akorithi_
+	mute npc Vhosek
+	drop _lhotun_ as questor
+
+variable _S.01_
+variable _S.02_
+variable _queston_
+variable _S.04_
+_S.05_ task:
+	toting deathCertificate and _akorithi_ clicked
+	toting deathCertificate and Vhosek clicked
+	toting deathCertificate and _greklith_ clicked
+	say 1018
+	change repute with _akorithi_ by -20
+	legal repute -20
+	end quest
+
+variable _S.06_
+variable _S.07_
+variable _S.08_
+variable _S.09_
+_S.10_ task:
+	clicked item deathCertificate say 1020
+
+yes task:
+	place item deathCertificate at _ukcrypt_
+	start timer _S.13_
+	log 1019 step 0
+	say AcceptQuest
+	add _lhotun_ as questor
+
+_no_ task:
+	say RefuseQuest
+	drop _lhotun_ as questor
+	end quest
+
+_S.13_ task:
+	give pc letter38 notify 1011
+
+_S.14_ task:
+	clicked npc _agentuk_
+	add dialog for location _ukcrypt_
+	reveal _ukcrypt_
+	log 1040 step 1
+	say 1035
+
+_S.15_ task:
+	level 7 completed
+
+variable _S.16_
+_S.17_ task:
+	when _S.16_ and _S.15_
+	start quest 17 17
+	end quest
+
+variable _S.18_
+variable Castellian

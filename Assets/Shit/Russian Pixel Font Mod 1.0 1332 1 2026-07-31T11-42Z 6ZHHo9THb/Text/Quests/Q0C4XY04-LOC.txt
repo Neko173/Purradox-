@@ -1,0 +1,167 @@
+-- Quest: C:\QUESTS\WORKING\Q0C4XY04.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: witch
+-- Repute: 4X
+-- QuestId: 4
+Messages: 41
+Quest: Q0C4XY04
+DisplayName: Cthlwt lf@lhf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> ==questgiver_ cyjdf dpsdftn r ndjtq
+<ce> lj`hjnt b cbkt. Yfv ye*yj cthlwt
+<ce> lf@lhf lkz yfituj rjkljdcndf. Yj cthlwt
+<ce> ljk*yj `snm dshdfyj cbkjq b njkmrj
+<ce> nj`jq. Yfqltim kb ns b e`mtim lf@lhf
+<ce> lkz ndjb[ ljhjub[ ntneitr?
+
+RefuseQuest:  [1001]
+<ce> Ytn? J, rfrfz gtxfkmyfz yjxm.
+
+AcceptQuest:  [1002]
+<ce> ~jubyz eks`yekfcm yfv, %pcn,
+<ce> ytgjlfktre tcnm gjlptvtkmt, ult
+<ce> j`bnftn lf@lhf. Gjljqltn cthlwt
+<ce> k<`juj lf@lhf. Jnghfdkzqcz d
+<ce> ___mondung_, %pcn,
+<ce> e`tq lkz yfc lf@lhf b ghbytcb
+<ce> cthlwt, gjrf yt ghjikj =1stparton_ lytq.
+
+QuestFail:  [1003]
+<ce> Cthlwt, %pcn,
+<ce> jyj d ___mondung_,
+<ce> `mtncz d uhelb lf@lhf.
+<ce> Bob nfv.
+
+QuestComplete:  [1004]
+<ce> Gjcvjnhbnt, jyj dct tot ntgkjt b
+<ce> `mtncz rfr *bdjt d jrhjdfdktyys[
+<ce> herf[ %pcn! ~scnhtt d dfhtdj tuj,
+<ce> gjrf jyj yt jcnskj. F[, %pcn,
+<ce> djpmvb _reward_ d yfuhfle pf nhels.
+<ce> Cltkfyj lj`hjt ltkj lkz dtlmv.
+
+RumorsDuringQuest:  [1005]
+Lf@lhf bp ___mondung_ ljk*yj `snm xnj-nj yfndjhbkb. ~tlyst ghb[j*fyt!
+   <--->
+%god ghjrkzk yfc. Byfxt xtv vj*yj j`]zcybnm yfitcndbt lf@lhf d ___mondung_?
+
+RumorsPostfailure:  [1006]
+Lf cdznbncz %god, lf@lhf eikb bp ___mondung_. Z yt vju cgfnm yjxfvb!
+   <--->
+Lf@lhf eikb bp ___mondung_ nfr *e nfbycndtyyj, rfr b gjzdbkbcm. B crfnthnm< bv ljhjuf!
+
+RumorsPostsuccess:  [1007]
+Rjulf pdtpls ntvys gj yjxfv, @nj ghbpyfr cvthnb lf@lhf.
+   <--->
+Ds cksifkb vepsre d ktce @njq yjxm<? E dtlmv ghfplytcndj.
+
+QuestorPostsuccess:  [1008]
+Ghbdtncnde<, lheu ==questgiver_, rfr ns ct`z xedcndetim, rfr ndjz yfuhflf _reward_?
+
+QuestorPostfailure:  [1009]
+<ce> Vs nfr *lfkb @nj cthlwt lkz yfituj
+<ce> dfhtdf, %pcf. Tckb nt`t `skj ytrjulf,
+<ce> yflj `skj chfpe crfpfnm j` @njv.
+<ce> Dct yfib gkfys hfpheitys.
+<ce> Ns dct tot yfi lheu, yj ... vs
+<ce> jxtym jujhxtys.
+
+Message:  1011
+_questgiver_ - =questgiver_ b jlyf bp ==questgiver_.
+   <--->
+Jyf jlyf bp dtlmv, rjnjhst j`jcyjdfkbcm d %reg.
+
+Message:  1012
+Z cksifk, xnj ___mondung_ - j`bntkm dfvgbhjd.
+   <--->
+D ___mondung_ j`bnftn yjxyjq yfhjl. Jyb ybrjulf yt gjzdkz<ncz lytv.
+   <--->
+___mondung_? ^nj ckexfqyj yt jhrcrjt erhtgktybt?
+   <--->
+Yt*bnm ifcnftn d rjhbljhf[ ___mondung_. Z `ele lth*fnmcz gjlfkmit jn @njuj vtcnf.
+
+Message:  1015
+%qdt:
+ _questgiver_ bp
+ ==questgiver_ gjckfkf vtyz d
+ ___mondung_ ljcnfnm cthlwt lf@lhf,
+ ytdf*yj bp rjuj: bp cj`kfpybntkmybws lf@lhf,
+ lf@lhjnf, juytyyjuj bkb ktlzyjuj lf@lhf,
+ bp k<`juj lf@lhf, rjnjhsq gjgfltncz vyt
+ yf genb. Cthlwt ye*yj ghbytcnb d
+ ___questgiver_ d ntxtybt =1stparton_
+ lytq bkb hfymit.
+
+Message:  1040
+<ce> Ds dshsdftnt jnkbxyjt cthlwt bp
+<ce> dct tot `motujcz d celjhjuf[ ntkf.
+
+
+
+QBN:
+Item _reward_ malachite
+Item _heart_ daedra_heart
+
+Person _questgiver_ group Questor anyInfo 1011
+
+Place _mondung_ remote dungeon8 anyInfo 1012
+
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
+
+Foe _seducer_ is Daedra_seducer
+Foe _daedroth_ is Daedroth
+Foe _firedaedra_ is Fire_daedra
+Foe _F.03_ is Frost_daedra
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1015 step 0
+	pc at _mondung_ set _exitstarter_
+
+_pcgetsgold_ task:
+	toting _heart_ and _questgiver_ clicked
+	give pc _reward_
+	end quest
+
+_S.01_ task:
+	clicked item _heart_ say 1040
+
+variable _S.02_
+variable _qgclicked_
+variable _queston_
+_1stparton_ task:
+	end quest
+
+_S.06_ task:
+	injured _firedaedra_
+	give item _heart_ to _firedaedra_
+
+_S.07_ task:
+	injured _F.03_
+	give item _heart_ to _F.03_
+
+_S.08_ task:
+	injured _seducer_
+	give item _heart_ to _seducer_
+
+_S.09_ task:
+	injured _daedroth_
+	give item _heart_ to _daedroth_
+
+_S.10_ task:
+	when not _S.11_ and _exitstarter_
+	create foe _seducer_ every 15 minutes 7 times with 10% success
+	create foe _F.03_ every 20 minutes 6 times with 30% success
+	create foe _firedaedra_ every 18 minutes 5 times with 25% success
+	create foe _daedroth_ every 12 minutes 5 times with 20% success
+
+_S.11_ task:
+	when _S.06_ or _S.07_ or _S.09_ or _S.08_
+	clear _S.10_
+
+variable _exitstarter_

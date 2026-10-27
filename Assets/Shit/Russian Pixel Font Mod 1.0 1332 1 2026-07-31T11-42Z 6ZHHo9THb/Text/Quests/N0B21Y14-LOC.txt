@@ -1,0 +1,322 @@
+-- Quest: C:\QUESTS\WORKING\N0B21Y14.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 21
+-- QuestId: 14
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 25
+Quest: N0B21Y14
+DisplayName: Jhfrek
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ds %pcn?  %pct?
+
+RefuseQuest:  [1001]
+<ce> Ghjie ghjotybz, gj[j*t z jib`cz.
+
+AcceptQuest:  [1002]
+<ce> F, [jhjij. E vtyz gbcmvj lkz dfc.
+<ce> Ljk*yj `snm ytxnj `jkmitt xtv ckexfq
+<ce> ghbdtkj dfc c<lf.
+
+QuestComplete:  [1004]
+<ce> Ds d xtcnb e ubkmlbb, %pcf.
+
+RumorsDuringQuest:  [1005]
+_noble_ jlby bp dtkbxfqib[ dscjrjhjlys[ d %reg.
+   <--->
+Tckb xnj-nj ckexbncz c _noble_, `j<cm levfnm, xnj yfxytncz.
+
+RumorsPostfailure:  [1006]
+Ghjikjq yjxm< pdtpls ghtlcrfpfkb `tlcndbt b cvthnm.
+
+RumorsPostsuccess:  [1007]
+Ghjikjq yjxm< pdtpls ghtlcrfpfkb, xnj ytcxfcnmt ghjqltn cnjhjyjq.
+   <--->
+Ytlfdyj d ujhjlt gjzdkzkcz jlby frjkbn. Z dct levf<, xnj tve `skj ye*yj.
+
+Message:  1011
+      _temple_
+       __temple_
+<ce>
+Ljhjujq lheu %pcn,
+<ce>
+  Lfdyj itk r njve, xnj`s gthtujdjhbnm
+c dfvb d bynthtcf[ Jhfrekf, velhtqitq
+*tyobys dj dctv {fvvthatkt. Fh[vfubcnh
+Ubkmlbb Vfujd jxtym [jhjij jnpsdfkcz
+j dfc rfr j ljcnjqyjv b nfkfynkbdjv vfut.
+  Gj*fkeqcnf, yfv ye*yj dcnhtnbnmcz, b xtv
+hfymit, ntv kexit; dhtvz jxtym juhfybxtyj.
+~tp dfitq gjvjob xthtp =queston1_ lytq ntvyjt
+ghjhjxtcndj Jhfrekf vj*tn c`snmcz b dtcm
+htubjy %reg gjcnhflftn jn @njuj.
+  Z ljk*ty edbltnm dfc rfr vj*yj crjhtt.
+<ce>
+Cthltxyj dfi,
+<ce>
+Frjkbn
+
+Message:  1012
+Frjkbn crfpfk dscjrjhjlyjve nj, xnj [jntkf crfpfnm Jhfrek.
+   <--->
+Frjkbn ltkftn pf Jhfrekf dc< yj*ye< hf`jne. D tt djphfcnt @nj b ytelbdbntkmyj.
+   <--->
+Frjkbn dsukzlbn rf r`kfujhjlysq, yj jy cke*bn njkmrj Jhfreke.
+   <--->
+Frjkbn @nj =acolyte_ d uke`byt [hfvf _temple_.
+   <--->
+Frjkbn c vjkjls[ ktn vyjubt ujls `sk ghbcke*ybrjv Jhfrekf.
+   <--->
+Rjulf Jhfrek lfkf Frjkbne cdjt ghjhjxtcndj, jy nen *t gj`t*fk relf-nj ckjvz ujkjde.
+
+Message:  1013
+E Jhfrekf ytn ukfp, yj ujdjhzn, xnj jyf velhtqifz *tyobyf dj dctv Nfvhb@kt.
+   <--->
+Jhfrek bplhtdkt `skf cjdtnybrjv ghfdbntktq Ctynbytkf.
+   <--->
+Jhfrek cjdtnjdfkf rjhjk< Rfvthjye yt hfpdzpsdfnm djqye c Lfuuthajkkjv.
+   <--->
+Rjhjkm Rfvthjy yt gjckeifkcz cjdtnf Jhfrekf yt hfpdzpsdfnm djqye c Lfuuthajkkjv.
+   <--->
+Jhfrek pyfkf, xnj Ctynbytk ghjbuhftn djqye c Lfuuthajkkjv.
+   <--->
+Tckb `s Rfvthjy ghbckeibdfkcz r Jhfreke, nj `sk `s lj cb[ gjh *bd.
+
+Message:  1014
+%qdt:
+ Vyt ghbikj gbcmvj
+ jn Frjkbnf, ghjczotuj j dcnhtxt.
+ Jy jcnfyjdbkcz d [hfvt _temple_
+ d __temple_.
+
+Message:  1015
+<ce> Cgfcb`j, xnj ghbikb, %pcf.
+<ce> Jhfrek edbltkf cvthnm jlyjuj bp bpdtcnys[
+<ce> ldjhzy bp __temple_, `kfujhjlyjuj _noble_.
+<ce> B gjlj`yj rfnzotvecz rfvtire, edktrf<otve
+<ce> pf cj`jq rfvytgfl, tuj cvthnm vj*tn gjdktxm
+<ce> cnhfiyst `tlcndbz lkz htubjyf %reg.
+<ce> Z gsnfkcz gjujdjhbnm c ybv, yj lf*t yt `sk
+<ce> ljgeoty lj tuj rjvgfybb d _noblehouse_.
+<ce> Vjz gjdtkbntkmybwf, Jhfrek, yfvthtdftncz
+<ce> ghbqnb d __temple_ gjujdjhbnm c ybv.
+<ce> Gjcktlytt, xnj z cksifk, nj xnj Jhfrek `skf d
+<ce> __oracletemple_. Z yt pyfrjv c @nbvb inexrfvb
+<ce> b yt pyf< rfr lfktrj @nj vj*tn pfqnb. Ghjie
+<ce> dfc, xnj`s ds yfikb cgjcj` gjujdjhbnm c _noble_
+<ce> b e`tlbkb tuj gjpf`jnbnmcz j cdjtq pfobnt bkb
+<ce> yfikb Jhfrekf ult-nj d hfqjyt __oracletemple_ b
+<ce> cjghjdjlbkb tt edbltnmcz c @nbv `kfujhjlysv.
+<ce> E yfc jxtym vfkj dhtvtyb. Gjnjhjgbntcm, evjkz<
+<ce> dfc.
+
+Message:  1016
+%qdt:
+ Frjkbn hfccrfpfk vyt, xnj jy gsnfkcz e`tlbnm
+ _noble_ et[fnm bp _noblehouse_, gjrf
+ c ybv yt ckexbkjcm ytcxfcnmt, vjueott ghbdtcnb
+ r `tlcndbzv dj dctv htubjyt %reg. Jy gjghjcbk vtyz
+ kb`j kbxyj gjujdjhbnm c @nbv ldjhzybyjv bkb
+ yfghfdbnmcz d __oracletemple_, xnj`s cjghjdjlbnm
+ Jhfrekf, gjdtkbntkmybwe Frjkbnf, c<lf.
+ ~snm vj*tn tq elfcncz e`tlbnm ldjhzybyf, tckb
+ yt gjkexbncz e vtyz.
+
+-changed 1016 to shorter lines, was running offscreen in journal
+
+Message:  1017
+<ce> Ds %pcn, %ra, rjnjhjuj
+<ce> vjq Frjkbn gjckfk cjghjdjlbnm vtyz
+<ce> r _noble_. Z jnlfkf cdjt phtybt `jufv,
+<ce> b edbltkf dfit ghb`snbt b[ ukfpfvb.
+<ce> F ntgthm gjnjhjgbvcz d _noblehouse_ d
+<ce> __noblehouse_ ght*lt xtv c`eltncz
+<ce> celm`f @njuj `kfujhjlyjuj.
+
+Message:  1018
+<ce> Jhfrek gthtujdjhbkf c _noble_,
+<ce> b d ujkjct tt, rfr yb cnhfyyj, ghjhtpfkbcm
+<ce> e`tlbntkmyst yjnrb, cyf`*tyyst lj`hjq njkbrjq
+<ce> vfubb. ~kfujhjlyjve yt gjyflj`bkjcm vyjuj
+<ce> dhtvtyb, xnj`s cjj`hfpbnm rnj gthtl ybv b
+<ce> jy cjukfcbkcz lkz `kfuf htubjyf erhsnmcz
+<ce> ult-yb`elm yf ytcrjkmrj lytq. Jhfrek
+<ce> gj`kfujlfhbkf dfc pf cjghjdj*ltybt b
+<ce> cjj`obkf, xnj jnhtrjvtyletn ghb ldjht
+<ce> Ctynbytkf dfie [hf`hjcnm b bpj`htnfntkmyjcnm.
+
+Message:  1019
+<ce> _noble_ b _love_ j`yzkbcm,
+<ce> b %g ccskfzcm yf ytj`[jlbvjcnm b
+<ce> `kfujgjkexbt htubjyf crfpfk, xnj ljk*ty
+<ce> erhsnmcz c ytcrjkmrbvb tuj kexibvb
+<ce> j[hfyybrfvb. Ght*lt xtv eqnb, _noble_
+<ce> lfk dfv _gold_ pjkjns[ d `kfujlfhyjcnm pf
+<ce> hjpscr tuj djpk<`ktyyjq.
+
+Message:  1020
+<ce> Rfr z e*t ujdjhbk @nj gjhsdbcnjve Frjkbne,
+<ce> z yt cj`bhf<cm ghznfnmcz jn rjuj `s nj yb
+<ce> `skj njkmrj gjnjve, xnj rfrjq-nj cnfhjq rfhut
+<ce> ghbcybkcz rjivfh j`j vyt. Z *le bpdtcnbq
+<ce> yfcxtn vjtq djpk<`ktyyjq, _love_,
+<ce> rjnjhfz `skf gj[botyf. Z ghbckeif<cm r tt
+<ce> cjdtnfv yfcxtn @njuj ltkf, yj yt cj`bhf<cm
+<ce> ghznfnmcz, gjrf vjz djpk<`ktyyfz d jgfcyjcnb.
+<ce> Vyt yt cnjbkj jngecrfnm tt tt d ___mondung_
+<ce> `tp cjjndtncnde<otuj @crjhnf, yj z yt `hjie
+<ce> ctqxfc cdj< k<`jdm. Djn vjq jndtn, %pct.
+
+Message:  1021
+%qdt:
+ _noble_ jnrfpfkcz jnghfdbnmcz
+ d erhsnbt, gjrf yt epyftn, xnj
+ tuj k<`jdm, _love_,
+ jcdj`j*ltyf bp her gj[bnbnbntktq.
+ Tckb z hfpsoe tt d ___mondung_,
+ njulf _noble_ ghbckeiftncz r edtotdfybzv.
+
+Message:  1022
+<ce> Ds ghbikb jn _noble_,
+<ce> xnj`s cgfcnb vtyz? %oth, gjcgtibv jnc<lf
+<ce> E vtyz `sk e*fcysq b, `j<cm, ghjhjxtcrbq
+<ce> cjy yfcxtn ytuj.
+
+Message:  1023
+<ce> Ckbirjv gjplyj. Ghbitk xfc, rjulf
+<ce> celm`f dsbuhfkf djqye e xtkjdtxtcrjq
+<ce> djkb. Dtnth ghjdsk, xnj _noble_
+<ce> vthnd. %reg cjlhjuytncz.
+
+Message:  1024
+      _temple_
+       __temple_
+<ce>
+Ljhjujq lheu, %pcn,
+<ce>
+  Jxtym df*yj gthtctxmcz c dfv nfr crjhj,
+rfr @nj djpvj*yj. Z ghtlcnfdbntkm Jhfrekf
+{fvvthatkf. Cktle<obt ytcrjkmrj lytq z
+`ele d _temple_.
+  Tcnm tot =queston2_ lytq ght*lt xtv `eleott
+cnfytn ytdjpvj*ysv ghtljndhfnbnm, gj@njve vyt
+ytj`[jlbvj edbltnmcz c dfvb rfr vj*yj hfymit.
+^nj ltkj yt nht`etn jnkfufntkmcndf. Ghjie
+dfc, yt cjdthifqnt jib`rb, jnrfpsdfzcm jn
+dcnhtxb.
+<ce>
+<ce> Frjkbn
+
+
+
+QBN:
+Item _oracleNote_ letter used 1011
+Item _oracleMsg_ letter used 1024
+--added underscores to oracleNote and oracleMsg because they are variables
+Item _gold_ gold
+
+Person _oracle_ face 251 named The_Oracle anyInfo 1013
+Person _acolyte_ face 5 named The_Acolyte anyInfo 1012
+-changed oracle and acolyte to Named instead of Faction to prevent dialogue beginning
+Person _noble_ face 25 factiontype Province local
+Person _thd_ named Queen_Akorithi
+--%thd corrected to _thd_
+Person _love_ face 1 group Group_7.0
+Person _giver_ group Questor
+
+Place _mondung_ remote dungeon
+Place _temple_ local temple
+Place _noblehouse_ local house2
+Place _oracletemple_ remote temple
+
+Clock _queston1_ 00:00 0 flag 17 range 0 2
+Clock _queston2_ 00:00 0 flag 17 range 0 2
+
+
+--	Quest start-up:
+	dialog link for location _temple_ person _acolyte_
+	dialog link for location _mondung_ person _thd_
+	dialog link for location _noblehouse_ person _love_
+	dialog link for person _noble_
+	pick one of _S.02_ _S.01_
+	_oracleNote_ used do _readletter_
+	_oracleMsg_ used do _readletter_
+	create npc at _noblehouse_
+	place npc _oracle_ at _oracletemple_
+	place npc _acolyte_ at _temple_
+	place npc _noble_ at _noblehouse_
+
+_S.00_ task:
+	clicked npc _acolyte_
+	add dialog for person _oracle_
+	add dialog for location _noblehouse_ person _noble_
+	log 1016 step 1
+	say 1015
+
+_S.01_ task:
+	start timer _queston1_
+	get item _oracleNote_
+
+_S.02_ task:
+	start timer _queston2_
+	get item _oracleMsg_
+
+_S.03_ task:
+	clicked npc _oracle_
+	hide npc _oracle_
+	say 1017
+	add _oracle_ face
+
+_S.04_ task:
+	clicked npc _noble_
+
+_S.05_ task:
+	when _S.04_ and _S.03_
+	say 1018
+	give pc nothing
+	change repute with _thd_ by +10
+	end quest
+--victory message changed to after 1018, more logical dialogue
+
+_S.06_ task:
+	when _S.04_ and _S.07_
+	get item _gold_
+	say 1019
+	give pc _gold_
+	end quest
+-victory message changed to after 1019, more logical dialogue
+
+_S.07_ task:
+	clicked npc _love_
+	hide npc _love_
+	say 1022
+	add _love_ face
+
+_S.08_ task:
+	when _S.04_ and not _S.03_ and not _S.07_
+	reveal _mondung_
+	log 1021 step 2
+	say 1020
+	place npc _love_ at _mondung_
+	clear _S.04_
+
+_npc1_ task:
+	when _S.10_ and not _S.05_ and not _S.06_
+	say 1023
+
+_S.10_ task:
+	when _queston1_ or _queston2_
+
+_readletter_ task:
+	add dialog for person _acolyte_
+	log 1014 step 0
+
+_queston1_ task:
+	end quest
+
+_queston2_ task:
+	end quest

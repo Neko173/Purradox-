@@ -1,0 +1,142 @@
+-- Quest: C:\QUESTS\WORKING\B0C00Y13.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: knight
+-- Repute: 0
+-- QuestId: 13
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0C00Y13
+DisplayName: Pfhf*tyysq ljv
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Gjxtve z ljk*ty ljdthznm nt`t
+<ce> %pcn? Gjkfuf<, nt`t ghtlcnjbn
+<ce> yt`jkmijt bcgsnfybt d
+<ce> jhltyt. Ytcjvytyyj z yt
+<ce> lfv nt`t ybxtuj df*yjuj,
+<ce> gjcrjkmre ns yt xkty @njuj
+<ce> hswfhcrjuj jhltyf.
+<ce> Tcnm plfybt rjnjhjt rbibn
+<ce> rjt-rfrbvb ceotcndfvb.
+<ce> E`tq b[ lkz vtyz b, vj*tn `snm,
+<ce> z pfvjkdk< pf nt`z ckjdtxrj.
+
+RefuseQuest:  [1001]
+<ce> Z gjkfuf< vyt ghbltncz cltkfnm
+<ce> dct cfvjve. Ns tot `jktt
+<ce> *fkrbq %ra, xtv z levfk.
+
+AcceptQuest:  [1002]
+<ce> Lf< nt`t jlby ltym, xnj`s
+<ce> dsxbcnbnm _house_. Gjckt
+<ce> @njuj, z cltkf< @nj cfv
+<ce> b crf*e dctv, rfrbv nhecjv
+<ce> ns, %ra, zdkztimcz yf cfvjv ltkt.
+
+QuestComplete:  [1004]
+<ce> Dgjkyt ghbtvktvj %pcn.
+<ce> Z pfvjkdk< pf nt`z ckjdtxrj
+<ce> d vjtv hswfhcrjv jhltyt.
+
+RumorsDuringQuest:  [1005]
+Jxtym cnhfyyst pderb blen bp @njuj _house_.
+   <--->
+Ljv, ghbyflkt*fobq _qgiver_, ltqcndbntkmyj gjgfk d J`kbdbjy.
+
+RumorsPostfailure:  [1006]
+~tlyjve _qgiver_ ye*yj yfyznm eybxnj*bntkz.
+   <--->
+_qgiver_ jnlfcn rheuke< cevve pf jxbcnre @njuj ljvf.
+
+RumorsPostsuccess:  [1007]
+_house_ jrjyxfntkmyj dsxboty.
+   <--->
+^nb[ ceotcnd d _house_ `jkmit ytn.
+
+QuestorPostsuccess:  [1008]
+Ds dsxbcnbkb vjq ljv. Xnj ds [jnbnt?
+
+QuestorPostfailure:  [1009]
+Ns yt vj*tim e`bnm lf*t gfhe ceotcnd. Yt nhfnm vjt dhtvz.
+   <--->
+Z yt [jxe lf*t djple[jv jlybv lsifnm c nfrbv kbpj`k<ljv.
+
+
+QuestLogEntry:  [1010]
+%qdt:
+ D ___qgiver_ cj vyjq
+ dcnhtnbkcz _qgiver_ bp hswfhcrjuj jhltyf.
+ Z vjue pfdjtdfnm hfcgjkj*tybt hswfhtq
+ tckb z jcdj`j*e jn ceotcnd _house_
+ d __house_ lkz y%g4.
+
+Message:  1011
+<ce> Ds dsxbcnbkb ljv _qgiver_.
+
+Message:  1012
+<ce> Jn cnty ljyjcbncz crht`eobq pder.
+<ce> |bdeobt pltcm ceotcndf yfdthyzrf gkj[j
+<ce> jnhtfubhe<n yf dfit dnjh*tybt yf b[
+<ce> nthhbnjhb<.
+
+
+QBN:
+
+Person _qgiver_ group Questor
+
+Place _house_ local house
+
+Clock _oneday_ 1.00:00 0 flag 1 range 0 1
+
+Foe _spiders_ is Spider
+Foe _rats_ is Giant_rat
+Foe _scorpions_ is Giant_scorpion
+Foe _bats_ is Giant_bat
+
+--	Quest start-up:
+	start timer _oneday_
+	log 1010 step 0
+	--location action removed. not defined and not needed.
+	pc at _house_ set _S.01_
+
+_oneday_ task:
+	end quest
+
+_S.01_ task:
+	say 1012
+	pick one of _S.04_ _S.05_ _S.06_ _S.07_
+
+_questdone_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.03_ and _questdone_
+	give pc nothing
+	end quest
+
+_S.03_ task:
+	killed 6 _bats_
+	killed 7 _rats_
+	killed 3 _scorpions_
+	killed 3 _spiders_
+	say 1011
+
+_S.04_ task:
+	create foe _bats_ every 2 minutes 8 times with 100% success
+
+_S.05_ task:
+	create foe _rats_ every 2 minutes 10 times with 100% success
+
+_S.06_ task:
+	create foe _scorpions_ every 3 minutes 4 times with 100% success
+
+_S.07_ task:
+	create foe _spiders_ every 3 minutes 4 times with 100% success
+--slowed enemy spawn due to feedback
+
+_clearclick_ task:
+	when not _S.03_ and _questdone_
+	clear _questdone_ _clearclick_

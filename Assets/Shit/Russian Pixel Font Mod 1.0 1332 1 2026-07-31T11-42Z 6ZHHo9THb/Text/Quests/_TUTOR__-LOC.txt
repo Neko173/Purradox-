@@ -1,0 +1,462 @@
+-- Quest: C:\QUESTS\WORKING\_TUTOR__.Qbn.
+-- StartsBy: letter
+-- Questee: anyone
+-- Repute: 0
+-- QuestId: 0
+Messages: 57
+Quest: _TUTOR__
+DisplayName: J`extybt
+-- Message panels
+QRC:
+
+
+RumorsPostfailure: [1006]
+Z lfv dfv gjlcrfpre %ra. Tckb ds [jnbnt ghtecgtnm d vfubb, dcnegfqnt d Ubkmlb< Vfujd.
+ <--->
+Yt`jkmijq cjdtn lkz dfc. Gjkj*bnt cdjb ltymub d `fyr. Gecnm jyb lflen dfv dtrctkb. Jyb gjxnb ybxtuj yt dtczn.
+ <--->
+Cgtwbfkbpbhjdfyyst vfufpbys - kexitt vtcnj lkz gjbcrf ytj`sxys[ dtotq.
+ <--->
+Ytlfdyj ghbyzkb pfrjy j `hjlz*ybxtcndt. Ds yt vj*tnt cgfnm yf ekbwf[. Cnhf*ybrb gfnhekbhe<n lf*t pf cntyfvb ujhjlf. Ds ljk*ys cyznm rjvyfne d ujcnbybwt.
+ <--->
+Rf*lsq ljk*ty dcnegbnm d [hfv. Djghjc njkmrj d njv, rfrjq `ju dfv `jkmit gjl[jlbn? Z `s ghjdthbk b[ dct[.
+ <--->
+Cj`snbz d ujhjlt Lfuuthajkk d gjkyjv hfpufht. Dfv cnjbn jnghfdbnmcz nelf, tckb ds [jnbnt ghbrk<xtybq.
+ <--->
+Z cksifk, xnj rjhjktdcrfz dkfcnm d D@qhtcnt venbn djle. ^nj jnkbxyfz djpvj*yjcnm lkz nt[, e rjuj [dfnbn cvtkjcnb gjghjcbnm rjhjkz bkb rjhjktde j hf`jnt.
+ <--->
+Z cksifk, xnj Ctynbytk - [jhjitt vtcnj lkz `scnhjuj gjl]tvf pjkjnf b gjbcrf ghbrk<xtybq. Rjhjktdcrfz ctvmz yfybvftn uthjtd lkz jgfcyjq hf`jns.
+
+--the rumors previously placed in "during quest" have been moved to "after quest." The tutorial was way too short for these messages
+--to appear normally, so having them in rumor mill for 7 days after quest ends is an OK window.
+--could theoretically make tutorial extend on much longer in an invisible state and keep rumors
+--present for a long time.
+
+QuestLogEntry: [1010]
+<ce> D Lfuuthajkk >ybnb gjzdbkjcm j`yjdktyyjt herjdjlcndj.
+<ce> Jyj yfexbn dfc jcyjdfv buhjdjuj ghjwtccf.
+<ce> J`zpfntkmyj pfgbcsdfqnt byajhvfwb<.
+<ce> {jnbnt djcgjkmpjdfnmcz @nbv herjdjlcndjv?
+
+
+Message: 1012
+<ce> Cnhfybwf 1
+<ce>
+<ce> Gthdsv ltkjv ghjdthmnt yfcnhjqrb rkfdbi. Yf*vbnt Escape
+<ce> b pfntv yf Eghfdktybt. Yfb`jktt df*ysvb yf lfyysq vjvtyn
+<ce> zdkz<ncz ldb*tybt (WASD) b elfh jhe*btv (ghfdfz vsim).
+<ce> D pfdbcbvjcnb jn yfcnhjtr, fnfrf vj*tn ghjdjlbnmcz elth*fybtv
+<ce> ryjgrb, elth*fybtv ryjgrb + gthtvtotybtv vsib, bkb otkxrjv gj ryjgrt.
+<ce> ^nj vj*yj bpvtybnm d hfpltkt «Ghjldbyenst» yf @rhfyt «Eghfdktybt».
+<ce>
+<ce> E`tlbntcm, xnj yfcnhjqrb rkfdbi dfv gjyznys b elj`ys.
+<ce> Xthtp 10 ctreyl gjzdbncz cktle<ott cjj`otybt.
+
+Message: 1013
+<ce> Cnhfybwf 2
+<ce>
+<ce> Ntgthm yf*vbnt F6, xnj`s jnrhsnm bydtynfhm. ^rbgbheqnt k<`e<
+<ce> ljcnegye< dfv `hjy< b kexitt jhe*bt, rjnjhjt e dfc tcnm.
+<ce> Gjl «kexibv jhe*btv» gjlhfpevtdftncz jhe*bt, rjnjhsv dfi
+<ce> gthcjyf* dkflttn vfcnthcrb, b/bkb bp jxtym ghjxyjuj vfnthbfkf
+<ce> (yfghbvth, @kmabqcrjuj, uyjvmtuj). ~tp @nb[ lde[ ghtbveotcnd
+<ce> ds yt cvj*tnt @aatrnbdyj he`bnm dhfujd.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 15 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1015
+<ce> Cnhfybwf 3
+<ce>
+<ce> ^rbgbhjdrf jhe*bz ghj[jlbn c yt`jkmijq pflth*rjq.
+<ce> Rjulf jhe*bt `eltn ujnjdj, yf*vbnt Z, xnj`s dpznm
+<ce> tuj d herb. Ds nfr*t vj*tnt bcgjkmpjdfnm rekfrb,
+<ce> tckb dfi yfdsr herjgfiyjuj `jz dscjr. Gjghj`eqnt
+<ce> ytcrjkmrj hfp yf*fnm ryjgre fnfrb.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 10 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1020
+<ce> Cnhfybwf 4
+<ce>
+<ce> Yf*vbnt R, xnj`s jnlj[yenm, djccnfyjdbnm pljhjdmt,
+<ce> dsyjckbdjcnm bkb vfub<. ^nb bylbrfnjhs yf[jlzncz
+<ce> d ktdjv yb*ytv euke @rhfyf. Dfv yt ye*yj jnls[fnm
+<ce> ghzvj ctqxfc, pfgjvybnt @nj yf `eleott.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 5 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1025
+<ce> Cnhfybwf 5
+<ce>
+<ce> Gthcjyf*b, rjnjhsv ljcnegyf vfubz, nfr*t vjuen gjghj`jdfnm
+<ce> ghjbpytcnb pfrkbyfybz, [jnz dhfub xfcnj `elen cjghjnbdkznmcz
+<ce> dfibv xfhfv. Yf*vbnt Backspace, xnj`s jnrhsnm rybue pfrkbyfybq.
+<ce> Ldf*ls otkrybnt yf pfrkbyfybt, xnj`s gjlujnjdbnm tuj.
+<ce>
+<ce> Ytrjnjhst pfrkbyfybz nht`e<n wtkb, f lheubt yfrkflsdf<ncz
+<ce> yf dfc fdnjvfnbxtcrb. Tckb @nj wtktdjt pfrkbyfybt,
+<ce> bcgjkmpeqnt ktde< ryjgre vsib, xnj`s ghjbpytcnb tuj,
+<ce> rjulf jyj `eltn gjlujnjdktyj. Bcgjkmpeqnt Q, xnj`s gjdnjhyj
+<ce> gjlujnjdbnm pfrkbyfybt, rjnjhjt ds bcgjkmpjdfkb gjcktlybv.
+<ce> Nfr ds cvj*tnt `scnhj yfrkflsdfnm pfrkbyfybz gj vtht ytj`[jlbvjcnb.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 10 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1030
+<ce> Cnhfybwf 6
+<ce>
+<ce> Tckb ds tot yt cj[hfybkb buhe, cltkfqnt @nj ctqxfc.
+<ce> Yf*vbnt Escape b otkrybnt yf «Cj[hfybnm buhe». Nfr *t
+<ce> ds vj*tnt djcgjkmpjdfnmcz `scnhsv cj[hfytybtv. Rkfdbif
+<ce> `scnhjuj cj[hfytybz (F9) yfcnhfbdftncz d Eghfdktybt -> Ghjldbyenst.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 10 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1031
+<ce> Cnhfybwf 7
+<ce>
+<ce> Xnj`s ds`hfnmcz bp @njq gtoths, gthdsv ltkjv dsqlbnt
+<ce> bp @njq rjvyfns. Blbnt gj rjhbljhe. Gjckt gjdjhjnf
+<ce> ds yfqltnt ldthm, yfgjvbyf<oe< rbhgbxye< cntye.
+<ce> Yf*vbnt yf ldthm, xnj`s jnrhsnm tt. Pf ytq ds edblbnt
+<ce> yt`jkmie< rjvyfne c rhscjq b rextq cjrhjdbo yf fknfht.
+<ce>
+<ce> Tckb otkryenm gj rext cjrhjdbo, jnrhjtncz bydtynfhm.
+<ce> D ghfdjq xfcnb @rhfyf bydtynfhz ds edblbnt cjlth*bvjt
+<ce> rexb cjrhjdbo. Dsltkbd jgwb< «E`hfnm», otkrybnt
+<ce> gj ghtlvtnfv, xnj`s pf`hfnm b[ ct`t.
+<ce>
+<ce> Ds nfr*t vj*tnt hfpuhf`bnm nhegs dhfujd gjckt
+<ce> b[ e`bqcndf, yj d rhsct (b lheub[ *bdjnys[) j`sxyj ytn kenf.
+<ce> D k<`jv ckexft yt pf`sdfqnt, xnj bp e`bns[ dhfujd (b *bdjnys[ nj*t)
+<ce> vj*yj dsnfobnm dfib cnhtks, tckb ds e`bkb b[ bp kerf.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 45 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1035
+<ce> Cnhfybwf 8
+<ce>
+<ce> Ghjljk*fqnt ghj[jlbnm gjlptvtkmt.
+<ce> Ds vj*tnt chf*fnmcz bkb e`tufnm jn dhfujd.
+<ce>
+<ce> Xnj`s gjhfpbnm ytrjnjhs[ vjycnhjd, dfv gjyflj`bncz jhe*bt
+<ce> bp `jktt ghjxys[ vfnthbfkjd. Dcrjht ds dcnhtnbnt `tcf.
+<ce> ~tcf ytkmpz hfybnm *tktpysv jhe*btv. Xnj`s yfytcnb tve ehjy,
+<ce> ye*yj jhe*bt bp cnfkb bkb `jktt ghjxyjuj vfnthbfkf.
+<ce> Rekfrb nj*t gjljqlen, yj lkz @njuj ye*yj bvtnm
+<ce> dscjrbq yfdsr herjgfiyjuj `jz.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 5 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1040
+<ce> Cnhfybwf 9
+<ce>
+<ce> Ytrjnjhst vjycnhs cbkmytt dfc. Ds vj*tnt e`t*fnm jn yb[.
+<ce> Tckb dhfu ljcnfdkztn dfv vyjuj [kjgjn, e`tufqnt.
+<ce> E`bqcndj dhfujd cfvj gj ct`t yt lftn dfitve gthcjyf*e jgsn,
+<ce> gj@njve cbkmysq dhfu lftn yt `jkmit yfuhfls, xtv ckf`sq.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 5 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1041
+<ce> Cnhfybwf 10
+<ce>
+<ce> Ytrjnjhst j`]trns bynthfrnbdyst. D ukfdyjv pfkt @njuj gjlptvtkmz
+<ce> ds yfqltnt nhjy b hsxfu hzljv c ybv. Rjulf ds edblbnt hsxfu,
+<ce> dcnfymnt yf gmtltcnfk b yf*vbnt yf hsxfu, xnj`s gjlyznm nhjy,
+<ce> rfr kban. D lheub[ gjlptvtkmz[ tcnm ghtlvtns c `jktt [bnhsvb
+<ce> b ckj*ysvb @aatrnfvb, yfghbvth, ctrhtnyst gthtrk<xfntkb.
+<ce>
+<ce> Xnj`s ds`hfnmcz bp @njuj gjlptvtkmz, dfv ye*yj jnscrfnm ntvye<
+<ce> rfvtyye< fhre, dltkfyye< d cntye, dscjnjq ghbvthyj c dfi hjcn.
+<ce> Otkryed gj ytq, ds dsqltnt bp gjlptvtkmz.
+<ce> D @nj dhtvz gjzdbncz cktle<ott cjj`otybt.
+<ce>
+<ce> (Cktle<ott cjj`otybt ghb ds[jlt bp gjlptvtkmz.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1042
+<ce> Cnhfybwf 11
+<ce>
+<ce> Vbh Lfuuthajkkf juhjvty, b gj ytve ytdjpvj*yj
+<ce> gentitcndjdfnm d htfkmyjv dhtvtyb.
+<ce>
+<ce> Jnrhjqnt rfhne gentitcndbq (j`sxyj yf*fnbtv ryjgrb V).
+<ce> Htubjy, d rjnjhjv ds yf[jlbntcm, dsltkty rhfcysv wdtnjv.
+<ce> Otkrybnt gj @njve htubjye, b edblbnt rfhne @njuj htubjyf.
+<ce> Yf*vbnt «Yfqnb» b ddtlbnt «Lfuuthajkk».
+<ce>
+<ce> Lkz yfxfkf bcgjkmpeqnt yfcnhjqrb gentitcndbz «Jcvjnhbntkmyj»
+<ce> b «Yjxm D Nfdthyf[». ^nb yfcnhjqrb gjpdjkzn dfv ghb`snm
+<ce> d ujhjl enhjv. Gjdthmnt, ds yt pf[jnbnt ghb`snm d Lfuuthajkk yjxm<.
+<ce>
+<ce> (Cktle<ott cjj`otybt gj ghb`snbb d ujhjl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1045
+<ce> Cnhfybwf 12
+<ce>
+<ce> Yfqlbnt `kb*fqituj *bntkz ujhjlf. Yf*vbnt F4, xnj`s gthtrk<xbnm
+<ce> dpfbvjltqcndbt d ht*bv lbfkjuf, f pfntv otkrybnt yf xtkjdtrf.
+<ce> Ds gjgfltnt d jryj lbfkjuf. C gjvjom< @njuj jryf ds vj*tnt
+<ce> cghfibdfnm ljhjue r ntv bkb bysv vtcnfv. Tckb @njn xtkjdtr
+<ce> ytlhe*tk<`ty bkb ybxtuj yt pyftn, cghjcbnt lheujuj.
+<ce>
+<ce> Rfr njkmrj dfv crf*en, d rfrjv yfghfdktybb yf[jlbncz plfybt,
+<ce> rjnjhjt ds botnt, ds cvj*tnt cghjcbnm @njn djghjc tot hfp
+<ce> b nfr lj nt[ gjh, gjrf jy(jyf) yt jnvtnbn wtkm yf dfitq rfhnt.
+<ce> ^nj jxtym df*yj lkz elj`yjuj gjbcrf vtcn d nfrb[ `jkmib[
+<ce> ujhjlf[, rfr @njn.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 45 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1047
+<ce> Cnhfybwf 13
+<ce>
+<ce> D jryt hfpujdjhf nfr*t tcnm jgwbb lkz gjbcrf k<ltq
+<ce> b gjkextybz yjdjcntq, f nfr*t gjbcrf vtcnys[
+<ce> rdtcnjd (Ult vyt yfqnb... hf`jne). Gjcvjnhbnt yf dth[ybq
+<ce> ktdsq eujk jryf hfpujdjhf, xnj`s edbltnm hfpkbxyst ntvs,
+<ce> j rjnjhs[ ds vj*tnt cghjcbnm.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 15 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1048
+<ce> Cnhfybwf 14
+<ce>
+<ce> Tckb d cnfhnjdjv gjlptvtkmt ds lj`skb cjrhjdbof,
+<ce> dfv pf[jxtncz b[ ghjlfnm. Lkz @njuj kexit dctuj gjljqltn
+<ce> kjv`fhl, [jnz d j`sxys[ vfufpbyf[ b e jhe*tqybrjd nj*t vj*yj
+<ce> regbnm/ghjlfnm ytrjnjhst dbls njdfhjd. Yfqlbnt jlby nfrjq
+<ce> vfufpby ult-yb`elm d ujhjlt. Ds vj*tnt cghjcbnm ljhjue
+<ce> r ytve e vtcnys[ bkb yf*fnm F3, xnj`s gthtqnb d ht*bv «Byajhvfwbz»,
+<ce> b otkrfnm gj plfybzv, xnj`s epyfnm yf hfccnjzybb,
+<ce> xnj jyb bp ct`z ghtlcnfdkz<n.
+<ce>
+<ce> Vfufpbys j`otuj gjkmpjdfybz jnrhsdf<ncz d 6 enhf.
+<ce> Kjv`fhls b jhe*tqyst vfcnthcrbt jnrhsdf<ncz gjp*t.
+<ce> Ghjdthmnt ntreott dhtvz d buht (j`sxyj @nj rkfdbif I).
+<ce> Tckb vfufpbys tot pfrhsns, yf*vbnt ryjgre «Jnls[» (R),
+<ce> xnj`s «ckjyznmcz `tp ltkf» (f yt jnls[fnm), lj jnrhsnbz.
+<ce> Cgfnm yf ekbwf[ ujhjlf ghjnbdjpfrjyyj!
+<ce>
+<ce> J`hfnbnt dybvfybt, xnj tckb ds `eltnt «ckjyznmcz `tp ltkf»
+<ce> ghzvj ctqxfc, nj cktle<ott j`exf<ott cjj`otybt gjzdbncz
+<ce> chfpe *t gjckt jnls[f.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 10 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1050
+<ce> Cnhfybwf 15
+<ce>
+<ce> ~jkmibycndj buhjrjd [jnzn dcnegbnm [jnz `s d jlye ubkmlb<.
+<ce> Gj vtht gjdsitybz hfyuf d ubkmlbb ds gjkexftnt dct `jkmit
+<ce> ghtbveotcnd. Xnj`s gjlyznmcz d pdfybb, ds ljk*ys ekexifnm
+<ce> yfdsrb, rjnjhsvb bynthtcetncz ubkmlbz, b htuekzhyj dsgjkyznm
+<ce> rdtcns, xnj`s gjdscbnm cdj< htgenfwb< d ytq.
+<ce>
+<ce> Dct pfrkbyfntkb ljk*ys dcnegbnm d Ubkmlb< Vfujd.
+<ce> Gthcjyf*b `jqwjdcrjuj nbgf vjuen dcnegbnm d Ubkmlb< ~jqwjd
+<ce> b (bkb) Hswfhcrbq Jhlty. Ds nfr*t vj*tnt ds`hfnm [hfv,
+<ce> d rjnjhsq [jnbnt dcnegbnm.
+<ce>
+<ce> Ds vj*tnt `snm xktyjv njkmrj jlyjuj [hfvf b jlyjuj hswfhcrjuj jhltyf.
+<ce>
+<ce> D buht tcnm b lheubt crhsnst ubkmlbb.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 10 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1055
+<ce> Cnhfybwf 16
+<ce>
+<ce> Gjcktlyzz pflfxf - yfqnb rdtcn. Rdtcns d Lfuuthajkkt utythbhe<ncz
+<ce> ckexfqysv j`hfpjv, ds`bhfz kjrfwbb djrheu dfc d rfxtcndt vtcn,
+<ce> ult `elen ghjbc[jlbnm cj`snbz.
+<ce>
+<ce> Dsgjkytybt rdtcnjd lkz ubkmlbq gjvj*tn dfv gjdscbnm
+<ce> cdjq hfyu d yb[, gj@njve jyb vjuen `snm lkz dfc ghbjhbntnysvb.
+<ce> Gjckt dcnegktybz d ubkmlb< yfqlbnt rjuj-yb`elm d plfybb
+<ce> ubkmlbb c ryjgrjq «Gjkexbnm pflfybt» d jryt lbfkjuf.
+<ce> Ghbvbnt bkb jnrkjybnt ghtlkj*tyysq rdtcn.
+<ce> Jnrfp jn rdtcnf yt dktxtn pf cj`jq ybrfrb[ gjcktlcndbq,
+<ce> tckb @njn rdtcn yt cdzpfy c jcyjdysv c<*tnjv.
+<ce>
+<ce> (Chfpe *t gjzdbncz cktle<ott cjj`otybt.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+--had to split page 16 into a new page 17 because it was too large on unilength font
+
+Message: 1056
+<ce> Cnhfybwf 17
+<ce>
+<ce> Vyjubt rdtcns jnghfdzn dfc d lheubt ujhjlf. Tckb @nj nfr,
+<ce> jnrhjqnt cdjq *ehyfk (j`sxyj L) b otkrybnt yf pfgbcb
+<ce> d *ehyfkt rdtcnjd, gjcdzotyyjq @njve rdtcne. Dj vyjub[
+<ce> ckexfz[ @nj fdnjvfnbxtcrb cgkfybhetn gentitcndbt
+<ce> r vtcne yfpyfxtybz rdtcnf. D ghjnbdyjv ckexft ds vj*tnt
+<ce> jnrhsnm @rhfy gentitcndbz b ds`hfnm vtcnj cfvjcnjzntkmyj.
+<ce>
+<ce> Ds nfr*t vj*tnt yfqnb rdtcns chtlb ckexfqys[ *bntktq ujhjlf.
+<ce> Hfpujdfhbdfqnt c k<lmvb d nfdthyf[, e yb[ j`sxyj tcnm rdtcns.
+<ce> Ds nfr*t vj*tnt gjkexbnm b[ e kfdjxybrjd c gjvjom< ryjgrb
+<ce> «Hfpujdjh». Cghjcbd: «Ult vyt yfqnb... hf`jne», ds cvj*tnt epyfnm
+<ce> j k<lz[, rjnjhst vjuen dslfnm dfv pflfybt.
+<ce>
+<ce> (Cktle<ott cjj`otybt xthtp 10 ctreyl.
+<ce> Yf*vbnt «Ytn», xnj`s pfdthibnm j`extybt).
+
+Message: 1057
+<ce> Yf @njv j`extybt pfrjyxtyj. Lfuuthajkk - buhf c vyj*tcndjv
+<ce> eybrfkmys[ b ckj*ys[ vt[fybr, gj@njve epyfdfqnt j tt ghbxelf[
+<ce> jn lheub[ buhjrjd bkb bobnt cfvb. Ds nfr*t cvj*tnt lj`fdkznm
+<ce> vjls d buhe, rjulf hfp`thtntcm c `fpjdsvv vt[fybrfvb.
+<ce>
+<ce> Lj`hj gj*fkjdfnm d Lfuuthajkk!
+
+QBN:
+
+Place pirateerHold permanent PirateerHold2
+
+Clock _page1_ 00:02
+Clock _page2_ 00:03
+Clock _page3_ 00:02
+Clock _page4_ 00:01
+Clock _page5_ 00:02
+Clock _page6_ 00:03
+Clock _page6a_ 00:09
+Clock _page7_ 00:01
+Clock _page8_ 00:01
+Clock _page11_ 00:09
+Clock _page12_ 00:03
+Clock _page13_ 00:02
+Clock _page14_ 00:02
+Clock _page15_ 00:02
+
+
+--	Quest start-up:
+	prompt 1010 yes _yes_ no _no_
+
+variable _exitstarter_
+_yes_ task:
+	pc at pirateerHold set _exitstarter_
+	start timer _page1_
+	say 1012
+--no prompt on this one because it is shown immediately after game begin.
+--the purpose of these prompts is to prevent a player from clicking out
+--of a tutorial window when they didn't intend to. This is not a risk
+--on the first window.
+
+_page1_ task:
+	prompt 1013 yes _yes1_ no _no_
+
+_yes1_ task:
+	start timer _page2_
+
+_page2_ task:
+	prompt 1015 yes _yes2_ no _no_
+
+_yes2_ task:
+	start timer _page3_
+
+_page3_ task:
+	prompt 1020 yes _yes3_ no _no_
+
+_yes3_ task:
+	start timer _page4_
+
+_page4_ task:
+	prompt 1025 yes _yes4_ no _no_
+
+_yes4_ task:
+	start timer _page5_
+
+_page5_ task:
+	prompt 1030 yes _yes5_ no _no_
+
+_yes5_ task:
+	start timer _page6_
+
+_page6_ task:
+	prompt 1031 yes _yes6_ no _no_
+
+_yes6_ task:
+	start timer _page6a_
+
+_page6a_ task:
+	prompt 1035 yes _yes6a_ no _no_
+
+_yes6a_ task:
+	start timer _page7_
+
+_page7_ task:
+	prompt 1040 yes _yes7_ no _no_
+
+_yes7_ task:
+	start timer _page8_
+
+_page8_ task:
+	prompt 1041 yes _yes8_ no _no_
+
+variable _yes8_
+
+_escape_ task:
+	when _yes8_ and not _exitstarter_
+	prompt 1042 yes _yes9_ no _no_
+
+variable _yes9_
+_arrival_ task:
+	when pc enters city
+	start task _page10_
+
+_page10_ task:
+	prompt 1045 yes _yes10_ no _no_
+
+_yes10_ task:
+	start timer _page11_
+
+_page11_ task:
+	prompt 1047 yes _yes11_ no _no_
+
+_yes11_ task:
+	start timer _page12_
+
+_page12_ task:
+	prompt 1048 yes _yes12_ no _no_
+
+_yes12_ task:
+	start timer _page13_
+
+_page13_ task:
+	prompt 1050 yes _yes13_ no _no_
+
+_yes13_ task:
+	start timer _page14_
+
+_page14_ task:
+	prompt 1055 yes _yes14_ no _no_
+
+_yes14_ task:
+	prompt 1056 yes _yes15_ no _no_
+
+_yes15_ task:
+	start timer _page15_
+
+_page15_ task:
+	say 1057
+	start task _no_
+
+_no_ task:
+	start quest 977 977
+	end quest

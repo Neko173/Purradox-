@@ -1,0 +1,122 @@
+-- Quest: C:\QUESTS\WORKING\B0B80Y17.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 80
+-- QuestId: 17
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0B80Y17
+DisplayName: Fhvbz yt*bnb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Z _qgiver_ bp ==qgiver_.
+<ce> E vtyz tcnm lkz dfc dtcmvf jgfcyjt
+<ce> gjhextybt, %pcn. Ds jlby
+<ce> bp nt[ ytvyjub[, rjnjhst vjuen
+<ce> dsgjkybnm @nj pflfybt. Jlby kbx
+<ce> gjlybvftn fhvb< vthndtwjd. Yfv
+<ce> ye*ty rnj-nj, rnj cvj*tn
+<ce> jcnfyjdbnm tuj.
+
+RefuseQuest:  [1001]
+<ce> Gjybvf<, %pcn.
+<ce> ^nj vj*tn `snm jxtym jgfcysv lkz
+<ce> dfc. Levf<, yfqltncz tot jlby bkb
+<ce> ldf uthjz, rjnjhst cvjuen dpznmcz
+<ce> pf @nj ltkj. Gjqle, cghjie b[.
+
+AcceptQuest:  [1002]
+<ce> Ds jxtym [hf`hs. Kbx cltkfk
+<ce> ___dungeon_ cdjbv uytplbkbotv.
+<ce> Blbnt nelf b eybxnj*mnt ghjnbdj-
+<ce> tcntcndtyyjt cjplfybt. Xthtp
+<ce> =2dung_ lytq vs gjiktv rjuj-yb`elm
+<ce> tot, tckb ds yt dthytntcm.
+
+QuestComplete:  [1004]
+<ce> Lf plhfdcndetn uthjq, %pcn!
+<ce> Jnkbxyj! Dfit bvz `eltn
+<ce> pfgbcfyj d crhb*fkz[.
+
+RumorsDuringQuest:  [1005]
+Dtkbrbq kbx bp ___dungeon_ jgznm ghjcyekcz.
+
+RumorsPostfailure:  [1006]
+Z cksifk, kbx bp ___dungeon_ gthtctr dtcm pfkbd.
+   <--->
+Kbx cj`bhftn cbks gj dctve htubjye %reg.
+
+RumorsPostsuccess:  [1007]
+~kfujlfhtybt %god jhltye ==qgiver_. Jyb cgfckb dct[ yfc.
+   <--->
+%ra bp ==qgiver_ eybxnj*bk kbxf bp ___dungeon_.
+
+QuestorPostsuccess:  [1008]
+~ele hfl jrfpfnm dfv gjcbkmye< gjvjom, uthjq.
+
+QuestorPostfailure:  [1009]
+Gjckt ytelfxb c ___dungeon_ ds gjcvtkb zdbnmcz c<lf?
+   <--->
+Z dthbk dfv, xnj ds e`bkb kbxf. Rfr ds levftnt, rfrjt ctqxfc e vtyz yfcnhjtybt?!
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp
+ ==qgiver_ d ___qgiver_
+ j`zpfk vtyz ljkujv eybxnj*bnm
+ kbxf bp ___dungeon_. E vtyz
+ =2dung_ lytq, xnj`s pfdthibnm hf`jne.
+
+Message:  1011
+<ce> Kbx vthnd. ~tp tuj vfubxtcrjq
+<ce> gjllth*rb fhvbz vthndtwjd
+<ce> dthytncz d cdjb vjubks.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+Person _local_ face 1 group Resident2 local
+
+Place _dungeon_ remote dungeon0
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Ancient_lich
+Foe _F.01_ is Lich
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	pick one of _old_ _S.04_ _S.04_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _F.00_ saying 1011
+	killed 1 _F.01_ saying 1011
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.02_ and _S.01_
+	give pc nothing
+	change repute with _local_ by +4
+	end quest
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_
+
+_S.04_ task:
+	place foe _F.01_ at _dungeon_
+
+_old_ task:
+	place foe _F.00_ at _dungeon_

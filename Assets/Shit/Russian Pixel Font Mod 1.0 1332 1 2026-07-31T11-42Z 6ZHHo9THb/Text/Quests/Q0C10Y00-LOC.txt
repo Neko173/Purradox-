@@ -1,0 +1,213 @@
+-- Quest: C:\QUESTS\WORKING\Q0C10Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: witch
+-- Repute: 10
+-- QuestId: 0
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 24
+Quest: Q0C10Y00
+DisplayName: ~jkmijt gjhextybt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Tckb ns [jxtim gjkexbnm gjvjom jn
+<ce> ==qgiver_, cyfxfkf nt`t yflj
+<ce> gjvjxm yfv. Cjukfcbimcz kb ns
+<ce> ghbytcnb nhb htfutynf, rjnjhst
+<ce> ye*ys lkz yfituj ptkmz.
+
+RefuseQuest:  [1001]
+<ce> Njulf bp`fdm yfc jn ndjtuj ghbcencndbz
+<ce> b gecnm lehyfz ckfdf ghtcktletn njuj,
+<ce> rnj jnrfpfkcz yfv gjvjxm.
+
+AcceptQuest:  [1002]
+<ce> Yfv dtlmvfv ye*ys nhb htfutynf,
+<ce> rjnjhst vs yt vj*tv yfqnb bp-pf
+<ce> rfghbpjd gjujls. Gthdsq - _item1_
+<ce> d jnkbxyjv cjcnjzybb bp ___dungeon1_.
+<ce> Dnjhjq bob d ___dungeon2_ - @nj
+<ce> _item2_, rjnjhsq bcnjxftn rke`s lsvf.
+<ce> Gjcktlybq htfutyn, @aatrnbdysq
+<ce> ghtlvtn _item3_, rjnjhsq nt`t yflj
+<ce> ghbytcnb bp ___dungeon3_.
+<ce> Ghbytcb yfv dct @nb dtob d ntxtybt
+<ce> =queston_ lytq, gjrf yfi rjntk
+<ce> yt jcnsk.
+
+QuestFail:  [1003]
+<ce> Yfv ye*ys _item1_, _item2_
+<ce> b _item3_, %pcn.
+<ce> Ctqxfc yt dhtvz lkz `jknjdyb.
+
+QuestComplete:  [1004]
+<ce> ~scnhtq ctcnhf, djpmvb `fuf* @njuj
+<ce> %ra. Hfpvtkmxb _item1_,
+<ce> gjxbcnb _item2_ b
+<ce> hfpvtkb _item3_ yf recjxrb.
+<ce> Djn, e yfc tcnm nhb cdthrf<ob[
+<ce> `tpltkeirb, rjnjhsv vs yt ybrfr yt
+<ce> yfqltv ghbvtytybz. Djpmvb b[,
+<ce> %pcn, rfr pyfr yfitq
+<ce> `kfujlfhyjcnb.
+
+RumorsDuringQuest:  [1005]
+Gjulf `skf ghtlcrfpetvjq. Dtlmvs vjuen cgfnm cgjrjqyj.
+   <--->
+Jlyf bp @nb[ dtlmv gsnfkfcm pfyznmcz ltkjv d yfitv ujhjlt, yj vs ghjuyfkb tt c gjpjhjv.
+
+RumorsPostfailure:  [1006]
+Dcgjvybnt, xnj `skj, rjulf dtlmvs ghjrkzkb %t. Gjkfuf< pfgfk e dtlm ghjitk.
+   <--->
+Ujdjhzn, xnj ==qgiver_ hfcnthzkb dc< cdj< rdfkbabrfwb<.
+
+RumorsPostsuccess:  [1007]
+Ns gjxnb vj*tim xedcndjdfnm @ythub<. ^nj rfr djple[, ujnjdsq dpjhdfnmcz.
+   <--->
+Njn rnj crfpfk, xnj ==qgiver_ hfcnthzkb cdjb evtybz, j`htxtyysq lehfr.
+
+QuestorPostsuccess:  [1008]
+Pf _item1_, _item2_ b _item3_ z r ndjbv eckeufv, %pcf.
+
+QuestorPostfailure:  [1009]
+<ce> Vs ghjcbkb nt`z ghbytcnb nhb
+<ce> htfutynf, yj nt`t @nj yt elfkjcm.
+<ce> Ghjxm c ukfp vjb[.
+
+Message:  1011
+Jyf jlyf bp ==qgiver_. Rjve-nj yflj `snm gjdt*kbdtq.
+   <--->
+Jyf cbkmyfz ghjhjxbwf, cdzpfyyfz c ==qgiver_.
+
+Message:  1015
+%qdt:
+ Tckb z [jxe pfcke*bnm edf*tybt _qgiver_,
+ vyt yflj yfqnb nhb dtob b ghbytcnb
+ b[ r ==qgiver_ d ntxtybt =queston_ lytq.
+ Nhb dtob -- _item1_, _item2_ b
+ _item3_ -- ljk*ys `snm ljcnfdktys
+ bp ___dungeon1_, ___dungeon2_
+ b ___dungeon3_ cjjndtncndtyyj.
+ Vjz hf`jnf `eltn [jhjij jgkfxtyf.
+
+Message:  1021
+<ce> Ds yfikb _item1_,
+<ce> xnj botn _qgiver_.
+
+Message:  1022
+<ce> Ds yfikb _item2_,
+<ce> xnj botn _qgiver_.
+
+Message:  1023
+<ce> Ds yfikb _item3_,
+<ce> xnj botn _qgiver_.
+
+Message:  1024
+<ce> Ds jnlfkb _item1_.
+
+Message:  1025
+<ce> Ds jnlfkb _item2_.
+
+Message:  1026
+<ce> Ds jnlfkb _item3_.
+
+
+QBN:
+Item _item1_ mythic
+Item _item2_ mineral
+Item _item3_ organs
+Item _reward1_ malachite
+Item _reward2_ turquoise
+Item _reward3_ jade
+--added messages 1024, 1025 and 1026 and their handling in the quest. previously you had to click the witch 3 times and turn in the items with no confirmation.
+
+Person _qgiver_ group Questor anyInfo 1011
+
+Place _dungeon1_ remote dungeon6
+Place _dungeon2_ remote dungeon12
+Place _dungeon3_ remote dungeon10
+
+Clock _queston_ 6.22:40 10.10:00 flag 17 range 0 5
+
+Foe _F.00_ is Gargoyle
+Foe _wereboar_ is Wereboar
+Foe _spriggan_ is Spriggan
+Foe _mummy_ is Mummy
+Foe _zombie_ is Zombie
+Foe _skeleton_ is Skeletal_warrior
+
+--	Quest start-up:
+	place item _item3_ at _dungeon3_
+	place item _item2_ at _dungeon2_
+	place item _item1_ at _dungeon1_
+	start timer _queston_
+	reveal _dungeon3_
+	reveal _dungeon2_
+	reveal _dungeon1_
+	log 1015 step 0
+	pc at _dungeon1_ set _S.10_
+	pc at _dungeon2_ set _S.14_
+
+_pchasitem1_ task:
+	toting _item1_ and _qgiver_ clicked
+	say 1024
+
+_pchasitem2_ task:
+	toting _item2_ and _qgiver_ clicked
+	say 1025
+
+_pchasitem3_ task:
+	toting _item3_ and _qgiver_ clicked
+	say 1026
+
+_queston_ task:
+	end quest
+
+_a1_ task:
+	create foe _zombie_ every 15 minutes 5 times with 5% success
+	place foe _zombie_ at _dungeon1_
+
+_a2_ task:
+	create foe _mummy_ every 10 minutes 5 times with 5% success
+	place foe _mummy_ at _dungeon1_
+
+_a3_ task:
+	create foe _skeleton_ every 12 minutes 5 times with 5% success
+	place foe _skeleton_ at _dungeon1_
+
+_a4_ task:
+	create foe _F.00_ every 10 minutes 5 times with 5% success
+	place foe _F.00_ at _dungeon2_
+
+_a5_ task:
+	create foe _spriggan_ every 15 minutes 5 times with 5% success
+	place foe _spriggan_ at _dungeon2_
+
+_a6_ task:
+	create foe _wereboar_ every 12 minutes 5 times with 5% success
+	place foe _wereboar_ at _dungeon2_
+
+_S.10_ task:
+	pick one of _a1_ _a2_ _a3_ _a1_
+
+_batty_ task:
+	clicked item _item1_ say 1021
+
+_S.12_ task:
+	clicked item _item2_ say 1022
+
+_S.13_ task:
+	clicked item _item3_ say 1023
+
+_S.14_ task:
+	pick one of _a4_ _a5_ _a6_ _a4_
+
+_S.15_ task:
+	when _pchasitem1_ and _pchasitem2_ and _pchasitem3_
+	give pc _reward1_
+	give pc _reward2_
+	give pc _reward3_
+	end quest
+--changed to multi-line give pc reward, as I know this implementation works fine. --JayH

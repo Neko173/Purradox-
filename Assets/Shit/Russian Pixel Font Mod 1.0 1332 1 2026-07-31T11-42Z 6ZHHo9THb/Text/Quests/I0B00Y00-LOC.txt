@@ -1,0 +1,134 @@
+-- Quest: C:\QUESTS\WORKING\I0B00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Stendarr
+-- Repute: 0
+-- QuestId: 0
+Messages: 31
+Quest: I0B00Y00
+DisplayName: Jcj`jt hfcntybt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Yfitve wtkbntk< ye*yj jlyj hfcntybt,
+<ce> yfpsdftvjt _item_, lkz
+<ce> cdjb[ wtkbntkmcrb[ ptkbq. Z yt vjue
+<ce> ghtlkj*bnm dfv vyjuj, yj vjue ghtlkj*bnm
+<ce> cdznjq cbvdjk [hfvf Cntylfhhf, tckb ds
+<ce> ghbytctnt _item_ lkz
+<ce> dsgjkytybz yfituj cdzotyyjuj ljkuf.
+
+RefuseQuest:  [1001]
+<ce> R cj*fktyb< @njn jndtn yfv e*t
+<ce> ghbtkcz. Vs yt vj*tv ghtlkj*bnm
+<ce> vyjuj pjkjnf bkb gj`hzreitr lkz
+<ce> hf`jnf<ob[ yf yfc. Ntv yt vtytt
+<ce> z jxtym hfpjxfhjdfkcz d dfc,
+<ce> %pcf. Z j*blfk
+<ce> `jktt `kfujhjlyjuj jndtnf.
+
+AcceptQuest:  [1002]
+<ce> E dfc lj`hjt cthlwt, %pcf.
+<ce> _item_ vj*yj yfqnb d ___chemist_
+<ce> d __chemist_.
+<ce> =chemist_ gj bvtyb _chemist_
+<ce> lfcn dfv bcrjvjt `tcgkfnyj, tckb ds
+<ce> `eltnt nfv lj bc[jlf =1stparton_ lytq.
+<ce> Gjnjhjgbntcm, %pcf. E yfc jxtym vyjuj
+<ce> hfytyys[ ytdbyys[, *leob[ bcwtktybz.
+
+QuestFail:  [1003]
+<ce> Dctulf hfl gjujdjhbnm c dfvb,
+<ce> %pcf, yj gj*fkeqcnf,
+<ce> yt pflth*bdfqntcm c _item_.
+
+QuestComplete:  [1004]
+<ce> Ds ghbytckb _item_, %pcf?
+<ce> J, cgfcb`j Cntylfhhe. Ghbvbnt
+<ce> gj*fkeqcnf yfit crhjvyjt gjlyjitybt
+<ce> d kbwt cdzotyyjuj cbvdjkf yfituj
+<ce> jhltyf.
+
+RumorsDuringQuest:  [1005]
+{hfv Cntylfhhf - jhlty `kfujxtcnbds[ abkfynhjgjd.
+   <--->
+Vfnm *ltn wtkbntkz d [hfvt Cntylfhhf. Jyf d jxtym gkj[jv cjcnjzybb.
+
+RumorsPostfailure:  [1006]
+Vjz ctcnhf evthkf, j*blfz gjvjob @njuj ghjrkznjuj wtkbntkz bp [hfvf Cntylfhhf.
+   <--->
+Z cksifk, xnj [hfvjdsq wtkbntkm yt gjkexbk djdhtvz ye*yst nhfds.
+
+RumorsPostsuccess:  [1007]
+Tcnm ytcrjkmrj geuf<ob[ vjvtynjd d [hfvt. Jxtym vyjuj hfytyys[, `jkmit, xtv j`sxyj.
+   <--->
+~ju Cntylfhh yf`k<lftn pf cdjbv [hfvjv.
+
+QuestorPostsuccess:  [1008]
+~skj `s ytdt*kbdj ghjbuyjhbhjdfnm dfc gjckt njuj rfr ds ghbytckb yfv _item_, %pcf.
+
+QuestorPostfailure:  [1009]
+Z rjynhjkbhe< cdjt yfcnhjtybt, yt pf`sdfqnt ghj ytelfxe c _item_, %pcf?
+   <--->
+Vj*tn ds gjujdjhbnt c evthibvb jn njuj, xnj ds yt ghbytckb djdhtvz _item_.
+
+QuestLogEntry:  [1010]
+<ce> Djn _item_, %pcf. F ctqxfc
+<ce> gjnjhjgbntcm d [hfv. Nfv jxtym
+<ce> vyjuj cnhf*leob[ bcwtktybz.
+
+Message:  1030
+%qdt:
+ {hfv Cntylfhhf d ___questgiver_
+ gjj`tofk vyt cdzotyysq cbvdjk b[ jhltyf,
+ tckb z yfqle _item_ b ghbytce @nj d [hfv
+ d ntxtybt =1stparton_ lytq.
+ Rnj-nj gj bvtyb _chemist_ d
+ ___chemist_ d vtcntxrt gjl yfpdfybtv
+ __chemist_ vj*tn lfnm nht`etvjt, tckb
+ z ghb`ele djdhtvz.
+
+
+
+QBN:
+Item _reward_ common_symbol
+Item _item_ large_plant
+
+Person _questgiver_ face 112 group Questor
+Person _chemist_ group Chemist remote
+
+
+Clock _1stparton_ 00:00 0 flag 17 range 1 4
+
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1030 step 0
+
+_1stparton_ task:
+	end quest
+
+variable _pcgetsgold_
+_npcclicked_ task:
+	clicked npc _chemist_ say 1010
+	get item _item_
+
+_qgclicked_ task:
+	toting _item_ and _questgiver_ clicked
+	give pc _reward_
+	end quest
+
+_qgclick2_ task:
+	clicked npc _questgiver_
+
+_clearclick_ task:
+	when _qgclick2_ and not _qgclicked_
+	say 1003
+	clear _clearclick_ _qgclick2_
+
+variable _queston_
+variable _S.05_
+_S.06_ task:
+	when _npcclicked_ and _1stparton_
+	make _item_ permanent

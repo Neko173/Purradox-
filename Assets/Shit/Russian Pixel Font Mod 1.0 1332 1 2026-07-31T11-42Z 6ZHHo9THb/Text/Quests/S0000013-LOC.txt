@@ -1,0 +1,194 @@
+-- Quest: C:\QUESTS\WORKING\S0000013.Qbn.
+-- Main story quest.
+-- QuestId: 13
+Messages: 21
+Quest: S0000013
+DisplayName: Gbcmvf Vbybcths
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcf, lf*t yt pyf<, c xtuj
+<ce> yfxfnm hfpujdjh. Vyt ye*yj, xnj`s ds gjrkzkbcm
+<ce> xtcnm< hjlbntktq, xnj cltkftnt dct pfdbczott
+<ce> jn dfc, xnj`s gjvjxm vyt b ybrjulf ybrjve yt
+<ce> hfccrf*tnt, xnj ds dbltkb b cksifkb. Rkzytntcm?
+
+RefuseQuest:  [1001]
+<ce> ^nj gkj[j. Gjkfuf<, lf*t tckb `s ds
+<ce> gjrkzkbcm, nj @nj `skf `s ytghfdlf.
+<ce> |fkm, f z nfr yfltzkfcm yf dfie lj`ktcnm.
+
+AcceptQuest:  [1002]
+<ce> Njulf ljdth<cm dfv, %pcf.
+<ce> Ltkj rfcftncz vjtq ghbtvyjq vfnthb,
+<ce> dljdcnde<otq rjhjktds Lfuuthajkkf b dljds
+<ce> Kbpfylecf, Vbybcths. ~elexb [hfybntkmybwtq
+<ce> ctvtqyjq rfpys z epyfkf, xnj jyf jgkfnbkf
+<ce> cjlth*fybt rhtgjcnb, yfpsdftvjq ___myndung_
+<ce> drk<xfz jgkfne `jkmijuj dpdjlf cjklfn.
+<ce> Yt nfr lfdyj jyf bcxtpkf, ghb[dfnbd c cj`jq
+<ce> yt`jkmijq cdthnjr c `evfufvb, f gjnjv
+<ce> dthyekfcm c gecnsvb herfvb. Gjnjv jyf jnkexbkfcm
+<ce> tot hfp c gfrtnjv gbctv b vjb igbjys ghjcktlbkb
+<ce> tt genm lj cfvjq rhtgjcnb ___myndung_.
+<ce> Ds ljk*ys dthbnm vyt, xnj vjb gjljphtybz
+<ce> bvt<n cthmtpyst jcyjdfybz, yj z yt d njv
+<ce> gjkj*tybb, xnj`s yfqnb ljrfpfntkmcndf.
+<ce> Dct xnj vyt ye*yj jn dfc, @nj xnj`s ds
+<ce> gjikb d ___myndung_ b yfikb @nb gbcmvf
+<ce> bkb lheubt ljrfpfntkmcndf tt ghbcencndbz.
+<ce> Vbybcthf dthytncz xthtp =2myndung_ lytq, nfr xnj
+<ce> e dfc yt nfr e* vyjuj dhtvtyb. Elfxb.
+
+QuestFail:  [1003]
+<ce> Ljrfpfntkmcndf ye*ys vyt lj bc[jlf
+<ce> =2myndung_ lytq bkb hfymit, %pcf.
+
+QuestComplete:  [1004]
+<ce> Rfr gtxfkmyj. Crf*e xtcnyj, @nj yt nj xnj
+<ce> z j*blfkf edbltnm d @nb[ gbcmvf[. ~tlyfz
+<ce> Vbybcthf. Dtcm ldjh pyftn, xnj tt ve*,
+<ce> gjrjqysq rjhjkm Kbpfylec, ghtlgjxbnfk kbwj
+<ce> b ntkj lheujq *tyobys, yj jyf dct tot
+<ce> gsnftncz crhsnm dct ljrfpfntkmcndf @njuj.
+<ce> Tt ghtlfyyjcnm Kbpfylece pfcke*bdftn
+<ce> edf*tybz d jnkbxbt jn tuj afkmibdjq ghtlfyyjcnb
+<ce> bvgthfnjhe.
+<ce>
+<ce> ~tlyst vfktymrbt ltnb. E`bqcndj ytdbyys[
+<ce> ghjcnj e*fcyj. Vs pyftv j dfhdfhcndt jhrjd,
+<ce> yj jyb @njuj yt pfcke*bkb. Ljdjkmyj ytj*blfyyj,
+<ce> xnj Vbybcthf yt [jntkf pyfnm, xnj tt jntw
+<ce> `sk jndtncndtyty pf @nj uhjntcryjt hfpdktxtybt.
+<ce> ~kfujlfh< dfc, %pcf, pf lj`ktcnm
+<ce> b nfrnbxyjcnm. Ghbvbnt gj*fkeqcnf rfr pyfr
+<ce> vjtuj gjxntybz yt`jkmijq gjlfhjr.
+<ce> Lf `kfujckjdbn dfc %god.
+
+QuestorPostfailure:  [1009]
+<ce> Gbcmvf bphzlyj j`ujhtkb, yj ytrjnjhst
+<ce> ckjdf tot vj*yj hfpj`hfnm.
+
+QuestLogEntry:  [1010]
+(gthdfz cnhfybwf)
+... `sk lfktrj nfr ljkuj, leif vjz ...
+<ce>
+(dnjhfz cnhfybwf)
+... ns wtkjdfk vjb ue`s, yj pf`sk ckjdf, rjnjhst jyb itgnfkb ...
+<ce>
+(nhtnmz cnhfybwf)
+... jyf gjljphtdftn nt`z d bpvtyt ... b z gjrkjyz<cm
+b j`j*f< dct ndjb cnjhjys, yj ndjz gecnfz rjhjyf b ndjt
+gecnjt j`hexfkmyjt rjkmwj, ldf rheuf, zdkz<ob[cz kjdeirjq b
+ytceob[ nt`t `jkm ... z `skf nfr notckfdyf d gjgsnrf[ `snm
+gj[j*tq yf Vtljhe Kbpfylecf ... ntkj b gbnm ytrnfh bp tuj
+herb ... k<`jdm ... yfdctulf ...
+<ce>
+(xtndthnfz cnhfybwf)
+...hrb. Lkz gjctktybz `skf ds`hfyf tot `jktt [elifz exfcnm.
+Gjckt njuj rfr dct ve*xbys jhrb `skb e`bns b cbkm....
+(pf jhrcrb[ *tyoby, rjnjhst yfvyjuj ckf`tt cdjb[ ve*xby d ...
+jcnfkbcm njkmrj cnfhst b `jkmyst, lf b nt `skb bp`bns lj ....
+rnj htibkcz `s crfpfnm Rbhjlbbke ...vthtnm, ghjcbk gjofls
+lkz cdjb[ cj`cndtyys[ ltntq, yj ghbyw Rkfqec crfpfk, xnj
+ltnb dshfcnen b pf[jnzn jnjvcnbnm, nfr xnj njkmrj ythfpevysq
+kblth ghjzdbn cjxedcndbt r ytk<lzv. Jy lfk cdjbv djbyfv
+djpvj*yjcnm gjcjcnzpfnmcz d e`bqcndt ltntq, b dct jyb `skb
+e`bns nfrbvb bpjohtyysvb cgjcj`fvb, xnj e vtyz lf*t yt
+gjlybvftncz herf jgbcfnm, xnj nfv ghjbc[jlbkj. Z dbltkf dct
+jn yfxfkf b lj rjywf, vbktlb, b ghjie ghjotybz,
+yj dfi jntw cjdthibk dtkbxfqitt pkj bp dct....
+gjpjh yf vj< ujkjde, xnj z yt htibkfcm crfpfnm "ytn" ...
+gjpjh dctv ...
+<ce>
+(gznfz cnhfybwf)
+...[jxe pf`snm ghj cdjb j`zpfyyjcnb. Ds b ....
+dvtcnt. ~elm ghjrkzn @njn vbh b tuj cgjrjqcndbt. Gjpdjkmnt
+vyt gjkj*bnm @nj...~tnjybz gjpflb. Z eybxnj*e b[ ghb
+Rhbyufbyt. Gjrf jyb....yt evhen. Ybrnj yt ljk*ty lf*t
+gjljphtdfnm, xnj rjhjkm vj*tn clfnmcz...
+
+Message:  1011
+%qdt:
+ Rjhjktdf Fe`r-b [jxtn, xnj`s z ghjcktlbk pf tt
+ vfxt[jq, dljdcnde<otq rjhjktdjq Lfuuthajkkf, lj
+ tt rhtgjcnb ___myndung_, xnj`s epyfnm, xnj cnfkj
+ c gfxrjq `evfu, rjnjhst Vbybcthf eytckf nelf.
+ E vtyz njkmrj =2myndung_ lytq, xnj`s dthyenmcz r
+ Fe`r-b c gbcmvfvb. Jyf j`tofkf vyt rjt-rfre<
+ byajhvfwb< d j`vty yf yb[.
+
+Message:  1015
+<ce> Cgjhnbdyjuj dblf vjkjlfz ltdeirf d kbdhtt c uth`jv
+<ce> Lfuuthajkkf dhexbkf dfv gbcmvj. Htprj gjdthyedibcm
+<ce> jyf jctlkfkf cdjtuj rjyz b ecrfrfkf ghjxm.
+
+Message:  1020
+Edf*ftvsq %pcn,
+<ce>
+  Vyt cyjdf nht`etncz dfif gjvjom. Dfif lj`ktcnm b
+nfrnbxyjcnm `skb ghjcnj ytjwtybvs, rjulf ds gjvjukb
+vyt d ltkt c Yekmafujq. Gj*fkeqcnf yfdtcnbnt vtyz,
+rjulf `eltnt ghjtp*fnm vbvj.
+<ce>
+Fe`r-b
+Rjhjktdf Lfuuthajkkf
+
+
+
+QBN:
+Item _treasure_ letter used 1010
+Item _gold_ gold
+Item letter48 letter used 1020
+
+Person _aubki_ named Queen_Aubk-i atHome
+Person _mynisera_ face 184 named Mynisera
+
+Place _myndung_ permanent Castle_Necromoghan
+
+Clock _2myndung_ 00:00 0 flag 17 range 0 2
+Clock _S.04_ 10.00:00 20.00:00
+
+
+--	Quest start-up:
+	start timer _S.04_
+	add _aubki_ as questor
+
+_2myndung_ task:
+	drop _aubki_ as questor
+	end quest
+
+_pcgetsgold_ task:
+	toting _treasure_ and _aubki_ clicked
+	give pc _gold_
+	drop _aubki_ as questor
+	end quest
+
+_S.02_ task:
+	clicked npc _aubki_
+	prompt QuestorOffer yes yes no _no_
+
+variable _S.03_
+_S.04_ task:
+	hide npc _mynisera_
+	give pc letter48 notify 1015
+
+until _S.04_ performed:
+	clear _S.02_
+
+yes task:
+	place item _treasure_ at _myndung_ anymarker
+	start timer _2myndung_
+	reveal _myndung_
+	log 1011 step 0
+	say AcceptQuest
+
+_no_ task:
+	say RefuseQuest
+	drop _aubki_ as questor
+	end quest
+
+_dummy_ task:
+	clicked item _treasure_ say QuestorPostfailure
+	_treasure_ used do _S.03_

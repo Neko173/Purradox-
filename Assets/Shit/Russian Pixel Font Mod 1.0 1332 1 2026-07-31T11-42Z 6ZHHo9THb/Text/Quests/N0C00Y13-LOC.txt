@@ -1,0 +1,201 @@
+-- Quest: C:\QUESTS\WORKING\N0C00Y13.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: mage
+-- Repute: 0
+-- QuestId: 13
+Messages: 46
+Quest: N0C00Y13
+DisplayName: Lhtdybq cdbnjr
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> {vvv. Ds yt xkty ubkmlbb. Z yt
+<ce> pfbynthtcjdfy d ghbdktxtybb r hf`jnt
+<ce> gjcnjhjyyb[ kbw. {jnz tcnm e vtyz
+<ce> jlyf hf`jntyrf...ghjcnj ybrnj bp
+<ce> ubkmlbb yt [jxtn pf ytt `hfnmcz.
+<ce> Tckb ds cltkftnt tt lkz vtyz `tcgkfnyj,
+<ce> z dctv hfccrf*e j dfitq lj`hjnt.
+<ce> Xnj crf*tnt, %pcf?
+
+RefuseQuest:  [1001]
+<ce> Ghjxm jnc<lf. Ds vyt vtiftnt.
+   <--->
+<ce> Jxtym gkj[j.
+
+AcceptQuest:  [1002]
+<ce> Vtyz pjden _questgiver_.
+<ce> Tcnm jlyf lhtdyzz herjgbcm, ghtlgjkj*bntkmyj
+<ce> [hfyzofzcz d ___dungeon_.
+<ce> Ghbytcbnt vyt tt pf =traveltime_ lytq
+<ce> b z pfcxbnf< dfv dsgjkytybt.
+
+QuestComplete:  [1004]
+<ce> Dtkbrjktgyj. Gjvybncz z ghtleght*lfk dfc
+<ce> yt xbnfnm @nj, yt nfr kb? Ds vj*tnt
+<ce> gjldthuyenm ct`z jgfcyjcnb, tckb ghjbpytctnt
+<ce> "yfuju" c ndthlsv pderjv "u", xnj tcntcndtyyj
+<ce> ytghfdbkmyj. Cgfcb`j pf gjvjom, %pcn.
+<ce> Jcnfdfqntcm dthysvb cdjtve ckjde b z
+<ce> pfvjkdk< pf dfc ckjdtxrj yfcxtn ghbyznbz
+<ce> d yfib hzls.
+
+RumorsDuringQuest:  [1005]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostfailure:  [1006]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostsuccess:  [1007]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+QuestorPostsuccess:  [1008]
+Rjytxyj *t z gjvy< dfc, %pcf. ^nj ds ghbytckb vyt ne herjgbcm, dthyj?
+
+QuestorPostfailure:  [1009]
+<ce> Yt pyf< rfr tot ghjot j`]zcybnm, xnj vyt ye*yj.
+<ce> Vyt ye*yj, xnj`s ds dctuj kbim yfikb jlby
+<ce> jxtym lhtdybq cdbnjr. Ntgthm blbnt, pfqvbntcm
+<ce> ltkjv b yt jndktrfqnt vtyz.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Z ujdjhbk c _questgiver_
+ bp Ubkmlbb Vfujd d ___questgiver_.
+ Vtyz gjckfkb d ___dungeon_ c pflfybtv
+ yfqnb [hfyzobqcz nfv lhtdybq cdbnjr.
+ E vtyz =traveltime_ lytq, xnj`s yfqnb
+ tuj b dthyenmcz j`hfnyj.
+
+Message:  1020
+Pbahbv fkmuf y'yfuju. Rfhnb
+fkmuf n'`tkfqk. Fpfn Pbahbv
+yt'yfuju. Gfhnbr fkjq gfhnbr aht b
+fqjvbyfnhfu y'njqk. ~thbr fpfn
+y'yfuju. Xfhkfu ubvkb y'vfker
+Pbahbv rejhr.
+
+Message:  1040
+<ce> Ljk*yj `snm @nj njn cfvsq gthufvtyn,
+<ce> rjnjhsq ds botnt.
+
+QuestTimeLapse:  [1045]
+<ce> Rfr njkmrj ds ghjxkb gjcktlytt ckjdf,
+<ce> cbkmysq gjhsd ktltyzotuj dtnhf dshdfk
+<ce> kbcn `evfub bp dfib[ her.
+
+
+QBN:
+Item _ingredient_ letter used 1020
+
+Person _questgiver_ group Questor
+
+Place _dungeon_ remote dungeon
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _atronach_ is Ice_atronach
+
+--	Quest start-up:
+	place item _ingredient_ at _dungeon_
+	start timer _traveltime_
+	reveal _dungeon_
+	log 1010 step 0
+
+_traveltime_ task:
+	end quest
+
+_S.01_ task:
+	toting _ingredient_ and _questgiver_ clicked
+	give pc nothing
+	end quest
+
+_S.02_ task:
+	clicked item _ingredient_
+	_ingredient_ used do _S.03_
+	--moved "saying 1045" from used do, not a valid argument, to S.03.
+	say 1040
+
+_S.03_ task:
+	say 1045
+	create foe _atronach_ every 1 minutes 1 times with 100% success

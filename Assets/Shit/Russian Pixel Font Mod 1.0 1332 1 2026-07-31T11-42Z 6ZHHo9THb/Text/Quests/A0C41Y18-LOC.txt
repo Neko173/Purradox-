@@ -1,0 +1,237 @@
+-- Quest: C:\QUESTS\WORKING\A0C41Y18.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 41
+-- QuestId: 18
+Quest: A0C41Y18
+DisplayName: Gfktw vevbb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vyt ye*ty rnj-nj, rnj ljcnfdbn rjt-xnj lkz
+<ce> vtyz, pf xnj z ujnjd otlhj pfgkfnbnm.
+<ce> _gold1_ dyfxfkt b _gold2_ pjkjns[ gjckt
+<ce> jrjyxfybz hf`jns.
+<ce> Ds gjvj*tnt vyt?
+
+RefuseQuest:  [1001]
+<ce> %oth, yte*tkb z ybrjulf yt gjkexe @ne dtom!
+<ce> Ye gjxtve ybrnj yt [jxtn gjvjxm vyt?
+
+AcceptQuest:  [1002]
+<ce> ~kfujlfhtybt %god!  Ds yt ghtlcnfdkztnt rfr
+<ce> vyjuj @nj lkz vtyz pyfxbn. Djn dfib ltymub.
+<ce> Djn, djpmvbnt @nj r _dummy_ d ___dummy_,
+<ce> %g pfgkfnbn dfv pf `tcgjrjqcndj. F ctqxfc vyt
+<ce> ye*yj blnb. Ghtvyjuj `kfujlfhty!
+
+QuestComplete:   [1004]
+<ce> _giver_ dhexbk dfv cdthnjr c pfdthyensv d ytuj
+<ce> rfrbv-nj vfktymrbv j`]trnjv b hfcndjhbkcz d njkgt.
+
+RumorsDuringQuest:  [1005]
+<ce> Gbhfns dtcmvf frnbdys d @njv ujle.
+
+RumorsPostfailure:  [1006]
+<ce> Cks[fkb bcnjhb< j ghjrkznbb gfkmwf vevbb?
+<ce> J. Bpdbybnt. Z levfk...
+
+RumorsPostsuccess:  [1007]
+<ce> Rfrjq-nj [hf`hsq %ra eitk d ___dungeon_.
+<ce> ~tlysq ukegtw.
+
+QuestorPostsuccess:  [1008]
+<ce> Gcb[b d @njv ujle `eqytt j`sxyjuj.
+
+QuestorPostfailure:  [1009]
+<ce> Ds gjkfuftnt z njkcn? Dct ujdjhzn
+<ce> nfr, yj z nfr yt levf<.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Vtyz yfyzkb lkz gthtlfxb gjcskrb r
+ _dummy_ bp ___dummy_.
+ Vjq nfbycndtyysq yfybvfntkm pfgkfnbk vyt
+ _gold1_ pjkjns[ b gjj`tofk _gold2_ pjkjns[
+ gjckt dsgjkytybz gjhextybz. Ytn ghbxby
+ cgtibnm, yj vjq yfybvfntkm dsukzltk dtcmvf
+ j`tcgjrjtyysv.
+
+Message:  1011
+%qdt:
+ Vtyz hfpsuhfkb. Nfr yfpsdftvfz gjcskrf
+ r _dummy_ jrfpfkfcm ghjrkznsv
+ gfkmwtv vevbb.
+
+Message:  1012
+%qdt:
+ Jrfpsdftncz, vevbz, xmt ghjrkznbt ljdkttn
+ yflj vyjq, gj[jhjytyf d ___dungeon_.
+ Yflj eybxnj*bnm tt bcnbyyjt j`kbxmt
+ bkb tt le[ `eltn ghtcktljdfnm vtyz
+ 1001 yjxm.
+
+Message:  1013
+<ce> Gfrtn? Jn _giver_? Ytn, %g1 crfpfk `s vyt
+<ce> j` @njv pfhfytt. Ns, yfdthyjt, jib`cz.
+<ce> Gjxtve `s nt`t yt ghjxbnfnm cjlth*bvjt,
+<ce> xnj`s gjyznm, lkz rjuj @nj?
+
+Message:  1015
+<ce> Vyt ybxtuj ytbpdtcnyj j` @njv. Gjghj`eqnt cghjcbnm d [hfvt.
+   <--->
+<ce> _sage_ pyftn j` @njv rjt-xnj. Cghjcbnt tuj.
+   <--->
+<ce> F ds yt ghj`jdfkb bcrfnm d __sage_ d ___sage_?
+   <--->
+<ce> Z cksifk, xnj rnj-nj d ___sage_ vj*tn pyfnm vyjubt dtob.
+   <--->
+<ce> Ujdjhzn, xnj _sage_ jlby bp kexib[ @rcgthnjd d @nb[ dtof[.
+   <--->
+<ce> Vj*tn `snm velhtw d __sage_ pyftn xnj-nj.
+
+Message:  1016
+<ce> Njn rnj gj[bnbk vjq _finger_, ljk*ty evthtnm!
+   <--->
+<ce> Z ghbitk pf cdjbv _finger_.
+   <--->
+<ce> Ghbvb cdj< celm`e. Jgecnb jhe*bt.
+   <--->
+<ce> Vjq _finger_, vjq _finger_.
+   <--->
+<ce> E nt`z vjq _finger_. ~tp ytuj z yt vjue j`htcnb gjrjq.
+   <--->
+<ce> Ns eybxnj*bim vtyz ctqxfc, yj z dct hfdyj dthyecm.
+   <--->
+<ce> Z djccnfye cyjdf, xnj`s dthyenmcz pf _finger_.
+
+Message:  1020
+<ce> K<`jq, yfheibdibq vjq gjrjq, `eltn eybxnj*ty!
+
+Message:  1025
+<ce> Lfqnt-rf z gjcvjnh< yf _finger_. Fuf...
+<ce> Lf, yf ytv kt*bn ghjrkznbt =realmummy_.
+<ce> Rf*le< yjxm, d ntxtybt 1001 yjxtq, c
+<ce> yfcnegktybtv gjkeyjxb le[ =realmummy_ `eltn
+<ce> gjctofnm dkfltkmwf @njuj _finger_.
+<ce> Tlbycndtyysq genm hfp`bnm ghjrkznbt, @nj
+<ce> eybxnj*bnm yfcnjzoe< vevb< =realmummy_
+<ce> d tt ecsgfkmybwt d ___dungeon_.
+
+Message:  1026
+<ce> Gj jgbcfyb< gj[j*t yf rkfccbxtcrjt ghjrkznbt
+<ce> vevbb, yj `tp _finger_ z yt vjue
+<ce> crfpfnm `jkmit. Ghbytcbnt @nj rj vyt b
+<ce> vj*tn `snm njulf z cvjue njxytt jghtltkbnm,
+<ce> jnrelf jyj (ghjrkznbt) ghbikj.
+
+Message:  1030
+<ce> Cj cvthnm< =realmummy_ ds gjxecndjdfkb, rfr
+<ce> ghjrkznbt vevbb jcnfdbkj dfc yfdctulf.
+
+Message:  1040
+Edf*ftvsq ytpyfrjvtw,
+<ce>
+  Yflt<cm, ds ghjcnbnt vtyz pf nj, xnj z cjndjhbk,
+yj e vtyz yt `skj ds`jhf. Vevbz ghb[jlbkf rj
+vyt rf*le< yjxm c nt[ gjh, rfr z yfitk @njn
+ghjrkznsq gfktw. Z gsnfkcz bp`fdbnmcz jn ytuj,
+yb yb r xtve [jhjitve @nj yt ghbdtkj. Extysq
+velhtw hfccrfpfk vyt, xnj njkmrj yf[jlrf
+ecsgfkmybws vevbb bkb lfhtybt gfkmwf rjve-kb`j
+gjvj*tn cyznm ghjrkznbt. Z yt djbntkm, yj rnj
+vju pyfnm, xnj yf vtyz cdfkbncz nfrfz yjif?
+Ds dsukzltkb cvtksvb, cgjcj`ysvb gjyznm ghjrkznbt
+b djpvj*yj hfpdtznm tuj. Gj*fkeqcnf, gjqvbnt vtyz,
+z yt [jntk ghbxbybnm dfv dhtlf, yj byfxt z `sk
+`s e`bn bkb cjitk `s c evf!
+
+Message:  1050
+<ce> _sage_ - bpdtcnysq velhtw bp ___sage_.
+   <--->
+<ce> Ds yfqltnt _sage_ d __sage_
+<ce> d ___sage_.
+
+
+
+QBN:
+Item _finger_ finger anyInfo 1015
+Item _letter_ letter used 1040
+Item _gold1_ gold
+Item _gold2_ gold
+--changed msg 1030 %g2 to %g4
+
+Person _sage_ group Cleric remote anyInfo 1050 rumors 1050
+Person _giver_ group Questor
+Person _dummy_ group Innkeeper remote
+
+Place _dungeon_ remote dungeon0
+
+Clock _S.10_ 1001.00:00 0 flag 1 range 0 1
+
+Foe _F.00_ is Mummy
+Foe _realmummy_ is Mummy
+
+--	Quest start-up:
+	dialog link for person _sage_ item _finger_
+	start timer _S.10_
+	log 1010 step 0
+	get item _letter_
+	get item _finger_
+	get item _gold1_
+	start task _S.03_
+	give pc nothing
+--changed "say 1045" to "give pc nothing." This ensures faction increase for completing this quest.
+	_letter_ used do _readletter_
+	place foe _realmummy_ at _dungeon_
+	destroy _giver_
+
+variable _S.00_
+_S.01_ task:
+	daily from 00:00 to 01:00
+	create foe _F.00_ every 35 minutes 1001 times with 100% success
+
+_S.02_ task:
+	injured _F.00_ saying 1016
+	unset _S.02_
+
+_dummytalk_ task:
+	clicked npc _dummy_
+	say 1013
+
+variable _S.03_
+_S.04_ task:
+	clicked npc _sage_
+	have _finger_ set _S.07_
+
+_S.05_ task:
+	killed 1 _realmummy_
+	say 1030
+	make _gold1_ permanent
+	end quest
+
+_S.06_ task:
+	when _S.04_ and _S.07_
+	reveal _dungeon_
+	log 1012 step 2
+	say 1025
+	unset _S.06_ _S.08_ _S.04_ _S.07_
+
+variable _S.07_
+_S.08_ task:
+	when _S.04_ and not _S.07_
+	say 1026
+
+_S.09_ task:
+	injured _realmummy_
+	say 1020
+
+_S.10_ task:
+	make _gold1_ permanent
+	end quest
+
+_readletter_ task:
+	add dialog for item _finger_
+	log 1011 step 1

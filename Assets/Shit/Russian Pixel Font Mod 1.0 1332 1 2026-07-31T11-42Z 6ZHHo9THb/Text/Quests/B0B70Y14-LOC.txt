@@ -1,0 +1,169 @@
+-- Quest: C:\QUESTS\WORKING\B0B70Y14.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 70
+-- QuestId: 14
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0B70Y14
+DisplayName: Dnjh*tybt bp J`kbdbjyf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcf, tcnm chjxyjt ltkj.
+<ce> Ubkmlbz Vfujd yfikf nhtobye d cntyt vt*le
+<ce> J`kbdbjyjv b yfibv bpvthtybtv, J`sltyyjcnm<
+<ce> (Veylec). Yt `ele ghbndjhznmcz, xnj z
+<ce> gjybvf<, xnj @nj pyfxbn, yj pyf<, xnj @nj
+<ce> jxtym gkj[j. Dctdjpvj*yst dbls lf@lhbxtcrb[
+<ce> ceotcnd yfxfkb ghjybrfnm d yfi vbh. Ubkmlbz
+<ce> Vfujd pfzdbkf, xnj `htim vj*yj pfgtxfnfnm,
+<ce> yj lkz @njuj vs ljk*ys e`bnm dct[ lf@lhf,
+<ce> ecgtdib[ ghjybryenm c<lf. Djpmvtntcm kb
+<ce> ds pf @nj pflfybt, yt pf pjkjnj, yj hflb
+<ce> ckfds?
+   <--->
+<ce> ~snm vj*tn, %pct, rjytw cdtnf e*t
+<ce> yf pf ujhfvb. Dtrf yfpfl `skb ghjhjxtcndf,
+<ce> ghtlcrfpsdf<obt yfcnegktybt lyz, rjulf
+<ce> @abhyst cntys, hfpltkz<obt yfit bpvthtybt,
+<ce> Veylec, b J`kbdbjy - wfhcndj lf@lhf - `elen
+<ce> hfpjhdfys. Ubkmlbz Vfujd gjgsnftncz pfrhsnm
+<ce> `htim, yj ytj`[jlbvj e`bnm flcrbt cjplfybz,
+<ce> ecgtdibt ghjybryenm crdjpm hfpkjv. Vj*tv
+<ce> kb vs hfccxbnsdfnm yf dfc, %pct?
+
+RefuseQuest:  [1001]
+<ce> Celm`f yfituj vbhf dbcbn yf
+<ce> djkjcrt, f ds gj[j*t yt gjybvftnt
+<ce> @njuj. Vyt cnslyj yf[jlbnmcz
+<ce> hzljv c dfvb, ==qgiver_.
+
+AcceptQuest:  [1002]
+<ce> ~scnhtt dsldbufqntcm d ___dungeon_.
+<ce> Vs yt pyftv, crjkmrj lf@lhf
+<ce> ecgtkj ghjybryenm d @nb vtcnf.
+<ce> Ubkmlbz Vfujd crfpfkf, xnj yflj
+<ce> e`bnm dct[ lf@lhbxtcrb[ ceotcnd,
+<ce> rfrb[ njkmrj yfqltnt. Ubkmlbz
+<ce> cdz*tncz c dfvb c gjvjom< cgtwbfkmyjuj
+<ce> pfrkbyfybz, rjulf j`yfhe*bncz, xnj
+<ce> pf[dfnxbrb eybxnj*tys dct lj
+<ce> tlbyjuj. Gjcgtibnt, e dfc =2dung_
+<ce> lytq, gjrf yt cnfkj ckbirjv gjplyj.
+
+QuestComplete:  [1004]
+<ce> Bnfr, ds e`bkb lf@lhf, lf? Yf cfvjv
+<ce> ltkt crkflsdftncz otrjnkbdfz cbnefwbz.
+<ce> Gjkexbkjcm nfr, xnj vs `skb j`vfyens
+<ce> `hjlzxbv vfujv. Jyf ghbpdfkf lf@lhf,
+<ce> yfl rjnjhjq yt cvjukf elth*fnm rjynhjkm,
+<ce> b jyf ghbpdfkf yfc e`bnm ceotcndj, gjrf
+<ce> Ubkmlbz yt j`yfhe*bkf @nj. Jyf levfkf,
+<ce> xnj ecksifd gjlj`ye< bcnjhb<, vs htibv
+<ce> @ne ghj`ktve `tcgkfnyj b yt ye*yj `eltn
+<ce> gkfnbnm Ubkmlbb ~jqwjd. J`sxyj
+<ce> yfi jhlty yt gkfnbn cdjbv xktyfv pf
+<ce> bplth*rb. Yj lfyyfz cbnefwbz dtcmvf
+<ce> ytj`sxyf. Djpmvbnt djn @nj:
+<ce> _gold_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+Tckb vtcnyst epyf<n nj, xnj pyftn Ubkmlbz Vfujd, yfxyencz `tcgjhzlrb.
+
+RumorsPostfailure:  [1006]
+Yt cnjbn `kfujlfhbnm %kno, dtlm Nfvhb@k< xenm yt yfcnegbk rjytw.
+
+RumorsPostsuccess:  [1007]
+Ubkmlbz Vfujd j`zpfyf jhltye %kno, pf gjvjom d kbrdblfwbb gjcktlcndbq ytghbznyjcntq d ___dungeon_, nfr z cksifk.
+
+QuestorPostsuccess:  [1008]
+Xnj *, %pcf, hfp ds bp nt[, rnj cgfcftn vbh, xnj z vjue lkz dfc cltkfnm?
+
+QuestorPostfailure:  [1009]
+Dctve Nfvhb@k< uhjpbkj hfpheitybt, %pcf. B z ytvyjuj ytljdjkty dfvb.
+   <--->
+Yt levf<, xnj ds vj*tnt j`dbyznm vtyz d ytljdthbb r dfv gjckt dfib[ ytelfx.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp
+ ==qgiver_ d ___qgiver_
+ hfccrfpfk, xnj lf@lhf ghjybrkb
+ c<lf xthtp hfpkjv d bpvthtybz[.
+ Vyt ye*yj blnb d ___dungeon_
+ b e`bnm b[ dct[. Ubkmlbz Vfujd cdz*tncz
+ cj vyjq, rjulf z eybxnj*e
+ gjcktlytt bp @nb[ ceotcnd.
+ E vtyz =2dung_ lytq, gjrf yt
+ cnfkj ckbirjv gjplyj.
+
+Message:  1011
+<ce> Ujkjc bp ybjnrelf hfplftncz
+<ce> dyenhb dfitq ujkjds, jy
+<ce> xnj-nj ujdjhbn...
+<ce>
+<ce> "Gjcktlyzz lf@lhf vthndf.
+<ce> C tt cvthnm<, Nfvhb@k< ybxtuj
+<ce> yt euhj*ftn. ^q, xnj ns
+<ce> ltkftim!? E`thb ghjxm cdjb
+<ce> herb! Z vfu ubkmlbb! Yt
+<ce> cvf[ybnt @nj..."
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _dungeon_ remote dungeon7
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+
+Foe _fire_ is Fire_daedra
+Foe _frost_ is Frost_daedra
+Foe _lesser_ is Daedroth
+Foe _lord_ is Daedra_lord
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	pick one of _daedra1_ _daedra2_ _daedra3_ _daedra4_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _frost_
+	killed 1 _fire_
+	killed 1 _lord_
+	killed 1 _lesser_
+	say 1011
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.02_ and _S.01_
+	give pc _gold_
+	end quest
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_
+
+_daedra1_ task:
+	place foe _lord_ at _dungeon_
+
+_daedra2_ task:
+	place foe _lesser_ at _dungeon_
+
+_daedra3_ task:
+	place foe _frost_ at _dungeon_
+
+_daedra4_ task:
+	place foe _fire_ at _dungeon_

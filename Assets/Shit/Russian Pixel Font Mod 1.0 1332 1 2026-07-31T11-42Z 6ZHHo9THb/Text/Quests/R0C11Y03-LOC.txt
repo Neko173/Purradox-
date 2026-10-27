@@ -1,0 +1,181 @@
+-- Quest: C:\QUESTS\WORKING\R0C11Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 11
+-- QuestId: 3
+Messages: 21
+Quest: R0C11Y03
+DisplayName: ~tccthltxyfz lf@lhf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> E vtyz tcnm pyfrjvsq, jxtym evtksq fk[bvbr
+<ce> gj bvtyb _chemist_.
+<ce> Lkz pfdthitybz jlyjuj bp vjb[ ghjtrnjd,
+<ce> tve ye*ty jlby htlrbq htfutyn -- cthlwt
+<ce> lf@lhf. Yt `ele kufnm dfv; lf@lhf [jxtn
+<ce> gjkexbnm tuj j`hfnyj, nfr xnj dfv vjuen
+<ce> gjdcnhtxfnmcz gj genb yt*tkfyyst ujcnb.
+<ce> Cjukfcys hbcryenm, pf `jkmijt djpyfuhf*ltybt?
+
+RefuseQuest:  [1001]
+<ce> Ds vtyz hfpjxfhjdsdftnt, yj vjue crfpfnm,
+<ce> xnj gjybvf< dfc. Dvtifntkmcndj d ltkf,
+<ce> cdzpfyyst c lf@lhf nht`e<n vyjuj [hf`hjcnb
+<ce> b lj`ktcnb, rjnjhst ytxfcnj dcnhtxf<ncz
+<ce> chtlb bcrfntktq ghbrk<xtybq %ra.
+
+AcceptQuest:  [1002]
+<ce> Cjukfcys? Ye xnj *, elfxb dfv. Djn cthlwt
+<ce> lf@lhf. Tckb @nj yt `eltn d herf[ vjtuj
+<ce> lheuf _chemist_ d ntxtybt =1stparton_ lytq,
+<ce> nj `eltn ckbirjv gjplyj. Gjckt ljcnfdrb
+<ce> djpdhfofqntcm pf yfuhfljq. Elfxb b
+<ce> gjnjhjgbntcm d ___chemist_.
+
+--in 1002, added the name of the city you need to go to at the end.
+
+QuestFail:  [1003]
+<ce> Ds levfkb, xnj z yt epyf<, xnj ds yt ljcnfdbkb
+<ce> cthlwt lf@lhf vjtve fk[bvbre? Ds yt pf`skb,
+<ce> xnj dfc *ltn djpyfuhf*ltybt? ~tp cdt*tuj
+<ce> cthlwf lf@lhf ghjtrn jgznm ghbltncz jnkj*bnm.
+<ce> Dpjhdbnt J`kbdbjy!
+
+QuestComplete:  [1004]
+<ce> Dslf<ofzcz hf`jnf, %pcf. Pyf<,
+<ce> lf@lhbirb yt cvjukb jcnfyjdbnm dfc. Dfib
+<ce> dslf<obtcz cyjdf gjrfpfkb ct`z. Cgfcb`j
+<ce> dfv, djn =reward_ pjkjns[.
+
+--in 1004, changed _reward_ to =reward_ to ensure specific gold amount.
+
+RumorsDuringQuest:  [1005]
+|enrbt ghtlpyfvtyjdfybz z ghjxbnfk d yt`t. Pdtplf lf@lhf cdtnbkf jcj`tyyj zhrj.
+   <--->
+Rf`fk bp Ubkmlbb Vfujd crfpfk, xnj ctujlyz yjxm< pdtplf lf@lhf cdtnbkf jcj`tyyj zhrj.
+
+RumorsPostfailure:  [1006]
+Gj dctv fcnhjkjubxtcrbv ghbpyfrfv, lf@lhf ghtcsnbkbcm.
+   <--->
+Z `erdfkmyj xedcnde< pfgf[ cths d djple[t, ghfdlf jy ghjgflftn.
+
+RumorsPostsuccess:  [1007]
+Jcj`fz frnbdyjcnm d vfufpbyt e _chemist_. Dblfnm `jkmijq @rcgthbvtyn d ltqcndbb.
+   <--->
+_questgiver_ jxtym hfl yflt*yjcnm< yftvybrf %ra.
+
+QuestorPostsuccess:  [1008]
+Xnj z vjue cltkfnm lkz dfc, %ra?
+   <--->
+Ghbdtncnde<, uthjq. Yflt<cm lf@lhf yt ghbxbybkb dfc jcj`s[ ytghbznyjcntq.
+
+QuestorPostfailure:  [1009]
+<ce> Z hfpjxfhjdfy dfitq ytrjvgtntynyjcnm<
+<ce> d ljcnfdrt cthlwf lf@lhf. Ds *t yt
+<ce> levfkb, xnj z pf`ele nfrjt? Phz ds
+<ce> htibkb ghb`bnmcz r rjhjktdcrjve ldjhe.
+
+QuestLogEntry:  [1010]
+<ce> J, @nj pfvtxfntkmyj. Rfrfz dtkbrjktgyfz "fjhnfc
+<ce> lf@lh@", lf tot c vbybvfkmysvb gjdht*ltybzvb.
+<ce> Gjcgtibnt r _questgiver_, %pcf.
+<ce> Tckb ds yt jh`thytntcm pf =2ndparton_ lytq,
+<ce> %g vj*tn b pf`snm ghj dfc.
+
+Message:  1011
+_chemist_? Gj[j*t yf =chemist_? Levf< yf %di jnc<lf.
+   <--->
+Tcnm nen fk[bvbr gj bvtyb _chemist_ yf %di jnc<lf, rjnjhsq hf`jnftn yf _questgiver_.
+
+Message:  1012
+_questgiver_? ~kfujhjlysq. Ddzpfy d rfrbt-nj ltkf c lf@lhf.
+   <--->
+_questgiver_ - ldjhzyby, %di jnc<lf.
+   <--->
+Rfr b vyjubt bp pyfnys[ k<ltq, _questgiver_ pfyzn wtkjq rextq ghj*trnjd.
+   <--->
+_questgiver_ gjrhjdbntkmcndetn vyjubv fk[bvbrfv, yt nj xnj ytrjnjhst ldjhzyt.
+
+Message:  1013
+Cthlwt lf@lhf. Jyj ybrjulf yt gjhnbncz, [jnz ytrjnjhst htwtgns nht`e<n tuj d cdt*tv dblt.
+   <--->
+Cthlwt bp uhelb lf@lhf. Yt bp nt[ lf@lhbxtcrb[ iner, xnj ghjcnj nfr gjgflf<n d herb cvthnys[.
+
+Message:  1015
+%qdt:
+ _questgiver_
+ bp ___questgiver_ ghjcbn vtyz
+ ghbytcnb cthlwt lf@lhf fk[bvbre
+ d __chemist_ bp ___chemist_.
+ Fk[bvbr - @nj =chemist_ gj bvtyb
+ _chemist_ b tckb z cghfdk<cm c
+ gjgfdibvbcz vyt gj genb lf@lhf b
+ j`thyecm lj bc[jlf =1stparton_ lytq,
+ _questgiver_ lfcn vyt ghbxbnf<ottcz
+ djpyfuhf*ltybt gj djpdhfotybbb d
+ __questgiver_.
+
+Message:  1020
+<ce> Lf@lhf ibgbn: "%pcn,
+<ce> ns dvtibdftimcz d ltkf pf ghtltkfvb
+<ce> ndjtuj hfpevtybz. Lf, yfv bpdtcnyj
+<ce> ndjt bvz. B yt `eltn yfv gjrjz,
+<ce> gjrf cthlwt yfituj `hfnf yt `eltn
+<ce> d yfib[ herf[. Ghbujnjdmcz
+<ce> ghbyznm cdj< celm`e, cvthnysq..."
+
+
+
+QBN:
+Item _reward_ gold
+Item _item_ daedra_heart anyInfo 1013
+
+Person _questgiver_ face 112 group Questor anyInfo 1012
+Person _chemist_ group Chemist remote anyInfo 1011
+Person _dummydaedra_ face 102 factiontype Daedra female remote
+
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
+Clock _2ndparton_ 00:00 0 flag 1 range 2 5
+--reverted timer names and removed chaining. works this way, and better.
+
+Foe _daedra_ is Daedroth
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1015 step 0
+	get item _item_
+
+variable _1stparton_
+_2ndparton_ task:
+	change repute with _questgiver_ by -30
+	end quest
+
+_pcgetsgold_ task:
+	when _S.06_ and _npcclicked_
+	give pc _reward_
+	end quest
+
+_npcclicked_ task:
+	toting _item_ and _chemist_ clicked
+	start timer _2ndparton_
+	say 1010
+	change repute with _dummydaedra_ by -20
+
+until _npcclicked_ performed:
+	create foe _daedra_ every 5 minutes 10 times with 33% success
+
+variable _qgclicked_
+_queston_ task:
+	when _1stparton_ and not _npcclicked_
+	make _item_ permanent
+	change repute with _questgiver_ by -30
+	end quest
+
+_S.06_ task:
+	clicked npc _questgiver_
+
+_S.07_ task:
+	injured _daedra_ saying 1020

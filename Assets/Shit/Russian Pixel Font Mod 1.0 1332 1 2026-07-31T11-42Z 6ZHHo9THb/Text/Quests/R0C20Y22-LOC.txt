@@ -1,0 +1,206 @@
+-- Quest: C:\QUESTS\WORKING\R0C20Y22.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 20
+-- QuestId: 22
+Messages: 31
+Quest: R0C20Y22
+DisplayName: ~bpytc c jhrfvb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> F, %pcf, hfls dbltnm dfc pltcm.
+<ce> Tckb ds cdj`jlys, nj z rfr hfp boe rjuj-nj,
+<ce> rnj ljcnfdbn _item_ vjtve pyfrjvjve.
+<ce> Yfuhflf, z levf<, `eltn ljcnjqyf dfitq gthcjys
+<ce> b `eltn ljcnfnjxyjq, xnj`s djpvtcnbnm hbcr,
+<ce> ghjzdktyysq d @njv pflfybb.
+<ce> Pfbynthtcjdfkbcm?
+
+RefuseQuest:  [1001]
+<ce> Njxyj? Yfdthyjt ckbirjv pfyzns. Rfr @nj gtxfkmyj.
+
+AcceptQuest:  [1002]
+<ce> Dtkbrjktgyj. Djn _item_.
+<ce> _contact_ `eltn *lfnm @ne dtobwe
+<ce> d ___contact_ d ntxtybt =queston_ lytq.
+<ce> Levf<, @njuj dhtvtyb `eltn ljcnfnjxyj.
+<ce> _contact_ -- @nj =contact_ d __contact_.
+<ce> Gj genb dfv vjuen gjdcnhtxfnmcz jhrb, rjnjhst
+<ce> yt *tkf<n, xnj`s gthtlfxf cjdthibkfcm, Yt
+<ce> cjvytdf<cm, ds pyftnt rfr c ybvb gjcnegbnm.
+<ce> Elfxb!
+
+QuestFail:  [1003]
+<ce> Gjnjhjgbntcm, %pcf. Yjxm< `skb pfvtxtys jhrb,
+<ce> ifnf<obtcz d jrhtcnyjcnz[ ___questgiver_.
+<ce> Kexit `s dfv gj`scnhtt jnghfdkznmcz d genm,
+<ce> gjrf jyb cjdctv yt j`yfuktkb.
+
+QuestComplete:  [1004]
+<ce> F, hfls dbltnm dfc %pcf. Ye b
+<ce> _item_ nj*t. Jnkbxyj. Djn yt`jkmifz `tpltkeirf
+<ce> pf `tcgjrjqcndf. Yflt<cm dfv gjyhfdbncz.
+<ce> ~thtubnt ct`z.
+
+RumorsDuringQuest:  [1005]
+Ujdjhzn, _questgiver_ dct tot d rjynhf`fylyjv `bpytct.
+   <--->
+<ce> Ujdjhzn, cnhf*f hfpjuyfkf `fyle jhrjd gjcktlytq yjxm<.
+<ce> Elbdbntkmyj, rfr jyb evelhbkbcm ghj`hfnmcz d ujhjl?
+
+RumorsPostfailure:  [1006]
+Ytlfdyj rnj-nj yfitk pltcm pfvtxfntkmye< dtobwe - _item_.
+   <--->
+Gj cke[fv _questgiver_ jxtym ytljdjkty ghjltkrfvb rfrjuj-nj %ra-fdfyn<hbcnf.
+
+RumorsPostsuccess:  [1007]
+Rfrjq-nj =contact_ `sk pltcm ytlfdyj, `jknfz ghj _item_.
+   <--->
+Rfrjq-nj <dtkbh cjj`obk j rhf*t `jkmijuj he`byf.
+
+QuestorPostsuccess:  [1008]
+Ujdjhzn dfit pflfybt ecgtiyj dsgjkytyj, %pcf. ^nj [jhjij. Jxtym [jhjij.
+   <--->
+Hfljcnyj cksifnm, xnj gjcskrf ljcnfdktyf. Xnj z vjue cltkfnm lkz dfc?
+
+QuestorPostfailure:  [1009]
+<ce> Ds njn cfvsq gjcskmysq, rjnjhsq nfr
+<ce> b yt ljcnfdbk gjcskre, lf? Ds *t
+<ce> yt negbwf, ljk*ys gjybvfnm, xnj vyt
+<ce> ytghbznyj lf*t ghjcnj yf[jlbnmcz
+<ce> hzljv c dfvb. Dct @nj hbnjhbrf.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_
+ jnghfdkztn vtyz gthtlfnm _item_ rjve-nj
+ gj bvtyb _contact_ d ___contact_.
+ %g *ltn vtyz d __contact_
+ d ntxtybt =queston_ lytq, xnj`s pfgkfnbnm pf
+ hf`jne. Rhjvt njuj, vyt vjuen gjvtifnm
+ jhrb, rjnjhst nj*t hfpscrbdf<n _item_.
+
+Message:  1012
+Dfv yt cktletn bvtnm ybrfrb[ ltk c @nbv k<`bntktv jhrjd bp ___orsinium_.
+   <--->
+_orsinium_ bp ___orsinium_?  Ujdjhzn, %g zriftncz c jhrfvb.
+
+Message:  1013
+_orsinium_ [jhjij bpdtcnty d ___orsinium_ rfr kbwj, cbvgfnbpbhe<ott jhrfv.
+   <--->
+<ce> Z pyf<, b @nj afrn, xnj _orsinium_ - vthprbq k<`bntkm jhrjd. Vyt
+<ce> ljdjlbkjcm dbltnm tuj j`of<obvcz c @nbvb uhe`bzyfvb bp ___orsinium_.
+<ce> %g ljk*ty eqnb bp ujhjlf, djn vjt vytybt.
+
+Message:  1015
+_questgiver_ jnhbwftn @nj, yj dct pyf<n, xnj jy gjdzpfy d rjynhf`fylbcncrb[ ltkf[.
+   <--->
+<ce> _questgiver_ ujdjhbk, xnj dnzyen d ytpfrjyye< gthtdjpre rjkmwf, gj[botyyjuj
+<ce> b dsdtptyyjuj bp cnfhjuj Jhcbybevf.
+
+Message:  1016
+<ce> _questgiver_ yfdktxtn yf yfc dct[ uytd jhrjd, tckb jrf*tncz, xnj cjdthibk ghjlf*e
+<ce> rjkmwf, erhfltyyjuj d Jhcbybevt. _orsinium_ ge`kbxyj j`dbybk _questgiver_,
+<ce> yj @nj rjytxyj *t yt tot yt rjytw bcnjhbb.
+   <--->
+<ce> Yt pyf<, jnrelf _questgiver_ dpzk @nj, yj z dbltk, rfr jy gthtrkflsdfk
+<ce> rfre<-nj bpscrfyye< <dtkbhye< `tpltkeire. Tckb yt jib`f<cm, ghjbpdjlcndf vfcnthjd
+<ce> Lhtdytuj Jhcbybevf.
+
+Message:  1020
+<ce> Hfls dbltnm dfc, %pcn.
+<ce> Ds ljk*yj `snm e*t pyftnt, xnj dtobwf _item_,
+<ce> rjnjhe< ds dtptnt, `skf erhfltyf bp Jhcbybevf,
+<ce> lhtdytq cnjkbws jhrcrjuj ujcelfhcndf.
+<ce> _questgiver_, rfr b vyjubt k<lb,
+<ce> cxbnftn jhrjd crhsnjq euhjpjq j`otcnde
+<ce> b gj@njve yt uyeiftncz yf`tujd, cjghjdj*lftvs[
+<ce> yfcbkbtv, d gjbcrf[, xtuj `s erhfcnm lkz ct`z.
+<ce> Rfr `s nj yb `skj, z jxtym yflt<cm, xnj yfvyjuj
+<ce> evytt, xtv dfi yfybvfntkm. Tckb ds jnlflbnt
+<ce> vyt _item_, z gjcnfhf<cm dthyenm @nj
+<ce> yfcnjzobv [jpztdfv.
+
+Message:  1021
+<ce> Ds jnlflbnt _item_?
+
+Message:  1022
+<ce> Hfl, xnj vs cvjukb gjkflbnm. ~kfujlfh<,
+<ce> %pcf. Vs yt pf`eltv @njq eckeub.
+
+Message:  1023
+<ce> Jxtym *fkm. Xnj *, e dct[ yfc tcnm
+<ce> cdjb ghbxbys. Yflt<cm ds cvj*tnt
+<ce> *bnm gjckt jnrfpf.
+
+Message:  1030
+<ce> Jhr he[yek yf ptvk< b, bcgecrfz le[, ghjbpytc
+<ce> c tldf hfpkbxbvsv frwtynjv:
+<ce> "_orsinium_ ... blb ... _orsinium_ ..."
+
+
+
+QBN:
+Item _reward_ ruby
+Item _item_ trinket
+
+Person _questgiver_ group Questor anyInfo 1015 rumors 1016
+Person _contact_ group Local_3.0 remote
+Person _orsinium_ face 184 faction Orsinium remote anyInfo 1012 rumors 1013
+
+Place orcCastle permanent OrsiniumCastle3
+
+--changed flags on timer, was giving very short time limits before
+Clock _queston_ 00:00 0 flag 3 range 3 5
+
+Foe _note_ is 3 Orc
+Foe _F.01_ is Orc_sergeant
+
+--	Quest start-up:
+	dialog link for location orcCastle person _orsinium_
+	start timer _queston_
+	log 1010 step 0
+	get item _item_
+	create npc _orsinium_
+	create npc _contact_
+
+variable _pcgetsgold_
+variable _pchasitem_
+_queston_ task:
+	make _item_ permanent
+	change repute with _questgiver_ by -20
+	end quest
+
+_npcclicked_ task:
+	toting _item_ and _contact_ clicked
+	give pc _reward_
+	end quest
+
+_S.04_ task:
+	clicked npc _orsinium_
+	say 1020
+
+_S.05_ task:
+	say 1022
+	change repute with _orsinium_ by +30
+
+until _S.05_ performed:
+	create foe _note_ every 5 minutes 12 times with 35% success
+	create foe _F.01_ every 10 minutes 12 times with 35% success
+
+_bookstore_ task:
+	get item _item_
+	say 1023
+	change repute with _orsinium_ by -10
+
+_S.07_ task:
+	killed 1 _F.01_
+	add dialog for person _orsinium_
+	say 1030
+
+_S.08_ task:
+	toting _item_ and _orsinium_ clicked
+	prompt 1021 yes _S.05_ no _bookstore_

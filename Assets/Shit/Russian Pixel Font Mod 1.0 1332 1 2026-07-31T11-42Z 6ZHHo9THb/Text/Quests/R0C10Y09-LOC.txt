@@ -1,0 +1,167 @@
+-- Quest: C:\QUESTS\WORKING\R0C10Y09.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 9
+Messages: 21
+Quest: R0C10Y09
+DisplayName: Pfregobr
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Lf, e vtyz tcnm jlyj ltkj lkz nfrjuj nheljk<`bdjuj
+<ce> vjkjljuj %ra. Ybxtuj jcj`tyyjuj -- njkmrj
+<ce> vfktymrjt pflfybt, yj @nj `eltn pyfxbnm _reward_
+<ce> pjkjns[ lkz dfc. Bynthtcyj?
+
+RefuseQuest:  [1001]
+<ce> %oth, gjkfuf<, ds `s [jntkb, xnj`s
+<ce> z lfk dfv _reward_ pjkjns[ yb pf xnj. Bkb, dthjznyj,
+<ce> yfltzkbcm yf xnj-nj `jktt
+<ce> bynthtcyjt? D nfrjv ckexft, ghbltncz
+<ce> dfv gjlj*lfnm, %pcf.
+
+AcceptQuest:  [1002]
+<ce> {jhjij. E vtyz tcnm ... gjcnfdobr.
+<ce> Ytj`sxyj dsukzlzobq, =spy_, evt<obq
+<ce> gthtldbufnmcz ytpfvtxtyysv gj bvtyb _spy_.
+<ce> Bnfr, _spy_ yfitk jcj`sq
+<ce> _item_, bynthtce<obq vtyz,
+<ce> yj ght*ybt dkfltkmws pfvfybkb %g4 d kjdeire
+<ce> ult-nj d __hidingplace_. Vjb herb
+<ce> cdzpfys hfvrfvb pfrjyf, yj ds vjukb `s
+<ce> gjqnb d __hidingplace_, yfqnb _spy_,
+<ce> b ghbytcnb vyt vjq _item_. B, rjytxyj,
+<ce> tckb ds yt dthytntcm xthtp =1stparton_
+<ce> lytq, ds kbibntcm yfuhfls d _reward_ pjkjns[.
+<ce> Levf<, @nj gjyznyj. Bnfr,
+<ce> gjhf `s dfv e*t d genm. Lj cdblfymz.
+
+QuestFail:  [1003]
+<ce> %pcf, ds cyjdf pltcm, xnj hfletn,
+<ce> yj `tp vjtuj _item_,
+<ce> xnj yt hfletn. Z xnj
+<ce> ytzcyj dshfpbkcz?
+<ce> Blbnt b lj`elmnt vjq
+<ce> _item_ b
+<ce> ghbyjcbnt tuj c<lf.
+
+QuestComplete:  [1004]
+<ce> Xelyj! Vjz dtobwf - _item_
+<ce> dthyekfcm rj vyt `scnhj c vbybvevjv
+<ce> ytghbznyjcntq. Jxtym [jhjij. Djn dfib
+<ce> _reward_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+Jyb ghjxbof<n __hidingplace_, d gjbcrf[ htlrjuj erhfltyyjuj _item_.
+   <--->
+Nfv `sk htlrbq _item_, ytlfdyj erhfltyysq bp xfcnyjq rjkktrwbb.
+
+RumorsPostfailure:  [1006]
+Dthyekb @ne lhfujwtyyjcnm, f dbyjdybrb `skb yfrfpfys.
+   <--->
+Lhfujwtyyjcnm, rjnjhe< jyb bcrfkb, dytpfgyj j`yfhe*bkfcm.
+
+RumorsPostsuccess:  [1007]
+Jyb ybrjulf yt yfqlen lhfujwtyyjcnm. J[hfyybrb jnrfpfkbcm jn gjbcrjd.
+   <--->
+<ce> Gjkfuf<n, xnj d erhfltyyjq lhfujwtyyjcnb
+ `sk cghznfy rfrjq-nj htlrbq rfvtym.
+
+QuestorPostsuccess:  [1008]
+F, vjq <ysq gj`tlbntkm! Z db*e, dct tot d yftvybrf[. {jhjij.
+   <--->
+Xnj z vjue lkz dfc cltkfnm, %pcf? Z yt pf`sk j njv, xnj ds cltkfkb lkz vtyz.
+
+QuestorPostfailure:  [1009]
+<ce> Yt db*e ghbxby, gjxtve z ljk*ty
+<ce> ltkfnm xnj-nj lkz njuj, rnj
+<ce> j`vfyek vjb j*blfybz, yj dtltn
+ ct`z, rfr yb d xtv yt `sdfkj.
+   <--->
+<ce> Rfr ds jcvtkbkbcm zdbnmcz c<lf,
+<ce> ghjdfkbd vjt gjhextybt!
+<ce> Ytyfdb*e ytelfxybrjd!
+
+QuestLogEntry:  [1010]
+<ce> _questgiver_ gjckfk dfc?  %oth, rjulf z ecksifk,
+<ce> rfr ds ghb`kb*ftntcm, z `jzkcz, xnj jyb, d rjywt rjywjd,
+<ce> dscktlbkb vtyz.  Z hfl, xnj ds yfikb vtyz gthdsv, %pcf!
+<ce> Djn _item_. Jnytcbnt tuj
+<ce> yfpfl r _questgiver_
+<ce> njnxfc *t -- %g gjyflj`bncz tve xthtp
+<ce> ytcrjkmrj lytq.  B jcnjhj*ytt -- futyns
+<ce> ght*yb[ dkfltkmwtd gthtdthyekb __hidingplace_
+<ce> ddth[ lyjv, bof @nj vfktymrjt cjrhjdbot.
+
+Message:  1011
+Z cksifk, xnj =spy_ yf %di jnc<lf -- jrjkj _hidingplace_.
+   <--->
+Ythdysq =spy_? Z dbltk %g4 hzljv c _hidingplace_.
+
+Message:  1015
+%qdt:
+ _questgiver_ bp
+ __questgiver_, ___questgiver_,
+ gjckfk vtyz ljcnfnm ytrbq
+ _item_ jn rjuj-nj gj bvtyb
+ _spy_, rjnjhsq ghzxtncz ult-nj d
+ __hidingplace_.  Yfcnjzobt dkfltkmws _item_
+ vjuen gjgsnfnmcz jcnfyjdbnm vtyz, yj z ljk*ty
+ ljcnfdbnm _item_ d herb _questgiver_
+ yt gjplytt =1stparton_ lytq, bkb z yt gjkexe vjb
+ _reward_ pjkjns[ d yfuhfle.
+
+
+Message:  1020
+<ce> ~kfujlfhbv pf gjvjom, %ra.  Vs pyfkb, xnj ns
+<ce> ghbdtltim yfc ghzvj r _item_.
+<ce> Ntgthm ndjz yfuhflf -- cvthnm!
+
+
+
+QBN:
+Item _reward_ gold
+Item _item_ trinket
+
+Person _questgiver_ face 112 group Questor
+Person _spy_ face 1 group Local_3.0 remote anyInfo 1011
+
+Place _hidingplace_ remote random
+
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
+
+Foe _F.00_ is Assassin
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1015 step 0
+	pc at _hidingplace_ set _S.06_
+	create npc at _hidingplace_
+	place npc _spy_ at _hidingplace_
+
+_pcgetsgold_ task:
+	toting _item_ and _questgiver_ clicked
+	give pc _reward_
+	end quest
+
+variable _queston_
+_pchasitem_ task:
+	clicked npc _spy_
+	get item _item_
+	say 1010
+
+variable _npcclicked_
+variable _qgclicked_
+_1stparton_ task:
+	make _item_ permanent
+	change repute with _questgiver_ by -10
+	end quest
+
+_S.06_ task:
+	create foe _F.00_ every 2 minutes 4 times with 30% success
+
+_S.07_ task:
+	injured _F.00_ saying 1020

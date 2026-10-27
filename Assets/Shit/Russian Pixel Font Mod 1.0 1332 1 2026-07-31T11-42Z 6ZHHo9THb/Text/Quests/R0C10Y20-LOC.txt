@@ -1,0 +1,135 @@
+-- Quest: C:\QUESTS\WORKING\R0C10Y20.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 20
+Messages: 16
+Quest: R0C10Y20
+DisplayName: Htlrbq byuhtlbtyn
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Rfr ds cvjnhbnt yf nj, xnj`s gjkexbnm
+<ce> _reward_ bp vjtq rfpys, %pcf?
+<ce> Vjtve fk[bvbre gjyflj`bkcz jlby
+<ce> jxtym htlrbq byuhblbtyn, rjnjhsq ye*ty
+<ce> lkz jxtym df*yjuj @rcgthbvtynf b yfv
+<ce> ye*ty rnj-nj, rnj yfqltn tuj. Rfr levftnt,
+<ce> @nj dfv gj cbkfv, %pcf?
+
+RefuseQuest:  [1001]
+<ce> {vvv, jxtym cnhfyyj. Ljk*yj `snm
+<ce> e dfc cthlwt yt yftvybrf, %pcf.
+
+AcceptQuest:  [1002]
+<ce> Dtkbrjktgyj, %pcf, z pyfk, xnj
+<ce> ds d buht. Djpmvbnt _item1_ b jnytcbnt
+<ce> r __contact_ d ___contact_. Nfv
+<ce> dfc *ltn =contact_ gj bvtyb
+<ce> _contact_. Cghjcbnt tuj yfcxtn
+<ce> _item2_, @ne dtom jy ghbdtp
+<ce> jnrelf-nj c <uf. Gjcnfhfqntcm
+<ce> j`thyenmcz d ntxtybt =1stparton_ lytq.
+<ce> Jnghfdkzqntcm, %pcf. Z hfccxbnsdf<
+<ce> yf dfc. Yt gjldtlbnt vtyz.
+
+QuestFail:  [1003]
+<ce> _item2_, %pcf!
+<ce> Gjvybnt? Yt cnjqnt, rfr bcnerfy!
+
+QuestComplete:  [1004]
+<ce> Dct ghjcnj [jhjij, %pcf. Vjq fk[bvbr
+<ce> eljdktndjhty -- ds ljcnfdbkb jxtym
+<ce> rfxtcndtyysq @rptvgkzh _item2_.
+<ce> Rfr b j`tofyj, djn _reward_.
+<ce> Ghtrhfcyj, ds yt yf[jlbnt?
+
+RumorsDuringQuest:  [1005]
+Rfr-nj fk[bvbr jnrfpfkcz `hfnm recjr @`jybnf -- jy `sk ytljcnfnjxyj "cdt*bv".
+   <--->
+Fk[bvbre nht`e<ncz jxtym cdt*bt @rptvgkzhs byuhblbtynjd. Lf*t yt pyf<, gjxtve.
+
+RumorsPostfailure:  [1006]
+_questgiver_ jgznm heuftncz cj cdjbv fk[bvbrjv. Ujhzxbq ntvgthfvtyn.
+   <--->
+~jkmifz xfcnm ptkbq fk[bvbrf _questgiver_ ds`hjcbk yf gjvjqre.
+
+RumorsPostsuccess:  [1007]
+Bp ldjhwf ljyjczncz dtcmvf cnhfyyst pfgf[b, ds yt yf[jlbnt?
+   <--->
+Z dbltk rke`s rhfcyjuj lsvf, dsgfh[bdf<obt bp jrjy ldjhwf gjlj`yj gnbwfv.
+
+QuestorPostsuccess:  [1008]
+Lf*t yt levfqnt, xnj pf`sk ghj dfc, %pcf. Rfr gj*bdftnt, lheu vjq?
+   <--->
+Vjq fk[bvbr [jntk `s gjj`ofnmcz c dfvb kbxyj, %pcf, yj jy ctqxfc pfyzn. Rfr gj*bdftnt?
+
+QuestorPostfailure:  [1009]
+<ce> Tckb `s pltcm `sk vjq fk[bvbr, nj
+<ce> jy cyfxfkf `s gjnht`jdfk `s _item2_,
+<ce> f gjnjv hfp`bk `s j` dfie ujkjde.
+<ce> Cxbnfqnt @nj ghjcnsv ghtleght*ltybtv.
+<ce> Yt gjldtlbnt vtyz d `eleotv, tckb
+<ce> vyt gjyflj`zncz dfib eckeub.
+<ce> Yf @njv dct.
+
+QuestLogEntry:  [1010]
+<ce> Ds ljk*yj `snm %pcf. Dfc
+<ce> gjckfk _questgiver_, lf?
+<ce> Djn dfv _item2_, rjnjhsq jy botn.
+<ce> Dfv yflj gjnjhjgbnmcz. Fk[bvbr jxtym
+<ce> xedcndbntkty r cdt*tcnb byuhblbtynjd.
+<ce> Rjytxyj *t yt yflj ljgecrfnm gjhxb
+<ce> _item2_. Tckb `s ds njkmrj pyfkb,
+<ce> rfrbt zls ltkftn @njn xtkjdtr...
+<ce> Rjhjxt gjnjhjgbntcm.
+
+Message:  1015
+%qdt:
+ _questgiver_ bp __questgiver_ d
+ ___questgiver_ j`toftn vyt _reward_,
+ tckb z ljcnfdk< djdhtvz cdt*bq @rptvgkzh
+ jlyjuj byuhblbtynf: _item2_, rjnjhsq ye*yj
+ dpznm e tuj pyfrjvjuj _contact_ d ntxtybt
+ =1stparton_ lytq. _contact_
+ d __contact_ d ___contact_.
+
+
+
+QBN:
+Item _reward_ gem
+Item _item1_ turquoise
+Item _item2_ skin
+
+Person _questgiver_ face 72 group Questor
+Person _contact_ face 80 group Chemist remote
+
+
+Clock _1stparton_ 00:00 0 flag 17 range 1 4
+
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1015 step 0
+	get item _item1_
+
+_pcgetsgold_ task:
+	toting _item2_ and _questgiver_ clicked
+	give pc _reward_
+	end quest
+
+variable _qgclicked_
+variable _npcclicked_
+_1stparton_ task:
+	make _item2_ permanent
+	make _item1_ permanent
+	change repute with _questgiver_ by -20
+	end quest
+
+variable _pchasitem1_
+_pchasitem2_ task:
+	toting _item1_ and _contact_ clicked
+	get item _item2_
+	say 1010

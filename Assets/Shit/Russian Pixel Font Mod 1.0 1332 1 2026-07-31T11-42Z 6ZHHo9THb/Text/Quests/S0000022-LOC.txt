@@ -1,0 +1,87 @@
+-- Quest: C:\QUESTS\WORKING\S0000022.Qbn.
+-- Main story quest.
+-- QuestId: 22
+Messages: 12
+Quest: S0000022
+DisplayName: Jnrhjdtybt Kbpfylecf
+-- Message panels
+QRC:
+
+RefuseQuest:  [1001]
+<ce> Z *t crfpfkf nt`t ghbqnb xthtp
+<ce> vtczw. Gjhjijr tot yt ujnjd.
+<ce> Djpdhfofqcz gjp*t.
+
+AcceptQuest:  [1002]
+<ce> Gjhjijr ujnjd. Dct xnj nt`t ye*yj,
+<ce> @nj hfcgskbnm @nj yfl tuj bcnbyysv
+<ce> ntkjv. Ljk*yf ghtleghtlbnm nt`z,
+<ce> @nj yt egjrjbn tuj le[, yj lfcn nt`t
+<ce> ifyc gjujdjhbnm c ybv. Gjkyjt
+<ce> egjrjtybt pfdbcbn njkmrj jn cfvjuj
+<ce> Kbpfylecf.
+<ce>
+<ce> Z yt pyf<, ult gjuht`tyj tuj ntkj,
+<ce> yj pyf< njxyj, xnj @nj yt yf gjkt `bnds
+<ce> ghb Rhbyufbyt, ult tve `sk djpytcty
+<ce> vjyevtyn. Tckb nt`t elfcncz gjujdjhbnm
+<ce> c ybv...crf*b tve, xnj z dct tot k<`k<
+<ce> tuj. Cvthnm ytyfljkuj hfpkexbkf yfc.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Vtljhf crfpfkf vyt, xnj tq gjnht`etncz
+ vtczw, xnj`s ghbujnjdbnm gjhjijr.
+ Gjckt vyt cktletn gjctnbnm tt d `fiyt Lbhtyyb.
+
+Message:  1011
+%qdt:
+ Vtljhf lfkf vyt gjhjijr, rjnjhsq ljk*ty
+ ecgjrjbnm hfpuytdfyysq le[ Kbpfylecf. D
+ k<`jv ckexft @nj yt gjpdjkbn egjrjbnm tuj
+ ntym, f dctuj kbim evbhjndjhbn. Ntgthm
+ vyt jcnfkjcm njkmrj yfqnb tuj ecsgfkmybwe
+ b bcgjkmpjdfnm cyflj`mt.
+
+
+
+QBN:
+Item _spider_ lich_dust
+
+Person _medora_ named Medora atHome
+
+
+Clock _S.00_ 30.00:00 0 flag 1 range 0 1
+
+
+--	Quest start-up:
+	start timer _S.00_
+	log 1010 step 0
+
+variable _S.00_
+_S.01_ task:
+	clicked npc _medora_
+
+_S.02_ task:
+	when _S.01_ and _S.00_
+	log 1011 step 1
+	get item _spider_
+	say AcceptQuest
+
+_S.03_ task:
+	when not _S.00_ and _S.01_
+	say RefuseQuest
+	clear _S.01_ _S.03_
+
+LysandusSatisfied _S.04_
+	have _spider_ set _S.05_
+
+_S.05_ task:
+	start quest 15 15
+	take _spider_ from pc
+	play video 5
+	end quest
+
+_S.06_ task:
+	when _S.04_ and not _S.05_
+	clear _S.04_ _S.06_

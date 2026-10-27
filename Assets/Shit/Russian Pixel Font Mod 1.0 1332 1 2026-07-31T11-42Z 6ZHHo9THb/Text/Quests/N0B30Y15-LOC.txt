@@ -1,0 +1,148 @@
+-- Quest: C:\QUESTS\WORKING\N0B30Y15.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 30
+-- QuestId: 15
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 11
+Quest: N0B30Y15
+DisplayName: ~tcyjdfnsq
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vtyz pjden _questgiver_.
+<ce> Yfv ye*yj e`bnm jlyjuj [ekbufybcnjuj
+<ce> `tcf. Pfbynthtcjdfys? ^nf hf`jnf
+<ce> `eltn [jhjij jgkfxtyf - _gold_ pjkjns[.
+
+RefuseQuest:  [1001]
+<ce> Gkj[j.
+   <--->
+<ce> Rfrfz *fkjcnm.
+   <--->
+<ce> Ghtrhfcyj. Rjdskzqnt-rf jnc<lf,
+<ce> gjrf z yt hfpjpkbkcz, %pcn.
+
+AcceptQuest:  [1002]
+<ce> {jhjitt jnyjitybt r ltke, %pcn.
+<ce> Tcnm jlyf dtom, rjnjhe z tot yt crfpfk
+<ce> dfv. ^njn `tc pyfrjv c jlybv vfujv
+<ce> jxtym dscjrjuj hfyuf. Gj[j*t @njn `tc
+<ce> gjldthucz ltqcndb< @rcgthbvtynfkmyjuj
+<ce> pfrkznbz b gjkexbk ytjuhfybxtyyst
+<ce> vfubxtcrbt djpvj*yjcnb . Ds yfqltnt
+<ce> ceotcndj d _palace_ d __palace_.
+<ce> Gj dctq dblbvjcnb jyj gjkfuftn, xnj
+<ce> bvttn ghfdj yf dkfcnm. ~elmnt jcnjhj*ys,
+<ce> %pcn. Tckb ds yt dthytntcm
+<ce> xthtp =traveltime_ lytq, vs `eltv cxbnfnm,
+<ce> xnj ds gjub`kb.
+
+QuestComplete:  [1004]
+<ce> Xthnjdcrb cbkmyfz vfktymrfz `tcnbz, lf?
+<ce> Bnfr, ytcjvytyyj ds pfcke*bkb yfuhfle.
+
+RumorsDuringQuest:  [1005]
+Xnj-nj ndjhbncz d _palace_ d __palace_. Xnj-nj jxtym cnhfyyjt.
+   <--->
+Dct d __palace_ elbdkz<ncz njve. xnj ghjbc[jlbn d _palace_.
+
+RumorsPostfailure:  [1006]
+Ytrjt ceotcndj dsktntkj bp _palace_ d __palace_ b ghjgfkj d <*yjv yfghfdktybb.
+
+RumorsPostsuccess:  [1007]
+~kfujlfhtybt `jue %god, xnj @njn yftvybr-%ra ghbt[fk d __palace_ e`bnm @njuj `tcf.
+   <--->
+^njn `tc yfytctn `jkmibt hfpheitybz d __palace_ tckb @njn %ra yt cvj*tn gjvjxm.
+
+QuestorPostsuccess:  [1008]
+Z yt pf`sk ghj dfc, %pcf. Ds njn cfvsq %ra, e`bdibq @njuj vthprjuj `tcf.
+
+QuestorPostfailure:  [1009]
+<ce> __palace_ `sk ghfrnbxtcrb eybxnj*ty
+<ce> `tcjv, f ds ybxtuj nfr b yt ghtlghbyzkb,
+<ce> xnj`s gjvjxm. Lf z `s evth jn gjpjhf yf
+<ce> dfitv vtcnt, %pcf.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_ bp Ubkmlbb Vfujd
+ d ___questgiver_ j`zpfk vtyz ljkujv
+ eybxnj*bnm jlyjuj [ekbufybcnjuj `tcf.
+ ^nj cjplfybt ghbnfbkjcm d _palace_ d __palace_.
+ E vtyz =traveltime_, xnj`s cltkfnm hf`jne.
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _questgiver_ face 8 group Questor
+
+Place _palace_ remote palace
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+Clock _S.02_ 00:04 00:20
+Clock _Gothryd_ 00:04
+--timer Gothryd given underscores
+Clock _S.08_ 00:04
+Clock _S.09_ 00:04
+--flags removed to make timers precise
+
+Foe _imp_ is Imp
+
+--	Quest start-up:
+	start timer _traveltime_
+	log 1010 step 0
+	pc at _palace_ set _S.01_
+	place foe _imp_ at _palace_
+	create npc at _palace_
+
+_traveltime_ task:
+	end quest
+
+_S.01_ task:
+	start timer _S.02_
+	cast Spell_Shield spell on _imp_
+	cast Troll's_Blood spell on _imp_
+	cast Shield spell on _imp_
+	cast Shield spell on _imp_
+	cast Invisibility spell on _imp_
+
+_S.02_ task:
+	start timer _Gothryd_
+	cast Shield spell on _imp_
+	cast Troll's_Blood spell on _imp_
+	cast Spell_Shield spell on _imp_
+	cast Invisibility spell on _imp_
+
+_S.03_ task:
+	killed 1 _imp_
+
+_S.04_ task:
+	clicked npc _questgiver_
+
+_clearclick_ task:
+	when _S.04_ and not _S.03_
+	clear _S.04_ _clearclick_
+
+_S.06_ task:
+	when _S.04_ and _S.03_
+	give pc _gold_
+	end quest
+
+_Gothryd_ task:
+	start timer _S.08_
+	cast Invisibility spell on _imp_
+	cast Spell_Shield spell on _imp_
+	cast Troll's_Blood spell on _imp_
+
+_S.08_ task:
+	cast Spell_Shield spell on _imp_
+	cast Troll's_Blood spell on _imp_
+	cast Shield spell on _imp_
+	cast Invisibility spell on _imp_
+
+variable _S.09_

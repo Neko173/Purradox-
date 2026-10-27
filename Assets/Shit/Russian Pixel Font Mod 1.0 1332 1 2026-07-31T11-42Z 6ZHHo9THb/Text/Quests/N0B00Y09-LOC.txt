@@ -1,0 +1,335 @@
+-- Quest: C:\QUESTS\WORKING\N0B00Y09.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 0
+-- QuestId: 9
+Messages: 23
+Quest: N0B00Y09
+DisplayName: Bccktljdfntkmcrbt pfvtnrb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ubkmlbz Vfujd, `elexb kexibv bccktljdfntkmcrbv
+<ce> exht*ltybtv d bvgthbb Nfvhb@kz, yfybvftn kexib[
+<ce> vbcnbrjd b extys[ cj dct[ eujkrjd cnhfys. ~skj `s
+<ce> ytgkj[j bvtnm ghtlcnfdbntkz ubkmlbb d jlyjv vtcnt,
+<ce> yf[jlzotujcz yf hfpevyjv hfccnjzybb jnc<lf, d kbwt
+<ce> pyfvtybnjuj extyjuj, _scholar_, f nfr *t
+<ce> gjkexbnm tuj cjukfcbt yf ghjcvjnh tuj bccktljdfybq.
+<ce> Cjukfcys pfyznmcz @nbv?
+   <--->
+<ce> Ubkmlbz Vfujd bp ___qgiver_
+<ce> bvttn djc[bnbntkmye< djpvj*yjcnm gjkexbnm dsujle
+<ce> bp hf`jn bpdtcnyjuj extyjuj, _scholar_.
+<ce> %g cjukfcbkcz gj*thndjdfnm ubkmlbb ytrjnjhst bp
+<ce> cdjb[ hfphf`jnjr, tckb vs gjiktv rjuj-yb`elm r
+<ce> ytve pf`hfnm @nb hf`jns. Ytelbdbntkmyj, dtlm %g
+<ce> `jbncz dnjh*tybz ytrhjvfynjd. Levf< ds c
+<ce> eljdjkmcndbtv e[dfnbntcm pf nfre< djpvj*yjcnm,
+<ce> rfr b z. Yt nfr kb, %pct?
+
+RefuseQuest:  [1001]
+<ce> Ds jxtym jujhxbkb vtyz, %pct.
+<ce> Tckb `s z `sk d kexitv xtv ctqxfc cjcnjzybb,
+<ce> nj ghsufk `s jn hfljcnb, xnj vyt ghtlcnfdbkfcm
+<ce> djpvj*yjcnm gjpyfrjvbnmcz c nfrbv dtkbrbv
+<ce> extysv, rfr _scholar_.
+<ce> Ds phz nhfnbnt cdj< <yjcnm, %pct.
+
+AcceptQuest:  [1002]
+<ce> Dtkbrjktgyj, ghjcnj dtkbrjktgyj. _scholar_
+<ce> jcnfyjdbkcz yf ytcrjkmrj lytq d ___scholar_ d
+<ce> vtcntxrt gjl yfpdfybtv __scholar_. Ukfdyfz
+<ce> jgfcyjcnm @njuj ghtlghbznbz - ytrhjvfyns.
+<ce> B[ ghj**tyst leijyrb pfbynthtcjdfys d gjkextybb
+<ce> rfr cfvjuj extyjuj, nfr b tuj hf`jn. Z lfv dfv
+<ce> =queston_ lytq yf nj, xnj`s lj`hfnmcz nelf b
+<ce> j`hfnyj, gjrf z yt yfitk lheujuj. Elfxb!
+
+QuestComplete:  [1004]
+<ce> J, @nj ghjcnj bpevbntkmyj. Yflt<cm @nb
+<ce> ghjrkznst ytrhjvfyns gjkexbkb gj pfckeufv.
+<ce> Jnkbxyfz hf`jnf, %pct.
+
+RumorsDuringQuest:  [1005]
+~snm vj*tn _scholar_ b bpdtcnty d extyjq chtlt, yj lkz vtyz @nj ghjcnj =scholar_
+   <--->
+^nj nfrfz xtcnm lkz yfc b ___scholar_, xnj _scholar_ yfytc dbpbn d %reg.
+
+RumorsPostfailure:  [1006]
+Gjcktlybt ytcrjkmrj ktn ytrhjvfyns `skb ljvbybhe<otq vfubxtcrjq cbkjq yf Nfvhb@kt.
+   <--->
+Ubkmlbz Vfujd ytcgjcj`yf pfobnbnm ct`z jn ytrhjvfynjd.
+
+RumorsPostsuccess:  [1007]
+Bccktljdfybz _scholar_ ghbytcen vyjuj gjkmps Ubkmlbb Vfujd.
+   <--->
+Ytrhjvfyns yfkj*fn cdjb uhzpyst herb yf hf`jns _scholar_ ... bkb ytn?
+
+QuestorPostsuccess:  [1008]
+Ye ye, e* yt njn kb @nj %ra, rjnjhsq ghbytc yfv ye*ysq vfyecrhbgn. Rfr gj*bdftnt?
+
+QuestorPostfailure:  [1009]
+<ce> Gjcrjkmre ds yt dpzkb vfyecrhbgn, [jnz
+<ce> b gjj`tofkb dsgjkybnm @nj, z gthtcvjnh<
+<ce> cdjt vytybt j dfc. Pfqvbntcm cdjbvb ltkfvb
+<ce> ult-yb`elm d lheujv vtcnt.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ubkmlbz Vfujd b ___qgiver_
+ gjckfkb vtyz d ___scholar_,
+ ult d vtcntxrt gjl yfpdfybtv __scholar_
+ jcnfyjdbkcz bpdtcnysq extysq gj bvtyb
+ _scholar_. Vyt ye*yj bp`tufnm
+ futynjd Ytrhjvfyncrjq Ubkmlbb,
+ pf`hfnm `evfub c tuj bccktljdfybzvb
+ b dthyenmcz d Ubkmlb< Vfujd. B dct
+ @nj ye*yj ecgtnm cltkfnm pf =queston_ lytq.
+
+Message:  1011
+      __db_
+       ___db_
+<ce>
+Gjxntyysq %pcf,
+<ce>
+  Ytgkj[fz hf`jnf, %pcf. _scholar_
+egthcz rfr jctk, jnrfpsdfzcm lfnm yfv cdjb `evfub,
+yj dtlm jy c eljdjkmcndbtv dhexbn b[ ghtlcnfdbntk<
+"yfbcghfdtlkbdtqitq" Ubkmlbb Vfujd.
+<ce>
+  Ds *t gjkexbnt ghbkbxye< cevve ltytu, rjnjhst
+`elen *lfnm dfc d ___db_, tckb ghbytctnt nelf
+gjkextyyst `evfub.
+<ce>
+<ce>
+C edf*tybtv,
+<ce>
+<ce> _db_
+<ce> ----
+
+Message:  1012
+%pcn,
+<ce>
+  Yt cjdtne< cnfyjdbnmcz dhfujv Ntvyjuj ~hfncndf.
+Vs vj*tv jrfpfnm gjvjom yfitve lheue, yj dhfujd
+cdjb[ *tcnjrj yfrf*tv. Rjulf ds gjkexbnt `evfub
+extyjuj, ghbytcbnt b[ vyt d __db_ d ___db_.
+<ce>
+Yt gjldtlbnt vtyz, bkb uytd Vtafks gfltn yf
+dfie ujkjde.
+<ce>
+<ce> _db_
+<ce> ----
+
+Message:  1013
+<ce> Ds njn %ra, rjnjhjuj ubkmlbz gjckfkf
+<ce> pfobnbnm vj< hf`jne, lf? Hfl dcnhtxt
+<ce> c dfvb, lbnz vjt. Djn nj, pf xtv ds ghbikb.
+<ce> Elfxb dfv, `thtubnt @nj jn pfuht`eob[
+<ce> her lmzdjkmcrb[ ytrhjvfynjd.
+
+Message:  1014
+<ce> Lflbnt kb ds `evfub _scholar_
+<ce> d herb _db_ bp Ntvyjuj ~hfncndf?
+
+Message:  1015
+Cgjcj`, ghb rjnjhjv lbfcnjkbxtcrjt lfdktybt
+bvttn jlyj bp lde[ yt`jkmib[ ghtbveotcnd
+(cjplftncz nbg bvgekmcf `tp ldb*eob[cz xfcntq
+b vybvjuj gjrjz), ghbybvftncz pf gjcnekfn
+nbhbjybxtcrbvb vfntvfnbrfvb e*t vyjuj ktn. D
+j`sxyjv dblt cnfylfhnyst gfhfvtnhs k<`jq ajhveks
+(j`]trnbdyj ujdjhz, ytj`[jlbvj gjvybnm, xnj dct
+j`]trnbdyjt gjlhfpevtdftn ce`]trnbdyjt) dctulf
+ghb[jlzn r njve, xnj Vjhynfeh yfpdfk "djpdhfn r
+chtlytve". Jlyfrj, bc[jlz bp vfccbdf rjvgktrcys[
+xbctk, rjnjhsq `jktt xtv gjkyjcnm< j[dfnsdftn
+cnfylfhnysq rheu b re`bxtcrbq rjhtym bp ytuj, vs
+vj*tv, gentv jn`hfcsdfybz jnhbwfntkmys[ "gjke-xbctk",
+jncktlbnm b cjplfnm `tcrjytxysq htpthdefh c ldevz
+ghbhjlfvb bltfkmyjq xthyjns b `tkbpys. Nfrbv
+j`hfpjv, rj@aabwbtyn flbf`fnbxtcrjuj j[kf*ltybz
+bkb yfuhtdf d ytyfcsotyjv djple[t vj*tn `snm
+cltkfy ghjgjhwbjyfkmysv r xtnshtv cbkfv tuj
+f`cjk<nyjq ntvgthfnehs.
+
+Message:  1016
+Rjulf `tksq cdtn ghjgecrftncz xthtp ufp chtlytq
+gkjnyjcnb ghb dscjrjq ntvgthfneht, yf`k<lftncz
+lbyfvbxtcrfz nthvfkmyfz ytcnf`bkmyjcnm. Nfr
+rfr vfubz j`sxyj zdkztncz ckf`sv bcnjxybrjv
+jcdtotybz, ufps gjl `jktt dscjrbv lfdktybtv
+ecbkbdf<n cgjcj`yjcnm r cjtlbytyb< c hfpkfuf<otqcz
+vfnthbtq, cjplfdfz ldjqyst cbks, dscibt b ybpibt.
+D rjytxyjv bnjut gjkexftncz rdfpb-ujhbpjynfkmysq
+[jyjkbn, cjcnjzobq bp cjtlbytyys[ lernjkbnjd,
+rjnjhsq elfkty jn wtynhf rhbdjq rfr [fhgjkbn,
+njyrbq, rfr catyjkbn, bkb ytufhvjybxyj dsgerksq,
+rfr frvjkbn bkb @nvjkbn. Nfrbv j`hfpjv vs bvttv
+gznm @ktvtynjd, rjnjhst ljk*ys `elen cjtlbyznmcz,
+ghb[jlz r cjcnjzyb<, rjnjhjt Ufkthbjy yfpdfk
+"cthjq vfnthbtq" -- djcghbznbt, jxtdblyjcnm,
+ceoyjcnm, yhfdcndtyyjcnm b ds`jh.
+
+Message:  1017
+_scholar_ jlby bp cfvs[ edf*ftvs[ extys[ yf Nfvhb@kt
+   <--->
+_scholar_ - =scholar_, jxtym edf*ftvsq extysq
+   <--->
+_scholar_ d %reg ghbt[fk ytyfljkuj
+   <--->
+Jlby bp kexib[ evjd Nhtnmtq ^hs, nfr ujdjhzn j ytv
+   <--->
+_scholar_ `tp cjvytybq yfnjzobq utybq
+   <--->
+_scholar_ nbgbxysq byntkktrnefk. Ybrfrb[ vscktq gj gjdjle ghjbc[jlzotuj
+   <--->
+_scholar_ lmzdjkmcrb evty, yj gj[j*t tuj vjpufv crjhj yt `eltn [dfnfnm vtcnf d xthtgyjq rjhj`rt
+   <--->
+Gjujdjhb nt c _db_ d ___db_ -- jy vyjuj xtuj hfccrf*tn ghj _scholar_.
+   <--->
+=db_ d __db_ nj*t cghfibdfk ghj _scholar_ cjdctv ytlfdyj.
+
+Message:  1018
+<ce> Rfrjq ghbznysq c<hghbp. Yflt<cm dfib bp
+<ce> ubkmlbb yt pfvtnbkb gjlvtye? Gecnm kexit
+<ce> gjhfp`bhf<ncz d [bnhjcgktntybz[ nt[yjkjubb
+<ce> jceitybz, [t-[t. Djn, djpmvbnt _dbgold_ pjkjns[
+<ce> pf nhels. Regbnt ct`t xnj-yb`elm wtyyjt.
+
+Message:  1019
+<ce> Rfr vbkj. Ntvyjt ~hfncndj otlhj yfuhflbkj
+<ce> dfc cevvjq _dbgold_ pjkjns[ pf jrfpfyye< eckeue.
+<ce> Dlj`fdjr nen tcnm rjt-xnj, xnj gjvj*tn
+<ce> bp`t*fnm ghj`ktv c _qgiver_ b
+<ce> lheubvb xktyfvb Ubkmlbb Vfujd. Dct herjgbcb
+<ce> bccktljdfybq dsukzlzn jlbyfrjdj. Rjulf e
+<ce> yb[ ybxtuj yt gjkexbncz, jyb kb`j lj`fdzn
+<ce> k<ltq r ghjtrne, kb`j ghtlflen @njn ghjtrn
+<ce> pf`dtyb<. Ubkmlbz - @nj c`jhbot yelys[ b
+<ce> crexys[ bccktljdfntktq, rjnjhs[ yt djkyetn
+<ce> yb pjkjnj, yb nj, xnj vj*tn ghjbpjqnb d
+<ce> htpekmnfnt ytghfdbkmyjuj bcgjkmpjdfybz
+<ce> b[ jnrhsnbq.
+
+Message:  1020
+%qdt:
+ Vyt ghbikj euhj*f<ott gbcmvj jn ytrjtuj
+ _db_ bp Ntvyjuj ~hfncndf,
+ ghbrfpfdituj vyt ghbytcnb herjgbcb,
+ yfgbcfyyst _scholar_ r ytve d __db_
+ d ___db_ dvtcnj njuj, xnj`s ljcnfdbnm
+ b[ d Ubkmlb< Vfujd.
+
+Message:  1021
+%qdt:
+ _db_ bp ntvyjuj ~hfncndf
+ ghbckfk vyt gbcmvj, d rjnjhjv jlj`hztn
+ vj< [bnhjcnm b xnj %g `eltn d vtcntxrt
+ gjl yfpdfybtv __db_ d ___db_,
+ xnj`s pfgkfnbnm vyt pf ljcnfdre
+ herjgbctq tve, f yt Ubkmlbb Vfujd.
+
+Message:  1022
+<ce> Vjkjljq gfhtym c uhjpysv dpukzljv
+<ce> dhexbk dfv gbcmvj b e`t*fk ghjxm
+<ce> gj fkktt.
+
+
+
+QBN:
+Item research1 letter used 1015
+Item letter34 letter used 1011
+Item letter35 letter used 1012
+Item research2 letter used 1016
+Item _dbgold_ gold
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+Person _db_ face 78 faction The_Dark_Brotherhood female local
+Person _scholar_ factiontype Temple remote anyInfo 1017
+
+
+Clock _queston_ 00:00 0 flag 17 range 1 2
+Clock _S.02_ 01:40 13:20
+Clock _S.05_ 06:40 23:20
+
+Foe _hunter_ is Orc_shaman
+
+--	Quest start-up:
+	start timer _queston_
+	log 1010 step 0
+	pick one of _letter_ _letter_ _S.04_ _S.04_
+	repute with _db_ exceeds 10 do _S.00_
+	letter34 used do _S.15_
+	letter35 used do _S.16_
+
+_S.00_ task:
+	start timer _S.02_
+	clear _letter_
+
+until _S.00_ performed:
+	dialog link for person _db_
+
+_queston_ task:
+	end quest
+
+_S.02_ task:
+	give pc letter34 notify 1022
+
+_letter_ task:
+	start timer _S.05_
+
+variable _S.04_
+_S.05_ task:
+	give pc letter35 notify 1022
+
+_S.06_ task:
+	clicked npc _scholar_
+	get item research1
+	say 1013
+
+_S.07_ task:
+	toting research1 and _db_ clicked
+	prompt 1014 yes _S.08_ no _nononono_
+
+_S.08_ task:
+	pick one of _S.10_ _S.11_
+	change repute with _db_ by +10
+
+_nononono_ task:
+	get item research1
+
+_S.10_ task:
+	get item research2
+	get item _dbgold_
+	say 1019
+	make _dbgold_ permanent
+
+_S.11_ task:
+	get item _dbgold_
+	say 1018
+	make _dbgold_ permanent
+	end quest
+
+_S.12_ task:
+	toting research1 and _qgiver_ clicked
+
+_S.13_ task:
+	toting research2 and _qgiver_ clicked
+
+_reward_ task:
+	when _S.12_ or _S.13_
+	give pc _gold_
+	end quest
+
+_S.15_ task:
+	add dialog for person _db_
+	log 1021 step 1
+
+_S.16_ task:
+	add dialog for person _db_
+	log 1020 step 1

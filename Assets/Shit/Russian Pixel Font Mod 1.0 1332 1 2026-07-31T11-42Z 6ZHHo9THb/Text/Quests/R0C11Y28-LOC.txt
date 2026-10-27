@@ -1,0 +1,500 @@
+-- Quest: C:\QUESTS\WORKING\R0C11Y28.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 11
+-- QuestId: 28
+Messages: 51
+Quest: R0C11Y28
+DisplayName: ~tpevysq e`bqwf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Gj ekbwfv ___bookstore_ `hjlbn rjivfh.
+<ce> Jyb yfpsdf<n tuj E`bqwtq bp
+<ce> ___bookstore_, b lj cb[ gjh ybrnj yt
+<ce> vj*tn crfpfnm vyt, xtkjdtr jy bkb pdthm.
+<ce> Jlby bp vjb[ kexib[ velhtwjd, _contact_,
+<ce> jcvfnhbdftn ntkf *thnd, yj %g yfxfk
+<ce> gjkexfnm nhtdj*yst gbcmvf b, jnrhjdtyyj
+<ce> ujdjhz, jgfcftncz pf cdj< *bpym. Vyt
+<ce> ye*yj, xnj`s rnj-yb`elm bpexbk %g4
+<ce> dsdjls, xnj`s gjyznm, jghfdlfys kb %g4
+<ce> jgfctybz. Ds gjvj*tnt vyt d @njv, %pcf? Z
+<ce> ghtlkj*e dfv _reward_ pjkjnsvb vjytnfvb d
+<ce> j`vty yf jncnfdre E`bqws bp ___bookstore_.
+
+RefuseQuest:  [1001]
+<ce> Yt nfrfz e* ytj`sxyfz htfrwbz. Njulf e vtyz ytn
+<ce> lheujuj ds`jhf, rhjvt rfr j`hfnbnmcz pf gjvjom< r
+<ce> rjve-yb`elm bp vjb[ vtytt ghbznys[ pyfrjvs[ -
+<ce> dfhbfyn, rjnjhjuj z yfltzkcz bp`t*fnm.
+
+AcceptQuest:  [1002]
+<ce> Ckfdcz %god. |bntkb %reg yfxbyf<n
+<ce> `tcgjrjbnmcz bp-pf jncencndbz
+<ce> ghjuhtccf d jabwbfkmys[
+<ce> hfccktljdfybz[. Z `j<cm, xnj crjhj
+<ce> njkgf dsqltn bp gjl rjynhjkz,
+<ce> djpvj*yj, dctuj xthtp =total_ lytq
+<ce> bkb hfymit. _contact_ hf`jnftn d
+<ce> _bookstore_, b z crfpfk %g4, xnj
+<ce> crjhj jnghfdk< nelf rjuj-yb`elm.
+<ce> ~thtubnt ct`z, %pcf. Gjrf @nf
+<ce> cbnefwbz yt hfphtibncz, gjvybnt, xnj
+<ce> ___bookstore_ jgfcty gj yjxfv.
+
+QuestFail:  [1003]
+<ce> E`bqwf bp ___bookstore_ dct tot yf
+<ce> cdj`jlt. E vtyz ytn dhtvtyb yf
+<ce> `jknjdy<, lf b e nt`z yt ljk*yj `snm.
+
+QuestComplete:  [1004]
+<ce> %reg cyjdf j`htk gjrjq, %pcf, `kfujlfhz dfv.
+<ce> Djn j`tofyyjt vyjq pjkjnj d yfuhfle - z c
+<ce> hfljcnm< jnlfv tuj pf nj, xnj ds gjrjyxbkb c
+<ce> @nbv vfymzrjv, b pf dfit `kfujhfpevbt d @njv
+<ce> djghjct. %god ltqcndbntkmyj `kfujckjdbk yfc,
+<ce> rjulf ns ghbt[fk d %reg.
+
+RumorsDuringQuest:  [1005]
+{jlbnm gj ekbwfv ___bookstore_ `jkmit yt`tpjgfcyj. Njkmrj yt c E`bqwtq bp ___bookstore_.
+   <--->
+Z cksifk, xnj E`bqwf djdct yt xtkjdtr, f lf@lhf, ghbitlibq yfrfpfnm yfc dct[.
+   <--->
+Gjcktlyzz *thndf E`bqws bp ___bookstore_ `skf yfqltyf hfp`hjcfyyjq gj dctve ___bookstore_.
+   <--->
+Ytrjnjhst k<lb pflf<ncz djghjcjv, vj*tn kb E`bqwf `snm dfvgbhjv bkb j`jhjnytv.
+
+RumorsPostfailure:  [1006]
+E`bqcndf ghtrhfnbkbcm, b yfv yt gjyflj`bkfcm njkgf. Levf<, E`bqwf ldbyekcz lfkmit.
+   <--->
+_qgiver_ ghjcnj gjdtpkj, xnj E`bqwf bp ___bookstore_ htibk ldbufnmcz lfkmit. Yfxbyfkfcm gfybrf.
+   <--->
+_qgiver_ dct tot dcnhtdj*ty. Vj*yj `skj `s gjlevfnm, xnj jncencndbt E`bqws ghbytctn j`ktuxtybt.
+   <--->
+E`bqwf bp ___bookstore_ bcxtp nfr *t dytpfgyj, rfr b gjzdbkcz.
+   <--->
+Ytrjnjhst ujdjhzn, xnj E`bqwf dct tot pltcm, j*blfz, rjulf pdtpls cjqlencz cyjdf.
+
+RumorsPostsuccess:  [1007]
+Z dct tot `j<cm jcnfdfnmcz d ___bookstore_ d jlbyjxtcndt, lf*t rjulf E`bqwf ghtlgjkj*bntkmyj vthnd.
+   <--->
+Gjkfuf<, E`bqwf bp ___bookstore_ `sk ghjcnj rfrbv-nj `tlysv cevfcitlibv. D ytv djj`ot yt `skj ybxtuj hjvfynbxyjuj.
+   <--->
+Cfvsq cdt*bq cke[ pfrk<xftncz d njv, xnj E`bqwf bp ___bookstore_ yt `sk dfvgbhjv, yj levfk, xnj jy bv `sk.
+
+QuestorPostsuccess:  [1008]
+Z dct tot gjvy< nt`z, %pcf, b ne jcvjnhbntkmyjcnm, rjnjhe< ns ghjzdbk c E`bqwtq bp ___bookstore_.
+
+QuestorPostfailure:  [1009]
+<ce> Ns gjldtk vtyz d ltkt c E`bqwtq
+<ce> bp ___bookstore_, %pcf. Z yt
+<ce> db*e ybrfrb[ ghbxby dthbnm, xnj
+<ce> ns yt gjldtltim vtyz cyjdf.
+
+QuestLogEntry:  [1010]
+<ce> F[, %pcf, vjq ljhjujq %ra, z jxtym
+<ce> hfl, xnj ns ghbt[fk. Dfv,
+<ce> ytcjvytyyj, ujdjhbkb, xnj z cnfk
+<ce> xtv-nj dhjlt jnitkmybrf c nt[ gjh,
+<ce> rfr yfxfk gjkexfnm @nb gbcmvf c
+<ce> euhjpfvb vjtq *bpyb, tckb z yt
+<ce> jnrf*ecm jn cdjb[ hfccktljdfybq.
+<ce> Xnj *, ntgthm e vtyz d ujhjlt tcnm
+<ce> cnfhsq rjkktuf, c xmtq gjvjom< z,
+<ce> djpvj*yj, cvjue hfcrhsnm @nb
+<ce> e`bqcndf. Z `s [jntk, xnj`s ds
+<ce> jnytckb @nb pfvtnrb _vamp_, =vamp_
+<ce> ds yfqltnt d _hookerhouse_. Tckb cj
+<ce> vyjq xnj-yb`elm ckexbncz, z [jxe,
+<ce> xnj`s rnj-yb`elm cvju ghjljk*bnm
+<ce> hfccktljdfybt. ^nj `elen _vamp_ b
+<ce> ns, %pcf. Nfr xnj yt lfq ct`z nfv e`bnm.
+
+Message:  1011
+_contact_,
+<ce>
+  Ghtrhfnbnt cdjb hfccktljdfybz d jnyjitybb *thnd
+E`bqws %reg, tckb dfv ljhjuf dfif *bpym. Ds
+cktgj ldb*tntcm d fl.
+<ce>
+  Tckb ds ghjljk*bnt, nj evhtnt lj njuj, rfr
+pfrjyxbnt bpscrfybz. Cxbnfqnt @nj cthmtpysv
+ghtleght*ltybtv.
+<ce>
+<ce> Lj`hj*tkfntkm
+
+Message:  1012
+_contact_,
+<ce>
+  Lf*t tckb ds pfrhjtnt dct cdjb ldthb b gjufcbnt
+dtcm cdtn d _bookstore_, vs `eltv pyfnm, xnj ds
+dct tot pfybvftntcm cdjbvb pfghtotyysvb
+dcrhsnbzvb. Yt ghjcbnt yfc ghjltvjycnhbhjdfnm
+yfie cbke, xnj`s jcnfyjdbnm dfc, b`j vs `eltv
+ltqcndjdfnm njkmrj jlby hfp.
+<ce>
+<ce> Lj`hj*tkfntkm
+
+Message:  1013
+_contact_,
+<ce>
+  Z `s jxtym [jntk dcnhtnbnmcz c dfvb gj
+gjdjle dfib[ edktrfntkmys[ bccktljdfybq
+nhegjd *thnd E`bqws. Rfr ds pyftnt, z
+ghjdjlbk fyfkjubxyst hfccktljdfybz b
+`sk `s hfl gjltkbnmcz cdjbvb pyfybzvb b
+jgsnjv c edf*ftvsv rjkktujq.
+<ce>
+  Cjj`obnt vyt c rehmthjv, rfr yfv `skj
+`s elj`ytt dctuj dcnhtnbnmcz. Z
+jcnfyjdbkcz d _hookerhouse_, yj,
+djpvj*yj, ds ghtlgjxkb `s dcnhtnbnmcz d
+_bookstore_, xnj`s z vju edbltnm nhegs,
+j rjnjhs[ bltn htxm. D k<`jv ckexft z c
+ytnthgtybtv *le dfituj rehmthf b
+pfgbcrb.
+<ce>
+Dfi d djc[botybb,
+<ce>
+<ce> _vamp_
+<ce> ----
+
+Message:  1014
+Jnxtn j dcrhsnbb %fn:
+<ce>
+  Ujhkj dshdfyj, gj-dblbvjve, c
+ghbvtytybtv *tcnjrjq cbks (E`bqwf -
+cevfcitlibq? Jpyfrjvmntcm c hf`jnjq
+Kj`jhyecf c ytdvtyztvsvb ghtcnegybrfvb
+d n<hmvt Fuhby). Cvthnm vuyjdtyyfz,
+ybrfrb[ ghbpyfrjd `jhm`s (E`bqwf pyfk
+*thnde? Yt gjzdbkfcm kb euhjpf?) Cjyyfz
+fhnthbz gjkyjcnm< gththtpfyf, r vjvtyne
+jcvjnhf gjnthz rhjdb `skf pyfxbntkmyjq
+(yt pf`elmnt gjghjcbnm _qgiver_
+ghbckfnm j[hfyybrjd, j`yfhe*bdib[ ntkj,
+lkz ljghjcf).
+<ce>
+Jnxtn j dcrhsnbb %mn:
+<ce>
+  E ce`]trnf j`yfhe*tyf gfnjkjubz, c[jlyfz c gfnjkjubtq
+*thnds *tycrjuj gjkf. |tcnjrj dshdfyyjt ujhkj, cbyzrb
+yf ghtlgktxmz[, rfr `elnj b[ c[dfnbk xhtpdsxfqyj
+cbkmysq ve*xbyf (`tpevbt E`bqws gjhj*lftn
+cdth[xtkjdtxtcre< cbke? Ghbvtxfybt lkz ct`z: yfgbibnt
+Kj`jhyece, xnj`s gjkexbnm bccktljdfntkmcrbt pfvtnrb gj
+bynthtcyjve ltke, j rjnjhjv jy cjj`obk yf ghjikjujlytv
+Rjyrkfdt). Cbyzrb erfpsdf<n yf rfrjq-nj ghjvt*enjr
+dhtvtyb vt*le yfgfltybtv b cvthnm<? (Vj*tn `snm, @nj
+yt cdzpfyj c fnfrjq? Ghjdthmnt `bjuhfab< *thnds)
+
+Message:  1015
+<ce> Bnfr, pf dct nt lyb, xnj _contact_
+<ce> ghjdtk c @nbvb gjkehfpkj*tyysvb
+<ce> nhegfvb, b dct, xnj ghb[jlbn d
+<ce> ujkjde, @nj djn xnj. %god, tckb vs
+<ce> nfr ghjljk*bv, _contact_ tot
+<ce> ytcrjkmrj ytltkm yt gjkexbn yb
+<ce> vfktqituj yfvtrf yf kbxyjcnm E`bqws.
+<ce> Gjckeifq, %pcf, tckb ns [jxtim gjvjxm
+<ce> _qgiver_, jnytcb @njn wdtnjr _widow_
+<ce> d _widowhouse_ - %g4 `hfn `sk %mn,
+<ce> jlyjq bp *thnd E`bqws. ^nj vj*tn
+<ce> gjrfpfnmcz `fyfkmyjq
+<ce> ctynbvtynfkmyjcnm<, yj @nj ghb`kbpbn
+<ce> dfc r gjbcre E`bqws bp ___bookstore_
+<ce> `jkmit, xtv k<`jq bp yfexys[
+<ce> rfnfkbpfnjhjd, xnj bcgjkmpetn
+<ce> _contact_. Gjdthm vyt, %pcf.
+
+Message:  1016
+_vamp_ - @nj njn cfvsq =vamp_, rjnjhjuj z dcnhtnbk d _hookerhouse_. Ljcnfnjxyj vbksq, yj *enrjdfnsq.
+   <--->
+_vamp_ - @nj bvz =vamp_, jcnfyjdbditujcz yf yjxm d _hookerhouse_.
+
+Message:  1017
+_vamp_ - jlby bp %vcn, gjckfyysq d ___bookstore_, xnj`s ecnhfybnm `tpevyjuj E`bqwe.
+   <--->
+_vamp_ - @nj dfvgbh bp %vcn, rjnjhsq pltcm, xnj`s ecnhfybnm euhjpe `tpjgfcyjcnb - E`bqwe.
+
+Message:  1018
+~tlyfz _widow_ jcnftncz d _widowhouse_ rf*lsq ltym c nt[ gjh, rfr e E`bqwf pf`hfk %g4 `hfnf.
+   <--->
+E`bqwf %reg e`bk `hfnf _widow_, b ntgthm %g ybrjulf yt gjrblftn _widowhouse_.
+
+Message:  1019
+<ce> Rhfcysq vfr? J, ds, ljk*yj `snm, lheu vjtuj
+<ce> `hfnf, _rippername_, lf? Z ltqcndbntkmyj
+<ce> wty< entibntkmye< pfgbcre, rjnjhe< ds
+<ce> ghbckfkb gjckt tuj cvthnb. E ytuj `skj yt
+<ce> nfr e* vyjuj lheptq, b, gj ghfdlt ujdjhz, jy
+<ce> ybrjulf yt egjvbyfk dfituj bvtyb. Yj z,
+<ce> rjytxyj, `kfujlfh< dfc pf ghtrhfcyst wdtns b
+<ce> ghbukfitybt yfdtcnbnm dfc d _ripperhouse_. Z
+<ce> dctulf djc[bofkfcm @nbv vtcnjv, b vyt
+<ce> [jntkjcm `s edbltnm tuj bpyenhb.
+<ce>
+<ce> Xnj, ds yt _rippername_? J, vyt nfr *fkm.
+<ce> Gj*fkeqcnf, ghjcnbnt vtyz, z `skf cfvf yt cdjz c
+<ce> nt[ gjh, rfr evth vjq `hfn... Ytn, z yt levf<, xnj
+<ce> e vtyz tcnm byajhvfwbz, rjnjhfz vjukf `s gjvjxm
+<ce> dfv yfqnb @njuj lmzdjkf-e`bqwe. Ns pyftim, z `s
+<ce> gjvjukf nt`t, tckb `s vjukf. Yj ns yfqltim
+<ce> lmzdjkf, e`bdituj vjtuj `hfnf, yt nfr kb?
+
+Message:  1020
+%qdat:
+ Z ble gj cktle E`bqws bp
+ ___bookstore_. %rt [jxtn, xnj`s
+ E`bqwe bp ___bookstore_ gjqvfkb pf
+ =total_ lytq lj njuj, rfr e`bqcndf
+ cghjdjwbhe<n yfctktybt yf `eyn. E
+ _qgiver_ tcnm extysq, rjnjhsq
+ bccktljdfk ntkf *thnd E`bqws b
+ ytlfdyj yfxfk gjkexfnm euhjps,
+ gj-dblbvjve, jn cfvjuj E`bqws.
+ _contact_ - bvz @njuj extyjuj, b %g
+ hf`jnftn d _bookstore_.
+
+Message:  1021
+%qdat:
+ _contact_ jnghfdbk vtyz
+ d _hookerhouse_ yf dcnhtxe cj
+ cnfhsv rjkktujq gj bvtyb _vamp_,
+ rjnjhsq, djpvj*yj, cvj*tn gjvjxm c bccktljdfybtv.
+
+Message:  1022
+%qdat:
+ Z lj`hfkcz lj _bookstore_ ckbirjv gjplyj.
+ Jxtdblyj, euhjps cvthnb xnj gjkexfk
+ _contact_ `skb dgjkyt htfkmysvb. Chtlb
+ gbctv, rjnjhst z yfitk, `skj jlyj jn
+ rjkktub, pfbynthtcjdfyyjuj dj dcnhtxt c
+ _contact_, ytrbv _vamp_, ghj*bdf<obv d
+ _hookerhouse_.
+
+Message:  1023
+%qdat:
+ Z dcnhtnbkcz c _vamp_, rjnjhsq,
+ rf*tncz, vtytt xtv dgtxfnkty
+ hf`jnjq rjkktub _contact_ yfl
+ *thndfvb E`bqws bp %reg. dfvgbh
+ dtktk vyt ghbytcnb rhfcysq vfr
+ rjve-nj gj bvtyb _widow_, xtq
+ `hfn `sk e`bn E`bqwtq. E vtyz
+ tcnm rjt-rfrbt gjljphtybz, yj z
+ yt `ele pyfnm yfdthyzrf, gjrf yt
+ jnghfdk<cm d _widowhouse_, ult
+ *bdtn _widow_.
+
+Message:  1024
+%qdat:
+ Rjkktuf gjrjqyjuj _contact_ b e`bqwf
+ - jlyj b nj *t kbwj. _vamp_ - dfvgbh,
+ yj endth*lftn, xnj yt zdkztncz
+ E`bqwtq. Tckb z e`m< xtkjdtrf,
+ rjnjhjuj %g yfpsdftn E`bqwtq bp %reg,
+ _rippername_ bp _ripperhouse_, _vamp_
+ gjj`tofk vyt yfuhfle, jxtdblyj, d
+ ljgjkytybt r yfuhflt, rjnjhe< z
+ gjkexbk `s jn _qgiver_.
+
+Message:  1025
+%qdat:
+ _widow_, =widow_, r rjnjhjq vtyz jnghfdbk
+ _vamp_, dthbkf, xnj z rnj-nj gj bvtyb
+ _rippername_. ^njn _rippername_,
+ gj-dblbvjve, jnghfdbk _widow_ `ertn
+ rhfcys[ vfrjd b ghbukfcbk %g4 d vtcnj gjl
+ yfpdfybtv _ripperhouse_. Pdexbn rfr
+ kjdeirf E`bqws, tckb jy rjulf-kb`j
+ ceotcndjdfk.
+
+Message:  1026
+<ce> Rfrjt gbcmvj ghbdtkj nt`z rj vyt, %pcn? Ds,
+<ce> dthjznyj, pyftnt, xnj z yfgbcfk b[ dct. Gjckt
+<ce> njuj, rfr _contact_ jnrfpfkcz ghbckeifnmcz r
+<ce> vjbv dt*kbdsv ghtleght*ltybzv j hfccktljdfybb
+<ce> ltk, ds[jlzob[ pf hfvrb gjybvfybz cvthnys[, z
+<ce> ghbukfcbk %g4 c<lf ghbndjhbdibcm lheujv. Dblbnt
+<ce> kb, z pyfk %g4 vyjuj ktn yfpfl, tot lj njuj,
+<ce> rfr cnfk dfvgbhjv. Vs dcnhtnbkbcm, dthyekbcm d
+<ce> _bookstore_, xnj`s gjcvjnhtnm yf ntkf, b nfv z
+<ce> e`bk %g4. Cjdthityyj `tp`jktpytyyj. Z vju `s
+<ce> crfpfnm, xnj %g ybrjulf `s yt ghtrhfnbk cdjb
+<ce> pfyznbz. ~jkmit z ybxtuj yt vjue crfpfnm, rhjvt
+<ce> njuj, xnj E`bqwf - nfrjq *t dfvgbh, rfr b z, yj
+<ce> j`tpevtdibq jn `kfujckjdtybz `tccvthnbz.
+<ce> _rippername_, @nj yfcnjzott bvz E`bqws, b %g
+<ce> *bdtn d _ripperhouse_. Tckb ns gjqltim nelf b
+<ce> e`mtim %g4, z djpyfuhf*e nt`z. Tckb ns yfvthty
+<ce> ghjljk*fnm bpscrfybz, xnj yfxfk _contact_, e
+<ce> vtyz yt `eltn lheujuj ds`jhf, rhjvt rfr e`bnm b
+<ce> nt`z nj*t. Nfrjdj vjt ghjcnjt ghtlkj*tybt.
+
+Message:  1027
+_contact_ - ljdjkmyj j`hfpjdfyysq extysq bp _bookstore_, yf %di jnc<lf.
+   <--->
+_contact_ - @nj =contact_, rjnjhsq hf`jnftn d _bookstore_.
+
+Message:  1028
+_contact_ ghtgfhbhetn *thnd E`bqws, b rjve-nj @nj yt yhfdbncz.
+   <--->
+_contact_ - extysq bp _bookstore_, rjnjhsq gjkexfk gbcmvf c euhjpfvb.
+
+Message:  1029
+<ce> ~tpevyjuj E`bqws `jkmit ytn.
+
+Message:  1050
+<ce> E`bd _rippername_, ds gjvjukb b %reg, b
+<ce> vyt. Pf @nj z lf< dfv _reward2_.
+<ce> Djpvj*yj, jlyf*ls vs dcnhtnbvcz cyjdf,
+<ce> %pcn. Ds pfbynhbujdfkb vtyz pf dhtvz
+<ce> yfituj rhfnrjuj pyfrjvcndf. Gecnm yjxm
+<ce> cj[hfybn nt`z d `tpjgfcyjcnb.
+
+
+
+QBN:
+Item _I.00_ letter used 1011
+Item _I.01_ letter used 1012
+Item letter31 letter used 1013
+Item _I.03_ letter used 1014
+-Item _I.04_ dead_body
+Item _reward_ gold
+Item _reward2_ trinket
+-Item _I.08_ item class 26 subclass 3
+Item _I.09_ item class 15 subclass 13
+
+Person _qgiver_ group Questor
+Person _contact_ face 1 group Librarian local anyInfo 1027 rumors 1028
+Person _vamp_ face 1 factiontype Vampire_Clan local anyInfo 1016 rumors 1017
+Person _widow_ face 82 group Resident2 female local anyInfo 1018
+Person _rippername_ face 5 group Group_6.0 male local
+
+Place _bookstore_ local house2
+Place _hookerhouse_ local tavern
+Place _ripperhouse_ local house1
+Place _widowhouse_ local temple
+
+Clock _1stparton_ 00:30 03:00
+Clock _2ndparton_ 00:30 06:00
+Clock _total_ 3.00:00 0 flag 1 range 0 1
+
+Foe _murder_ is Vampire
+
+--	Quest start-up:
+-	place item _I.08_ at _bookstore_
+	dialog link for location _ripperhouse_ person _rippername_
+	dialog link for person _widow_
+	dialog link for person _vamp_
+	start timer _total_
+	start timer _1stparton_
+	log 1020 step 0
+	place npc _contact_ at _bookstore_
+	place npc _vamp_ at _hookerhouse_
+	place npc _widow_ at _widowhouse_
+-	have _I.04_ set _deadbody_
+--removing everything related to the dead body. It's out of place for
+--the quest, has no relevance and no function. Also had a sprite change
+--since last checked? In any case, not useful.
+
+_S.00_ task:
+	killed 1 _murder_
+	say 1029
+
+_1stparton_ task:
+	start timer _2ndparton_
+
+variable _2ndparton_
+_S.03_ task:
+	when _2ndparton_ and not _S.13_
+	letter31 used do _S.11_
+	place item _I.01_ at _bookstore_
+	place item _I.00_ at _bookstore_
+	place item letter31 at _bookstore_
+-	place item _I.04_ at _bookstore_
+	hide npc _contact_
+
+_vampclicked_ task:
+	clicked npc _vamp_
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_qgclearclick_ task:
+	when not _S.00_ and _qgclicked_
+	clear _qgclicked_ _qgclearclick_
+
+_pcgetsgold_ task:
+	when _S.00_ and _qgclicked_
+	give pc _reward_
+	unset _qgclicked_
+	end quest
+
+-_deadbody_ task:
+-	take _I.04_ from pc
+--added deadbody task. otherwise body would clog inventory
+
+_S.07_ task:
+	when _S.17_ and not _S.00_
+	place foe _murder_ at _ripperhouse_
+
+_S.08_ task:
+	when _vampclicked_ and _S.11_
+	add dialog for location _ripperhouse_
+	log 1024 step 4
+	say 1026
+
+_S.09_ task:
+	when _hasletter_ and _vampclicked_
+	add dialog for person _widow_
+	log 1023 step 3
+	get item _I.09_
+	say 1015
+
+variable _hasletter_
+_S.10_ task:
+	clicked npc _contact_
+	add dialog for person _vamp_
+	log 1021 step 1
+	get item _I.03_
+	setvar _hasletter_
+	say 1010
+
+_vampclearclick_ task:
+	when _vampclicked_ and not _S.00_
+	clear _vampclicked_ _vampclearclick_
+
+_S.11_ task:
+	add dialog for person _vamp_
+	log 1022 step 2
+
+variable _S.12_
+_S.13_ task:
+	daily from 06:00 to 18:00
+
+_S.14_ task:
+	when not _S.13_ and not _S.00_
+	create foe _murder_ every 15 minutes 1 times with 15% success
+
+_S.15_ task:
+	toting _I.09_ and _widow_ clicked
+	add dialog for location _ripperhouse_
+	log 1025 step 5
+	say 1019
+
+_S.16_ task:
+	when _vampclicked_ and _S.00_
+	get item _reward2_ saying 1050
+	make _reward2_ permanent
+	unset _vampclicked_
+
+_S.17_ task:
+	when _S.15_ or _S.08_
+
+_total_ task:
+	end quest

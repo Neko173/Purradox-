@@ -1,0 +1,217 @@
+-- Quest: C:\QUESTS\WORKING\R0C4XY23.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 4X
+-- QuestId: 23
+Messages: 31
+Quest: R0C4XY23
+DisplayName: Lf@lhbxtcrfz rybuf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcf, cnfhsq lheu, [jhjij, xnj ds pltcm.
+<ce> E vtyz ghj`ktvs c uheggjq lf@lhf b z boe
+<ce> rjuj-yb`elm, rnj yfqltn vyt jlby htlrbq
+<ce> vfyecrhbgn. Djpyfuhf*ltybt yt jxtym dscjrj,
+<ce> yj pfnj jxtym dscjrf dthjznyjcnm dnjh*tybz
+<ce> fhvbb lf@lhf. Pfbynthtcjdfys?
+
+RefuseQuest:  [1001]
+<ce> Gjybvf<, %pcf. Ds jxtym
+<ce> pfyznjq %ra.
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj. Djn rybuf, _item_.
+<ce> _contact_ *ltn @nj d
+<ce> __contact_ d ntxtybt =queston_ lytq.
+<ce> Ds cvj*tnt cltkfnm @nj, z yt cjvytdf<cm.
+<ce> Ukfdyjt gjpf`jnmntcm j pfobnt jn
+<ce> lf@lhf. Elfxb!.
+
+QuestFail:  [1003]
+<ce> Rfr, ds dct tot yt jnytckb rybue?
+<ce> Yfv yt j xtv gjrf lf*t hfpujdfhbdfnm.
+
+QuestComplete:  [1004]
+<ce> F, [jhjij, xnj ds pltcm, %pcf. Ye b
+<ce> _item_ nj*t. Jnkbxyj. Yflt<cm lf@lhf
+<ce> yt cbkmyj gjvtifkb dfv. {f! Tckb `s
+<ce> jyb njkmrj pyfkb, pfxtv vyt @nf rybuf,
+<ce> jyb gjckfkb `s dldjt `jkmit, xnj`s
+<ce> jcnfyjdbnm dfc! Djn dfif yfuhflf pf
+<ce> ghtrhfcyj dsgjkytyye< hf`jne.
+
+RumorsDuringQuest:  [1005]
+Lf@lhf jxtym dpdjkyjdfys @njq yjxm<. ^nj djkytybt ghzvj nfrb dbnftn d djple[t.
+   <--->
+Xnj *t nfrjt ujnjdbn _questgiver_, xnj nfr dpdjkyjdfkj lf@lhf?
+
+RumorsPostfailure:  [1006]
+Ytlfdyj rnj-nj yfitk jxtym jxtym htlre< rybue.
+   <--->
+Vyt ujdjhbkb, xnj _questgiver_ jxtym hfpjpkty yf rfrjuj-nj %ra-fdfyn<hbcnf.
+
+RumorsPostsuccess:  [1007]
+<ce> Ytrbq =contact_ `sk pltcm, hfccghfibdfz j rjv-nj cj cnfhjq rybujq b jxtym cbkmyj heufkcz.
+   <--->
+Jlby <dtkbh cjj`obk j rhf*t `jkmijuj he`byf.
+
+QuestorPostsuccess:  [1008]
+Z dctulf ujdjhbk vjbv pyfrjvsv, xnj ds cbkmytt k<`juj lf@lhf. Ds @nj ljrfpfkb.
+   <--->
+Ghbdtncnde< dfc, bpujyzntkm lf@lhf! Xnj z b vjb lhepmz vjuen cltkfnm lkz dfc?
+
+QuestorPostfailure:  [1009]
+<ce> Lf@lhf jrfpfkbcm ckbirjv cbkmys, lf,
+<ce> %pcf? Ds vtyz jxtym jujhxbkb.
+<ce> Z `sk j dfc kexituj vytybz.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_
+ gjcskftn vtyz d ___contact_ ljcnfdbnm jlye
+ rybue, _item_, tt *ltn _contact_ d
+ ___contact_. E vtyz =queston_ lytq,
+ xnj`s ljcnfdbnm rybue b gjkexbnm yfuhfle.
+ Rhjvt dctuj ghjxtuj vyt vj*tn gjgsnfnmcz gjvtifnm
+ uheggf lf@lhf.
+
+Message:  1011
+<ce> Ghbdtncnde<, %pcn. |le dfc c ytnthgtybtv.
+<ce> Z _oblivion_, r dfibv eckeufv.  Vjb lhepmz
+<ce> d J`kbdbjyt hfccrfpfkb vyt, xnj ds gjpdjkbkb dnzyenm
+<ce> ct`z d @nj ltkj. Z dct tot d cbkf[ evbhjndjhbnm b[,
+<ce> yj vyt ye*yf rybuf, rjnjhe< ds dtptnt. Ljk*ty
+<ce> ghtleghtlbnm, e lf@lhf [jhjifz gfvznm. F ctqxfc
+<ce> jnlfqnt rybue vyt gjrf yt cnfkj ckbirjv gjplyj!
+
+Message:  1012
+<ce> Rfr njkmrj ds e`hfkb kfljym c j`kj*rb rybub,
+<ce> gthtl dfvb vfnthbfkbpjdfkfcm ntvyfz abuehf:
+<ce>
+<ce> "J`kbdbjy `kfujlfhbn dfc pf cjltqcndbt, %pcf.
+<ce> Vs lfdyj e*t ghbcvfnhbdfkbcm r dfv. Gj[j*t,
+<ce> xnj yfib yflt*ls d jnyjitybb dfc jghfdlfkbcm."
+<ce>
+<ce> Ds gjxedcndjdfkb, rfr rybuf bcxtpkf bp
+<ce> dfib[ her dvtcnt c hfcndjhbditqcz d djple[t
+<ce> abuehjq.
+
+Message:  1013
+_oblivion_ - vjueotcndtyysq vfu, *bdeobq d ___oblivion_.
+   <--->
+_oblivion_ bp ___oblivion_?  %g cjcnjbn d kbut lf@lhf.
+
+Message:  1014
+_oblivion_ jlby bp djkit`ybrjd, gjkfuf<. Gjbobnt d __oblivion_ d ___oblivion_.
+   <--->
+<ce> Jgfcyj dvtibdfnmcz d ltkf lf@lhf. Ds yfqltnt _oblivion_ d
+<ce> ___oblivion_ d __oblivion_.
+
+Message:  1020
+<ce> Ds yfytckb lf@lhf e*fcf<obq gj cbkt elfh,
+<ce> yf rfrjq-nj vjvtyn dfi dpukzl gthtctrcz c tuj.
+<ce> Bp tuj hfpjhdfyyjuj ujhkf hfplfkcz cehjdsq
+<ce> ujkjc:
+<ce>
+<ce> "Ns vj*tim eybxnj*bnm vj< cvthnye< j`jkjxre,
+<ce> %pcn, yj vjq le[ `eltn ghtcktljdfnm
+<ce> nt`z lj nt[ gjh, gjrf ndjb `tp*bpytyyst herb
+<ce> yt dsgecnzn rybue. Tckb ns [jxtim bp`t*fnm
+<ce> nfrjq exfcnb, gjdblfqcz c _oblivion_
+<ce> b jnlfq rybue tve.  Jy gjchtlybr vt*le
+<ce> ndjbv b vjbv vbhfvb b jy jlby vj*tn
+<ce> e`tlbnm vjtuj gjdtkbntkz ghtrhfnbnm j[jne".
+
+Message:  1025
+<ce> Yfuksq otyjr! Ns ghb[jlbim c<lf d gjbcrf[ gjvjob
+<ce> b ghb @njv jnrfpsdftimcz jn vjb[ eckjdbq?
+<ce> lf gjukjnbn nt`z J`kbdbjy!
+
+Message:  1030
+^nj cdbnjr hfcrhsdftn vtcnjyf[j*ltybt
+If`fif Cr@aabyunjy dj Ahbubb,
+xnj `s @nj yb `skj.
+
+
+QBN:
+Item _reward_ ruby
+Item _item_ book2
+Item _map_ letter used 1030
+
+Person _questgiver_ group Questor
+Person _contact_ faction Dancers remote
+-- Person:    1 0 -1 0 13278 0 0.
+
+Person _oblivion_ factiontype Daedra remote anyInfo 1013 rumors 1014
+
+Place _skeffingcoven_ permanent SkeffingtonCoven
+
+Clock _queston_ 00:00 0 flag 1 range 3 5
+
+Foe _firedaedra_ is Fire_daedra
+Foe _frostdaedra_ is Frost_daedra
+Foe _seducer_ is Daedra_seducer
+Foe _lesserdaedra_ is Daedroth
+
+--	Quest start-up:
+	dialog link for person _oblivion_
+	start timer _queston_
+	log 1010 step 0
+	get item _item_
+	pick one of _yesmap_ _nomap_ _nomap_ _nomap_
+	_map_ used do _readmap_
+	create npc _oblivion_
+	create npc _contact_
+
+variable _pcgetsgold_
+variable _pchasitem_
+_queston_ task:
+	make _item_ permanent
+	change repute with _questgiver_ by -20
+	end quest
+
+_npcclicked_ task:
+	toting _item_ and _contact_ clicked
+	give pc _reward_
+	end quest
+
+_thankyou_ task:
+	say 1012
+	change repute with _oblivion_ by +20
+	end quest
+--eliminates long wait for quest to end. quest is impossible with this choice
+
+until _thankyou_ performed:
+	create foe _firedaedra_ every 6 minutes 7 times with 25% success
+	create foe _seducer_ every 12 minutes 7 times with 50% success
+	create foe _lesserdaedra_ every 3 minutes 7 times with 12% success
+	create foe _frostdaedra_ every 4 minutes 7 times with 17% success
+
+_clickoblivion_ task:
+	toting _item_ and _oblivion_ clicked
+	prompt 1011 yes _thankyou_ no _gimmegimme_
+
+_gimmegimme_ task:
+	get item _item_
+	say 1025
+	change repute with _oblivion_ by -10
+
+_killmon_ task:
+	killed 1 _seducer_
+	add dialog for person _oblivion_
+	say 1020
+
+_hitseducer_ task:
+	injured _seducer_
+
+_readmap_ task:
+	reveal _skeffingcoven_ in province 38 at 5531
+
+variable _yesmap_
+variable _nomap_
+_placemap_ task:
+	when _yesmap_ and _hitseducer_
+	give item _map_ to _seducer_

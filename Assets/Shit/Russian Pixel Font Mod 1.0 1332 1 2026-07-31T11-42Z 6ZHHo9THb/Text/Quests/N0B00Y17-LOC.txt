@@ -1,0 +1,426 @@
+-- Quest: C:\QUESTS\WORKING\N0B00Y17.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 0
+-- QuestId: 17
+Messages: 61
+Quest: N0B00Y17
+DisplayName: Fpbvenfkmyst dtrnjhs
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pct, E vtyz ghj`ktvs. Djpvj*yj, ds
+<ce> cvj*tnt gjvjxm vyt c ytrjnjhsvb bccktljdfybzvb.
+   <--->
+<ce> {vv, lf, tckb dyenhtyybt fpbvenfkmyst dtrnjhs
+<ce> gthtctrencz d gthdbxyjv gjkt, yfdthyjt,
+<ce> gjkexbncz ... f?
+<ce> J, %pct, z yt gjvy<, rfr ds djikb.
+<ce> Jxtym ytj*blfyyj! Vyt ye*ty rnj-nj,
+<ce> rnj vj*tn gjvjxm vyt d bccktljdfybz[.
+<ce> Djpmvtntcm?
+
+RefuseQuest:  [1001]
+<ce> J[, @nj gkj[j.  Bnfr, j xtv @nj z? Vvv,
+<ce> fpbvenfkmyst dtrnjhs, nfr.  Gjcvjnhbv...
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj! Dblbnt kb, z hf`jnf< yfl
+<ce> df*yjq b nhelyjq pflfxtq j ghfrnbxtcrjv
+<ce> ghbvtytybb ntjhtnbxtcrjq vfubb, b vyt ye*ty
+<ce> df*ysq htfutyn, _item_, cltkfyysq tuj
+<ce> bpj`htnfntktv cj`cndtyyjhexyj. ^nj _maker_.
+<ce> Rfr ujdjhzn, @nj bcrecyjt ghjbpdtltybt, yj,
+<ce> cjukfcyj vjbv bccktljdfybzv, ytdjpvj*yjt.
+<ce> Dyenhtyybt fpbvenfkmyst dtrnjhs nfrjds, xnj
+<ce> z yt vjue cjdvtcnbnm b[ c dytiybvb ghjzdktybzvb
+<ce> `jrjds[ kbybq gjnjrf ... Bnfr, @nj ghjbpdtltybt
+<ce> yferb ytjwtybvj gjvj*tn vyt, yj e vtyz yt `skj
+<ce> elj`yjuj ckexfz yfqnb tuj.
+<ce> Egjvbyfybt j ytv vyt elfkjcm yfqnb njkmrj jlby
+<ce> hfp d cghfdjxybrt, rjnjhsq [hfybncz d `b`kbjntrt...
+<ce> f, lf, ctqxfc jyf yfpsdftncz ___hintdung_.
+<ce> Ds nfr*t vj*tnt cghjcbnm vjtuj rjkktue,
+<ce> _scholar_.  %g pyfnjr nheljd bpj`htnfntkz
+<ce> _maker_. Gjkyfz `bjuhfabz `skf, rjytxyj, [jhjif,
+<ce> [jnz.. gj vjtve vytyb<... F, lf, e yfc *t ytn dhtvtyb.
+<ce> _scholar_.. Ds vj*tnt yfqnb %g4 d lhtvextq
+<ce> lsht gjl yfpdfybtv ___scholardung_.
+<ce> Z yt gjybvf<, rfr %g vj*tn tot j xtv nj levfnm d
+<ce> gjlj`yjv vtcnt. {vv. Ghbujnjdktyyst vfnthbfks xthtp =time1_
+<ce> lytq gjnthz<n cdj< cbke, gj@njve gjnjhjgbntcm.
+
+QuestFail:  [1003]
+<ce> Xnj `s ds cltkfkb c @nbvb dtrnjhfvb?
+<ce> Vyt rf*tncz, yflj bcgjkmpjdfnm ntjhtve
+<ce> Vtyrbaf, xnj`s ghbdtcnb d cjjndtncndbt,
+<ce> rj@aabwbtyns, yj, gj[j*t, @nj ghbdtltn
+<ce> r nfrjve `tcgjhzlre... {jnz, yflj
+<ce> gjghj`jdfnm...
+
+QuestComplete:  [1004]
+<ce> Rnj ds? J `j*t vjq, ntgthm gjyznyj.
+<ce> Htfutyn _item_ bp her vfcnthf _maker_!
+<ce> B djn jy. Jlyfrj, rfr @nj `sdftn, gjrf ds
+<ce> gentitcndjdfkb, d vjb[ bccktljdfybz[ ghjbpjitk
+<ce> ghjhsd. Dblbnt kb, yt ye*yj `skj djj`ot
+<ce> bcgjkmpjdfnm fpbvenfkmyst dtrnjhs, @nj b `skj
+<ce> htitybtv ... Bnfr, ntgthm, rjulf htitybt yfqltyj
+<ce> vyt yt ye*ty @njn htfutyn, _item_.
+<ce> ^nj ghtdjc[jlysq j`hfptw, yt nfr kb?
+<ce> Nfr gjxtve `s dfv yt jcnfdbnm tuj ct`t?
+<ce> Ds *t cnjkmrj ghtnthgtkb, hfpscrbdfz tuj
+<ce> lkz vtyz. F ntgthm bpdbybnt, vyt yflj
+<ce> djpdhfofnmcz r hf`jnt. Hf`jnf, rfr ujdjhbncz,
+<ce> yt djkr... @@@... j xtv @nj z...
+
+RumorsDuringQuest:  [1005]
+<ce> Ds pyftnt... _questgiver_... %g4 dbltkb d `ke*lfybz[ dxthf yjxm<...
+<ce> {jlbn, `jhvjxtn xnj-nj gjl yjc? Dct xjryekbcm nen!
+
+RumorsPostfailure:  [1006]
+<ce> _questgiver_ j`sxyj d `jktt dtctkjv yfcnhjtybb, xtv ctqxfc.
+
+RumorsPostsuccess:  [1007]
+<ce> _questgiver_ dctv hfccrfpsdftn, xnj %ra cgfc %g4
+<ce> bccktljdfybz. F, nfr @nj *t ds... Gjplhfdkz<!
+
+QuestorPostsuccess:  [1008]
+<ce> ^[. J, vjq lheu %pcf. Ds, yfdthyjt, j`scrfkb dct
+<ce> b dcz d gjbcrf[ ye*yjuj vyt htfutynf.
+
+QuestorPostfailure:  [1009]
+<ce> F? Vs ult-nj dcnhtxfkbcm?
+
+Message:  1020
+%qdt:
+ _questgiver_, Ubkmlbz Vfujd ujhjlf
+ ___questgiver_ gjcskftn vtyz yf
+ gjbcrb cnhfyyjuj htfutynf, _item_,
+ bpujnjdktyyjuj herfvb cdjtuj bpj`htnfntkz
+ _maker_.  _questgiver_
+ gjkfuftn, xnj vyt yflj gjctnbnm cnfhe<
+ `b`kbjntre ___hintdung_ b gjcvjnhtnm
+ nfv cghfdjxybr, bkb yfqnb vfuf _scholar_,
+ pyfnjrf hf`jn bpj`htnfntkz _maker_.
+ _scholar_ ctqxfc bccktletn rfrjt-nj vtcnj,
+ bvtyetvjt ___scholardung_. Vyt ye*yj
+ cjj`obnm j vjb[ ljcnb*tybz[ xthtp
+ =time1_ lytq.
+
+Message:  1021
+%qdt:
+ Vyt elfkjcm yfqnb vfuf _scholar_
+ d @njq lsht ___scholardung_,
+ yj %g ybxtv yt vj*tn vyt gjvjxm
+ d gjbcrf[ htfutynf _item_ dsltkrb vfcnthf _maker_.
+
+Message:  1022
+%qdt:
+ _scholar_ gjkfuftn, xnj z vjue yfqnb
+ htfutyn _item_ ult-nj d hfqjyt
+ vtcnf gjl yfpdfybtv ___itemdung_.
+
+Message:  1023
+%qdt:
+ Rf*tncz, elfkjcm yfqnb erfpfybt
+ yf htfutyn _item_. D cnfhjv
+ cghfdjxybrt bp `b`kbjntrb (bynthtcyj, gjxtve
+ @nf lshf yfpsdftncz `b`kbjntrjq?)
+ ___hintdung_ erfpfyj, xnj
+ z vjue yfqnb nj, xnj ye*yj d
+ vtcnt gjl yfpdfybtv ___itemdung_.
+
+Message:  1024
+%qdt:
+ Vyt elfkjcm yfqnb xfcnm cghfdjxybrf
+ d hfpdfkbyf[ `b`kbjntrb ___hintdung_,
+ yj nfv ybxtuj yt erfpfyj yfcxtn htfutynf
+ _item_.
+
+Message:  1025
+%qdt:
+ _scholar_ bp vtcnf ___scholardung_
+ ujdjhbn, xnj %g yt vj*tn gjvjxm vyt
+ d gjbcrf[ htfutynf _item_. Djpvj*yj,
+ xnj-nj ghjzcybncz, tckb %g gjkexbn
+ ytrjnjhst htfutyns jn fgntrfhz _contact_,
+ __contact_, ujhjl ___contact_.
+ Ye*yj ghbytcnb b[ d ntxtybt =time2_ lytq.
+
+Message:  1030
+Yjvth ghtlvtnf. 476-F-LCX-08
+<ce>
+Nbg: _item_
+Fdnjh: _maker_, ___maker_
+<ce>
+Jgbcfybt:
+_item_ - jlyf bp yt`jkmib[ hf`jn vfcnthf
+_maker_, rkfccjv yb*t, xtv %g4 pyfvtybnsq
+|tpk Vyjujckjdbz, b lf*t yt yf[jlbncz hzljv
+c nfrbv itltdhjv rfr %g4 Yj*ybws Cnbkz.
+Jlyfrj, _item_ gjrfpsdftn, rfr _maker_
+vj*tn cvtibdfnm hfpkbxyst cnbkb d cdjb[
+hf`jnf[: htpyst vtlyst erhfitybz cj cdjtq
+vjyjuhfvvjq, cnhfyyst @vfkbhjdfyyst gjrhsnbz
+b cgtwbfkmysq zynfhm vzurjuj wdtnf, cdthrf<obq
+gj rhfzv bpltkbz.
+<ce>
+(gj cdtltybzv bp vtcnf ___itemdung_)
+<ce> ----
+
+Message:  1031
+Item No. 476-F-LCX-08
+<ce>
+Nbg: _item_
+Fdnjh: _maker_, ___maker_
+<ce>
+Jgbcfybt:
+_item_ - jlyf bp yt`jkmib[ hf`jn vfcnthf
+_maker_, rkfccjv yb*t, xtv %g4 pyfvtybnsq
+|tpk Vyjujckjdbz, b lf*t yt yf[jlbncz hzljv
+c nfrbv itltdhjv rfr %g4 Yj*ybws Cnbkz.
+C nt[ gjh, rfr evth vfcnth _maker_, @njn
+j`hfptw bcxtp bp dblf, djpvj*yj, jctdibq d
+xfcnyjq rjkktrwbb. Gj cj[hfybdibvcz jgbcfybzv
+_item_ zdkztncz j`hfpwjv njuj, rfr _maker_
+vj*tn cvtibdfnm hfpkbxyst cnbkb d cdjb[
+hf`jnf[: htpyst vtlyst erhfitybz cj cdjtq
+vjyjuhfvvjq, cnhfyyst @vfkbhjdfyyst gjrhsnbz
+b cgtwbfkmysq zynfhm vzurjuj wdtnf, cdthrf<obq
+gj rhfzv bpltkbz.
+<ce>
+(lfktt pfgbcm j`hsdftncz)
+
+Message:  1032
+_contact_ --
+<ce>
+Gj*fkeqcnf, jnghfdm vyt:
+3 l<*bys zpsrjd nhbnjyf (ceitys[)
+4.25 eywbb gjhjirf bp hjuf tlbyjhjuf (NJKMRJ ctdthyjuj!)
+1 _ingredient_ (Yf @njn hfp cktlb pf cdt*tcnm<, hflb `juf!)
+~fyjxre ukfp dfcbkbcrf.
+<ce>
+Pfgbib yf vjq cxtn.
+<ce>
+<ce> -- _scholar_
+<ce> ----
+
+Message:  1040
+<ce> Ghbdtn.  _maker_, _item_, ujdjhbnt?
+<ce> Lf, vyt, rf*tncz, elfkjcm ytlfdyj yfqnb
+<ce> cdtltybz j` @njq htlxfqitq dtob. Relf *t
+<ce> ltkbcm @nb pfgbcrb ... Djn, rf*tncz, vvv-
+<ce> [vv, "cdthrf<obq zynfhm vzurjuj wdtnf" -- @nj
+<ce> njxysq rkfccbxtcrbq j`hfp vfcnthf _maker_.
+<ce> Rf*tncz, @nj bp vfcnthcrjq ___itemdung_,
+<ce> Gj rhfqytq vtht nen nfr yfgbcfyj. Elfxb!
+
+Message:  1041
+<ce> Lj`hjt enhj! Ds jn fgntrfhz _contact_?
+<ce> E dfc tcnm nj, xnj `skj pfrfpfyj?
+<ce> J, _questgiver_ ujdjhbn, xnj z
+<ce> vjue pyfnm, ult yfqnb bpltkbt _item_
+<ce> vfcnthf _maker_? Yt pyf<, rf*tncz,
+<ce> @nf dtobwf bcxtpkf gjckt %g4 cvthnb,
+<ce> b lj cb[ gjh j ytq ybxtuj yt cksiyj.
+<ce> Ljcflyj. Jlyfrj, tckb e* ds pltcm, yt vjukb
+<ce> `s ds vyt gjvjxm? Vyt ye*ys ytrjnjhst dtob
+<ce> lkz hf`jns pltcm, b tckb ds vyt b[ ljcnfdbnt,
+<ce> vjz `kfujlfhyjcnm yt `eltn bvtnm uhfybw.
+
+Message:  1042
+<ce> Jnkbxyj. Gjlj*lbnt, z yf`hjcf< yf `evfut
+<ce> nj, xnj vyt ye*yj. Djn, djpmvbnt @njn kbcnjr
+<ce> b gthtlfqnt tuj fgntrfh< _contact_,
+<ce> __contact_ d ujhjlt ___contact_.
+<ce> Njkmrj %g vj*tn lfnm vyt dct nj, xnj ye*yj.
+<ce> Z *le dfc d ntxtybt =time2_ lytq.
+<ce> Gj*fkeqcnf yt jgfplsdfqnt.
+
+Message:  1043
+<ce> ^[, ckbirjv pfyzns? Kflyj, `skj ghbznyj
+<ce> c dfvb gj`jknfnm. Gjpdjkmnt vyt yt ghjdj*fnm
+<ce> dfc lj ldthb. Dctuj lj`hjuj!
+
+Message:  1044
+<ce> Tot jlby cgbcjxtr jn cktljgsnf _scholar_,
+<ce> f?  Rkzyecm, %g b yf @njn hfp ybxtuj
+<ce> yt pfgkfnbn. Gjhf `hfnm ghtljgkfne...
+<ce> "Pfgbib yf vjq cxtn", [f!  Pljhjdj!
+<ce> Ckeifqnt, _ingredient_ - @nj dct,
+<ce> xnj z dfv lfv, f dct jcnfkmyjt %g gjkexbn
+<ce> njkmrj gjckt njuj, rfr pfgkfnbn vyt pf dct
+<ce> R cj*fktyb<, @nj dct, xnj z vjue cltkfnm.
+<ce> Lf*t vjt nthgtybt bvttn ghtltks.
+
+QuestTimeLapse:  [1045]
+<ce> J, @nj ds. Ds ghbytckb vyt dtob, rjnjhst
+<ce> vyt ye*ys? Xnj, _contact_ gthtlftn njkmrj
+<ce> @nj, - _ingredient_? .... ndj< vfnm......
+<ce> Z ghbgjvy< %g2 @nj, rjulf dsgjkpe jnc<lf.
+<ce> Kflyj, @nj dct *t kexit, xtv ybxtuj. Ckeifqnt,
+<ce> ds dct tot botnt @ne dtobwe, rfr tt, _item_?
+<ce> Vyt bpdtcnyj, xnj d jlyjv cghfdjxybrt tcnm
+<ce> hfpltk c jgbcfybtv hf`jn vfcnthf _maker_.
+<ce> ^njn cghfdjxybr yf[jlbncz d uke[jv gjldfkt
+<ce> gjl yfpdfybtv ___hintdung_.
+<ce> Z vjue gthtytcnb dfc ghzvj nelf, tckb
+<ce> gj*tkftnt. {jnz, rjytxyj, ds vj*tnt gjghj`jdfnm
+<ce> lj`hfnmcz nelf cfvjcnjzntkmyj.
+<ce> Dfc gthtytcnb?
+
+Message:  1046
+<ce> Gjlj*lbnt! Gjrf ds tot yt e`t*fkb,
+<ce> djpmvbnt djn @nj, _scholarreward_. Z
+<ce> ltqcndbntkmyj wty< nj, xnj ds ljcnfkb vyt
+<ce> [jnz `s @nj, _ingredient_
+<ce> Dctuj lj`hjuj.
+
+Message:  1047
+<ce> Rfr gj*tkftnt! Gjrf ds tot yt eikb,
+<ce> djpmvbnt djn @nj, _scholarreward_. Z
+<ce> ltqcndbntkmyj wty< nj, xnj ds ljcnfkb vyt
+<ce> [jnz `s @nj, _ingredient_
+<ce> Yflt<cm, dfib gjbcrb `elen elfxys.
+
+Message:  1050
+<ce> ^nj ytcjvytyyj nf cfvfz inerf, _item_, her vfcnthf _maker_.
+
+Message:  1060
+<ce> Plhfdcndeqnt, %pcn. Ds ltqcndbntkmyj pfybvfkbcm
+<ce> gjbcrfvb njq dtobws, _item_ hf`jns vfcnthf
+<ce> _maker_? Kflyj, gkj[j, rjytxyj, yj z levf<,
+<ce> xnj vyt elfcncz cghfdbnmcz c pflfxtq b `tp
+<ce> ytt. Z pyf<, ds cltkfkb dct xnj vjukb.
+<ce> Djn _gold_ pjkjns[ yf gjrhsnbt dfib[ hfc[jljd.
+
+
+
+QBN:
+Item _item_ magic_item
+Item _ingredient_ organs
+Item _map2_ letter used 1030
+Item _I.03_ letter used 1031
+Item _I.04_ letter used 1032
+Item _scholarreward_ magic_item
+Item _gold_ gold
+
+Person _questgiver_ face 8 group Questor
+Person _scholar_ group Chemist local
+Person _maker_ face 1 group Spellcaster remote
+Person _contact_ face 14 group Chemist female remote
+
+Place _scholardung_ remote dungeon
+Place _hintdung_ remote dungeon
+Place _itemdung_ remote dungeon
+
+Clock _time1_ 00:00 0 flag 17 range 0 5
+Clock _time2_ 00:00 0 flag 17 range 1 2
+
+
+--	Quest start-up:
+	place item _item_ at _itemdung_
+	start timer _time1_
+	reveal _hintdung_
+	reveal _scholardung_
+	log 1020 step 0
+	pick one of _S.02_ _cousin_ _cousin_ _S.03_
+	_map2_ used do _S.15_
+	--added underscores to map2
+	_I.03_ used do _S.16_
+	place npc _scholar_ at _scholardung_
+
+
+_time1_ task:
+	end quest
+
+_cousin_ task:
+	place item _map2_ at _hintdung_
+
+_S.02_ task:
+	place item _I.03_ at _hintdung_
+
+_S.03_ task:
+	place item _I.03_ at _hintdung_
+
+_success_ task:
+	toting _item_ and _questgiver_ clicked
+	give pc _item_
+	end quest
+
+_S.05_ task:
+	clicked npc _scholar_
+
+_S.06_ task:
+	toting _I.04_ and _contact_ clicked
+	get item _ingredient_
+	say 1044
+
+_S.07_ task:
+	toting _ingredient_ and _scholar_ clicked
+	get item _scholarreward_
+	prompt 1045 yes _S.08_ no _S.09_
+	make _scholarreward_ permanent
+
+_S.08_ task:
+	say 1046
+	teleport pc to _hintdung_
+
+_S.09_ task:
+	say 1047
+
+_S.10_ task:
+	start timer _time2_
+	log 1025 step 1
+	get item _I.04_
+	say 1042
+
+_S.11_ task:
+	log 1021 step 1
+	say 1043
+
+_S.12_ task:
+	when _S.05_ and _S.02_
+	reveal _itemdung_
+	log 1022 step 1
+	say 1040
+
+_S.13_ task:
+	when _S.03_ or _cousin_
+
+_S.14_ task:
+	when _S.13_ and _S.05_
+	prompt 1041 yes _S.10_ no _S.11_
+
+_S.15_ task:
+	reveal _itemdung_ readmap
+	log 1023 step 2
+
+_S.16_ task:
+	log 1024 step 2
+
+_dummymage_ task:
+	clicked item _item_ say 1050
+
+_clickqgiver_ task:
+	clicked npc _questgiver_
+
+_S.19_ task:
+	when _S.03_ and _S.05_ and _S.16_ and _clickqgiver_
+	get item _gold_
+	say 1060
+	make _gold_ permanent
+	change repute with _questgiver_ by +5
+	unset _clickqgiver_
+	end quest
+
+_clearclick_ task:
+	when _clickqgiver_ and not _S.19_ and not _S.07_
+	say 1003
+	clear _clearclick_ _clickqgiver_
+
+_time2_ task:
+	hide npc _scholar_

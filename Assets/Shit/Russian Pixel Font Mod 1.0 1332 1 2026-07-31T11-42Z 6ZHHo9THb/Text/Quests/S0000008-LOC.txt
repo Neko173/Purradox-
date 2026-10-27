@@ -1,0 +1,563 @@
+-- Quest: C:\QUESTS\WORKING\S0000008.Qbn.
+-- Main story quest.
+-- QuestId: 8
+Messages: 71
+Quest: S0000008
+DisplayName: Rjve ljcnfytncz njntv
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcf, z hflf, xnj ds yfikb dhtvz
+<ce> dcnhtnbnmcz cj vyjq. Rkbyrb b dfi Bvgthfnjh
+<ce> cyjdf ye*lf<ncz d dfc. Ds vj*tnt pyfnm, f
+<ce> vj*tnt b yt pyfnm, xnj Njntv Nfq`thf Ctgnbvf
+<ce> yfqlty. Ytlfdyj jy gjgfk d herb kjhlf
+<ce> Del`jhyf bp D@qhtcnf. Rfr jy gjgfk r ytve,
+<ce> @nj pfuflrf. Rkbyrb cjdthibkb yfktn yf
+<ce> gjvtcnmt Del`jhyf d gjgsnrt pf`hfnm tuj
+<ce> jnnelf. Gjrf gjvtcnmt `skj pf[dfxtyj, vyjubt
+<ce> bp yb[ gjub`kb.
+<ce>
+<ce> Vs j`ifhbkb nfv dct, yj Njntv bcxtp.
+<ce> E vtyz tcnm jcyjdfybz levfnm, xnj Njntv
+<ce> ctqxfc e Ujnhblf. E Rkbyrjd ctqxfc
+<ce> ytljcnfnjxyj k<ltq, xnj`s cjdthibnm
+<ce> yf`tu yf pfvjr Lfuuthajkk. Ds *t gjrfpfkb
+<ce> ct`z pyf<obv xtkjdtrjv, bvt<obv ljcneg
+<ce> dj vyjubt df*yst vtcnf. Yt [jnbnt kb ds
+<ce> ghjybryenm d pfvjr Lfuuthajkk b ljcnfnm
+<ce> jnnelf Njntv Nfq`thf Ctgnbvf?
+
+RefuseQuest:  [1001]
+<ce> Ctqxfc yfcnegbkb ntvyst dhtvtyf. Tckb
+<ce> Ujnhbl gjkexbn Vfyntkke, Nfvhb@km `eltn
+<ce> `hjity d gexbye uhf*lfycrjq djqys.
+
+AcceptQuest:  [1002]
+<ce> Z pyfkf, xnj vjue hfccxbnsdfnm yf dfc,
+<ce> %pcf. Njntv crjhtt dctuj kt*bn d
+<ce> cjrhjdboybwt Lfuuthajkkf. ^nj `jkmijq pfk,
+<ce> tckb yt jib`f<cm. Xthtp ytcrjkmrj lytq z
+<ce> etp*f<. Z gjik< dfv pfgbcre, ult ds
+<ce> cvj*tnt yfqnb vtyz gjckt njuj rfr pf`thtnt
+<ce> Njntv. Bvgthfnjh ghjbycnhernbhjdfk vtyz,
+<ce> tckb ds dsgjkybnt pflfybt, lfnm dfv
+<ce> fhntafrn dtkbrjq vjob b ckfds.
+<ce> _artifact4_!
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ktlb ~hbpbtyyf gjghjcbkf vtyz ghbytcnb tq
+ Njntv Nfq`thf Ctgnbvf. Jy cghznfy d
+ cjrhjdboybwt pfvrf Lfuuthajkk. Jyf jgfcftncz,
+ xnj pf ytq j[jnzncz fccfccbys, gj@njve jyf
+ gjiktn vyt gbcmvj, hfcrhsdf<ott tt jxthtlyjt
+ vtcnjyf[j*ltybt, rjulf z gjrbye pfvjr. K<`jq
+ dkflt<obq Njntvjv j`kflftn gjntywbfkjv
+ rjynhjkbhjdfnm vjueotcndtyyjuj Yevblbevf b
+ cvj*tn dsrjdfnm yjde< bvgthb<, rfr @nj
+ cltkfk Nfq`th Ctgnbv vyjuj ktn yfpfl.
+
+Message:  1011
+%pcn,
+<ce>
+  Ghb`elmnt d __tavern_ d ____tavern_.
+Z `ele *lfnm dfc d _tavern_.
+Celm`f bvgthbb dbcbn yf djkjcrt.
+-- Ktlb ~hbpbtyyf
+
+Message:  1015
+<ce> D dfitq ujkjdt hfplftncz ujkjc...
+<ce>
+<ce> "Ds %pcn. Ds vjq yjdsq [jpzby. Pyfqnt @nj
+<ce> b jgfcfqntcm. Ds yt cgjcj`ys yjcbnm Njntv
+<ce> Nfq`thf Ctgnbvf. Njkmrj j`kflf<obq xfcnbxrjq
+<ce> tuj rhjdb vj*tn yjcbnm vtyz. Z lf< dfv hjdyj
+<ce> ujl b jlby ltym, xnj`s ljcnbuyenm wtkb".
+
+Message:  1017
+%qdt:
+ Njntv Nfq`thf Ctgnbvf ghjybr d vjb vsckb!
+ Jy j`]zdbk, xnj njkmrj njn e rjuj d *bkf[
+ rjhjktdcrfz rhjdm, vj*tn djpkj*bnm yf ct`z
+ Njntv. Jy lfk vyt ujl b jlby ltym, xnj`s
+ yfqnb njuj, rnj vj*tn dkfltnm bv ytdjp`hfyyj.
+
+Message:  1020
+%pcn,
+<ce>
+  E dfc pflfybt ljcnfnm Njntv Nfq`thf Ctgnbvf.
+Yt yflj jnhbwfnm @njuj. Vjb igbjys dct gjl-
+ndthlbkb. Njntv yt lkz j`sdfntktq, b ds yt
+vj*tnt bcgjkmpjdfnm tuj. Ghbytcbnt Njntv vyt
+b z pfgkfxe 100,000 pjkjns[. ^nj gjbcnbyt
+rjhjktdcrfz yfuhflf.
+<ce>
+  Ds ljk*ys pyfnm, xnj yb D@qhtcn yb Lfuuthajk
+yt kjzkmys bvgthcrjve nhjye. Njkmrj z, htutyn
+Bkbfrcrjuj pfkbdf, pfcke*bdf< ljdthbz. Lheubt
+bcgjkmpe<n Njntv njkmrj lkz njuj, xnj`s
+eybxnj*bnm vtyz.
+<ce>
+Frjhbnb
+Rjhjktdf Ctynbytkf
+
+Message:  1021
+~kfujhjlysq djbntkm %pcf,
+<ce>
+  Lj vjb[ eitq ljikb cke[b, xnj ds botnt Njntv
+Nfq`thf Ctgnbvf. Z j[jnbkcz pf @nbv xeltcysv
+fhntafrnjv vyjuj ktn. Tckb ds yfqltnt tuj,
+z pfgkfxe otlhjt djpyfuhf*ltybt, ljcnfnjxyjt,
+xnj`s ds vjukb regbnm rjhf`km. Z ghtlkfuf<
+yfvyjuj `jkmit, xtv vjuen ghtlkj*bnm Ujnhbl
+b Frjhbnb. Ybrjulf yt pf`sdfqnt, rnj zdkztncz
+dfibv yfcnjzobv lheujv.
+<ce>
+Rjhjkm ^fldbh,
+bp D@qhtcnf
+
+Message:  1022
+%pcn,
+<ce>
+  Ds yt bp jhrcrjuj yfhjlf. Rfr ds vj*tnt
+gjyznm, yf xnj @nj gj[j*t? C vjbv yfhjljv
+j`hfof<ncz rfr c dfhdfhfvb. E`bdf<n, tckb
+pfvtnzn. Nfr gjxtve vs ljk*ys jndtxfnm
+lj`hjv? Yfcbkbt dtltn r yfcbkb<.
+<ce>
+  Z cnhtvk<cm dsnfobnm vjq yfhjl bp @njq nhzcbys.
+Z gsnf<cm pfdjtdfnm lkz yb[ hfdyjt gjkj*tybt
+chtlb lheub[ yfhjljd Nfvhb@kz. Lkz @njuj
+vyt ye*ty Njntv Nfq`thf Ctgnbvf. Yt vjue
+j`tofnm, xnj @njn genm `eltn `tcrhjdysv.
+Z rkzyecm cdjtq rjhjyjq b yfcktlybrfvb, xnj
+yt `ele ghtlghbybvfnm gjgsnjr pf[dfnf
+nthhbnjhbq pf ghtltkfvb Jhcbybevf. Vjz wtkm
+yt pfdjtdfybt Nfvhb@kz, f cjplfybt hjlbys
+lkz jhrjd. E vtyz tcnm fhntafrn, rjnjhsv,
+z edthty, ds [jntkb `s pfdkfltnm. Jy `eltn
+dfibv, tckb ds lflbnt vyt Njntv Nfq`thf
+Ctgnbvf.
+<ce>
+-- Ujhndju, gjkrjdjltw b rjhjkm
+
+Message:  1023
+%pcn,
+<ce>
+  Crjhj d dfib herb gjgfltn Njntv Nfq`thf Ctgnbvf.
+^nj ghtlcrfpfkb pdtpls, f z ghjxtk b[. Pyfqnt
+cktle<ott: dct cvthnyst bcgjkytys ujhlsyb b
+*flyjcnb. Lfnm k<`jve bp yb[ Njntv jpyfxftn
+j`hfnbnm cdjt notckfdbt yf dtcm vbh. Jyb
+eybxnj*fn dct, xnj djp*tkf<n b yf xnj gjkj*fn
+cdjq ukfp.
+  Vtyz yt nhjuf<n ptvyst *tkfybz. E vtyz ytn
+ujhlsyb, ndfhyfz *flyjcnm yt lkz vtyz. Njkmrj
+gj[j*bq yf vtyz vj*tn `tpjgfcyj bcgjkmpjdfnm
+Njntv; z pf`the @nj d ^nthbec b jcnfdk< tuj pf
+ghtltkfvb @njq cvthnyjq j`jkjxrb. Xtv ljkmit
+Njntv ghjceotcndetn, ntv `jkmifz jgfcyjcnm
+`eltn uhjpbn Nfvhb@k<. Ghbytcb vyt Njntv b
+z `ele [hfybntktv @njuj vbhf.
+  Yt `ele ghtlkfufnm nt`t pjkjnj bkb cfvjwdtns.
+Z ghtlkfuf< njkmrj nj, xnj vjue lfnm. Ckfde.
+Ndjz htgenfwbz htprj dshfcntn yf dctv Nfvhb@kt.
+<ce>
+Gjdtkbntkm ytrhjvfynjd,
+Rjhjkm Xthdtq
+
+Message:  1024
+%pcn,
+<ce>
+  Dtrf yfpfl Nfq`th Ctgnbv ghfdbk cnhfyjq b
+dsrjdfk bvgthb< c gjvjom< Yevblbevf. Ctrhtn
+cbks Yevblbevf pfrk<xftncz d tuj cthlwt,
+[hfyzotujcz dyenhb Vfyntkks. ^nj cthlwt `jtdjuj
+vfuf Nfq`thf Ctgnbvf. ^nj VJT cthlwt. ^nj
+VJZ Vfyntkkf. ^nj VJQ Njntv. ^nj ghbyflkt*bn
+vyt b ybrjve `jkmit.
+<ce>
+  Z pfdjtdfk, f gjnjv gjnthzk bvgthb<. E vtyz ytn *tkfybz
+gsnfnmcz dvtibdfnmcz d ltkf cvthnys[. E vtyz tcnm
+_artifact2_, jlby bp dtkbxfqib[ fhntafrnjd d vbht.
+Ds vj*tnt gjkexbnm tuj d j`vty yf Njntv.
+<ce>
+  Jlby bp vjb[ cfvs[ dthys[ futynjd `eltn j*blfnm
+dfituj ghb`snbz d __temple_, ____temple_,
+e _temple_.
+<ce>
+Gjlptvysq Rjhjkm
+
+Message:  1025
+%pcn,
+<ce>
+  Tckb ds xbnftnt @nj, ljk*yj `snm dfv elfkjcm
+ljcnfnm Njntv b bp`t*fnm cvthnb d gjlptvtkmz[
+pfvrf Lfuuthajkk. Z yf[j*ecm d __newplace_,
+____newplace_ e _newplace_.
+Ghbytcbnt Njntv rfr vj*yj crjhtt.
+<ce>
+-- Ktlb ~hbpbtyyf
+
+Message:  1030
+<ce> Gf*, jltnsq d kbdht< Ctynbytkf dhexbk dfv
+<ce> gbcmvj b `tcievyj eitk ghjxm.
+
+Message:  1031
+<ce> Ljhjlysq ve*xbyf, yjczobq infylfhn D@qhtcnf,
+<ce> gjljitk r dfv b dhexbk gbcmvj. Yf tuj kbwt
+<ce> pfcnskj [vehjt dshf*tybt, jy yt ghjvjkdbk
+<ce> yb ckjdf. Eitk jy nfr *t `tcievyj, rfr b
+<ce> gjzdbkcz.
+
+Message:  1032
+<ce> Pfrenfyyfz d gkfo abuehf jcnjhj*yj ghbrjcyekfcm
+<ce> r dfitve gktxe. Rfr njkmrj ds ghbujnjdbkbcm
+<ce> pfobofnmcz, bp gjl gkfof vtkmryekf crh<xtyyfz
+<ce> ptktyfz herf c rjydthnjv. ~elexb jitkjvktyysv,
+<ce> ds ybxtuj yt ecgtkb ghtlghbyznm, f ntv dhtvtytv
+<ce> abuehf hfcndjhbkfcm d yfcnegf<ob[ cevthrf[.
+
+Message:  1033
+<ce> Xmz-nj herf c[dfnbkf dfc cpflb pf pfgzcnmt.
+<ce> Rhenfyedibcm, ds jnrhskb hjn, xnj`s gjpdfnm
+<ce> cnhf*e, yj rjcnzyfz herf pfgb[fkf rjydthn dfv
+<ce> ghzvj d hjn. Pfrenfyysq d gkfo crtktn jngecnbk
+<ce> dfit pfgzcnmt b gjitk ghjxm, ytpfvtxtyysq
+<ce> lheubvb ghj[j*bvb.
+
+Message:  1034
+<ce> Ghzvj gj djple[e r dfv gjlgkskj gbcmvj.
+<ce> Cnhfyyj, hzljv nj ybrjuj ytn. Rjydthn egfk
+<ce> d dfie cevre.
+
+Message:  1040
+<ce> Herb ghjxm jn Njntvf bkb vs eybxnj*bv nt`z
+<ce> nfv, ult ns cnjbim. Gjyznyj? Jnlfim tuj
+<ce> gj lj`hjq djkt bkb vs pf`thtv tuj cfvb?
+
+Message:  1041
+<ce> Njulf vs ghjcnj pf`thtv @nj.
+
+Message:  1042
+<ce> Nhec. Ghjdfkbdfq. J lf. Egjkyjvjxty
+<ce> pfzdbnm, xnj nt`t ye*yj gjctnbnm Yekmafue,
+<ce> xnj `s @nj yb pyfxbkj.
+
+Message:  1043
+<ce> Ds yt ljk*ys `skb gjkexbnm @nj! F ctqxfc
+<ce> z e`m< dfc ghjcnj hflb hfpdktxtybz.
+
+Message:  1050
+<ce> Njntv Nfq`thf Ctgnbvf! ^nj gjbcnbyt `tcwtyysq
+<ce> fhntafrn. Z `ele [hfybnm @nj b djpmve gjl
+<ce> rjynhjkm vznt*yst cbks Lfuuthajkkf b D@qhtcnf.
+<ce> Djpmvbnt dfie yfuhfle, %pcf. Ds
+<ce> pfcke*bkb @nj gj ltcznre ghbxby. Yt egecrfqnt
+<ce> Vfyntkke bp dble. K<`st cke[b yflj gjlfdkznm
+<ce> cbkjq. ~tp Vfyntkks Njntv `tcgjktpty.
+
+Message:  1051
+<ce> Negbwf! Yte*tkb ns ltqcndbntkmyj gjkfuftim,
+<ce> xnj z pfgkfxe pf Njntv? E`tqnt @njuj %ra!
+
+Message:  1052
+<ce> Jhrcrbq yfhjl d vjb[ herf[. Ds lfkb vjtve
+<ce> yfhjle ifyc gjkexbnm cdj`jle, %pcn.
+<ce> Tckb ds yfqltnt tot b Vfyntkke, z pfgkfxe
+<ce> dfv nhjqye< wtye.
+
+Message:  1053
+<ce> Z db*e ds bltnt yf gjdjle e cdjb[ xedcnd. Z vju
+<ce> `s e`bnm dfc, yj z ckbirjv xtcnty. Kexit z
+<ce> djpyfuhf*e dfc. Djn, djpmvbnt _goldgoth_ pjkjns[
+<ce> pf dfie "dthyjcnm". Ljcnfdmnt vyt Vfyntkke b vjt
+<ce> ljdthbt r dfv `eltn djccnfyjdktyj.
+
+Message:  1054
+<ce> Njntv! Yfrjytw-nj jy d vjb[ herf[. Ds jnkbxyj
+<ce> gjhf`jnfkb, %pcf. Z pfgjvy< @nj,
+<ce> rjulf ghjqle nhfycajhvfwb<. F ntgthm bobnt
+<ce> Vfyntkke. ~tp ytt Njntv `tcgjktpty. D j`vty
+<ce> ds gjkexbnt j`j*fybt dctuj vbhf.
+
+Message:  1055
+<ce> Gjlptvysq Rjhjkm `eltn eljdktndjhty. Vyjuj
+<ce> ktn ghjikj c nt[ gjh, rfr @nf dtobwf `skf
+<ce> enthzyf. Vtyz ghjbycnhernbhjdfkb lfnm dfv
+<ce> @njn ghtlvtn. Bcgjkmpeqnt tuj velhj. F tckb
+<ce> ds yfqltnt Vfyntke, Gjlptvysq Rjhjkm `eltn
+<ce> jxtym ghbpyfntkty.
+
+Message:  1056
+<ce> Dfi bvgthfnjh `eltn jxtym `kfujlfhty. Bp-pf
+<ce> Njntvf vjukf yfxfnmcz uhf*lfycrfz djqyf, gjgflb
+<ce> jy yt d nt herb. Cgfcb`j dfv, %pcf.
+<ce> F ctqxfc dfv ye*yj jnghfdbnmcz r Yekmafut. Jyf
+<ce> [hfybn rk<x r Vfyntkkt. Jcdj`jlbnt Vfyntkke
+<ce> b bvgthfnjh gjkexbn rjynhjkm yfl Dtkbrbv
+<ce> Yevblbevjv c gjvjom< Njntvf.
+
+Message:  1060
+<ce> Pyfrjvsq ujkjc Yekmafub vzurj ghjybr d dfie
+<ce> ujkjde: "Z db*e, xnj Njntv yfitk cdjq genm
+<ce> d herb rjuj-nj rjhjktdcrjq rhjdb. Levf<,
+<ce> cfvjt dhtvz dfv yfytcnb vyt tot dbpbn d
+<ce> Itleyutyn, %pcn. Dfif hf`jnf tot
+<ce> yt pfrjyxtyf".
+
+Message:  1070
+<ce> Dtctkfz vjkjlfz ltdf dhexbkf dfv gbcmvj b
+<ce> elfkbkfcm, yfcdbcnsdfz jlye bpdtcnye< gtctyre.
+
+
+
+QBN:
+Item _letter_ letter used 1011
+Item _totem_ totem
+Item totemLetter1 letter used 1020
+Item _letter4_ letter used 1022
+Item totemLetter3 letter used 1024
+Item totemLetter4 letter used 1023
+Item totemLetter5 letter used 1021
+Item totemReward1 gold range 25000 to 25000
+Item _goldgoth_ gold range 10000 to 10000
+Item _artifact2_ artifact Necromancers_Amulet
+Item totemLetter6 letter used 1025
+Item _artifact4_ artifact Warlocks_Ring
+Item _I.12_ artifact Chrysamere
+Item totemReward2 gold range 25000 to 25000
+Item totemReward3 gold range 25000 to 25000
+Item totemReward4 gold range 25000 to 25000
+
+Person Brisienna face 1 named Lady_Brisienna
+Person _Gothryd_ named King_Gothryd atHome
+Person Eadwyre named King_Eadwyre atHome
+Person _Akorithi_ named Queen_Akorithi atHome
+Person Gortwog named Gortwog atHome
+Person _Underking_ face 1 faction Agents_of_The_Underking remote
+Person _Kingoworms_ named King_of_Worms atHome
+
+Place _daggerfall_ permanent DaggerfallCastle2
+Place _tavern_ remote tavern
+Place _temple_ remote temple
+Place _newplace_ remote house2
+
+Clock _2letter_ 7.00:00 14.00:00
+Clock _delay_ 00:02 0 flag 1 range 0 1
+Clock _S.08_ 366.00:00 0 flag 1 range 0 1
+Clock _S.10_ 7.00:00 14.00:00
+Clock _S.13_ 7.00:00 14.00:00
+Clock _S.18_ 3.00:00 9.00:00
+Clock _S.19_ 7.00:00 14.00:00
+Clock _S.20_ 3.00:00 7.00:00
+Clock _S.38_ 7.00:00 14.00:00
+
+Foe _F.00_ is 3 Knight
+Foe _F.01_ is Battle_mage
+
+--	Quest start-up:
+	start timer _2letter_
+
+_2letter_ task:
+	give pc _letter_ notify 1070
+	place npc Brisienna at _tavern_
+
+_meetladyb_ task:
+	clicked npc Brisienna
+	prompt QuestorOffer yes yes no _no_
+
+yes task:
+	place item _totem_ at _daggerfall_ marker 5
+	log 1010 step 0
+	say AcceptQuest
+	add Brisienna as questor
+
+_no_ task:
+	say RefuseQuest
+	end quest
+
+_S.04_ task:
+	clicked item _totem_
+	pc at _daggerfall_ set _S.06_
+	start timer _delay_
+
+_delay_ task:
+	start timer _S.08_
+	log 1017 step 1
+	say 1015
+
+variable _S.06_
+_S.07_ task:
+	when not _S.06_ and _S.04_
+	create foe _F.00_ every 1300 minutes 100 times with 10% success
+	start timer _S.38_
+	repute with _Akorithi_ exceeds 5 do _S.09_
+	repute with Eadwyre exceeds 15 do _S.12_
+	repute with Gortwog exceeds 10 do _S.15_
+	repute with _Underking_ exceeds 0 do _S.16_
+	repute with _Kingoworms_ exceeds 0 do _S.17_
+	have _totem_ set _S.27_
+	add Gortwog as questor
+	add _Akorithi_ as questor
+	add _Gothryd_ as questor
+	add Eadwyre as questor
+	place npc Brisienna at _newplace_
+
+_S.08_ task:
+	take _totem_ from pc
+
+_S.09_ task:
+	start timer _S.10_
+
+_S.10_ task:
+	give pc totemLetter1 notify 1030
+
+_S.11_ task:
+	when not _S.09_ and _S.07_
+	start quest 100 100
+
+_S.12_ task:
+	start timer _S.13_
+
+_S.13_ task:
+	give pc totemLetter5 notify 1031
+
+_S.14_ task:
+	when not _S.12_ and _S.07_
+	start quest 101 101
+
+_S.15_ task:
+	start timer _S.18_
+
+_S.16_ task:
+	start timer _S.20_
+
+_S.17_ task:
+	start timer _S.19_
+
+_S.18_ task:
+	give pc _letter4_ notify 1032
+
+_S.19_ task:
+	give pc totemLetter4 notify 1033
+
+_S.20_ task:
+	give pc totemLetter3 notify 1034
+	place npc _Underking_ at _temple_
+
+_S.21_ task:
+	when not _S.15_ and _S.07_
+	start quest 102 102
+
+_S.22_ task:
+	injured _F.00_
+	prompt 1040 yes _S.25_ no _S.26_
+	clear _S.22_ _S.26_ _S.28_ _S.29_
+
+_S.23_ task:
+	when not _S.17_ and _S.07_
+	start quest 103 103
+
+_S.24_ task:
+	when not _S.16_ and _S.07_
+	start quest 104 104
+
+variable _S.25_
+_S.26_ task:
+	say 1041
+
+_S.27_ task:
+	clear _S.31_
+
+_S.28_ task:
+	when _S.27_ and _S.25_
+	start task _S.31_
+	give item _totem_ to _F.00_
+	say 1042
+	restrain foe _F.00_
+
+_S.29_ task:
+	say 1043
+
+AkorithiGotTotem _S.30_
+	toting _totem_ and _Akorithi_ clicked
+	get item totemReward4
+	get item totemReward3
+	get item totemReward2
+	get item totemReward1
+	say 1050
+	make totemReward3 permanent
+	make totemReward2 permanent
+	make totemReward4 permanent
+	make totemReward1 permanent
+
+GothrydGotTotem _S.31_
+BrisiennaGotTotem _S.32_
+	toting _totem_ and Brisienna clicked
+	get item _artifact4_
+	say 1056
+	make _artifact4_ permanent
+
+KingOfWormsGotTotem _S.33_
+	toting _totem_ and _Kingoworms_ clicked
+	start quest 106 106
+	say 1054
+
+GortwogGotTotem _S.34_
+	toting _totem_ and Gortwog clicked
+	get item _I.12_
+	say 1052
+	make _I.12_ permanent
+
+UnderkingGotTotem _S.35_
+	toting _totem_ and _Underking_ clicked
+	get item _artifact2_
+	say 1055
+	make _artifact2_ permanent
+
+EadwyreGotTotem _S.36_
+	toting _totem_ and Eadwyre clicked
+	create foe _F.01_ every 1 minutes 5 times with 100% success
+	say 1051
+
+_S.38_ task:
+	give pc totemLetter6 notify 1070
+
+_S.39_ task:
+	when Nulfaga is available
+
+_S.40_ task:
+	when _S.43_ or _S.44_
+
+_S.41_ task:
+	when _S.39_ and _S.40_ and _S.07_
+	start quest 16 16
+
+_S.42_ task:
+	when _S.40_ and _S.07_
+	say 1060
+
+_S.43_ task:
+	when _S.28_ or _S.35_ or _S.36_ or _S.46_
+
+_S.44_ task:
+	when _S.30_ or _S.32_ or _S.33_ or _S.34_
+
+_S.45_ task:
+	when _S.08_ or _S.41_
+	drop _Akorithi_ as questor
+	drop Brisienna as questor
+	drop Eadwyre as questor
+	drop Gortwog as questor
+	drop _Gothryd_ as questor
+	end quest
+
+_S.46_ task:
+	toting _totem_ and _Gothryd_ clicked
+    get item _goldgoth_ from _Gothryd_
+    say 1053
+    make _goldgoth_ permanent
+	start task _S.31_

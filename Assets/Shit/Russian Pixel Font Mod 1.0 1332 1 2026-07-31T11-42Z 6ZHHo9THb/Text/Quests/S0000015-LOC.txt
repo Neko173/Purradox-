@@ -1,0 +1,261 @@
+-- Quest: C:\QUESTS\WORKING\S0000015.Qbn.
+-- Main story quest.
+-- QuestId: 15
+Messages: 46
+Quest: S0000015
+DisplayName: Vtcnm Kbpfylecf
+-- Message panels
+QRC:
+
+RumorsDuringQuest:  [1005]
+Pltcm `skb ytcrjkmrj cnhfyys[ k<ltq cghfibdfdib[ ghj %ra gj bvtyb %pcn.
+   <--->
+Yt yhfdbncz vyt dbl @nb[ ujkjdjhtpjd. ~kfujlfhtybt `jue %god, xnj jyb eikb.
+
+RumorsPostfailure:  [1006]
+Pdtpls ghtlcrfpsdf<n cj`snbz, rjnjhst ybrjulf yt ghjbpjqlen.
+   <--->
+Jgfcyst ghtlpyfvtyjdfybz lkz htubjyf %reg edbltys jhfrekjv.
+
+RumorsPostsuccess:  [1007]
+Z cksifk dtob, xnj lj`hjnf d D@qhtcnt dsctxtyf bp rfvyz.
+   <--->
+Z cksifk, xnj yfqltyj ntkj rjhjkz Kbpfylecf!
+
+QuestLogEntry:  [1010]
+Gj[j*t @nj kbxysq lytdybr kjhlf Del`jhyf.
+   <--->
+Kbxysq lytdybr kjhlf Del`jhyf.
+
+Message:  1011
+<ce> Cnhfybwf 7
+<ce>
+c ltncndf. Z pyf<, xnj Ujnhbl yt jndthuytn tuj gjvjom,
+yj z j`zpfy lj*lfnmcz cdjtuj xfcf. D rjywt rjywjd
+^kbptqy dct tot yfcktlybwf D@qhtcnf, f z tt k<`jdybr.
+^nj pyfxbn, xnj rjulf ^fldbh evhtn (f @nj c ybv
+ghjbpjqltn j`zpfntkmyj, hfyj bkb gjplyj), z cnfye
+rjhjktv.
+^[, tckb `s yt @nf cerf rjhjktdf b tt jnhjlmt, yj
+z ljk*ty b j`zpfy `snm nthgtkbdsv. "Ybrjulf yt dthm
+ntvyjve @kmae", - ujdfhbdfk vyt jlby cnfhbr - "gjnjve
+xnj ns yt vj*tim ghjxtcnm bcnbye d tuj ukfpf[". Tckb
+~fhtypbz gjqltn gj cdjtve genb, nj {tkctn `eltn
+yfcktljdfnm tq, f ^kbptqy `eltn j`dtyxfyf c rtv-yb`elm
+bp lfktrjuj lfktrjuj rjhjktdcndf. Vjhufqt `skj j`tofyj
+yfcktljdfybt d gthde< jxthtlm, yj tt lth*fn njkmrj
+lkz njuj, xnj`s hfcghjcnhfyznm ufljcnb j` ^kbptqy,
+ye b rjytxyj *t j`j vyt.
+~fhtypbz yt ljdthztn vyt, xnj z vjue crfpfnm.
+Z dsgjkybk tt xfcnm cltkrb, gjcnegbd c Kbpfylecjv,
+rfr b `skj ljujdjhtyj. Rfrjq *t z `sk lehfr, xnj
+cjukfcbkcz yf @nj. Ujhndju b tuj jhrb gjxnb ecgtkb
+cgfcnb tuj. Vyt ye*yj ljujdjhbnmcz c @nbvb gjkek<lmvb
+rfr njkmrj z pfqve nhjy D@qhtcnf.
+Dyfxfkt cfvjt df*yjt rjycjkblbhjdfnm jcyjde vjtq
+cbks b dkfcnb. Z vjue (gjxnb yt cjvytdf<cm) gjkj*bnmcz
+yf Ujnhblf lkz gjllth*rb vjtq gjgsnrb pf[dfnbnm nhjy,
+tckb {tkctn cnfytn yfcktlybrjv nhjyf. E vtyz tcnm
+ctnm igbjyjd, ybxtv yt ecnegf<ofz ctnb ^fldbhf, Ujnhblf,
+Frjhbnb bkb cfvjuj bvgthfnjhf. Djpvj*yj njkmrj ctnm
+igbjyjd ytrhjvfynjd b Gjlptvyjuj Rjhjkz `jktt j`ibhyf,
+yj d @njv z jxtym cbkmyj cjvytdf<cm. Ghj`ktvf - yfqnb
+cdt*bt abpbxtcrbt cbks. E vtyz ytn gjcnjzyyjq fhvbb.
+Vyt ye*yj pjkjnj, xnj`s gjlyznm
+
+Message:  1018
+%qdt:
+ Z yfitk ytcrjkmrj bpj`kbxbntkmys[ cnhfybw
+ d gjvtcnmt Del`jhyf. Edthty, kjhl Del`jhy
+ `eltn jxtym hfpmzhty tckb jyb gjgflen yt
+ d nt herb.
+
+Message:  1019
+%qdt:
+ Ghbphfr Kbpfylecf zdbkcz gthtlj vyjq b
+ hfccrfpfk, xnj njkmrj cvthnm bkb eyb*tybt
+ tuj e`bqws, kjhlf Del`jhyf, vj*tn ecgjrjbnm
+ tuj leie. Kjhl Del`jhy, ldjhzyby bp D@qhtcnf
+ b k<`jdybr ghbywtccs ^kbptqy. E ytuj tcnm
+ pfvjr ult-nj d uke`byt D@qhtcnf.
+
+Message:  1021
+Z cksifk, xnj kjhl Del`jhy `sk j`tpukfdkty pf bpvtye.
+   <--->
+Kjhl Del`jhy gjqvfy b rfpyty pf bpvtye.
+
+Message:  1022
+Ujdjhzn, cnfz lf@lhf cybpjikf lj kjhlf Del`jhyf b pf`hfkf tuj c cj`jq.
+   <--->
+Cke[b cj cnjhjys ujdjhzn, xnj xthyfz hjpf dshjckf d gjvtcnmt Del`jhyf!
+   <--->
+Z cksifk, xnj kjhl Del`jhy j`vfyek Ubkmlb< Vfujd. Jyb gjckfkb ltvjyjd e`bnm tuj.
+
+Message:  1024
+Z cksifk, xnj kjhl Del`jhy cj`bhftncz *tybnmcz yf ghbywtcct ^kbptqy.
+   <--->
+Kjhl Del`jhy d dscjrjq afdjht d @nb lyb d pfvrt D@qhtcn.
+
+Message:  1030
+<ce> ^nj vfkj xnj pyfxbn lkz vtyz. ^nj vecjh, rjnjhsq
+<ce> vj*yj ghjcnj c*txm. Ujnhbl b Del`jhy cgkfybhjdfkb
+<ce> e`bqcndj Kbpfylecf. ^nj ghfdlf! E[jlb.
+
+Message:  1031
+<ce> ^nj e*fcyj! B @nj gjckt dctuj njuj jrfpfyyjuj
+<ce> ldthbz jrfpfyyjve @njve ukegwe Del`jhye! Vs `skb
+<ce> ujnjds dslfnm ^kbptqy pf @ne pkj`ye< cdbym< --
+<ce> -- ghfrnbxtcrb ecflbnm yf nhjy D@qhtcnf d gjhzlrt
+<ce> gthdjq jxthtlb! Lheu vjq, %pcf, ds ghfdbkmyj cltkfkb,
+<ce> xnj cyfxfkf hfccrfpfkb dct yfv. Edthz< dfc, xnj
+<ce> kjhl Del`jhy `eltn fhtcnjdfy b rfpyty pf bpvtye,
+<ce> f tuj bvz `eltn dsxthryenj bp dct[ rybu xtcnb,
+<ce> tuj pyfrjvst ljghjitys gj gjkyjq ajhvt, f tuj
+<ce> bveotcndj rjyabcrjdfyj. D rfxtcndt `kfujlfhyjcnb
+<ce> djpmvbnt jn vtyz djn @nb _reward_ pjkjns[ vjytn,
+<ce> rfr ljk< rjyabcrjdfyyjuj bveotcndf Del`jhyf.
+
+Message:  1032
+<ce> Kjhl Del`jhy - e`bqwf vjtuj ljhjujuj Kbpfylecf.
+<ce> Tuj yfcnbuytn ghfdjcelbt b ghbltn jyj jn vjtq
+<ce> herb! Lkz dfc, %pcn, `eltn kexit lth*fnmcz
+<ce> rfrjt nj dhtvz gjlfkmit jn gjvtcnmz Del`jhyf b
+<ce> D@qhtcnf.
+
+Message:  1033
+<ce> ^nj jxtym wtyyfz byajhvfwbz, %pcf. Gjpdjkmnt
+<ce> vyt jn`kfujlfhbnm dfc cevvjq _gold_ pjkjns[.
+<ce> Nj xnj ds ghbytckb, jxtym ghbujlbncz vyt d
+<ce> uhzleotv rjyakbrnt.
+
+Message:  1034
+<ce> Ds ghfdbkmyj gjcnegbkb, ghbytcz @nj rj vyt.
+<ce> Byfxt @nj vjukj `s gjgfcnm nelf, ult ghbytckj
+<ce> `s dhtl kjhle Del`jhye.
+<ce> Cnhf*f! E`tqnt @njuj %ra!
+
+Message:  1040
+<ce> Ns! Nfr ns njn cfvsq %ra %pcn.
+<ce> Ns jxtym ljkuj `sk vjtq `jkmyjq pfyjpjq.
+<ce> Velhsq %ra, pfcnfdkz<obq ujdjhbnm gjrjzob[cz
+<ce> rjhjktq. Cfvj cj`jq nt[, lj rjnjhs[ z cvju
+<ce> ljnzyenmcz. Lf, %pcf, @nj z e`bk
+<ce> rjhjkz Kbpfylecf. F ntgthm z c eljdjkmcndbtv
+<ce> e`m< nt`z. Pfobofqcz!
+
+QuestTimeLapse:  [1045]
+<ce> "Cj vyjq...dct rjyxtyj. ^nj dct...
+<ce> ...Ujnhbl. Ujhb...d fle, %pcn.
+<ce> Z ghfrnbxtcrb...dct cltkfk cfv".
+<ce>
+<ce> Kjhl Del`jhy vthnd.
+
+
+
+QBN:
+Item WoodborneDiary letter anyInfo 1010 used 1011
+Item _reward_ gold range 10000 to 20000
+Item _gold_ gold
+
+Person Barenziah face 8 named Queen_Barenziah atHome
+Person Eadwyre named King_Eadwyre atHome
+Person _medora_ named Medora atHome
+Person _helseth_ named Prince_Helseth atHome
+Person Gothryd face 152 named King_Gothryd atHome
+Person _aubki_ named Queen_Aubk-i atHome
+Person _akorithi_ named Queen_Akorithi atHome
+Person KingOfWorms0 named King_of_Worms atHome
+Person _gortwog_ named Gortwog atHome
+Person _mynisera_ named Mynisera atHome
+Person _nulfaga_ named Nulfaga atHome
+
+Place WoodbourneHall2 permanent WoodbourneHall4
+Place WoodbourneHall1 permanent WoodbourneHall5
+
+
+Foe Woodborne is Knight
+Foe _F.01_ is Spellsword
+
+--	Quest start-up:
+	place item WoodborneDiary at WoodbourneHall2 marker 1
+	log 1019 step 2
+	reveal WoodbourneHall1 in province 23 at 194859
+	WoodborneDiary used do _S.01_
+	place foe Woodborne at WoodbourneHall1 marker 2
+
+_S.00_ task:
+	killed 1 Woodborne
+	say 1045
+
+_S.01_ task:
+	log 1018 step 3
+
+_S.02_ task:
+	injured Woodborne
+	say 1040
+	cast Spell_Reflection spell on Woodborne
+	cast Heal spell on Woodborne
+	cast Shield spell on Woodborne
+
+_S.03_ task:
+	toting WoodborneDiary and Eadwyre clicked
+	toting WoodborneDiary and _helseth_ clicked
+	toting WoodborneDiary and Barenziah clicked
+	get item _reward_
+	rumor mill 1021
+	say 1031
+	make _reward_ permanent
+	change repute with Eadwyre by +50
+
+_S.04_ task:
+	toting WoodborneDiary and _nulfaga_ clicked
+	toting WoodborneDiary and _medora_ clicked
+	toting WoodborneDiary and _mynisera_ clicked
+	rumor mill 1022
+	say 1032
+	change repute with _nulfaga_ by +25
+	change repute with _medora_ by +25
+
+_S.05_ task:
+	toting WoodborneDiary and _akorithi_ clicked
+	say 1030
+
+_S.06_ task:
+	toting WoodborneDiary and _aubki_ clicked
+	toting WoodborneDiary and Gothryd clicked
+	create foe _F.01_ every 1 minutes 5 times with 100% success
+	say 1034
+	change repute with Gothryd by -40
+	change repute with Eadwyre by -40
+	legal repute -50
+
+_S.07_ task:
+	toting WoodborneDiary and _gortwog_ clicked
+	toting WoodborneDiary and KingOfWorms0 clicked
+	get item _gold_
+	say 1033
+	make _gold_ permanent
+	change repute with _gortwog_ by +20
+	change repute with KingOfWorms0 by +20
+
+LiftedCurse _S.08_
+	when _S.03_ or _S.04_ or _S.00_
+	play video 13
+	remove log step 2
+	remove log step 3
+--added these remove log actions.
+--these logs would stay in the journal after catching Woodborne, which is confusing.
+
+_S.09_ task:
+	when _S.05_ or _S.07_ or _S.06_
+	end quest
+
+MyniseraSatisfied _S.10_
+GothrydGotTotem _S.11_
+
+_S.13_ task:
+	when _S.08_ and _S.10_ and _S.12_
+	start quest 8 8
+	end quest
+
+KingOfWormsSatisfied _S.12_

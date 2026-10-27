@@ -1,0 +1,248 @@
+-- Quest: C:\QUESTS\WORKING\A0C00Y17.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 17
+Messages: 51
+Quest: A0C00Y17
+DisplayName: ^crjhn
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vtyz pjden _questgiver_.
+<ce> Vyt ye*yj cjghjdj*ltybt. Yt cjukfcbntcm kb ds
+<ce> pfobofnm vtyz d vjtv gentitcndbb d __destination_?
+<ce> ^nj ghbvthyj d =traveltime_ lyz[ jnc<lf.
+   <--->
+<ce> Vtyz pjden _questgiver_.
+<ce> Vyt ye*yj et[fnm bp ___questgiver_.
+<ce> Z [jxe, xnj`s ds j[hfyzkb vtyz, gjrf z yt
+<ce> lj`thecm lj __destination_.
+<ce> Z pfgkfxe dfv _gold_ pjkjns[.
+   <--->
+<ce> Ds ljk*ys gjvjxm vyt! Vtyz pjden _questgiver_.
+<ce> Vyt ye*yj lj`hfnmcz lj __destination_ d
+<ce> ntxtybt =traveltime_ lytq b vyt ye*yf j[hfyf.
+
+RefuseQuest:  [1001]
+<ce> Jxtym yflt<cm, xnj yfqle rjuj-nj
+<ce> gjcujdjhxbdtt.
+   <--->
+<ce> ~tcthltxysq `jkdfy!
+
+AcceptQuest:  [1002]
+<ce> Lf gfltn yf dfc `kfujckjdtybt, %pcn.
+<ce> Z gentitcnde< yfkturt, nfr xnj z dctulf
+<ce> ujnjd d genm. Pyf<, xnj ds hf`jnftnt yt
+<ce> `tcgkfnyj. Cjghjdjlbnt vtyz lj _destination_
+<ce> d __destination_ b z pfgkfxe dfv
+<ce> _gold_ pjkjns[, rjulf lj`thtvcz.
+
+QuestComplete:  [1004]
+<ce> Fuf! _destination_! Ds
+<ce> gjkyjcnm< dsgjkybkb cdj< xfcnm
+<ce> ljujdjhf. Djn dfit pjkjnj, rfr
+<ce> b ljujdfhbdfkbcm.
+
+RumorsDuringQuest:  [1005]
+<ce> Z cksifk, xnj cnhf*ybrb boen rjt-rjuj:
+<ce> _questgiver_. %g [jxtn `t*fnm bp ujhjlf.
+   <--->
+<ce> Hfpdt ds yt pyftnt? Ubkmlbz Djhjd
+<ce> j[jnbncz pf _questgiver_. Bkb Ntvyjt
+<ce> ~hfncndj. Yt pyf< njxyj.
+   <--->
+<ce> Z cksifk, xnj _questgiver_ ghbyelbkb r *tybnm`t.
+<ce> %g cj`bhftncz cvsnmcz d __destination_ ght*lt, xtv
+<ce> `thtvtyyjcnm cnfytn jxtdblyf.
+
+RumorsPostfailure:  [1006]
+<ce> Jyb gjqvfkb _questgiver_.
+<ce> Yf cktle<otq ytltkt %g ghtlcnfytn
+<ce> gthtl celjv.
+
+RumorsPostsuccess:  [1007]
+<ce> Ds cks[fkb? Rfrjq-nj %ra gjvju nfqyj
+<ce> _questgiver_ crhsnmcz bp ujhjlf.
+<ce> Yflt<cm j`f `elen j`tpukfdktys.
+
+QuestorPostsuccess:  [1008]
+<ce> Cgfcb`j pf `tpjgfcyjt gentitcndbt,
+<ce> %pcf. Z j`zpfntkmyj `ele
+<ce> htrjvtyljdfnm dfc vjbv lhepmzv.
+
+QuestorPostfailure:  [1009]
+<ce> Ds! Njkmrj gjnjve, xnj ds yt gjvjukb vyt,
+<ce> Ubkmlbz Djhjd j`jrhfkf vjq vfufpby!
+<ce> E[jlbnt ghjxm!
+
+QuestLogEntry:  [1010]
+%qdt:
+ Dcnhtxfkbcm c _questgiver_
+ d ___questgiver_. %g
+ cjukfcbkcz pfgkfnbnm vyt pf tuj j[hfye
+ dj dhtvz gentitcndbz d _destination_, xnj
+ yf[jlbncz d __destination_.
+ D xfcnyjcnb ytj`[jlbvj ecgtnm lj bc[jlf
+ =traveltime_ lytq.
+
+Message:  1019
+<ce> _questgiver_ crfpfk: "{f!
+<ce> B z yfyzk @njuj %ra pfobofnm vtyz.
+<ce> %pcn, ds xnj, ghjnbd vtyz?"
+
+Message:  1020
+<ce> Cnjznm! E vtyz jhlth yf fhtcn
+<ce> _questgiver_ jn bvtyb pfrjyf %reg.
+<ce> Ds yfv yt ye*ys, njkmrj %g.
+<ce> Jnlfqnt %g4 yfv b ds cdj`jlys.
+
+Message:  1021
+<ce> Ytn ytj`[jlbvjcnb d lhfrt. Yfif
+<ce> wtkm - _questgiver_. Ubkmlbz
+<ce> Vfujd yt gjnthgbn ghtlfntkmcndf.
+<ce> Jnlfqnt tuj yfv b vj*tnt blnb yf
+<ce> dct xtnsht cnjhjys.
+
+Message:  1022
+<ce> Ghjxm c ljhjub, %ra! Yfv ye*ty
+<ce> _questgiver_, b ns yt cvj*tim
+<ce> jcnfyjdbnm yfc. Jnlfq tuj yfv.
+<ce> ^q, _questgiver_. Ns *s yt levftim,
+<ce> xnj vj*tim `tpyfrfpfyyj j`vfysdfnm
+<ce> Ubkmlb< Djhjd?
+
+Message:  1023
+<ce> D cnjhjye, %ra.
+<ce> _questgiver_ hfpscrbdftncz
+<ce> Ntvysv ~hfncndjv. Ds *t yt lehfr,
+<ce> xnj`s cnfyjdbnmcz vt*le vjkjnjv b yfrjdfkmytq?
+
+Message:  1030
+<ce> _questgiver_ e`bn
+<ce> ghzvj yf dfib[ ukfpf[.
+
+Message:  1040
+<ce> Ds ds`hfkb cdjq genm. E`bnm b[ j`jb[!
+
+Message:  1050
+<ce> Ds c keys cdfkbkbcm, %pcn?
+<ce> Yflt<cm, z cfv lj`thecm lj
+<ce> __destination_.
+<ce> Cgfcb`j yf pf xnj, ybrxtvysq
+<ce> ytujlybr!
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _questgiver_ group Questor
+Person _mage_ faction The_Mages_Guild remote
+Person _thief_ faction The_Thieves_Guild remote
+Person _darkb_ faction The_Dark_Brotherhood remote
+
+Place _destination_ remote random
+
+Clock _traveltime_ 00:00 0 flag 1 range 0 2
+Clock _extratime_ 03:00 0 flag 1 range 0 1
+
+Foe _mages_ is 2 Mage
+Foe _F.01_ is 2 Thief
+Foe _guards_ is 2 Warrior
+Foe _F.03_ is 2 Assassin
+
+--	Quest start-up:
+	start timer _traveltime_
+	log 1010 step 0
+	pick one of _S.01_ _S.02_ _S.14_ _S.03_
+	hide npc _questgiver_
+	add _questgiver_ face
+	create npc at _destination_
+
+variable _traveltime_
+_S.01_ task:
+	create foe _guards_ every 5 minutes 5 times with 20% success
+
+_S.02_ task:
+	create foe _mages_ every 5 minutes 3 times with 25% success
+
+_S.03_ task:
+	create foe _F.01_ every 5 minutes 3 times with 25% success
+
+variable _S.04_
+_S.05_ task:
+	injured _mages_ saying 1021
+	injured _guards_ saying 1020
+	injured _F.03_ saying 1023
+	injured _F.01_ saying 1022
+	prompt 1019 yes _yes_ no _no_
+--added underscores to yes
+
+_S.06_ task:
+	give pc _gold_
+	drop _questgiver_ face
+	place npc _questgiver_ at _destination_
+	end quest
+
+_extratime_ task:
+	end quest
+
+_yes_ task:
+	start timer _extratime_
+	say 1030
+	drop _questgiver_ face
+
+until _yes_ performed:
+	pc at _destination_ set _S.06_
+
+_no_ task:
+	say 1040
+
+variable _S.10_
+_S.11_ task:
+	when _yes_ and _S.01_
+	legal repute +10
+	restrain foe _guards_
+
+_S.12_ task:
+	when _yes_ and _S.02_
+	change repute with _mage_ by +10
+	restrain foe _mages_
+
+_S.13_ task:
+	when _yes_ and _S.03_
+	change repute with _thief_ by +10
+	restrain foe _F.01_
+
+_S.14_ task:
+	create foe _F.03_ every 5 minutes 3 times with 25% success
+
+_S.15_ task:
+	when _yes_ and _S.14_
+	change repute with _darkb_ by +10
+	restrain foe _F.03_
+
+_S.16_ task:
+	when _no_ and _S.03_
+	change repute with _thief_ by -20
+
+_S.17_ task:
+	when _no_ and _S.01_
+	legal repute -20
+
+_S.18_ task:
+	when _no_ and _S.02_
+	change repute with _mage_ by -20
+
+_S.19_ task:
+	when _no_ and _S.14_
+	change repute with _darkb_ by -20
+
+_S.20_ task:
+	when _traveltime_ and not _S.06_
+	say 1050
+	drop _questgiver_ face
+	end quest

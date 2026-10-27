@@ -1,0 +1,181 @@
+-- Quest: C:\QUESTS\WORKING\S0000005.Qbn.
+-- Main story quest.
+-- QuestId: 5
+Messages: 12
+Quest: S0000005
+DisplayName: Pf`jnf j Yekmafut
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vfnm vjtuj ve*f, Yekmafuf, gj cke[fv
+<ce> ytpljhjdf, f tt ytrjulf `ktcnzobq ev
+<ce> gjnecrytk. Jyf pfgthkfcm d etlbytybb d
+<ce> cdjtv pfvrt d hfqjyt Dhjnufhbfycrb[ ujh
+<ce> b @rcgthbvtynbhetn c vfubxtcrbvb yferfvb
+<ce> `tp jgfctybz pf cdj< *bpym. Z d rehct
+<ce> tt cjcnjzybz, yj njkmrj yt `jzobqcz dcnfnm
+<ce> kbwjv r e*fcfv, yfctkz<obv tt pfvjr, vj*tn
+<ce> gjujdjhbnm c ytq. Yfuhflf pf jnxtn j
+<ce> tt pljhjdmt - _magicitem_.
+<ce> Cjukfcys kb ds dsgjkybnm @nj?
+
+RefuseQuest:  [1001]
+<ce> Vjkxfybt - pjkjnj. Ntv yt vtytt
+<ce> @nj jujhxftn.
+
+AcceptQuest:  [1002]
+<ce> %oth, rfr z hflf, xnj yfikf
+<ce> cgjcj`yjuj `hjcbnm dspjd. Yfpsdftncz
+<ce> tt pfvjr Itleyutyn, genb lj ytuj yt
+<ce> `jkmit =2shedungent_ lytq. Tckb jyf
+<ce> ltqcndbntkmyj `tpevyf, nj Itleyutyn
+<ce> vj*tn `snm dtcmvf jgfcty lkz gjctnbntktq.
+<ce> ~elmnt jxtym jcnjhj*ys. Lf pfobnzn dfc
+<ce> Rbyfhtn b Vfhf.
+
+QuestFail:  [1003]
+<ce> Gjrf ds yt gjj`oftntcm c Yekmafujq,
+<ce> vyt yt j xtv c dfvb hfpujdfhbdfnm.
+
+QuestComplete:  [1004]
+<ce> Ghbpyf<cm, vyt jxtym ghbznyj dbltnm dfc
+<ce> cyjdf. Yjdjcnm, xnj Yekmafuf dct tot *bdf,
+<ce> uhttn vjt cthlwt. Djn dfif yfuhflf:
+<ce> _magicitem_.
+
+RumorsDuringQuest:  [1005]
+C xtuj `s @nj rjhjktdt ghjzdkznm nfre< jpf`jxtyyjcnm celm`jq cnfhjq `tpevyjq Yekmafub?
+   <--->
+Yekmafuf ybrnj byfz, rfr cevfcitlifz dtlmvf. C xtuj `s @nj Fe`r-b djkyjdfnmcz pf ytt?
+
+RumorsPostfailure:  [1006]
+Rjhjktdf gjckfkf tot jlyjuj yftvybrf, rjulf @njn %ra yt cvju yfqnb Yekmafue.
+   <--->
+Rjhjktdf Fe`r-b yt cj`bhftncz ljkuj *lfnm djpdhfotybz @njuj %ra. Jyf yfqltn lheujuj yftvybrf.
+
+RumorsPostsuccess:  [1007]
+Ghbznyj dbltnm Fe`r-b cxfcnkbdjq. E ytt jxtym ghbznyfz eks`rf.
+   <--->
+Lfdyj Fe`r-b yt dsukzltkf nfrjq cxfcnkbdjq. Jyf dsukzlbn nfr ... rfr-`elnj tq gjktuxfkj.
+
+QuestorPostsuccess:  [1008]
+Cgfcb`j, xnj yfikb dhtvz cjdthibnm @nj jgfcyjt gentitcndbt d Itleyutyn b ghjdtlfkb Yekmafue.
+
+QuestorPostfailure:  [1009]
+Fuf, %pcn. Njn cfvsq %ra, jnrfpfdibqcz ghjdtlfnm vfnm vjtuj gjrjqyjuj ve*f.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Fe`r-b, rjhjktdf Lfuuthajkkf gjghjcbkf vtyz
+ ghjdthbnm cjcnjzybt tt `f`eirb, Yekmafub.
+ Vyt ye*yj yfdtlfnmcz d pfvjr Yekmafub gjl
+ yfpdfybtv Itleyutyn dj Dhjnufhbb b gjujdjhbnm
+ c ytq, tckb jyf *bdf. E vtyz =2shedungent_ lyz,
+ xnj`s ljkj*bnm j tt cjcnjzybb Fe`r-b b gjkexbnm
+ yfuhfle.
+
+Message:  1011
+<ce> Cjtlbyzzcm, vsckb b cjdtns hfdys yflt*lt.
+<ce> Jgfcyjcnm nfbkfcm d nfrjv dtkbrjktgyjv
+<ce> hfpdktxtybb. Gjitlibq pf vyjq jlyf*ls
+<ce> ntgthm ght`sdftn d ytdpujlf[. F @nj
+<ce> hfdyjcbkmyj hebyfv! Dtxysv, dtxysv b
+<ce> dtxysv hebyfv. Z pfcnfdbkf ct`z PFRHSNM LDTHM
+<ce> cdjtq leib. J[, lbnz vjt, ye gjxtve ns
+<ce> yt gjckeifkcz vtyz. Ndjb eib, ndjt rhfcbdjt
+<ce> b ujhljt, yj cvthnyjt kbwj, ndjq hjn, ndjb
+<ce> `hjdb. J[ ujht vyt ujht.
+   <--->
+<ce> Ckjdf vjuen e`bdfnm, b ytrjve ntgthm ghjxtcnm b[!
+<ce> Cnb[b, cnb[b kt*fn d jcyjdt pfrkznbq, rfr
+<ce> e*fcyjt ghjrkznbt yt`tc! Ghjrkznsq J`kbdbjy!
+<ce> Vjq vfkmxbr! Vjq vfkmxbr vthnd b gecnm dtcm
+<ce> Nfvhb@km lhj*bn d cnhf[t, gjrf r ytve yt
+<ce> ghbltn gjrjq. PFRHJQNT LDTHM r tuj uhj`ybwt
+<ce> b vjtve ljve.
+   <--->
+<ce> Crf*b, `jubyz, xnj pf cnhfyyfz ghbxbyf! Xnj pf
+<ce> cnhtkf j`jhdfkf ls[fybt vjtuj k<`bvjuj Kbpfylecf?
+<ce> ~sk kb jy gj[jhjyty b `kfujckjdkty, f dct vjb
+<ce> hexyst gnbxrb ghtdhfnbkbcm d rkfl`botycrb[ djhjy?
+<ce> PFRHJQCZ, LDTHWF r vjtve cthlwe, xnj` yt `skj nfr
+<ce> [jkjlyj b vthprj. Dtplt bcrfkf z, d pfuhj`yjv vbht,
+<ce> d gjlptvyjv b vt*le vbhfvb, yj nfr b yt yfikf cdtn
+<ce> leib vjtuj csyf. J[, xnj pf `tpevbt dcrjhvbkf
+<ce> uhelm< z cdjtq.
+   <--->
+<ce> Vs dctuj kbim rfr vthndst cntys bkb pfgtxfnfyyst
+<ce> vjubks, rjnjhst hfpheitys b ytn jn yfc jndtnf.
+<ce> J, @njn vhfxysq vbh, d rfre< ntym bkb ntvyjne
+<ce> yt`snbz ct`z gjuhe*ftn hfcgenyfz b e*fcf<ofz
+<ce> *bpym k<ltq. Rfr *t yfitk Kbpfylec cvthnm cdj<?
+<ce> Eds, vyt @nj ytbpdtcnyj. Pf`dtybt uhzltn bkm ytn?
+<ce> PF{KJGYB LDTHM vj< b jcnfymcz gjl @nbv cthsv yt`jv.
+<ce> Z xedcnde<, rfr `kbprf r ytve, bkb @nj dctuj
+<ce> kbim pthrfkj, gjrfpsdf<ott jujym, jrenfdibq
+<ce> dtcm vbh? Z yt vjue pfcyenm: d vjtq gjleirt
+<ce> dvtcnj gthbys cgkjim bujkrb.
+
+
+
+QBN:
+Item _magicitem_ magic_item
+
+Person _nulfaga_ named Nulfaga atHome
+Person _aubki_ named Queen_Aubk-i atHome
+
+Place _huntstart_ permanent Shedungent2
+
+Clock _2shedungent_ 150.00:00 0 flag 1 range 0 1
+
+
+--	Quest start-up:
+	start timer _2shedungent_
+	log 1010 step 0
+	prompt QuestorOffer yes yes no _no_
+
+_2shedungent_ task:
+	drop _aubki_ as questor
+	end quest
+
+_S.01_ task:
+	clicked npc _nulfaga_
+	say 1011
+
+_pcgetsgold_ task:
+	when _S.03_ and _S.01_
+	give pc _magicitem_
+	start quest 107 107
+	stop timer _2shedungent_
+	repute with _aubki_ exceeds 15 do _S.11_
+	change repute with _aubki_ by +10
+	mute npc _aubki_
+	drop _aubki_ as questor
+
+_S.03_ task:
+	clicked npc _aubki_
+
+variable _2letter_
+variable _S.05_
+variable _S.06_
+variable _S.07_
+yes task:
+	reveal _huntstart_ in province 16 at 50966
+	say AcceptQuest
+	add _aubki_ as questor
+
+_no_ task:
+	say RefuseQuest
+	drop _aubki_ as questor
+	end quest
+
+_clearclick_ task:
+	when _S.03_ and not _S.01_
+	clear _S.03_ _clearclick_
+
+variable _S.11_
+_S.12_ task:
+	when _S.11_ and _pcgetsgold_
+	start quest 13 13
+	end quest

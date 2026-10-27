@@ -1,0 +1,163 @@
+-- Quest: C:\QUESTS\WORKING\R0C11Y19.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 11
+-- QuestId: 19
+Messages: 22
+Quest: R0C11Y19
+DisplayName: Gjlfhjr bvgthfnjhf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> E vtyz ckj*bkfcm dtcmvf ltkbrfnyfz cbnefwbz,
+<ce> %pcf. Tckb `s z vju hfccxbnsdfnm yf
+<ce> dfit ecthlbt b vjkxfybt, nj ds gjkexbkb `s
+<ce> [jhjitt djpyfuhf*ltybt, crf*tv, _reward_ pjkjns[
+<ce> pf bp`fdktybt vtyz jn cnhflfybq.
+<ce> Xnj crf*tnt?
+
+RefuseQuest:  [1001]
+<ce> %oth, ghjgflb dct ghjgfljv, %oth!
+<ce> Vtyz jrhe*f<n fgfnbxyst ktynzb!
+<ce> Ybxtuj kbxyjuj, %pcf.
+
+AcceptQuest:  [1002]
+<ce> Xnj *, @nj jxtym [jhjij. Yt nfr lfdyj,
+<ce> dj dhtvz abyfycjdjuj egflrf, vyt ghbikjcm
+<ce> pfkj*bnm rjkmwj, gjlfhtyyjt vyt kbxyj
+<ce> bvgthfnjhjv. Vyt levfkjcm, xnj Ehb@k<
+<ce> Ctgnbve ybrjulf yt ghbltn d ujkjde gjctnbnm
+<ce> @njn eujkjr bvgthbb, yj ytlfdyj ghjikb cke[b,
+<ce> xnj pltcm gjzdbkbcm tuj k<lb b vyt jxtym
+<ce> pf[jntkjcm dthyenm rjktxrj ct`t j`hfnyj.
+<ce> _contact_ bp __contact_
+<ce> d ___contact_, `eltn lth*fnm tuj e ct`z yt
+<ce> `jktt =1stparton_ lytq. Djn pjkjnj lkz dsregf
+<ce> rjkmwf. Elfxb b gecnm %god ecrjhbn dfit
+<ce> gentitcndbt.
+
+QuestFail:  [1003]
+<ce> Vjt rjkmwj, %pcf! %god, ult
+<ce> gjnthzyyjt rjkmwj, pf rjnjhsv z nt`z gjcskfk?
+<ce> Ult jyj? Tckb ns gjnthzk tuj,
+<ce> z clthe c nt`z irehe!
+
+QuestComplete:  [1004]
+<ce> J, @nj ghjcnj dtkbrjktgyj, rjkmwj! ~kfujlfh<
+<ce> dfc, jxtym `kfujlfh<, %pcf.
+<ce> Djn _reward_ pjkjns[, rfr b `skj j`tofyj.
+<ce> Ljhjufz dtobwf, yj jyf cnjbn njuj.
+
+RumorsDuringQuest:  [1005]
+K<lb bvgthfnjhf cnfhf<ncz yt ghbdktrfnm r ct`t dybvfybz, rjulf gjzdkz<ncz d ujhjlt.
+   <--->
+Jyb cnfhf<ncz yt cdtnbnmcz; k<lb bvgthfnjhf vjuen `snm dtplt, rfr ujdjhzn.
+
+RumorsPostfailure:  [1006]
+Vyt ujdjhbkb, xnj _questgiver_ yt d djcnjhut jn dcnhtxb c bvgthwfvbe.
+   <--->
+Gj rfrjq-nj ghbxbyt, _questgiver_ `jkmit yt d afdjht e bvgthfnjhf.
+
+RumorsPostsuccess:  [1007]
+_questgiver_ ecnhjbk bvgthcrbv cke*fobv gsiysq ghbtv, z vjue tuj gjyznm.
+   <--->
+Bvgthcrbt cke*fobt jrfpfkbcm ljdjkmys jrfpfyysv ghbtvjv.
+
+QuestorPostsuccess:  [1008]
+F, ghbdtn, cgfcbntkm rjkmwf. Xnj z vjue cltkfnm lkz dfc?
+   <--->
+Ds gjvjukb vyt jcnfnmcz yf [jhjitv cxtne e bvgthfnjhf. Xnj z vjue cltkfnm lkz dfc?
+
+QuestorPostfailure:  [1009]
+<ce> Bvgthcrbt @vbccfhs yt pfvtnbkb ghjgf*b
+<ce> rjkmwf, `kfujlfhtybt %god.
+<ce> Ytcvjnhz yf @nj vyt ytghbznyj
+<ce> dbltnm dfc pltcm, %pcf.
+
+QuestLogEntry:  [1010]
+<ce> Ljk*yj `snm ds %pcf. Dfv gjdtpkj,
+<ce> ds rfr hfp djdhtvz. Z e*t cj`bhfkcz
+<ce> ghjlfnm rjkmwj d nhtnmb herb. Yfcrjkmrj
+<ce> z gjybvf<, _questgiver_ [jxtn rjkmwj j`hfnyj
+<ce> ght*lt, xtv ghb`elen ujcelfhcndtyyst ve*b
+<ce> bvgthbb. Dfv cktletn gjnjhjgbnmcz, dhtvtyb
+<ce> cjdctv vfkj.
+
+Message:  1015
+%qdt:
+ _questgiver_ bp
+ ___questgiver_ gjckfk vtyz
+ ___contact_ d __contact_,
+ ult yf[jlbncz _contact_ c rjkmwjv,
+ rjnjhjt _questgiver_ pfkj*bk.
+ Vyt ye*yj pfgkfnbnm pf rjkmwj pjkjnjv,
+ rjnjht vyt lfk _questgiver_,
+ f gjnjv dthyenmcz j`hfnyj d __questgiver_.
+ Yf dct ghj dct e vtyz ghbvthyj =1stparton_ lytq.
+
+Message:  1020
+<ce> Jnlfq rjkmwj. ^nj vj*yj cltkfnm
+<ce> gj-[jhjitve bkb gj-gkj[jve.
+<ce> Nt`t htifnm. D k<`jv ckexft
+<ce> rjkmwj `eltn e yfc.
+
+Message:  1021
+<ce> Lehfxbyf. Ctqxfc ns evhtim. Yte*tkb
+<ce> ns ltqcndbntkmyj levftim, xnj
+<ce> vs jcnfdkztv cdbltntktq d *bds[?
+
+
+
+QBN:
+Item _reward_ gold
+Item _item1_ gold_bar
+Item _item2_ ring
+
+Person _questgiver_ face 72 group Questor
+Person _contact_ face 80 group Pawnbroker remote
+
+
+Clock _1stparton_ 00:00 0 flag 17 range 1 4
+
+Foe _F.00_ is 2 Knight
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1015 step 0
+	get item _item1_
+
+_pcgetsgold_ task:
+	toting _item2_ and _questgiver_ clicked
+	give pc _reward_
+	end quest
+
+variable _queston_
+variable _qgclicked_
+variable _npcclicked_
+_1stparton_ task:
+	make _item2_ permanent
+	make _item1_ permanent
+	change repute with _questgiver_ by -50
+	end quest
+
+variable _pchasitem1_
+_pchasitem2_ task:
+	toting _item1_ and _contact_ clicked
+	create foe _F.00_ every 5 minutes 3 times with 35% success
+	get item _item2_
+	say 1010
+
+yes task:
+	have _item2_ set _S.09_
+
+variable _no_
+_S.09_ task:
+	give item _item2_ to _F.00_
+	say 1021
+--moved "saying 1021" to its own line, wouldn't work otherwise
+
+_S.10_ task:
+	injured _F.00_
+	prompt 1020 yes yes no _no_

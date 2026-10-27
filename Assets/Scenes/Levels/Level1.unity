@@ -218,8 +218,8 @@ MonoBehaviour:
   star1: {fileID: 424414468}
   star2: {fileID: 1825216368}
   star3: {fileID: 1445251882}
-  stepsFor3Stars: 7
-  stepsFor2Stars: 10
+  stepsFor3Stars: 8
+  stepsFor2Stars: 12
 --- !u!1001 &163086932
 PrefabInstance:
   m_ObjectHideFlags: 0

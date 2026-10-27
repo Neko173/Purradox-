@@ -1,0 +1,149 @@
+-- Quest: C:\QUESTS\WORKING\A0C10Y02.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 10
+-- QuestId: 2
+Quest: A0C10Y02
+DisplayName: Gj[botyyjt lbnz
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> E vtyz ujht. Ntvyjt ~hfncndj gj[bnbkj
+<ce> vjtuj ht`tyrf _child_ b uhjpbn e`bnm
+<ce> tuj, tckb z yt pfgkfxe dsreg. E vtyz ytn
+<ce> cnjkmrj ltytu, xnj`s regbnm tuj cdj`jle,
+<ce> yj z d cjcnjzybb pfgkfnbnm dfv _money_
+<ce> pjkjns[, tckb ds yfqltnt b jcdj`jlbnt tuj.
+   <--->
+<ce> Vjt lbnz, vjt `tlyjt lbnz _child_
+<ce> ghjgfkj, gj[botyj Ntvysv ~hfncndjv,
+<ce> lf*t yt pyf< pf rfrbt ghtuhtitybz gthtl
+<ce> %god. Ds ljk*ys gjvjxm vyt, %pcf.
+<ce> Z lfv dfv dct xnj e vtyz tcnm, _money_
+<ce> pjkjns[, tckb ds dthytnt vyt vjtuj ht`tyrf.
+
+RefuseQuest:  [1001]
+<ce> Rfrjq xthysq ltym lkz vtyz.
+<ce> Ntvyjt ~hfncndj e`mtn _child_.
+<ce> Gecnm %g4 ghbphfr `eltn ghtcktljdfnm
+<ce> dfc lj crjyxfybz dfib[ lytq!
+
+AcceptQuest:  [1002]
+<ce> Ds vjq cgfcbntkm! Vtyz pjden _qgiver_.
+<ce> ~scnhtt, e dfc tcnm njkmrj =timeforq_ lytq,
+<ce> gjrf jyb yt e`bkb _child_. Vjtuj ht`tyrf
+<ce> lth*fn d _dbguild_ d __dbguild_.
+
+QuestFail:  [1003]
+<ce> _child_? Ult %g? Gjxtve ds dct tot
+<ce> pltcm? Tckb ds [jnbnt cgfcnb tuj *bpym,
+<ce> nj ltqcndeqnt ytvtlktyyj!
+
+QuestComplete:  [1004]
+<ce> _child_! Ns d gjhzlrt!
+<ce> %pcf, z d ytjgkfnyjv ljkue gthtl dfvb.
+<ce> ^nj djpyfuhf*ltybt - vbybvev njuj, xnj
+<ce> z vjue lkz dfc cltkfnm.
+
+RumorsDuringQuest:  [1005]
+<ce> Ntvyjt ~hfncndj pfikj ckbirjv lfktrj yf
+<ce> @njn hfp. Gj[botybt ht`tyrf _qgiver_
+<ce> yt ghjqltn bv lfhjv!
+
+RumorsPostfailure:  [1006]
+<ce> Yt levf<, xnj _qgiver_ gtht*bdtn @nj.
+<ce> Djpvj*yj ltkj ljqltn lj cebwblf. Ds cks[fkb,
+<ce> xnj Ntvyjt ~hfncndj gj[bnbkj b e`bkj tuj
+<ce> ht`tyrf _child_?
+
+
+RumorsPostsuccess:  [1007]
+<ce> Ds njn %ra, rjnjhsq yfitk lbnz
+<ce> _child_! Xnj pf uthjq.
+
+QuestorPostsuccess:  [1008]
+<ce> Cgfcbntkm vjtuj ht`tyrf! Z b _child_
+<ce> `kfujlfhbv dfv pf %g4 cgfctybt.
+<ce> ~kfujckjdkz< dfc, %pcf.
+
+QuestorPostfailure:  [1009]
+<ce> Vjt lbnz _child_ vthndj gj dfitq
+<ce> dbyt! Ybrjulf yt ghb[jlbnt `jkmit rj vyt.
+
+QuestLogEntry:  [1010]
+<ce> Ds pltcm, xnj`s cgfcnb vtyz? Vtyz pjden
+<ce> _child_. Vyt yt yhfdzncz
+<ce> @nb k<lb. Gj*fkeqcnf, dthybnt vtyz
+<ce> ljvjq r ctvmt.
+
+Message:  1011
+<ce> _dbguild_ ntvys b pkjdtob.
+<ce> Edthty, dhfub hsoen gjdc<le.
+
+Message:  1012
+%qdt:
+ _qgiver_ hfccrfpfk vyt
+ leithfplbhf<oe< bcnjhb< gj[botybz tuj
+ ht`tyrf _child_ Ntvysv ~hfncndjv.
+ Z ytvtlktyyj cjukfif<cm hfpscrfnm b
+ pf`hfnm %g4 bp _dbguild_ d
+ __dbguild_.  %g4 ctvmz `eltn *lfnm
+ =timeforq_ lytq vjtuj djpdhfotybz d
+ __qgiver_ d ___qgiver_.
+
+Message:  1020
+<ce> Ybrnj yt cdzpsdftncz c Ntvysv ~hfncndjv b
+<ce> cvttn jcnfdfnmcz d *bds[!
+
+
+
+QBN:
+Item _money_ gold
+
+Person _child_ face 1 faction Children remote
+Person _qgiver_ face 121 group Questor
+Person _dummydarkb_ face 169 faction The_Dark_Brotherhood remote
+
+Place _dbguild_ remote house1
+
+Clock _timeforq_ 00:00 0 flag 17 range 1 4
+
+Foe _darkb_ is Assassin
+
+--	Quest start-up:
+	dialog link for person _child_
+	start timer _timeforq_
+	log 1012 step 0
+	pc at _dbguild_ set _S.01_ saying 1011
+	place npc _child_ at _dbguild_
+
+_timeforq_ task:
+	end quest
+
+_S.01_ task:
+	create foe _darkb_ every 2 minutes 4 times with 30% success
+
+_S.02_ task:
+	clicked npc _child_ say 1010
+	hide npc _child_
+	add _child_ face
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_vamp1_ task:
+	when _qgclicked_ and _S.02_
+	give pc _money_
+	change repute with _dummydarkb_ by -15
+	end quest
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.02_
+	say 1003
+	clear _qgclicked_ _clearclick_
+
+_S.06_ task:
+	injured _darkb_
+	say 1020

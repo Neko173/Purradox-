@@ -1,0 +1,205 @@
+-- Quest: C:\QUESTS\WORKING\C0C00Y10.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: temple
+-- Repute: 0
+-- QuestId: 10
+Messages: 26
+Quest: C0C00Y10
+DisplayName: Bcwtktybt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Kexibq cgjcj` gjlyznm cdj< htgenfwb<
+<ce> d [hfvt - bcwtkbnm rjuj-yb`elm. Z
+<ce> pyf< jlyj ltkj, rjnjhjt vj*tn dfc
+<ce> pfbynthtcjdfnm, %pcn.
+<ce> Djpmvtntcm?
+   <--->
+<ce> Z _giver_. Ds
+<ce> ytljcnfnjxyj dscjrb d bthfh[bb
+<ce> __giver_. Z pfvjkdk<
+<ce> pf dfc ckjdtxrj, tckb ds bcwtkbnt
+<ce> rjuj-nj, rjuj z pyf<.
+
+RefuseQuest:  [1001]
+<ce> Ye tckb ds ltqcndbntkmyj yt d
+<ce> cjcnjzybb cjdthibnm ghjcnjt
+<ce> bcwtktybt, nj tcntcndtyyj, xnj
+<ce> z yt cvjue pfvjkdbnm pf dfc
+<ce> ckjdtxrj.
+
+AcceptQuest:  [1002]
+<ce> _cousin_ d ___cousin_
+<ce> jgfcftncz pfhfpbnmcz jcj`jq `jktpym<.
+<ce> Z yfcxtn njuj, xnj`s gjvjxm jlyjve
+<ce> cdzotyybre. Z pflth*e b[ ghbvthyj
+<ce> yf jlby ltym. Tckb ds vj*tnt yfqnb
+<ce> bcwtktybt, @nj gjlybvtn dfie htgenfwb<
+<ce> d __giver_. Vjue lfnm dfv
+<ce> njkmrj =questtime_ lytq.
+
+QuestFail:  [1003]
+%qdt:
+ _giver_ bp __giver_
+ d ___giver_ lfk vyt ifyc
+ bcwtkbnm _cousin_ bp
+ ___cousin_. Tckb e vtyz ybxtuj
+ yt gjkexbncz d ntxtybt =questtime_ lytq,
+ nelf `eltn gjckfy rnj-nj lheujq, xnj`s
+ pfrjyxbnm hf`jne.
+
+QuestComplete:  [1004]
+<ce> _cousin_ dsukzlbn
+<ce> ytgkj[j. Dthjznyj
+<ce> bcwtktybt elfkjcm.
+
+RumorsDuringQuest:  [1005]
+~tlysq _cousin_. Rfr *t cnhflftn @njn =cousin_!
+
+RumorsPostfailure:  [1006]
+_giver_ bp __giver_ jxtym ytljdjkty gjdtltybtv @njuj %ra.
+
+RumorsPostsuccess:  [1007]
+^njn bcwtktyysq - hjlcndtyybr _giver_ bp __giver_.
+
+QuestorPostsuccess:  [1008]
+Z cksifk, xnj _cousin_ bcwtkbkb. %god `kfujckjdbn dfc, %pcf. Xnj dfv ye*yj?
+
+QuestorPostfailure:  [1009]
+_cousin_ `jkmit ytn...z ghjrkbyf< dfc, %pcf!
+
+Message:  1025
+<ce> Z `ele cktlbnm pf dfvb. Gjvybnt,
+<ce> bvz gfwbtynf - _cousin_, b
+<ce> %g d ___cousin_. E dfc
+<ce> =questtime_ lytq, xnj`s ljrfpfnm cdj<
+<ce> cjcnjzntkmyjcnm.
+
+--duplicate 1006 removed
+
+QuestLogEntry:  [1010]
+<ce> Vyt jxtym gkj[j. Lf*t yt pyf<, xnj
+<ce> cj vyjq ckexbkjcm. Ds ghbikb gjvjxm vyt?
+<ce> Lf? E dfc tcnm ktrfhcndj? Tckb lf,
+<ce> nj bcgjkmpeqnt tuj yf vtyz, gjcrjhtt.
+
+Message:  1011
+<ce> Ytelfxf?
+
+Message:  1012
+Z cksifk ghj %g4 `jktpym. Rnj-nj ujdjhbk, xnj _healer_ bp ___healer_ pyftn cgjcj` bcwtktybz.
+   <--->
+Z cksifk xnj-nj j` @njv. Xnj-nj yfcxtn `jktpyb b j rjv-nj gj bvtyb _healer_ d ___healer_, e rjnjhjuj tcnm ktrfhcndj.
+
+Message:  1013
+<ce> Ghbdtn. Lf, z cksifk ghj
+<ce> _cousin_ bp ___cousin_ b %g4
+<ce> ghj`ktvs. ~jktpym yfpsdftncz Keyyfz Kb[jhflrf.
+<ce> Xfcnj tt ghbybvf<n pf
+<ce> Cthe< Kb[jhflre. D j`otv e vtyz
+<ce> tcnm Bytbcnsq Rjhtym, rjnjhsq
+<ce> bpktxbn tt. Yj bcgjkmpjdfnm tuj
+<ce> vj*yj njkmrj jlby hfp. Z ghjlfv
+<ce> @nj dfv pf 20 pjkjns[.
+
+Message:  1014
+<ce> Ds cj`bhftntcm gjregfnm Bytbcnsq Rjhtym?
+
+Message:  1015
+<ce> Bpdbybnt, yj gj[j*t e dfc ytljcnfnjxyj
+<ce> ltytu yf Bytbcnsq Rjhtym.
+
+Message:  1016
+<ce> Cgfcb`j, %pcn. Z bcgjkmpe< Bytbcnsq Rjhtym.
+<ce> Lf*t yt pyf<, rfr dfc jn`kfujlfhbnm.
+<ce> Gecnm dfib gentitcndbz `elen `tpjgfcysvb.
+
+Message:  1017
+%qdt:
+ Regktyj ytvyjuj Bytbcnjuj Rjhyz
+ e _healer_ bp ___healer_,
+ rjnjhsq ktxbn Keyye< Kb[jhflre, `jktpym,
+ rjnjhjq `jkttn _cousin_.
+
+Message:  1018
+%qdt:
+ Bytbcnsq Rjhtym dsktxbk _cousin_
+ jn Keyyjq Kb[jhflrb.
+ Vj*tn ntgthm __giver_ `eltn
+ j`j vyt `jktt dscjrjuj vytybz.
+
+Message:  1019
+<ce> Bytbcnsq Rjhtym `erdfkmyj bcnfbdftn d
+<ce> dfib[ herf[ gjckt bcgjkmpjdfybz.
+
+
+
+QBN:
+Item _talisman_ root_tendrils
+-added underscores to talisman
+
+Person _giver_ group Questor
+Person _cousin_ group Local_3.0 remote anyInfo 1012 rumors 1012
+Person _healer_ face 64 group Chemist remote
+
+
+Clock _questtime_ 00:00 0 flag 1 range 3 5
+
+--	Quest start-up:
+	start timer _questtime_
+	prompt 1011 yes _S.01_ no _S.02_
+	pick one of _S.06_ _S.07_
+	_talisman_ used do _S.08_
+
+_questtime_ task:
+	end quest
+
+_S.01_ task:
+	log 1003 step 0
+	say 1025
+
+_S.02_ task:
+	say 1005
+	end quest
+-removed illogical "saying RumorsPostfailure" from this task. replaced with 1005.
+
+_S.03_ task:
+	clicked npc _cousin_
+	say 1010
+
+_S.04_ task:
+	when _S.03_ and _S.06_
+	make pc ill with Swamp_Rot
+
+variable _S.05_
+variable _S.06_
+variable _S.07_
+_S.08_ task:
+	take _talisman_ from pc saying 1019
+	cure Swamp_Rot
+
+_S.09_ task:
+	toting _talisman_ and _cousin_ clicked
+	log 1018 step 2
+	say 1016
+	give pc nothing
+	end quest
+--removed unnecessary delay
+--moved "give pc nothing" to end of task, more sensible for dialogue
+
+_S.10_ task:
+	clicked npc _healer_ say 1013
+	prompt 1014 yes _S.11_ no _no_
+
+_no_ task:
+	clear _S.10_
+
+_S.11_ task:
+	clicked _healer_ and at least 20 gold otherwise do _S.12_
+	log 1017 step 1
+	get item _talisman_
+
+_S.12_ task:
+	say 1015

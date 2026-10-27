@@ -1,0 +1,208 @@
+-- Quest: C:\QUESTS\WORKING\A0C00Y12.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 12
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 36
+Quest: A0C00Y12
+DisplayName: Gthdjt bplfybt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ghjcnbnt dtkbrjleiyj. Yt xbnfkb kb ds jlyjq rybub:
+<ce> _book_? Jyf dtkbrjktgyf, f e vtyz tcnm
+<ce> cfvsq gthdsq tt gtxfnysq @rptvgkzh. Bkb, gjghfdk<cm,
+<ce> `sk. Rnj-nj erhfk e vtyz @ne rybue. ~ele hfl
+<ce> pfgkfnbnm _gold_ pjkjns[ njve, rnj yfqltn djhf
+<ce> b dthytn vyt rybue. Rfr levftnt, cvjukb `s ds
+<ce> yfqnb @ne rybue?
+
+RefuseQuest:  [1001]
+<ce> Jxtym gkj[j. Vyt jxtym ye*yf @nf rybuf.
+
+AcceptQuest:  [1002]
+<ce> Dtkbrjktgyj! Jyf jxtym df*yf lkz vtyz, gjcrjkmre
+<ce> @nj gthdsq gtxfnysq @rptvgkzh. Gtxfkmyj, yj e vtyz
+<ce> ytn ybrfrb[ vscktq gj gjdjle kbxyjcnb erhfdituj tt.
+<ce> Ds vj*tnt gjcghfibdfnm j` @njv d jrheut.
+
+QuestComplete:  [1004]
+<ce> Dtkbrjktgyj! Vjz rjgbz _book_! {jhjifz
+<ce> hf`jnf, %pcn. Djn dfif yfuhflf
+<ce> _gold_ pjkjns[, rfr b `skj j`tofyj.
+
+RumorsDuringQuest:  [1005]
+<ce> _giver_ jnxfzyyj gsnftncz yfqnb jlye bp
+<ce> cdjb[ cnfhs[ rybu. Rnj vju erhfcnm tt?
+
+RumorsPostfailure:  [1006]
+<ce> Z cksifk, xnj _giver_ jrjyxfntkmyj
+<ce> clfkcz b ghbj`htk lheue< rjgb< cdjtq
+<ce> lhfujwtyyjq rybub. Bpdtcnyj kb dfv, xnj %g
+<ce> yfyzk rjuj-nj lkz tt gjbcrjd? Xnj pf ukegtw!
+
+RumorsPostsuccess:  [1007]
+<ce> ds ljk*yj `snm njn cfvsq %ra, rjnjhsq
+<ce> yfitk rybue, ghbyflkt*foe< _giver_.
+<ce> %g ecgtk dctv hfccrfpfnm j` @njv.
+<ce> Vj*yj gjlevfnm, xnj ds cgfckb rjhjkz.
+
+QuestorPostsuccess:  [1008]
+<ce> Dct xnj eujlyj lkz vjtuj lheuf %pcf.
+<ce> Ds yfikb vj< lhfujwtyye< rybue b
+<ce> z jxtym ghbpyfntkty dfv.
+
+QuestorPostfailure:  [1009]
+<ce> {vvva. Z yfyzk dfc yfqnb vj< rybue.
+<ce> Rjulf ds gjnthgtkb ytelfxe, vyt ghbikjcm
+<ce> regbnm lheue< rjgb< rybub. Vyt yt j xtv
+<ce> `jkmit c dfvb hfpujdfhbdfnm.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _giver_ bp ___giver_ gjj`tofk vyt _gold_
+ pjkjns[ pf gjbcrb %g4 rybub, _book_.
+
+Message:  1014
+<ce> Gjghj`eqnt cghjcbnm _informant_. %g
+<ce> gj[j* yf xtkjdtrf, pyf<otuj dct, xnj
+<ce> ghjbc[jlbn d ___informant_.
+   <--->
+<ce> Dfv cnjbn gjcghfdibdfnm d vtcnys[ nfdthyf[.
+<ce> Jyb rfr dctulf gjkys cks[jd.
+   <--->
+<ce> Ds cktletn gjcvjnhtnm d __informant_.
+<ce> Nfv dctulf vj*yj yfqnb xnj-yb`elm.
+   <--->
+<ce> ^nj gj[botyj e _giver_.
+   <--->
+<ce> _giver_ cghfibdfk dct[ d jrheut.
+   <--->
+<ce> Vyt jxtym gjyhfdbkfcm rybuf, rjulf z ghjxtk tt.
+   <--->
+<ce> Vj*tn dfv cnjbn gjctnbnm `b`kbjntre?
+
+Message:  1015
+<ce> Ljk*yj `snm, bvtyyj @ne rybue erhfkb e _giver_.
+
+Message:  1025
+<ce> Ghbdtn, %pcn. lj vtyz ljikb cke[b, xnj
+<ce> ds bynthtcetntcm vjtq gthcjyjq. Lf, z pyf<
+<ce> ghfrnbxtcrb dct, xnj ghjbc[jlbn d
+<ce> ___informant_, dct cke[b b yjdjcnb,
+<ce> rjnjhst lj[jlzn lj @nb[ eitq.
+<ce> Ljcnfnjxyj j`j vyt. Z cksifk xnj-nj ghj
+<ce> ytghbznyjcnb e _giver_. Ds [jnbnt yfqnb
+<ce> _thief_, %g bcrfk gthdjt gtxfnyjt
+<ce> bplfybt @njq rybub ytlfdyj. Rhjvt njuj
+<ce> %g bp nt[ nbgjd, xnj vjuen dpznm dtom
+<ce> `tp cghjcf, tckb ds gjybvftnt j xtv z.
+
+Message:  1035
+%qdt:
+ _informant_ lfk vyt wtyye< byajhvfwb<
+ gj gjdjle ghjgfditq rybub _book_.
+ %g levftn, xnj d @nj ltkj vj*tn `snm
+ pfvtify _thief_. Ntgthm ytgkj[j `s
+ yfqnb %g4.
+
+Message:  1027
+_thief_ *bdtn d _house_ d __house_.
+   <--->
+_thief_ *bk d __house_.
+   <--->
+_thief_ ghjdjlbn cdjb yjxb d _house_.
+   <--->
+Dfv cktletn gjbcrfnm _thief_ ljvf, %g *bk ytrjulf d __house_.
+   <--->
+_thief_ ltkfk gjregrb d _store_.
+   <--->
+Dsv cktljdfkj `s yfxfnm c _store_, rjnjhsq gjctofk _thief_.
+   <--->
+_store_ - bpdtcnyjt vtcnj, ult c`sdftncz rhfltyyjt, rjnjhjt xfcnj gjctoftn _thief_.
+   <--->
+_thief_ ytlfdyj `sk d _store_.
+   <--->
+_inn_ - e`t*bot lkz vyjub[ djhjd.
+   <--->
+_thief_ k<bn dsgbnm d _inn_.
+   <--->
+_inn_ - bpk<`ktyyjt vtcnj lkz _thief_.
+   <--->
+D _inn_ ujnjdzn `k<lf, rjjhst j`j*ftn _thief_.
+
+Message:  1030
+<ce> Ns [jxtim rybue? F ns, %ra, yt nfr rhtgjr, rfr
+<ce> rf*timcz. Gjghj`eq jn`thb @nj e vtyz!
+
+
+
+QBN:
+Item _book_ book2 anyInfo 1014 used 1015
+Item _gold_ gold
+
+Person _informant_ face 241 group Cleric local
+Person _giver_ group Questor
+Person _thief_ face 97 faction The_Thieves_Guild local anyInfo 1027 rumors 1027
+
+Place _inn_ local tavern
+Place _store_ local generalstore
+Place _house_ local house2
+Place _informant1_ local tavern
+
+Clock _S.01_ 10.00:00 0 flag 9 range 0 1
+
+Foe _thiefFoe_ is Thief
+
+--	Quest start-up:
+	dialog link for location _house_ person _informant_
+	dialog link for location _inn_
+	dialog link for location _store_ person _thief_
+	start timer _S.01_
+	log 1010 step 0
+	place npc _informant_ at _informant1_
+
+variable _S.00_
+_S.01_ task:
+	end quest
+
+_S.02_ task:
+	daily from 00:00 to 08:00
+	pc at _house_ set _S.09_
+
+_S.03_ task:
+	daily from 16:02 to 23:59
+	pc at _inn_ set _S.10_
+
+_S.04_ task:
+	daily from 08:01 to 16:01
+	pc at _store_ set _S.11_
+--unneeded underscore removed
+
+_S.05_ task:
+	clicked npc _informant_ say 1025
+	add dialog for person _thief_
+	log 1035 step 1
+
+_S.06_ task:
+	toting _book_ and _giver_ clicked
+	give pc _gold_
+	end quest
+
+variable _S.07_
+_S.08_ task:
+	injured _thiefFoe_
+	give item _book_ to _thiefFoe_
+	say 1030
+
+_S.09_ task:
+	place foe _thiefFoe_ at _house_
+
+_S.10_ task:
+	place foe _thiefFoe_ at _inn_
+
+_S.11_ task:
+	place foe _thiefFoe_ at _store_

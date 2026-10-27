@@ -1,0 +1,150 @@
+-- Quest: C:\QUESTS\WORKING\L0B40Y04.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 40
+-- QuestId: 4
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 22
+Quest: L0B40Y04
+DisplayName: Pf`jns `kfujhjlyjuj xtkjdtrf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> ^nf vfktymrfz @rcrehcbz jny<lm yt lkz dct[.
+<ce> Yj vyt rf*tncz, dfv yhfdbncz ghbybvfnm dspjd
+<ce> E yfc tcnm rkbtyn d rjhjktdcrjq ctvmt d
+<ce> __mondung_. Pfrfpxbr [jxtn ghjdtcnb ltkj
+<ce> nb[j b yflt*yj. Rfr vyt njkmrj crfpfkb j`
+<ce> @njv, e vtyz chfpe djpybrkf vsckm j dfc.
+<ce> |tkftnt pfyznmcz?
+
+RefuseQuest:  [1001]
+<ce> {jhjij. Dtcmvf velhj, yj @nj
+<ce> ytvyjuj gjgf[bdftn ...
+<ce> ghtyt`ht*tybtv, vfkjleibtv...
+
+AcceptQuest:  [1002]
+<ce> Vyt njkmrj xnj cnfkj gjyznyj, xnj ds
+<ce> ybrjulf yt jnrf*tntcm jn dtkbxbz.
+<ce> ~elmnt jxtym jcnjhj*ys, dfif wtkm - _knight_
+<ce> jny<lm yt bpyt*tyysq wfhtr. Pfrfpxbr nj*t
+<ce> bp rjhjktdcrjq ctvmb b jy jpf`jxty ntv, xnj
+<ce> _knight_, rfr xthdzxjr, gjl`bhftncz r nhjye.
+<ce> B, rfr vyt bpdtcnyj, e y%g4 tcnm dct djpvj*yjcnb
+<ce> lkz @njuj b yt njkmrj. Yfi pfrfpxbr *tkftn
+<ce> pfrjyxbnm ltkj d ntxtybt =1stparton_ lytq.
+<ce> Vs lftv dfv @nj dhtvz yf e`bqcndj b djpdhfn
+<ce> j`hfnyj.
+<ce> Vtafkf `eltn c dfvb, %pcf.
+
+QuestFail:  [1003]
+<ce> Ds, yfdthyjt, gtht`bkb dc< rjhjktdcre<
+<ce> ctvm< b pfrfpxbrf d njv xbckt, gjcrjkmre
+<ce> z yt cksie ckjd `kfujlfhyjcnb jn ytuj, yj
+<ce> _knight_ d *bds[, b dfv ye*yj dthyenmcz b
+<ce> pfrjyxbnm hf`jne.
+
+QuestComplete:  [1004]
+<ce> Dtkbrjktgyj, %pcf. Ds ghtdpjikb ct`z
+<ce> b dct[, rnj lj @njuj cjvytdfkcz d
+<ce> dfitv ghtlyfpyfxtybb.
+<ce> J dfc crjhj `elen ckfufnm ktutyls.
+<ce> Dfif yfuhflf, _reward_ pjkjns[. ^nj nfr,
+<ce> vt*le ghjxbv.
+<ce> Yfv jxtym ghbznyj bvtnm ltkj c dfvb...
+
+RumorsDuringQuest:  [1005]
+Z pyf< njxyj, _knight_ `eltn yfibv cktle<obv ghfdbntktv.
+   <--->
+Rjulf-yb`elm _knight_ cnfytn yfibv ghfdbntktv. B njulf vs edblbv yfcnjzotuj nbhfyf.
+
+RumorsPostfailure:  [1006]
+_knight_ jcnfdbn ldjh ytyfljkuj. %g dthytncz. ^nj njxyj.
+   <--->
+Lhfvf dj ldjhwt ghjljk*ftncz. Bynthtcyj, xnj pfcnfdbkj ukfdyjuj ghtntyltynf gjrbyenm tuj.
+
+RumorsPostsuccess:  [1007]
+Ctujlyz d ghjdbywbb %reg ghfplybr. Ltym cvthnb nbhfyf _knight_! Ehf!
+   <--->
+Vyt yt dthbkjcm, xnj _knight_ nfr `scnhj evhtn. Ckbirjv gjljphbntkmyj.
+
+QuestorPostsuccess:  [1008]
+Z lj cb[ gjh levf< j rjynhfrnt yf hswfhz. ^nj ltqcndbntkmyj dtkbrjt ltkj, %pcf.
+
+QuestorPostfailure:  [1009]
+<ce> Z pyf<, @njn rjynhfrn jxtym nhelty.
+<ce> Gjxnb ytdjpvj*ty. Yj dct *t ds yt
+<ce> cghfdbkbcm, f e vtyz ytn cj*fktybz r ytelfxybrfv.
+
+Message:  1020
+%qdt:
+ Vjq gjcktlybq rjynhfrn d Ntvyjv ~hfncndt
+ pyfnysq xtkjdtr bp pfvrf _mondung_,
+ __mondung_, gj bvtyb
+ _knight_. Ltkj ljk*yj `snm cltkfyj
+ d ntxtybt =1stparton_ lytq.
+
+Message:  1021
+<ce> "Vyt... `skj `s ghbznyj cnfnm...
+<ce> dfibv... yjdsv gjdtkbntktv", - cnjytn
+<ce> _knight_... Pfrfp dsgjkyty.
+
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ face 112 group Questor
+Person _knight_ face 5 faction The_Host_of_the_Horn male remote
+
+Place _mondung_ remote palace
+
+Clock _1stparton_ 00:00 0 flag 18 range 0 2
+
+Foe _F.00_ is Spellsword
+Foe _F.01_ is Knight
+Foe _F.02_ is Warrior
+Foe _F.03_ is Nightblade
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1020 step 0
+	pick one of _S.06_ _S.07_ _S.08_ _onehour_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _S.02_
+	give pc _reward_
+	end quest
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+
+_S.02_ task:
+	killed 1 _F.01_ saying 1021
+	killed 1 _F.02_ saying 1021
+	killed 1 _F.03_ saying 1021
+	killed 1 _F.00_ saying 1021
+
+variable _queston_
+_1stparton_ task:
+	end quest
+
+variable _2ndparton_
+_S.06_ task:
+	place foe _F.00_ at _mondung_
+
+_S.07_ task:
+	place foe _F.01_ at _mondung_
+
+_S.08_ task:
+	place foe _F.02_ at _mondung_
+
+_onehour_ task:
+	place foe _F.03_ at _mondung_
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.02_
+	say 1003
+	clear _qgclicked_ _clearclick_

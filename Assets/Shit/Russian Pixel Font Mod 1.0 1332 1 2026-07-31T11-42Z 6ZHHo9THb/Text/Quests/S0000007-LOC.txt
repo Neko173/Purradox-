@@ -1,0 +1,577 @@
+-- Quest: C:\QUESTS\WORKING\S0000007.Qbn.
+-- Main story quest.
+-- QuestId: 7
+Messages: 37
+Quest: S0000007
+DisplayName: Xeljdbot
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> ^q, tckb z crf*e nt`t, xnj e vtyz tcnm
+<ce> rjt-rfrfz byajhvfwbz, crf*tv, ghj
+<ce> gbcmvj vbktlb, @nj pfbynthtcetn nt`z,
+<ce> %pcf? Yflt<cm, xnj nfr. Yj dyfxfkt
+<ce> gjvjub vyt ghbrhsnm tt cgbye, f z
+<ce> gjvjue nt`t. Ljujdjhbkbcm?
+
+RefuseQuest:  [1001]
+<ce> Ye rjytxyj *t ytn. Ns dtlm hf`jnftim
+<ce> bcrk<xbntkmyj yf rjhjktq, yt nfr kb?
+<ce> F `tlyfz Rbylfccf gecnm ltkftn cfvf
+<ce> cdj< hf`jne, nfr? Ye kflyj...%oth,
+<ce> cghfdk<cm b cfvf.
+
+AcceptQuest:  [1002]
+<ce> Vtyz pjden Rbylfccf. Lfuuthajkk. Z hfccrf*e nt`t
+<ce> dct, xnj pyf<, yj yfgjvy<, xnj @nf byajhvfwbz yt
+<ce> `tcgkfnyf, cjukfcbcm cj vyjq, %pcn?
+<ce> Z dctuj kbim cke*fyrf tt dtkbxtcndf, gtcxbyrf d
+<ce> @njv vbht b ye*ls vjb ytdtkbrb. Z [jxe xnj`s
+<ce> evth jlby j`jhjntym. Z pyf<, ult jy
+<ce> j`htnftncz -- pf`snjt `jujv vtcnj gjl yfpdfybtv
+<ce> ___mondung_. Yt vjue crfpfnm pfxtv
+<ce> @nj yflj, yj @nj jxtym df*yj lkz vtyz, xnj`s
+<ce> j`jhjntym ghtrhfnbk cdjt *fkrjt ceotcndjdfybt.
+<ce> Z `ele *lfnm nt`z =2mondung_ lytq -- @njuj dhtvtyb
+<ce> ljk*yj [dfnbnm.
+
+QuestFail:  [1003]
+<ce> Ns levftim z cjdctv lehf, lf, %pct?
+<ce> Ns levftim z yt pyf<, xnj djkxfhf dct
+<ce> tot *bd?
+
+QuestComplete:  [1004]
+<ce> Jy vthnd, lf? ~tlyjt ceotcndj. Jyj `skj vjbv `hfnjv.
+<ce> Tckb [jxtim epyfnm, gjxtve...lkz vtyz jy lfdyj e*t
+<ce> evth, rjulf tuj erecbkb. Jy ytyfdbltk cfvjt ct`z,
+<ce> rjulf ghtdhfnbkcz d @ne ndfhm. F z yt dbltkf
+<ce> lheujuj ds[jlf gjvjxm tve...
+<ce>
+<ce> Z j`tofkf, xnj hfccrf*e nt`t ghj gbcmvj, yt nfr kb?
+<ce> Rjytxyj *t z gjvy< @nj gbcmvj, %pcf.
+<ce> Yt nfr lfdyj ghbytckb gbcmvj, bcrk<xbntkmyj yt
+<ce> lkz her rjhjkz. D ltqcndbntkmyjcnb z kbim vtkmrjv
+<ce> dbltkf @nj gbcmvj. Z lfkf tuj tuj dtkbxtcnde,
+<ce> f jyf jnrhsd tuj b ghjxbnfd ghjbpytckf: "^nj yt
+<ce> vyt, f Vbybctht". Gjnjv...`ev! Tt xtk<cnm jndbckf
+<ce> xenm kb yt lj gjkf, f ukfpf hfcgf[yekbcm nfr, rfr
+<ce> `elnj jyf edbltkf cfvsq cnhfiysq rjivfh. Ecgjrjbdibcm,
+<ce> jyf crfpfkf, xnj ghjcktlbn pf ntv, xnj`s gbcmvj
+<ce> gjgfkj gj yfpyfxtyb< vfnthb-rjhjktdt b z yt pyf<,
+<ce> xnj ckexbkjcm c ybv lfkmit.
+
+RumorsDuringQuest:  [1005]
+J`jhjntym bp kf`jhfnjhbb Nhbcnjhf e*t ytcrjkmrj ytltkm yfdjlbn cnhf[ yf ~tnjyb.
+   <--->
+Ybrnj yt pyftn vyjuj ghj j`jhjnyz bp kf`jhfnjhbb Nhbcnjhf. Njkmrj `kb*fqibt cjctlb.
+   <--->
+~tlyfz Fe`r-b. Tt ujhybxyfz hfcghjcnhfyzkf j ytq cfvst lbrbt bcnjhbb.
+
+RumorsPostfailure:  [1006]
+J`jhjntym eitk, gjrbyek kf`jhfnjhbb Nhbcnjhf. Ljk*yj `snm jxthtlyfz vbuhfwbz.
+   <--->
+Yt edthty, xnj @njn djkr *bdtn d kf`jhfnjhbb Nhbcnjhf, e* jxtym lfdyj @nj `skj.
+   <--->
+J`jhjnyb jghtltktyyj gjkj*bkb rjytw rfrjve-nj %ra djy nfv.
+
+RumorsPostsuccess:  [1007]
+Ytrbq bcrfntkm ghbrk<xtybq %ra ghbitk bp ybjnrelf b pfvjxbk j`jhjnyz bp kf`jhfnjhbb Nhbcnjhf.
+   <--->
+Rhtcnmzyt, *bdeobt d jrhtcnyjcnz[ kf`jhfnjhbb Nhbcnjhf cxfcnkbds, xnj djkrf `jkmit ytn.
+   <--->
+`jhjnyzv tcnm pf xnj `kfujlfhbnm %ra pf cgfctybt jlyjuj bp cdjb[.
+
+QuestLogEntry:  [1010]
+<ce> Ntkj j`jhjnyz yfxbyftn vtyznmcz
+<ce> ghzvj yf dfib[ ukfpf[. Cgecnz
+<ce> `erdfkmyj ytcrjkmrj vbyen gthtl
+<ce> dfvb jrfpsdftncz ntkj vjkjljuj
+<ce> xtkjdtrf, xthns kbwf rjnjhjuj
+<ce> jxtym cbkmyj yfgjvbyf<n Rbylfcce.
+
+Message:  1011
+<ce> %pcf, `jkmijt cgfcb`j pf nj, xnj dsnfobkb tuj
+<ce> bp @njq kjdeirb. Z cfv hfp`thecm c ~tkmlfvjq,
+<ce> xnj`s dct ekflbnm.
+
+Message:  1012
+<ce> Z [jhjij gjvy<, rfr Rbylfccf `jknfkf
+<ce> j kbxys[ ltkf[ rjhjktds. Elbdbntkmyj,
+<ce> xnj vjuen cltkfnm ytcrjkmrj rfgtkm dbyf,
+<ce> xnj`s hfpdzpfnm zpsr vjkjljq ltdeirt. Yt rf*lsq
+<ce> ltym ljcnfdkz<n gbcmvj jn bvgthfnjhf, ntv `jktt
+<ce> xnj, rfr ds pyftnt, rjhjktdf yt jxtym-nj tuj
+<ce> k<`bn. Rbylfccf crfpfkf, xnj @nj gbcmvj `skj
+<ce> tlbycndtyysv, rjnjhjt jyf rjulf-kb`j dbltkf jn
+<ce> ytuj, b `skf gjnhzctyf, rjulf rjhjktdf f[yekf b
+<ce> djcrkbryekf: "Gjxtve, @nj yt lkz vtyz, @nj
+<ce> flhtcjdfyj Vbybctht". ~tlyfz Rbylfccf.
+<ce> Jyf chfpe *t gjlevfkf, xnj ytghfdbkmyj gjyzkf
+<ce> rehmthf b jnlfkf @nj gbcmvj yt njve ldjhzybye.
+<ce> Jyf bcgsnfkf nfrjt j`ktuxtybt, rjulf Fe`r-b yt
+<ce> cnfkf gjlybvfnm iev b crfpfkf, xnj ghjcktlbn,
+<ce> xnj`s rjhjktdf-vfnm gjkexbkf tuj rfr vj*yj
+<ce> crjhtt, b yt `tcgjrjbkfcm j` @njv.
+
+Message:  1013
+<ce> J, jcnfdm ct`t _relic_, tckb [jxtim.
+
+Message:  1014
+<ce> Gjxtve %pcf, ds yfikb xfcnm lytdybrf vjtuj
+<ce> cnfhjuj k<`jdybrf. Z `s epyfk @njn gjxthr
+<ce> ult eujlyj. Rbylfccf, uhzpyfz vfktymrfz ik<[f,
+<ce> pfhfpbkf tuj ldevz hfpysvb kegfvb! Ktxbnm nfrjt
+<ce> ctujlyz yfv yt gj chtlcndfv. ~tkmlfvf yflttncz
+<ce> c gjvjom< ext`s yfqnb tuj. Jyf vj*tn j`hfnbnm
+<ce> ghjwtcc dcgznm d ntxtybt ytcrjkmrb[ ytltkm,
+<ce> yj yt ljkmit. Lj cb[ gjh vs yt dbltkb, xnj`s
+<ce> yb jlby gfwbtyn yt gtht*bk gthdjyfxfkmye<
+<ce> byatrwb< ljkmit @njuj chjrf. Tckb ds cvj*tnt
+<ce> dthyenmcz c ybv rj vyt, e vtyz tcnm rjt-rfrfz
+<ce> byajhvfwbz, rjnjhfz vj*tn `snm dfv gjktpyf.
+<ce> Djpmvbnt @njn cgtwbfkmysq _relic_. ^nj erhjnbn
+<ce> pdthz dyenhb ytuj.
+
+Message:  1015
+%qdt:
+ Z dcnhtnbkcz c _barmaid_, cnfhjq
+ k<`jdybwtq `hfnf Rbylfccs. E ytt
+ tcnm rjt-rfrfz byajhvfwbz lkz vtyz,
+ tckb njkmrj z cvjue dthyenm tt
+ `sdituj k<`jdybrf, rfrbv-nj j`hfpjv
+ bcgjkmpez @njn _relic_. Jyf `eltn
+ *lfnm d _tavern_, __tavern_.
+
+Message:  1016
+%qdt:
+ Z yfitk cnhfybwe bp lytdybrf `hfnf
+ Rbylfccs, ghtlgjkfuf<oe<, xnj jyf
+ pfgkfnbkf, xnj`s ghtdhfnbnm tuj d
+ kbrfynhjgf yfpkj.
+
+Message:  1017
+Ds yf[jlbnt ahfuvtyn lytdybrf, yfgbcfyysq
+rjhzdsv gjxthrjv.
+<ce>
+"...Z yt vjue gjdthbnm,
+xnj Rbylfccf dtkf ct`z nfr pkj`yj njkmrj
+gjnjve, xnj z gjhdfk c tt gjlheujq,
+_barmaid_. Ye, z nj*t ybrjulf jcj`j yt
+cnhtvbkcz yfdtcnbnm ___barmaid_, b levfk,
+xnj vs hfccnfkbcm gjk<`jdyj... Yj gkfnbnm
+pf nj, xnj`s dslfnm vtyz J`jhjnyzv, z
+ghjcnj yt gjybvf< @njuj. Rbylfccf,
+ljk*yj `snm, gthtybvftn gkj[bt ghbdsxrb
+e @nb[ uybks[ ldjhzy ghb ldjht Lfuuthajkkf".
+
+Message:  1018
+Ds yf[jlbnt ahfuvtyn lytdybrf,
+yfgbcfyysq xtnrbv gjxthrjv.
+<ce>
+"...Z yt gjvy<, rfr gjgfk d @nj vtcnj.
+Tckb vtyz gj[bnbkb, nj lkz xtuj? E yfc
+ytn ltytu, f Rbylfcce tldf nthgzn
+ldjhzyt ghb ldjht. Vjt gjcktlytt zcyjt
+djcgjvbyfybt - @nj yf`k<ltybt pf
+djc[jljv keys yfl pfvrjv Lfuuthajkk..."
+
+Message:  1019
+Ncr. ^nf Rbylfccf dctulf xnj-nj pfntdftn cj cdjbvb gjlhe*rfvb.
+   <--->
+Ghtlcnfdmnt, xnj rjhjktdf Fe`r-b gjpdjkztn cdjtq cke*fyrt j`ofnmcz c ==barmaid_.
+   <--->
+Ytdthjznyj, xnj rjhjktdf Fe`r-b gjpdjkztn cdjtq cke*fyrt j`ofnmcz c ==barmaid_.
+   <--->
+Nen. ^nf Rbylfccf dctulf xnj-nj pfntdftn c _barmaid_.
+
+Message:  1020
+_wereBrother_ hfp`bk tq cthlwt, b ntgthm jyf pfyzkfcm ghjcnbnewbtq d _tavern_.
+   <--->
+Rfrjq-nj vjkjljq ytujlzq hfp`bk tq cthlwt, b ntgthm jyf ghjcnj letncz d _tavern_.
+   <--->
+Jyf dctulf pfybvftncz cdjbv htvtckjv, tckb ds gjybvftnt, xnj z bvt< d dble, d _tavern_.
+   <--->
+Hfpdt jyf yt pfcnfdbkf Rbylfcce ghtdhfnbnm tt `hfnf d j`jhjnyz gjckt njuj, rfr jy `hjcbk tt?
+
+Message:  1021
+Lth*bcm gjlfkmit jn vtyz %ra, ns, uhzpysq e`bqwf!
+   <--->
+E`bqwf! Z crjhvk< nt`z cnhf*ybrfv, %ra!
+   <--->
+Rfr ns cvttim ghb`kb*fnmcz rj vyt, ns, uhzpysq njhujdtw j`jhjnyzvb!
+   <--->
+E`thb cdj< uhzpye< irehe j`jhjnyz c vjb[ ukfp, %ra!
+
+Message:  1022
+Lth*bcm gjlfkmit jn vtyz %ra! Ns blbjn-j`jhjntym.
+   <--->
+Ns lehfr! Rfr ns vju gjllfnmcz yf kj*m @njq ghjcnjq cke*fyrb?
+   <--->
+Ns ukegsq %ra. Yt ujdjhb vyt, xnj ns regbkcz yf kj*m Rbylfccs!
+   <--->
+Z ljk*ty gecnbnm j`jhjnytq gj ndjtve cktle, %ra, gjckt njuj, xnj ns cltkfk.
+
+Message:  1023
+%qdt:
+ Rbylfccf, cke*fyrf rjhjktds Fe`r-b bp Lfuuthajkkf,
+ `tp j`]zcytybq gjckfkf vtyz e`bnm djkrf-j`jhjnyz,
+ *bdeotuj d kf`jhfnjhbb d ~tnjyb.
+ Njkmrj njulf jyf lfcn vyt byajhvfwb<, rjnjhfz
+ rfr jyf vtyz edthbkf, ghjkmtn cdtn yf nfqye
+ bcxtpyjdtybz bvgthfnjhcrjuj gbcmvf. E vtyz
+ =2mondung_ lytq, xnj`s dsgjkybnm tt
+ gj*tkfybt.
+
+Message:  1024
+<ce> Ntkj j`jhjnyz yfxbyftn nhfycajhvbhjdfnmcz
+<ce> ghzvj e dfc yf ukfpf[. Xthtp ytcrjkmrj
+<ce> vuyjdtybq jy ghtdhfnbkcz d vjkjljuj
+<ce> xtkjdtrf, _wereBrother_, kt*fotuj d rjvt
+<ce> e dfib[ yju. Ds jcnjhj*yj gjlybvftnt tuj.
+
+Message:  1025
+Ntgthm, rjulf Rbylfccf *ltn d Pfvrt, dcz tt ctvmz df*ybxftn.
+   <--->
+Cjgthybxtcndj vt*le `hfnmzvb b ctcnhfvb d cfvjv hfpufht d ___wereBrother_.
+   <--->
+Ncr. Nj, yf xnj vjkjlt*m `eltn gsnfnmcz j`hfnbnm dybvfybt.
+
+Message:  1026
+Cj`cndtyyjcnm Ubkmlbb j`jhjnytq
+
+Message:  1027
+Ds xedcndetnt njiyjndjhysq njkxjr, rjulf _relic_ bcxtpftn.
+
+Message:  1028
+<ce> Ns xnj, cjitk c evf, %pct? Z `sk
+<ce> crkjyty gjvjxm nt`t, yj gjckt ndjtuj
+<ce> yfgfltybz yf _wereBrother_... Ghjrhflsdfqcz
+<ce> j`hfnyj r @njq ik<[t Rbylfcct, gjxtve `s
+<ce> nt`t @njuj yt cltkfnm. Ybrxtvysq recjr %ra.
+
+Message:  1029
+<ce> C lheujq cnjhjys, %pct, gjxtve `s
+<ce> vyt ghjcnj yt ghbcjtlbybnmcz.
+<ce> Z ghblth*e _relic_, nfr rfr tuj
+<ce> vj*tn `snm ytvyjuj ckj*yj bcgjkmpjdfnm.
+
+Message:  1030
+%qdt:
+ _barmaid_ crfpfk vyt, xnj Rbylfccf
+ ljcnfdbkf gbcmvj, ghtlyfpyfxtyyjt
+ lkz Vbybcths, rjhjktdt Fe`r-b,
+ rjnjhfz gjj`tofkf ytvtlktyyj
+ gthtlfnm tuj rjhjktdt-vfnthb.
+
+Message:  1031
+%qdt:
+ Vyt ye*yj cjghjdjlbnm _barmaid_ b
+ tt _wereBrother_ d If`fi yf Entct
+ d Lfuuthajkkt.
+
+Message:  1032
+<ce> Gjrf ntkj j`jhjnyz vtlktyyj pfcnsdftn
+<ce> yf vtcnt, _barmaid_ ujdjhbn: "Jnkbxyj, %pcf,
+<ce> z clth*e cdjt j`tofybt hfccrfpfnm dfv, xnj z
+<ce> pyf< j njv gbcmvt, rjnjhjt dfv ye*yj".
+
+Message:  1033
+<ce> F ntgthm, tckb z vjue gjghjcbnm
+<ce> j` jljk*tybb cjghjdjlbnm yfc d
+<ce> ~tkmlfve Ctcnth Entcf. Ds yfqltnt
+<ce> tuj yf rfhnt d ghjdbywbb
+<ce> Lfuuthajkkf.
+
+Message:  1034
+<ce> %pcf, dfif cke*`f If`fie `skf ytjwtybvf.
+<ce> Gj*fkeqcnf, yt cntcyzqntcm ghb[jlbnm
+<ce> d k<`jt dhtvz.
+
+Message:  1035
+<ce> _barmaid_ cvjnhbn yf nt`z c jndhfotybtv.
+<ce> "Xnj ns gsnftimcz cltkfnm, %ra? Gj[bnbnm
+<ce> yfc?" Jyf `thtn _wereBrother_
+<ce> b hfcndjhztncz d djple[t.
+
+Message:  1036
+<ce> _barmaid_ yfxbyftn itgnfnm:
+<ce> "{jhjij, %pcf, djn xnj vs cltkftv.
+<ce> Vs hfpltkbvcz b jnghfdbvcz d __mondung_.
+<ce> Pfntv, gjrf ns `eltim jndktrfnm tuj,
+<ce> z ghjbpytce pfrkbyfybt, xnj`s erhjnbnm
+<ce> pdthz dyenhb ytuj".
+
+--Changed _wereBrother_ to __mondung_ so _barmaid_ specifies dungeon werewolf is in, not dungeon brother NPC currently stashed in
+
+
+QBN:
+Item _letter_ letter used 1018
+Item _I.01_ letter used 1017
+Item _relic_ magic_item used 1026
+
+Person _cyndassa_ named Cyndassa atHome anyInfo 1019
+Person courtier face 89 faction Court_of_Daggerfall remote
+Person _barmaid_ face 115 faction The_Daggerfall_Witches anyInfo 1020
+Person _P.03_ faction The_Sisters_of_the_Bluff female
+Person _wereBrother_ face 13 faction The_Mages_Guild anyInfo 1025 male
+Person _P.05_ named Br'itsa
+
+Place _mondung_ permanent Tristore_Laboratory4
+Place _L.01_ permanent Tristore_Laboratory2
+Place _L.02_ permanent Tristore_Laboratory1
+Place _tavern_ remote tavern
+Place _npc2_ local dungeon
+Place glenmorilCoven permanent BluffCoven
+
+Clock _2mondung_ 00:00 0 flag 17 range 0 2
+Clock _2ndparton_ 00:00 0 flag 17 range 0 2
+Clock _delay_ 02:12 1.00:17
+Clock _S.27_ 00:01 00:01
+Clock _S.32_ 00:01 00:01
+--Reduced time before quest success displays after player arrives at coven
+
+Foe _brother_ is Werewolf
+Foe talisman is 2 Werewolf
+Foe boar is Wereboar
+
+--	Quest start-up:
+	dialog link for person _wereBrother_
+	dialog link for person _P.05_
+	dialog link for item _relic_
+	dialog link for person _barmaid_
+	start timer _2mondung_
+	prompt QuestorOffer yes yes no _no_
+	repute with _P.05_ exceeds 4 do _S.11_
+	repute with _P.03_ exceeds 4 do _S.11_
+	repute with _barmaid_ exceeds 4 do _S.11_
+	pc at glenmorilCoven set _S.30_
+	pc at _mondung_ set _S.14_
+	_I.01_ used do _S.34_
+
+_2mondung_ task:
+	drop _cyndassa_ as questor
+	end quest
+
+variable _2ndparton_
+_S.02_ task:
+	when _2ndparton_ and _S.29_
+	say 1035
+
+_S.03_ task:
+	when _2ndparton_
+	drop _barmaid_ face
+	drop _wereBrother_ face
+	drop _cyndassa_ as questor
+	end quest
+
+_delay_ task:
+	drop _cyndassa_ as questor
+	end quest
+
+_S.05_ task:
+	when _S.06_ and _mondead_
+	give pc nothing
+	start quest 12 12
+	start timer _delay_
+	change repute with courtier by +10
+	change repute with _cyndassa_ by +15
+	end quest
+
+_S.06_ task:
+	clicked npc _cyndassa_
+
+_mondead_ task:
+	killed 1 _brother_ saying 1010
+
+_S.08_ task:
+	clicked npc _barmaid_
+
+yes task:
+	place item _I.01_ at _L.02_ questmarker 0
+	place item _letter_ at _L.01_ marker 0
+	log 1023 step 0
+	reveal _mondung_ in province 19 at 255132
+	pick one of _S.13_ _S.12_ _S.13_ _S.12_
+	say AcceptQuest
+	add _cyndassa_ as questor
+	place foe _brother_ at _mondung_ marker 1
+
+_no_ task:
+	say RefuseQuest
+	end quest
+
+variable _S.11_
+variable _S.12_
+variable _S.13_
+variable _S.14_
+variable _S.15_
+_S.16_ task:
+	when _S.12_ and not _S.11_
+
+_S.17_ task:
+	injured _brother_
+	have _relic_ set _S.15_
+
+_S.18_ task:
+	when _S.22_ and _S.17_
+
+_S.19_ task:
+	when _S.15_ or _S.18_
+
+_S.20_ task:
+	when _S.14_ and _S.16_
+	place foe boar at _L.02_ marker 0
+
+_S.21_ task:
+	when _S.17_ and _S.16_
+	cast Heal spell on _brother_
+	cast Spider_Touch spell on _brother_
+
+_S.22_ task:
+	when _S.14_ and _S.37_
+	restore _barmaid_
+	say 1036
+	drop _barmaid_ face
+	place npc _barmaid_ at _mondung_
+
+_S.23_ task:
+	when _S.19_ and not _mondead_
+	cast Heal spell on _brother_
+	have _relic_ set _S.25_
+
+_S.24_ task:
+	when _S.18_ and _S.23_ and not _S.27_
+	play sound spell_ball_lightning every 1 minutes 100 times
+
+_S.25_ task:
+	play sound spell_ball_lightning every 1 minutes 100 times
+
+_S.26_ task:
+	when _S.19_ and not _mondead_
+	start timer _S.27_
+	restrain foe _brother_
+
+_S.27_ task:
+	clear _S.25_ _S.23_ _S.24_
+
+_mmap_ task:
+	when _S.27_ and not _S.37_ and not _mondead_ and _S.11_ and not _S.32_
+	say 1024
+	add _wereBrother_ face
+	place foe _brother_ at _npc2_
+    place npc _barmaid_ at _tavern_
+    --Need to move _barmaid_ to tavern mentioned in quest for final reunion
+    clear _S.08_
+    --Clear click on _barmaid_ or ending will fire too soon
+
+_S.29_ task:
+	when _S.27_ and not _S.37_ and not _mondead_ and not _S.11_
+	log 1030 step 0
+	log 1031 step 1
+	reveal glenmorilCoven in province 17 at 191097
+	give item _relic_ to _brother_
+	hide npc _barmaid_
+    say 1032
+	say 1012
+	say 1033
+	add _wereBrother_ face
+	add _barmaid_ face
+	place foe _brother_ at _npc2_
+
+variable _S.30_
+_S.31_ task:
+	when _S.30_ and _S.29_
+	start timer _S.32_
+
+_S.32_ task:
+	start quest 12 12
+	start timer _delay_
+	stop timer _2ndparton_
+	say 1034
+	drop _barmaid_ face
+	drop _wereBrother_ face
+	change repute with courtier by +10
+	change repute with _barmaid_ by +12
+	change repute with _P.05_ by +15
+
+_S.33_ task:
+	when _S.06_ and yes and not _mondead_
+	say QuestFail
+
+_S.34_ task:
+	add dialog for person _barmaid_
+	start timer _2ndparton_
+	stop timer _2mondung_
+	log 1016 step 1
+	place npc _barmaid_ at _tavern_
+
+_S.35_ task:
+	when _S.08_ and not _mondead_ and not _S.17_
+	add dialog for person _wereBrother_
+	add dialog for item _relic_
+	say 1014
+
+_S.36_ task:
+	when _S.08_ and not _mondead_ and not _S.17_ and _S.11_
+	location _tavern_ 100 27000
+--not known what this intends to do
+	log 1015 step 1
+	get item _relic_
+
+_S.37_ task:
+	when _S.08_ and not _mondead_ and not _S.17_ and not _S.11_
+	hide npc _barmaid_
+	say 1029
+	add _barmaid_ face
+
+_S.38_ task:
+	when _S.08_ and _mondead_ and _S.17_ and not _S.19_
+	--_barmaid_ previously berates player when werewolf injured, even though that is how quest is supposed to be played
+    --Changed this to only happen when player kills werewolf, which seems to be the intent
+	add dialog for person _wereBrother_
+	say 1028
+	change repute with _barmaid_ by -5
+
+_S.39_ task:
+	when _S.08_ and _mondead_
+	pick one of _S.41_ _S.41_ _S.40_ _S.41_
+	change repute with _barmaid_ by -10
+
+_S.40_ task:
+	say 1022
+
+_S.41_ task:
+	create foe talisman every 5 minutes 10 times with 75% success
+	give item _relic_ to _brother_
+	say 1021
+
+_S.42_ task:
+	when _S.08_ and not _mondead_ and _S.19_ and not _S.14_
+    say 1011
+	say 1012
+    say 1013
+	make _relic_ permanent
+	drop _wereBrother_ face
+
+_S.43_ task:
+	when _S.42_
+	start quest 12 12
+	start timer _delay_
+	stop timer _2ndparton_
+	change repute with _barmaid_ by +12
+	change repute with _P.05_ by +15
+	change repute with courtier by +10
+
+_S.44_ task:
+	_relic_ used do _S.45_
+
+_S.45_ task:
+	give item _relic_ to talisman
+	make pc ill with Caliron's_Curse saying 1027
+	unset _S.06_ _S.33_
+	unset _S.08_ _delay_
+
+_clearclick_ task:
+	when _S.06_ and not _mondead_
+	clear _S.06_ _clearclick_

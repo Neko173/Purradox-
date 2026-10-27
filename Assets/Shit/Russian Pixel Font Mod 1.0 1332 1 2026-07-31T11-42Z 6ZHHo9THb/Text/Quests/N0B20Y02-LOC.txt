@@ -1,0 +1,210 @@
+-- Quest: C:\QUESTS\WORKING\N0B20Y02.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 20
+-- QuestId: 2
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 31
+Quest: N0B20Y02
+DisplayName: Pfobnbnm pfcke*tyyjuj vfuf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Z _qgiver_, cke*bntkm
+<ce> vjueotcndtyyjuj vfuf _sleepingmage_.
+<ce> Vtyz ghjbycnhernbhjdfkb yfqnb
+<ce> xktyf ubkmlbb lkz pfobns tuj
+<ce> cdtnkjcnb, gjrf jy gjuhe*ty
+<ce> d vfubxtcrbq nhfyc. _sleepingmage_
+<ce> gjljphtdftn, xnj rjyrehtyns vjuen
+<ce> gjckfnm fccfccbyjd, xnj`s e`bnm
+<ce> tuj, gjrf jy `tcgjvjoty.
+<ce> %g lfcn dfv jxtym gjktpye<
+<ce> vfubxtcre< dtom: _magicitem_,
+<ce> tckb ds jcnfyjdbnt e`bqw.
+<ce> Djpmvtntcm pf @nj pflfybt?
+   <--->
+<ce> Jxtym `jkmifz xtcnm, vjq ljhjujq
+<ce> lheu %pcf, `snm ds`hfyysv
+<ce> gjvjxm bpdtcnyjve vfue _sleepingmage_,
+<ce> j rjnjhjv z edthty ds e*t cksifkb.
+<ce> Lf, jy cgtwbfkmyj gjghjcbk, xnj`s
+<ce> bvtyyj ds j[hfyzkb tuj `htyyjt
+<ce> ntkj, gjrf jy vtlbnbhetn.
+<ce> Hfpevttncz vfu tuj hfyuf bvttn
+<ce> dhfujd, pfdble<ob[ tuj uhjvflyjq
+<ce> cbkt. Z dth< dfv, yj cjukfcbntcm
+<ce> kb ds yf @ne hf`jne?
+
+RefuseQuest:  [1001]
+<ce> {vvv. J`sxyj xktys ubkmlbb
+<ce> `jktt jnpsdxbds. Edthty,
+<ce> _sleepingmage_ pfgjvybn
+<ce> dfi jnrfp.
+
+AcceptQuest:  [1002]
+<ce> Rfr z b j*blfk.  _sleepingmage_
+<ce> yfxbyftn cdjq nht[xfcjdjq nhfyc, nfr xnj
+<ce> ds ghjcnj ljk*ys j[hfyznm gjvtotybt
+<ce> ubkmlbb jn dnjh*tybz d ntxtybt @njuj dhtvtyb,
+<ce> gjrf vfu ezpdbv. Gj jrjyxfybb nhfycf jy
+<ce> `eltn gthtytcty d ^nthbec. Rfr njkmrj jy
+<ce> `eltn d `tpjgfcyjcnb, ubkmlbz gjiktn
+<ce> rjuj-yb`elm r dfv c yfuhfljq.
+
+QuestComplete:  [1004]
+<ce> Vjkjlfz *tyobyf d ntvyj-cbytq vfynbb
+<ce> ybprj rkfyztncz dfv b ujdjhbn:
+<ce>
+<ce> "Ubkmlbz gjcskftn cdjb gjplhfdktybz pf
+<ce> jnkbxyj ghjltkfyye< hf`jne. _sleepingmage_
+<ce> ljdjkty. Djn _magicitem_, rfr b
+<ce> `skj j`tofyj".
+
+RumorsDuringQuest:  [1005]
+_sleepingmage_ - ktutylf d ___sleepingmage_.
+   <--->
+_sleepingmage_ ye*lftncz d jnls[t gjckt bcgjkmpjdfybz vjueotcndtyyjuj pfrkznbz.
+
+RumorsPostfailure:  [1006]
+Xnj-nj ckexbkjcm c _sleepingmage_ gjrf jy cgfk. Levf<, jy vthnd.
+   <--->
+_sleepingmage_ bcxtp. Ybrnj yt pyftn, *bd jy bkb vthnd.
+
+RumorsPostsuccess:  [1007]
+_sleepingmage_ ghjcyekcz gjckt ljkujuj cyf, @nj [jhjifz yjdjcnm.
+   <--->
+_sleepingmage_ `sk fnfrjdfy dj dhtvz cyf, yj yf tuj pfobne dcnfk j[hfyybr.
+
+QuestorPostsuccess:  [1008]
+Pf nj, xnj ds cltkfkb lkz _sleepingmage_, rjytxyj *t z `ele hfl gjvjxm dfv.
+
+QuestorPostfailure:  [1009]
+<ce> _sleepingmage_ bcxtp, b lt*ehbkb
+<ce> d @nj dhtvz ds, %pcf.
+<ce> Vyt ytxtuj `jkmit dfv crfpfnm.
+<ce> Ybxtuj [jhjituj d @njv yt db*e.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Vtyz eujdjhbkb
+ pfobofnm vfuf _sleepingmage_ d
+ _magesguild_, gjrf jy
+ gjuhe*ty d nhfyc b `tcgjvjoty.
+ Vyt ye*yj j[hfyznm tuj d ntxtybt
+ nht[ xfcjd, yfxbyfz c @njuj vjvtynf.
+
+-moved line down from %qdt line.
+
+Message:  1011
+<ce> Jnjqlb d cnjhjyre, yjdbxjr!
+<ce> Vs ghbikb e`bnm _sleepingmage_
+<ce> ght*lt xtv jy ghjcytncz. ~hscm
+<ce> jnc<lf, bkb vs e`mtv b nt`z.
+
+Message:  1012
+<ce> Le`byf! Ybxtuj kexit d ujkjde yt
+<ce> ghbikj, xtv `tcgjrjbnm vfuf
+<ce> d cjcnjzybb nhfycf?! Ns
+<ce> pfgkfnbim pf @nj! Jcnfdm
+<ce> ubkmlb< ctqxfc *t. Z j`zpfntkmyj
+<ce> ljkj*e j` @njv yf Cjdtnt.
+
+Message:  1013
+<ce> E`mtim vtyz b nt`z dsrbyen
+<ce> bp Ubkmlbb Vfujd! E[jlb bkb
+<ce> z yt hexf<cm pf ct`z!
+
+Message:  1014
+<ce> Z gjkexe yfuhfle pf @njuj
+<ce> rkzndjghtcnegybrf bp Ubkmlbb
+<ce> Vfujd, dbyjdyjuj d cvthnb vfuf
+<ce> _sleepingmage_.
+
+Message:  1030
+<ce> Gjpjdbnt Fh[vfubcnhf! ^njn %ra-yftvybr
+<ce> njkmrj xnj e`bk vfuf _sleepingmage_!
+<ce> Pfghbnt ldthb! R `j<, r `j<!
+
+
+
+QBN:
+Item _magicitem_ magic_item
+
+Person _sleepingmage_ face 5 faction The_Mages_Guild male local
+Person _qgiver_ group Questor
+
+Place _magesguild_ local magery
+
+Clock _oneday_ 1.03:00
+Clock _S.09_ 7.00:00
+Clock _S.12_ 03:00
+--precise timers set due to quest time constraints
+
+Foe _F.00_ is 3 Nightblade
+Foe _mage_ is Mage
+Foe _F.02_ is 2 Assassin
+Foe _F.03_ is Knight
+Foe _F.04_ is Battle_mage
+
+--	Quest start-up:
+	start timer _oneday_
+	start timer _S.12_
+	log 1010 step 0
+	create npc at _magesguild_
+	place npc _sleepingmage_ at _magesguild_
+
+variable _oneday_
+_S.01_ task:
+	create foe _F.00_ every 55 minutes 1 times with 100% success
+
+_S.02_ task:
+	injured _F.00_ saying 1011
+
+_S.03_ task:
+	killed 3 _F.00_
+
+_S.04_ task:
+	clicked npc _sleepingmage_ say 1012
+	hide npc _sleepingmage_
+	change repute with _sleepingmage_ by -10
+	cast Spell_Shield spell on _mage_
+	cast Spell_Absorption spell on _mage_
+	place foe _mage_ at _magesguild_
+
+_S.05_ task:
+	when not _S.12_ and not _S.04_
+
+_questdone_ task:
+	when _S.03_ and _S.12_ and not _S.04_
+	give pc _magicitem_
+	end quest
+
+_S.07_ task:
+	killed 1 _mage_
+	create foe _F.03_ every 30 minutes 10 times with 10% success
+	create foe _F.04_ every 2 minutes 5 times with 50% success
+	create foe _F.02_ every 25 minutes 10 times with 10% success
+	start timer _S.09_
+	change repute with _sleepingmage_ by -50
+
+_S.08_ task:
+	injured _mage_ saying 1013
+
+variable _S.09_
+_S.10_ task:
+	injured _F.02_ saying 1014
+	injured _F.03_ saying 1014
+	injured _F.04_ saying 1030
+
+_talisman_ task:
+	when _S.07_ and _S.09_
+	end quest
+
+_S.12_ task:
+	hide npc _sleepingmage_
+
+until _S.12_ performed:
+	pc at _magesguild_ set _S.01_

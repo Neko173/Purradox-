@@ -1,0 +1,152 @@
+-- Quest: C:\QUESTS\WORKING\M0B60Y10.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 60
+-- QuestId: 10
+Messages: 81
+Quest: M0B60Y10
+DisplayName: J[jnf yf fnhjyf[f
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Yfi yjdsq rkbtyn [jxtn xnj`s rnj-yb`elm
+<ce> dscktlbk lkz ytuj fnhjyf[f - ghjcntqibq
+<ce> nbg ujktvf. Jgkfnf - _gold_ pjkjns[.
+<ce> Bynthtcyjt ghtlkj*tybt?
+
+RefuseQuest:  [1001]
+<ce> Ns yfdthyjt ghtlgjxbnftim `tpjgfcyst
+<ce> ltkf. J[jne yf rhsc yfghbvth...
+
+AcceptQuest:  [1002]
+<ce> Vjkjljq ahfyn, z j`tofk yt jnrhsdfnm tuj
+<ce> bvtyb, ghj`jdfk `fkjdfnmcz c vfubtq.
+<ce> Ytpfrjyyj. Lehfrfv dtptn, - tve elfkjcm
+<ce> cjplfnm fnhjyf[f. Ntgthm @nj cjplfybt ye*yj
+<ce> eybxnj*bnm, gjrf ht`znf bp Ubkmlbb Vfujd yt
+<ce> ghjpyfkb j` @njv. Ceotcndj yfikj e`t*bot d
+<ce> uke`byf[ gjlptvtkmz ___dungeon_. Tckb
+<ce> hfp`thtimcz c @nbv d ntxtybt =2dung_ lytq,
+<ce> gjkexbim cdj< yfuhfle.
+
+QuestComplete:  [1004]
+<ce> Ghtdjc[jlyj, %pct.
+<ce> ^nb jke[b bp Ubkmlbb Vfujd yt ghjctrkb
+<ce> ajrec yfituj rkbtynf. Jy c hfljcnm<
+<ce> pfgkfnbn j`tofyyst _gold_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+<ce> Csy dbrjynf d gjcktlytt dhtvz cfv yt cdjq.
+<ce> Djn xnj `sdftn, tckb cjdfnm yjc dj dczre<
+<ce> vfub<. Cktletn pfybvfnmcz ntv, d xtv
+<ce> gjybvftim njkr.
+
+RumorsPostfailure:  [1006]
+<ce> Ubkmlbz Vfujd j`hfnbkfcm c pfghjcjv, xnj`s
+<ce> dkfcnb - %t %rn - lfkb bv ghfdj
+<ce> yfrfpfnm csyf dbrjynf. Gj[j*t, jy ghbpdfk
+<ce> fnhjyf[f, yj yt cvju tuj rjynhjkbhjdfnm.
+
+RumorsPostsuccess:  [1007]
+<ce> Csy dbrjynf ytlfdyj dcnegbk d Ubkmlb<
+<ce> Vfujd. Bynthtcyj, c xtuj @nj jy bpvtybk
+<ce> cdjt vytybt j yb[.
+
+QuestorPostsuccess:  [1008]
+<ce> Fnhjyf[ - %pcf: yjkm - jlby.
+<ce> Lfktrj gjqltim nfrbvb ntvgfvb.
+
+QuestorPostfailure:  [1009]
+<ce> Yt cktljdfkj ghbybvfnm pflfybt, tckb ns yt
+<ce> d cjcnjzybb cghfdbnmcz c ybv. Ntgthm csyf
+<ce> dbrjynf *ltn yfrfpfybt pf ytktufkmyjt
+<ce> xfhjltqcndj.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ubkmlbz ~jqwjd bp ___qgiver_
+ gjhexbkf vyt yt gjlybvfz ievf, eybxnj*bnm
+ fnhjyf[f, ghbpdfyyjuj jlybv vfujv-cfvjexrjq.
+ E vtyz tcnm =2dung_ lytq yf dsgjkytybt pflfybz.
+
+Message:  1011
+<ce> Fnhjyf[ vthnd.
+<ce> ~eltv yfltznmcz, Ubkmlbz Vfujd yt
+<ce> ghjpyftn j` @njv.
+
+Message:  1080
+<ce> B, hfp e* nt`t nfr yhfdbncz @nbv
+<ce> pfybvfnmcz, djn nt`t rfhnf - vtcntxrj
+<ce> gjl yfpdfybtv ___newdung_,
+<ce> gjl pfdzpre yf`bnjt `fhf[kjv.
+<ce> Ghjuekzqcz yf ljceut,
+<ce> %pcf.
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _dungeon_ remote dungeon
+Place _newdung_ remote dungeon
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+
+Foe _fire_ is Fire_atronach
+Foe _flesh_ is Flesh_atronach
+Foe _iron_ is Iron_atronach
+Foe _ice_ is Ice_atronach
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	pick one of _map_ _nomap_ _nomap_ _nomap_
+	pick one of _S.04_ _S.05_ _S.06_ _S.07_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _ice_ saying 1011
+	killed 1 _fire_ saying 1011
+	killed 1 _flesh_ saying 1011
+	killed 1 _iron_ saying 1011
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_
+
+_S.04_ task:
+	place foe _iron_ at _dungeon_
+
+_S.05_ task:
+	place foe _ice_ at _dungeon_
+
+_S.06_ task:
+	place foe _flesh_ at _dungeon_
+
+_S.07_ task:
+	place foe _fire_ at _dungeon_
+
+variable _map_
+variable _nomap_
+_S.10_ task:
+	when _map_ and _S.02_
+	reveal _newdung_ readmap
+    say 1080
+
+_S.11_ task:
+	when _nomap_ and _S.02_
+
+_S.12_ task:
+	when _S.10_ or _S.11_
+	give pc _gold_
+	end quest

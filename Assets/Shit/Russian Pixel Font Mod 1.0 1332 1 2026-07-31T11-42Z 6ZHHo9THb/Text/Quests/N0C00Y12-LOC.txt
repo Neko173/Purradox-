@@ -1,0 +1,132 @@
+-- Quest: C:\QUESTS\WORKING\N0C00Y12.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: mage
+-- Repute: 0
+-- QuestId: 12
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 21
+Quest: N0C00Y12
+DisplayName: ~tc d `tuf[
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vj*tnt yfpsdfnm vtyz _qgiver_.
+<ce> J`sxyj z lf< hf`jne njkmrj xktyfv ubkmlbb.
+<ce> Yj rfr `s nj yb `skj, e jlyjuj bp yfib[
+<ce> cneltynjd djpybrkb yt`jkmibt ghj`ktvs,
+<ce> rjnjhst yt*tkfntkmyj ghblfdfnm jukfcrt.
+<ce> Z yt vjue pfgkfnbnm dfv, yj tckb ds cjukfcbntcm
+<ce> hfpj`hfnmcz c htpekmnfnfvb ytelfditujcz
+<ce> @rcgthbvtynf, c vbybvfkmysv hbcrjv lkz dfc,
+<ce> `ele hfl pfvjkdbnm pf dfc ckjdtxrj gthtl
+<ce> xktyfvb ubkmlbb.
+
+RefuseQuest:  [1001]
+<ce> Nfr rfrjuj xthnf ds cghfibdftnt vtyz ghj
+<ce> hf`jne? Byjulf z ghjcnj yt gjybvf< @nb[
+<ce> fdfyn<hbcnjd.
+
+AcceptQuest:  [1002]
+<ce> {jhjij. Vjq extybr lth*fk e ct`z ghbhextyyjuj
+<ce> `tcf. ^nb vfubxtcrbt cjplfybz yt jxtym jgfcys,
+<ce> yj gfrjcnbnm k<`zn. Yfib bcrfntkb j`yfhe*bkb,
+<ce> xnj `tc @njn c`t*fk d ___mondung_.
+<ce> E`tqnt `tcnb< b ljkj*bntcm vyt lj bc[jlf
+<ce> =1stparton_ lytq.
+
+QuestFail:  [1003]
+<ce> Z dct pyf<, `tc dct tot *bd.
+<ce> Ds dct tot pltcm?
+
+QuestComplete:  [1004]
+<ce> Rfrjt j`ktuxtybt. Z e dfc d ljkue, %pcn.
+<ce> Ds ytvyjuj gjlyzkbcm d ukfpf[ ubkmlbb.
+
+RumorsDuringQuest:  [1005]
+Z cksifk, xnj xnj-nj c`t*fkj bp kf`jhfnjhbb Ubkmlbb Vfujd ghjikjq yjxm<.
+   <--->
+%oth, z dbltk rfr vfktymrfz ntym crhskfcm d ntvyjnt ghjikjq yjxm<.
+
+RumorsPostfailure:  [1006]
+{v, ckexbkcz nen vfktymrbq crfylfk, rfcf<obqcz kf`jhfnjhyjq j[hfys Ubkmlbb Vfujd.
+   <--->
+Jgznm Ubkmlbz Vfujd xtuj-nj yfgfhnfxbkf.
+
+RumorsPostsuccess:  [1007]
+Cksifk, xnj d kf`jhfnjhbz[ Ubkmlbb Vfujd gsnf<n `tcjd!
+   <--->
+<ce> Z cksifk jyb bpltdfkbcm yfl `tcfvb d
+<ce> ubkmltqcrjq kf`jhfnjhbb! Gjyznyj, xnj
+<ce> jyb cvskbcm. Ljv %nam gjldthucz yf`tue
+<ce> vsitq, pf ybvb ljkuj ujyzkbcm c vtnkjq.
+   <--->
+<ce> Z cksifk, xnj jlby lhe*tcndtyysq `tc
+<ce> c`t*fk bp kf`jhfnjhbb Ubkmlbb Vfujd. Ujdjhzn,
+<ce> djkit`ybr, gjnthzdibq hfcgjkj*tybt `tcjd,
+<ce> cnfyjdbncz ezpdbvsv gthtl dhf*tcrbvb
+<ce> pfrkbyfybzvb.
+
+QuestorPostsuccess:  [1008]
+Rfr ds, %pcf? Yflt<cm ytn `jkmit ybrfrjq ghj`ktvs c `tcfvb?
+
+QuestorPostfailure:  [1009]
+<ce> Z gjcskfk dfc e`bnm `tcf, tckb ds gjvybnt.
+<ce> Yt db*e yb jlyjq ghbxbys, gj rjnjhjq z
+<ce> ljk*ty c dfvb j`ofnmcz.
+
+QuestLogEntry:  [1010]
+<ce> "Z kexit evhe, xtv dthyecm
+<ce> d kf`jhfnjhb< ubkmlbb".
+
+Message:  1020
+%qdt:
+ Ubkmlbz Vfujd bp ___qgiver_
+ yfyzkf vtyz yfqnb `tukjuj `tcf,
+ e`t*fdituj bp b[ kf`jhfnjhbb.
+ Crjhtq dctuj jy ghzxtncz d ___mondung_.
+ Vyt ye*yj e`bnm ceotcndj b dthyenmcz d
+ ___qgiver_ lj bc[jlf =1stparton_ lytq.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+
+Place _mondung_ remote dungeon
+
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
+
+Foe _imp_ is Imp
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1020 step 0
+	place foe _imp_ at _mondung_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _mondead_
+	give pc nothing
+	end quest
+
+variable _queston_
+_mondead_ task:
+	killed 1 _imp_
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_clearclick_ task:
+    when _qgclicked_ and not _mondead_
+	say 1003
+    clear _qgclicked_ _clearclick_
+--merged unused _clearclick_ variable into this _reset_ task and renamed it.
+
+_1stparton_ task:
+	end quest
+
+_S.06_ task:
+	injured _imp_ saying 1010

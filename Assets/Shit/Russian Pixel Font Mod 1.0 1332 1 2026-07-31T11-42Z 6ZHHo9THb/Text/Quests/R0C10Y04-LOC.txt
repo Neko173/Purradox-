@@ -1,0 +1,167 @@
+-- Quest: C:\QUESTS\WORKING\R0C10Y04.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 4
+Messages: 21
+Quest: R0C10Y04
+DisplayName: Pkjq djkit`ybr
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Dtxyj yj<obt rhtcnmzyt, hf`jnf<obt yf vjtq ptvkt
+<ce> hzljv c ___mondung_, lfdyj *fke<ncz
+<ce> yf pkjuj rjkleyf, ghjdjlzotuj cdjb jgsns
+<ce> d @njv gjlptvtkmt. Gj[j*t, yf @njn hfp
+<ce> jyb ghfds. Vyt ye*ty rbkkth,
+<ce> e rjnjhjuj ljcnfnjxyj dhtvtyb, xnj`s gjt[fnm d
+<ce> ___mondung_ b e`bnm
+<ce> rjkleyf-xthyjryb*ybrf nfv. Z ujnjd pfgkfnbnm
+<ce> _reward_ pjkjns[ vjytn pf @ne eckeue.
+<ce> Bynthtcyj?
+
+RefuseQuest:  [1001]
+<ce> Ghfdlf? Vyt-nj rfpfkjcm, xnj @nj pflfybt
+<ce> rfr hfp lkz dfc. |fkm!
+
+AcceptQuest:  [1002]
+<ce> %oth, @nj df*yj. ^njuj rjkleyf ye*yj
+<ce> pfvjxbnm yt gjplytt =1stparton_ lytq, nfr xnj,
+<ce> djpvj*yj, dfv cnjbn ds[jlbnm d genm ytvtlktyyj.
+<ce> Elfxb, %pcf. Ybrfrjq tve gjofls!
+
+QuestFail:  [1003]
+<ce> Yt [jxe dfc dbltnm lj nt[ gjh, gjrf @njn rjkley
+<ce> yt vthnd.
+
+QuestComplete:  [1004]
+<ce> Vjueotcndtyysq uthjq dthyekcz! Athvths dyt ct`z
+<ce> jn hfljcnb, xnj b[ ptvkz cdj`jlyf jn xthyjq vfubb,
+<ce> b z hfpltkz< b[ hfljcnm. Ghbvbnt _reward_ pjkjns[ vjytn,
+<ce> %pcf, d `kfujlfhyjcnm jn vtyz.
+
+RumorsDuringQuest:  [1005]
+Ds gjxnb xedcndetnt ytlj`hj*tkfntkmyjt vfubxtcrjt plfybt.
+   <--->
+Ytrbq rjkley gjrkzkcz ghtdhfnbnm ptvk< _questgiver_ d hfpdfkbys.
+
+RumorsPostfailure:  [1006]
+^njn rjkley bp ___mondung_, jxtdblyj, ghj[jlbk pltcm.
+   <--->
+Jxtdblyj, ytrbq fdfyn<hbcn kbibk gjrjz rjkleyf bp ___mondung_.
+
+RumorsPostsuccess:  [1007]
+~tpevysq rjkley bp ___mondung_ `sk e`bn, jxtdblyj, [hf`hsv %ra.
+   <--->
+Tckb `s rjkley ds*bk, _questgiver_ bvtk `s `jkmibt ghj`ktvs.
+
+QuestorPostsuccess:  [1008]
+F, djn b e`bqwf `tpevyjuj rjkleyf dthyekcz. Rfr ds, vjq lheu?
+   <--->
+Hfl cyjdf dbltnm dfc, e`bqwf `tpevys[ rjkleyjd.
+
+QuestorPostfailure:  [1009]
+<ce> Yflt<cm, ds yt j*blfkb yfuhfls pf
+<ce> ghjdfk d e`bqcndt rjkleyf.
+<ce> Dfv gjdtpkj, xnj z dfc
+<ce> yt dsgjhjk.
+   <--->
+<ce> Bnfr, %ra djpdhfoftncz.
+<ce> Rfr z gjybvf<, dfv yt elfkjcm
+<ce> e`bnm rjkleyf. E`bhfqcz jnc<lf.
+
+Message:  1011
+<ce> _questgiver_, ldjhzyby, gj-yfcnjzotve ytyfdblbn
+<ce> rjkleyf, ghjpdfyyjuj _fakename_.
+   <--->
+<ce> _questgiver_, ldjhzyby, rjnjhjve ghbxbybk `tcgjrjqcndj
+<ce> rjkley, ghjpdfyysq _fakename_.
+
+Message:  1012
+_fakename_ rjkley vthnd.
+
+Message:  1015
+%qdt:
+ _questgiver_
+ bp __questgiver_ d ___questgiver_
+ gjckfk vtyz d ___mondung_,
+ ult z ljk*ty e`bnm `tpevyjuj rjkleyf.
+ Tckb z dsgjky< ltkj b dthyecm
+ r y%g2 yt gjplytt =1stparton_ lytq,
+ z pfhf`jnf< vjt pjkjnj.
+
+Message:  1020
+<ce> Ljk*yj `snm, ns b tcnm njn `tlysq ukegtw, rjnjhjuj
+<ce> _questgiver_ yfyzk gjgsnfnmcz e`bnm vtyz.
+<ce> Ndjb rjcnb crjhj ghbcjtlbyzncz r rjcnzv
+<ce> ndjb[ cjjntxtcndtyybrjd, hfp`hjcfyys[
+<ce> gj vjtve gjlptvtkm<!
+
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ face 112 group Questor anyInfo 1011 rumors 1011
+Person _fakename_ group Local_4.0 female remote
+
+Place _mondung_ remote dungeon
+
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Sorceror
+Foe _battlemage_ is Battle_mage
+Foe _F.02_ is Orc_shaman
+Foe _mage_ is Mage
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1015 step 0
+	pick one of _week_ _plot_ _time_ _vend_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _S.02_
+	give pc _reward_
+	end quest
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+
+_S.02_ task:
+	killed 1 _battlemage_
+	killed 1 _F.02_
+	killed 1 _F.00_
+	killed 1 _mage_
+	say 1012
+	change repute with _fakename_ by -20
+
+variable _queston_
+_1stparton_ task:
+	change repute with _questgiver_ by -15
+	end quest
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.02_
+	clear _qgclicked_ _clearclick_
+
+_week_ task:
+	place foe _battlemage_ at _mondung_
+
+_plot_ task:
+	place foe _mage_ at _mondung_
+
+_time_ task:
+	place foe _F.02_ at _mondung_
+
+_vend_ task:
+	place foe _F.00_ at _mondung_
+
+_dummy_ task:
+	injured _mage_
+	injured _battlemage_
+	injured _F.00_
+	injured _F.02_
+	say 1020

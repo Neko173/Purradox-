@@ -1,0 +1,178 @@
+-- Quest: C:\QUESTS\WORKING\R0C10Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 0
+Messages: 22
+Quest: R0C10Y00
+DisplayName: Rjynhf`fylf lhfujwtyyjcntq
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Tckb dfc vj*yj yfyznm, nj vyt ye*ty ytrnj
+<ce> yflt*ysq, vjueobq dsgjkybnm ytrjt nfqyjt gjhextybt.
+<ce> Djpvj*yj @nj pfqvtn ljcnfnjxyj dhtvtyb, yj
+<ce> z edthty, xnj ds `eltnt otlhj djpyfuhf*ltys.
+<ce> Ye xnj, bynthtcyj?
+
+RefuseQuest:  [1001]
+<ce> Ghfdlf? Dthjznyj, ckbirjv pfyzns. |fkm!
+
+AcceptQuest:  [1002]
+<ce> Jxtym [jhjij! Z lf< dfv bpevhel, xnj`s ds
+<ce> gthtlfkb tuj vjtve rjynfrnyjve kbwe, _npc1_ bp
+<ce> ___npc1_.  %g `eltn j*blfnm dfc d
+<ce> __npc1_. Ghtlvtn ljk*ty `snm nfv
+<ce> lj bc[jlf =1stparton_ lytq. ^nj jxtym df*yj.
+<ce> Rjulf ds cltkftnt @nj,
+<ce> _npc1_ lfcn dfv lfkmytqibt
+<ce> bycnherwbb. Z gjkfuf<cm yf dfit `kfujhfpevbt,
+<ce> %pcf, pf dfvb `elen cktlbnm.
+<ce> Elfxb. ~kfujlfh< dfc.
+
+QuestFail:  [1003]
+<ce> Tldf kb yfv cnjbn xnj-nj tot j`ce*lfnm ctqxfc.
+   <--->
+<ce> Z dfc pyf<?
+
+QuestComplete:  [1004]
+<ce> Hfl dbltnm dfc %pcf. F djn b
+<ce> _item2_. Jnkbxyj! ^nj _reward_ pjkjnjt
+<ce> djpyfuhf*ltybt pf dfib cnfhfybz b, z vjue lj`fdbnm,
+<ce> pf dfit `kfujhfpevbt. Dfit bvz yt `eltn pf`snj.
+
+RumorsDuringQuest:  [1005]
+<ce> _questgiver_, z cksifk, dct tot ghjvsikztn rjynhf`fyljq.
+   <--->
+<ce> Pf gjcktlytt dhtvz ghjbpjitk gjhfpbntkmysq hjcn rjynhf`fyls.
+
+RumorsPostfailure:  [1006]
+<ce> Z cksifk, _questgiver_ cdbhtg rfr fl r ytrjtve %ra fdfyn<hbcne.
+
+RumorsPostsuccess:  [1007]
+<ce> Ybrnj yt pyftn, rnj cnjbn pf dctq @njq rjynhf`fyljq _item2_.
+
+QuestorPostsuccess:  [1008]
+<ce> F, vjq lhfujwtyysq rjynhf`fylbcn! Rfr z vjue dfv gjvjxm?
+   <--->
+<ce> Ye plhfdcndeq cyjdf. ~j<cm, xnj z `jkmit yt ye*lf<cm d ljcnfdrf[.
+
+QuestorPostfailure:  [1009]
+<ce> Xnj, ghbgjkpkb bpdbybnmcz pf ghjdfk
+<ce> pflfybz? Ckbirjv gjplyj.
+   <--->
+<ce> Nfr @nj ns njn %ra, rnj ghjdfkbk
+<ce> @nj gjhextybt gj ljcnfdrt?
+<ce> Ghjdfkbdfq d J`kbdbjy.
+
+QuestLogEntry:  [1010]
+<ce> F, [jhjij. Gjcktlybq rehmth, rjnjhjuj _questgiver_
+<ce> yfyzk, nfr b yt yfitk vtyz b yfv ghbikjcm dsckt*bdfnm tuj.
+<ce> Jxtym ytghbznyj. Djn _item2_. Jy ljk*ty `snm e
+<ce> _npc2_, @njn =npc2_
+<ce> d ___npc2_. Dfv ye*yj
+<ce> lj`hfnmcz nelf vtytt, xtv pf =2ndparton_ lytq.
+<ce> Elfxb, %pcf.
+
+Message:  1011
+%qdt:
+ _questgiver_ bp __questgiver_
+ d ___questgiver_ gjckfk vtyz d
+ __npc1_ d ___npc1_,
+ xnj`s ljcnfdbnm bpevhel _npc1_.
+ E vtyz =1stparton_ lytq yf dsgjkytybt gjhextybz.
+ Lj`hfdibcm nelf, djpvj*yj, z gjkexe lfkmytqibt bycnherwbb.
+
+Message:  1012
+%qdt:
+ _npc1_ gjcskftn vtyz
+ r ___npc2_ c _item2_,
+ xnj`s ghbytcnb tuj _npc2_ d vtcnj,
+ yfpdfyyjt __npc2_. _npc1_,
+ jgbcfyyjt _npc2_ rfr
+ =npc2_. _npc2_ lfcn
+ vyt vjt djpyfuhf*ltybt, tckb z cltkf< @nj lkz y%g4
+ pf =2ndparton_ lytq.
+
+Message:  1020
+<ce> Ubkmlbz Djhjd jcdtljvktyf, xnj
+<ce> ds ytctnt lhfujwtyysq rfvtym
+<ce> pyfxbntkmyjq cnjbvjcnb. Gthtlfqnt tuj yfv
+<ce> b z gjpdjk< dfv eqnb gj lj`he, gj pljhjde.
+
+Message:  1021
+<ce> Ckjdyj jnj`hfnm vjytne e ht`tyrf.
+<ce> Ntgthm ghjdfkbdfq jnc<lf,
+<ce> ckf`jdjkmysq rehmth.
+
+
+
+QBN:
+Item _reward_ gold
+Item _item1_ emerald
+Item _item2_ drug
+
+Person _questgiver_ face 136 group Questor
+Person _npc1_ group Local_3.0 remote
+Person _npc2_ face 248 group Shopkeeper remote
+
+Clock _1stparton_ 00:00 0 flag 1 range 1 4
+Clock _2ndparton_ 00:00 0 flag 1 range 1 4
+
+Foe _thief_ is Thief
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1011 step 0
+	get item _item1_
+	create npc _npc1_
+
+variable _pcgetsgold_
+variable _pchasitem1_
+variable _pchasitem2_
+_S.03_ task:
+	toting _item1_ and _npc1_ clicked
+	start timer _2ndparton_
+	log 1012 step 1
+	get item _item2_
+	say 1010
+	create npc _npc2_
+
+until _S.03_ performed:
+	create foe _thief_ every 10 minutes 5 times with 50% success
+
+_S.04_ task:
+	toting _item2_ and _npc2_ clicked
+	give pc _reward_
+	end quest
+--removed unnecessary delay
+
+_queston_ task:
+	when _1stparton_ and not _S.03_
+	change repute with _questgiver_ by -20
+	end quest
+
+variable _1stparton_
+_2ndparton_ task:
+	change repute with _questgiver_ by -20
+	end quest
+
+_S.08_ task:
+	injured _thief_
+	prompt 1020 yes _yes_ no _no_
+
+_yes_ task:
+	have _item1_ set _S.11_
+
+variable _no_
+_S.11_ task:
+	give item _item1_ to _thief_
+	say 1021
+	restrain foe _thief_
+
+_S.13_ task:
+	when _queston_ or _2ndparton_
+	make _item2_ permanent
+	make _item1_ permanent

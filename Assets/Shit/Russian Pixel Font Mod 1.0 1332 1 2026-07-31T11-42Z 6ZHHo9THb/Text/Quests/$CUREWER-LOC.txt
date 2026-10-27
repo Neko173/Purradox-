@@ -1,0 +1,423 @@
+-- Quest: C:\QUESTS\WORKING\$CUREWER.Qbn.
+-- StartsBy: letter
+-- Questee: anyone
+-- Questor: hunter
+-- QuestId: 0
+Messages: 62
+Quest: $CUREWER
+DisplayName: Ktrfhcndj jn kbrfynhjgbb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+Error -- 1000 called
+
+RefuseQuest:  [1001]
+Error -- 1001 called
+
+AcceptQuest:  [1002]
+Error -- 1002 called
+
+QuestFail:  [1003]
+<ce> Error -- 1003 called
+
+QuestComplete:  [1004]
+<ce> Rfr njkmrj _child_ dsgbdftn rhjdm,
+<ce> ds xedcndetnt rfr dfi hfpev cnfyjdbncz
+<ce> rhbcnfkmyj xbcnsv, rfrbv jy yt `sk c nt[
+<ce> gjh rfr ds pfhfpbkbcm. Yj _child_ c
+<ce> rhbrjv gflftn yfdpybxm b yfxbyftn `bnmcz
+<ce> d fujybb. Ghzvj yf dfib[ ukfpf[ yfxbyftncz
+<ce> nhfycajhvfwbz ntkf.
+
+RumorsDuringQuest:  [1005]
+<ce> _hunter_ bltn d %reg, xnj`s dsxbcnbnm vfktqibt ghjzdktybz j`jhjnybxtcndf.
+<ce> ~snm vj*tn njulf vs cvj*tv [jlbnm gj yjxysv ekbwfv `tp jgfcrb.
+
+RumorsPostfailure:  [1006]
+<ce> _hunter_ b %g4 k<lb e`bkb ghtljcnfnjxyj djkrjd d %reg, yj z `ele njkmrj hfl,
+<ce> tckb jyb eybxnj*fn b[ dct[.
+   <--->
+<ce> _hunter_ yt pyftn, xnj pyfxbn jcnfnmcz d jlbyjxtcndt. %g4 gj[jls
+<ce> hfp`elzn pdthbye< zhjcnm d j`jhjnyz[.
+
+RumorsPostsuccess:  [1007]
+<ce> _hunter_ b %g4 k<lb e`bkb ghtljcnfnjxyj djkrjd d %reg, yj z `ele njkmrj hfl,
+<ce> tckb jyb eybxnj*fn b[ dct[.
+   <--->
+<ce> _hunter_ yt pyftn, xnj pyfxbn jcnfnmcz d jlbyjxtcndt. %g4 gj[jls
+<ce> hfp`elzn pdthbye< zhjcnm d j`jhjnyz[.
+
+QuestorPostsuccess:  [1008]
+Error -- 1008 called
+
+QuestorPostfailure:  [1009]
+Error -- 1009 called
+
+Message:  1011
+_hunter_ dsbcrbdftn b eybxnj*ftn j`jhjnytq gj dctv Nfvhb@k<.
+   <--->
+_hunter_ gjcdznbk cdj< *bpym j[jnt yf j`hjnytq.
+
+Message:  1012
+<ce> Ujdjhzn, xnj hjlyjq jntw j[jnybrf `sk e`bn j`jhjnytv. Djn gjxtve jy
+<ce> nfr afyfnbxyj ghtcktletn b[.
+   <--->
+<ce> _hunter_ e`bk cdj< cj`cndtyye< vfnm, rjulf nf cnfkf j`jhjnytv.  Djn gjxtve
+<ce> z yfpsdf< tuj afyfnbrjv!
+
+Message:  1013
+_father_ ... bvz pdexbn pyfrjvj, yj yt vjue crfpfnm, xnj z pyf< tuj.
+   <--->
+Levf< _father_ evth e*t lfdyj.  Bkb e`bn?  Yt pyf<.
+   <--->
+<ce> _father_ `sk gjcktlybv bp ytrjulf vjueotcndtyyjuj ldjhzycrjuj hjlf d ___local_.
+<ce> Rf*tncz jy evth ytcrjkmrj ktn yfpfl.
+   <--->
+<ce> Levf<, xnj jy `sk jlby bp nt[, rnj evth ldf bkb nhb ujlf yfpfl, jcnfdbd cdjt lbnz cbhjnjq. Yj _local_ bp __local_ vj*tn pyfnm `jkmit j` @njv.
+   <--->
+<ce> _father_ vyjuj ktn yt `sk d ___local_.  Yt pyf<, xnj ghjbpjikj c ybv
+<ce> Yj e ytuj `sk lheu _local_. Vj*tn jy xnj pyftn.
+   <--->
+<ce> _father_ lfdyj gthtt[fk d ___father_.  Bkb jy `sk jlby bp nt[,
+<ce> rnj gjub` nfr nhfubxtcrb?
+
+Message:  1014
+<ce> _father_ evth ytcrjkmrj ktn yfpfl.  Tuj tlbycndtyyjuj ht`tyrf ecsyjdbkf ctvmz bp
+<ce> __childhouse_, rf*tncz.  Gjcghfibdfq d jrheut ghj _child_.
+   <--->
+<ce> Ult * ns `sk, lheu? Vyt jxtym *fkm, yj jy evth ytcrjkmrj ktn yfpfl. Tuj
+<ce> tlbycndtyysq ht`tyjr _child_ `sk dpzn yf gjgtxtybt ctvmtq bp __childhouse_.
+
+Message:  1020
+<ce> %qdt
+<ce>
+Ljhjujq lheu %pcn,
+<ce>
+  Bkb vyt yfpsdfnm dfc "=wereboar_", rfr dfc
+yfpsdf<n vtcnyst, pfgbhf<obtcz gj yjxfv yf dct
+pfvrb d cnhf[t gthtl dfvb? Lf, z pyf< rnj ds b
+xnj ds, f lyb dfib, rjulf ds nthhjhbpbhjdfkb
+jrhtcnyjcnb, cjxntys. Ghtlkfuf< dfv ds`jh:
+bpktxbntcm jn kbrfynhjgbb bkb `eltnt eybxnj*tys
+rfr lbrbq pdthm, rtv ds cj`cndtyyj b zdkztntcm.
+  B gecnm ybrnj yt ujdjhbn, xnj vyt ytdtljvj
+cjcnhflfybt. Lf< dfv gjcktlybq ifyc cgfcnb ct`z.
+Blbnt r _priest_ bp __priest_ d ___priest_,
+tckb [jnbnt jcnfnmcz d *bds[. %g pyftn genb
+kbrfynhjgbb, b tckb rnj-nj b cgjcj`ty dfv gjvjxm,
+nfr @nj %g.
+  ~ele *lfnm =huntstart_ lytq, ght*lt xtv gjckfnm
+vjb[ k<ltq pf dfvb. Bcgjkmpeqnt @nj dhtvz velhj.
+<ce>
+<ce> _hunter_
+<ce> ----
+
+Message:  1021
+<ce> Ljk*yj `snm ds %pcn. _hunter_ ujdjhbk, xnj
+<ce> djpvj*yj ds ghbltnt gjdblfnmcz cj vyjq, [jnz jy
+<ce> b cjvytdfkcz, xnj dfv ye*ys tuj ghtleght*ltybz.
+<ce> Gtxfkmyj, yj cxbnf<n, xnj lkz bvt<otuj leie Pdthz
+<ce> ghfrnbxtcrb ytn cgfctybz. Lf, ghjrkznbt kbrfynhjgbb
+<ce> vj*tn `snm cyznj, b vyt yt [jntkjcm `s @nj ujdjhbnm,
+<ce> yj ktxtybt vj*tn `snm tot [e*t, xtv cfvf `jktpym.
+<ce> Yfv ye*yj ujdjhbnm gjnbit. Yfdthyjt dfv bpdtcnyj,
+<ce> xnj kbrfynhjgbz gthtlftncz gj yfcktlcnde, nj
+<ce> crhsdfzcm, nj ghjzdkzzcm d hfpkbxys[ gjrjktybz[.
+<ce> Djn gjxtve dtkbrbt gj[jls ghjnbd kbrfynhjgjd gjl
+<ce> herjdjlcndjv nfrb[ rfr _hunter_ ghfrnbxtcrb
+<ce> `tcgkjlys, tckb njkmrj dct xktys ctvtqcndf, ytceobt
+<ce> d rhjdb ctvtyf kbrfynhjgbb yt `elen eybxnj*tys.
+<ce> Ntgthm ds gjybvftnt, gjxtve z ytj[jnyj ltk<cm
+<ce> @nbvb gjpyfybzvb. Rfr dfv bpdtcnyj, elfh j`jhjnyz
+<ce> vj*tn gthtytcnb pfhfpe cdjtq *thndt. Jlyfrj tckb
+<ce> ds pfhfpbnt kfntynyjuj (crhsnjuj) kbrfynhjgf,
+<ce> ghjrkznbt `eltn cyznj c dfc, ghjzdbdibcm c ldjqyjq
+<ce> cbkjq yf dfitq *thndt. ~kfujlfhz vjbv bccktljdfybzv
+<ce> z gjxnb yfitk ctvm<, d rjnjhjq @nf `jktpym gthtlftncz
+<ce> gj yfcktlcnde. Tckb ds dct tot [jnbnt bp`fdbnmcz jn
+<ce> @njuj ntvyjuj ghjrkznbz, z vjue crfpfnm dfv ult
+<ce> yfqnb gjcktlytuj ds*bdituj @njuj lhtdytuj b ghjrkznjuj
+<ce> hjlf.
+
+Message:  1022
+<ce> Jnkbxyj. Yt vjue dbybnm dfc pf *tkfybt *bnm.
+<ce> Z entie ct`z vsckzvb, xnj _father_, gjcktlybq
+<ce> bp @njuj j`htxtyyjuj hjlf, `eltn eybxnj*ty, ght*lt
+<ce> xtv ghjrkznbt jgznm ghjzdbncz c yjdjq cbkjq. Lf,
+<ce> jy cjdctv jlby. Yfcrjkmrj vyt bpdtcnyj, jy dct tot
+<ce> *bdtn d ___local_, d ljvt, ghbyflkt*fotve ytcrjkmrbv
+<ce> gjrjktybzv @njq ctvmb. Yj cyfxfkf dfv ye*yj gjdblfnmcz
+<ce> c _alchemist_ d ___alchemist_. %g
+<ce> fccbcnbhjdfk vyt d ytrjnjhs[ ltkf[ hfymit. Cfvsq
+<ce> dthysq genm lkz pfhf*tybz *thnds, tckb jyf dsgmtn
+<ce> rhjdm j`jhjnyz. _alchemist_ yt `eltn pflfdfnm
+<ce> kbiyb[ djghjcjd. Lf gjvj*tn dfv %god yf dfitv genb.
+
+Message:  1023
+<ce> Gjybvf<. D ltqcndbntkmyjcnb z gjxnb yt cjvytdfkcz,
+<ce> xnj ds bp`t*bnt nfrjuj cgjcj`f bcwtktybz. ^nj
+<ce> ujdjhbn, xnj Pdthm tot yt ljvbybhetn d dfc. Yt [jxe
+<ce> dyeifnm dfv kj*ye< yflt*le, yj tckb ds dct tot
+<ce> [jnbnt bcwtkbnmcz ... Bnfr, @nj rjytxyj yt `jktt
+<ce> xtv ktutylf, yj ult-nj d jrhtcnyjcnz[ tcnm if`fi,
+<ce> rjnjhsq vj*tn bpktxbnm kbrfynhjgb<. Kexitt, yf xnj
+<ce> z vjue cjckfnmcz, @nj ntrcn jlyjq lhtdytq herjgbcb:
+<ce> "Bcnjhbz lf@lhbxtcrb[ ctrn". R cj*fktyb< tlbycndtyyfz
+<ce> ewtktdifz rjgbz e*t ytcrjkmrj dtrjd rfr ghjgfkf d
+<ce> ukeib ___hintdung_.  Djpvj*yj jyf cghznfyf
+<ce> ult-nj d hebyf[. Tckb @nj dct, nj gjbcrb vjuen
+<ce> gjvjxm dfv hfpj`hfnmcz cj Pdthtv dyenhb dfc.
+<ce> B gecnm %god yfghfdkztn dfib ifub.
+
+Message:  1024
+<ce> Fuf, tot jlby dbpbnth jn _priest_. Lf, z
+<ce> pyf<, xnj nt`t ye*yj, yj @nj yt `tcgkfnyj.
+<ce> 1000 pjkjns[ yf `jxre. ~thb bkb e[jlb.
+<ce> Nfr, gjujlb vbyenre. Djn nj, xnj ns botim.
+<ce> F ntgthm e`bhfqcz jnc<lf, gjrf nt`z yt
+<ce> edbltk rnj-yb`elm bp vjb[ edf*ftvs[
+<ce> gjregfntktq.
+
+Message:  1025
+<ce> Fuf, tot jlby dbpbnth jn _priest_. Lf, z
+<ce> pyf<, xnj nt`t ye*yj, yj @nj yt `tcgkfnyj.
+<ce> 1000 pjkjns[ yf `jxre. ~thb bkb e[jlb.
+<ce> Bpdbyb, gfhz, yj e nt`z ytn ltytu.
+<ce> Dfkb jnc<lf, gjrf z yt gjpdfk cnhf*e.
+
+Message:  1026
+<ce> Botnt _father_?  ~j<cm, xnj jy
+<ce> e*t nhb ujlf rfr evth.  Gjrjyxbk cfvje`bqcndjv,
+<ce> kbim ytvyjubt pyf<n dct ltnfkb @njuj ghjbcitcndbz.
+<ce> Yt pyf< xnj ckexbkjcm, yj e ytuj `skj jxtym
+<ce> gkj[jt yfcnhjtybt b d gjcktlybt lyb jy ghjgflfk
+<ce> dhtvz jn dhtvtyb ytbpdtcnyj ult. Jcnfdbk gjckt
+<ce> ct`z pfgbcre, d rjnjhjq ujdjhbkjcm, xnj jy
+<ce> yt [jxtn *bnm b yt [jxtn, xnj`s tuj ht`tyjr pyfk,
+<ce> xnj c ybv ghjbpjikj yf cfvjv ltkt. Z ybrjulf
+<ce> yt pflevsdfkcz, xnj `s @nj vjukj pyfxbnm. Lf,
+<ce> _child_ - tuj tlbycndtyysq ht`tyjr, rjnjhjuj
+<ce> dpzkf yf gjgtxtybt ctvmz bp __childhouse_
+<ce> gjckt cvthnb jnwf. ^nj dct xnj vyt bpdtcnyj.
+
+Message:  1027
+<ce> Plhfdcndeqnt! Ds ljrnjh? Z xedcnde< ct`z
+<ce> ctujlyz ytdf*yj. ^nj ktrfhcndf lkz vtyz?
+
+Message:  1028
+<ce> Ljgecnbnt, xnj`s lbnz dsgbkj rhjdm?
+
+Message:  1030
+<ce> {jnbnt gjbcrfnm *thnde, rjnjhfz
+<ce> gjvj*tn dfv bpktxbnm kbrfynhjgb<?
+
+Message:  1040
+<ce> _hunter_ crfpfk vyt, xnj z yfqle nt`z pltcm.
+<ce> Evhb, =wereboar_!
+
+QuestTimeLapse:  [1045]
+<ce> Dfit dybvfybt ghbdktr ytpyfrjvsq cdthnjr
+<ce> yf lyt dfitq cevrb. ^nj gbcmvj, flhtcjdfyjt
+<ce> dfv b yfgbcfyyjt bpzoysv gjxthrjv.
+<ce> Rfr jyj gjgfkj r dfv?
+
+Message:  1050
+%qdt:
+ J[jnybr yf j`jhjnytq _hunter_
+ ghbckfk gbcmvj c euhjpjq e`bnm
+ vtyz, tckb z yt ghbve vths gj bcwtktyb<
+ kbrfynhjgbb. Jy yfghfdbk vtyz r
+ _priest_ bp __priest_,
+ d ___priest_. E vtyz =huntstart_ lytq
+ ght*lt xtv yfxytncz j[jnf.
+
+Message:  1051
+%qdt:
+ _priest_ hfccrfpfk vyt, xnj tlbycndtyysq genm
+ bcwtkbnmcz - yfqnb _father_
+ bp ___local_, gjcktlytuj bp hjlf kfntynys[
+ kbrfynhjgjd b pfcnfdbnm tuj dsgbnm vj< rhjdm,
+ rjnjhfz gjkyjcnm< gthtytctn pfhfpe jn vtyz tve.
+ Lkz @njq wtkb fk[bvbr gj bvtyb _alchemist_
+ d ___alchemist_ ghbujnjdbn crkzyre
+ lkz vjtq rhjdb.
+
+Message:  1052
+%qdt:
+ Z jnrfpsdf<cm jn ghtlkj*tybz cdzotyybrf
+ bcwtkbnm kbrfynhjgb< gjchtlcndjv pfhf*tybz
+ lheujuj.  Cdzotyybr lj`fdbk, xnj vyt cnjbn
+ gjbcrfnm lhtdy<< rybue, rjnjhfz vj*tn vyt
+ erfpfnm genm r if`fie, cgjcj`yjve bpktxbnm
+ @ne `jktpym. Gjcktlybq hfp rybuf `skf d
+ ___hintdung_, nfr xnj cnjbn
+ yfxfnm gjbcrb jnnelf.
+
+Message:  1053
+%qdt:
+ Cnhfybwf bp rybub gjdtlfkf j if`fit,
+ yfpsdf<otvcz "Uktyvjhbkmcrbv",
+ vtcnjyf[j*ltybz rjnjhjuj vj*yj epyfnm d
+ `b`kbjntrt d ___mapdung_.
+
+Message:  1054
+%qdt:
+ Gj[j*t xnj _father_ e*t vthnd.
+ Yj hfyj nthznm yflt*le, gjnjve xnj
+ bpdtcnyj, xnj e ytuj `sk ht`tyjr, _child_,
+ rjnjhsq ntgthm *bdtn d __childhouse_.
+
+Message:  1060
+Rfhnf, gjrfpsdf<ofz vtcnjyf[j*ltybz
+Uktyvjhbkmcrjuj if`fif d Bktccfy {bkkp.
+
+Message:  1061
+Gj[j*t yf cnhfybwe, dshdfyye< bp rybub:
+<ce>
+"...ghjckfdbkbcm djpvj*yjcnm< djpdhfofnm r *bpyb
+vthnds[, gjcrjkmre pf Rjyrkfdjv yt pfvtxtyj ybxtuj
+nfrjuj, j xtv yt ujdjhbkb `s ktutyls b fytrljns.
+  Ceotcndjdfybt Uktyvjhbkmcrjuj if`fif cdjbvb
+rjhyzvb e[jlbn uke`jrj d bcnjhb<. D ltqcndbntkmyjcnb
+@njn if`fi nfrjq lhtdybq, xnj tuj bcnbyyjt ghjbc[j*-
+ltybt b ceoyjcnm enthzys. Rheu Ctvb, rfr tuj xfcnj
+yfpsdfkb (Uktyvjhbkmcrbq if`fi ghtlgjxbnftn nhbyfl-
+wfnm rfr yjdjvjlyjt dtzybt, cjcnjzott bp ctvb
+Gjcdzotyys[ b itcnb Frjkbnjd -- gj jlyjve yf rf*ljuj
+bp Rheuf pf bcrk<xtybtv Gjdtkbntkmybws, rjnjhfz
+cxbnftncz dsit dct[ exbntkmcrb[ j`zpfyyjcntq).
+Rfr j`sxyj, ktutyls b crfprb gjikb yf gjdjle
+gjgekzhyjuj gjdthmz, xnj Uktyvjhbkmcrbq if`fi
+j`kflftn djpvj*yjcnm< bcwtkbnm kbrfynhjgb<.
+Gjkyjt cj`hfybt @nb[ ktutyl vj*yj yfqnb d `b`kbjntrt
+d ___mapdung_.
+<ce>
+  Bkbfrcrbq pfkbd nfr*t zdkztncz ljvjv lkz..."
+
+
+
+QBN:
+Item _letter_ letter used 1020
+Item _blood_ werewolf_blood
+Item _map_ letter used 1060
+Item map2 letter used 1061
+
+Person _priest_ face 40 group Cleric remote
+Person _child_ face 1 faction Children remote
+Person _hunter_ face 1 factiontype Temple remote anyInfo 1011 rumors 1012
+Person _alchemist_ group Chemist remote
+Person _father_ face 5 group Noble male remote anyInfo 1013 rumors 1014
+Person _local_ group Resident1 remote
+
+Place _mapdung_ remote dungeon4
+Place glenmorilCoven permanent GlenmorilCoven
+Place _childhouse_ remote house2
+Place _hintdung_ remote dungeon11
+
+Clock _S.05_ 7.00:00 27.23:40
+Clock _huntstart_ 60.00:00 0
+
+Foe _F.00_ is Knight
+Foe _wereboar_ is Wereboar
+
+--	Quest start-up:
+	place item _map_ at _mapdung_
+	place item map2 at _hintdung_
+	dialog link for location glenmorilCoven person _hunter_
+	dialog link for location _mapdung_ person _priest_
+	dialog link for person _local_
+	dialog link for location _hintdung_ person _alchemist_
+	dialog link for person _father_
+	dialog link for person _child_
+	_letter_ used do _readletter_
+	_map_ used do _S.10_
+	map2 used do _S.16_
+	have _letter_ set _S.09_
+	give pc _letter_ notify 1045
+	create npc at _childhouse_
+	place npc _child_ at _childhouse_
+
+_S.00_ task:
+	clicked npc _priest_
+	prompt 1030 yes _S.03_ no _S.04_
+	say 1021
+
+_readletter_ task:
+	add dialog for person _hunter_
+	add dialog for person _priest_
+	log 1050 step 0
+
+variable _S.02_
+_S.03_ task:
+	add dialog for person _father_
+	add dialog for person _alchemist_
+	log 1051 step 1
+	say 1022
+
+_S.04_ task:
+	reveal _hintdung_
+	log 1052 step 1
+	say 1023
+
+_S.05_ task:
+	make _map_ permanent
+	end quest
+
+_huntstart_ task:
+	start timer _S.05_
+
+_S.07_ task:
+	injured _F.00_ saying 1040
+
+_S.08_ task:
+	toting _blood_ and _child_ clicked
+	prompt 1028 yes _S.14_ no _S.15_
+	say 1027
+
+_S.09_ task:
+	start timer _huntstart_
+
+_S.10_ task:
+	reveal glenmorilCoven in province 60 at 81312
+
+_npc_ task:
+	clicked _alchemist_ and at least 1000 gold otherwise do _S.12_
+	get item _blood_
+	say 1024
+
+_S.12_ task:
+	say 1025
+	clear _S.12_ _npc_
+
+_S.13_ task:
+	clicked npc _local_
+	add dialog for person _child_
+	log 1054 step 2
+	say 1026
+
+_S.14_ task:
+	give pc nothing
+	hide npc _child_
+	cure lycanthropy
+	legal repute -10
+	place foe _wereboar_ at _childhouse_
+
+_S.15_ task:
+	get item _blood_
+
+_S.16_ task:
+	reveal _mapdung_
+	log 1053 step 2
+
+_S.17_ task:
+	killed 1 _wereboar_
+	legal repute -20
+
+_S.18_ task:
+	when _huntstart_
+	create foe _F.00_ every 79 minutes 30 times with 20% success
+
+_S.19_ task:
+	when _S.14_
+	clear _S.18_

@@ -1,0 +1,154 @@
+-- Quest: C:\QUESTS\WORKING\L0B30Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 30
+-- QuestId: 3
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 21
+Quest: L0B30Y03
+DisplayName: Rjynhfrn yf vfuf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Z db*e, ds pf`jktkb, %pcf.
+<ce> E dfc hfcneott cfvjvytybt, @ujbpv
+<ce> b notckfdbt. B vyt @nj yhfdbncz. Ntv yt vtytt,
+<ce> dfv ye*yj bcgsnfnm cdj< crhjvyjcnm b
+<ce> ghbyznm pflfybt c jgfcysv gjkbnbxtcrbv
+<ce> gjlntrcnjv. E yfc tcnm rjynhfrn yf
+<ce> kbxyjcnm jxtym `jkmijuj hfyuf d Ubkmlbb
+<ce> Vfujd. Rfr dfv @nj?
+
+RefuseQuest:  [1001]
+<ce> Njulf cghzxmnt @ne ukege< e[vskre
+<ce> cj cdjtuj kbwf, gjrf yt yf`thtntcm
+<ce> gj`jkmit cvtkjcnb.
+
+AcceptQuest:  [1002]
+<ce> Ds yt hfpjxfhjdfkb vtyz, %pcf.
+<ce> Lf, yfv ghtlkj*bkb rjynhfrn yf
+<ce> @njuj djkit`ybrf, rjnjhsq, vt*le
+<ce> ghjxbv, yt ghjcnj bcrhjvtnfntkm.
+<ce> Xnj`s cltkfnm dfit ltkj `jktt bynthtcysv,
+<ce> crf*e, xnj vfu ybrjulf yt gjrblftn Ubkmlb<.
+<ce> Nfr xnj e dfc tcnm hbcr gjnhtdj*bnm ytcrjkmrj
+<ce> l<*by kexib[ vfujd d vbht.
+<ce> Ds yfqltnt djkit`ybrf d Ubkmlbb Vfujd d
+<ce> plfybb __mondung_.
+<ce> Rjynhfrn ltqcndbntkty d ntxtybt
+<ce> =1stparton_ lytq, b dfv ye*yj dthyenmcz
+<ce> pf @nj dhtvz c rhjdm< vfuf yf herf[.
+<ce> Dtkbrjq elfxb dfv, b gecnm tt lmzdjkmcrjt
+<ce> dscjxtcndj Vtafkf yfghfdbn dfib herb b yjub.
+
+QuestFail:  [1003]
+<ce> Djkit`ybr tot *bd,
+<ce> %pcf. Yt bcgsnsdfqnt
+<ce> nthgtybt.
+
+QuestComplete:  [1004]
+<ce> Ujhlsq yftvybr dthyekcz, herb
+<ce> dkf*yst jn rhjdb ytyfdbcnyjuj
+<ce> vfuf. Ds ntgthm rjt-xtuj lj`bkbcm,
+<ce> %pcf. E dfc tcnm gjdjl r
+<ce> ujhljcnb. Djn dfif yfuhflf,
+<ce> _reward_ pjkjns[.
+<ce> B vj*tnt jcnfdbnm e[vskre,
+<ce> jyf dfv bltn.
+
+RumorsDuringQuest:  [1005]
+D Ubkmlbb Vfujd jxtym nb[j. Rf*tncz, nfv gjctkbkcz cgzobq lhfrjy.
+   <--->
+Rnj-nj rjulf-nj xnj-nj cj`bhfkcz cltkfnm c @nbv ytxbcnsv yf here vfujv.
+
+RumorsPostfailure:  [1006]
+<ce> Jnkbxyj, vfu eitk bp Ubkmlbb Vfujd,
+<ce> Yj e vtyz tcnm edthtyyjcnm, xnj @njn vthpfdtw cyjdf gjzdbncz.
+   <--->
+<ce> C bcxtpyjdtybtv @njuj vfuf d Ubkmlbb
+<ce> wfhbn `jkmitt, xtv j`sxyj, cevfcitcndbt.
+
+RumorsPostsuccess:  [1007]
+Z levf<, cj cvthnm< @njuj vfuf Ubkmlbz j`ktuxtyyj dplj[yekf.
+   <--->
+Tckb [jnbnt pyfnm, @njn djkit`ybr `sk zpdjq yf ntkt Ubkmlbb Vfujd.
+
+QuestorPostsuccess:  [1008]
+__mondung_ vj*tn jrfpfnmcz *fkrbv vtcnjv, %pcf. Rfr pljhjdj...
+
+QuestorPostfailure:  [1009]
+<ce> Ds jcnfdbkb vfue *bpym b levftnt
+<ce> xnj dct tot vj*tnt nhfnbnm vjt dhtvz?
+<ce> ds ltqcndbntkmyj kb nfr @ujbcnbxys, %pcf?
+
+Message:  1020
+%qdt:
+ Vjtq gjcktlytq *thndjq cnfk vfu bp Ubkmlbb
+ Vfujd d [hfvt __mondung_.
+ Vfu ljk*ty evthtnm, f vyt ye*yj dthyenmcz
+ d ~hfncndj d ujhjlt ___questgiver_ d
+ ntxtybt =1stparton_ lytq.
+
+Message:  1011
+<ce> Ds e`bkb vfuf.
+<ce> ~hfncndj `eltn ljdjkmyj.
+
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ face 112 group Questor
+
+Place _mondung_ remote magery
+
+Clock _1stparton_ 00:00 0 flag 18 range 0 2
+
+Foe _monster1_ is Sorceror
+Foe _monster2_ is Battle_mage
+Foe _monster3_ is Mage
+Foe _monster4_ is Spellsword
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1020 step 0
+	pick one of _week_ _plot_ _time_ _vend_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _S.02_
+	give pc _reward_
+	end quest
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+
+_S.02_ task:
+	killed 1 _monster1_
+	killed 1 _monster3_
+	killed 1 _monster2_
+	killed 1 _monster4_
+	say 1011
+
+variable _queston_
+_1stparton_ task:
+	end quest
+
+variable _2ndparton_
+_week_ task:
+	place foe _monster4_ at _mondung_
+
+_plot_ task:
+	place foe _monster3_ at _mondung_
+
+_time_ task:
+	place foe _monster2_ at _mondung_
+
+_vend_ task:
+	place foe _monster1_ at _mondung_
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.02_
+	say 1003
+	clear _qgclicked_ _clearclick_

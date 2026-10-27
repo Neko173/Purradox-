@@ -1,0 +1,142 @@
+-- Quest: C:\QUESTS\WORKING\M0B00Y15.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 0
+-- QuestId: 15
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 21
+Quest: M0B00Y15
+DisplayName: J[jnf yf ubufyncrb[ uhspeyjd
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Z - _qgiver_.
+<ce> E vtyz tcnm jlyf hf`jntyrf. Yt ckbirjv-nj
+<ce> hjvfynbxyfz, jlyfrj ytrjnjhst xktys Ubkmlbb
+<ce> ghtlgjxkb `s bvtyyj nfre<, gjcrjkmre jyf
+<ce> jgkfxbdftncz ybxenm yt [e*t, xtv `jktt ckj*yst.
+<ce> D jlyjv bp ljvjd d ujhjlt pfdtkbcm ubufyncrbt
+<ce> uhspeys. |tyf endth*lftn, xnj @nj rhscs,
+<ce> ve* ujdjhbn - ktnexbt vsib, d k<`jv ckexft jyb
+<ce> [jnzn jn yb[ bp`fdbnmcz.
+<ce> Djpmvtimcz pf @nj?
+
+RefuseQuest:  [1001]
+<ce> Dblyj ns yt jxtym-nj k<`bim Ubkmlb<.
+<ce> Z gjpf`jxecm j njv, xnj`s jcnfkmyst epyfkb,
+<ce> rfrjdj ndjt jnyjitybt yf cfvjv ltkt...
+
+AcceptQuest:  [1002]
+<ce> Ljv _house_ pf[dfxty ktnexbvb vsifvb.
+<ce> Jnghfdkzqcz nelf, ghbrjyxb b[ dct[ b gjkexbim
+<ce> cdj< yfuhfle. Yf @nj e nt`z tcnm njkmrj jlby
+<ce> ltym.
+
+QuestComplete:  [1004]
+<ce> Djqyf c ktnexbvb vsifvb, gecnm lf*t b c
+<ce> ubufyncrbvb, yt nht`etn jcj`juj evtybz.
+<ce> Yj jgkfxbdftncz yt [e*t, f?
+
+RumorsDuringQuest:  [1005]
+<ce> Jlyf lehjxrf yt xbybkf rhsie ytcrjkmrj
+<ce> vtczwtd. Ntgthm e ytt gjkysq ljv
+<ce> ubufyncrb[ ytnjgshtq.
+
+RumorsPostfailure:  [1006]
+<ce> Ghtlcnfdkztnt, jlyjq *tyobyt, ghbikjcm
+<ce> `hjcbnm cdjq ljv! E ytt pfdtkbcm
+<ce> ubufyncrbt ytnjgshb, f ltytu, xnj`s
+<ce> pfgkfnbnm Ubkmlbb ~jqwjd, e ytt yt `skj.
+
+RumorsPostsuccess:  [1007]
+<ce> Z cksifk jlby %ra `sk gjckfy Ubkmlbtq ~jqwjd
+<ce> xnj`s gtht`bnm ubufyncrb[ ytnjgshtq d ljvt
+<ce> njq *tyobys. Ghbikjcm tq hfcrjitkbnmcz, yj
+<ce> @nj kexit xtv `hjcfnm ljv.
+
+QuestorPostsuccess:  [1008]
+<ce> Bnfr, vs ghbrjyxbkb ubufyncrb[ ytnjgshtq? Yt
+<ce> cnjbn gjxbdfnm yf kfdhf[, @nj dctuj kbim
+<ce> `jkmibt ktnexbt vsib.
+
+QuestorPostfailure:  [1009]
+<ce> Ns yt vj*tim cghfdbnmcz lf*t c ktnexbvb
+<ce> vsifvb! E nt`z ytn `eleotuj, %pcn.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ubkmlbz ~jqwjd bp ___qgiver_
+ gjhexbkf vyt bp`fdbnmcz jn ubufyncrb[
+ ytnjgshtq (bkb rhsc?), yfdjlybdib[ jlby
+ bp ljvjd d ujhjlt: _house_. Yf @nj
+ e vtyz tcnm jlby ltym.
+
+Message:  1011
+<ce> Lj dfc ljyjcbncz pder rhscbys[ rjuntq.
+<ce> Gj[j*t, jyb c`kb*f<ncz.
+
+Message:  1012
+<ce> Cksity kturbq cnhtrjn ktnexb[ vsitq.
+<ce> Gj[j*t, jyb c`kb*f<ncz.
+
+Message:  1020
+<ce> Gj `jkmijve cxtne, @nj dct. Levf<, Ubkmlbz yt
+<ce> `eltn djphf*fnm ghjnbd yt`jkmijuj jnls[f.
+
+
+
+QBN:
+Item _reward_ gold
+
+Person _qgiver_ group Questor
+
+Place _house_ local random
+
+Clock _2dung_ 1.00:00 0 flag 1 range 0 1
+
+Foe _monster_ is Giant_bat
+Foe _rats_ is Giant_rat
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _house_
+	log 1010 step 0
+	pick one of _monster1_ _monster2_
+	create npc at _house_
+
+_2dung_ task:
+	end quest
+
+_mondead_ task:
+	killed 4 _rats_
+	killed 4 _monster_
+	say 1020
+
+_S.02_ task:
+	when _qgclicked_ and _mondead_
+	give pc _reward_
+	end quest
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_
+	clear _qgclicked_ _clearclick_
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_S.04_ task:
+	say 1011
+	create foe _rats_ every 2 minutes 7 times with 100% success
+
+_monster1_ task:
+	pc at _house_ set _S.04_
+
+_monster2_ task:
+	pc at _house_ set _S.07_
+
+_S.07_ task:
+	say 1012
+	create foe _monster_ every 2 minutes 7 times with 100% success
+--slowed enemy spawn due to feedback

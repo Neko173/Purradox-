@@ -1,0 +1,247 @@
+-- Quest: C:\QUESTS\WORKING\S0000006.Qbn.
+-- Main story quest.
+-- QuestId: 6
+Messages: 31
+Quest: S0000006
+DisplayName: Jltzybt ^kbptqy
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ghbdtncnde<, %pcf.. Z ^kbptqy,
+<ce> ljxm rjhjkz ^fldbhf b tuj ghzvfz yfcktlybwf.
+<ce> Djpvj*yj ds cjukfcbntcm gjvjxm vyt d jlyjv
+<ce> ltkbrfnyjv ltkt. Edf*ftvsq xkty cjdtnf
+<ce> cnfhtqiby, kexibq lheu vjtuj jnwf, kjhl
+<ce> Rfcntkkbfy jcnfdbk yfi ldjh yf lyz[, f z
+<ce> pf`skf dthyenm tve yfrblre, dpzne< e ytuj.
+<ce> Tckb dfv `eltn ytckj*yj, yt vjukb `s ds
+<ce> jnytcnb tve tt d ___casfort_? Z jngkfxe dfv
+<ce> wtyyjq `tpltkeirjq: _jewelry_.
+
+RefuseQuest:  [1001]
+<ce> Ytn? %oth.
+
+AcceptQuest:  [1002]
+<ce> Rfr vbkj c dfitq cnjhjys cjukfcbnmcz
+<ce> gjvjxm dp`fkvjiyjq ltdxjyrt dhjlt vtyz. Djn
+<ce> yfrblrf. Jxtym df*yj, xnj`s kjhl Rfcntkkbfy
+<ce> gjkexbk @nj rfr vj*yj `scnhtt. Jy `eltn
+<ce> d jlyjv bp cdjb[ ljvjd _casfort_ d
+<ce> ___casfort_. Yfqnb kjhlf Rfcntkkbfyf
+<ce> `eltn ytckj*yj, ghjcnj cghjcbnt vtcnys[ j
+<ce> ytv bkb j _casfort_ b jnlfqnt tve gkfo.
+<ce> Z `ele jxtym ghbpyfntkmyf, %pcf.
+<ce> Yt cnjbn nzyenm `jkmit xtv =queston_ lytq.
+<ce> ^njuj ljk*yj [dfnbnm yf gentitcndbt nelf
+<ce> b j`hfnyj. Nfr xnj edblbvcz.
+
+QuestFail:  [1003]
+<ce> Z pyf<, xnj kjhl Rfcntkkbfy dct tot yt
+<ce> gjkexbk cdj< yfrblre, f jy yt bp nthgtkbds[.
+
+QuestComplete:  [1004]
+<ce> J. ds `skb ghjcnj djc[bnbntkmys. Djn, gjpdjkmnt
+<ce> z lfv dfv _jewelry_ rfr b `skj j`tofyj. Yflt<cm
+<ce> kjhl Rfcntkkbfy jcnfkcz ljdjkty dsibdrjq, rjnjhjq
+<ce> z ljgjkybkf gkfo. Tve nht`etncz jcj`jt dybvfybt.
+<ce> Z lfv rjt-xnj gjkexit, xtv _jewelry_, %pcf.
+<ce> Vjtuj jnwf jxtym bynthtcetn lhtdybq fhntafrn
+<ce> gjl yfpdfybtv Njntv Nfq`thf Ctgnbvf. E ytuj
+<ce> tcnm igbjys, rjnjhst boen tuj gjdc<le. Rjulf
+<ce> jyb yfqlen tuj, nj tve gjnht`etncz rnj-nj,
+<ce> rnj `eltn j[hfyznm @nj. Hfpevttncz, rnj-`s
+<ce> yb `sk ds`hfy, jy `eltn otlhj djpyfuhf*lty.
+<ce> Z crf*e tve ghj dfc. ^nj dct xnj z vjue
+<ce> cltkfnm.
+
+RumorsDuringQuest:  [1005]
+Kjhl Rfcntkkbfy ghjldbuftn pfrjy, rjnjhsq cltkftn {tkctnf pfrjyysv yfcktlybrjv.
+   <--->
+Ghbywtccf ^kbptqy `jkmit yt d xtcnb e ukfdyjuj d cjdtnt cnfhtqiby.
+
+RumorsPostfailure:  [1006]
+Kjhl Rfcntkkbfy dthyekcz d pfvjr D@qhtcn bp _casfort_. Ghfplybrb pfrjyxbkbcm.
+   <--->
+Ghbywtccf ^kbptqy yt dsukzltkf hfljcnyjq, edbltd dthyeditujcz kjhlf Rfcntkkbfyf.
+
+RumorsPostsuccess:  [1007]
+Kjhl Rfcntkkbfy bcxtp bp _casfort_, ult jy ghjdjlbk ghfplybrb.
+   <--->
+Rjhjkm ^fldbh gjljphtdftn ytxtcnye< buhe d bcxtpyjdtybb kjhlf Rfcntkkbfyf.
+
+QuestorPostsuccess:  [1008]
+Jnkbxyfz yfrblrf. ~tp jcj`s[ bpkbitcnd.
+   <--->
+Jnkbxyfz dsltkrf. Rnj-nj dkj*bk leie d @ne dsibdre.
+
+QuestorPostfailure:  [1009]
+D gkfo dibns ytcrjkmrj ckjd, dspsdf<ob[ lf@lhf.
+   <--->
+D @ne hj`e dibn hbnefk dspsdfybz lf@lhf.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ghbywtccf ^kbptqy gjghjcbkf vtyz jnytcnb
+ yfrblre ukfdyjve xktye D@qhtcncrjuj cjdtnf
+ cnfhtqiby, kjhle Rfcntkkbfye d tuj gjvtcnmt
+ _casfort_ d ___casfort_. Vyt ye*yj
+ dthyenmcz d pfvjr D@qhtcn lj bc[jlf
+ =queston_ lytq.
+
+Message:  1020
+<ce> Lehfxbyf! Rfrfz-nj ghtlghbbvxbdfz
+<ce> leif lfkf nt`t gkfo, rjnjhsq
+<ce> ghbpdfk vtyz e`bnm nt`z.
+<ce> Rfr @nj djc[bnbntkmyj!
+
+Message:  1021
+<ce> Cvthnm ghtlfntk<, e`bditve
+<ce> kjhlf Rfcntkkbfyf!
+   <--->
+<ce> Ns pfgkfnbim pf cvthnm vjtuj
+<ce> j`j*ftvjuj gjdtkbntkz.
+   <--->
+<ce> E`bqwf! Kjhl Rfcntkkbfy `sk jlybv
+<ce> bp kexib[. Ns evhtim pf nj, xnj
+<ce> cltkfyj!
+
+Message:  1022
+<ce> "Gjlfhjr jn ktlb ^kbptqy. Cgfcb`j,
+<ce> %pcn. ^nj gjl[jlbn vyt,
+<ce> rfr gthxfnrf".
+<ce>
+<ce> Ds xedcndetnt cdbcnzobq pder, rfr
+<ce> `elnj `skf hfphe`ktyf nrfym htfkmyjcnb.
+
+Message:  1023
+<ce> Gjrbym @nj vtcnj, <ysq %ra.
+<ce> Vs ghbikb pf`hfnm leie kjhlf
+<ce> Rfcntkkbfyf. Ndjz xfcnm hf`jns
+<ce> dsgjkytyf, @njn gjuht`fkmysq
+<ce> cfdfy, ghbpsdf<obq yfc, yf vtcnt.
+
+Message:  1030
+Kjhl Rfcntkkbfy - jlby bp vjueotcndtyys[ xktyjd cjdtnf cnfhtqiby.
+   <--->
+Ujdjhzn, xnj ghbywtccf ^kbptqy `skf dk<`ktyf d kjhlf Rfcntkkbfyf.
+   <--->
+Kjhl Rfcntkkbfy yt ltkfk ctrhtnf bp njuj, xnj cj`bhfkcz j`dtyxfnmcz c ghbywtccjq ^kbptqy.
+
+
+
+QBN:
+Item _I.00_ Formal_cloak anyInfo QuestorPostsuccess used QuestorPostfailure
+Item _jewelry_ trinket
+Item _I.04_ dead_body
+
+Person _elysana_ named Princess_Elysana atHome
+Person Castellian face 1 named Lord_Castellian anyInfo 1030
+
+Place _casfort_ remote house1
+
+Clock _S.04_ 04:00 01:40
+Clock _queston_ 00:00 0 flag 17 range 0 2
+Clock _S.16_ 1.00:00 0 flag 1 range 0 1
+
+Foe _F.00_ is Daedra_seducer
+Foe _F.01_ is 2 Knight
+Foe _F.02_ is 2 Spellsword
+Foe _F.03_ is Daedra_seducer
+Foe _F.04_ is Daedroth
+Foe _F.05_ is Daedroth
+
+--	Quest start-up:
+	prompt QuestorOffer yes yes no _no_
+	have _I.04_ set _deadbody_
+
+_pcgetsgold_ task:
+	when _S.01_ and _S.03_
+	give pc _jewelry_
+	start task _S.07_
+	change repute with _elysana_ by +10
+	drop _elysana_ as questor
+
+_S.01_ task:
+	clicked npc _elysana_
+
+variable _S.02_
+_S.03_ task:
+	toting _I.00_ and Castellian clicked saying 1022
+	pc at _casfort_ set _S.12_
+	place item _I.04_ at _casfort_
+	start timer _S.04_
+	hide npc Castellian
+
+_S.04_ task:
+	create foe _F.02_ every 53 minutes 20 times with 15% success
+
+_queston_ task:
+	when _S.15_ and _S.02_
+	drop _elysana_ as questor
+	end quest
+
+_deadbody_ task:
+	take _I.04_ from pc
+--added deadbody task. otherwise body would clog inventory
+
+UnknownElysanna _S.06_
+ElysannaSatisfied _S.07_
+	end quest
+
+yes task:
+	_I.00_ used do _S.02_
+	start timer _queston_
+	log 1010 step 0
+	get item _I.00_
+	say AcceptQuest
+	add _elysana_ as questor
+	create npc at _casfort_
+	place npc Castellian at _casfort_
+
+_no_ task:
+	say RefuseQuest
+	end quest
+
+_S.10_ task:
+	injured _F.03_ saying 1020
+	injured _F.04_
+	say 1020
+
+_clearclick_ task:
+	when _S.01_ and not _S.03_
+	clear _S.01_ _clearclick_
+
+_S.12_ task:
+	create foe _F.01_ every 2 minutes 4 times with 50% success
+
+_S.13_ task:
+	injured _F.00_
+	injured _F.05_
+	say 1023
+	restrain foe _F.00_
+
+_greklith_ task:
+	injured _F.01_ saying 1021
+	injured _F.02_ saying 1021
+
+_S.15_ task:
+	killed 3 _F.03_
+
+variable _S.16_
+UnknownHelseth _S.17_
+_S.18_ task:
+	when not _S.17_ and _S.02_
+	create foe _F.03_ every 1 minutes 3 times with 20% success
+
+_S.19_ task:
+	when _S.17_ and _S.02_
+	create foe _F.04_ every 1 minutes 3 times with 20% success
+
+_S.20_ task:
+	when not _S.17_ and _S.12_
+	create foe _F.00_ every 1 minutes 3 times with 50% success
+
+_S.21_ task:
+	when _S.17_ and _S.12_
+	create foe _F.05_ every 1 minutes 32768 times with 100% success

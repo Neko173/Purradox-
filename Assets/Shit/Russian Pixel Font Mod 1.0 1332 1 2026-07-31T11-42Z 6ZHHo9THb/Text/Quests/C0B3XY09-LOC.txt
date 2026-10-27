@@ -1,0 +1,164 @@
+-- Quest: C:\QUESTS\WORKING\C0B3XY09.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: temple
+-- Repute: 3X
+-- QuestId: 9
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 13
+Quest: C0B3XY09
+DisplayName: Dtkbrjt pkj
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcn, vtyz pjden
+<ce> _qgiver_. %god ghtlcrfpfk,
+<ce> xnj d uke`byf[ jlyjuj gjlptvtkmz
+<ce> phttn cthlwt dtkbrjuj pkf.
+<ce> Ds ye*ys yfv, xnj`s eybxnj*bnm
+<ce> @nj ceoyjcnm. Cltkftnt?
+
+RefuseQuest:  [1001]
+<ce> E vtyz ytn dhtvtyb yf eujdjhs.
+<ce> Gjqle gjboe rjuj gjcujdjhxbdtt.
+
+AcceptQuest:  [1002]
+<ce> Ytn dhtvtyb yf gecne< `jknjdy<.
+<ce> Blbnt d ___dungeon_.
+<ce> Nfv ds yfqltnt _evilfocus_.
+<ce> Eybxnj*mnt @nj d ntxtybt =traveltime_
+<ce> lytq b dct `eltn [jhjij.
+<ce> {hfv gjiktn pyfr cdsit, rjulf
+<ce> dct `eltn pfrjyxtyj.
+<ce> Gjnjv djpdhfofqntcm rj vyt,
+<ce> z otlhj pfgkfxe dfv.
+
+QuestComplete:  [1004]
+<ce> %pcn, dfv j`]zdkztncz
+<ce> `kfujlfhyjcnm jn dctuj yfituj
+<ce> le[jdtycndf. Pkj `skj eybxnj*tyj.
+<ce> Rfr z b j`tofk, djn gkfnf:
+<ce> _gold_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+__qgiver_ jxtym pfbynthtcjdfy d ghjbc[jlzob[ cj`snbz[ djrheu ___dungeon_.
+
+RumorsPostfailure:  [1006]
+Pkj dct tot jcnftncz dyenhb ___dungeon_, yj jyj bpvtybkj ajhve.
+
+RumorsPostsuccess:  [1007]
+__qgiver_ eybxnj*bk Pkj dyenhb ___dungeon_, j ceotcndjdfybb rjnjhjuj vfkj rnj gjljphtdfk.
+
+QuestorPostsuccess:  [1008]
+Rjytxyj *t ds njn cfvsq eybxnj*bntkm _evilfocus_, z [jhjij dfc gjvy<.
+
+QuestorPostfailure:  [1009]
+_evilfocus_ dct tot hfphfcnftncz. E vtyz ytn ybxtuj lkz dfc rhjvt ghtphtybz.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Xkty __qgiver_
+ d ___qgiver_ gj bvtyb
+ _qgiver_ lfk vyt hf`jne,
+ pfrk<xf<oe<cz d eybxnj*tybb pkj`yjq
+ ceoyjcnb _evilfocus_
+ d ___dungeon_. Hf`jne
+ ytj`[jlbvj pfrjyxbnm d ntxtybt
+ =traveltime_ lytq bkb pkj yfrhjtn
+ cdjbvb rhskmzvb @njn `tpdbyysq vbh.
+ Ye bkb gjxnb `tpdbyysq vbh.
+
+Message:  1011
+<ce> Rfr njkmrj ds ghb`kbpbkbcm r
+<ce> _evilfocus_, @nj ghtdhfnbkjcm
+<ce> d ghtrhfcye< *tyobye.
+<ce>
+<ce> Xnj pf ghtrhfcysq <ysq cvthnysq!
+<ce> Z db*e, ns pltcm, xnj`s eybxnj*bnm
+<ce> _evilfocus_. E vtyz tcnm bltz
+<ce> gjkexit. Xnj tckb z lfv nt`t
+<ce> _magicitem_, f ns dthytimcz
+<ce> d [hfv b crf*tim, xnj nt`t yt
+<ce> elfkjcm j`yfhe*bnm _evilfocus_?
+<ce> Jyb vjuen jxtym hfccthlbnmcz yf
+<ce> nt`z, yj pfnj e nt`z `eltn
+<ce> _magicitem_.
+
+Message:  1012
+<ce> Nfr evhb *t,
+<ce> yf`j*ysq cvthnysq!
+
+Message:  1013
+<ce> Ghjrkznbt cyznj. Dfv cktletn ljkj*bnm _qgiver_.
+
+Message:  1014
+<ce> __qgiver_ `eltn ytkturj ecgjrjbnm
+<ce> pf nfrjt ghtlfntkmcndj.
+
+
+QBN:
+Item _evilfocus_ religious
+Item _gold_ gold
+Item _magicitem_ magic_item
+
+Person _qgiver_ group Questor
+
+Place _dungeon_ remote dungeon
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _guardian_ is Daedra_seducer
+Foe _spiders_ is 6 Spider
+Foe _F.02_ is Gargoyle
+Foe _F.03_ is Harpy
+Foe _lesserdaedra_ is Daedroth
+
+--	Quest start-up:
+	place item _evilfocus_ at _dungeon_
+	start timer _traveltime_
+	reveal _dungeon_
+	log 1010 step 0
+
+_traveltime_ task:
+	end quest
+
+_S.01_ task:
+	clicked item _evilfocus_
+	place foe _guardian_ at _dungeon_
+	prompt 1011 yes _yes_ no _no_
+	take _evilfocus_ from pc
+
+_yes_ task:
+	remove foe _guardian_
+--better to just remove the daedra and avoid confusion
+	get item _magicitem_
+	make _magicitem_ permanent
+	change repute with _qgiver_ by -10
+	say 1014
+	end quest
+
+_no_ task:
+	create foe _F.02_ every 5 minutes 1 times with 100% success
+	create foe _spiders_ every 9 minutes 1 times with 100% success
+	create foe _lesserdaedra_ every 7 minutes 1 times with 100% success
+	create foe _F.03_ every 3 minutes 1 times with 100% success
+	say 1012
+
+_S.04_ task:
+	killed 1 _guardian_
+	say 1013
+--added a victory message. original quest was confusing up to this point.
+
+_questdone_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _questdone_ and _S.04_
+	give pc _gold_
+	end quest
+
+_clearclick_ task:
+	when _questdone_ and not _S.04_
+	clear _questdone_ _clearclick_
+--permits repeated clearclick

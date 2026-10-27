@@ -1,0 +1,177 @@
+-- Quest: C:\QUESTS\WORKING\R0C10Y08.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 8
+Messages: 21
+Quest: R0C10Y08
+DisplayName: Rhf*f bp [hfvf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Tckb ds cvj*tnt, %pcf, nj vyt
+<ce> ye*yf gjvjom njuj, j rjv z pyf<, xnj jy
+<ce> yt pfrjyxtyysq ien. Z gjckfk jlyjuj yftvybrf
+<ce> ljcnfdbnm yt`jkmie< gjcskre d [hfv,
+<ce> ybxtuj jcj`j wtyyjuj, yj, ghjrkznmt,
+<ce> jyf `skj erhfltyf. Yj, gj rhfqytq vtht, @njn
+<ce> blbjn pfvtnbk, relf yfghfdbkbcm `fylbns
+<ce> Rfr ds levftnt, ds cvj*tnt dshexbnm
+<ce> vtyz b dthyenm gfrtn yfpfl?
+
+RefuseQuest:  [1001]
+<ce> %oth, z `jzkcz, xnj ds jnrf*tntcm.
+<ce> Kflyj, gjkfuf<, dct-nfrb @nj kexit,
+<ce> xtv crfpfnm "lf" b yt dsgjkybnm.
+
+AcceptQuest:  [1002]
+<ce> ~kfujlfh< pfhfytt, %pcf.
+<ce> Ntgthm gjlhj`yjcnb. ~fylbns ghjlfkb
+<ce> _item_ d [hfv, _itemplace_
+<ce> d __itemplace_. Jy jxtdblyj
+<ce> bvttn rfrjt-nj htkbubjpyjt pyfxtybt lkz yb[.
+<ce> Dj bp`t*fybt pfnhelytybq, vyt ye*yj,
+<ce> xnj`s ds erhfkb _item_ bp
+<ce> [hfvf b ljcnfdbkb tuj r _transporter_.
+<ce> Ds yfqltnt %g4 d _inn_ d __inn_.
+<ce> _item_ ljk*ty `snm d herf[ blbjncrjuj _transporter_
+<ce> yt gjplytt =1stparton_ lytq; b ds ljk*ys dthyenmcz
+<ce> c<lf bp __inn_ yt gjplytt =2ndparton_ lytq gjckt @njuj,
+<ce> gjyznyj?  Dhtvtyb ytvyjuj. Gjkfuf<cm yf dfc,
+<ce> %pcf. Elfxb. Ghjofqnt.
+
+QuestFail:  [1003]
+<ce> Lf? Ds *t yt j*blftnt yfuhfls,
+<ce> gjrf ds tot ybxtuj yt cltkfkb, %pcf?
+
+QuestComplete:  [1004]
+<ce> %oth, lj`hj gj*fkjdfnm, %pcf. Z yt pyf<,
+<ce> gjxtve z yfyzk @njuj evcndtyyj jncnfkjuj
+<ce> d gthdsq hfp. {jhjij, djn dfib _reward_ pjkjns[
+<ce> vjytn. Ds ytcjvytyyj pfcke*bdftnt b[.
+
+RumorsDuringQuest:  [1005]
+_itemplace_ e*tcnjxftn cdj< j[hfye gj ytrjnjhsv ghbxbyfv.
+   <--->
+Gj ytrjnjhsv ghbxbyfv, _itemplace_ `jkmit `tcgjrjbncz j djhf[, xtv j`sxyj.
+
+RumorsPostfailure:  [1006]
+_itemplace_ dthyekj ytrbq _item_, erhfltyysq hfytt.
+   <--->
+_itemplace_ dthyekj b[ erhfltyysq _item_ b gthtvtcnbkj tuj d `jktt `tpjgfcyjt vtcnj.
+
+RumorsPostsuccess:  [1007]
+Ytrfz hfpyjdblyjcnm wtyyjuj _item_ `skf erhfltyf bp _itemplace_.
+   <--->
+Gj[j*t yf nj, xnj lf*t [hfvs bvt<n `htib. ^nj e*fcyj!
+
+QuestorPostsuccess:  [1008]
+E*fcyj hfl cyjdf dbltnm dfc. Rfr vjue dfv gjvjxm?
+   <--->
+^nj ds njn %ra, rnj gjvju vyt hfphtibnm ghj`ktve c [hfvjv, lf?
+
+QuestorPostfailure:  [1009]
+<ce> %oth, @nj ds. Ghbikb
+<ce> bpdbybnmcz pf ghjdfktyyjt gjhextybt,
+<ce> gjkfuf<. Lf, vj*tnt yt `tcgjrjbnmcz.
+<ce> E vtyz ytn yf dfc dhtvtyb.
+
+QuestLogEntry:  [1010]
+<ce> ~kfujlfhtybt %god, ds ghb`skb, %pcf.
+<ce> Ckeifqnt, njhjgbntcm yfpfl r _questgiver_
+<ce> -- %g jy ghbndjhbncz, xnj ybrjulf yt
+<ce> pyfk dfc b ds yt gjkexbnt yfuhfle, tckb
+<ce> yt ghb`eltnt hfymit, xtv pf =2ndparton_ lytq.
+<ce> Dthmnt vyt, z [jhjij pyf< %g4 ghbdsxrb.
+
+Message:  1011
+<ce> _transporter_ - ythdyj dsukzlzobq =transporter_,
+<ce> cdzpfyysq c _questgiver_.
+   <--->
+<ce> =transporter_ -- %g yf %di d tuj __transporter_.
+
+Message:  1012
+<ce> Ds gjlj`hfkb _item_.
+<ce> Ntgthm ljcnfdmnt tuj r _transporter_.
+
+Message:  1015
+%qdt:
+ _questgiver_
+ gjckfk vtyz d _itemplace_
+ d __itemplace_, xnj`s erhfcnm
+ ytrbq _item_ b pfntv ljcnfdbnm tuj
+ _transporter_ d __inn_
+ d vtcnt, yfpdfyyjv _inn_.
+ E vtyz =1stparton_ lytq lkz ljcnfdrb.
+ D rjywt rjywjd, z ljk*ty dthyenmcz pf yfuhfljq.
+ E vtyz =2ndparton_ lytq yf gentitcndbt jn
+ __inn_ r __questgiver_,
+ d ljv _questgiver_ d ___questgiver_.
+
+Message:  1020
+<ce> Lth*b djhf! Uflrbq jcrdthybntkm
+<ce> yfitq cdznsyb _item_!
+
+
+QBN:
+Item _reward_ gold
+Item _item_ religious
+
+Person _questgiver_ face 112 group Questor
+Person _transporter_ face 1 group Local_3.0 remote anyInfo 1011
+Person _dummypriest_ factiontype Temple remote
+
+Place _itemplace_ remote temple
+Place _inn_ remote tavern
+
+Clock _1stparton_ 00:00 0 flag 1 range 0 5
+Clock _2ndparton_ 00:00 0 flag 1 range 2 3
+
+Foe _F.00_ is Monk
+
+--	Quest start-up:
+	place item _item_ at _itemplace_
+	start timer _1stparton_
+	reveal _inn_
+	log 1015 step 0
+	place npc _transporter_ at _inn_
+
+_pcgetsgold_ task:
+	when _S.05_ and _qgclicked_
+	give pc _reward_
+	end quest
+
+_pchasitem_ task:
+	clicked item _item_
+	pc at _itemplace_ set _S.09_
+	say 1012
+	change repute with _dummypriest_ by -10
+
+_queston_ task:
+	when _2ndparton_
+	when _1stparton_ and not _S.05_
+	make _item_ permanent
+	end quest
+
+variable _npcclicked_
+_qgclicked_ task:
+	clicked npc _questgiver_
+
+_S.05_ task:
+	toting _item_ and _transporter_ clicked
+	start timer _2ndparton_
+	say 1010
+
+variable _1stparton_
+variable _2ndparton_
+_clearclick_ task:
+	when _qgclicked_ and not _S.05_
+	clear _qgclicked_ _clearclick_
+
+_S.09_ task:
+	create foe _F.00_ every 3 minutes 4 times with 50% success
+
+totemLetter5 task:
+	injured _F.00_ saying 1020

@@ -1,0 +1,276 @@
+-- Quest: C:\QUESTS\WORKING\M0B00Y17.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 0
+-- QuestId: 17
+Messages: 62
+Quest: M0B00Y17
+DisplayName: ~tuksq gbnjvtw
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcn, yt nfr kb?
+<ce> Rfr hfp njn, rnj vyt ye*ty.
+<ce> E yfc tcnm lkz nt`z ljdjkmyj bynthtcyfz
+<ce> hf`jnf, nht`e<ofz yfkbxbz vjpujd
+<ce> rhjvt vecrekjd. Nt`t bynthtcyj?
+
+RefuseQuest:  [1001]
+<ce> Lf, dthyj, z *t crfpfk, xnj
+<ce> nen nht`e<ncz vjpub, yt nfr kb?
+
+AcceptQuest:  [1002]
+<ce> Djn rfrfz cbnefwbz. E _dummy_
+<ce> `sk hexyjq cf`ktpe`sq nbuh - yt cghfibdfq,
+<ce> jnrelf jy e ytuj - nfr djn, nbuh c`t*fk
+<ce> yf lyz[. Tuj jncktlbkb lj ___mondung_,
+<ce> yj yfv ye*ty rnj-nj, rnj gjqltn nelf b
+<ce> ghbdtltn nbuhf j`hfnyj. |bdsv! Pfudjplrf
+<ce> djn d xtv. Nbuh yfnhtybhjdfy jnpsdfnmcz
+<ce> yf pder rjkjrjkmxbrf. Nbuh cnfytn jxtym
+<ce> rhjnrbv, tckb ns gjpdjybim d rjkjrjkmxbr
+<ce> ghzvj gthtl tuj vjhljq. Tcntcndtyyj,
+<ce> _dummy_ ujdjhbn, xnj @njn nh<r yt
+<ce> dctulf ghj[jlbn - nt`z @nj yt elbdkztn? -
+<ce> nfr xnj djpvj*yj nt`t ghbltncz "xvjryenm"
+<ce> nbuhf d vjhle jlby bkb ldf hfpf, xnj`s
+<ce> ghbdktxm dybvfybt. Njkmrj evjkz< nt`z,
+<ce> yt e`tq tuj, [jhjij? Dthyb tuj r _dummy_
+<ce> d __dummy_ d wtkjcnb b cj[hfyyjcnb
+<ce> d ntxtybt =qtime_ lytq, jy pfgkfnbn
+<ce> nt`t _gold_ pjkjns[. Elfxb.
+
+QuestFail:  [1003]
+<ce> Xnj ns cvjnhbim yf vtyz, rfr `f`eby?
+<ce> Nbuh d ___mondung_. ~thb
+<ce> rjkjrjkmxbr b dgthtl c gtcytq.
+
+QuestComplete:  [1004]
+<ce> J, =tiger_, ljhjujq, ns d gjhzlrt!
+<ce> ~jkmijt dfv cgfcb`j, xnj ghbdtkb
+<ce> vjtuj vfksif j`hfnyj. Edthty, jy
+<ce> yt ghbxbybk dfv ytghbznyjcntq, dtlm
+<ce> nfr? ^nj *t dctuj kbim `jkmifz rjirf,
+<ce> yt cgjcj`yfz j`bltnm lf*t ve[b.
+<ce> Djn dfib _gold_ pjkjns[, rfr b `skj
+<ce> eujdjhtyj c Ubkmlbtq ~jqwjd.
+
+RumorsDuringQuest:  [1005]
+<ce> Ds cks[fkb, e _dummy_ jgznm c`t*fk hexyjq nbuh? E`bdibq
+<ce> b c]tdibq e*t nht[ xtkjdtr.
+
+RumorsPostfailure:  [1006]
+<ce> Gj[j*t @njn nbuh ghjgfk yfcjdctv. Cgfcb`j %god!
+
+RumorsPostsuccess:  [1007]
+<ce> _dummy_ yfyzk rjuj-nj bp Ubkmlbb ~jqwjd ghbdtcnb
+<ce> cdjtuj hexyjuj "rjnf" ljvjq. Bynthtcyj, rfrjq lehfr cjukfcbkcz yf @ne hf`jne?
+
+QuestorPostsuccess:  [1008]
+<ce> Ghbdtn, %pcf, k<`bntkm nbuhjd!
+
+QuestorPostfailure:  [1009]
+<ce> Z pyf<, xnj @nj yt nfrfz e* kturfz
+<ce> hf`jnf, hfpscrfnm nbuhf, yj nt`t
+<ce> elfkjcm cghfdbnmcz c ytq. Xnj
+<ce> ns [jxtim yf @njn hfp?
+
+Message:  1020
+%qdt:
+ Vtyz yfyzkf Ubkmlbz ~jqwjd bp
+ ___dummy_ yfqnb cf`ktpe`juj nbuhf,
+ rjnjhsq c`t*fk d ___mondung_.
+ Ghtlgjkfuftncz, xnj nbuh htfubhetn
+ yf pdjy rjkjrjkmxbrf, yj _questgiver_
+ ghtleghtlbk vtyz, xnj yfnhtybhjdfy nbuh
+ yt nfr e* b [jhjij. Vyt ye*yj dthyenm
+ nbuhf dkfltkmwe, _dummy_, d __dummy_
+ d ___dummy_ d ntxtybt =qtime_ lytq.
+ %g pfgkfnbn vyt _gold_ pjkjns[.
+
+Message:  1021
+%qdt:
+ ___mondung_. Nbuh yfqlty b gj[j*t
+ z tve yhfdk<cm. Jy cktletn pf vyjq
+ gj gznfv. Ntgthm vyt yflj jndtcnb
+ tuj r _dummy_ d ___dummy_.
+
+ Message:  1022
+%qdt:
+ ___mondung_. Nbuh yfqlty, yj vyt
+ ghbikjcm e`bnm tuj. Ntgthm vyt
+ yflj ghbqnb r _dummy_ d ___dummy_
+ b bpdbybnmcz pf ghjdfktyye<
+ hf`jne.
+
+Message:  1030
+<ce> Jgfymrb. Ds e`bkb nbuhf.
+<ce> Bynthtcyj, xnj crf*tn gj @njve gjdjle _dummy_?
+
+Message:  1040
+<ce> Pdjyjr ghjpdtytk ljcnfnjxyj
+<ce> uhjvrj, yj nbuhe gj[j*t
+<ce> yf dct @nb pdjyrb lj kfvgjxrb.
+
+Message:  1041
+<ce> Nbuh yfdjcnhbk eib rfr njkmrj
+<ce> pdjyjr pfpdtytk. Tuj ujkjdf
+<ce> yfxfkf hfcrfxbdfnmcz bp cnjhjys d
+<ce> cnjhjye b jy yfxfk bplfdfnm ybprbq
+<ce> ujhkjdjq pder. ^nj xnj, ehxfybt?
+<ce> Nbuh `tcievyj gjljitk r dfv
+<ce> b yfxfk nthtnmcz j yjub, tldf
+<ce> yt ehjybd dfc.
+<ce>
+<ce> Nbuh gjcktletn pf dfvb relf eujlyj.
+
+Message:  1050
+<ce> Ns, e*fcysq b vthprbq %ra!
+<ce> Z yt vjue gjdthbnm, xnj vjq
+<ce> `tlysq =tiger_. Dtlm @nj *t dctuj
+<ce> kbim gjnthzdibqcz rjntyjr, f ns
+<ce> e`bk tuj! E`bhfqcz ghjxm jnc<lf,
+<ce> gjr f z yt gjpdfk cnhf*e
+<ce> fhtcnjdfnm nt`z pf e`bqcndj.
+<ce> Ghjxm jnc<lf!
+
+Message:  1060
+<ce> Ljhjufz _love_,
+<ce>
+  Vyt jxtym *fkm, xnj z yt vjue `snm ctujlyz
+c nj`jq d __lovehouse_, yj vyt [jntkjcm
+ekexbnm vjvtyn, xnj`s ns pyfkf, xnj
+ns dctulf d vjb[ vsckz[, ljhjufz.
+Z cb*e pltcm gjl lthtdjv b k<`e<cm
+ghtrhfcysv gjklytv, rjnjhsq yfgjvbyftn vyt
+j nt`t. Dct yfgjvbyftn vyt j nt`t, vjz
+ljhjufz, cjkywt d yt`tcf[, gtybt ktcys[
+gnbw, b lf*t hexyjq nbuh, bleobq pf cdjbv
+dkfltkmwtv. {f [f! Nbuh dsukzlbn gjnthzyysv,
+`tpj`hfpybr. Jy dcnfk e vtyz yf genb.
+Njkmrj gjcvjnhb rfr `ktcnbn b gthtkbdftncz
+tuj ithcnm yf cjkywt, ghzvj rfr ndjb juytyyst
+djkjcs. Tuj dkfltktw xnj-nj dsrhbrbdftn b
+pdtybn d rjkjrjkmxbr, yj nbuh tuj yt ckeiftn.
+Rfrfz @ythubxyfz pdth<uf! Jy dsukzlbn dgjkyt
+lhe*tk<`yj, rfr `elnj [jxtn crfpfnm vyt "ghbdtn"...
+
+Message:  1061
+<ce> Lf, xnj ds [jnbnt? J...gbcmvj jn
+<ce> _victim_, `jkmijt dfv cgfcb`j!
+<ce> Yj gjxtve jyj pfkzgfyj rhjdm<?
+<ce> ~j*t vjq. Jy dctulf `sk vbk vyt,
+<ce> yj `j<cm jy pf`ke*lfkcz, xnj vs
+<ce> `eltv cxfcnkbds. ~tlysq, rfrjq
+<ce> nhfubxtcrbq rjytw. Z jxtym `kfujlfhyf
+<ce> dfv pf hfccrfpf j njv, xnj ghjbpjikj.
+<ce> Hfccrf*e tuj hjlcndtyybrfv j` @njv.
+<ce> Djn, djpmvbnt _magic_. ^nj lfk
+<ce> vyt jy. Z lf*t yt pyf< rfr
+<ce> gjkmpjdfnmcz @nbv.
+
+
+
+QBN:
+Item _I.00_ bell
+Item _I.01_ dead_body
+Item _gold_ gold
+Item _letter_ letter used 1060
+Item _magic_ magic_item
+
+Person _questgiver_ group Questor
+Person _victim_ face 1 group Group_6.0 remote
+Person _love_ face 1 group Group_7.0 remote
+Person _dummy_ group Noble local
+
+Place _mondung_ remote dungeon6
+Place _newdung_ remote dungeon
+--unneeded dungeon variable
+Place _lovehouse_ local house2
+
+Clock _qtime_ 00:00 0 flag 17 range 0 2
+
+Foe _tiger_ is Sabretooth_tiger
+
+--	Quest start-up:
+	place item _I.01_ at _mondung_
+	dialog link for location _lovehouse_ person _love_
+	start timer _qtime_
+	reveal _mondung_
+	log 1020 step 0
+	get item _I.00_
+	pick one of _S.10_ _S.10_ _S.11_ _S.11_
+	place foe _tiger_ at _mondung_
+	create npc _dummy_
+	have _I.01_ set _deadbody_
+
+_deadbody_ task:
+	take _I.01_ from pc
+--added deadbody task. otherwise body would clog inventory
+
+_qtime_ task:
+	end quest
+
+_S.01_ task:
+	say 1040
+
+_S.02_ task:
+	injured _tiger_
+	_I.00_ used do _S.04_
+
+until _S.02_ performed:
+	_I.00_ used do _S.01_
+
+_S.03_ task:
+	killed 1 _tiger_
+	say 1030
+	log 1022 step 1
+--adds log in case user missed kill message
+
+variable _S.04_
+_S.05_ task:
+	when _S.04_ and not _S.03_
+	log 1021 step 1
+	say 1041
+	--remove foe action used here instead of attempting to transfer it to another dungeon
+	remove foe _tiger_
+-	unset _S.01_ _S.04_
+--prevented quest from giving reward. don't know the purpose of this unset.
+
+_S.06_ task:
+	clicked npc _dummy_
+
+_pcgetsgold_ task:
+	when _S.06_ and _S.05_
+	give pc _gold_
+	take _I.00_ from pc
+	end quest
+--removed unnecessary delay
+
+_S.08_ task:
+	when _S.06_ and _S.03_
+	say 1050
+	unset _S.06_
+
+variable _duelist_
+-unused variable
+_S.10_ task:
+	_letter_ used do _readletter_
+	place item _letter_ at _mondung_
+	place npc _love_ at _lovehouse_
+
+variable _S.11_
+_S.12_ task:
+	toting _letter_ and _love_ clicked
+	get item _magic_
+	say 1061
+	make _magic_ permanent
+
+_readletter_ task:
+	add dialog for location _lovehouse_ person _love_
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+	say 1003

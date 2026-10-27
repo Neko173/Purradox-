@@ -1,0 +1,141 @@
+-- Quest: C:\QUESTS\WORKING\Q0C00Y01.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: witch
+-- Repute: 0
+-- QuestId: 1
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 14
+Quest: Q0C00Y01
+DisplayName: Rktdtnf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vs [jntkb `s bcgjkmpjdfnm nt`z lkz gjbcrf
+<ce> jlyjq df*yjq `evfub, gjlgbcfyyjq yfibvb
+<ce> dhfufvb c wtkm< jrfpfnm lfdktybt yf yfi
+<ce> if`fi. Z pyf<, ult yf[jlbncz gfrtn c
+<ce> yt<, yj yfv ye*ty rnj-nj, rnj gj`mtn
+<ce> cnhf*e b ghbytctn tuj yfv. Ns [jxtim
+<ce> gjvjxm ==qgiver_?
+
+RefuseQuest:  [1001]
+<ce> Yt [jxtim? %oth,
+<ce> njulf yt bob hfcgjkj*tybz
+<ce> ==qgiver_.
+
+AcceptQuest:  [1002]
+<ce> Ns gjvj*tim? Yfif `kfujlfhyjcnm `eltn
+<ce> `tpvthyf. ~evfuf [hfybncz d [hfvt, djn
+<ce> d %reg, d ujhjlt __temple_.
+<ce> _temple_ lth*bn tt ult-nj nfv,
+<ce> crjhtt dctuj pf pfrhsnjq yf pfvjr ldthm<,
+<ce> f j[hfyztn tt _guardian_ ytdblfyyjq
+<ce> cbks. Tckb ns ghbytctim ljrevtyn c<lf,
+<ce> rj vyt, z lfv nt`t _mitem_
+<ce> ghjbpdjlcndf if`fif. Djpdhfofqcz
+<ce> yt gjplytt bc[jlf =queston_ lytq.
+
+QuestComplete:  [1004]
+<ce> Fuf, bcrjvsq ljrevtyn. Ndjt bcreccndj
+<ce> jrfpfkj `jkmie< eckeue yfitve ctcnhbycnde,
+<ce> %pct. Djn _mitem_ rfr b `skj
+<ce> j`tofyj. ~kfujlfhyjcnm ==qgiver_
+<ce> yt j`zpfntkmyj ljk*yf ghjzdkznmcz d
+<ce> abpbxtcrjq ajhvt.
+
+RumorsDuringQuest:  [1005]
+Ds xbnfkb bcnjhb< ghjbc[j*ltybz ==qgiver_. Ijrbhe<ot!
+
+RumorsPostfailure:  [1006]
+Bcnjhbz ==qgiver_ `skf hfpvyj*tyf d Bvgthcrjv Ujhjlt.
+
+RumorsPostsuccess:  [1007]
+Vyjubt xbnfkb bcnjhb< ==qgiver_, yj ghjgfkf njkmrj rjgbz.
+
+QuestorPostsuccess:  [1008]
+Nt`t dct tot ljcnfdkztn eljdjkmcndbt _mitem_, %pcf? ^nj dgjkyt pfcke*tyyj.
+
+QuestorPostfailure:  [1009]
+<ce> Bcrjvsq ljrevtyn edtpty d
+<ce> Bvgthcrbq Ujhjl, xnj`s `snm
+<ce> gththf`jnfyyjq lkz ytdt*tcndtyys[
+<ce> vfcc, %pcf. Ndjz ytrjvgtntynyjcnm
+<ce> gjldtkf ==qgiver_.
+<ce> E[jlb ghjxm jnc<lf.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Vtyz gjghjcbkb ljcnfdbnm `evfue ghj
+ ==qgiver_ bp _temple_
+ d __temple_ b dthyenmcz c ytq d ntxtybt
+ =queston_ lytq bkb hfymit. Ljrevtyn
+ vj*tn j[hfyznm _guardian_.
+
+Message:  1011
+<ce> Gj[j*t @nj nf cfvfz `evfuf, rjnjhe<
+<ce> botn ==qgiver_.
+
+Message:  1012
+Chtlb cfvs[ lmzdjkmcrb[ hbnefkjd
+==qgiver_ tcnm j`hzl, rjnjhsq gjcdzoty
+d xtcnm ==daedra_.
+Gkjnm yjdjhj*ltyyjuj vkfltywf dfhbncz d rjnkt
+yf vtlktyyjv juyt rfvtyyjuj eukz nhb c gjkjdbyjq
+lyz, gjrf jyf yt pfndthlttn b bcnjyxbncz.
+Gjkexbdifzcz rktnxfnrf yf`bdftncz d hjn
+xthyjq rjirb, rjnjhe< lth*fn d rktnrt lj nt[
+gjh, gjrf jyf yt ghj*etn @nj bkb yt evhtn
+jn eleitybz. Tckb rjirf evbhftn, dtlmvs
+cxbnf<n, xnj ==daedra_ yt jndtxftn yf
+b[ vjkm`s, yj tckb rjirf ds*bdftn,
+==qgiver_ vj*tn gjghjcbnm ==daedra_
+j xtv eujlyj: j cvthnb bkb edtxmt ghbywtd,
+j` @rjyjvbxtcrjv rhbpbct, ujkjlt, xevt,
+djqyt ...
+
+Message:  1013
+<ce> Gtirf bcxflbq flf! Hf`
+<ce> ==qgiver_! Ghfdtlyfz
+<ce> Lkfym %god
+<ce> cjrheibn nt`z!
+
+
+
+QBN:
+Item _document_ letter used 1012
+--added underscores to document
+Item _mitem_ magic_item
+
+Person _qgiver_ group Questor
+Person _daedra_ face 80 factiontype Daedra remote
+
+Place _temple_ remote temple
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _guardian_ is Spellsword
+
+--	Quest start-up:
+	place item _document_ at _temple_
+	dialog link for person _daedra_
+	start timer _queston_
+	log 1010 step 0
+
+_queston_ task:
+	end quest
+
+_S.01_ task:
+	clicked item _document_
+	create foe _guardian_ every 1 minutes 1 times with 100% success
+	say 1011
+
+_S.02_ task:
+	injured _guardian_
+	say 1013
+
+_reward_ task:
+	toting _document_ and _qgiver_ clicked
+	give pc _mitem_
+	end quest

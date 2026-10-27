@@ -1,0 +1,160 @@
+-- Quest: C:\QUESTS\WORKING\F0B00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Dibella
+-- Repute: 0
+-- QuestId: 0
+Messages: 31
+Quest: F0B00Y00
+DisplayName: |tkfyyst ghjbpdtltybz bcreccndf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Jlyjq bp df*ytqib[ aeyrwbq Ljvf Lb`tkks
+<ce> zdkztncz cj[hfytybt dtkbxfqib[ ghjbpdtltybq
+<ce> bcreccndf. E yfc tcnm hfpdtlxbrb dj dct[
+<ce> j`kfcnz[ Nfvhb@kz, rjnjhst hfpscrbdf<n
+<ce> htlrbt b ghtrhfcyst ndjhtybz b ghtlvtns.
+<ce> Yt [jnbnt kb ds gjvjxm yfv jnscrfnm
+<ce> jlye bp nfrb[ dtotq? ^nj ytlfktrj jnc<lf,
+<ce> f vs pfgkfnbv dfv _reward_ pjkjns[.
+   <--->
+<ce> Yf ghjnz*tybb xtnsht[ nsczx ktn hfpdbnbz
+<ce> wbdbkbpfwbb Nfvhb@kz Ljv Lb`tkks ytecnfyyj
+<ce> pfybvfkcz gjbcrfvb b cj[hfytybtv lhtdyb[
+<ce> ghjbpdtltybq bcreccndf jn hfpjhtybz,
+<ce> pf`dtybz b bcgsnfybq dhtvtytv. Vs cjplfkb
+<ce> hfpdtndktyye< ctnm fh[tjkjujd, njhujdwtd
+<ce> b rehmthjd, rjnjhst [jhjij gkfnzn pf
+<ce> k<`jt cnjzott njuj ghjbpdtltybt bcreccndf.
+<ce> Yt vjukb `s ds yfv gjvjxm d jlyjv
+<ce> ltkt, %pcf?
+
+
+RefuseQuest:  [1001]
+<ce> |fkm, vyt gtxfkmyj jn njuj, xnj
+<ce> dhtvz, rjnjhjt vj*yj gjnhfnbnm yf
+<ce> cgfctybt `tcwtyys[ ghjbpdtltybq
+<ce> bcreccndf, nhfnbncz dgecne<.
+
+AcceptQuest:  [1002]
+<ce> Djc[bnbntkmyj! Bnfr, dkfltktw @njq dtobws
+<ce> ljdjkmyj cnhfyysq vfktymrbq xelfr =contact_
+<ce> gj bvtyb _contact_. Nj, xnj e ytuj tcnm,
+<ce> dtcmvf wtyyfz b htlrfz dtom, %g jgfcftncz
+<ce> yfgfltybz `fylbnjd, tckb %g gjgsnftncz
+<ce> ghbt[fnm r yfv. Z yt pyf<, yfcrjkmrj @nj
+<ce> ltqcndbntkmyj jgfcyj, yj `ele jxtym ghbpyf-
+<ce> ntkty, tckb `s ds c]tplbkb `s d __contact_
+<ce> d ___contact_ b pf`hfkb fhntafrn.
+<ce> Dhtvz ljhjuj, byfxt vs vj*tv pf`snm ghj
+<ce> fhntafrn. E dfc =1stparton_ lytq.
+<ce> Kexit dfv dthyenmcz lj bc[jlf =1stparton_ lytq.
+<ce> Elfxb dfv b lf jcdtnbn Lb`tkkf dfi genm.
+
+QuestFail:  [1003]
+<ce> Ghbdtn, %pcf. Ds tot yt pf`skb,
+<ce> xnj dfv yflj pf`hfnm fhntafrn
+<ce> bp __contact_, f?
+
+QuestComplete:  [1004]
+<ce> Ghtrhfcyj! Gjcvjnhbnt rfrfz cbvvtnhbz kbybq,
+<ce> cnbkbpjdfyyst ajhvs, gkfdyst bpub`s b
+<ce> jhyfvtyn... J, %pcf, ds ghbytckb
+<ce> yfv `tcwtyysq lfh. Djn dfif yfuhflf:
+<ce> _reward_ pjkjns[, rjnjhst ds ytcjvytyyj
+<ce> pfcke*bkb. Lf `kfujckjdbn dfc Lb`tkkf.
+
+RumorsDuringQuest:  [1005]
+^njn nhtgtoeobq =contact_ gjkyjcnm< djdktrcz d cdj< ntjhb< pfujdjhf.
+   <--->
+Z elbdkty, rfr njkmrj tot @njuj =contact_ yt juhf`bkb.
+
+RumorsPostfailure:  [1006]
+Ljv Lb`tkks gjkfuftn, xnj gjnthz @njq rfhnbys vj*tn ghbdtcnb r rjywe cdtnf.
+   <--->
+Ljv Lb`tkks nfrjq ljdthxbdsq, yt elbdbntkmyj, xnj @njn yftvybr %ra yflek b[.
+
+RumorsPostsuccess:  [1007]
+Gjckt dct[ @nb[ cke[jd, z gjkfuf<, xnj @nf rfhnbyf ghjcnj gjlltkrf.
+   <--->
+Bynthtcyj, Ljv Lb`tkks dscnfdbn @ne rfhnbye yf gjrfp bkb cghzxtn?
+
+QuestorPostsuccess:  [1008]
+Xnj z vjue cltkfnm lkz %ra, dthyedituj yfv @ne xeltcye< rfhnbye?
+
+QuestorPostfailure:  [1009]
+Ds gjnthgtkb ytelfxe c rfhnbyjq, pyfxbn ds gjnthgtkb ytelfxb b c Ljvjv, %pcf. Ghjdfkbdfqnt!
+
+QuestLogEntry:  [1010]
+<ce> Bvtytv Lb`tkks, z e*t yfxfk `tcgjrjbnmcz, xnj
+<ce> ds yt ghbltnt. Djn rfhnbyf -- z hfl
+<ce> bp`fdbnmcz jn ytt. Z xedcnde<, rfr rnj-nj
+<ce> cktlbn pf vyjq. Kexit dfv dthyenmcz d
+<ce> Ljv Lb`tkks rfr vj*yj `scnhtt.
+
+Message:  1011
+_contact_ - j`sxysq fh[tjkju-fdfyn<hbcn, hf`jnf<obq yf Ljv Lb`tkks.
+   <--->
+=contact_ d __contact_? Rfrjq-nj djh bkb yftvybr.
+
+Message:  1013
+Gjkfuf<, @nj gjlltkrf. Yj Ljve yt ye*ys ytghbznyjcnb.
+   <--->
+Gjlltkrf, gjlltkrf, gjlltkrf. Yj jxtym bcreccyj dsgjkytyyfz.
+
+Message:  1030
+%qdt:
+ Ljv Lb`tkks yfyzk vtyz dcnhtnbnmcz c jlybv
+ fh[tjkjujv, yfitlibv lkz ytuj rfhnbye, pfgkfnbnm
+ pf ytt b ghbytcnb rfhnbye Ljve.
+ ^nj _contact_ d __contact_
+ d ___contact_. Vyt ye*yj dthyenm
+ rfhnbye _questgiver_
+ d ___questgiver_ d ntxtybt =1stparton_ lytq.
+
+
+
+QBN:
+Item _reward_ gold
+Item _item_ scarab anyInfo 1013
+
+Person _questgiver_ face 112 group Questor
+Person _contact_ group Innkeeper remote anyInfo 1011
+
+
+Clock _1stparton_ 00:00 0 flag 17 range 1 4
+
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1030 step 0
+
+_1stparton_ task:
+	end quest
+
+variable _pcgetsgold_
+_npcclicked_ task:
+	clicked npc _contact_
+	get item _item_
+	say 1010
+
+_qgclicked_ task:
+	toting _item_ and _questgiver_ clicked
+	give pc _reward_
+	end quest
+
+_qgclick2_ task:
+	clicked npc _questgiver_
+
+_clearclick_ task:
+	when _qgclick2_ and not _qgclicked_
+	say 1003
+	clear _clearclick_ _qgclick2_
+
+variable _S.04_
+variable _S.05_
+_S.06_ task:
+	when _npcclicked_ and _1stparton_
+	make _item_ permanent

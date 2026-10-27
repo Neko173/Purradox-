@@ -1,0 +1,147 @@
+-- Quest: C:\QUESTS\WORKING\B0B70Y16.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 70
+-- QuestId: 16
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0B70Y16
+DisplayName: E`bqwf lhfrjyjd
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Iiii! Yt [jntkjcm `s, xn`s rnj-nj ecksifk
+<ce> j` @njv, %pct. Vyt crfpfkb,
+<ce> xnj ytlfdyj dbltkb lhfrjyf! Ye, vj*tn b yt
+<ce> dphjckjuj lhfrjyf, yj vfktymrjuj lhfrjyxbrf.
+<ce> Ytn ybxtuj `jktt uthjbxtcrjuj lkz xktyf
+<ce> jhltyf ==qgiver_, xtv ifyc e`bnm lhfrjyf.
+<ce> Z pyf<, ult jy j`bnftn, f dfv cktletn blnb
+<ce> b e`bnm tuj. Vs j`f vj*tv hfpltkcbnm ckfde.
+<ce> Ljujdjhbkbcm?
+   <--->
+<ce> Yfrjytw ghbikj dhtvz ljrfpfnm, xnj ds
+<ce> ltqcndbntkmyj cnjbnt xktycndf d
+<ce> ==qgiver_, %pct.
+<ce> Ghbikj dhtvz e`bnm lhfrjyf!
+
+RefuseQuest:  [1001]
+<ce> Gjghj`eqnt njkmrj hfccrfpfnm j` @njv
+<ce> b z lj`m<cm njuj, xnj`s dfc
+<ce> dsuyfkb bp ==qgiver_.
+
+AcceptQuest:  [1002]
+<ce> Lhfrjymt zqwj [hfybkjcm d
+<ce> ___dungeon_. Yt pyf<,
+<ce> tcnm kb nfv lheubt lhfrjyxbrb
+<ce> Z cvjue [hfybnm @nj d ctrhtnt
+<ce> d ntxtybt =2dung_ lytq.
+
+QuestComplete:  [1004]
+<ce> Ghbdtncndetv %pcn, c @njuj
+<ce> vjvtynf ghjpsdftvjuj E`bqwtq
+<ce> Lhfrjyjd! Ghbdtncndetv _qgiver_,
+<ce> cbkmyjq ghfdjq hert b wtyyjuj
+<ce> xktyf jhltyf!
+
+RumorsDuringQuest:  [1005]
+Pltcm yt ghjbc[jlbn ybxtuj bynthtcyjuj.
+   <--->
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostfailure:  [1006]
+%kno `tp dblbvs[ ghbxby gjckfkj rjuj-nj bpdtcnyjuj d ___dungeon_.
+
+RumorsPostsuccess:  [1007]
+Lhfrjy bp ___dungeon_ `sk 50 aenjd d lkbye!
+   <--->
+Lhfrjy bp ___dungeon_ `sk cnj aenjd d lkbye!
+   <--->
+Lhfrjy, e`bnsq @nbv %ra, c]tlfk cjhjr rjhjd pf jlby ghbctcn!
+
+QuestorPostsuccess:  [1008]
+Xtv vjue gjvjxm cdjtve njdfhboe, E`bqwt lhfrjyjd?
+
+QuestorPostfailure:  [1009]
+Ds jxtym gjldtkb vtyz c ntv lhfrjyjv. Jcnfdm vtyz d gjrjt.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp
+ ==qgiver_ d ___qgiver_
+ hfccrfpfk vyt ghj dskegbdittcz
+ d ___dungeon_ lhfrjymt zqwj.
+ E vtyz =2dung_ lytq, xnj`s e`bnm
+ ndfhm b cjuhtnmcz d kexf[ ckfds.
+
+Message:  1011
+<ce> Lhfrjyxbr vthnd. Ntgthm j` @njv
+<ce> cj`snbb d ==qgiver_
+<ce> `elen ujdjhbnm ujlfvb!
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+Person _local_ face 93 group Resident2 male local
+
+Place _dungeon_ remote dungeon14
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Dragonling
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	place foe _monster_ at _dungeon_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _monster_ saying 1011
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.02_ and _S.01_
+	give pc nothing
+	change repute with _local_ by +6
+	change repute with _qgiver_ by +10
+	end quest
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_

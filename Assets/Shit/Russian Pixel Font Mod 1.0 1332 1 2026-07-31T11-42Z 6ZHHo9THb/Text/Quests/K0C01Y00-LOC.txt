@@ -1,0 +1,254 @@
+-- Quest: C:\QUESTS\WORKING\K0C01Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: merchant
+-- Repute: 01
+-- QuestId: 0
+Messages: 21
+Quest: K0C01Y00
+DisplayName: Gjvjxm celm`t
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ghtlcnfdmnt vjq bcrhtyybq djcnjhu, rjulf
+<ce> vjz dtxyj [ysxeofz b k*bdfz *tyobyf, `sdifz
+<ce> vjtq k<`jdybwtq d ntxtybt gjcktlyb[ lde[ ktn,
+<ce> `skf gj[botyf b e`bnf. Njkmrj ghtlcnfdmnt
+<ce> vjt ujht, rjulf z epyfk, xnj =victim_
+<ce> dct tot *bdf. F ntgthm ghtlcnfdmnt vjt
+<ce> eljdjkmcndbt, rjulf gj[bnbntkb pfnht`jdfkb
+<ce> dsreg. B yfrjytw ghtlcnfdmnt vj< pkj`e, rjulf
+<ce> z epyfk, xnj tt repty cjukfcbkcz yf dsreg.
+<ce> ^njuj yt ljk*yj cdthibnmcz. Vyt ye*ty rnj-nj,
+<ce> vjueobq gjcgjcj`cndjdfnm hfpheityb< cltkrb
+<ce> j dsregt. Ds gjvj*tnt vyt?
+
+
+RefuseQuest:  [1001]
+<ce> %oth, xnj pf jnyjitybt.
+<ce> Dfif cj`cndtyyfz vjhfkm yt
+<ce> ljdtltn dfc lj lj`hf.
+
+AcceptQuest:  [1002]
+<ce> %oth, %oth,
+<ce> b %oth.
+<ce> Tcnm nhb genb htitybz @njq ghj`ktvs c dsregjv.
+<ce> Gthdsq: cltkfnm nfr, xnj`s _victim_
+<ce> evthkf lj yfcnegktybz lyz dsregf xthtp =queston1_
+<ce> lytq. Rjytxyj *t z yt pyf<, ult tt lth*fn, nfr xnj
+<ce> @nj ljdjkmyj nfrb ckj*yj. Dnjhjq genm: ghbdtcnb r
+<ce> cvthnb tt reptyf d nfrjq *t dhtvtyyjq ghjvt*enjr.
+<ce> =cousin_, @nj repty, *bdtn d ___mondung2_,
+<ce> jnkbxyj j[hfyftvjq rhtgjcnb. Ye b nhtnbq genm:
+<ce> erhfcnm _gem_ bp ___mondung2_, rjnjhsq
+<ce> =cousin_ gkfybhetn bcgjkmpjdfnm d rfxtcndt
+<ce> dsregf. Rfrjq `s genm ds yb ds`hfkb, djpdhfofqntcm
+<ce> c yjdjcnzvb d ntxtybt =queston1_ lytq b
+<ce> ds cnfytnt `jufxt yf _gold_ pjkjns[.
+<ce> Elfxb, cnfhbyf %ra.
+
+QuestComplete:  [1004]
+<ce> Bnfr, `tlyfz _victim_ yt
+<ce> dthytncz ljvjq? Jnkbxyj, vjq lheu. Djn
+<ce> j`tofyyjt pjkjnj. Kexibt ltymub, rjnjhst
+<ce> z rjulf-kb`j ghtlkfufk.
+
+RumorsDuringQuest:  [1005]
+~tlysq _qgiver_. Tuj ujht e*fcyj. Pyftnt, jy gjcnfhtk yf lj`hsq ltcznjr ktn.
+   <--->
+=cousin_ gjljphtdftn, xnj d ltqcndbntkmyjcnb _qgiver_ yt *tkftn djpdhfotybz _victim_.
+
+RumorsPostfailure:  [1006]
+_qgiver_ gj rfrjq-nj ghbxbyt hfpuytdfy ytrbv %ra gj bvtyb %pcn.
+
+RumorsPostsuccess:  [1007]
+Gj[j*t, xnj _victim_ ybrjulf yt dthytncz d ___qgiver_.
+   <--->
+_qgiver_ d dtkbxfqitv ujht, jgkfrbdftn _victim_. Rfr @nj gtxfkmyj.
+
+QuestorPostsuccess:  [1008]
+Ds cgfckb vtyz jn @nj vthprjq *f`s _victim_, %pcf. Yt levfqnt, xnj z pf`sk dfib eckeub.
+
+QuestorPostfailure:  [1009]
+<ce> Z ghjcbk dfc cltkfnm jlye ghjcne< dtom b
+<ce> lf*t yfvtryek yf nhb cgjcj`f htitybz lfyyjq
+<ce> ghj`ktvs. F ds evelhbkbcm gjnthgtnm ytelfxe.
+<ce> C xtuj ds dpzkb, xnj vyt tcnm j xtv c dfvb
+<ce> ujdjhbnm, ds, jke[ c `fyrjq vfhbyjdfyys[ juehwjd
+<ce> yf gktxf[ dvtcnj ujkjds!
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp
+ __qgiver_ d ___qgiver_ gjckfk
+ vtyz djcghtgzncndjdfnm dsrege tuj ytk<`bvjq
+ *tyobys. E vjue e`bnm _victim_, yj vyt
+ yt bpdtcnyj, ult tt lth*fn. Nfr *t z vjue
+ gjqnb d ___mondung2_ r tt reptye =cousin_
+ b kb`j e`bnm tuj, kb`j gj[bnbnm _gem_,
+ ghtlyfpyfxtyysq lkz dsregf. D k<`jv ckexft
+ vyt ye*yj dthyenmcz r cnfhbyt _qgiver_
+ d ntxtybt =queston1_ lytq, rjulf
+ gjljqltn chjr dsgkfns dsregf.
+
+Message:  1011
+<ce> E _victim_ cthlwt ujnjdj
+<ce> dscrjxbnm bp uhelb ghb dblt
+<ce> %ra-yftvybrf.
+   <--->
+<ce> "Gjljqlb, cvthnm vjz".
+<ce> ujdjhbn _victim_, jnregjhbdfz
+<ce> b dsgbdfz zl. "Yfrjytw z djccjtlby<cm
+<ce> c vjtq bcnbyyjq k<`jdm<
+<ce> _qgiver_ gjckt gtht*bnjuj".
+   <--->
+<ce> "E`bqwf! E`bqwf!"
+<ce> _victim_ dgflftn
+<ce> d bcnthbre.
+
+
+Message:  1013
+%pcf,
+<ce>
+_victim_ cjlth*bncz
+d ___mondung_.
+Gjcnegfq gj cdjtve hfpevtyb<.
+<ce>
+Vs yt ghjnbd. Gj[bnbntkb - djkmyst hfp`jqybrb.
+<ce>
+-- Ubkmlbz Djhjd
+
+Message:  1015
+<ce> Cthsq, ytdphfxysq gfhtym dhexftn dfv
+<ce> rjydthn, gjlvbubdftn b e[jlbn
+<ce> yt ghjhjybd yb ckjdf.
+
+Message:  1017
+%qdt:
+ Z gjkexbk gbcmvj
+ jn Ubkmlbb Djhjd. Gj[j*t, xnj
+ gj[bnbntkb yt zdkz<ncz tt xktyfvb,
+ nfr xnj ubkmlbz yt dblbn ghtgzncndbq,
+ xnj`e erfpfnm vyt vtcnjyf[j*ltybt:
+ ___mondung_.
+ Tckb z [jxe gjrjyxbnm c *bpym< _victim_,
+ nj vj*yj jnghfdkznmcz nelf.
+
+Message:  1018
+<ce> Pfxtv, ns vthprbq, jndhfnbntkmysq
+<ce> %ra, rfr vyt `jkmyj!
+   <--->
+<ce> Dthjznyj ds gjkfuftnt,
+<ce> xnj @nj yt `jkmyj, lf?
+
+Message:  1019
+<ce> Repty _victim_, tt tlbycndtyyfz
+<ce> yflt*lf, eitk d dtxyjcnm.
+   <--->
+<ce> Ntgthm nj =cousin_ njxyj
+<ce> yt cvj*tn pfgkfnbnm dsreg.
+
+Message:  1020
+<ce> Ds yfikb _gem_, rjnjhsq =cousin_
+<ce> ghtlyfpyfxbk d rfxtcndt dsregf
+<ce> lkz _victim_.
+
+
+
+QBN:
+Item _letter15_ letter used 1013
+Item _gold_ gold
+Item _gem_ gem
+
+Person _qgiver_ group Questor
+Person _victim_ face 1 group Group_7.0
+Person _tg_ faction The_Thieves_Guild local
+
+Place _mondung_ remote dungeon
+Place _mondung2_ remote dungeon2
+
+Clock _queston1_ 00:00 0 flag 17 range 0 2
+Clock _S.05_ 08:20 3.11:20
+
+Foe _cousin_ is Knight
+
+--	Quest start-up:
+	place item _gem_ at _mondung2_
+	dialog link for location _mondung_ person _victim_
+	dialog link for person _tg_
+	start timer _queston1_
+	reveal _mondung2_
+	log 1010 step 0
+	repute with _tg_ exceeds 10 do _S.03_
+	place foe _cousin_ at _mondung2_
+	place npc _victim_ at _mondung_
+
+_queston1_ task:
+	have _gem_ set _S.15_
+	end quest
+
+variable _queston2_
+variable _S.02_
+_S.03_ task:
+	start timer _S.05_
+
+variable _S.04_
+_S.05_ task:
+	_letter15_ used do _S.06_
+	get item _letter15_
+	say 1015
+
+_S.06_ task:
+	reveal _mondung_ readmap
+	log 1017 step 2
+
+variable _S.07_
+_S.08_ task:
+	clicked npc _victim_
+	hide npc _victim_
+	say 1011
+
+_S.09_ task:
+	injured _cousin_
+	say 1018
+
+_S.10_ task:
+	killed 1 _cousin_
+	say 1019
+	start task _victory_
+
+variable _victory_
+_S.11_ task:
+	clicked item _gem_
+	say 1020
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _victory_
+	give pc _gold_
+	end quest
+
+_clearclick_ task:
+	when _qgclicked_ and not _victory_
+	clear _clearclick_ _qgclicked_
+
+_S.13_ task:
+	toting _gem_ and _qgiver_ clicked
+	give pc _gold_
+	end quest
+--added victory condition here, per message block 1002
+
+_S.14_ task:
+	when _S.10_ or _S.08_
+-or _S.13_
+-
+-until _S.14_ performed:
+-	clear _qgclicked_
+
+_S.15_ task:
+	make _gem_ permanent
+
+variable _S.16_

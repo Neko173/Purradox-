@@ -1,0 +1,206 @@
+-- Quest: C:\QUESTS\WORKING\S0000500.Qbn.
+-- Main story quest.
+-- QuestId: 500
+Messages: 71
+Quest: S0000500
+DisplayName: "Kjhl R'fdfhf" Xfcnm II
+-- Message panels
+QRC:
+
+QuestComplete:  [1004]
+<ce> %pcf, ns cgfc vyt *bpym, rjulf dct lhepmz
+<ce> `hjcbkb vtyz. Z d ytjgkfnyjv ljkue gthtl nj`jq.
+<ce> E vtyz yt nfr e* vyjuj jcnfkjcm, yj djn djpmvb
+<ce> _gold_ pjkjns[ d pyfr vjtq ghbpyfntkmyjcnb.
+
+RumorsDuringQuest:  [1005]
+<ce> Jlby bp ghb`kb*tyys[ r _queen_
+<ce> dscib[ kjhljd `sk fhtcnjdfy pf bpvtye. Tuj lhepmz
+<ce> ghjcbkb gjvbkjdfybz lkz ytuj, yj rjhjktdf e*t
+<ce> yfpyfxbkf lfne rfpyb.
+
+RumorsPostsuccess:  [1007]
+<ce> Ujdjhzn, xnj _traitor_ c`t*fk bp gjlptvtkbq
+<ce> pfvrf Ctynbytk ghzvj bp gjl yjcf rjhjktdcrjq
+<ce> udfhlbb. Ljk*yj `snm _queen_ dtcmvf hfpuytdfyf!
+
+Message:  1020
+%qdt:
+ Vyt ghbikj gbcmvj jn ytrnj gj bvtyb
+ _contact1_ c ghjcm`jq dcnhtnbnmcz
+ d nfdthyt _tavern_ d __tavern_,
+ xnj`s j`celbnm ltkf, cdzpfyyst c
+ _traitor_ bp Ctynbytkf.
+
+Message:  1021
+%qdt:
+ _contact1_ dcnhtnbkcz cj vyjq b hfccrfpfk,
+ xnj _traitor_ njvbncz d gjlptvtkmz[
+ Ctynbytkf, j*blfz lyz rfpyb yfpyfxtyyjuj
+ xthtp =executiondelay_ lytq. _contact1_ eghjcbk
+ vtyz yfqnb _traitor_, gjrf tot yt gjplyj.
+
+Message:  1022
+%qdt:
+ Vyt elfkjcm hfpscrfnm _traitor_
+ d ntvybwt pfvrf Ctynbytk b z
+ cjghjdj*lf< %g4 d _safehouse_ d
+ __safehouse_, ult vs dcnhtnbv
+ lheptq _traitor_.
+
+Message:  1030
+Edf*ftvsq lheu %pcn:
+<ce>
+  Tckb ds cxbnftnt ct`z lheujv _traitor_,
+gj*fkeqcnf, lfdfqnt dcnhtnbvcz d _tavern_
+d __tavern_ b xtv crjhtt, ntv kexit.
+^nj djghjc *bpyb b cvthnb!
+<ce>
+_contact1_
+<ce> ----
+
+Message:  1040
+<ce> %pcn? Ds vjz gjcktlyzz yflt*lf!
+<ce> Lhepmz _traitor_ gjrfpfkb cdj<
+<ce> `tcgjvjoyjcnm gjckt tuj fhtcnf
+<ce> ltcgjnbxyjq _queen_
+<ce> gj j`dbytyb< d ujcelfhcndtyyjq
+<ce> bpvtyt. Ntgthm jy pfrk<xty d
+<ce> ntvybwt pfvrf Ctynbytk, j*blfz
+<ce> rfpyb. Gj*fkeqcnf, tckb e dfc tcnm
+<ce> [jnm rfgkz edf*tybz r @njve xtkjdtre,
+<ce> cgfcbnt tuj jn ytvbyetvjq cvthnb.
+<ce> Jy jxtym xfcnj [jhjij jnpsdfkcz j
+<ce> dfitv vfcnthcndt b [hf`hjcnb. Z pyf<,
+<ce> ds yt jnrf*tntcm gjvjxm yfv.
+
+Message:  1041
+<ce> %oth, rfr z hfl dbltnm dfc!  Yfv
+<ce> ye*yj rfr vj*yj `scnhtt ds`hfnmcz jnc<lf,
+<ce> gjrf yt gjlyzkfcm nhtdjuf. Z rfr hfp
+<ce> levfk j djpvj*yjcnb gj`tuf, rfr nen
+<ce> gjzdbkbcm ds. "Vjz ghfdfz herf", djn
+<ce> rfr z jnpsdfkcz dctulf j dfc. J`tof<,
+<ce> xnj rjulf cnfye rjhjktv Ctynbytkf, ds
+<ce> cnfytnt `jufntqibv kjhljv @njuj rjhjktdcndf!
+<ce> Ytgkj[j pdexbn, lf? Gjckt njuj rfr vs eqltv
+<ce> jn gjujyb, ljcnfdmnt vtyz d __safehouse_.
+<ce> Nfv e vtyz tcnm lheu d _safehouse_,
+<ce> rjnjhsq gjvj*tn vyt jceotcndbnm
+<ce> pfdjtdfybt Ctynbytkf. F ntgthm lj`hsq lheu,
+<ce> %pcn, gjhf ltkfnm jnc<lf yjub!
+
+Message:  1050
+<ce> Nhtdjuf! _traitor_ c`tuftn!
+<ce> J[hfyf! ~scnhj rj vyt!
+
+Message:  1051
+<ce> _traitor_ gj*bvftn dfv here
+<ce> b chsdf<obvcz ujkjcjv ujdjhbn:
+<ce>
+<ce> "~kfujlfh< dfc pf vjt cgfctybt bp
+<ce> xthyjuj rjkjlwf jnxfzybz, yj jnc<lf
+<ce> yfib c dfvb genb hfc[jlzncz".
+
+Message:  1060
+<ce> Cksifkb kb ds, xnj _traitor_ bp Ctynbytkf `sk rfpyty pf bpvtye?
+<ce> {jhjitt yfdthyjt `skj phtkbot -- tuj gjdtcbkb ghb dctv xtcnyjv yfhjlt
+<ce> yf gthtlytq cntyt rjhjktdcrjuj pfvrf.
+   <--->
+<ce> _traitor_ bp Ctynbytkf `sk gjdtity pf bpvtye. Ujdjhzn, gthtl cvthnm<
+<ce> jy evjkzk cj[hfybnm tve *bpym.
+
+Message:  1070
+<ce> Rehmth yfheibk dfie cjchtljnjxtyyjcnm
+<ce> dsrhbrjv: "%pcn, yt nfr kb? Lkz dfc gbcmvj".
+
+
+
+QBN:
+Item _letter_ letter used 1030
+Item _gold_ gold
+
+Person _traitor_ face 1 named Lord_K'avar
+Person _contact1_ face 15 group Banker female remote
+Person _queen_ named Queen_Akorithi atHome
+Person _contact2_ face 1 group Local_3.0 remote
+
+Place _tavern_ remote tavern
+Place _sentinel_ permanent SentinelCastle4
+Place _safehouse_ remote house4
+
+Clock _S.00_ 31.06:00 93.18:00
+Clock _firsttimer_ 7.00:00 14.00:00
+--varied timer, to prevent same number on all timers
+Clock _executiondelay_ 00:00 0 flag 17 range 0 2
+Clock _escapetime_ 00:00 0 flag 17 range 0 2
+
+Foe _guards_ is Spellsword
+Foe _F.01_ is Spellsword
+
+--	Quest start-up:
+	start timer _S.00_
+	have _letter_ set _goclock_
+
+_goclock_ task:
+	start timer _firsttimer_
+
+_S.00_ task:
+	_letter_ used do _readletter_
+	give pc _letter_ notify 1070
+	place foe _guards_ at _sentinel_
+	place npc _contact1_ at _tavern_
+	place npc _traitor_ at _sentinel_
+
+variable _executiondelay_
+variable _firsttimer_
+_S.02_ task:
+	clicked npc _contact1_
+	log 1021 step 1
+	say 1040
+	start timer _executiondelay_
+	stop timer _firsttimer_
+
+_S.03_ task:
+	clicked npc _traitor_
+	start timer _escapetime_
+	log 1022 step 2
+	hide npc _traitor_
+	hide npc _contact1_
+	say 1041
+	add _traitor_ face
+	change repute with _queen_ by -20
+	place npc _contact2_ at _safehouse_
+	stop timer _executiondelay_
+
+_greklith_ task:
+	injured _guards_
+	create foe _F.01_ every 2 minutes 5 times with 50% success
+	say 1050
+
+_S.05_ task:
+	clicked npc _contact2_
+
+_S.06_ task:
+	when _S.03_ and _S.05_
+	give pc _gold_
+	drop _traitor_ face
+	end quest
+--removed unnecessary delay
+
+_S.08_ task:
+	when _executiondelay_ and not _S.03_
+	rumor mill 1060
+	end quest
+
+_S.08a_ task:
+	when _firsttimer_ and not _S.03_
+	rumor mill 1060
+	end quest
+
+_escapetime_ task:
+	say 1051
+	end quest
+
+_readletter_ task:
+	log 1020 step 0

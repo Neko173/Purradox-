@@ -1,0 +1,158 @@
+-- Quest: C:\QUESTS\WORKING\N0B00Y06.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 0
+-- QuestId: 6
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: N0B00Y06
+DisplayName: ~byns vevbb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %oth, xnj vj*tn `snm hfplhf*bntkmytt,
+<ce> xtv j`yfhe*bnm, xnj `byns vevbb, rjnjhst gkfyb-
+<ce> hjdfkjcm bcgjkmpjdfnm d ptkmt, cj*hfkf
+<ce> ptktyfz gktctym? Z [jntk bcgjkmpjdfnm
+<ce> j`vjnrb, ghbyflkt*fobt ubkmlbb, yj d htwtgnt
+<ce> ujdjhbncz j "yfbcdt*fqib[ `bynf[ vevbb",
+<ce> xnj `s @nj yb pyfxbkj. Yt levfqnt, xnj vtyz
+<ce> geuftn cfvf djpvj*yjcnm jnjhdfnm rkjxjr jlt*ls
+<ce> c vevbb, f z pyf< jlye, e rjnjhjq ljcnfnjxyj
+<ce> `bynjd, xnj`s b[ [dfnbkj vyt lkz jgsnjd.
+<ce> Ds vtyz gjybvftnt?
+   <--->
+<ce> Hf`jnf c htwtgnfvb - lehyjt ltkj, %pct.
+<ce> Z hf`jnf< yfl ajhvekjq, rjnjhfz yfpsdftncz
+<ce> "pyfxbntkmyfz xfcnm =mummy_". Xnj nfrjt
+<ce> =mummy_? Hfcntybt? Vbythfk? D htpekmnfnt
+<ce> bccktljdfybq vyt elfkjcm epyfnm, xnj =mummy_
+<ce> @nj vevbz. Ghtlcnfdkztnt? B @nf vevbz yf[jlbncz
+<ce> pltcm d %reg. Cjukfcys kb ds gjqnb d
+<ce> tt crktg b dpznm tt xfcnm pf, crf*tv,
+<ce> _gold_ pjkjns[?
+
+RefuseQuest:  [1001]
+<ce> J, %oth. Pyf<,
+<ce> @nj yt gj[jl gj vtcnysv vfufpbyfv,
+<ce> yj z nfr hfccxbnsdfk [jnm yf rfgk<
+<ce> @ynepbfpvf b hbcrjdfyysq [fhfrnth.
+
+AcceptQuest:  [1002]
+<ce> Jxtym [jhjij, %pct. _gold_ pjkjns[
+<ce> `elen j*blfnm dfc gj ghb`snbb.
+<ce> Ecsgfkmybwf vevbb yt nfr e* b lfktrj
+<ce> jn ujhjlf, b @nj yt ljk*yj pfyznm e dfc
+<ce> `jktt =queston_ lytq. Gjvybnt, `byns
+<ce> ljk*ys `snm cdt*bvb -- ghtlgjxnbntkmytt
+<ce> cyznsvb c ntkf vevbb. Vtcntxrj yfpsdftncz
+<ce> ___mondung_. Nfv ljdjkmyj *enrj.
+<ce> Levf< dfv yt gjvtiftn vtx bkb tot
+<ce> xnj-yb`elm. Elfxb, <ysq %ra.
+
+QuestComplete:  [1004]
+<ce> J, djn jy ljkuj*lfyysq recjxtr
+<ce> vevbb. ~jkmijt cgfcb`j. Djn dfif
+<ce> gkfnf pf hf`jne: _gold_.
+
+RumorsDuringQuest:  [1005]
+=mummy_ d ___mondung_ crjhtt dctuj bp lhtdyb[ %t bp %reg.
+   <--->
+=mummy_ `sk jlybv bp %t lhtdytuj %reg, rjnjhsq `sk ckbirjv pksv, xnj`s evthtnm cgjrjqyj.
+
+RumorsPostfailure:  [1006]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostsuccess:  [1007]
+Ghfdktybt =mummy_ d %reg yfxfkjcm pfljkuj lj yfxfkf Gthdjq ^hs, b pfrjyxbkjcm c dfibv ghb[jljv.
+   <--->
+_qgiver_ yfrjytw-nj vj*tn pfrjyxbnm cdjt ptkmt `kfujlfhz =mummy_, ghbytctyyjq d *thnde.
+
+QuestorPostsuccess:  [1008]
+Rfr ds, %pcf? Yflt<cm ds yt pfhfpbkbcm uybkm< jn vevbb bkb xtv-nj d @njv hjlt.
+
+QuestorPostfailure:  [1009]
+<ce> Vyt jxtym ye*ys @nb j`vjnrb, %pcf.
+<ce> ^nj jxtym hfplhf*ftn, rjulf yt [dfnftn
+<ce> `erdfkmyj jlyjuj rjvgjytynf.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp Ubkmlbb Vfujd
+ d ___qgiver_ gjckfk vtyz d
+ ___mondung_ dpznm ytvyjuj
+ j`hsdrjd `bynjd c vevbb, yfpsdftvjq
+ =mummy_. E vtyz tcnm =queston_
+ lytq, xnj`s pfrjyxbnm @nj pflfybt.
+
+Message:  1011
+<ce> Yf ntkt =mummy_ ds yfikb
+<ce> nt cfvst `byns, rjnjhst
+<ce> botn _qgiver_.
+
+
+
+QBN:
+Item _wrappings_ mummy_wrappings
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _mondung_ remote dungeon0
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _mummy_ is Mummy
+
+--	Quest start-up:
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	place foe _mummy_ at _mondung_
+
+_queston_ task:
+	end quest
+
+_reward_ task:
+	toting _wrappings_ and _qgiver_ clicked
+	give pc _gold_
+	take _wrappings_ from pc
+	end quest
+--forums discussion, failsafe to ensure removal of wrappings
+
+variable _qgclicked_
+_S.03_ task:
+	clicked item _wrappings_
+	say 1011
+
+_S.04_ task:
+	injured _mummy_
+	give item _wrappings_ to _mummy_

@@ -1,0 +1,177 @@
+-- Quest: C:\QUESTS\WORKING\S0000021.Qbn.
+-- Main story quest.
+-- QuestId: 21
+Messages: 13
+Quest: S0000021
+DisplayName: Leif Kbxf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcf, z hfl, xnj ns yt jcnfdkztim `tp
+<ce> jndtnf vjt gbcmvj. Yflt<cm vjq gjckfyybr `sk
+<ce> dt*kbd. Ns dthyj cke*bim vyt d gjcktlytt
+<ce> dhtvz. Yt nfr dthyj, rfr vjb *bdst vthndtws,
+<ce> yj pfnj dtcmvf hfpyjcnjhjyyt. Ghtlvtn vjb[
+<ce> bcrfybq pfrk<xty d uke`jrb[ gjldfkf[ pfvrf
+<ce> Ctynbytk, f yfuhfljq `eltn pyfybt, gjktpyjt
+<ce> bcrk<xbntkmyj lkz vthndtwf.
+<ce> Yt ghjnbd gjcke*bnm vyt tot?
+
+RefuseQuest:  [1001]
+<ce> Ljk*yj `snm ns gbnftim uke`jrbt xedcndf
+<ce> r rjhjktdt Frjhbnb. Rfr @nj *fkrj.
+
+AcceptQuest:  [1002]
+<ce> Rfr pf`fdyj. Z boe jndtn yf cdjq djghjc.
+<ce> ^nj yt ceotcndetn chtlb *bds[, yj vj*tn
+<ce> `snm chtlb vthnds[. {jxe, xnj`s ns dthyek
+<ce> vyt ghbphfr ghbywf Rfhjkbcf, dtkbrjuj
+<ce> ltleire Rfvthjyf, `sdituj rjhjkz Ctynbytkf.
+<ce> Rfhjkbc `sk ytghtdpjqltyysv djkit`ybrjv,
+<ce> f ntgthm jy j`htnftncz d ntkt kbxf uke`jrj
+<ce> gjl pfvrjv Ctynbytk. Z lfv nt`t jcj`sq ghtlvtn
+<ce> _scarab_. Rjulf ns `eltim gj`kbpjcnb jn ytuj
+<ce> d vjvtyn hfpheitybz tuj abpbxtcrjuj ntkf,
+<ce> tuj leif `eltn pf[dfxtyf d _scarab_.
+<ce> Ghbytcb tt vyt b z hfccrf*e nt`t jlye bcnjhb<,
+<ce> rjnjhe< cksifkb kbim ytcrjkmrj cvthnys[.
+
+QuestComplete:  [1004]
+<ce> Jnkbxyj, %pcf. Edthty, ghbyw `eltn
+<ce> `jktt cujdjhxbdsv. Ghbvb gj*fkeqcnf
+<ce> _magicitem_ d pyfr vjtq ghbpyfntkmyjcnb.
+<ce> Dlj`fdjr z htibk, xnj ctqxfc cfvjt dhtvz
+<ce> lkz nt`z epyfnm ghfdle j Gjlptvyjv Rjhjkt.
+<ce> Rfr nt`t bpdtcnyj, Nfq`th Ctgnbv `sk gthdsv
+<ce> bvgthfnjhjv Nfvhb@kz. ~kb*t r rjywe tuj
+<ce> pfdjtdfntkmys[ djqy jy ghtlfk cdjtuj `jtdjuj
+<ce> vfuf, Pfhbyf Fhrnecf. Rjulf Pfhby evth, tuj
+<ce> leif jnrfpfkfcm gjrbyenm cdjt ntkj. Rfrbv-nj
+<ce> j`hfpjv @nj cdzpfyj c nfbycndtyysv Yevblbevjv.
+<ce> C nt[ gjh Pfhby Fhrnec nfr b *bdtn, yj cnfk
+<ce> `jkmit bpdtcnty gjl bvtytv Gjlptvysq Rjhjkm.
+<ce>
+<ce> Gjlptvysq Rjhjkm b tuj ckeub cnjktnbzvb
+<ce> `skb lkz vtyz rfr rjk<xrb gjl [djcnjv
+<ce> dth`k<lf. Ukfdyjt gjvyb, tckb Gjlptvysq Rjhjkm
+<ce> dyjdm j`htntn cdjt ntkj, nj `hjcbn Nfvhb@km
+<ce> d gexbye vt*leecj`bw.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Rjhjkm Xthdtq gjj`tofk hfcrhsnm vyt
+ rjt-rfrbt ntvyst ctrhtns, tckb z ghbytce
+ tve leie kbxf. Yj yt ghjcnjuj kbxf, f
+ `sdituj ghb *bpyb ghbywtv Rfhjkbcjv bp
+ Ctynbytkf, b j`bnf<otuj ctqxfc uke`jrj d
+ gjldfkf[ rjhjktdcrjuj pfvrf. Vyt ye*yj
+ eybxnj*bnm tuj ntkj, xnj`s pfrk<xbnm d
+ pfhfytt gjlujnjdktyye< jcj`e< kjdeire -
+ -  _scarab_, leie ghbywf Rfhjkbcf.
+
+Message:  1011
+<ce> Gjrjgfdibcm d hfpkfuf<otqcz gkjnb pjv`b
+<ce> ds yfikb cktle<ott cjj`otybt:
+<ce>
+<ce> %pcn,
+<ce>
+<ce> Vyt `eltn ghbznyj tckb ds gjctnbnt vtyz
+<ce> d elj`yjt lkz dfc dhtvz. E vtyz tcnm
+<ce> yt`jkmijt ltkmwt, bltfkmyj gjl[jlzott
+<ce> lkz dfc. Rfr j`sxyj, vjz ghbckeuf ghjdthbn
+<ce> dfie ndthljcnm [fhfrnthf. Yt `jqntcm
+<ce> gjdhtlbnm bv, jyb dctulf vjuen dthyenmcz
+<ce> r "*bpyb".
+<ce>
+<ce> Rjhjkm Xthdtq,
+<ce> Gjdtkbntkm Rehufyf Crehu
+
+Message:  1012
+<ce> Crfhf`tq, rjnjhsq dfv lfk Rjhjkm Xthdtq.
+
+
+
+QBN:
+Item _scarab_ scarab used 1012
+Item _magicitem_ magic_item
+
+Person _kingoworms_ named King_of_Worms atHome
+Person _lichface_ face 169 named Lord_Darkworth
+Person _fakekow_ face 1 named King_of_Worms
+
+Place _sentinel_ permanent SentinelCastle
+
+
+Foe _zombie_ is Zombie
+Foe _lich_ is Lich
+
+--	Quest start-up:
+	dialog link for item _magicitem_
+	dialog link for item _scarab_
+	repute with _kingoworms_ exceeds 0 do _S.01_
+
+_S.00_ task:
+	level 7 completed
+
+variable _S.01_
+_S.02_ task:
+	clicked npc _kingoworms_
+
+_S.03_ task:
+	when _S.02_ and _S.15_
+	prompt QuestorOffer yes yes no _no_
+
+until _killmon_ performed:
+	clear _S.02_
+
+yes task:
+	log 1010 step 0
+	get item _scarab_
+	say AcceptQuest
+	place foe _lich_ at _sentinel_ marker 0
+
+_no_ task:
+	say RefuseQuest
+	end quest
+
+_S.06_ task:
+	when _S.00_ and _S.01_
+	send _zombie_ every 1410 minutes with 100% success
+
+until _S.06_ performed:
+	mute npc _kingoworms_
+
+_S.07_ task:
+	injured _zombie_
+
+_S.08_ task:
+	killed 1 _lich_
+	setvar _killmon_
+	add _lichface_ face
+
+variable _killmon_
+_S.10_ task:
+	when _S.02_ and _killmon_
+
+_S.11_ task:
+	when not _S.08_ and _S.10_
+	get item _scarab_
+
+_givereward_ task:
+	when _S.10_ and _S.08_
+	give pc _magicitem_
+	start task _S.14_
+	drop _lichface_ face
+	change repute with _kingoworms_ by +15
+	end quest
+
+KingOfWormsGotTotem _S.13_
+KingOfWormsSatisfied _S.14_
+_S.15_ task:
+	killed 1 _zombie_
+	say 1011
+	unset _S.06_
+
+variable _S.16_
+variable _delay_

@@ -1,0 +1,146 @@
+-- Quest: C:\QUESTS\WORKING\Q0C00Y08.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: witch
+-- Repute: 0
+-- QuestId: 8
+Messages: 14
+Quest: Q0C00Y08
+DisplayName: Htlrfz rybuf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Lf, yfv ltqcndbntkmyj ye*yf ndjz gjvjom,
+<ce> %pcf. Yfi if`fi bpjkbhjdfy, vs e*t
+<ce> yfnthgtkbcm cnhf[e b yt`kfujlfhyjcnb
+<ce> dytiytuj vbhf. Tckb ns ghbj`htntim lkz
+<ce> yfc jlye jxtym htlre< rybue, ghb`tht*tyye<
+<ce> lkz yfc d ___contact_,
+<ce> vs `eltv hfls jcj`e< dtom _mitem_,
+<ce> cjplfyye< cgtwbfkmyj lkz nt`z.
+
+RefuseQuest:  [1001]
+<ce> Xnj *, njulf vs gjlj*ltv cktle<otuj
+<ce> genybrf. Yfif ye*lf yt nfr e* dtkbrf.
+
+AcceptQuest:  [1002]
+<ce> Cltkftim? Rybuf yfpsdftncz '_book_' -- @nj
+<ce> jxtym htlrfz rybuf. Lf*t tckb yfqltncz
+<ce> b rjgbz, nj wtyf dct hfdyj `eltn
+<ce> gjlyt`tcyjq. Yfv gjdtpkj, gjnjve xnj
+<ce> e yfc tcnm lheu d ___contact_,
+<ce> =contact_ gj bvtyb _contact_,
+<ce> erhfdibq rjgb< rybub. Tckb ns dcnhtnbimcz
+<ce> c ybv d __contact_,
+<ce> %g lfcn nt`t rybue. Vs `eltv *lfnm
+<ce> ndjtuj djpdhfotybz d ntxtybt =queston_ lytq.
+<ce> Gj bc[jlt @njuj dhtvtyb rybuf yt
+<ce> `eltn ghtlcnfdkznm lkz yfc ybrfrjuj
+<ce> bynthtcf. Lf gjvj*tn nt`t ==daedra_.
+
+QuestComplete:  [1004]
+<ce> Fuf, djn jyj. Yflt<cm nt`t elfkjcm
+<ce> elth*fnmcz jn njuj, xnj`s ghjkbcnfnm
+<ce> tt cnhfybws, lj`hsq lheu %pcf.
+<ce> ^nj ytdthjznyj, xnj nt`t elfkjcm
+<ce> cjdthibnm @nj d nfrbt chjrb.
+<ce> Xnj *, djn _mitem_.
+
+RumorsDuringQuest:  [1005]
+_contact_ gjl gjljphtybtv. Ujdjhzn, xnj %g zriftncz c dtlmvfvb.
+   <--->
+Ujdjhzn, xnj _contact_ - nfqysq futyn dtlmv.
+
+RumorsPostfailure:  [1006]
+_contact_ fhtcnjdfkb b gjl*fhbkb rfr cntqr. Dct rfr b ljk*yj.
+   <--->
+~tlyzuf _contact_ `jkmit ybrjulf yt jnrhjtn cdjq hjn. Ntgthm jy pfrhskcz yfdtrb.
+
+RumorsPostsuccess:  [1007]
+_contact_ fhtcnjdfkb, yj rybuf '_book_' nfr b yt yfqltyf.
+   <--->
+Jyb gjqvfkb _contact_, yj @nj jrfpfkcz yt njn =contact_, rjnjhsq gj[bnbk '_book_'.
+
+QuestorPostsuccess:  [1008]
+J, ghbdtn, %pcf. Z rfr hfp xbnf< '_book_' -- cfvjt nj lkz yfc.
+
+QuestorPostfailure:  [1009]
+<ce> '_book_' gjnthzyf,
+<ce> rf*tncz yfdctulf. Ctqxfc yt dhtvz
+<ce> lkz hfpujdjhjd. E[jlb, jcnfdm
+<ce> ==qgiver_. Vs yt [jnbv
+<ce> dbltnm nt`z.
+
+QuestLogEntry:  [1010]
+%qdt:
+ ==qgiver_ gjckfkb vtyz
+ d ___contact_,
+ gjdcnhtxfnmcz c =contact_
+ gj bvtyb _contact_ d
+ __contact_ gj gjdjle
+ jxtym htlrjq rybub. Vyt ye*yj dthyenm
+ rybue d herb ==qgiver_
+ d ntxtybt =queston_ lytq bkb hfymit.
+
+Message:  1011
+<ce> Ghtrhfcyj, %pcf, djn rybuf.
+<ce> ~thtub ct`z. Cnhf*f
+<ce> yfdjlybkf ekbws ___contact_
+<ce> d gjbcrf[ @njq dtobws.
+
+Message:  1012
+<ce> Cnjznm! Djh!
+
+Message:  1013
+<ce> Lj dfc ytj*blfyyj ljikj,
+<ce> xnj dtlmvfv @nf rybuf ye*yf
+<ce> bvtyyj ctqxfc.
+
+
+
+QBN:
+Item _mitem_ magic_item
+Item _book_ book2
+
+Person _qgiver_ group Questor
+Person _daedra_ face 1 factiontype Daedra remote
+Person _contact_ face 68 group Innkeeper male remote
+
+
+Clock _queston_ 00:00 0 flag 17 range 1 2
+
+Foe _guard_ is Knight
+
+--	Quest start-up:
+	hide npc _daedra_
+	start timer _queston_
+	log 1010 step 0
+-- hide NPC added to ensure this dummy character won't appear in the wild somewhere.
+-- this NPC is never used in the game world, only as a name drop.
+
+variable _queston_
+_S.01_ task:
+	when _queston_ and _S.05_
+	say 1013
+	make _book_ permanent
+	end quest
+
+_S.02_ task:
+	when _queston_ and not _S.05_
+	end quest
+
+_qgclicked_ task:
+	toting _book_ and _qgiver_ clicked
+	give pc _mitem_
+	end quest
+
+_S.04_ task:
+	clicked npc _contact_
+	get item _book_
+	say 1011
+	have _book_ set _S.05_
+
+_S.05_ task:
+	create foe _guard_ every 20 minutes 20 times with 50% success msg 1012
+	legal repute -30

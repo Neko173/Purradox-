@@ -1,0 +1,138 @@
+-- Quest: C:\QUESTS\WORKING\Q0C00Y06.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: witch
+-- Repute: 0
+-- QuestId: 6
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 21
+Quest: Q0C00Y06
+DisplayName: Ghj`ktvs c dfvgbhfvb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> ~j<cm yfv uhjpzn ytghbznyjcnb. Lhtdybq
+<ce> dfvgbh, ytyfdblzobq dtlmv, gjctkbkcz
+<ce> d pf`hjityyjv pfvrt yf yfitq
+<ce> nthhbnjhbb. Hfpevttncz @ne cbnefwb<
+<ce> ytj`[jlbvj hfphtibnm...c ndjtq gjvjom<,
+<ce> rfr ns levftim, %pcf?
+
+RefuseQuest:  [1001]
+<ce> Vjue gjyznm ndjq cnhf[. Njkmrj jxtym
+<ce> cgjcj`ysq bkb gjkysq lehfr cgjcj`ty
+<ce> eybxnj*bnm lhtdytt pkj d kbwt
+<ce> dfvgbhf.
+
+AcceptQuest:  [1002]
+<ce> ~thtimcz? Lhtdybq dfvgbh dtcmvf
+<ce> jgfcysq ghjnbdybr. Yt ddzpsdfqcz
+<ce> d c[dfnre `tp ghtldfhbntkmyjq
+<ce> gjlujnjdrb. ^nj cjplfybt yfpsdftncz
+<ce> =vamprival_ b tuj yjdjt
+<ce> e`t*bot yfpsdftncz ___mondung_.
+<ce> Ns yfqltim @nj d ____mondung_.
+<ce> Z `ele *lfnm ndjtuj djpdhfotybz
+<ce> d ntxtybt =1stparton_ yjxtq. Yt
+<ce> lfq e`bnm ct`z, %pcf.
+
+QuestFail:  [1003]
+<ce> Xnj ns *ltim? Yflttimcz, xnj
+<ce> =vamprival_ gjrjyxbn
+<ce> cfvje`bqcndjv? Ytdthjznyj.
+<ce> Ns ljk*ty `snm ghjdjlybrjv
+<ce> tuj cvthnb.
+
+QuestComplete:  [1004]
+<ce> Djgkb evbhf<otuj pkf `skj cksiyj lf*t
+<ce> jnc<lf, %pcf.
+<ce> Edf*tybt dtlmv nt`t ufhfynbhjdfyj.
+
+RumorsDuringQuest:  [1005]
+Cnhfyyfz djpyz ndjhbncz d jrhtcnyjcnz[ ___mondung_, yj @nj vtcnj `skj pf`hjityj ujlfvb.
+   <--->
+^njn =vamprival_ fhbcnjrhfn. Ujdjhzn, %g pfxbcnbk ___mondung_ d %reg.
+
+RumorsPostfailure:  [1006]
+Z cksifk, =vamprival_ jrjyxfntkmyj eitk bp ___mondung_. ^nj yt vtcnj lkz fhbcnjrhfnf.
+   <--->
+Ctqxfc @njn =vamprival_ eitk bp ___mondung_, vtcnf, `sdituj ytrjulf ldjhwjv.
+
+RumorsPostsuccess:  [1007]
+Jrfpfkjcm, xnj @njn dtkbrjktgysq =vamprival_ dfvgbh! Vyt ytxtuj crfpfnm!
+   <--->
+~kfujlfhtybt %god, xnj @njn pfvtxfntkmysq yftvybr %ra e`bk dfvgbhf bp ___mondung_.
+
+QuestorPostsuccess:  [1008]
+Vs yt pf`skb ghj =vamprival_, %pcf. Xnj z vjue cltkfnm lkz nt`z?
+
+QuestorPostfailure:  [1009]
+<ce> =vamprival_ dct tot gentitcndetn
+<ce> gj yjxfv, gbnfzcm yfibvb ctcnhfvb.
+<ce> Nt`t cktljdfkj chfpe crfpfnm, xnj ns
+<ce> yt cvj*tim gj`bnm tuj. E[jlb ghjxm.
+<ce> Yfv yt j xtv `jkmit ujdjhbnm.
+
+Message:  1011
+_witch_ - [jhjitymrfz b evyfz =witch_ d __witch_.
+   <--->
+_witch_ - @nj [jhjitymrfz =witch_, rjnjhe< ns yfqltim d __witch_, %di jnc<lf.
+
+Message:  1012
+_witch_ @nj dtlmvf bp ___witch_.
+   <--->
+_witch_ @nj dtlmvf bp ___witch_, =witch_.
+
+Message:  1015
+%qdt:
+ _witch_ bp
+ ___witch_ gjckfkf vtyz e`bnm dfvgbhf,
+ nthhjhbpbhe<otuj dtlmv ghjdbywbb %reg.
+ Vyj< `skj j`tofyj, xnj @nj yt*bdjt cjplfybt
+ `eltn vthndj d ntxtybt =1stparton_ lytq
+ b z dthyecm d ___witch_.
+
+Message:  1020
+<ce> Dfvb eybxnj*ty =vamprival_.
+
+
+
+QBN:
+Item _reward_ magic_item
+
+Person _witch_ face 44 group Questor anyInfo 1011 rumors 1012
+
+Place _mondung_ remote dungeon8
+--removed extraneous underscore from __mondung_.
+
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
+
+Foe _vamprival_ is Ancient_vampire
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1015 step 0
+	place foe _vamprival_ at _mondung_
+
+falseAide0 task:
+	when _vampclicked_ and _S.01_
+	give pc _reward_
+	end quest
+
+_S.01_ task:
+	killed 1 _vamprival_
+	say 1020
+
+_vampclicked_ task:
+	clicked npc _witch_
+
+_clearclick_ task:
+	when _vampclicked_ and not _S.01_
+	say 1003
+	clear _vampclicked_ _clearclick_
+	--replaced "until _vampclicked_ performed" action with _clearclick_. this is more flexible, allowing 1003 message.
+
+_1stparton_ task:
+	end quest

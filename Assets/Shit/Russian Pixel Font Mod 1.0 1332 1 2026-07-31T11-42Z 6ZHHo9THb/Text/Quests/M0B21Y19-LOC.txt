@@ -1,0 +1,301 @@
+-- Quest: C:\QUESTS\WORKING\M0B21Y19.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 21
+-- QuestId: 19
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 72
+Quest: M0B21Y19
+DisplayName: Cnfylfhnyfz pfobnf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Rfr gj*bdftim, %pcf?  Tckb nt`t ye*yf
+<ce> hf`jnf, nj z vjue ghtlkj*bnm nt`t rjt-xnj.
+<ce> {jxtim ytvyjuj gjhf`jnfnm j[hfyybrjv?
+
+RefuseQuest:  [1001]
+<ce> F, gjyzk. Ns botim hf`jne, `jktt
+<ce> cjjndtncnde<oe< ndjtve gjkj*tyb<, dthyj?
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj. Rkbtynf pjden _victim_,
+<ce> bob tuj d _victimhouse_,
+<ce> @nj ddth[ gj ekbwt jnc<lf. %g [jxtn,
+<ce> xnj`s ns chfpe ghbcnegbk r dsgjkytyb<
+<ce> cdjb[ j`zpfyyjcntq. Jxtym ythdysq nbg,
+<ce> ns yfdthyjt nfrb[ pyftim. %g lfcn
+<ce> nt`t ytj`[jlbvst bycnherwbb gj
+<ce> ghb`snbb.
+
+QuestFail:  [1003]
+<ce> ^nj dct, xnj z pyf<. Lfdfq ldbufqcz.
+
+QuestComplete:  [1004]
+<ce> Yt pyf< rfr b `kfujlfhbnm dfc pf
+<ce> vjt cgfctybt b jnvotybt pf cvthnm
+<ce> vjtuj jnwf. Ghbvbnt gj*fkeqcnf d lfh
+<ce> djn @nj: _reward_. ^nj ghbyflkt*fkj
+<ce> vjtve jnwe b, levf<, dfv @nj ghbujlbncz.
+
+QuestorPostsuccess:  [1008]
+<ce> Cjdctv ltkf gkj[b e _victim_, lf?
+<ce> Gj[j*t jy d tot `jkmitq jgfcyjcnb,
+<ce> xtv ghtlgjkfuftn.
+
+QuestorPostfailure:  [1009]
+<ce> Pyf<, @nj yt dfif jib`rf, yj @nj ltkj
+<ce> c _victim_ dct tot pfcnfdkztn vtyz
+<ce> lhj*fnm jn cnhf[f. Vyt ye*yj `skj
+<ce> cfvjve pfyznmcz @nbv `tlysv gfhytv.
+
+Message:  1015
+<ce> _darkb_ *bdtn d ___darkb_, gjkfuf<.  %g dctulf djlbncz
+<ce> cj cnhfyysvb nbgfvb, nfr xnj yt cjdtne< bcrfnm tuj
+<ce> tckb yt [jnbnt ytghbznyjcntq.
+   <--->
+<ce> _darkb_ ckjyztncz d jrhtcnyjcnz[ ___darkb_, gjxnb dctulf.
+
+Message:  1016
+<ce> _darkb_ - jlby bp kblthjd vtcnyjuj jnltktybz Ntvyjuj ~hfncndf.
+<ce> Tuj inf`-rdfhnbhf d __darkb_ d ___darkb_.
+
+Message:  1020
+%qdt:
+ Ubkmlbz ~jqwjd bp ___questgiver_
+ gjcskftn vtyz d _victimhouse_
+ dcnhtnbnmcz c rkbtynjv, _victim_,
+ rjnjhsq ye*lftncz d pfobnt.
+ _victim_ lfcn vyt lfkmytqibt
+ bycnherwbb gj ghb`snbb.
+
+Message:  1021
+%qdt:
+ Ckbirjv gjplyj. Vyt elfkjcm pfcnbxm
+ dhfcgkj[ fccfccbyjd d _victimhouse_,
+ yj _victim_ e*t `sk vthnd.
+
+Message:  1022
+%qdt:
+ Vyt ghbikf pfgbcrf jn _daughter_,
+ d rjnjhjq yfgbcfyj, xnj _victim_
+ tt jntw. Jyf gjghjcbkf vtyz gjctnbnm
+ tt d _daughterhouse_ d __daughterhouse_,
+ ghb gthdjq djpvj*yjcnb.
+
+Message:  1023
+%qdt:
+ Gj genb r _daughter_ vtyz gjl*blfkf
+ pfcflf. C nheljv elfkjcm jn`bnmcz.
+ Ctqxfc z c _daughter_ yf genb d
+ _safehouse_ d __safehouse_.
+
+Message:  1024
+%qdt:
+ Jxthtlyfz *thndf Ntvyjuj ~hfncndf. _victim_.
+ Gjrf ytn ybrfrb[ lfkmytqib[ pfwtgjr.
+
+Message:  1030
+  Djn xnj ghjbc[jlbn c
+k<lmvb, yt *tkf<obvb
+ghbckeibdfnmcz r vjbv
+ghtleght*ltybzv.
+<ce>
+<ce> _darkb_
+<ce> ----
+
+Message:  1031
+Edf*ftvsq uthjq %pcn:
+<ce>
+  Vtyz pjden _daughter_, f _victim_
+vjq jntw. Rjulf z ecksifkf j dfitv
+uthjbxtcrjv gjcnegrt - vtcnb pf cvthnm
+vjtuj jnwf, nj pf[jntkf gj`kfujlfhbnm
+dfc kbxyj. ~ele ghbpyfntkmyf, tckb ds
+gjdblftnt vtyz ghb ckexft.
+<ce>
+  _daughter_
+  _daughterhouse_,
+  __daughterhouse_
+<ce> ----
+
+Message:  1035
+<ce> Jndfkb, lhe*bot, bkb vs cltkftv c nj`jq
+<ce> nj *t cfvjt, xnj cltkfkb c _victim_.
+
+Message:  1036
+<ce> Nt`t cktljdfkj `s nhfnbnm dhtvtyb
+<ce> yf jnnfxbdfybt cdjtuj evf cnjkmrj
+<ce> *t, crjkmrj ns eltkztim pfnjxrt
+<ce> cdjtuj rkbyrf, %pcn.
+<ce> Ytn ybxtuj ghjot, xtv ghtleuflfnm
+<ce> pfcfle lkz nt`z, djcgbnfyybrf
+<ce> Ubkmlbb ~jqwjd.
+
+Message:  1040
+<ce> Ds cks[fkb ghj _victim_?  E`bn chtlb `tkjuj lyz
+<ce> d cdjtv cj`cndtyyjv ljvt.
+   <--->
+<ce> Dct pyf<n, xnj @nj Ntvyjt ~hfncndj ghbxfcnyj r cvthnb
+<ce> _victim_, yj ybrnj yt [jxtn xnj-nj c @nbv ltkfnm.
+
+Message:  1041
+<ce> Ntvyjt ~hfncndj dyt ct`z jn zhjcnb, xnj rfrjq-nj
+<ce> dscrjxrf %ra gjcvtk e`bnm b[ kexib[ `jqwjd.
+   <--->
+<ce> Ntvyjt ~hfncndj tlbyjukfcyj htibkj dscktlbnm dnjhuitujcz
+<ce> d b[ inf`-rdfhnbhe d ___darkb_.
+<ce> Rfr *t z hfl, xnj @nj `sk yt z.
+
+Message:  1050
+<ce> Lf...?  Gjcnjqnt, ds njn cfvsq
+<ce> `tpvjpuksq cbkfx, rjnjhjuj
+<ce> Ubkmlbz ~jqwjd gjckfkf j[hfyznm
+<ce> `tlyjuj cnfhbrf _victim_?
+<ce> Rnj gecnbk @njuj %ra c<lf?!
+
+Message:  1051
+<ce> %pcn, jukzybcm!
+<ce> ^nj kjdeirf!
+
+Message:  1052
+<ce> Cgfcb`j, xnj cgfckb vtyz jn @nb[
+<ce> e`bqw. Tckb ds ghjdjlbnt vtyz
+<ce> lj _safehouse_ d
+<ce> __safehouse_, z cvjue `tpjgfcyj
+<ce> gjrbyenm %reg cfvjcnjzntkmyj.
+
+Message:  1070
+<ce> Dfc jcnfyjdbk gjcskmysq d pfgsktyyjq
+<ce> jlt*lt: "%pcn? %god,
+<ce> z dfc yfitk!
+<ce> E vtyz gbcmvj lkz dfc".
+
+Message:  1071
+<ce> Cgfcb`j pf gjvjom,
+<ce> lfkmit z cfvf eghfdk<cm.
+
+
+
+QBN:
+Item _note_ letter used 1030
+Item _reward_ magic_item
+Item _I.02_ dead_body
+Item _letter_ letter used 1031
+
+Person _victim_ face 5 faction People_of_Sentinel male remote
+Person _questgiver_ group Questor
+Person _daughter_ face 3 faction People_of_Sentinel female remote
+Person _darkb_ faction The_Dark_Brotherhood remote anyInfo 1015 rumors 1016
+
+Place _victimhouse_ local house4
+Place _daughterhouse_ remote house4
+Place _safehouse_ remote house3
+Place aide remote dungeon
+
+Clock _qtime_ 00:00 0 flag 1 range 2 5
+Clock _S.03_ 10.00:00 20.20:00
+Clock _S.04_ 00:00 0 flag 1 range 0 5
+
+Foe _enemy_ is Assassin
+Foe _F.01_ is Nightblade
+Foe _F.02_ is 4 Assassin
+
+--	Quest start-up:
+	dialog link for location _daughterhouse_ person _daughter_
+	dialog link for person _darkb_
+	start timer _qtime_
+	log 1020 step 0
+	place npc _victim_ at _victimhouse_
+	hide npc _victim_
+	pc at _victimhouse_ set _S.05_
+	_note_ used do _readnote_
+	have _I.02_ set _deadbody_
+
+variable _qtime_
+_readnote_ task:
+	add dialog for person _darkb_
+
+_S.02_ task:
+	injured _enemy_
+	say 1035
+
+_S.03_ task:
+	_letter_ used do _readletter_
+	start timer _S.04_
+	give pc _letter_ notify 1070
+	place npc _daughter_ at _daughterhouse_
+
+_S.04_ task:
+	end quest
+
+_S.05_ task:
+	start task _insidespawn_
+--more repairs to prevent duplicate effects. now only one time per quest
+
+_insidespawn_ task:
+	create foe _enemy_ every 0 minutes 4 times with 100% success
+	place item _I.02_ at _victimhouse_
+	place item _note_ at _victimhouse_
+	--sped up spawn rate. very slow for an ambush
+	log 1021 step 1
+	rumor mill 1040
+	hide npc _victim_
+--user reports repeated spawns upon entering house, should not be so
+
+_deadbody_ task:
+	take _I.02_ from pc
+--added deadbody task. otherwise body would clog inventory
+
+_S.06_ task:
+	clicked npc _darkb_
+	create foe _enemy_ every 3 minutes 5 times with 100% success
+	create foe _F.01_ every 0 minutes 1 times with 100% success
+	--reduced spawn time to instant
+	hide npc _darkb_
+	say 1050
+
+_S.07_ task:
+	killed 1 _F.01_
+	start timer _S.03_
+	rumor mill 1041
+	change repute with _daughter_ by +10
+	change repute with _darkb_ by -15
+
+_S.08_ task:
+	clicked npc _daughter_
+	pc at _daughterhouse_ set _S.12_
+	create foe _F.02_ every 0 minutes 1 times with 100% success
+	--reduced spawn time to instant
+	say 1051
+	add _daughter_ face
+	hide npc _daughter_
+	--using hide NPC rather than transfer
+
+_readletter_ task:
+	log 1022 step 2
+
+_S.10_ task:
+	when _qtime_ and not _S.07_
+	end quest
+
+_S.11_ task:
+	injured _F.02_
+	say 1036
+
+variable _S.12_
+_S.13_ task:
+	pc at _safehouse_ set _S.14_
+	when _S.08_ and not _S.12_
+	log 1023 step 3
+	say 1052
+
+_S.14_ task:
+	give pc _reward_
+	end quest
+
+_S.15_ task:
+	when _S.04_ and not _S.14_
+	say 1071

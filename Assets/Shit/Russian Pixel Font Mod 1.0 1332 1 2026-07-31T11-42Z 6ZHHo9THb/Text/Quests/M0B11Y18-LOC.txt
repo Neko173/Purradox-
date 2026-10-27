@@ -1,0 +1,540 @@
+-- Quest: C:\QUESTS\WORKING\M0B11Y18.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 11
+-- QuestId: 18
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 74
+Quest: M0B11Y18
+DisplayName: "Kjhl R'fdfhf" Xfcnm I
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcf, e vtyz lkz nt`z df*yjt pflfybt,
+<ce> nht`e<ott cj`k<ltybz dtkbxfqitq jcnjhj*yjcnb
+<ce> b nfrnbxyjcnb. Ybxtuj yt vjue crfpfnm `jkmit,
+<ce> gjrf yt ecksie endthlbntkmysq jndtn.
+<ce> Xnj crf*tim?
+
+RefuseQuest:  [1001]
+<ce> %oth, f z nfr yf nt`z hfccxbnsdfk.
+
+AcceptQuest:  [1002]
+<ce> Jlby vjq cnfhsq lheu d cvthntkmyjq jgfcyjcnb
+<ce> b ye*lftncz d cnhf*ybrt, [jhjij dkflt<obv
+<ce> jhe*btv b vjueobv [hfybnm ctrhtns. Bvtyyj
+<ce> nfr z j nt`t b levf< rcnfnb. _target_
+<ce> `eltn *lfnm nt`z d 22:00 d _targethouse_.
+<ce> %g hfccrf*tn jcnfkmyjt, rjulf ghbltim.
+<ce> C eljdjkmcndbtv gjitk `s c nj`jq, yj gjcrjkmre
+<ce> z bpdtcnty, rfr tuj lheu, nj vjue ghbdtcnb pf
+<ce> cj`jq tuj dhfujd. ~thtub ct`z.
+
+QuestFail:  [1003]
+<ce> Yfv yt j xtv `jkmit ujdjhbnm, %pcn.
+
+QuestComplete:  [1004]
+<ce> Ds ghtljcnthtukb vtyz jn dtkbxfqitq d vbht
+<ce> jgfcyjcnb. Ghbvbnt gj*fkeqcnf d pyfr
+<ce> vjtq `kfujlfhyjcnb _reward_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+<ce> _enemy_ yfybvftn yftvybrjd d ___stronghold_.
+<ce> {jntkjcm `s pyfnm, pfxtv?
+
+RumorsPostfailure:  [1006]
+<ce> Cks[fkb j ghjbpjitlitq cnsxrt d __targethouse_?
+<ce> ~sk e`bn futyn rjhjktds Ctynbytkf.
+
+RumorsPostsuccess:  [1007]
+<ce> Gj[j*t jlby bp ghb`kb*tyys[ rj ldjhe ldjhzy Ctynbytkf
+<ce> jhufybpjdfk pfujdjh ghjnbd nhjyf, yj rjhjktdf hfcrhskf
+<ce> @nj b eybxnj*bkf tuj rhtgjcnm d ___stronghold_.
+   <--->
+<ce> Djqcrf ghfdbntkz _ruler_ fnfrjdfkb ___stronghold_, yj lj
+<ce> vtyz ljikb cke[b, xnj bcnbyyfz wtkm dct[ @nb[ fnfr,
+<ce> _traitor_, crhskfcm.
+
+QuestorPostsuccess:  [1008]
+<ce> Ujdjhzn ds lj`hfkbcm lj _ruler_, [jnz _target_ regbk athve.
+
+QuestorPostfailure:  [1009]
+<ce> Xnj ghjbpjikj d ghjwtcct cjghjdj*ltybz _target_ r _ruler_?
+
+Message:  1020
+%qdt:
+ _questgiver_ gjghjcbk vtyz
+ dcnhtnbnmcz c _target_ d
+ _targethouse_ d 22:00.
+ ~jkmit vyt ybxtuj ytbpdtcnyj, rhjvt
+ njuj, xnj _target_ yf[jlbncz
+ d `jkmijq jgfcyjcnb.
+
+Message:  1021
+%qdt:
+ Dcnhtxf c _target_ cjcnzkfcm,
+ vs jnghfdkztvcz d Ctynbytk.
+
+Message:  1022
+%qdt:
+ Gjgfkb d pfcfle yf ds[jlt bp _targethouse_,
+ _target_ e`bn.  Gthtl cvthnm<
+ jy dhexbk vyt gbcmvj, hfpj`kfxf<ott
+ _traitor_, ghb`kb*tyyjt kbwj
+ ghb ldjht _ruler_ d Ctynbytkt,
+ rfr ghtlfntkz. _target_ gj*tkfk,
+ xnj`s gbcmvj `skj ljcnfdktyj r
+ _ruler_.
+
+Message:  1023
+%qdt:
+ _ruler_ gjkexbkf hfpj`kfxf<ott
+ gbcmvj, yj _traitor_ e*t
+ c`t*fk d cdj< rhtgjcnm
+ d ___stronghold_.
+ Rjhjktdf gjghjcbkf vtyz ghjybryenm
+ nelf b pf[dfnbnm bkb e`bnm _traitor_.
+ Jyf lftn vyt =gettraitor_
+ lytq yf dsgjkytybt @njuj pflfybz
+ b djpdhfotybt d Ctynbytk.
+
+Message:  1030
+Ljhjujq lheu %pcn,
+<ce>
+  Gkfys bpvtybkbcm. _questgiver_
+[jxtn `scnhj gjrbyenm ujhjlb gjghjcbk
+vtyz dcnhtnbnmcz c dfvb d _tavern_.
+Ghb[jlbnt d jlbyjxre. Gjkj*tybt
+jxtym cthmtpyjt.
+<ce>
+_enemy_
+<ce> ----
+
+Message:  1031
+Vjq ljhjujq lheu _enemy_,
+<ce>
+  Hfl cksifnm j dfib[ ecgt[f[ yf gjghbot
+nhtybhjdrb vjb[ djqcr d ___stronghold_.
+Ljgjkybntkmyst ltymub z ghbik< rfr njkmrj
+cvjue, nfr rfr gjybvf<, xnj dfv gjyflj`bncz
+yfyznm tot cjklfn, tckb vs [jnbv, xnj`s
+_ruler_ `skf cdthuyenf. Ds f`cjk<nyj
+ghfdbkmyj gjkfuftnt, xnj jnrhsnjt ghjnbdjcnjzybt
+ghbdtltn yfc r gjhf*tyb<, z gjkfuf<, xnj
+lkz ghjdtltybz gthtdjhjnf dj ldjhwt yfv
+gjyflj`bncz tot vyjuj k<ltq.
+<ce>
+  Vs cvj*tv j`celbnm @nb dtob, rjulf z xthtp
+ytcrjkmrj ytltkm ghb`ele d ___stronghold_.
+Tckb ds pf[jnbnt yfqnb vtyz ctqxfc, nj z
+jcnfyjdbkcz dj ldjhwt d __palace_.
+Tckb dct ghjqltn ecgtiyj, nj djpvj*yj e yfc
+gjzdbncz yjdsq cj<pybr. Rfr njkmrj cbnefwbz
+ytvyjuj ghjzcybncz, vyt ye*yj `eltn dthyenmcz
+d Ctynbytk, xnj`s pfcdbltntkmcndjdfnm cdjt
+gjxntybt (`snm vj*tn lf*t "gjcktlytt"!)
+yfitq lhf*fqitq rjhjktdt. Tt igbjys d gjcktlytt
+dhtvz cktljdfkb pf vyjq gj gznfv, nfr xnj
+gjkfuf< vyt elfcncz hfpdtznm tt gjljphtybz
+ltvjycnhfwbtq cdjtq gjlj`jcnhfcnyjcnb, rjnjhfz
+nfr tq yhfdbncz.
+<ce>
+Lth*bnt vtyz d rehct dfib[ ecgt[jd.
+<ce>
+Bcrhtyyt dfi,
+<ce>
+_traitor_,
+__palace_
+<ce> ----
+
+Message:  1032
+<ce> Vjkjljq xtkjdtr ytjghtltktyyjuj gjkf
+<ce> dhexbk dfv rjydthn b e`t*fk ght*lt
+<ce> xtv ds ecgtkb jnhtfubhjdfnm.
+
+Message:  1040
+<ce> %pcn, yt nfr kb?  Hfl bvtnm
+<ce> c dfvb ltkj. _questgiver_
+<ce> yt hfccrfpsdfk dfv, xnj pf ltkj ghtlcnjbn?
+<ce> levf<, xnj ytn. Ljcnfnjxyj crfpfnm, xnj
+<ce> pf @nbv cnjzn ytrhjvfyns. Jgfcysq yfhjl,
+<ce> yflj pfvtnbnm Yj e vtyz tcnm _amulet_,
+<ce> c rjnjhsv ds `eltnt ghtleght*ltys,
+<ce> tckb gj`kbpjcnb jrf*encz igbjys ytrhjvfynjd.
+<ce> Gjktpyfz dtobwf. Jcnthtufqntcm dctuj,
+<ce> lheu vjq.
+
+Message:  1041
+<ce> Ds %pcn?  _questgiver_
+<ce> [jhjij dfc jgbcfk.  Z _target_.
+<ce> Vs ljk*ys jnghfdbnmcz d Ctynbytk ctqxfc
+<ce> *t. ~jkmit ybxtuj yt vjue crfpfnm, rhjvt
+<ce> njuj, xnj dhfub rjhjktds _ruler_
+<ce> vjuen gjgsnfnmcz jcnfyjdbnm yfc.
+
+Message:  1042
+<ce> _target_ j[ftn b ds gjdjhfxbdftntcm,
+<ce> xnj`s edbltnm jgthtyye< cnhtke, njhxfoe< bp
+<ce> tuj uhelb. Gflfz yf rjktyb jy celjhj*yj
+<ce> dgb[bdftn dfv d herb gbcmvj b itgxtn:
+<ce>
+<ce> "_traitor_ ghtlfntkm Ctynbytkf.
+<ce> _ruler_ ljk*yf edbltnm @nj".
+<ce>
+<ce> _target_ evbhftn.
+
+Message:  1043
+<ce> Dfc pfnjgbkj zhrjt cbzybt. Jukzltdibcm,
+<ce> ds edbltkb, xnj cbzybt bc[jlbn jn
+<ce> fvektnf, rjnjhsq dfv lfk _enemy_.
+<ce> Ptvkz hfpdthpkfcm gjl dfibvb yjufvb b
+<ce> nmvf gjukjnbkf dfc.
+
+Message:  1050
+<ce> Jnlflbnt hfpj`kfxbntkmyjt gbcmvj
+<ce> rjhjktdt _ruler_?
+
+Message:  1051
+<ce> "Lf?  Xnj tot pf gbcmvj?  %god,
+<ce> _traitor_ cnhjbn ghjnbd vtyz pfujdjh?!
+<ce> Cnhf*f! J`scrfnm pfvjr, yfqnb b ghbdtcnb
+<ce> rj vyt @njuj ghtlfntkz!"
+<ce>
+<ce> Ytcrjkmrj cnhf*ybrjd cjhdfkbcm c vtcnf b
+<ce> bcxtpkb pf ldthm<. Xthtp ytcrjkmrj vbyen
+<ce> jlby bp yb[ dthyekcz. Jnlfd xtcnm, jy
+<ce> ljkj*bk, xnj _traitor_ relf-nj bcxtp.
+<ce>
+<ce> _ruler_ gjdthyekfcm r dfv:
+<ce>
+<ce> "Ljk*yj `snm tuj ghtleghtlbkb, xnj tuj j`vfy
+<ce> hfcrhsn. Jxtym dthjznyj, xnj jy c`t*fk d
+<ce> ___stronghold_, @nj vtcnj egjvbyfkjcm d gbcmvt.
+<ce> D lfyys[ j`cnjzntkmcndf[ vyt [jntkjcm `s bp`t*fnm
+<ce> ghzvjuj dvtifntkmcndf. Ds *t pyftnt @nj vtcnj, lf?
+<ce> Yt vjukb `s ds jrfpfnm vyt eckeue b ghbdtcnb
+<ce> @njuj ytujlzz r ghfdjcelb<?"
+
+Message:  1052
+<ce> %pcn, ds ljrfpfkb cdj< ghtlfyyjcnm nhjye
+<ce> Ctynbytkf.  Z gjlj*le =gettraitor_ lytq,
+<ce> ght*lt xtv fnfrjdfnm rhtgjcnm _traitor_.
+<ce> Yfcnjzobv erfpjv j`]zdkz<, xnj _traitor_
+<ce> dyt pfrjyf -- pf[dfnbnt tuj tckb cvj*tnt,
+<ce> yj e`tqnt, tckb yt dsqltn gj lheujve.
+
+Message:  1053
+<ce> Jxtym [jhjij. Z gjujdjh< c ybv kbxyj.
+
+Message:  1054
+<ce> _ruler_ jnrhsdftn rjydthn b gjuhe*ftncz
+<ce> d xntybt. Tt kbwj ntvyttn jn uytdf.
+<ce>
+<ce> "Ytn ybrfrb[ cjvytybq.
+<ce> ^nj tuj kbxyfz gtxfnm
+<ce> b gjlgbcm. Cnhf*f!
+<ce> Blbnt d ukfdye< pfke,
+<ce> c[dfnbnt _traitor_
+<ce> b `hjcmnt tuj d ntvybwe".
+<ce>
+<ce> Jyf gjdjhfxbdftncz r dfv.
+
+Message:  1055
+<ce> Lf `eltn nfr.  _traitor_ ds`hfk cdjq genm
+<ce> b pfgkfnbn pf cdjb ghtuhtitybz. ~kfujlfh<
+<ce> dfc. Pf dfib pfckeub gthtl Ctynbytkjv
+<ce> z dhexf< dfv _queenreward_.
+<ce> Yf @ne dtobwe yfkj*tyj cbkmyjt pfrkznbt.
+
+Message:  1056
+<ce> %oth!  _traitor_ crjkmprbq nbg,
+<ce> rfr jrfpsdfkjcm. Xnj *, z dsckt*e tuj
+<ce> hfyj bkb gjplyj. Ghfdjcelbt Ctynbytkf
+<ce> yfcnbuytn tuj ult `s jy yb `sk.
+<ce> Tuj cjhfnybrb `skb fhtcnjdfys bkb bpuyfys
+<ce> bp rjhjktdcndf, nfr xnj _traitor_
+<ce> yt ghtlcnfdkztn `jkmit euhjps.
+<ce> %pcn, ghbvbnt gj*fkeqcnf d yfuhfle
+<ce> _queenreward_ pf dfib pfckeub gthtl
+<ce> Ctynbytkjv. ^nf dtobwf pfxfhjdfyf yfibv
+<ce> vfujv.
+
+Message:  1060
+<ce> Ds jnlflbnt rjvghjvtnbhe<ott gbcmvj d herb _traitor_?
+
+Message:  1061
+<ce> Gj[j*t e vtyz `skj ytdthyjt ce*ltybt j dfc,
+<ce> %pcn. Gj[j*t, xnj vs vj*tv `snm lhepmzvb.
+<ce> Djn, djpmvbnt _traitorreward_ pf `tcgjrjqcndf.
+
+Message:  1062
+<ce> _traitor_ ghbcnfkmyj gjcvjnhtk yf dfc.
+<ce> Rhjdm jn[ksyekf jn tuj kbwf, rjulf jy gjyzk,
+<ce> xnj gthtl ybv cnjbn b, ght*lt xtv rnj-kb`j
+<ce> cvju tuj jcnfyjdbnm, vtnyekcz r jnrhsnjq
+<ce> ldthb.
+
+Message:  1070
+<ce> Gtcbq dshjljr %ra, ns pfgkfnbim pf
+<ce> dvtifntkmcndj d ltkf _traitor_.
+
+Message:  1071
+<ce> Clfnmcz b `snm ghjnfotyysv xthtp
+<ce> ekbws Ctynbytkf, xnj`s exfcndjdfnm
+<ce> d ltitdjv cgtrnfrkt, rjnjhsq `eltn
+<ce> ghtlcnfdkznm bp ct`z rfpym? Ybrjulf!
+
+Message:  1072
+<ce> _traitor_ vthnd.
+
+Message:  1073
+<ce> _traitor_ `hjcbk cdjt jhe*bt.
+<ce> Levfz, xnj jy clftncz, ds cltkfkb
+<ce> gfepe, yj nen jy rhenyek rjkmwj yf
+<ce> cdjtv gfkmwt. Rjulf _traitor_
+<ce> hfcndjhbkcz dj dcgsirt zhrjuj cdtnf,
+<ce> ds ecksifkb tuj ujkjc:
+<ce>
+<ce> "Crf*b @njq cert, xnj jyf ybrjulf
+<ce> yt gjqvftn vtyz!"
+
+
+
+QBN:
+Item _amulet_ amulet
+Item _reward_ gold
+Item _I.02_ letter used 1030
+Item _I.03_ letter used 1031
+Item _I.04_ dead_body
+Item _queenreward_ magic_item
+Item _traitorreward_ diamond
+
+Person _ruler_ named Queen_Akorithi atHome
+Person _questgiver_ group Questor
+Person _target_ face 1 factiontype Knightly_Guard remote
+Person _enemy_ face 1 group Resident2 remote
+Person _traitor_ face 1 named Lord_K'avar
+
+Place _L.00_ remote dungeon
+Place _stronghold_ remote dungeon2
+Place _tavern_ local tavern
+Place _targethouse_ local house2
+Place _palace_ remote palace
+Place _aide_ remote dungeon
+
+Clock _S.00_ 00:05 0 flag 1 range 0 1
+Clock _patsy_ 30.00:00 0 flag 1 range 0 1
+Clock _S.02_ 3.11:20 13.21:20
+Clock _S.03_ 00:35 0 flag 1 range 0 1
+Clock _S.05_ 02:00
+--removed flags from S.05, could vary too much
+Clock _gettraitor_ 30.00:00 0 flag 1 range 0 1
+Clock _S.35_ 00:01
+--removed flags from S.35, needed to be precise
+
+Foe _F.00_ is 3 Archer
+Foe _mages_ is 2 Mage
+Foe _F.03_ is 3 Archer
+Foe _mtraitor_ is Ranger
+
+--	Quest start-up:
+	dialog link for person _enemy_
+	start timer _S.03_
+	start timer _S.02_
+	start timer _patsy_
+	log 1020 step 0
+	place npc _enemy_ at _tavern_
+	place npc _traitor_ at _palace_
+	have _I.04_ set _deadbody_
+
+_S.00_ task:
+	have _amulet_ set _S.11_
+
+variable _patsy_
+_S.02_ task:
+	place npc _traitor_ at _stronghold_
+
+_S.03_ task:
+	hide npc _questgiver_
+	give pc _I.02_ notify 1032
+
+_S.04_ task:
+	daily from 22:00 to 23:59
+	start timer _S.05_
+	hide npc _enemy_
+	place npc _target_ at _targethouse_
+
+_S.05_ task:
+	place item _I.04_ at _targethouse_
+	hide npc _target_
+
+_deadbody_ task:
+	take _I.04_ from pc
+--added deadbody task. otherwise body would clog inventory
+
+_S.06_ task:
+	clicked npc _target_
+	pc at _targethouse_ set _S.08_
+	stop timer _S.05_
+	log 1021 step 1
+	hide npc _target_
+	say 1041
+	add _target_ face
+
+_S.07_ task:
+	toting _I.02_ and _enemy_ clicked
+	get item _amulet_
+	say 1040
+
+variable _S.08_
+_S.09_ task:
+	when _S.06_ and not _S.08_
+	_I.03_ used do _S.27_
+	say 1042
+	create foe _F.00_ every 1 minutes 1 times with 100% success
+	create foe _mages_ every 2 minutes 1 times with 100% success
+	start timer _S.00_
+	log 1022 step 2
+	get item _I.03_
+	drop _target_ face
+
+_S.10_ task:
+	pc at _L.00_ set _S.12_
+	when _S.11_ and _S.00_
+	reveal _L.00_
+	say 1043
+	teleport pc to _L.00_
+
+variable _S.11_
+_S.12_ task:
+	clear _conhouse_
+
+_conhouse_ task:
+	when _S.00_ and not _S.12_
+	create foe _F.03_ every 30 minutes 5 times with 10% success
+
+_S.14_ task:
+	injured _F.03_
+	say 1070
+
+_S.15_ task:
+	toting _I.03_ and _traitor_ clicked
+	prompt 1060 yes _S.17_ no _S.19_
+
+_S.16_ task:
+	toting _I.03_ and _ruler_ clicked
+	prompt 1050 yes _S.18_ no _S.20_
+	stop timer _patsy_
+
+_S.17_ task:
+	start quest 500 500
+	get item _traitorreward_
+	say 1061
+	make _traitorreward_ permanent
+	change repute with _traitor_ by +15
+	remove foe _F.03_
+--added remove foe action. K'avar's forces shouldn't try to kill you now
+
+_S.18_ task:
+	give pc _reward_
+	change repute with _ruler_ by +15
+
+_S.19_ task:
+	stop timer _S.02_
+	get item _I.03_
+	start task _S.02_
+	say 1062
+
+_S.20_ task:
+	get item _I.03_
+
+_S.21_ task:
+	when _S.18_ and not _S.02_
+	say 1054
+
+_S.22_ task:
+	when _S.18_ and _S.02_
+	prompt 1051 yes _S.23_ no _S.24_
+
+_S.23_ task:
+	pc at _stronghold_ set _S.26_
+	start timer _gettraitor_
+	reveal _stronghold_
+	log 1023 step 3
+	say 1052
+
+_S.24_ task:
+	say 1053
+
+variable _gettraitor_
+_S.26_ task:
+	hide npc _traitor_
+	place foe _mtraitor_ at _stronghold_
+
+_S.27_ task:
+	reveal _stronghold_
+
+_hittraitor_ task:
+	injured _mtraitor_
+	start timer _S.35_
+	stop timer _gettraitor_
+	say 1071
+
+_S.29_ task:
+	killed 1 _mtraitor_
+	say 1072
+
+_S.30_ task:
+	clicked npc _ruler_
+
+_success_ task:
+	when _S.29_ and _S.30_
+	get item _queenreward_
+	say 1055
+	make _queenreward_ permanent
+
+_S.32_ task:
+	when _patsy_ and not _S.23_
+
+_S.33_ task:
+	when _S.21_ or _success_
+	destroy _traitor_
+
+_S.34_ task:
+	when _S.21_ or _S.24_
+
+variable _S.35_
+_S.36_ task:
+	when _S.35_ and not _S.29_
+	say 1073
+	remove foe _mtraitor_
+--changed "place foe in false dungeon" to remove foe.
+
+_S.37_ task:
+	when _S.36_ and _S.30_
+	get item _queenreward_
+	say 1056
+	make _queenreward_ permanent
+	unset _S.30_
+
+_S.38_ task:
+	when _S.34_ or _S.37_
+	start quest 501 501
+
+_S.39_ task:
+	when _S.17_ or _gettraitor_ or _success_
+
+_S.40_ task:
+	when _S.32_ or _S.38_
+
+_S.41_ task:
+	when _S.39_ or _S.40_
+	restore _questgiver_
+	make _amulet_ permanent
+	end quest
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+	say 1003

@@ -1,0 +1,412 @@
+-- Quest: C:\QUESTS\WORKING\S0000002.Qbn.
+-- Main story quest.
+-- QuestId: 2
+Messages: 51
+Quest: S0000002
+DisplayName: Ifynf* ghbywf {tkctnf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vyt ye*ty gjcskmysq, %pcf, yj yt ghjcnjq,
+<ce> ckf`sq b kturjvscktyysq yftvybr. Vyt ye*yj ljcnfdbnm
+<ce> gbcmvj dtkbxfqitq df*yjcnb jlyjve dscjrjgjcnfdktyyjve
+<ce> kbwe, rjnjhjt [jhjij pfobotyj jn dnjh*tybz yt*tkfntkmys[
+<ce> kbw. Gj djpdhfotybb z yt njkmrj yfuhf*e dfc djn @njq
+<ce> `tpltkeirjq: _magicitem_, yj nfr *t pfvjkdk< pf dfc
+<ce> ckjdtxrj gthtl rjhjktv b rjhjktdjq D@qhtcnf. Rhjvt
+<ce> njuj z lfv dfv rjt-rfre< byajhvfwb< rfcfntkmyj ltk,
+<ce> ndjhzob[cz d Lfuuthajkkt. Cjvytdf<cm, xnj ds yfqltnt
+<ce> tt tot ult-kb`j.
+<ce> Ye rfr? ^nb eckjdbz ghbtvktvs lkz dfc?
+
+RefuseQuest:  [1001]
+<ce> Ukegj. B pfxtv vyt nhfnbnm dhtvz yf gjlj`yjuj dfv?
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj. Ghb[jlbnt rj vyt pfdnhf d @nj *t dhtvz,
+<ce> z lfv dfv gbcmvj, bvz b vtcnj, ult bcrfnm
+<ce> flhtcfnf.
+
+QuestFail:  [1003]
+<ce> Gbcmvj ljk*yj `snm ljcnfdktyj, %pcf.
+<ce> Yt gjldtlbnt vtyz.
+
+QuestComplete:  [1004]
+<ce> Rfr `s nj yb `skj djn _magicitem_, rfr b
+<ce> `skj j`tofyj. B gecnm yt ujdjhzn, xnj
+<ce> ghbyw {tkctn yt lth*bn cdjt ckjdj.
+<ce>
+<ce> J lf, z j`tofk dfv hfccrfpfnm rjt-xnj j
+<ce> ckj*bditqcz d Lfuuthajkkt cbnefwbb. Gjljphtdf<,
+<ce> xnj vjz ctvmz [jxtn bpdktxm bp @njuj `jkmit,
+<ce> xtv ghjcnj pyfybz. Vs gjcskfkb cjdtnybrjd
+<ce> c yfcnjzybtv gj`thtxmcz rjhjk< Kbpfylece b
+<ce> rjhjk< Rfvthjye ehtuekbhjdfnm cdjb jnyjitybz
+<ce> yf gjkt `bnds ghb Rhbyufbyt. Kbpfylec ghjcnj
+<ce> lj ytghbkbxbz `sk ghtlfy bvgthfnjhe, rjulf
+<ce> Rfvthjy ghjcnj lhfkcz pf ytpfdbcbvjcnm.
+<ce> Cjukfcyj ljrkflfv cjdtnybrjd dcnhtnbkbcm jyb
+<ce> gjplyj dtxthjv, gjnjve xnj b[ cbks `skb gtht[df-
+<ce> xtys gj genb cbkfvb jhrjd Ujhndjuf. J lfkmytqitv
+<ce> z cksifk vyjuj bcnjhbq, yj jlby bp yfib[
+<ce> cjdtnybrjd ghjitk d gfkfnre Kbpfylecf b ecgtk
+<ce> gthtujdjhbnm c ybv. ^nj dct xnj z pyf<.
+<ce> Tckb vyt cnfytn bpdtcnyj xnj-nj tot, bkb
+<ce> cbnefwbz cldbytncz c vtcnf, z gjik< pf dfvb.
+
+RumorsDuringQuest:  [1005]
+Kjhl Rfcntkkbfy yt ghbybvftn ujcntq, gjrf yt pfrjyxfncz ghfplybrb d __castfort_.
+   <--->
+~tcrjytxyfz xthtlf yfcktlybrjd ljdtkf kjhlf Rfcntkkbfyf lj e*fcyjuj cjcnjzybz.
+
+RumorsPostfailure:  [1006]
+Gj[j*t kjhle Rfcntkkbfye `kfujdjkbn ghbywtccf ^kbptqy.
+   <--->
+Cjdtn cnfhtqiby crkjyztncz d gjllth*re lhtdytuj pfrjyf yfcktljdfybz.
+
+RumorsPostsuccess:  [1007]
+Kjhlf Rfcntkkbfyf gjcnjzyyj dblzn d rjvgfybb c ghbywtv {tkctnjv c cfvjuj yfxfkf ghfplybrf
+   <--->
+Cjdtn cnfhtqiby dct xfot ujdjhbn ghj kbrbdlfwb< pfrjyf j yfcktljdfybb.
+
+QuestorPostsuccess:  [1008]
+Lf, %pcf? Crjhj yfib pdtpls cjqlencz. Xnj ds [jntkb?
+
+QuestorPostfailure:  [1009]
+<ce> Z lfdfk dfv df*yjt gjhextybt, %pcf,
+<ce> tckb ds gjvybnt. Cy<[fkbcm c kjhljv
+<ce> Rfcntkkbfyjv? Ye kflyj, ctqxfc e*t gjplyj,
+<ce> f z yt cfvsq nthgtkbdsq xtkjdtr yf Nfvhb@kt.
+<ce> Evjkz<, jcnfdmnt vtyz, gjrf z yt jn`hjcbk
+<ce> dct @nb wthtvjybb.
+
+QuestLogEntry:  [1010]
+Edf*ftvsq kjhl Rfcntkkbfy,
+<ce>
+  Ghjie ghjotybz pf ytj`[jlbvjcnm ljcnfdrb @njuj
+gbcmvf nfrbv dfhdfhcrbv cgjcj`jv, yj `skj ghjcnj
+ytdjpvj*yj dcnhtnbnmcz c dfvb kbxyj d pfvrt gj jxtym
+ltkbrfnyjve ltke. Z lfdyj e`t*lty d dfitq dthyjcnb
+rjhjyt b ytqnhfkmyjcnb dj dyenhtyyb[ ltkf[. Edthz<,
+xnj dctuj kbim cnhtvk<cm cj[hfybnm dfit ljcnjbycndj
+jn djpvj*yjuj yt`kfujghbznyjuj hfpdbnbz cj`snbq.
+Ghj`ktvf pfrk<xftncz d dfitq ctcnht, ktlb
+Gfcbat, *bdeotq pf uhfybwtq, yj ghb @njv htuekzhyj
+j`of<otqcz c xktyfvb ldjhf. Z gjybvf< b edf*f<
+dfie `hfncre< k<`jdm b ghbdzpfyyjcnm r ytq; yf lyz[
+ktlb Gfcbaf ghbckfkf d jndtn yf vjq djghjc ytcrjkmrj
+nhjufntkmys[ gbctv, yfgbcfyys[ dfitq herjq.
+  "Yt bcgsnsdfkf kb ns djcnjhu jn gjuhe*tybz
+cgtkjq rke`ybrb d ckbdrb? Z nfr vtxnfk j nt`t, vjz
+k<`jdm, vjz leif *tkftn nt`z, ckflrfz vjz, ndjtuj
+ghbrjcyjdtybz, ljhjufz, vjz leif gjnthzyf yfdtrb".
+Vs nj c dfvb pyftv j ytdbyyjcnb dfitq k<`db r
+ktlb, yj vyjubt ghtlcnfdbntkb ldjhf, `j<cm, vjuen
+ytdthyj bcnjkrjdfnm dct @nb cnhjrb. Tt ve*, yfcrjkmrj
+vyt bpdtcnyj, jnkbxftncz htdybdsv yhfdjv. Z ljkuj
+levfk, rfr kexit bp`t*fnm tuj jnhbwfntkmyjq htfrwbb
+b `ele c ytnthgtybtv *lfnm dfituj jndtnyjuj ghtlkj-
+*tybz. Z `ele j*blfnm dfc d pfvrt D@qhtcn.
+<ce>
+{tkctn,
+ghbyw D@qhtcnf
+
+Message:  1011
+<ce> Jnkbxyj, %pcn.
+<ce> Hjcn dfitq htgenfwbb pfcke*bdftn jcj`juj dybvfybz.
+<ce> F kjhl Rfcntkkbfy ntgthm `eltn `jktt ecnegxbd.
+
+Message:  1012
+<ce> Jxtym *fkm, xnj ds yt eghfdbkbcm d chjr, %pcf.
+<ce> Vjz ctcnhf ^kbptqy et[fkf. ~tp tt jggjpbwbb
+<ce> cjdctv yt df*yj, gjgfltn gbcmvj r Rfcntkkbfye
+<ce> bkb ytn. Levf<, z cvjue j`thyenm @nj ct`t yf
+<ce> gjkmpe.
+
+Message:  1014
+<ce> R xtve dct @nj ghbndjhcndj b vfybgekzwbb.
+<ce> Ds [jhjij cltkfkb, xnj ghbytckb @nj rj
+<ce> vyt, %pcf. ~kfujlfh< dfc.
+
+Message:  1017
+<ce> Gf*, yjczobq wdtnf b `ktlyj-*tkne< hjpe
+<ce> D@qhtcnf vjkxf ghtlcnfk gthtl dfvb. Jy
+<ce> dhexbk dfv gbcmvj b bcxtp nfr *t `tcievyj,
+<ce> rfr b gjzdbkcz.
+
+Message:  1018
+<ce> Pfgs[fdibqcz gjcskmysq `hjcbk rjydthn dfv d
+<ce> herb. Jcnjhj*yjt bccktljdfybt gbcmvf gjrfpfkj,
+<ce> xnj nfv kt*bn dtrctkm yf rhegye< cevve.
+
+Message:  1019
+%qdt:
+ Ghbyw {tkctn [jxtn dcnhtnbnmcz cj
+ vyjq pfdnhf d pfvrt lkz ddtltybz
+ d rehc ghtlcnjzotuj ltkf. Gj[j*t
+ yf @njn hfp z `ele rehmthjv.
+
+Message:  1020
+%qdt:
+ Ghbyw {tkctn [jxtn, xnj`s z ljcnfdbk gbcmvj
+ kjhle Rfcntkkbfye, kblthe cjdtnf cnfhtqiby
+ D@qhtcnf, d tuj pfujhjlyjv gjvtcnmt, _castfort_
+ d __castfort_.
+ E vtyz =1stparton_ lytq, xnj`s ljcnfdbnm gbcmvj b
+ dthyenmcz.
+
+Message:  1024
+Ghbyw {tkctn,
+Z wty< dfie lj`hjne b dcnhtxecm c
+dfvb nfr crjhj, rfr dfv `eltn elj`yj.
+<ce>
+kjhl Rfcntkkbfy
+
+Message:  1025
+<ce> Kjhl Rfcntkkbfy ghbrfpfk vyt e`bnm
+<ce> nt`z. Jy ghbrfpfk vyt crfpfnm nt`t,
+<ce> xnj ns ckbirjv vyjuj pyftim.
+
+Message:  1026
+Vjq ljhjujq kjhl Rfcntkkbfy,
+<ce>
+  Ghjie ghjotybz pf uhe`sq cnbkm bpkj*tybz,
+yj `skj `s ytdt*kbdj kbxyj jndktxm dfc jn cdjb[
+pf`jn c @njq gjntywbfkmyjq ghj`ktvjq. ~j<cm
+dfi pfcke*tyysq jngecr ghbltncz ghthdfnm, gjrf
+yt `eltn ekf*tyj cktle<ott ltkj.
+<ce>
+  Z j`hfnbkcz r dfitq ctcnht, ktlb Gfcbat.
+Yf ghjnz*tybb ytcrjkmrb[ ktn jyf `skf jlyjq
+bp jxfhjdfntkmys[ gthcjy D@qhtcncrjuj ldjhf,
+jyf `skf k<`bvf dctvb wtybntkzvb rhfcjns b
+uhfwbb. Cjdctv ytlfdyj ghjitk cke[, xnj
+pjkjnj, yf rjnjhjt jyf gjregfkf cdjb yfhzls
+b erhfitybz, ghbyflkt*bn yt tt ve*e, rjnjhsq
+rfr bpdtcnyj d yfcnjzott dhtvz bcgsnsdftn
+ye*le d ltymuf[. Bvt<ncz ytghbznyst ghtlgj-
+kj*tybz, rjnjhst yt cnjbn erfpsdfnm yf `evfut.
+<ce>
+  Tckb e* ujdjhbnm yf ghzvjne, kbxyjcnm,
+gj*tkfdifz jcnfnmcz ytepyfyyjq, gjcnfdbkf vtyz
+gthtl afrnjv, xnj ds ytjlyjrhfnyj gjkmpjdfkbcm
+rjhjktdcrjq rfpyjq, xnj`s gjllth*fnm hfcnjxb-
+ntkmcndj dfitq ctcnhs. Rjytxyj *t z gjgsnfkcz
+pfobnbnm dfit ljcnjbycndj b xtcnm, yj rjgbb
+bp Rjhjktdcrjq rybub hfc[jljd e`tlbkb vtyz
+d j`hfnyjv. Vyt ytghbznyj levfnm, xnj pf ghj-
+wtlehf vj*tn gjcktljdfnm pf @nbv.
+<ce>
+  Yt levfqnt, cbh, xnj z gsnf<cm bp*bnm
+dfc c gjcnf ukfds Rheuf Cnfhtqiby D@qhtcnf.
+Z dctuj kbim [jxe ghtleghtlbnm, xnj vj*tn
+ghjbpjqnb, tckb @nb pfgbcb gjgflencz yf ukfpf
+rjhjk< ^fldbhe, f yt `elen yflt*yj crhsns jn
+gjcnjhjyyb[ ukfp.
+<ce>
+  Gj*fkeqcnf jnghfdmnt vyt jndtn c @nbv
+rehmthjv. Tve vj*yj ljdthznm. Cfvj cj`jq, z
+ghtlgjxtk `s dcnhtnbnmcz c dfvb rfr vj*yj
+crjhtt.
+<ce>
+Bcnbyyj dfi,
+{tkctn
+
+Message:  1027
+<ce> F, ghbdtncnde< cyjdf, %pcf. Djn gbcmvj.
+<ce> Tuj ye*yj jnlfnm kjhle Rfcntkkbfye, ukfdt cjdtnf
+<ce> cnfhtqiby, d yfcnjzott dhtvz yf[jlzotvecz d cdjtv
+<ce> ljvt _castfort_ d __castfort_.
+<ce> Vyt ye*yj, xnj`s ds ljcnfdbkb gbcmvj b dthyekbcm
+<ce> j`hfnyj yt gjp*t xtv xthtp =1stparton_ lytq -- @nj
+<ce> ceotcndtyyj df*ysq vjvtyn. Rfr z b hfccxbnsdfk,
+<ce> kjhl Rfcntkkbfy rhfqyt wtybn cdjt etlbytybt.
+<ce> ~elmnt ujnjds, dfv vjuen jrfpfnm cjghjnbdktybt
+<ce> gj ghb`snbb d _castfort_. Yfcnjzntkmyj cjdtne<
+<ce> yt xbnfnm gbcmvj, nfr rfr @nj kbxyfz gthtgbcrf.
+<ce> Tckb [jnz `s ckjdj bp tuj cjlth*bvjuj dshdtncz
+<ce> yfhe*e, z `ele pyfnm, rjuj d @njv dbybnm.
+
+Message:  1028
+<ce> Ds *ltnt gjrf kjhl Rfcntkkbfy xbnftn
+<ce> gbcmvj. Tuj kbwj `fuhjdttn, f herb
+<ce> yfxbyf<n nhzcnbcm.
+<ce>
+<ce> "{jhjij... Gj*fkeqcnf gjlj*lbnt, gjrf
+<ce> z yfgbie jndtn ghbywe {tkctne".
+<ce> Yfgbcfybt jndtnf pfyzkj e ytuj dctuj
+<ce> kbim gfhe vbyen, gjnjv jy dhexbk
+<ce> rjydthn dfv d herb.
+
+Message:  1030
+<ce> ^nj gbcmvj jnrhsdfkb. Ds ghtdscbkb
+<ce> gjkyjvjxbz rehmthf, %pcn.
+
+Message:  1031
+<ce> Bnfr, dfv yhfdbncz hsnmcz d xe*b[
+<ce> gjckfybz[? ~jkmit yt cvtqnt lf*t
+<ce> hfccxbnsdfnm yf vjt ljdthbt.
+
+Message:  1040
+Edf*ftvsq %pcn,
+<ce>
+  D cdzpb c ytlfdytq cdflm`jq vjtq ctcnhs ^kbptqy
+z `jkmit yt ye*lf<cm d dfib[ eckeuf[ gj ljcnfdrt
+gbcmvf kjhle Rfcntkkbfye. Ds c xtcnm< gjcke*bkb
+vyt b z ghjbycnhernbhjdfk gjcskmyjuj lfnm dfv 100
+pjkjns[ pf gjnhfxtyyjt dfvb yf vtyz dhtvz b
+ghbkj*tyyst ecbkbz.
+<ce>
+{tkctn
+ghbyw D@qhtcnf
+
+Message:  1050
+Kjhl Rfcntkkbfy - cfvsq vjueotcndtyysq bp cjdtnybrjd D@qhtcnf.
+   <--->
+Ujdjhzn, e kjhlf Rfcntkkbfyf ljcnfnjxyj gjllth*rb, xnj`s gjvtifnm djtyysv gkfyfv ghbywf {tkctnf.
+
+
+
+QBN:
+Item letter39 letter used 1010
+Item _magicitem_ magic_item
+Item letter41 letter used 1024
+Item letter42 letter used 1026
+Item letter43 letter used 1040
+Item _I.06_ gold range 100 to 100
+
+Person _helseth_ named Prince_Helseth atHome
+Person Castellian face 1 named Lord_Castellian anyInfo 1050
+Person Eadwyre face 80 named King_Eadwyre atHome
+
+Place _castfort_ remote house1
+
+Clock _S.00_ 1.00:00 0 flag 1 range 0 1
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
+Clock _S.15_ 3.00:00 7.00:00
+
+Foe _F.00_ is Knight
+Foe _battlemage_ is Battle_mage
+
+--	Quest start-up:
+	start timer _S.00_
+	log 1019 step 0
+	prompt QuestorOffer yes yes no _no_
+	pick one of _S.13_ _S.24_
+
+_S.00_ task:
+	create npc at _castfort_
+	place npc Castellian at _castfort_
+
+_S.01_ task:
+	clicked npc _helseth_
+
+_S.02_ task:
+	toting letter42 and Castellian clicked
+	toting letter39 and Castellian clicked
+
+_S.03_ task:
+	when _S.01_ and _S.00_
+	add dialog for person Castellian
+	start timer _1stparton_
+	log 1020 step 1
+	remove log step 0
+	say 1027
+
+_S.04_ task:
+	toting letter41 and _helseth_ clicked
+	give pc _magicitem_
+	change repute with _helseth_ by +10
+	drop Eadwyre as questor
+	drop _helseth_ as questor
+
+_S.05_ task:
+	toting letter42 and Eadwyre clicked
+	toting letter39 and Eadwyre clicked
+	say 1014
+	change repute with Eadwyre by +5
+
+ElysannaSatisfied _S.06_
+	start timer _S.15_
+
+variable _S.07_
+_S.08_ task:
+	injured _F.00_ saying 1025
+	injured _battlemage_ saying 1025
+
+_clearclick_ task:
+	when _S.01_ and not _S.03_
+	clear _S.01_ _clearclick_
+
+yes task:
+	dialog link for person Castellian
+	say AcceptQuest
+	add _helseth_ as questor
+	add Eadwyre as questor
+
+_no_ task:
+	say RefuseQuest
+	end quest
+
+_S.12_ task:
+	when _S.03_ and _S.13_
+	letter39 used do _S.07_
+	get item letter39
+
+variable _S.13_
+_S.14_ task:
+	when _S.03_ and _S.24_
+	letter42 used do _S.07_
+	get item letter42
+
+_S.15_ task:
+	get item letter43
+	get item _I.06_
+	say 1018
+	make letter43 permanent
+	make _I.06_ permanent
+	drop Eadwyre as questor
+	drop _helseth_ as questor
+	end quest
+
+_1stparton_ task:
+	drop Eadwyre as questor
+	drop _helseth_ as questor
+	end quest
+
+_S.17_ task:
+	when _S.04_ and _S.06_
+	say 1012
+
+_S.18_ task:
+	when _S.04_ and not _S.06_
+	say 1011
+
+_S.19_ task:
+	when _S.02_ and _S.07_
+	create foe _F.00_ every 4 minutes 6 times with 100% success
+	create foe _battlemage_ every 7 minutes 2 times with 100% success
+	say 1030
+	change repute with Castellian by -10
+
+_S.20_ task:
+	when _S.02_ and not _S.07_
+	letter41 used do _S.21_
+	get item letter41
+	say 1028
+
+variable _S.21_
+_S.22_ task:
+	when _S.04_ and _S.21_
+	say 1031
+	change repute with _helseth_ by -25
+
+_S.23_ task:
+	when _S.04_ and not _S.21_
+	start quest 11 11
+
+variable _S.24_
+_S.25_ task:
+	when _S.22_ or _S.23_
+	end quest

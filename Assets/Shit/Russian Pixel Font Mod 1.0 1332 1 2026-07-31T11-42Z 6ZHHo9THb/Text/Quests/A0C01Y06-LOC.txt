@@ -1,0 +1,207 @@
+-- Quest: C:\QUESTS\WORKING\A0C01Y06.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 01
+-- QuestId: 6
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 36
+Quest: A0C01Y06
+DisplayName: Yt*lfyyjt gentitcndbt Xfcnm II
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vtyz pjden _qgiver_.
+<ce> Vjq [jpzby ghjcbk yfqnb vtyz [hf`hjuj
+<ce> fdfyn<hbcnf lkz dsgjkytybz jgfcyjq vbccbb.
+<ce> Yt vjue crfpfnm `jkmit, njkmrj nj, xnj
+<ce> pf dsgjkytybt `eltn pfgkfxtyj _gold_ pjkjns[.
+<ce> Ds pfbynthtcjdfys?
+   <--->
+<ce> Pjdbnt vtyz _qgiver_. Z pyf< rjt-rjuj, e
+<ce> rjuj vj*tn `snm bynthtcyfz hf`jnf.
+<ce> _gold_ pjkjns[, tckb ds djpmvtntcm b
+<ce> dsgjkybnt @ne hf`jne.
+
+RefuseQuest:  [1001]
+<ce> Gjboe `jktt cujdjhxbdjuj uthjz
+<ce> lkz pflfybz vjtuj [jpzbyf.
+
+AcceptQuest:  [1002]
+<ce> Blbnt d _meetingplace_. Nfv ds yfqltnt
+<ce> vjtuj [jpzbyf, _master_.
+   <--->
+<ce> Cghjcbnt _master_ d _meetingplace_
+<ce> b %g lfcn dfv hf`jne.
+
+QuestComplete:  [1004]
+<ce> =mmaster_ vthnd. Ntgthm dfib dhfub
+<ce> ldf*ls gjlevf<n, ght*lt xtv ghtlfnm
+<ce> cyjdf.
+
+RumorsDuringQuest:  [1005]
+<ce> Z cksifk, xnj d ujhjlt j`]zdbkcz rfrjq-nj
+<ce> jhr. Yflt<cm tuj e*t gjqvfkb.
+
+RumorsPostfailure:  [1006]
+<ce> Ds cksifkb ghj jlyjuj %ra, rjnjhjuj
+<ce> ntktgjhnbhjdfkb d gjlptvtkmt?
+<ce> ^nj jxtym pf`fdyj! J. Bpdbybnt.
+
+RumorsPostsuccess:  [1007]
+<ce> ^q! Ds njn cfvsq %ra, rjnjhsq e`bk
+<ce> jhrcrjuj dtleyf-ktrfhz! {jhjifz hf`jnf!
+
+QuestorPostsuccess:  [1008]
+<ce> {jhjij, [jhjij. Gjkfuf< z d ljkue gthtl dfvb
+<ce> pf @nj ghjbcitcndbt c jhrcrbv ifvfyjv. C
+<ce> gjvjom< vfubb jy dsukzltk rfr j`sxysq ve*xbyf.
+
+QuestorPostfailure:  [1009]
+<ce> Cnjq ult cnjbim! Z yt [jxe ghbxbyznm ybrjve
+<ce> dhtlf. ^njn jhr c gjvjom< vfubb dsukzltk,
+<ce> rfr j`sxysq gfhtym. ^nj yt vjz jib`rf, xnj
+<ce> jy ntktgjhnbhjdfk nt`z d gjlptvtkmt.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ d ___qgiver_
+ crfpfk vyt, xnj %g4 [jpzby
+ _master_ pfgkfnbn _gold_ pjkjns[
+ pf ytbpdtcnye<, yj dthjznyj jxtym jgfcye<
+ vbccb<. Jy yf[jlbncz d _meetingplace_
+ d __meetingplace_.
+
+Message:  1011
+%qdt:
+ Ghtlfntkm =mmaster_, vfcrbhjdfdibqcz gjl
+ _master_, ntktgjhnbhjdfk vtyz
+ d ___dungeon_. Tckb z rjulf-yb`elm ds`thecm,
+ jy gj*fkttn, xnj dcnhtnbkcz cj vyjq.
+
+Message:  1012
+<ce> Epyfq *t, rnj z yf cfvjv ltkt. Z ndjq
+<ce> cvthntkmysq dhfu =mmaster_! E vtyz
+<ce> pfujnjdktyf jcj`fz celm`f lkz nt`z.
+
+Message:  1013
+<ce> Yt `tqnt vtyz, %pcn! Z d cfvjv ltkt yt
+<ce> pyfk, xnj pfntdftn _master_. Z xtcnyj yt
+<ce> xnj jy cj`bhftncz cltkfnm c dfvb. %g
+<ce> ybxtuj vyt yt ujdjhbk, rkzyecm, %g ghjcnj
+<ce> pfgkfnbk vyt, xnj`s z jnghfdbk dfc r ytve.
+<ce> Jy dfv ye*ty, yt z, nfr dtlm? Z cksifk, xnj
+<ce> %g et[fk d __hidingplace_.
+<ce> Gjbobnt tuj nfv.
+
+Message:  1014
+<ce> Gjyznbz yt bvt<, rfr nt`t elfkjcm
+<ce> ds`hfnmcz bp ___dungeon_, %pcf.
+<ce> Yj kexit `s nt`t nfv b jcnfdfnmcz.
+<ce> Ujnjdmcz r cvthnb!
+
+Message:  1020
+<ce> _master_?  Ytn, yt levf<. xnj %g
+<ce> jnrelf-nj jnc<lf.
+   <--->
+<ce> _master_ ytlfdyj d ujhjlt.  Z lf*t
+<ce> yt pyf<, jnrelf %g.
+
+Message:  1021
+<ce> _master_ cghfibdfk dtplt ghj
+<ce> rfrjuj-nj %ra.
+   <--->
+<ce> _master_ yf[jlbncz d __master_.  Z cksifk,
+<ce> %g pflfdfk vyjuj djghjcjd ghj ytrjtuj %ra.
+<ce> Ds - %ra, dtlm nfr?  Vj*tn
+<ce> %g bcrfk dfc?
+
+Message:  1030
+%qdt:
+ Cnfkj bpdtcnyj, xnj =mmaster_
+ ghzxtncz d ult-nj d __hidingplace_.
+
+Message:  1035
+Jhrcrbq ifvfy dpdsk lbrbv ujkjcjv.
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+Person _master_ face 1 group Group_6.0 local anyInfo 1020 rumors 1021
+
+Place _dungeon_ remote dungeon
+Place _meetingplace_ local tavern
+Place _hidingplace_ remote house1
+
+Clock _escapetime_ 00:00 0 flag 1 range 0 5
+Clock _shortdelay_ 00:01
+--flags extend the timer greatly
+Clock _S.13_ 1.00:00 0 flag 1 range 0 1
+
+Foe _mmaster_ is Orc_shaman
+
+--	Quest start-up:
+	dialog link for location _hidingplace_
+	start timer _escapetime_
+	log 1010 step 0
+	place npc _master_ at _meetingplace_
+
+_escapetime_ task:
+	end quest
+
+variable _shortdelay_
+_clickonenemy_ task:
+	clicked npc _master_ say 1012
+	start timer _shortdelay_
+	hide npc _master_
+	cast Shield spell on _mmaster_
+	cast Spell_Reflection spell on _mmaster_
+	cast Free_Action spell on _mmaster_
+	place foe _mmaster_ at _meetingplace_
+
+_traitordead_ task:
+	killed 1 _mmaster_
+	give pc nothing
+	start timer _S.13_
+
+_teleportpc_ task:
+	pc at _hidingplace_ set _S.12_
+	when not _traitordead_ and _shortdelay_
+	reveal _dungeon_
+	log 1011 step 1
+	say 1035
+	place foe _mmaster_ at _hidingplace_
+	place npc _master_ at _hidingplace_
+	teleport pc to _dungeon_
+
+_hittraitor_ task:
+	injured _mmaster_
+
+variable _revenge_
+_foundme_ task:
+	when _S.12_ and _hittraitor_ and _teleportpc_
+	say 1014
+
+variable _questdone_
+_clickqgiver_ task:
+	clicked npc _qgiver_
+
+_findtraitor_ task:
+	when _clickqgiver_ and _teleportpc_
+	log 1030 step 2
+	say 1013
+
+_clearclick_ task:
+	when _clickqgiver_ and not _teleportpc_
+	clear _clickqgiver_ _clearclick_
+	clear _clickqgiver_
+
+_S.12_ task:
+	hide npc _master_
+
+_S.13_ task:
+	end quest

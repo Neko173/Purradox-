@@ -1,0 +1,329 @@
+-- Quest: C:\QUESTS\WORKING\$CUREVAM.Qbn.
+-- StartsBy: letter
+-- Questee: anyone
+-- Questor: hunter
+-- QuestId: 0
+Messages: 53
+Quest: $CUREVAM
+DisplayName: Ktrfhcndj jn dfvgbhbpvf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+Error -- 1000 called
+
+RefuseQuest:  [1001]
+Error -- 1001 called
+
+AcceptQuest:  [1002]
+Error -- 1002 called
+
+QuestFail:  [1003]
+<ce> Error -- 1003 called
+
+QuestComplete:  [1004]
+<ce> Rfr njkmrj =bloodfather_ evth, ds gjxedcndjdfkb, rfr
+<ce> ghjrkznbt dfvgbhbpvf jcnfdbkj d gjrjt dfie leie.
+<ce> Ds `jkmit yt dfvgbh.
+
+RumorsDuringQuest:  [1005]
+<ce> Crjhj _hunter_ yfxytn yjdsq gj[jl ghjnbd dfvgbhjd d %reg.
+<ce> ~snm vj*tn njulf vs cvj*tv `tp cnhf[f [jlbnm gj yjxysv ekbwfv.
+
+RumorsPostfailure:  [1006]
+<ce> _hunter_ b %g4 k<lb gjkj*bkb ghtljcnfnjxyj dfvgbhjd d %reg, yj z yflt<cm
+<ce> jyb e`bkb b[ dct[.
+   <--->
+<ce> _hunter_ ctqxfc d gjkyjq cbkt.   %g4 gj[jls ghjcnj pfcnfdzn
+<ce> dfvgbhjd cghznfnmcz b gtht*lfnm. F rjulf %g eqltn jnc<lf, jyb cnfyen tot
+<ce> `jktt cbkmysvb, xtv ght*lt.
+
+RumorsPostsuccess:  [1007]
+<ce> _hunter_ b %g4 k<lb gjkj*bkb ghtljcnfnjxyj dfvgbhjd d %reg, yj z yflt<cm
+<ce> jyb e`bkb b[ dct[.
+   <--->
+<ce> _hunter_ ctqxfc d gjkyjq cbkt.   %g4 gj[jls ghjcnj pfcnfdzn
+<ce> dfvgbhjd cghznfnmcz b gtht*lfnm. F rjulf %g eqltn jnc<lf, jyb cnfyen tot
+<ce> `jktt cbkmysvb, xtv ght*lt.
+
+QuestorPostsuccess:  [1008]
+Error -- 1008 called
+
+QuestorPostfailure:  [1009]
+Error -- 1009 called
+
+Message:  1011
+_hunter_ dsbcrbdftn b eybxnj*ftn dfvgbhjd gj dctve Nfvhb@k<.
+   <--->
+_hunter_ gjcdznbk cdj< *bpym j[jnt yf dfvgbhjd.
+
+Message:  1012
+<ce> Ujdjhzn, xnj hjlyjq jntw j[jnybrf `sk e`bn dfvgbhfvb. Djn gjxtve jy
+<ce> nfr afyfnbxyj ghtcktletn b[.
+   <--->
+<ce> _hunter_ e`bk cdjtuj cj`cndtyyjuj jnwf, rjulf njn cnfk dfvgbhjv.  Djn gjxtve
+<ce> z yfpsdf< tuj afyfnbrjv!
+
+Message:  1020
+<ce> %qdt
+<ce>
+  Edf*ftvsq lheu %pcn bp rkfyf %vam,
+<ce>
+  Gjpdjkmnt ghtlcnfdbnmcz. Vtyz pjden _hunter_.
+~snm vj*tn ds e*t cksifkb j`j vyt -- bpdtcnyjv
+j[jnybrt yf dfvgbhjd? Yt cgtibnt gkj[j celbnm j`j
+vyt. Z dfv yt dhfu, gjrf yt dhfu. Z dctq leijq
+ytyfdb*e dfvgbhbpv, gj@njve b gjcdznbk dc<
+*bpym bpuyfyb< @njq pfhfps bp Nfvhb@kz. Z pyf<
+crjkmrj pltcm *bdtn nfrb[ *t ytdbyys[ *thnd rfr
+b ds. Djkz r *bpyb @nj cjdctv yt pkj b z dctulf
+gsnf<cm ghtljcnfdbnm vjtve ghjnbdybre ifyc ljrfpfnm,
+xnj tuj rhjdfdst ltkf dspdfys ytj`[jlbvjcnm<, f
+yt bp k<`db r e`bqcnde.
+  Z edthty, xnj dfib «`kbprbt» yt ujdjhbkb dfv,
+yj dfvgbhbpv vj*yj bcwtkbnm. Lkz @njuj dfv yflj
+dctuj kbim e`bnm cdjtuj «jnwf gj rhjdb», lhtdytt
+pkj, rjnjhjt cjplfkj djrheu ct`z wtkjt gjrjktybt
+dfvgbhjd b eghfdkz<ott dfvb. Cltkfd @nj, ds yt
+njkmrj jcdj`jlbnt ct`z, yj b bpktxbnt %reg
+jn @njq pkjdjyyjq yfrbgb d cthlwt.
+<ce>
+<ce> (ghjljk*ftncz lfkmit)
+<ce>
+  Kbxyj z yt pyf<, ult vj*yj yfqnb dfituj «rhjdybrf»,
+yj vjb bcnjxybrb epyfkb bvz jlyjuj bp dscib[ dfvgbhjd,
+rjnjhsq j`kflftn @njq byajhvfwbtq, _vamp1_ bp
+___vamp1_. Z gjlj*le =huntstart_ lytq, ght*lt xtv
+yfxye htql ghjnbd vtcnys[ dfvgbhjd, b lfv dfv ifyc
+cgfcnbcm.
+  Ghbvbnt vjt ghtlkj*tybt, %pcn. E dfc
+hjdyj =huntstart_ lytq, f gjnjv ds b dfi hjl bp
+%vam `elen eybxnj*tys rfr gfhfpbns.
+<ce>
+<ce> _hunter_
+<ce> ----
+
+Message:  1021
+<ce> {jnbnt gjrfpfnm dfvgbhe _vamp1_
+<ce> gbcmvj jn j[jnybrf _hunter_?
+
+Message:  1022
+<ce> Ghfdbkmyj cltkfkb, xnj ghbytckb @nj vyt,
+<ce> %pcn. _hunter_ vyjubt ujls `sk ytcxfcnmtv lkz
+<ce> %vam. ~kfujlfhz @njve bpscrfyyjve ghtleght*ltyb<
+<ce> vs vj*tv cgfcnb *bpyb vyjub[ yfib[ hjlbxtq.
+<ce> Yt ytljjwtybdfqnt jgfcyjcnm, uhjpzoe< dfv,
+<ce> %pcf. _hunter_ `tcgjoflty b jgsnty d @nb[
+<ce> ltkf[, f tuj igbjys `erdfkmyj gjdc<le. %g
+<ce> `sk `s jnkbxysv gjgjkytybtv lkz yfituj rkfyf --
+<ce> -- tckb `s [jntk @njuj. Ghbvbnt r cdtltyb<,
+<ce> xnj %g pyftn dfit bvz b yt levfqnt, xnj %g
+<ce> gjcnegftn bcrk<xbntkmyj bp lj`hs[ gj`e*ltybq.
+<ce> Lf [hfybn dfc yjxm.
+
+Message:  1023
+<ce> %pcn, yt nfr kb?  Z cksifk [jhjibt
+<ce> dtcnb, xnj ds bp rkfyf %vam.
+<ce> Bnfr, ds [jnbnt yfqnb cdjtuj jnwf gj rhjdb.
+<ce> Ytgjyznyfz gjnht`yjcnm, gjcrjkmre @nf ghbdbktubz
+<ce> lftncz yt rf*ljve dfituj djphfcnf. Hfpdt xnj
+<ce> ds e*t ghjldbyekbcm ljcnfnjxyj lfktrj d %vam,
+<ce> njulf z vju `s cltkfnm lkz dfc bcrk<xtybt.
+<ce> Nfffr...gjcvjnhbv... @nj vj*tn `snm =bloodfather_
+<ce> bkb =elder_. Ds vj*tnt gjbcrfnm b[ d ___wrongdung_
+<ce> b ___fatherdung_ cjjndtncndtyyj.
+<ce> Z `s yt cjdtnjdfk dfv yfheifnm etlbytybz
+<ce> cnfhtqib[. Kexit dctuj `eltn, tckb ds gjbotnt
+<ce> _vamp2_ bp ___vamp2_. %g {hfybntkm Gjrjktybz
+<ce> b cgjcj`ty hfccrfpfnm dfv, rnj *t bp cnfhtqib[
+<ce> zdkzftncz dfibv jnwjv gj rhjdb. Djpmvbnt @njn
+<ce> `hfcktn, gj ytve %g gjqvtn, xnj z gjckfk dfc.
+
+Message:  1024
+<ce> {vvv. Ds ckbirjv <ys, xnj`s `snm j`ktxtyysvb
+<ce> ljcnfnjxysv ljdthbtv lkz gjkextybz @njq
+<ce> byajhvfwbb. Yj gjcrjkmre e dfc ghb ct`t pyfr
+<ce> _vamp1_, z hfccrf*e, ult yf[jlbncz dfi jntw
+<ce> gj rhjdb, =bloodfather_.
+<ce> Ds yfqltnt tuj d cdjtv *bkbot d ___fatherdung_.
+<ce> ~elmnt jcnjhj*ys, d @nj dhtvz ujlf cnfhtqibys
+<ce> yt k<`zn, rjulf b[ `tcgjrjzn. Yfheibnm gjrjq b
+<ce> etlbytybt =bloodfather_, @nj dct yf dfi cnhf[
+<ce> b hbcr.
+
+Message:  1025
+<ce> Ghtlfntkm rhjdb!  Vs pyftv j ndjtq bpvtyt.
+<ce> Ns ybrjulf yt yfqltim =bloodfather_. Ndjb
+<ce> lyb ght`sdfybz jlybv bp %vam ghbikb r rjywe,
+<ce> yt djkyeqcz. J[jnybre lf*t yt gjnht`etncz
+<ce> e`bdfnm nt`z.
+
+Message:  1030
+<ce> >ytw, ns ghthsdftim vj< vtlbnfwb<!
+<ce> Gjitk ghjxm, bkb vjq ujkjl pfcnfdbn
+<ce> e`bnm nt`z!
+
+Message:  1031
+<ce> =elder_ e`bn. E`bn dfvb.
+<ce> Cnfhtqibq bp hjlf %vam.
+
+Message:  1032
+<ce> %pcn, ndjz rhjdm dpsdftn rj vyt.
+<ce> Pfxtv ns elfhbk cdjtuj hjlyjuj jnwf?
+<ce> %vam yfrfpsdftn jnwte`bqcndj cvthnm<.
+<ce> Yt pfcnfdkzq vtyz ghb`tufnm r rhfqybv
+<ce> vthfv. ~tub, lbnz vjt!
+
+Message:  1040
+<ce> _hunter_ crfpfk vyt, xnj z yfqle nt`z pltcm.
+<ce> Evhb, Rhfleobqcz-D-Yjxb!
+
+QuestTimeLapse:  [1045]
+<ce> Dfit dybvfybt ghbdktr ytpyfrjvsq
+<ce> j`]trn d dfitv `fuf*t. ^nj gbcmvj,
+<ce> flhtcjdfyyjt dfv b yfgbcfyyjt
+<ce> bpscrfyysv gjxthrjv. Jnrelf jyj
+<ce> dpzkjcm pltcm?
+
+Message:  1050
+%qdt:
+ J[jnybr yf dfvgbhjd _hunter_
+ ghbckfk gbcmvj c euhjpjq e`bnm
+ vtyz, tckb z yt bpktxecm jn dfvgbhbpvf
+ e`bd cdjtuj «jnwf gj rhjdb».
+ _hunter_ yt pyftn rnj jy b ult j`bnftn,
+ yj edthty, xnj _vamp1_ bp ___vamp1_
+ vj*tn pyfnm j` @njv.
+ E vtyz =huntstart_ lytq, ght*lt xtv
+ yfxytncz j[jnf.
+
+-moved vamp1 line down, was running outside journal boundaries
+
+Message:  1051
+%qdt:
+ _vamp1_ edthbk vtyz, xnj vjq «jntw
+ gj rhjdb» *bdtn bkb d ___wrongdung_
+ bkb d ___fatherdung_, yj ghtljcnfdbk
+ @njn `hfcktn, xnj`s gjrfpfnm tuj _vamp2_
+ d __vamp2_ d ___vamp2_, rnj vj*tn
+ crfpfnm vyt njxyjt vtcnjyf[j*ltybt.
+
+Message:  1052
+%qdt:
+ _vamp2_ crfpfk vyt, xnj vjtuj «jnwf gj rhjdb»
+ pjden =bloodfather_ b xnj jy *bdtn
+ d ___fatherdung_.
+
+
+
+QBN:
+Item _letter_ letter used 1020
+Item _token_ bracelet
+
+Person _vamp1_ face 40 factiontype Vampire_Clan remote
+Person _vamp2_ face 4 factiontype Vampire_Clan male remote
+Person _hunter_ face 1 factiontype Knightly_Guard remote anyInfo 1011 rumors 1012
+
+Place _fatherdung_ remote dungeon8
+Place _wrongdung_ remote dungeon5
+
+Clock _S.10_ 1.00:00 2.22:00
+Clock _S.13_ 7.00:00 27.23:40
+Clock _huntstart_ 00:00 0 flag 1 range 3 5
+
+Foe _bloodfather_ is Ancient_vampire
+Foe _vampire_ is Vampire
+Foe _F.02_ is Knight
+Foe _elder_ is Ancient_vampire
+
+--	Quest start-up:
+	dialog link for person _vamp2_
+	dialog link for location _fatherdung_ person _vamp1_
+	dialog link for person _hunter_
+	_letter_ used do _readletter_
+	have _letter_ set _S.19_
+	give pc _letter_ notify 1045
+	place foe _bloodfather_ at _fatherdung_
+	create npc _vamp1_
+	place foe _elder_ at _wrongdung_
+
+_S.00_ task:
+	killed 1 _bloodfather_
+	give pc nothing
+	cure vampirism
+	change repute with _vamp1_ by -20
+	end quest
+
+_S.01_ task:
+	clicked npc _vamp1_
+	have _letter_ set _S.06_
+
+variable _S.02_
+_readletter_ task:
+	add dialog for person _hunter_
+	add dialog for person _vamp1_
+	log 1050 step 0
+
+_S.04_ task:
+	daily from 06:00 to 18:00
+	clear _S.17_
+
+variable _S.05_
+variable _S.06_
+_S.07_ task:
+	when _S.06_ and _S.01_
+	prompt 1021 yes _S.08_ no _S.09_
+
+_S.08_ task:
+	hide npc _vamp2_
+	hide npc _vamp1_
+	say 1022
+
+_S.09_ task:
+	add dialog for person _vamp2_
+	start timer _S.10_
+	reveal _fatherdung_
+	reveal _wrongdung_
+	log 1051 step 1
+	get item _token_
+	say 1023
+
+_S.10_ task:
+	hide npc _vamp1_
+	hide npc _vamp2_
+	change repute with _vamp1_ by -15
+
+_S.11_ task:
+	injured _bloodfather_ saying 1032
+	injured _elder_ saying 1030
+
+_S.12_ task:
+	killed 1 _elder_ saying 1031
+	change repute with _vamp1_ by -20
+
+_S.13_ task:
+	end quest
+
+_huntstart_ task:
+	create foe _F.02_ every 60 minutes 30 times with 20% success
+	start timer _S.13_
+	hide npc _vamp2_
+	hide npc _vamp1_
+
+_S.15_ task:
+	injured _F.02_ saying 1040
+
+_givetoken_ task:
+	toting _token_ and _vamp2_ clicked
+	log 1052 step 2
+	say 1024
+
+_S.17_ task:
+	when _S.10_ and not _S.04_ and not _givetoken_
+	create foe _vampire_ every 60 minutes 10 times with 25% success
+
+_S.18_ task:
+	injured _vampire_ saying 1025
+
+_S.19_ task:
+	start timer _huntstart_

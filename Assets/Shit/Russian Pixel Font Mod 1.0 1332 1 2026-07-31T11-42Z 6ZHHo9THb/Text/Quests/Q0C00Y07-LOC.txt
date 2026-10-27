@@ -1,0 +1,143 @@
+-- Quest: C:\QUESTS\WORKING\Q0C00Y07.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: witch
+-- Repute: 0
+-- QuestId: 7
+Messages: 14
+Quest: Q0C00Y07
+DisplayName: Dtlmvf d pfnjxtybb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Yfif ctcnhf _witch_
+<ce> `skf pfrk<xtyf d rktnre. Yfv ye*ty
+<ce> rnj-nj, rnj hfpsotn tt.
+<ce> Ns [jxtim gjvjxm?
+
+RefuseQuest:  [1001]
+<ce> Ndjt cthlwt - recjr kmlf,
+<ce> %pcf. ^nj jxtym gtxfkmyj.
+
+AcceptQuest:  [1002]
+<ce> Tckb ns cltkftim @nj lkz yfc, vs `eltv
+<ce> jxtym `kfujlfhys. Lfq tq djn @njn gkfo
+<ce> lkz vfcrbhjdrb, rjulf yfqltim tt
+<ce> d ___mondung_.
+<ce> Vs `eltv *lfnm dfc j`jb[ pltcm d
+<ce> ntxtybt =queston_ lytq, tckb yt hfymit.
+
+QuestComplete:  [1004]
+<ce> _witch_, vyt jxtym dbltnm
+<ce> nt`z d gjkyjv plhfdbb.
+<ce> %pcf, ctujlyz ns pfcke*bk
+<ce> edf*tybt dct[ yfc bp ==qgiver_.
+
+RumorsDuringQuest:  [1005]
+Gjckt jrjyxfybz ljghjcf dtlmvs _witch_ tt cj*uen.
+   <--->
+Crjhj, jxtym crjhj dtlmve cj*uen bkb pfgsnf<n lj cvthnb.
+
+RumorsPostfailure:  [1006]
+Rfpym _witch_ `skf ytgthtlfdftvsv phtkbotv. Rfrfz hfljcnm lkz ytrjnjhs[ ctvtqcnd.
+   <--->
+_witch_ ntgthm ghjcnj gtgtk. Dct tt pfrkznbz yt gjvjukb tq.
+
+RumorsPostsuccess:  [1007]
+_witch_ c`t*fkf. Ujdjhzn ==qgiver_ cnjzn pf @nbv.
+   <--->
+_witch_ yt ghbdtlen r ghfdjcelb<. Tckb njkmrj yt pfrk<xfn gj yfcnjzotve.
+
+QuestorPostsuccess:  [1008]
+_witch_ jnkbxyj ct`z xedcndetn, %pcf, tckb ns [jxtim pyfnm.
+
+QuestorPostfailure:  [1009]
+<ce> Yfif ctcnhf _witch_
+<ce> vthndf, cj**tyf pf*bdj. ~snm vj*tn
+<ce> nt`t b elfkjcm `s cgfcnb tt, f
+<ce> vj*tn `snm b ytn. Yj pltcm nt`t gjrf
+<ce> yt cktletn yf[jlbnmcz. B vj*tn `snm
+<ce> @nj yfljkuj.
+
+QuestLogEntry:  [1010]
+%qdt:
+ ==qgiver_ gjckfkb
+ vtyz d ___mondung_, ult
+ yf[jlbncz _witch_,
+ pfrk<xtyyfz ctcnhf dtlmv.
+ Z lfv tq _clothes_, xnj`s
+ pfvfcrbhjdfnm tt b vs dthytvcz
+ r ==qgiver_ lj bc[jlf
+ =queston_ lytq.
+
+Message:  1011
+<ce> ==qgiver_ gjckfkb nt`z?
+<ce> Ckfdmcz ==daedra_! Z
+<ce> jltye _clothes_
+<ce> b vs dscrjkmpytv jnc<lf.
+
+Message:  1012
+<ce> "^nj _witch_,
+<ce> pfrk<xtyyfz! Cnjq! Dtlmvf!"
+   <--->
+<ce> "Ybrfrjq n<hmvs lkz nt`z,
+<ce> _witch_! Ghbujnjdmcz
+<ce> r ytvtlktyyjq rfpyb!"
+   <--->
+<ce> "Cnjznm! Ns
+<ce> _witch_!"
+
+Message:  1013
+<ce> "Levf< jnc<lf z cfvf lj`thecm
+<ce> lj ==qgiver_" - _witch_
+<ce> `kfujlfhbn nt`z b e[jlbn ghjxm.
+
+
+
+QBN:
+Item _clothes_ womens_robe
+
+Person _qgiver_ group Questor
+Person _witch_ face 1 faction The_Prostitutes female remote
+Person _daedra_ face 105 factiontype Daedra
+
+Place _mondung_ remote dungeon3
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _guard_ is Warrior
+
+--	Quest start-up:
+	dialog link for person _daedra_
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	get item _clothes_
+	place npc _witch_ at _mondung_
+
+_queston_ task:
+	end quest
+
+_S.01_ task:
+	toting _clothes_ and _witch_ clicked
+	create foe _guard_ every 2 minutes 30 times with 50% success msg 1012
+	hide npc _witch_
+	say 1011
+	add _witch_ face
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_S.03_ task:
+	when _qgclicked_ and not _S.01_
+	clear _qgclicked_ _S.03_
+
+_reward_ task:
+	when _qgclicked_ and _S.01_
+	give pc nothing
+	end quest
+
+_S.05_ task:
+	when _queston_ and _S.01_
+	say 1013

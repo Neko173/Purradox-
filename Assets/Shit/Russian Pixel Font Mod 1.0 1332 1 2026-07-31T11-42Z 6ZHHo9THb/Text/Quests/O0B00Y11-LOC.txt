@@ -1,0 +1,254 @@
+-- Quest: C:\QUESTS\WORKING\O0B00Y11.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: thief
+-- Repute: 0
+-- QuestId: 11
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 64
+Quest: O0B00Y11
+DisplayName: Fynbxyfz ckjyjdfz rjcnm
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcf, tcnm ltkj. Tcnm jlyf
+<ce> dtobxrf, rjnjhe< ytj`[jlbvj "gthtvtcnbnm"
+<ce> Ns d ltkt?
+
+RefuseQuest:  [1001]
+<ce> Lfktrj gjqltim d Ubkmlbb Djhjd
+<ce> c nfrbv jnyjitybtv. Edthty, nt`t
+<ce> gjyznyj j xtv z.
+
+AcceptQuest:  [1002]
+<ce> Djn b jnkbxyj. Rfr z e*t crfpfk,
+<ce> d @njq hf`jnt ybxtuj ckj*yjuj.
+<ce> Rkbtyn [jxtn gjkexbnm jghtltktyysq
+<ce> recjr cnfhjq ckjyjdjq rjcnb,
+<ce> rjnjhsq yf[jlbncz d _target_
+<ce> pltcm d __target_.
+<ce> E nt`z ldf lyz yf gjkextybt
+<ce> @njuj. Gjkexbim _reward_ pjkjns[.
+
+QuestFail:  [1003]
+<ce> _heist_?  Ult @nj?
+
+QuestComplete:  [1004]
+<ce> Jnkbxyfz hf`jnf, %pcf. Rfr hfp nfr,
+<ce> rfr b ljk*yj `snm, `tp ievf, `tp gskb.
+<ce> Djn _reward_ pjkjns[, ghbvb vjb
+<ce> gjplhfdktybz pf ecgtiyj dsgjkytyye< hf`jne.
+
+RumorsDuringQuest:  [1005]
+_dummy_ yfybvftn jnhzl cnhf*ybrjd d _target_ gj ytbpdtcnyjq ghbxbyt.
+
+RumorsPostfailure:  [1006]
+Cks[fkb ghj @ne yfuke< rhf*e d _target_?
+
+RumorsPostsuccess:  [1007]
+<ce> Rnj-nj dkjvbkcz d _target_ b eitk c wtyyjq gjltkrjq bp ckjyjdjq rjcnb
+<ce> ghzvj bp gjl yjcf cnhf*b!
+
+QuestorPostsuccess:  [1008]
+Xnj z vjue cltkfnm, vjq lheu-dpkjvobr?
+
+QuestorPostfailure:  [1009]
+Rfr *t z vjue pf`snm, xnj nt`t yt elfkjcm ghjdtcnb j`sxysq uhf`t*.
+
+Message:  1011
+<ce> _target_ `erdfkmyj hjbncz jn `jkmijuj rjkbxtcndf cnhf*b. Lf*t yt pyf<, gjxtve.
+
+Message:  1020
+%qdt:
+ E vtyz ldf lyz yf rhf*e cnfhbyyjq
+ `tpltkeirb bp ckjyjdjq rjcnb bp
+ _target_ pltcm d __target_.
+ bcrjvjt yflj ljcnfdbnm r _questgiver_
+ d __questgiver_ pf _reward_ pjkjns[.
+
+
+Message:  1021
+%qdt:
+ Rhf*f gj-nb[jve yt elfkfcm.
+ _questgiver_ crfpfk vyt e`bhfnmcz bp
+ ujhjlf c `tpltkeirjq.  Vyt ye*yj
+ ljcnfdbnm tt r _contact_, rnj
+ dcnhtnbn vtyz d _safehouse_
+ d __safehouse_.
+
+Message:  1040
+<ce> Gj[j*t @nj nf cfvfz rjcnzyfz `tpltkeirf,
+<ce> pf rjnjhjq dfc gjcskfk _questgiver_.
+
+Message:  1050
+<ce> %pcf, ns xnj pltcm ltkftim?
+<ce> Z yt pyf<, gjxtve nt`t yt elfkjcm
+<ce> j`nzgfnm nfrjt ghjcnjt ltkj, yj tckb
+<ce> ns yt eqltim bp ujhjlf c @njq gfktyjq
+<ce> `tpltkeirjq, vs dct pfrjyxbv d
+<ce> reneprt, tckb yt [e*t. Z yt ljgeoe
+<ce> heufnm nt`z, yj htgenfwb< ubkmlbb
+<ce> ye*yj gjllth*fnm, vs *t j`tofkb rkbtyne
+<ce> @ne ivjnre. Rjhjxt nfr. Jnghfdkzqcz d
+<ce> __safehouse_. _contact_ dcnhtnbn
+<ce> nt`z d _safehouse_.
+<ce> Yt ghjrjkbcm jgznm.
+
+Message:  1051
+<ce> Ds gjcvjnhbnt rnj pltcm. Dpkjvobr-
+<ce> Ytevt[f? Yfrjytw-nj nt`t elfkjcm
+<ce> bp`fdbnmcz jn @njq ivjnrb. Ujkjdjq
+<ce> ye*yj levfnm, f yt vecrekfvb. Ns *t
+<ce> yt levftim, xnj gjkexbim pf @ne
+<ce> "hf`jne" gkfne?
+
+Message:  1052
+<ce> F ns evytt, xtv rf*timcz. Ntgthm
+<ce> ghjdfkbdfq, gjrf vs nt`z yt
+<ce> clfkb vtcnyjq cnhf*t bp __target_.
+
+Message:  1053
+<ce> Gj[j*t ltkj bltn r njve, xnj vs
+<ce> crjhj `eltv cvjnhtnm yf ndjq nheg.
+
+Message:  1060
+<ce> %oth, xnj ns pltcm vtiftimcz?
+<ce> Kexit `s nt`t cubyenm jnc<lf, gjrf
+<ce> z nt`t yt cltkfk `jkmyj.
+
+Message:  1061
+<ce> ^njn %ra gjljyjr e`bk =guard_!
+
+Message:  1062
+<ce> Yt itdtkbcm bkb z ghbht*e nt`z
+<ce> ult cnjbim! Jnlfq yfv gj`hzreire,
+<ce> erhfltyye< bp _target_,
+<ce> b vs gjpdjkbv nt`t eqnb.
+
+Message:  1063
+<ce> Vs pyftv rfr ecnhjbnm e`bqcndj nfrjuj
+<ce> gjljyrf, rfr ns. =posse_, `elm
+<ce> jcnjhj*ytt, yt ghjktq rhjdm yf
+<ce> rjdth, rjulf gththt*tim @njve %ra ujhkj.
+
+
+
+QBN:
+Item _heist_ ivory
+Item _reward_ gold
+
+Person _questgiver_ face 44 group Questor
+Person _contact_ face 1 group Local_3.0 remote
+Person _dummy_ face 209 group Resident1 local
+
+Place _target_ local house1 anyInfo 1011 rumors 1011
+Place _safehouse_ remote house3
+
+Clock _time_ 00:00 0 flag 1 range 0 2
+Clock _S.01_ 2.00:00 0 flag 1 range 0 1
+--removed unnecessary delay timer
+
+Foe _guard_ is Rogue
+Foe _posse_ is 3 Archer
+
+--	Quest start-up:
+	place item _heist_ at _target_
+	dialog link for location _safehouse_ person _contact_
+	start timer _S.01_
+	start timer _time_
+	log 1020 step 0
+	pc at _target_ set _S.02_
+	place npc _contact_ at _safehouse_
+
+_time_ task:
+	end quest
+
+variable _S.01_
+variable _S.02_
+until _S.02_ performed:
+	clear _S.06_ _S.05_
+
+_greklith_ task:
+	injured _guard_
+	say 1060
+
+_S.04_ task:
+	daily from 05:30 to 19:00
+
+_S.05_ task:
+	when _S.04_ and _S.02_
+	create foe _guard_ every 2 minutes 6 times with 50% success
+
+_S.06_ task:
+	when not _S.04_ and _S.02_
+	create foe _guard_ every 10 minutes 3 times with 50% success
+
+_S.07_ task:
+	toting _heist_ and _questgiver_ clicked
+
+_S.08_ task:
+	killed 1 _guard_
+	killed 1 _posse_
+	say 1061
+
+_S.09_ task:
+	when not _greklith_ and _S.07_ and not _S.01_
+	give pc _reward_
+	end quest
+--removed unnecessary delay ending
+
+_qgtalk_ task:
+	clicked npc _questgiver_
+
+_clearclick_ task:
+	when _qgtalk_ and not _S.07_
+	say 1003
+	clear _clearclick_ _qgtalk_
+--added _qgtalk_ and _clearclick_
+
+_S.10_ task:
+	when _greklith_ and _S.07_
+	create foe _posse_ every 60 minutes 20 times with 50% success
+	log 1021 step 1
+	get item _heist_
+	say 1050
+
+_S.10a_ task:
+	when _S.07_ and _S.01_
+	create foe _posse_ every 60 minutes 20 times with 50% success
+	log 1021 step 1
+	get item _heist_
+	say 1050
+--recent troubles with multiple conditions on a single task, this is better layout
+
+_S.12_ task:
+	toting _heist_ and _contact_ clicked
+	say 1051
+	change repute with _questgiver_ by +2
+	end quest
+
+_S.13_ task:
+	injured _posse_
+	have _heist_ set _S.18_
+
+_yes_ task:
+	give item _heist_ to _posse_
+	say 1052
+	restrain foe _posse_
+	clear _S.10_ _S.07_
+
+_no_ task:
+	say 1053
+
+_S.16_ task:
+	when _S.13_ and _S.08_
+	say 1063
+
+_S.17_ task:
+	when _S.13_ and not _S.08_ and _S.18_
+	prompt 1062 yes _yes_ no _no_
+
+variable _S.18_
+_S.19_ task:
+	clicked item _heist_ say 1040

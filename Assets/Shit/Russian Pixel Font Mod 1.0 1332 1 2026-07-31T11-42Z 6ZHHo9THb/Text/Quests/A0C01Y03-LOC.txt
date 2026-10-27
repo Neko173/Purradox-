@@ -1,0 +1,191 @@
+-- Quest: C:\QUESTS\WORKING\A0C01Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 01
+-- QuestId: 3
+Messages: 18
+Quest: A0C01Y03
+DisplayName: Pfuflrf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Z _qgiver_, b vyt ye*ys eckeub
+<ce> ve*tcndtyyjuj j[jnybrf. Z k<`k<
+<ce> _spouse_. Eds, %g jnrfpfkf vyt,
+<ce> gjrf z yt ljrf*e cdj< jcdtljvktyyjcnm, yfqlz
+<ce> jndtn yf pfuflre %g4 yfcnfdybrf _hermit_,
+<ce> ghjgfdituj ghb pfufljxys[ j`cnjzntkmcndf[.
+<ce> Ds ljk*ys yfqnb tuj b epyfnm jndtn yf
+<ce> @ne pfuflre. Gj ecgtiyjv jrjyxfybb z
+<ce> pfgkfxe _gold_ pjkjns[.
+
+RefuseQuest:  [1001]
+<ce> Kexit z ghjljk*e gjbcrb `jktt cujdjhxbdjuj
+<ce> fdfyn<hbcnf. Tckb dfv gjdcnhtxftncz rnj-nj
+<ce> pfbynthtcjdfdibqcz @njq hf`jnjq, yfghfdmnt
+<ce> tuj r _qgiver_.
+
+AcceptQuest:  [1002]
+<ce> Tlbycndtyysq xtkjdtr, rjnjhsq vj*tn gjvjxm dfv
+<ce> yfqnb _hermit_ - @nj _spouse_.
+<ce> %g vj*tn `snm d ___spouse_.
+<ce> Djpmvbnt @nb wdtns. ^nj tt k<`bvst.
+<ce> Jyb vjuen gjvjxm yfqnb tt hfcgjkj*tybt
+<ce> r dfv. Djn `evfuf c ntrcnjv pfuflrb.
+<ce> Tckb ds yt dthytntcm d ntxtybt nht[ vtczwtd,
+<ce> z `ele cxbnfnm xnj dfc gjcnbukf ytelfxf.
+
+QuestComplete:  [1004]
+<ce> _qgiver_ dcrhsdftn gbcmvj jn _hermit_.
+<ce> "Lj`hjnf! Ye rjytxyj *t! Ntgthm vyt
+<ce> gjyznyj, gjxtve _spouse_ lfkf vyt @nj
+<ce> pflfybt. Ytljcnfnjxyj ghjcnj k<`bnm tt,
+<ce> yflj gjrfpfnm tq dc< cdj< lj`hjne b
+<ce> dtkbrjleibt. Ds vyt jxtym gjvjukb, %pcf.
+<ce> Djn j`tofyyjt pjkjnj".
+
+RumorsDuringQuest:  [1005]
+<ce> _qgiver_ `tp evf jn k<`db.
+<ce> %g gsnftncz eujdjhbnm _spouse_
+<ce> ghbyznm ghtlkj*tybt herb b cthlwf.
+
+RumorsPostfailure:  [1006]
+<ce> Z cksifk, xnj _spouse_ dsikf pfve*
+<ce> d ___spouse_. _qgiver_ `eltn jxtym
+<ce> hfpjxfhjdfy, rjulf j`yfhe*bn @nj.
+
+RumorsPostsuccess:  [1007]
+<ce> Jnkbxyst yjdjcnb! _spouse_ b
+<ce> _qgiver_ yfrjytw-nj gj*tybkbcm.
+
+QuestorPostsuccess:  [1008]
+<ce> Dct xnj eujlyz lkz %ra, rjnjhsq yfitk
+<ce> jndtn yf vj< pfuflre. _spouse_
+<ce> b z gj*tybkbcm rfr ds e*t pyftnt.
+
+QuestorPostfailure:  [1009]
+<ce> Ds njn cfvsq %ra, rjnjhsq yt cvju yfqnb
+<ce> jndtn yf pfuflre jnitkmybrf. Vyt yt j xtv
+<ce> ujdjhbnm c uthjzvb-ytelfxybrfvb.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp ___qgiver_
+ gjghjcbk vtyz yfqnb _hermit_.
+ Djpvj*yj _hermit_ pyftn jndtn
+ yf pfuflre. Dct xnj vyt bpdtcnyj,
+ rjulf-nj %g j`ofkcz c _spouse_
+ d ___spouse_.
+
+Message:  1011
+<ce> Yt cnjbkj ghbyjcbnm _flowers_.
+<ce> _hermit_ et[fk j`exfnmcz e bpdtcnyjuj
+<ce> extyjuj _teacher_ d __school_.
+<ce> Tckb ds lflbnt tve djn @ne rybue,
+<ce> vj*tn `snm jy `eltn r dfv `jktt
+<ce> `kfujcrkjyty.
+
+Message:  1012
+<ce> _hermit_ ghjcbk vtyz yt hfcrhsdfnm cdjt
+<ce> vtcnjyf[j*ltybt ytpyfrjvwfv. Yj ds ghbytckb
+<ce> vyt rybue _book_ jn _spouse_, f
+<ce> pyfxbn ds yt ytpyfrjvtw. _hermit_
+<ce> etlbybkcz d jlyjv gjlptvtkmt, xnj`s
+<ce> bpexfnm lhtdybt ghtlfybz. Z gjvtxe
+<ce> @nj vtcnj yf dfitq rfhnt.
+<ce> Elfxb, %pcn.
+
+Message:  1013
+<ce> Ytyfdb*e, rjulf vtyz jndktrf<n! Tckb
+<ce> dct xnj dfv yflj - @nj jndtn yf nege<
+<ce> pfuflre, nj djn, lth*bnt! F ntgthm
+<ce> ghjdfkbdfqnt jnc<lf, gjrf z yt ghbpdfk
+<ce> juytyye< lf@lhf, xnj`s gjrfpfnm ds[jl.
+
+Message:  1014
+  Yt `eltv ujdjhbnm yb j k<`db yb ytyfdbcnb.
+Ghjcnj crf*b vyt djn xnj, rfrjq bp lfhjd,
+xnj vj*tim lfnm vyt, z yt vjue regbnm?
+
+Message:  1015
+%qdt:
+ Yfikfcm _spouse_.
+ %g crfpfkf vyt, xnj
+ _hermit_ eitk j`exfnmcz gjl
+ herjdjlcndjv _teacher_
+ d __school_.
+
+Message:  1016
+%qdt:
+ Dcnhtxfkbcm c exbntktv
+ _hermit_,
+ _teacher_ bp
+ __school_. %g crfpfk, xnj
+ _hermit_ etlbybkcz d
+ ___dungeon_.
+
+Message:  1017
+  Yt `eltv ujdjhbnm yb j k<`db yb ytyfdbcnb.
+Ghjcnj crf*b vyt djn xnj, rfrjq bp lfhjd,
+xnj vj*tim lfnm vyt, z yt vjue regbnm?
+<ce>
+-- ^nj LJ~HJNF, lehfxbyf!
+
+
+
+QBN:
+Item _book_ book
+Item _letter_ letter used 1014
+Item _flowers_ yellow_flowers
+Item _answer_ letter used 1017
+Item _gold_ gold
+
+Person _hermit_ face 1 group Group_7.2 remote
+Person _qgiver_ group Questor
+Person _spouse_ group Group_7.1 remote
+Person _teacher_ face 1 faction The_Academics remote
+
+Place _dungeon_ remote dungeon
+Place _school_ remote library
+
+Clock _S.01_ 90.00:00
+--removed flags to make timer exactly 90 days
+
+
+--	Quest start-up:
+	dialog link for location _school_ person _teacher_
+	dialog link for location _dungeon_ person _hermit_
+	start timer _S.01_
+	log 1010 step 0
+	get item _flowers_
+	get item _letter_
+	create npc _spouse_
+	place npc _hermit_ at _dungeon_
+	place npc _teacher_ at _school_
+
+variable _questdone_
+_S.01_ task:
+	end quest
+
+_S.02_ task:
+	toting _flowers_ and _spouse_ clicked saying 1011
+	add dialog for location _school_ person _teacher_
+	log 1015 step 1
+	get item _book_
+
+_S.03_ task:
+	toting _book_ and _teacher_ clicked saying 1012
+	add dialog for person _hermit_
+	reveal _dungeon_
+	log 1016 step 2
+
+_S.04_ task:
+	toting _letter_ and _hermit_ clicked saying 1013
+	get item _answer_
+
+_S.05_ task:
+	toting _answer_ and _qgiver_ clicked
+	give pc _gold_
+	end quest

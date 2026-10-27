@@ -1,0 +1,401 @@
+-- Quest: C:\QUESTS\WORKING\C0B00Y02.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: temple
+-- Repute: 0
+-- QuestId: 2
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 27
+Quest: C0B00Y02
+DisplayName: Jlth*bvjt lbnz
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Yt [jnbnt kb ds jrfpfnm cjltqcndbt d
+<ce> @rpjhwbpvt, %pct?
+   <--->
+<ce> _guardian_, vtcnysq hswfhm,
+<ce> evjkztn yfc gjvjxm cdjtve ht`tyre, gjrf-
+<ce> psdf<otve dct ghbpyfrb jlth*bvjcnb
+<ce> lf@lhf. Yt [jnbnt kb ds jrfpfnm cjltqcndbt
+<ce> d @rpjhwbpvt, tckb @njuj gjnht`etn
+<ce> cbnefwbz?
+
+RefuseQuest:  [1001]
+<ce> Rfr gtxfkmyj. Yflt<cm vs yfqltv
+<ce> rjuj gjcujdjhxbdtt.
+
+AcceptQuest:  [1002]
+<ce> Cjukfcys? %oth, e dfc `jkmijt cthlwt,
+<ce> hfpvthjv c %reg, %pct.
+<ce> Ht`tyrf pjden _child_,
+<ce> %g - =child_ bp
+<ce> _house_ pltcm d __house_,
+<ce> yj xtkjdtr, c rjnjhsv dfv yflj gjujdjhbnm,
+<ce> %g4 jgtrey, _guardian_
+<ce> d _tavern_. Tckb bc[jlbnm
+<ce> bp njuj, xnj %g ujdjhbn b ds htibnt,
+<ce> xnj `tp @rpjhwbpvf yt j`jqnbcm,
+<ce> j`hfnbntcm r _priest_ d
+<ce> __priest_ bp ___priest_.
+<ce> Z hfccxbnsdf<, xnj @nj ytghbdktrfntkmyjt
+<ce> ltkj `eltn hfphtityj d ntxtybt =queston_
+<ce> lytq b z edb*e dfc cyjdf. Elfxb b
+<ce> lf ght`eltn c dfvb %god.
+
+QuestComplete:  [1004]
+<ce> ~kfujlfhtybt %god, xnj @nf cbnefwbz
+<ce> hfphtibkfcm. Ybrjulf ytkmpz ghtlcrfpfnm,
+<ce> xtv pfrjyxbncz @rpjhwbpv. E dfc dct
+<ce> gjkexbkjcm, %pcf. Djpmvbnt cdj< yfuhfle
+<ce> _reward_ pjkjns[ d pyfr ghbpyfntkmyjcnb
+<ce> dfib[ pfckeu.
+
+RumorsDuringQuest:  [1005]
+~tlyjt lbnz _child_. B `tlysq _guardian_ dsye*lty dbltnm vextybz cdjtuj ht`tyrf.
+   <--->
+Cthlwt %cn ltqcndbntkmyj pfdbcbn jn _child_ b %g4 cnhfiyjuj rhbpbcf.
+
+RumorsPostfailure:  [1006]
+_child_ b _guardian_ eikb bp ___guardian_.
+   <--->
+Vs ybrjulf yt epyftv, ltqcndbntkmyj kb _child_ `skf jlth*bvjq.
+
+RumorsPostsuccess:  [1007]
+Dct `kfujlfhzn %god pf %ra, cgfcituj *bpym vfktymrjq _child_.
+   <--->
+Dct pfrjyxbkjcm `kfujgjkexyj lkz vfktymrjq _child_, vj*tn @nj pf`jnf %god.
+
+QuestorPostsuccess:  [1008]
+Ds gjvjukb __qgiver_ @nbv @rpjhwbpvjv. Xnj z vjue cltkfnm lkz dfc?
+
+QuestorPostfailure:  [1009]
+Ds `hjcbkb @nj lbnz d `tlt. Vyt ytxtuj `jktt crfpfnm dfv.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp ___qgiver_
+ [jxtn ghjdthbnm, zdkztncz kb
+ =child_ gj bvtyb _child_
+ *thndjq jlth*bvjcnb b tckb @nj dthyj,
+ gjgsnfnmcz bcwtkbnm tt.
+ Dyfxfkt vyt ye*yj gjujdjhbnm c tt
+ jgtreyjv _guardian_ d _tavern_.
+
+Message:  1011
+<ce> Ds bp __qgiver_? Gj*fkeqcnf,
+<ce> crf*bnt vyt, xnj ds vj*tnt gjvjxm vfksirt
+<ce> _child_. Z yt vjue e*t cvjnhtnm yf
+<ce> tt cnhflfybz. Yt pyf<, xnj c @nbv vj*yj
+<ce> gjltkfnm. Gj*fkeqcnf, jcvjnhbnt tt, f
+<ce> gjnjv, tckb ds cvj*tnt e`tlbnm jrfpfnm
+<ce> gjvjom cdzotyybrf _priest_.
+<ce> _child_ dctulf `skf cxfcnkbdsv =child_,
+<ce> yj ntgthm ... Tckb ds [jnbnt gjcvjnhtnm yf
+<ce> ytt, jyf d _house_. ~jkmit yt pyf<,
+<ce> xnj tot crfpfnm.
+
+Message:  1012
+<ce> Ds bp __qgiver_? ~kfujlfhtybt
+<ce> %god, xnj ds pltcm. Ujdjhzn ds vj*tnt
+<ce> yfqnb _priest_,
+<ce> @rpjhwbcne bp __priest_,
+<ce> e ytuj tcnm jlyf dtom: _item_,
+<ce> rfr hfp lkz nfrjuj hjlf jlth*bvjcntq.
+<ce> Z yt vjue e`tlbnm _priest_ lfnm
+<ce> _item_ vyt, yj rnj-nj yfdhjlt dfc
+<ce> c fdnjhbntnjv __qgiver_ pf cgbyjq
+<ce> vj*tn pfcnfdbnm gthtvtybnm tuj vytybt.
+<ce> Blbnt d ___priest_ b gjujdjhbnt
+<ce> c ybv. Ytn cjvytybq, dfv elfcncz e`tlbnm tuj.
+
+Message:  1013
+%qdt:
+ _guardian_,
+ jgtrey _child_,
+ ghjcbn vtyz jcvjnhtnm ht`tyrf, f gjnjv
+ gjdblfnmcz c _priest_
+ bp __priest_, ___priest_
+ ye*lftncz d ghjdtltybb @rpjhwbpvf.
+ _child_ yf[jlbncz d _house_.
+
+Message:  1014
+%qdt:
+ _guardian_,
+ jgtrey _child_
+ ghjcbn vtyz c[jlbnm d __priest_
+ d ___priest_, xnj`s gjghjcbnm e
+ _priest_ jlye dtobwe: _item_,
+ vjueoe< gjvjxm bpuyfnm le[f lf@lhf
+ bp ntkf ht`tyrf.
+
+Message:  1015
+<ce> "=daedra_ ... j, %oth ...
+<ce> =daedra_ e[jlbn bp vtyz ...
+<ce> yj ... jyj dct tot pltcm".
+<ce> _child_ e`tuftn.
+<ce> Ds xedcndetnt ghbcencndbt xtuj-nj
+<ce> xe*thjlyjuj d _house_.
+
+Message:  1016
+<ce> J, %oth, %oth ...
+<ce> Z xedcnde< ct`z ... vyjuj kexit.
+<ce> _guardian_ crfpfk vyt, xnj
+<ce> _item_ vj*tn gjvjxm yfv
+<ce> b jy `sk ghfd. J[, `kfujlfh< dfc
+<ce> lj`hsq uthjq. Z `ele [hfybnm
+<ce> _item_ lkz cdjtq pfobns.
+<ce> Ghjofqnt!
+
+Message:  1017
+<ce> Uhhhffff[[[, ns, cj`frjukfpsq cvthnysq e`k<ljr.
+<ce> Z dcrhj< dct ndjb dtys b bcregf<cm
+<ce> d gjnjrf[ ndjtq rhjdb. Vtyz pjden
+<ce> =daedra_, ckbpsdfntkm
+<ce> rjifxmb[ rfrfitr!
+   <--->
+<ce> ~tlyfz vfktymrfz _child_,
+<ce> %g uybtn d J`kbdbjyt  b ybrnj yt vj*tn
+<ce> gjvjxm tq, rhjvt lj`hjuj, lj`hjuj,
+<ce> lj`hjuj, lj`hjuj, lj`hjuj, lj`hjuj,
+<ce> lj`hjuj, lj`hjuj, lj`hjuj, lj`hjuj,
+<ce> lj`hjuj, lj`hjuj, lj`hjuj =daedra_.
+   <--->
+<ce> Rjulf nj @nj `skf ltdjxrf gj bvtyb Dbdbfy,
+<ce> rjnjhfz dcnhtnbkf =daedra_ bp
+<ce> J`kbdbjyf, pf[jntd cnfnm dphjckjq,
+<ce> crjht jyb c]tlzn _child_,
+<ce> b[ lbnz, yzv, yzv.
+
+Message:  1018
+<ce> Vyt jxtym *fkm, %pcf, yj z yt vjue
+<ce> lfnm _item_ k<`jve, levf<otve, xnj jy
+<ce> pyftn dct j *thndt jlth*bvjcnb. ^nf
+<ce> dtobwf gjgfkf c<lf bplfktrf b jyf jxtym
+<ce> wtyyfz. Dfv cnjbn cyfxfkf gjdblfnm lbnz,
+<ce> ght*lt xtv z cjukfiecm jnlfnm _item_.
+
+Message:  1019
+<ce> =daedra_? _child_ egjvbyfkf
+<ce> bvz =daedra_?
+<ce> Xnj *, tckb @nf jlth*bvjcnm - ghbndjhcndj,
+<ce> nj jnkbxyj csuhfyyjt ghbndjhcndj.
+<ce> Djn, djpmvbnt _item_.
+<ce> Ghjcnj lth*bnt @nj ghb ct`t, rjulf d
+<ce> cktle<obq hfp pfujdjhbnt c ltdjxrjq. Yj
+<ce> `thtubntcm, lf@lhf, pf[dfnbdibq hfpev
+<ce> _child_, @nj lf@lhjn `jkmijq cbks.
+<ce> Rjulf @rpjhwbpv pfdthibncz, jy jcnfdbn
+<ce> tt b ghjzdbncz ult-nj d _house_.
+<ce> ~elmnt ujnjds r c[dfnrt, rjulf @nj
+<ce> ghjbpjqltn. Elfxb, %pcf.
+<ce> %god ght`eltn c dfvb.
+
+Message:  1020
+%qdt:
+ Yt pyf<, xnj @nj pf =daedra_, yj rf*tncz @nj
+ `skj bvz, rjnjhjt egjvzyekf _child_,
+ rjulf z j`ofkcz c ytq.
+ ^nf =child_ jlth*bvf, `tpevyf bkb
+ dtkbxfqibq frnth d %cn. Cfvjt dhtvz
+ gjdblfnm @rpjhwbcnf d ___priest_,
+ _priest_ d __priest_.
+
+Message:  1021
+<ce> Lj`hsq %pcf, yt pyf< rfr jn`kfujlfhbnm
+<ce> dfc pf nj, xnj ds cltkfkb lkz _child_.
+<ce> Ctqxfc jyf d gjkyjv gjhzlrt, jyf cyjdf
+<ce> j`sxysq ht`tyjr. Z hfccrfpfk dct _qgiver_
+<ce> d dfitv [hfvt __qgiver_ b jy c
+<ce> ytnthgtybtv *ltn dfc, xnj`s gjplhfdbnm.
+<ce> Tot hfp, `jkmijt cgfcb`j!
+
+Message:  1022
+<ce> Z vjue crfpfnm, ult @njn
+<ce> =guardian_, _guardian_
+<ce> ghjdjlbn dhtvz. Yj gjrf z yt edb*e d
+<ce> dfitq hert gznmltczn pjkjns[,
+<ce> ds yt epyftnt @ne byajhvfwb<.
+
+Message:  1023
+<ce> Ltym lj`hsq dfv, %pct.
+<ce> Gj[j*t ds botnt rjuj-nj,
+<ce> =guardian_, _guardian_,
+<ce> rjnjhsq et[fk jnc<lf gjckt njuj,
+<ce> rfr [dfcnfkcz ghj erhfltyye< e
+<ce> __qgiver_ dtobwe - _item_.
+<ce> Tckb e dfc yfqltncz gznmltczn pjkjns[
+<ce> vjytn lkz lheuf, nj z hfccrf*e, relf
+<ce> et[fk _guardian_.
+<ce> Xnj crf*tnt?
+
+Message:  1024
+<ce> Ghbznyj bvtnm c dfvb ltkj,
+<ce> %pcf. Gjbobnt @njuj
+<ce> =guardian_ d _house2_.
+
+Message:  1025
+<ce> "Yt e`bdfqnt vtyz!" _guardian_
+<ce> jnlftn dfv _item_
+<ce> b e`tuftn c gjkz `jz.
+
+Message:  1026
+%qdt:
+ _hooker_, =hooker_ bp
+ _tavern_ hfccrfpfk vyt (pf gznmltczn pjkjns[),
+ xnj @njn _guardian_ c`t*fk d
+ _house2_ gjckt njuj, rfr _child_
+ erhfkf _item_ e vtyz. Jlth*bvjcnm hfpevttncz `skf
+ ghbndjhcndjv, f djn _priest_ b
+ _qgiver_ [jnzn gjkexbnm _item_ j`hfnyj.
+
+
+
+QBN:
+Item _item_ religious
+Item _reward_ religious
+Item _gold_ gold range 50 to 50
+
+Person _qgiver_ group Questor
+Person _child_ face 1 faction Children local
+Person _guardian_ face 1 factiontype Knightly_Guard local
+Person _priest_ face 104 factiontype Temple remote
+Person _hooker_ face 1 faction The_Prostitutes local
+
+Place _house_ local house2
+Place _house2_ local house2
+Place _house3_ remote random
+Place _tavern_ local tavern
+
+Clock _queston_ 5.00:00 10.00:00 flag 17 range 1 4
+
+Foe _daedra_ is Daedroth
+
+--	Quest start-up:
+	dialog link for location _house2_ person _hooker_
+	start timer _queston_
+	log 1010 step 0
+	pick one of _sham_ _real_
+	place npc _child_ at _house_
+	place npc _guardian_ at _tavern_
+	place npc _priest_ at _house3_
+	have _item_ set _haverelic_
+
+_queston_ task:
+	end quest
+
+_talkguardian_ task:
+	clicked npc _guardian_
+
+variable _real_
+variable _sham_
+_realtalk_ task:
+	when _talkguardian_ and _real_
+	log 1013 step 1
+	say 1011
+
+_shamtalk_ task:
+	when _talkguardian_ and _sham_ and not _revealsham_
+	log 1014 step 2
+	say 1012
+
+_clickchild_ task:
+	clicked npc _child_
+
+_exorcise_ task:
+	when _haverelic_ and _real_ and _clickchild_
+	take _item_ from pc
+	hide npc _child_
+	say 1015
+	place foe _daedra_ at _house_
+	clear _talkguardian_
+
+-until _exorcise_ performed:
+-	clear _clickpriest_ _qgclicked_
+
+_revealsham_ task:
+	when _haverelic_ and _sham_ and _clickchild_
+	take _item_ from pc
+	hide npc _child_
+	say 1016
+	place npc _guardian_ at _house2_
+	place npc _hooker_ at _tavern_
+	clear _talkguardian_
+
+variable _haverelic_
+_firstclickchild_ task:
+	when _clickchild_ and not _haverelic_
+	log 1020 step 3
+	say 1017
+-	clear _clickchild_
+
+_clickpriest_ task:
+	clicked npc _priest_
+
+_rebuff_ task:
+	when _clickpriest_ and not _firstclickchild_ and not _rescueitem_ and not _exorcise_ and not _givenitem_
+	say 1018
+	clear _clickpriest_
+
+_priestgivesitem_ task:
+	when _clickpriest_ and _firstclickchild_ and not _exorcise_ and not _rescueitem_
+	say 1019
+	start task _givenitem_
+-	start task _giverelictask_
+-
+-_giverelictask_ task:
+	get item _item_
+	clear _clickpriest_
+	clear _clickchild_
+
+variable _givenitem_
+_thanks_ task:
+	when _talkguardian_ and _exorcise_
+	say 1021
+
+_hookerconfess_ task:
+	add dialog for location _house2_
+	log 1026 step 6
+	say 1024
+
+_toopoor_ task:
+	say 1022
+
+_bribe_ task:
+	clicked _hooker_ and at least 50 gold otherwise do _toopoor_
+	prompt 1023 yes _hookerconfess_ no _refuseconfess_
+
+_refuseconfess_ task:
+	get item _gold_
+	make _gold_ permanent
+
+_rescueitem_ task:
+	when _talkguardian_ and _revealsham_
+	get item _item_
+	hide npc _guardian_
+	say 1025
+
+-until _rescueitem_ performed:
+-	clear _itemtopriest_ _itemtoqg_ _talkguardian_
+
+-_itemtoqg_ task:
+-	toting _item_ and _qgiver_ clicked
+
+-_itemtopriest_ task:
+-	toting _item_ and _priest_ clicked
+
+_victory_ task:
+	when _qgclicked_ and _rescueitem_
+	when _qgclicked_ and _exorcise_
+	when _clickpriest_ and _rescueitem_
+	when _clickpriest_ and _exorcise_
+	give pc _reward_
+	end quest
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_clearclick_ task:
+	when _qgclicked_ and not _rescueitem_ and not _exorcise_
+	clear _qgclicked_ _clearclick_

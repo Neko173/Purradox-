@@ -1,0 +1,190 @@
+-- Quest: C:\QUESTS\WORKING\P0B10L10.Qbn.
+-- StartsBy: letter
+-- Questee: member
+-- Questor: vampire
+-- Repute: 10
+-- QuestId: 10
+Messages: 18
+Quest: P0B10L10
+DisplayName: Cjghjdj*lf<obq
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+Error: Questtext 1000 Called.
+
+RefuseQuest:  [1001]
+Error: Questtext 1001 Called.
+
+AcceptQuest:  [1002]
+Error: Questtext 1002 Called.
+
+QuestComplete:  [1004]
+<ce> Dfv `skj jxtym ytghjcnj ghjqnb
+<ce> xthtp bcgsnfybt nfrjuj nbgf.
+<ce> Lf tot b c ytvfkjq yfuheprjq d
+<ce> dblt dfvgbhf  _vamp_.
+<ce> Z vjue kbim njkmrj ghtlcnfdbnm
+<ce> ct`t dfib `tls. Lj`fdmnt r @njve
+<ce> tot nhtnbhjdfybz cj cnjhjys
+<ce> pkj`yjuj vfuf, - =mage_
+<ce> Z gjybvf<, gjxtve %vam
+<ce> nf rjuj dscjrjuj vytybz j dfc,
+<ce> %pcf.
+
+RumorsDuringQuest:  [1005]
+=mage_ - dctuj kbim j`sxysq j[jnybr pf dfvgbhfvb, ytlfdyj gjrbyek ghjdbywb< %reg.
+   <--->
+=mage_ Vj*tn dnzyenm jxtym vyjub[ dfvgbhjd d ythfdysq `jq.
+
+RumorsPostfailure:  [1006]
+Ytrnj =vamp2_ bp vtcnf __vamp2_ bcrfk rjuj-nj. %ra gj bvtyb %pcn, rf*tncz.
+
+RumorsPostsuccess:  [1007]
+=mage_, jxtdblyj, djdct yt j[jnybr pf dfvgbhfvb, rfr %g ujdjhbn j ct`t.
+   <--->
+=mage_, djpvj*yj, dtkbxfqibq bcnht`bntkm dfvgbhjd. B %g lf*t yt levftn j` @njv.
+
+QuestorPostsuccess:  [1008]
+Error: Questtext 1008 Called.
+
+QuestorPostfailure:  [1009]
+Error: Questtext 1009 Called.
+
+QuestLogEntry:  [1010]
+      __vamp_
+       ___vamp_
+<ce>
+%pcn,
+<ce>
+  %vam ye*lftncz d dfc.
+Chjxyj.
+<ce>
+<ce>
+Dctulf dfi lheu d cvthnb,
+<ce>
+    _vamp_
+<ce> ----
+
+Message:  1011
+%qdt:
+ Vyt gthtlfkb gbcmvj jn
+ dfvgbhf bp hjlf %vam
+ gj bvtyb _vamp_. Ctvmz
+ nht`etn vjtuj ghbcencndbz
+ d ujhjlt ___vamp_ d
+ vtcnt gjl yfpdfybtv
+ __vamp_.
+
+Message:  1012
+<ce> ~kfujlfh< dfc pf crjhjt ghb`snbt.
+<ce> E yfc d ghjdbywbb %reg gjzdbkcz
+<ce> vjueotcndtyysq dhfu, vfu, yfpsdftvsq
+<ce> =mage_. Vs dcnhtxfkbcm rjulf-nj,
+<ce> b ytkmpz crfpfnm, xnj dcnhtxf `skf
+<ce> bp ghbznys[. Vyt `skj ghbrfpfyj
+<ce> gjujdjhbnm c dfvgbhjv gj bvtyb
+<ce> _vamp2_ d ujhjlt ___vamp2_
+<ce> j` @njv ltkt, yj z pyf<, xnj
+<ce> =mage_ botn vtyz. E vtyz ytn cbk
+<ce> gentitcndjdfnm cfvjcnjzntkmyj. Gj@njve
+<ce> ghjie dfc, %pcn, ghjdjlbnt vtyz.
+<ce> Yfv ye*yj ghb`snm d ujhjl ___vamp2_
+<ce> d vtcnj, bvtyetvjt __vamp2_, ght*lt,
+<ce> xtv @njn vfu cj`thtn `jkmit cj<pybrjd.
+<ce> E yfc tcnm dctuj =queston_ yjxtq, %pcf.
+<ce> ^nj cjdctv ytvyjuj, yj yflj gjcnfhfnmcz.
+
+Message:  1013
+<ce> Rhjdjcjc bcxtp. Ltkj cnfyjdbncz
+<ce> `jktt bynthtcysv.
+
+Message:  1014
+%qdt:
+ Z cjghjdj*lf< dfvgbhf gj bvtyb
+ _vamp_ r lheujve dfvgbhe,
+ rjnjhjuj pjden _vamp2_.
+ Vyt ye*yj ghb`snm d ujhjl ___vamp2_.
+ __vamp2_, nfv yfc `elen *lfnm.
+ Yflj lj`hfnmcz nelf ght*lt, xtv ytrbq vfu
+ edtkbxbn cdjb cbks.
+
+Message:  1015
+<ce> "%pcf!", ujdjhbn _vamp_,
+<ce> "Ds e`bkb =mage_, @njn
+<ce> `bx hjlf %vam, `jkmit yt
+<ce> ceotcndetn!"
+
+Message:  1016
+<ce> "Ckbirjv ljkuj",-
+<ce> ujdjhbn _vamp_,
+<ce> bcxtpfz dj nmvt.
+
+Message:  1017
+<ce> ~ktlysq vfkmxbr c *enrbvb
+<ce> ukfpfvb lfk dfv cdthnjr b
+<ce> bcxtp dj nmvt.
+
+
+
+QBN:
+Item _letter_ letter used 1010
+
+Person _vamp_ factiontype Vampire_Clan local
+Person _vamp2_ factiontype Vampire_Clan remote
+
+
+Clock _queston_ 00:00 0 flag 1 range 1 2
+
+Foe _mage_ is Mage
+
+--	Quest start-up:
+	dialog link for person _vamp2_
+	dialog link for person _vamp_
+	_letter_ used do _readletter_
+	have _letter_ set _S.10_
+	give pc _letter_ notify 1017
+
+_queston_ task:
+	end quest
+
+_vampclicked_ task:
+	clicked npc _vamp_
+	log 1014 step 1
+	hide npc _vamp_
+	say 1012
+	add _vamp_ face
+	create npc _vamp2_
+
+variable _S.02_
+_S.03_ task:
+	when _vampclicked_ and not _S.04_
+	create foe _mage_ every 15 minutes 5 times with 50% success
+
+_S.04_ task:
+	injured _mage_
+	say 1013
+
+variable _reward_
+_S.06_ task:
+	killed 1 _mage_
+	say 1015
+
+_S.07_ task:
+	clicked npc _vamp2_
+	give pc nothing
+	change repute with _vamp_ by +5
+	end quest
+
+_S.08_ task:
+	when _queston_ and not _S.07_
+	say 1016
+	change repute with _vamp_ by -10
+
+_readletter_ task:
+	add dialog for person _vamp_
+	log 1011 step 0
+	create npc _vamp_
+
+_S.10_ task:
+	start timer _queston_

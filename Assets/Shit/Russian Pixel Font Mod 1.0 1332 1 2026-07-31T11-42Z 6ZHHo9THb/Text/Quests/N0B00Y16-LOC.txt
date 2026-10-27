@@ -1,0 +1,239 @@
+-- Quest: C:\QUESTS\WORKING\N0B00Y16.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 0
+-- QuestId: 16
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 52
+Quest: N0B00Y16
+DisplayName: Jnrhsnm ceyler
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pct, vyt ye*ty rnj-nj, rnj pyftn
+<ce> pfrkbyfybt "Jnrhsnm".  Gj*fkeqcnf,
+<ce> crf*bnt, xnj ds tuj dsexbkb.
+
+RefuseQuest:  [1001]
+<ce> Dfv ltqcndbntkmyj ye*yj gjcdznbnm
+<ce> ct`z bpextyb< vfubb, tckb [jnbnt
+<ce> lj`bnmcz gjdsitybz d Ubkmlbb.
+
+AcceptQuest:  [1002]
+<ce> {jhjij, njulf yfxytv.  Pflfybt, rjnjhjt
+<ce> z dfv lfv, `eltn jxtym ghjcnsv. Yfcnjkmrj
+<ce> ghjcnsv, xnj c ybv cvj*tn cghfdbnmcz lf*t
+<ce> ht`tyjr.
+<ce> Jlby njhujdtw, _merchant_, regbk
+<ce> fynbrdfhysq ceyler, yj ybrfr yt vj*tn tuj
+<ce> jnrhsnm. Gsnfkcz lf*t kexibq cktcfhm ujhjlf
+<ce> __shop_, yj yt cvju, nfr xnj
+<ce> %g ghjcbn yfc j gjvjob.  Ctqxfc e yfc ytn
+<ce> dhtvtyb lkz nfrb[ gecnzrjds[ vtkjxtq,
+<ce> yj tckb vs tve gjvj*tv, Ubkmlbz cvj*tn
+<ce> pfhexbnmcz cdjbv gjrhjdbntkmcndjv, nfr xnj
+<ce> vyt ghbikjcm cjukfcbnmcz gjckfnm rjuj-nj.
+<ce> Nj, j xtv z ujdjh<, - crjhtt dctuj jlyf bp
+<ce> [bnhs[ inextr pyfvtybnjuj vfuf _mage_.
+<ce> Jyb `skb cltkfys d juhjvyjv rjkbxtcndt, d
+<ce> jcyjdyjv rfr gjlfhrb cdjbv lhepmzv, b lj cb[ gjh
+<ce> ghjzdkz<ncz, b`j b[ cjplfntkm ltqcndbntkmyj
+<ce> pyfvtybn... j xtv @nj z?
+<ce> F! Lf. {jhjij. Ctrhtn @nb[ irfnekjxtr d njv,
+<ce> xnj b[ ytdjpvj*yj jnrhsnm ybrfrbv cgjcj`jv,
+<ce> rhjvt bcgjkmpjdfybz j`sxyjuj pfrkbyfybz
+<ce> "Jnrhsnm". B[ cgtwbfkmyj cltkfkb ytdjcghbbvxbdsvb
+<ce> r lheubv ghbxelkbdsv pfrkbyfybzv, rjnjhst %g4
+<ce> lhepmz j`sxyj bcgjkmpjdfkb. Lf, e y%g4 `skj
+<ce> j`sryjdtybt hfcnhfxbdfnm cdjq ytvfksq nfkfyn yf
+<ce> gjlj`yst ienrb. F *fkm. Ye kflyj, blbnt...
+
+QuestFail:  [1003]
+<ce> %pct, jcnfdmnt vtyz d gjrjt b eqlbnt.
+<ce> E vtyz tcnm hf`jnf b e dfc, rf*tncz, nj*t,
+<ce> tckb z yt jib`f<cm.
+
+QuestComplete:  [1004]
+<ce> F? Xnj dfv yflj?  F, lf, [bnhfz irfnekrf.
+<ce> Z pyf<, lkz dfc @nj `skj ytckj*yj.
+<ce> Gecnm @nj `eltn yt`jkmijq htrkfvjq
+<ce> Lkz Ubkmlbb Vfujd. {jhjij?
+
+RumorsDuringQuest:  [1005]
+<ce> Ds cksifkb, xnj _merchant_ yt vj*tn jnrhsnm
+<ce> ytlfdyj ghbj`htntyysq ceylexjr? Dtctkj!
+
+RumorsPostfailure:  [1006]
+<ce> _merchant_ crjhj pf`hjcbn gjgsnrb jnrhsnm cdjq ceylexjr b ghjlfcn tuj tot rjve-yb`elm.
+
+RumorsPostsuccess:  [1007]
+<ce> Jlby njhujdtw gjghjcbk Ubkmlb< Vfujd jnrhsnm cdj< vfubxtcre< irfnekre,
+<ce> b, rjulf tt jnrhskb, jyf jrfpfkfcm gecnf. ^nj dct, xnj vyt bpdtcnyj.
+
+QuestorPostsuccess:  [1008]
+<ce> F, %pcn. Z gjvy< dfc. Djkit`yfz irfnekrf vfuf _mage_, lf?
+
+QuestorPostfailure:  [1009]
+<ce> Hflb dctuj cdznjuj, xnj dfv ye*yj? Ds ckf`fr, rjnjhsq
+<ce> lf*t yt cvju jnrhsnm irfnekre regwf _merchant_.
+
+Message:  1020
+%qdt:
+ _questgiver_ bp Ubkmlbb Vfujd
+ ujhjlf ___questgiver_ ghjcbn
+ vtyz dcrhsnm irfnekre vtcnyjuj regwf
+ _merchant_. _questgiver_
+ levftn, xnj @nj crjhtt dctuj dtctkfz
+ ifkjcnm jlyjuj bpdtcnyjuj vfuf, rjnjhfz
+ jnrhsdftncz ghjcnsv pfrkbyfybtv. Z
+ gjkfuf<, xnj cvjue edbltnm, xnj nfv, rjulf
+ pfrjyxe.
+
+Message:  1030
+<ce> Dfc gjckfkf Ubkmlbz Vfujd? Jnkbxyj.
+<ce> Z pyf<, vjq cnfhsq lheu _questgiver_
+<ce> yt jcnfdbn vtyz. Djn irfnekrf. Yflt<cm,
+<ce> e dfc tcnm bltb, rfr tt jnrhsnm.
+<ce> F nj e vtyz jyb e*t bcxthgfys.
+
+Message:  1040
+<ce> Rfr njkmrj ds ghjbpytckb pfrkbyfybt yf
+<ce> rjhj`jxre, rhsirf gjlghsuyekf, b jnnelf
+<ce> dscrjxbk `tc.
+<ce>
+<ce> "C lytv hj*ltybz, =mage2_, cnfhjt gerfkj!"
+<ce> ghjrelf[nfk `tc ytyfnehfkmyj uke`jrbv,
+<ce> pfvjubkmysv ujkjcjv.
+
+Message:  1041
+<ce> Rfr njkmrj pfrkbyfybt `skj ghjbpytctyj,
+<ce> rhsirf otkryekf b jnrhskfcm. Dyenhb `skf
+<ce> gfkjxrf c yflgbcm<: "=mage3_, d xtcnm
+<ce> ndjtuj 110-uj lyz hj*ltybz. Bcgjkmpeq vtyz,
+<ce> xnj`s edbltnm 120-q!"
+
+Message:  1042
+<ce> Rfr njkmrj ds ghjbpytckb pfrkbyfybt, bp
+<ce> ceylexrf gjdfkbk lsv, rhsirf cj otkxrjv
+<ce> jndfkbkfcm zdkzz dpjhe uhfd<he:
+<ce>
+"Ljhjujq lheu =mage4_,
+<ce>
+Yflt<cm, nt`t yhfdbncz ndjt yjdjt *bkbot.
+Yt pf`elm hfpheibnm nfv dct, ght*lt,
+xtv pfctkbimcz.
+<ce>
+Ndjq lheu,
+<ce>
+ _mage_
+
+Message:  1043
+<ce> Rhsirf irfnekrb jnrhskfcm, b jnnelf
+<ce> ajynfyjv gjktntkj rjyatnnb.
+<ce> ~jkmit nfv ybxtuj yt `skj.
+
+Message:  1050
+<ce> Z dscjrj wty< nj, xnj Ubkmlbz yfghfdbkf
+<ce> dfc gjvjxm vyt...yflt<cm.
+<ce> Rjytxyj, tckb `s vyt `skj bpdtcnyj, xnj
+<ce> nfv dyenhb, e vtyz yt `skj `s nfrjuj
+<ce> *uextuj ltkfybz jnrhsnm tt!
+
+Message:  1051
+<ce> Tckb ds cvjukb jnrhsnm irfnekre, nj
+<ce> vj*tn `snm ds tt pf`thtnt? Z yt pyf<,
+<ce> lkz xtuj vyt tt bcgjkmpjdfnm.
+
+
+
+QBN:
+Item _crn_ item class 1 subclass 8
+--changed %crn to _crn_. variables should have underscores
+Item _I.01_ wand
+
+Person _questgiver_ face 86 group Questor
+Person _merchant_ face 87 group Pawnbroker female
+Person _mage_ face 1 group Spellcaster remote
+
+Place _shop_ local pawnshop
+
+Clock _qtime_ 2.00:00 0 flag 1 range 0 1
+
+Foe _mage2_ is Battle_mage
+Foe _mage3_ is Sorceror
+Foe _imp_ is Imp
+Foe _rats_ is Giant_rat
+Foe _bats_ is Giant_bat
+Foe _mage4_ is Mage
+Foe _skeleton_ is Skeletal_warrior
+
+--	Quest start-up:
+	start timer _qtime_
+	log 1020 step 0
+	place npc _merchant_ at _shop_
+
+_qtime_ task:
+	end quest
+
+_clickqgiver_ task:
+	clicked npc _questgiver_
+
+_S.10_ task:
+	toting _crn_ and _merchant_ clicked
+
+_S.02_ task:
+	clicked npc _merchant_
+	cast Open spell do _S.07_
+	get item _crn_
+	say 1030
+
+_a3_ task:
+	create foe _imp_ every 1 minutes 1 times with 100% success
+	say 1040
+
+_a4_ task:
+	_I.01_ used do _S.09_
+	get item _I.01_
+	say 1041
+
+_a5_ task:
+	create foe _rats_ every 3 minutes 3 times with 100% success
+	create foe _bats_ every 2 minutes 2 times with 100% success
+	say 1042
+
+_a6_ task:
+	say 1043
+
+_S.07_ task:
+	have _crn_ set _S.08_
+
+_S.08_ task:
+	pick one of _a3_ _a4_ _a5_ _a6_
+
+_S.09_ task:
+	create foe _skeleton_ every 1 minutes 1 times with 100% success
+	make _I.01_ permanent
+
+_S.11_ task:
+	when _S.08_ and _S.10_
+	say 1050
+
+_success_ task:
+	when _S.11_ and _clickqgiver_
+	give pc nothing
+	unset _clickqgiver_
+	end quest
+
+_clearclick_ task:
+	when _clickqgiver_ and not _S.11_
+	say 1003
+	clear _clearclick_ _clickqgiver_
+
+_S.13_ task:
+	when _S.10_ and not _S.08_
+	get item _crn_
+	say 1051
+	clear _S.10_
+	clear _S.13_

@@ -1,0 +1,130 @@
+-- Quest: C:\QUESTS\WORKING\L0B00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 0
+-- QuestId: 0
+Messages: 22
+Quest: L0B00Y00
+DisplayName: Htytufn
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Gkj[bt yjdjcnb, %pcn. D ~hfncndt j`yfhe*ty
+<ce> ghtlfntkm. Dct dsdjls bp @njuj ds
+<ce> vj*tnt cltkfnm cfvb, yt nfr kb?
+   <--->
+<ce> Dhtvz jn dhtvtyb ~hfncndj ghjdjlbn ghjdthre
+<ce> d cdjb[ cj`cndtyys[ hzlf[. B vs yfikb ghtlfntkz,
+<ce> kbxyjcnm rjnjhjuj e*t ecnfyjdktyf. Dfv dsgfkf
+<ce> xtcnm gjrfhfnm jncnegybrf.
+
+RefuseQuest:  [1001]
+<ce> Gjpjhysq jndtn. Vyt rfpfkjcm, xnj ds dsit @njuj.
+
+AcceptQuest:  [1002]
+<ce> Jxtym [jhjij. Ghtlfntkm yfitk e`t*bot
+<ce> d ___mondun_, xnj yf
+<ce> %di. Tckb ds yt dthytntcm xthtp
+<ce> =queston_ lytq, ds kbibntcm ckfds,
+<ce> b dfit vtcnj pfqvtn lheujq.
+<ce> Yt gjldtlbnt yfc, %pcf.
+
+QuestFail:  [1003]
+<ce> Ghtlfntkm dct tot *bd, z pyf< njxyj.
+<ce> Lf*t yt gsnfqntcm e`tlbnm vtyz d j`hfnyjv.
+
+QuestComplete:  [1004]
+<ce> Jnkbxyj. Ds jghfdlfkb yfib yflt*ls.
+
+RumorsDuringQuest:  [1005]
+^njn e`bqwf crhskcz d gjlptvtkmt ___mondun_, rfr `elnj ujyxbt ghtbcgjlytq uyfkbcm pf ybv.
+   <--->
+_qgiver_ ntgthm ghjcnj nfr yt jngecnbn ghtlfntkz, gjckt njuj, xnj njn cltkfk d ~hfncndt.
+
+RumorsPostfailure:  [1006]
+Ghtlfntkm, gj[j*t, `jktt crjkmprbq, xtv _qgiver_ levftn. %g evttn bcxtpfnm.
+   <--->
+<ce> Vyt bpdtcnyj, xnj ytrbq yfqn`ktql e[jlbk yf ctdth, yj
+ d ~hfncndt dct yflj `scnhj pf`sdfnm.
+
+RumorsPostsuccess:  [1007]
+Bcnjhbz bpvtyybrf njkmrj gjlndth*lftn ghfdbkj. Yt cnjbn buhfnm c ~hfncndjv.
+   <--->
+E vtyz yt `skj cjvytybq, xnj ~hfncndj yt ghjzdbn vbkjcthlbz r lehfrfv.
+
+QuestorPostsuccess:  [1008]
+Xnj ds [jnbnt, j gfkfx bpvtyybrjd?
+
+QuestorPostfailure:  [1009]
+<ce> Vyt rfr-nj yt gj ct`t ujdjhbnm c dfvb.
+<ce> Rfr-ybrfr dfv ljdthbkb yfrfpfnm
+<ce> ghtlfntkz, nfr?
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ntvyjt ~hfncndj jnghfdbkj vtyz yf gjbcrb b eybxnj*tybt
+ bpvtyybrf `hfncndf. E`bqwf, dsitlibq bp gjl rjynhjkz
+ ghzxtncz d gjlptvtkmt ___mondun_. E vtyz tcnm
+ =queston_ lytq yf dct.
+
+Message:  1021
+<ce> "Z yt... ghtlfntkm...
+<ce> Gjdthmnt vyt... Yfcnjzobq... ghtlfntkm
+<ce> @nj..." Rjynhfrn dsgjkyty.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+
+Place _mondun_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _assassin_ is Assassin
+Foe _nightblade_ is Nightblade
+Foe _acrobat_ is Acrobat
+Foe _battlemage_ is Battle_mage
+
+--	Quest start-up:
+	start timer _queston_
+	reveal _mondun_
+	log 1010 step 0
+	pick one of _S.05_ _S.06_ _S.07_ _S.08_
+
+_queston_ task:
+	end quest
+
+_pcgetsgold_ task:
+	when _mondead_ and _qgclicked_
+	give pc nothing
+	end quest
+
+_mondead_ task:
+	killed 1 _nightblade_ saying 1021
+	killed 1 _battlemage_ saying 1021
+	killed 1 _acrobat_ saying 1021
+	killed 1 _assassin_ saying 1021
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_
+	say 1003
+	clear _qgclicked_ _clearclick_
+
+_S.05_ task:
+	place foe _nightblade_ at _mondun_
+
+_S.06_ task:
+	place foe _battlemage_ at _mondun_
+
+_S.07_ task:
+	place foe _acrobat_ at _mondun_
+
+_S.08_ task:
+	place foe _assassin_ at _mondun_

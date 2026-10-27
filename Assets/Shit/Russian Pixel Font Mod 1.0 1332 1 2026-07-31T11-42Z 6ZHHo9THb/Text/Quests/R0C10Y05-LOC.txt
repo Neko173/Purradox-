@@ -1,0 +1,185 @@
+-- Quest: C:\QUESTS\WORKING\R0C10Y05.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 5
+Messages: 31
+Quest: R0C10Y05
+DisplayName: Cvthntkmyfz lbgkjvfnbz
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Djpvj*yj, ds d rehct, xnj
+<ce> z pfrk<xf< cj<p c
+<ce> _qgfriend_. Xnj`s crhtgbnm yfie
+<ce> lhe*`e, z cjukfcbkcz
+<ce> ecnhjbnm cvthnm
+<ce> njve, rnj gjcnjzyyj euhj*ftn
+<ce> %g2 -- ytrbq dbl
+<ce> vjycnhf. ^njn ukegsq gfhfpbn
+<ce> *bdtn d lhz[kjv cnfhjv vtcntxrt,
+<ce> gjl yfpdfybtv ___mondung_.
+<ce> %g cjukfcbkcz pfgkfnbnm
+<ce> e`bqwt vjycnhf _reward_
+<ce> pjkjns[ pf eckeue. D j`otv,
+<ce> ytgkj[j, z edthty, ds cjukfcbntcm.
+<ce> Bnfr, hfpdt @nj yt pdexbn
+<ce> rfr ltkj njxyj lkz dfc,
+<ce> %pcn?
+
+RefuseQuest:  [1001]
+<ce> Ghfdlf? Rfr jghjvtnxbdj lkz dfc jcnfdkznm vtyz
+<ce> d nfrjv ytkjdrjv gjkj*tybb.
+
+AcceptQuest:  [1002]
+<ce> Ds jcjpyftnt, xnj @nj [jhjifz cltkrf,
+<ce> rjulf ecksifkb ghj ytt, f? Z crfpfk
+<ce> _qgfriend_, xnj vjycnh `eltn vthnd
+<ce> yt gjplytt =1stparton_ lytq
+<ce> bkb %g gjqltn b yfqvtn
+<ce> rjuj-yb`elm lheujuj. Bnfr e`tqnt
+<ce> vjycnhf b blbnt r
+<ce> ___qgfriend_ b yfqlbnt
+<ce> %g4 ght*lt, xtv dhtvz dsqltn.
+
+QuestFail:  [1003]
+<ce> Kexit jnghfdkzqntcm d genm ctqxfc, %pcf.
+<ce> Dhtvtyb vfkj.
+
+QuestComplete:  [1004]
+<ce> Lf, z e*t cksifk, xnj yfif
+<ce> _giant_ xevf pfrjyxbkfcm. Yt pyf<,
+<ce> ult _questgiver_ yfitk dfc,
+<ce> yj z hfl, xnj %g @nj cltkfk. Djn dfib _reward_
+<ce> pjkjns[ vjytn d yfuhfle. ~kfujlfh<
+<ce> pf eckeue, %pcf.
+
+RumorsDuringQuest:  [1005]
+D ___mondung_ tcnm vjycnh, `tcgjrjzobq _qgfriend_.
+   <--->
+<ce> Dvtcnt c @nbv vjycnhjv d ___mondung_ jhls rhsc b ktnexb[ vsitq.
+
+RumorsPostfailure:  [1006]
+<ce> Ntgthm @njn vjycnh =giant_ pyftn, xnj tuj `thkjuf
+<ce> bpdtcnyf, jy ckbyzk jnnelf.
+   <--->
+<ce> Vjycnh =giant_ ckbyzk bp ___mondung_,
+<ce> yj dct tot ghbxbyztn `tcgjrjqcndj _qgfriend_.
+
+RumorsPostsuccess:  [1007]
+Ghjrkznbt =giant_ yfdctulf cnthnj bp %reg.
+   <--->
+<ce> ~kfujxtcnbdsq %ra djby eybxnj*bk =giant_, dhtlbdituj yfitq ptvkt.
+
+QuestorPostsuccess:  [1008]
+J, vjq lheu, Djpvtplbt Dtkbrfyjd! Xnj z vjue cltkfnm lkz dfc?
+   <--->
+<ce> Ds gjvjukb vyt d pfrk<xtybb cj<pf, %pcf.
+<ce> Xtv dfc jn`kfujlfhbnm?
+
+QuestorPostfailure:  [1009]
+<ce> Dfi ghjdfk d e`bqcndt vjycnhf
+<ce> pfnhelybk ltkj. E vtyz ytn dhtvtyb
+<ce> lkz nfrb[ nbgjd, rfr ds.
+
+Message:  1011
+<ce> =qgfriend_, lf? Djpvj*ysq cj<pybr
+<ce> _questgiver_ d `jhm`t
+<ce> c @njq ndfhm< d ___mondung_.
+   <--->
+_qgfriend_ - rhjdysq dhfu =giant_.
+
+Message:  1012
+=giant_ evbhftn.
+
+Message:  1015
+%qdt:
+ _questgiver_ bp
+ ___questgiver_ yfyzk vtyz
+ jn bvtyb, _qgfriend_ bp
+ ___qgfriend_, xnj`s e`bnm vjycnhf,
+ bpdtcnyjuj njkmrj, rfr =giant_, rjnjhsq
+ nthhjhbpbhetn ptvk< djrheu
+ ___mondung_. Tckb vjycnh evhtn b
+ z cltkf< @nj lkz _qgfriend_ yt gjplytt =1stparton_
+ lytq, z gjkexe cdj< yfuhfle.
+
+Message:  1021
+<ce> Lf, gjxnb pf`sk. Z yt pyf<,
+<ce> xnj pf vjycnh j[jnbncz d ___mondung_,
+<ce> yj bvz =giant_ egjvbyfkjcm
+<ce> rfr bcnjxybr e*fcf.
+
+Message:  1030
+<ce> Rnj hbcryek gj`tcgjrjbnm =giant_ d e*fcytqitq bp
+<ce> %g4 `thkju? Ndjq xthtg crjhj `eltn dbctnm yf
+<ce> vjtq cntyt rfr nhjatq!
+
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ face 112 group Questor
+Person _qgfriend_ group Local_3.0 remote anyInfo 1011 rumors 1011
+
+Place _mondung_ remote dungeon
+
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
+
+Foe _vampire_ is Vampire
+Foe _wereboar_ is Wereboar
+Foe _mage_ is Battle_mage
+Foe _giant_ is Giant
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1015 step 0
+	pick one of _S.06_ _S.07_ _orsinium_ _S.09_
+	say 1021
+
+_1stparton_ task:
+	end quest
+
+_pcgetsgold_ task:
+	when _npcclicked_ and _mondead_
+	give pc _reward_
+	end quest
+
+variable _queston_
+_mondead_ task:
+	killed 1 _giant_
+	killed 1 _wereboar_
+	killed 1 _vampire_
+	killed 1 _mage_
+	say 1012
+	create npc _qgfriend_
+
+_npcclicked_ task:
+	clicked npc _qgfriend_
+
+_clearclick_ task:
+	when _npcclicked_ and not _mondead_
+	clear _npcclicked_ _clearclick_
+
+_S.06_ task:
+	place foe _giant_ at _mondung_
+
+_S.07_ task:
+	place foe _mage_ at _mondung_
+
+_orsinium_ task:
+	place foe _wereboar_ at _mondung_
+
+_S.09_ task:
+	place foe _vampire_ at _mondung_
+
+_S.10_ task:
+	injured _wereboar_
+	injured _vampire_
+	injured _mage_
+	injured _giant_
+	say 1030

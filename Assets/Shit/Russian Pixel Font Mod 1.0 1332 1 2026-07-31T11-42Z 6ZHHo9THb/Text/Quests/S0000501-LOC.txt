@@ -1,0 +1,247 @@
+-- Quest: C:\QUESTS\WORKING\S0000501.Qbn.
+-- Main story quest.
+-- QuestId: 501
+Messages: 62
+Quest: S0000501
+DisplayName: "Kjhl R'fdfhf" Xfcnm III
+-- Message panels
+QRC:
+
+QuestComplete:  [1004]
+<ce> %pcn, pyf<, xnj vjue hfccxbnsdfnm yf dfc.
+<ce> Lhe*`f rjhjktds Ctynbytkf dtcmvf otlhfz
+<ce> yfuhflf, yj e vtyz ghbujnjdktys gjlfhrb
+<ce> ybxenm yt [e*t @njuj.
+
+RumorsDuringQuest:  [1005]
+<ce> _traitor_ `t*fk bp gjlptvtkbq pfvrf Ctynbytk.
+<ce> Ujdjhzn, tuj ljk*ys `skb rfpybnm pf bpvtye.
+
+RumorsPostsuccess:  [1007]
+<ce> _traitor_ gsnfkcz pfhexbnmcz gjllth*rjq D@qhtcnf d
+<ce> ghbnzpfybz[ yf nhjy Ctynbytkf, yj rjhjktdcrbt botqrb
+<ce> lj`hfkbcm lj ytuj. Ybrnj yt pyftn, xnj ckexbkjcm, yj
+<ce> gjkfuf<, xnj jy vthnd.
+
+Message:  1020
+%qdt:
+ Vyt ghbikj gbcmvj jn _queen_
+ bp Ctynbytkf. Jyf ujdjhbn, xnj _traitor_
+ `t*fk, f rjhjktdf [jntkf `s edbltnmcz cj
+ vyjq gj gjdjle dsckt*bdfybz `t*fdituj.
+
+Message:  1021
+%qdt:
+ Igbjys rjhjktds ljrkflsdf<n, xnj
+ _traitor_ ctqxfc d D@qhtcnt, yfcnhfbdfz
+ dct[ ghjnbd Ctynbytkf. Jy ghzxtncz ult-nj
+ d gjlptvtkmz[ rjhjktdcrjuj pfvrf.
+ Vyt ye*yj yfqnb tuj b ghbdtcnb j`hfnyj
+ d Ctynbytk lkz ghjdtltybz rfpyb.
+
+Message:  1022
+%qdt:
+ _traitor_ gjqvfy.  Z djpdhfof<cm
+ j`hfnyj d Ctynbytk, xnj`s ghtlcnfnm
+ ghtl jxb rjhjktds _queen_.
+
+Message:  1030
+Ljhjujq lheu %pcn,
+<ce>
+  C cj*fktybtv byajhvbhe< dfc, xnj dfi
+cdzotyysq ljku gthtl Ctynbytkjv tot yt dsgjkyty.
+Gj[j*t e _traitor_ dct tot jcnfkbcm lhepmz.
+%g `t*fk bp ntvybws, `erdfkmyj pf ltym lj njuj,
+rfr ljk*ty `sk `snm gjdtity.
+  ~skf `s jxtym ghbpyfntkmyf, tckb `s ds
+gjcjltqcndjdfkb d @njv ytkturjv ltkt b hfpj`hfkbcm
+dj dctv.
+<ce>
+Dfi lheu,
+<ce>
+_queen_ bp Ctynbytkf
+<ce> ----
+
+Message:  1031
+<ce> Rjhtyfcnsq hswfhm d kbdhtt Ctynbytkf
+<ce> jcnfyjdbkcz gthtl dfvb b jncfk<njdfk.
+<ce>
+<ce> "%pcn?  Gbcmvj lkz dfc. Kbxyjt
+<ce> cjj`otybt dfv iktn _queen_".
+
+Message:  1040
+<ce> F[, %pcn, z pyfkf, xnj ds ghbltnt.
+<ce> Vjb igbjys yfikb @njuj ytekjdbvjuj `tuktwf.
+<ce> Jy ghb`bkcz r rjhjktdcrjve ldjhe D@qhtcnf,
+<ce> b gsnftncz dctv ghfdlfvb b ytghfdlfvb gjkexbnm
+<ce> gjllth*re d cdjb[ ghbnzpfybz[ yf vjq nhjy.
+<ce> D@qhtcn yt yfcnjkmrj jghjvtnxbd, xnj`s jrfpfnm
+<ce> jnrhsne< gjllth*re @njve yfuktwe, `tukjve
+<ce> rfnjh*ybre bp Ctynbytkf, yj ghzxtncz jy
+<ce> d gjlptvtkmz[ rjhjktdcrjuj pfvrf, @nj afrn.
+<ce> Z [jxe, xnj`s ds yfikb tuj b ghbdtkb j`hfnyj.
+<ce> Gj djpvj*yjcnb *bdsv, yj d ckexft ytj`[jlbvjcnb
+<ce> vj*tnt e`bnm tuj. Yt ljgecnbnt, xnj`s jy
+<ce> jgznm c`t*fk.
+
+Message:  1041
+<ce> Jgznm ds! %oth, ds jcnfdbnt vtyz
+<ce> d gjrjt? Ctqxfc z c dfvb hfcxbnf<cm!
+
+Message:  1042
+<ce> "Cnjqnt!  Yt e`bdfqnt vtyz!  Z clf<cm!"
+<ce>
+<ce> _traitor_ clftncz. Ds ghbybvftnt rfgbnekzwb<?
+
+Message:  1043
+<ce> Ghtlfntkm _traitor_ vthnd.
+
+Message:  1044
+<ce> _traitor_ `hjcftn cdjt jhe*bt
+<ce> b ds `scnhj cdzpsdftnt tve herb,
+<ce> ghbkf*bdftnt gjdzpre yf ukfpf, xnj`s
+<ce> bp`t*fnm rfrb[-kb`j nh<rjd c tuj cnjhjys.
+<ce> Cfvjt dhtvz e[jlbnm bp D@qhtcnf...
+
+QuestTimeLapse:  [1045]
+<ce> %god! Njulf vs evhtv dvtcnt!
+
+Message:  1050
+<ce> Ye rf, ye rf, ye rf, hfpdt @nj yt vjq dthysq
+<ce> _traitor_ dthyekcz rj vyt. Yte*tkb ns
+<ce> ltqcndbntkmyj levfk, xnj nt`t elfcncz bp`t*fnm
+<ce> vjtuj uytdf? Cnhf*f, jndtlbnt tuj dybp b
+<ce> rfpybnt ytvtlktyyj.
+
+Message:  1051
+<ce> _traitor_ pfcke*bdftn cvthnb.  Levf<,
+<ce> yflj rfpybnm tuj ge`kbxyj, xnj`s lheubv
+<ce> ytgjdflyj `skj, yj z hflf, xnj @nj
+<ce> uyecyjt ltkj yfrjytw-nj ekf*tyj.
+
+Message:  1060
+<ce> Ds *t yt levfkb, xnj cvj*tnt kturj
+<ce> bp`fdbnmcz jn _traitor_? Kjhl Ctynbytkf
+<ce> yt bp nt[, rjuj kturj e`hfnm!
+
+Message:  1061
+<ce> Gthtl dfvb gjzdbkcz hswfhm d kbdhtt Ctynbytkf.
+<ce> "Z pf`the @ne uhzpye< cdbym< c cj`jq".
+
+
+
+QBN:
+Item _letter_ letter used 1030
+Item _reward1_ item class 4 subclass 26
+Item _reward2_ gold
+
+Person _queen_ face 224 named Queen_Akorithi atHome
+Person _traitor_ face 217 named Lord_K'avar
+
+Place _wayrest_ permanent WayrestCastle2
+Place aide remote dungeon
+
+Clock _S.00_ 12.06:00 23.18:00
+--shortened timer drastically. getting attacked by Kavar minions for months is annoying
+Clock _patsy_ 30.00:00 0 flag 1 range 0 1
+Clock _time2_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is 3 Archer
+Foe _mtraitor_ is Ranger
+
+--	Quest start-up:
+	create foe _F.00_ every 2000 minutes 5 times with 100% success
+	start timer _S.00_
+	have _letter_ set _startpatsy_
+-- reduced spawning trio from 20 to 5 times
+
+_startpatsy_ task:
+	start timer _patsy_
+
+_S.00_ task:
+	_letter_ used do _readletter_
+	give pc _letter_ notify 1031
+	place npc _traitor_ at _wayrest_ marker 3
+
+variable _patsy_
+_time2_ task:
+	end quest
+
+_readletter_ task:
+	log 1020 step 0
+
+_S.04_ task:
+	clicked npc _queen_
+
+_S.05_ task:
+	clicked npc _traitor_
+	hide npc _traitor_
+	say 1041
+	place foe _mtraitor_ at _wayrest_ marker 3
+
+_hittraitor_ task:
+	injured _mtraitor_
+
+_S.07_ task:
+	killed 1 _mtraitor_
+	say 1043
+
+_S.08_ task:
+	when _hittraitor_ and not _S.07_
+	prompt 1042 yes _yes_ no _no_
+
+_S.09_ task:
+	when _S.04_ and _S.00_
+	stop timer _patsy_
+	start timer _time2_
+	log 1021 step 1
+	say 1040
+	remove log step 0
+	start task _stagger_
+
+_notyet_ task:
+	when _S.04_ and not _S.00_
+	clear _S.04_ _notyet_
+
+variable _stagger_
+_clearclick_ task:
+	when _stagger_ and _S.04_ and not _hittraitor_
+	clear _S.04_ _clearclick_
+
+_S.10_ task:
+	when _yes_ and _S.04_
+	say 1050
+	drop _traitor_ face
+
+_traitordead_ task:
+	when _S.07_ and _S.04_
+	say 1051
+	unset _S.04_
+
+_yes_ task:
+	log 1022 step 2
+	say 1044
+	add _traitor_ face
+	place foe _mtraitor_ at aide
+
+_no_ task:
+	say 1045
+
+_S.14_ task:
+	when _S.10_ or _traitordead_
+	give pc _reward1_
+	give pc _reward2_
+	end quest
+
+_S.15_ task:
+	when _patsy_ and not _S.09_
+	end quest
+
+_S.16_ task:
+	when _yes_ and _time2_
+	say 1061
+	end quest
+
+_S.17_ task:
+	injured _F.00_
+	say 1060

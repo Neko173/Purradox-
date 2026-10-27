@@ -1,0 +1,197 @@
+-- Quest: C:\QUESTS\WORKING\N0C00Y10.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: mage
+-- Repute: 0
+-- QuestId: 10
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 41
+Quest: N0C00Y10
+DisplayName: Ghjgfdifz rybuf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vtyz pjden _giver_. Ds botnt
+<ce> hf`jne, [jnz b yt zdkztntcm xktyjv ubkmlbb?
+<ce> Edthty, ds gjybvftnt xnj ljcnjqye< hf`jne
+<ce> vs ghtlkfuftv njkmrj yfibv xktyfv. Yj lkz
+<ce> dfc e vtyz nj*t yfqltncz rjt-xnj. Ghjgfkf
+<ce> jlyf bp yfib[ rybu. Tckb ds yfqltnt b dthytnt
+<ce> tt, z dsrf*e dfv jcj`jt hfcgjkj*tybt, rjnjhjt
+<ce> vj*tn `kfujghbznyj crfpfnmcz yf dfitq
+<ce> htgenfwbb d ubkmlbb.
+
+RefuseQuest:  [1001]
+<ce> Crjhtt dctuj dfv ghjcnj ytj[jnf blnb
+<ce> yf gjdjle ghfdbk Ubkmlbb Vfujd.
+
+AcceptQuest:  [1002]
+<ce> E yfc ytn ybrfrb[ ekbr. Rybuf yfpsdftncz
+<ce> "_book_". Dfv yt vtifkj `s
+<ce> gjcghfibdfnm jrhe*f<ob[, vj*tn jyb xnj
+<ce> b cksifkb. Ghbytcbnt rybue vyt, tckb
+<ce> yfqltnt tt.
+
+QuestFail:  [1003]
+%qdt:
+ Pfrk<xtyj cjukfitybt yfqnb rybue
+ "_book_" lkz Ubkmlbb Vfujd bp ___giver_.
+ Tckb z yfqle tt, vyt ye*yj dthyenm tt
+ dkfltkmwe - _giver_ - b %g pfvjkdbn
+ pf vtyz ckjdtxrj gthtl cnfhtqibyfvb
+ ubkmlbb.
+
+QuestComplete:  [1004]
+<ce> Fff, "_book_".
+<ce> Jnkbxyj, %pcf.
+<ce> Ubkmlbz jxtym j`zpfyf dfitve
+<ce> `kfujhjlcnde b exntn dfib pfckeub
+<ce> gthtl ytq.
+
+RumorsDuringQuest:  [1005]
+D Ubkmlbb Vfujd tcnm jxtym htlrbq @rptvgkzh rybub "_book_". Bkb njxytt, `sk.
+   <--->
+"_book_" - jxtym htlrfz rybuf, yj @rptvgkzh rybub bp Ubkmlbb Vfujd tot `jktt htlrbq b wtyysq.
+
+RumorsPostfailure:  [1006]
+^nj jxtym `jkmifz gjnthz lkz Ubkmlbb Vfujd -- dtlm @nj cgtwbfkmyfz htlfrwbz herjgbcb "_book_".
+   <--->
+~b`kbjntrf Ubkmlbb Vfujd gkj[j jufybpjdfyf, djn rybuf b ghjgfkf.
+
+RumorsPostsuccess:  [1007]
+Ubkmlbz Vfujd cyjdf j`htkf cdjt `jufncndj. "_book_" cyjdf pfyzkf cdjt vtcnj yf gjkrt.
+
+QuestorPostsuccess:  [1008]
+Ds ghjxkb @ne rybue, rjulf yfikb tt? Yt ghfdlf kb gjnhzcf<ot?
+
+QuestorPostfailure:  [1009]
+<ce> Z lfk dfv ifyc, %pcf.
+<ce> Gjvybnt? Tckb ds yfqltnt "_book_",
+<ce> z `ele `jktt xtv hfl gjnjkrjdfnm c dfvb.
+<ce> Ye f ctqxfc dfv kexit ghjljk*bnm cdjb
+<ce> gjbcrb.
+
+QuestLogEntry:  [1010]
+<ce> Gjghj`eqnt cghjcbnm e _informant_. Gj[j*t %g pyftn
+<ce> vyjujt bp njuj, xnj ghjbc[jlbn d
+<ce> ___informant_.
+   <--->
+<ce> Vj*tn dfv gjcghfibdfnm d vtcnys[
+<ce> pf`tufkjdrf[? Jyb ghjcnj nfrb
+<ce> kjgf<ncz jn dczxtcrb[ cke[jd.
+   <--->
+<ce> Gjghj`eqnt gjbcrfnm d
+<ce> __informant_. Nfv dctulf xnj-yb`elm
+<ce> lf vj*yj epyfnm.
+   <--->
+<ce> ^nj `skj gj[botyj e _giver_.
+   <--->
+<ce> _giver_ e*t hfccghfibdfk dct[ d jrheut.
+   <--->
+<ce> Z `sk ghjcnj gjhf*ty, rjulf ghjxtk tt.
+   <--->
+<ce> Gjghj`eqnt gjbcrfnm d `b`kbjntrt.
+
+Message:  1011
+<ce> Dblbvj, @nj nf cfvfz rybuf, rjnjhe< erhfkb e __giver_.
+
+Message:  1025
+<ce> Ghbdtncnde<, %pcn. Ujdjhzn ds vtyz bcrfkb.
+<ce> Z pyf< ghfrnbxtcrb dct, xnj ghjbc[jlbn d
+<ce> ___informant_, e vtyz nfv vyjuj
+<ce> eitq. Dghjxtv ljcnfnjxyj j`j vyt.
+<ce> Z cksifk xnj-nj j ytcxfcnmt, ghbrk<xbditvcz
+<ce> c _giver_. Dfv ye*yj gjbcrfnm _thief_.
+<ce> Ytrjnjhjt dhtvz yfpfl %g jxtym bynthtcjdfkcz
+<ce> gthdjq htlfrwbtq bynthtce<otq dfc rybub.
+<ce> Rhjvt njuj %g bp nt[ nbgjd, xnj `then dtob
+<ce> `tp cghjcf, tckb ds gjybvftnt j xtv z.
+
+Message:  1027
+_thief_ *bdtn d _house_ d __house_.
+   <--->
+_thief_ *bk d __house_.
+   <--->
+_thief_ ghjdjlbn cdjb yjxb d _house_.
+   <--->
+Gjghj`eqnt gjbcrfnm _thief_ d jlyjv ljvt, %g *bdtn d __house_.
+   <--->
+_thief_ xfcnj gjzdkztncz d _store_.
+   <--->
+Levf< dfv cnjbn gjcvjnhtnm d _store_, ult j`htnftncz _thief_.
+   <--->
+_store_ bpdtcnyjt vtcnj gj cregrt rhfltyyjuj, d rjnjhjv xfcnj gjzdkztncz _thief_.
+   <--->
+_thief_ `sk pfvtxty d _store_.
+   <--->
+_inn_ ghbrhsdftn vyjub[ djhjd.
+   <--->
+_thief_ k<`bn dsgbnm d _inn_.
+   <--->
+_inn_ - k<`bvfz pf`tufkjdrf e _thief_.
+   <--->
+_thief_ k<`bn `k<lf, rjnjhst ujnjdzn d _inn_.
+
+Message:  1040
+<ce> Z cksifk ds botnt rjt-rjuj - _thief_.
+<ce> Xnj *, ds yfikb %g4. F ntgthm ghjdfkbdfqnt,
+<ce> gjrf z yt cltkfk dfv `jkmyj.
+
+
+
+QBN:
+Item _book_ book1 anyInfo 1010 used 1011
+
+Person _informant_ face 245 group Group_6.0 male local
+Person _giver_ group Questor
+Person _thief_ face 99 group Chemist female local anyInfo 1027 rumors 1027
+
+Place _inn_ local tavern
+Place _store_ local weaponstore
+Place _house_ local house2
+Place _informant1_ local tavern
+
+Clock _S.00_ 00:00 0 flag 9 range 0 0
+Clock _S.01_ 10.00:00 0 flag 9 range 0 1
+
+Foe _thiefFoe_ is Thief
+-added underscores to thiefFoe
+
+--	Quest start-up:
+	dialog link for person _thief_
+	dialog link for location _house_ person _informant_
+	start timer _S.01_
+	log 1003 step 0
+	give item _book_ to _thiefFoe_
+	place npc _informant_ at _informant1_
+
+variable _S.00_
+_S.01_ task:
+	end quest
+
+_S.02_ task:
+	daily from 00:00 to 08:00
+	place foe _thiefFoe_ at _house_
+
+_S.03_ task:
+	daily from 16:02 to 23:59
+--changed 24:00 to 23:59, 24:00 is not a valid time
+	place foe _thiefFoe_ at _inn_
+
+_S.04_ task:
+	daily from 08:01 to 16:01
+	place foe _thiefFoe_ at _store_
+
+_S.05_ task:
+	clicked npc _informant_ say 1025
+	add dialog for person _thief_
+
+_S.06_ task:
+	toting _book_ and _giver_ clicked
+	give pc nothing
+	end quest
+
+variable _S.07_
+_S.08_ task:
+	injured _thiefFoe_ saying 1040

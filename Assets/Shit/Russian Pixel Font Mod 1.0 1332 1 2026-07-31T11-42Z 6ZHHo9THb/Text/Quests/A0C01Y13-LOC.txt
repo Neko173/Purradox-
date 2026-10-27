@@ -1,0 +1,273 @@
+-- Quest: C:\QUESTS\WORKING\A0C01Y13.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 01
+-- QuestId: 13
+Quest: A0C01Y13
+DisplayName: Lbcrhtlbnfwbz
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Lj`hsq ltym. _giver_ vjt bvz. Ljk*yj `snm
+<ce> ds e*t cksifkb ghj vtyz. Rnj-nj hfcghjcnhfyztn
+<ce> gj vtcnysv jrhtcnyjcnzv k*bdst cke[b ghj vtyz
+<ce> b vj< kbxye< *bpym. Z pfgkfxe _gold_ pjkjns[,
+<ce> tckb ds epyftnt, rnj dbyjdty d hfcghjcnhfytybb
+<ce> @nb[ cke[jd. Xnj crf*tnt?
+   <--->
+<ce> Gjhf ghtrhfnbnm hfcghjcnhfytybt pkj`ys[ b
+<ce> k*bds[ cke[jd j`j vyt, ytvtlktyyj. Z ljk*ty,
+<ce> rnj ghblevsdftn dct @nb cke[b. _gold_ pjkjns[
+<ce> `eltn ljcnfnjxyj, xnj`s ds yfikb b[ bcnjxybr?
+
+RefuseQuest:  [1001]
+<ce> Levf<, ds e*t cksifkb, xnj z yt lth*e
+<ce> lfyyjt ckjdj. ^nj uhzpyfz kj*m!
+
+AcceptQuest:  [1002]
+<ce> Ds `thtntcm? Dtkbrjktgyj. Djpdhfofqntcm,
+<ce> rjulf yfqltnt ljrfpfntkmcndf b bvz njuj,
+<ce> rnj hfcghjcnhfyztn @nb cke[b j`j vyt.
+<ce> Z pfgkfxe dfv pjkjnjv. Tckb ds yt dthytntcm
+<ce> d ntxtybt vtczwf, z `ele cxbnfnm, xnj dfv
+<ce> yt gjdtpkj.
+
+QuestFail:  [1003]
+%qdt:
+ Rnj-nj hfcghjcnhfyztn cke[b d ___giver_
+ ghj _giver_. %g gjghjcbk vtyz
+ jcnfyjdbnm gjnjr k*b pf _gold_ pjkjns[.
+ E vtyz hjdyj 1 vtczw, xnj`s pfrjyxbnm ltkj.
+
+QuestComplete:  [1004]
+<ce> Ds jxtym `kfujhjlys, %pcn. ~kfujlfh< dfc.
+<ce> Djpmvbnt @nj: _magicsword_, jlyj bp kexib[
+<ce> vjb[ ghbj`htntybq, tckb @nj xtv-nj cvj*tn
+<ce> gjvjxm. Vs lhepmz yfdtrb b z e dfc d ytjgkfnyjv
+<ce> ljkue. Jcnfdmnt _giver_ b _sister_
+<ce> vyt. Z rjt-xnj ghblevfk lkz yb[.
+
+RumorsDuringQuest:  [1005]
+Z cksifk, xnj _giver_ yt `htpuetn hf`fvb!
+   <--->
+_giver_ `mtn cj`cndtyye< *tye.
+
+RumorsPostfailure:  [1006]
+<ce> _giver_ - bpujq. Ybrnj d ujhjlt
+<ce> yt [jxtn bvtnm c ybv ltkj. Ds dtlm
+<ce> cksifkb, rfrbt cke[b wbhrekbhe<n gj ujhjle?
+
+RumorsPostsuccess:  [1007]
+<ce> _lover_ `sk cgfcty bp ___dungeon_
+<ce> rfrbv-nj %ra. ^q! Ckexqyj yt ds nj %ra?
+
+QuestorPostsuccess:  [1008]
+<ce> Ds vjukb gjlevfnm, xnj z e*fcysq xtkjdtr,
+<ce> ecksifd @nb cke[b j njv, xnj z cltkfk
+<ce> c djpk<`ktyysv vjtq ctcnhs: _lover_.
+<ce> Gjpdjkmnt yt cjukfcbnmcz c ybvb.
+
+
+QuestorPostfailure:  [1009]
+<ce> Ds gjldtkb vtyz! Vjz ctcnhf `jkmit yt
+<ce> *tkftn j`ofnmcz cj vyjq b @nj dfif dbyf.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Vyt cnfkj bpdtcnyj, xnj _giver_ djitk d cujdjh
+ cj cdjtq ctcnhjq, _sister_, gj[bnbnm tt
+ djpk<`ktyyjuj, _lover_. Tcnm gbcmvj,
+ d rjnjhjv jgbcfys ltnfkb @njuj gkfyf.
+
+Message:  1015
+_giver_,
+  ~ele rhfnrjq. _lover_ ckbirjv vyjuj j ct`t
+djpjvybk, yflj `s tuj ytvyjuj yfgeufnm. Z
+etp*f< yjxm<, f pfdnhf yf hfccdtnt nt`t yflj
+gj[bnbnm tuj. Vs jngecnbv tuj, yj levf<, yt
+cnjbn lth*fnm tuj dpfgthnb `jkmit ytltkb.
+    -_sister_
+<ce> ----
+
+Message:  1017
+<ce> Xnj ds ujdjhbnt? _giver_?
+<ce> Xnj-nj lj vtyz lj[jlbkj...yj yfv cnjbn ujdjhbnm
+<ce> gjnbit. Gj[j*t, xnj e tuj ctcnhs, _sister_,
+<ce> yfcnegbkb nhelyst dhtvtyf c tt djpk<`ktyysv.
+<ce> Z pyf<, xnj tuj bvz _lover_. Z pyf< ghj nj, xnj
+<ce> _giver_ b tuj ctcnhf pfrk<xbkb cltkre, d rjnjhe<
+<ce> cj`bhf<ncz djdktxm tt djpk<`ktyyjuj _lover_.
+<ce> Yt edthty, yj jlby gfhtytr ujdjhbk vyt, xnj
+<ce> jnyjcbk gbcmvj jn _sister_, jgbcsdf<ott
+<ce> gkfy gj[botybz.
+
+Message:  1018
+%qdt:
+ _giver_ edbltd gbcmvj c gkfyfvb gj[botybz
+ _lover_, ghbpyfkcz, xnj ltqcndbntkmyj
+ yfyzk gfhjxre `fylbnjd, xnj`s jyb
+ pfgthkb tuj d ___dungeon_.
+ Jy ghjcbk cj[hfybnm tve *bpym b yfqnb
+ _lover_.
+
+Message:  1020
+<ce> Kj*m, dct kj*m!
+<ce> Z yt gthtyjie @nb jndhfnbntkmyst cke[b,
+<ce> gjnjhjgbntcm gj*fkeqcnf b jcnfyjdbnt b[!
+
+Message:  1021
+<ce> Xnj?! Xnj nfrjt? J ytn...
+<ce> Gj*fkeqcnf, yt e`bdfqnt vtyz!
+<ce> Vjz ctcnhf dnzyekf vtyz d @nj...ybxtuj
+<ce> gkj[juj. Jyf dctuj kbim ghjcbkf, xnj`s z
+<ce> ytvyjuj yfgeufk tuj, ye pyftnt, xnj`s
+<ce> pfcnfdbnm tuj cxbnfnmcz c ytq. Pyf<, z
+<ce> yt ljk*ty `sk cjukfifnmcz. F ntgthm z yfitk
+<ce> ghj`ktv yf cdj< ujkjde...rfr dblbnt, z
+<ce> pfgkfnbk `fylbnfv, xnj`s jyb c[dfnbkb tuj
+<ce> b pfgthkb d ___dungeon_.
+<ce> Z gjkfufk, xnj @njuj `eltn ljcnfnjxyj, xnj`s
+<ce> yfgeufnm tuj...yj jy nfr b yt dthyekcz!
+<ce> Z pfitk ckbirjv lfktrj...z pyf<.
+<ce> Gj*fkeqcnf...yfqlbnt tuj! Z levfk vyt elfcncz
+<ce> pfvznm @nj ltkj, yj ybxtuj yt cvju cltkfnm.
+<ce> Ds ljk*ys yfqnb tuj, tckb jy yt dthytncz, rjulf
+<ce> ghbtltn vjz ctcnhf...levf<, jyf vtyz e`mtn!
+
+Message:  1022
+<ce> _giver_ - uthjq lyz. Dct njkmrj b ujdjhzn j ytv.
+   <--->
+<ce> _giver_ jcnfyjdbkcz d _givershouse_.
+   <--->
+<ce> Ghjgfk *tyb[ ctcnhs _giver_'f.
+   <--->
+<ce> Ds vj*tnt yfqnb _giver_ d __giver_.
+   <--->
+<ce> _giver_?  Ds yfqltnt tuj kb`j d __giver_,
+<ce> kb`j ljvf e _givershouse_.
+   <--->
+<ce> _giver_ k<`bn `sdfnm d ___giver_.
+   <--->
+<ce> Gjbobnt d _inn_,
+<ce> gj cke[fv jy dctulf `sdftn nfv.
+   <--->
+<ce> _giver_ xfcnj dbltkb d rjvgfybb cj cdjtq ctcnhjq, _sister_.
+   <--->
+<ce> _giver_ xnj-nj erhfk bp
+<ce> _inn_. Bkb xnj-nj d @njv hjlt?
+   <--->
+<ce> _giver_ e`bk cdj< ctcnhe.
+   <--->
+<ce> Jntw _giver_ `sk dshfoty jhrfvb.
+   <--->
+<ce> _giver_ dpzk *tye bp jhrjd.
+   <--->
+<ce> _giver_ erhfk xnj-nj bp [hfvf.
+   <--->
+<ce> _giver_ j`]tlbybkcz c jhrfvb.
+   <--->
+<ce> Vyjuj dczrb[ cke[jd ghj _giver_,
+<ce> yj yf @njq ytltkt d ___giver_ b[ `jkmit xtv j`sxyj.
+   <--->
+<ce> _giver_ j`tofk gj[bnbnm *tyb[f cdjtq ctcnhs.
+   <--->
+<ce> Djrheu ujdjhzn nfr vyjuj dczrjuj, xnj b yt hfpj`hfnmcz.
+   <--->
+<ce> _giver_ yt lth*bn cdjb j`tofybz.
+   <--->
+<ce> _giver_ [hfybn rjt-rfrbt ctrhtns.
+   <--->
+<ce> ~erdfkmyj rf*lsq vj*tn hfccrfpfnm cdj< bcnjhb< ghj ytuj.
+   <--->
+<ce> D _inn_ dctulf vj*yj ecksifnm gjlj`yst hfpujdjhs.
+
+Message:  1030
+<ce> _lover_ *tyb[ _sister_.  Pyftnt, z lfdyj e*t tuj yt dbltk.
+   <--->
+<ce> _lover_ yt gjrfpsdfkcz d ujhjlt e*t ytcrjkmrj lytq. Gjkfuf< d @njv rfr-nj pfvtify _giver_.
+
+Message:  2000
+<ce> ~kfujlfhtybt %god, vtyz yfikb! Z e*t levfk, xnj
+<ce> ybrjulf yt ds`thecm jnc<lf! Z `ke*lfk gj @nbv
+<ce> gtht[jlfv ytcrjkmrj lytq, gsnfzcm ds*bnm.
+<ce> Xnj ds ujdjhbnt? B _sister_ b _giver_
+<ce> pfvtifys d @njv?! Xnj *...
+<ce> Dthybnt vtyz d _sistershouse_ d
+<ce> __sistershouse_ b z otlhj djpyfuhf*e dfc.
+<ce> F gjnjv z ghblevf<, xnj cltkfnm c @nbvb ldevz!
+
+Message:  2001
+%qdt:
+ _lover_ yfitkcz. Z cjghjdj*lf< tuj
+ j`hfnyj d _sistershouse_
+ d __sistershouse_.
+
+Message:  2005
+<ce> _lover_ ujdjhbn:
+<ce> "Cgfcb`j pf gjvjom, %pcn,
+<ce> yj z d cjcnjzybb yfqnb
+<ce> genm jnc<lf".
+
+
+
+QBN:
+Item _letter_ letter used 1015
+Item _gold_ gold
+Item _magicsword_ magic_item
+
+Person _giver_ group Questor anyInfo 1022 rumors 1022
+Person _teller_ face 1 group Innkeeper local
+Person _sister_ face 19 group Group_6.0 female local
+Person _lover_ face 117 group Group_6.0 male local anyInfo 1030 rumors 1030
+
+Place _givershouse_ local house2
+Place _sistershouse_ local house2
+Place _dungeon_ remote dungeon
+Place _inn_ local tavern
+
+Clock _S.00_ 30.00:00 0 flag 9 range 0 1
+
+
+--	Quest start-up:
+	place item _letter_ at _givershouse_
+	dialog link for location _givershouse_ person _teller_
+	dialog link for location _sistershouse_ person _lover_ item _letter_
+	dialog link for location _dungeon_ person _sister_ item _gold_
+	start timer _S.00_
+	log 1003 step 0
+	clicked npc _giver_ say 1020
+	place npc _teller_ at _inn_
+	place npc _lover_ at _dungeon_
+
+_S.00_ task:
+	end quest
+
+_S.01_ task:
+	clicked npc _teller_ say 1017
+	log 1010 step 1
+
+variable _S.02_
+variable _S.03_
+_S.04_ task:
+	toting _letter_ and _giver_ clicked saying 1021
+	reveal _dungeon_
+	log 1018 step 2
+
+_S.05_ task:
+	give pc _magicsword_
+	drop _lover_ face
+	end quest
+
+_S.06_ task:
+	clicked npc _lover_ say 2000
+	pc at _sistershouse_ set _S.05_
+	log 2001 step 3
+	hide npc _lover_
+	add _lover_ face
+
+_S.07_ task:
+	when _S.00_ and _S.06_ and not _S.05_
+	say 2005
+	drop _lover_ face

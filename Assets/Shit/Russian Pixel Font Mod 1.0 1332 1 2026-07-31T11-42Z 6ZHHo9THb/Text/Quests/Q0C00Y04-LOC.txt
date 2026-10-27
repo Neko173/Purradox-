@@ -1,0 +1,180 @@
+-- Quest: C:\QUESTS\WORKING\Q0C00Y04.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: witch
+-- Repute: 0
+-- QuestId: 4
+Messages: 18
+Quest: Q0C00Y04
+DisplayName: Jcj`fz cvtcm
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> C ==qgiver_ cdzpfkfcm Ubkmlbz Vfujd,
+<ce> pfghjcbdifz bpujnjdfnm jcj`jt ptkmt,
+<ce> gj jxtym htlrjq cdzotyyjq ajhvekt,
+<ce> gjxnb pf`snjq d %reg.
+<ce> Ubkmlbz cjukfcyf pfgkfnbnm pf ytuj
+<ce> _gold_ pjkjns[, rjnjhst ns vj*tim
+<ce> pf`hfnm ct`t. Yfv *t ye*yj edf*tybt
+<ce> Ubkmlbb Vfujd. Gentitcndbt vj*tn `snm
+<ce> ytkturbv. Nt`t bynthtcyj?
+
+RefuseQuest:  [1001]
+<ce> Gjybvf<. Hfpjxfhjdfyf,
+<ce> yj z nt`z gjybvf<.
+
+AcceptQuest:  [1002]
+<ce> Jxtym [jhjij, %pcf. Djn ptkmt.
+<ce> Jnghfdkzqcz. Lytv ns `eltim xedcndjdfnm
+<ce> ct`z d `tpjgfcyjcnb jn nt[, rnj [jlbn
+<ce> gj yjxfv. Ptkmt d Ubkmlbb Vfujd bp
+<ce> ___mguild_ `elen *lfnm d
+<ce> ntxtybt =queston_ lytq bkb hfymit.
+<ce> Yt jgfplsdfq. Cghjcb vfuf gj bvtyb
+<ce> _mage_.
+
+QuestComplete:  [1004]
+<ce> Fuf, jxtym htlrbq b bpevbntkmysq
+<ce> htwtgn. Djn ndjb _gold_ pjkjns[.
+<ce> Jnkbxyfz wtyf pf jnkbxyjt ptkmt.
+
+RumorsDuringQuest:  [1005]
+Vbh vt*le Ubkmlbtq Vfujd b ==qgiver_ bpevbntkty.
+   <--->
+Jxtym cnhfyyj, vt*le vfufvb b dtlmvfvb pfrk<xtyj gthtvbhbt.
+
+RumorsPostfailure:  [1006]
+==qgiver_ hfpjhdfkb cjukfitybt c Ubkmlbtq Vfujd.
+   <--->
+Ubkmlbz Vfujd ghtrhfnbkf dczxtcrbt jnyjitybz c ==qgiver_.
+
+RumorsPostsuccess:  [1007]
+Ptkmt, rjnjhjt ==qgiver_ lfkb d Ubkmlbb Vfujd, bcwtkztn dfvgbhbpv!
+   <--->
+Ptkmt, rjnjhjt ==qgiver_ lfkb d Ubkmlbb Vfujd, bcwtkztn kbrfynhjgb<!
+
+QuestorPostsuccess:  [1008]
+Ubkmlbz Vfujd cjj`obkf, xnj j`vty cjcnjzkcz. ~kfujlfh< nt`z, %pcf.
+
+QuestorPostfailure:  [1009]
+<ce> Vs ljkuj hf`jnfkb, xnj`s erhtgbnm
+<ce> jnyjitybz c Ubkmlbtq Vfujd, f ns
+<ce> eybxnj*bk dct yflt*ls, yt ljcnfdbd
+<ce> @nj ptkmt, %pcf.
+<ce> Ghjxm c ukfp vjb[! Vyt ghjnbdyj
+<ce> cvjnhtnm yf nt`z!
+
+QuestLogEntry:  [1010]
+%qdt:
+ ==qgiver_ gjckfkb
+ vtyz d Ubkmlb< Vfujd bp
+ ___mguild_ c nfbycndtyysv
+ ptkmtv. Vyt ye*yj `snm jcvjnhbntkmytt
+ b jcnthtufnmcz gj yjxfv nt[, rjve ye*yj
+ @nj ptkmt. Bvz vfuf, rjnjhsq pfgkfnbn
+ vyt pf ptkmt _gold_ pjkjns[ - _mage_.
+ E vtyz =queston_ lytq, xnj`s ljcnfdbnm
+ gjcskre.
+
+Message:  1012
+<ce> {ysxeobq ujkjc bp gjl vjubkmyjuj
+<ce> rfvyz ghjibgtk: "Ns! ^nj ptkmt
+<ce> ghbyflkt*bn yfv!"
+   <--->
+<ce> "Jnlfq vyt ptkmt" - ghjhsxfk
+<ce> rnj-nj. "^nj yt ghbyflkt*bn nt`t!"
+   <--->
+<ce> Ds ecksifkb, rfr hfplfkcz xtq-nj
+<ce> djq, gjkysq cdth[tcntcndtyyjq b
+<ce> lbrjq *f*ls: "Ptkmt! Ptkmt!"
+
+Message:  1013
+<ce> Jnrelf-nj ljytccz
+<ce> djkxbq djq.
+   <--->
+<ce> Ds ecksifkb xtq-nj
+<ce> *fkj`ysq gkfx, gjkysq
+<ce> cnhfcnyjuj *tkfybz.
+   <--->
+<ce> Djkxbq djq ghjypbk yjxye< nmve.
+<ce> ^nj djq yt ujkjlf, yj *f*ls.
+
+Message:  1014
+<ce> J*tcnjxtyyjt [h<rfymt
+<ce> rf`fyf ghjypbkj yjxm.
+   <--->
+<ce> Ds ecksifkb ujhnfyysq hsr
+<ce> rf`fyf, gjkysq *f*ls b
+<ce> jnxfzybz.
+   <--->
+<ce> Nbibyf yjxb `skf yfheityf
+<ce> j*tcnjxtyysv [h<rfymtv
+<ce> ujkjlyjuj `jhjdf.
+
+Message:  1015
+<ce> Cnhfyyjt joeotybt.
+
+Message:  1016
+Error: Questtext 1016 Called.
+
+Message:  1017
+<ce> Xnj @nj? Ajhvekf `skf jcrdthytyf!
+<ce> Z jxtym hfpjxfhjdfyf, xnj nt`t yt
+<ce> elfkjcm cltkfnm ghjcnjt ltkj lkz
+<ce> vtyz.
+
+
+
+QBN:
+Item _potion_ Pure_water
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+Person _mage_ face 105 faction The_Mages_Guild remote
+
+Place _mguild_ remote magery
+
+Clock _queston_ 00:00 0 flag 1 range 0 2
+
+Foe _vampire_ is Vampire
+Foe _werewolf_ is Werewolf
+Foe _wereboar_ is Wereboar
+
+--	Quest start-up:
+	start timer _queston_
+	log 1010 step 0
+	get item _potion_
+	_potion_ used do _S.03_
+	place npc _mage_ at _mguild_
+
+_queston_ task:
+	make _potion_ permanent
+	end quest
+
+_S.01_ task:
+	daily from 06:40 to 17:20
+
+until _S.01_ performed:
+	create foe _werewolf_ every 19 minutes 12 times with 50% success msg 1013
+	create foe _wereboar_ every 11 minutes 10 times with 40% success msg 1014
+	create foe _vampire_ every 15 minutes 7 times with 70% success msg 1012
+
+_S.02_ task:
+	toting _potion_ and _mage_ clicked
+
+_S.03_ task:
+	say 1015
+	cure vampirism
+	cure lycanthropy
+
+_S.04_ task:
+	when _S.02_ and _S.03_
+	say 1017
+	end quest
+
+_reward_ task:
+	when _S.02_ and not _S.03_
+	give pc _gold_
+	end quest

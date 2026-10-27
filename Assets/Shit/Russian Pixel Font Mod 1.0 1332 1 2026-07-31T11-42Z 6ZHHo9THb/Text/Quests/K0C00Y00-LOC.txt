@@ -1,0 +1,206 @@
+-- Quest: C:\QUESTS\WORKING\K0C00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: merchant
+-- Repute: 0
+-- QuestId: 0
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 17
+Quest: K0C00Y00
+DisplayName: Ehjr yf ntve
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Djpvj*yj ds `eltnt gjl[jlzotq rfylblfnehjq lkz dsgjkytybz
+<ce> jlyjuj gjhextybz. Rjyrehtyn jnj`hfk e vtyz rjynhfrn b
+<ce> ddzpfkcz d ytpfrjyye< b fvjhfkmye< cltkre. {jxe
+<ce> bcghfdbnm @ne cbnefwb< b gjckfnm cjj`otybt, xnj`s
+<ce> jn`bnm *tkfybt e _competitor_ dvtibdfnmcz d vjb
+<ce> ltkf. ^nj jpyfxftn, xnj rjve-nj ghbltncz hfplfdbnm
+<ce> gfhe xthtgjd. Gkfnf d _reward_ pjkjns[ bpvtybn
+<ce> dfit vytybt?
+
+RefuseQuest:  [1001]
+<ce> %oth, nthpfybz pfcnfdkz<n
+<ce> vtyz gjcnegfnm jghjvtnxbdj.
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj. _competitor_ bvttn vfufpby d
+<ce> __storehouse_, yfpsdftvsq _storehouse_ b
+<ce> nfv tcnm _mitem_, rjnjhsq vyt ye*ty.
+<ce> Dct xnj dfv ye*yj cltkfnm, jcnfdbnm @ne pfgbcre
+<ce> ult-yb`elm d plfybb vfufpbyf. Z yt vjue gjllfnmcz.
+<ce> _competitor_ [jxtn cjghjdjlbnm
+<ce> _mitem_ relf-nj d `tpjgfcyjt vtcnj xthtp
+<ce> =2storehouse_ lytq, nfr xnj dfv yflj gjnjhj-
+<ce> gbnmcz. Tckb ds yt dthytntcm d chjr, vj*tnt
+<ce> pf`snm ghj ltymub. Z yt ujdjhbk, xnj
+<ce> _storehouse_ [jhjij j[hfyztncz? Ntgthm crfpfk.
+<ce> Elfxb!
+
+QuestFail:  [1003]
+<ce> ^nj yt ienrb, %pcf.
+<ce> ltkfqnt cdj< hf`jne.
+
+QuestComplete:  [1004]
+<ce> Ghtrhfcyfz hf`jnf, %pcf. F[ lf,
+<ce> j`j*ftvsq, j`j*ftvsq _mitem_. ~tp cjvytybq
+<ce> @nj njn cfvsq _mitem_, rjnjhsq gfhnyth
+<ce> _competitor_'f lfk lkz j`tcgtxtybz
+<ce> `tpjgfcyjcnb. Ds pfcke*bkb cdj< yfuhfle.
+<ce> Djn _reward_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+Yfcnegf<n lyb, rjulf ltkjdfz rjyrehtywbz gththfcnftn d rhjdfde< `fy<.
+   <--->
+_qgiver_ b _competitor_ `jktt j*tcnjxtyyst cjgthybrb, xtv Ujnhbl b Frjhbnb.
+
+RumorsPostfailure:  [1006]
+_competitor_ ltqcdnbntkmyj gjpjhbn _qgiver_ cdjtq yjdjq cltkrjq.
+   <--->
+J`thyekjcm nfr, xnj _competitor_ jrfpfkcz cbkmytt, xtv gjkfufk _qgiver_.
+
+RumorsPostsuccess:  [1007]
+_competitor_ gjnthzk rjynhfrn, rjnjhsq bpj dct[ cbk cnfhfkcz dshdfnm bp her _qgiver_.
+   <--->
+_qgiver_ djccnfyjdbk cdjq cnfhsq rjynhfrn b cxfcnkbd, rfr jnj*hfdifzcz ufhgbz.
+
+QuestorPostsuccess:  [1008]
+Xnj *, ds pfgjkexbkb _mitem_, xnj z vjue cltkfnm lkz dfc?
+
+QuestorPostfailure:  [1009]
+Vyt ytxtuj crfpfnm ghb[djcny< _competitor_.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp ___qgiver_ gjckfk vtyz d
+ _storehouse_ d __storehouse_
+ "jcdj`jlbnm" _mitem_, [hfyzobqcz nfv b
+ jcnfdbk pfgbcre. Tckb z eghfdk<cm b
+ dthyecm d __qgiver_ d ntxtybt =2storehouse_
+ lytq, z gjkexe _reward_ pjkjns[.
+
+Message:  1011
+ _competitor_,
+<ce>
+Jnkbxyfz j[hfyf lkz dfitq `tpjgfcyjcnb.
+<ce>
+<ce> Dfi Ljhjujq Lheu
+
+Message:  1012
+      __competitor_
+       ___competitor_
+<ce>
+Edf*ftvsq lheu %pcn,
+<ce>
+  Z gjkexbk dfie pfgbcre. Jxtym cvtiyj.
+F ntgthm z cltkf< dfv ghtlkj*tybt. Dthybnt vyt
+gj[botyye< dtobwe _mitem_ b z gjkyjcnm<
+rjvgtycbhe< @nj - _gem_. Tckb ds jnlflbnt
+_mitem_ dfitve yfybvfntk<, nj yf*bdtnt ct`t
+dhfuf.
+<ce>
+<ce> _competitor_
+<ce> ----
+
+Message:  1013
+<ce> >ysq gfhybirf dhexbk dfv rjydthn b e`t*fk ghjxm
+<ce> ght*lt, xtv ds gjgsnfkbcm pflfnm tve djghjc.
+
+Message:  1014
+<ce> Ds cjukfcys jnlfnm _mitem_
+<ce> d j`vty yf _gem_?
+
+Message:  1015
+<ce> Hfpevyjt htitybt, %pcf. ^nj vj*tn `snm
+<ce> yfxfkjv dsujlys[ jnyjitybq. Lyb, rjulf
+<ce> _qgiver_ gjkexfk ghb`skm, ghjikb, ntgthm ltkj
+<ce> d lheub[ herf[.
+
+Message:  1016
+<ce> Yt pyf<, pfxtv ds dthyekbcm. Jcnfdmnt
+<ce> @nj vtcnj ctqxfc *t, %pcf.
+
+
+
+QBN:
+Item _letter_ letter used 1011
+Item _mitem_ magic_item
+Item _reward_ gold
+Item _letter10_ letter used 1012
+Item _gem_ gem
+
+Person _qgiver_ group Questor
+Person _competitor_ group Group_5.0 remote
+
+Place _storehouse_ remote generalstore
+
+Clock _2storehouse_ 00:00 0 flag 17 range 0 2
+Clock _S.05_ 16:40 1.09:20
+
+Foe _F.00_ is 2 Warrior
+Foe _knight_ is Knight
+Foe _battlemage_ is Battle_mage
+Foe _F.03_ is 2 Rogue
+
+--	Quest start-up:
+	place item _mitem_ at _storehouse_
+	log 1010 step 0
+	get item _letter_
+	pc at _storehouse_ set _S.04_
+	start timer _2storehouse_
+	--added timer start 2storehouse
+
+_pcgetsgold_ task:
+	toting _mitem_ and _qgiver_ clicked
+	give pc _reward_
+	change repute with _qgiver_ by +10
+	change repute with _competitor_ by -10
+	end quest
+
+variable _qgclicked_
+_S.02_ task:
+	dropped _letter_ at _storehouse_
+	start timer _S.05_
+	stop timer _2storehouse_
+	--added timer stop 2storehouse
+
+_2storehouse_ task:
+	make _mitem_ permanent
+	end quest
+
+_S.04_ task:
+	create foe _knight_ every 8 minutes 2 times with 10% success
+	create foe _battlemage_ every 7 minutes 2 times with 10% success
+	create foe _F.00_ every 10 minutes 1 times with 10% success
+	create foe _F.03_ every 9 minutes 1 times with 10% success
+
+_S.05_ task:
+	--removed unnecessary "say nothing"
+	give pc _letter10_ notify 1013
+
+variable _S.06_
+_S.07_ task:
+	toting _mitem_ and _competitor_ clicked
+	prompt 1014 yes _S.09_ no _gimme_
+
+_gimme_ task:
+	get item _mitem_
+	say 1016
+
+_S.09_ task:
+	get item _gem_
+	say 1015
+	make _gem_ permanent
+	change repute with _competitor_ by +5
+	change repute with _qgiver_ by -5
+	end quest
+
+_qgclick2_ task:
+	clicked npc _qgiver_
+
+_clearclick_ task:
+	when _qgclick2_ and not _pcgetsgold_
+	say 1003
+	clear _clearclick_ _qgclick2_

@@ -1,0 +1,110 @@
+-- Quest: C:\QUESTS\WORKING\M0C00Y12.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: fighter
+-- Repute: 0
+-- QuestId: 12
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: M0C00Y12
+DisplayName: J[jnf yf ubufyncrjuj gferf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vtyz pjden _qgiver_.
+<ce> Vyt yt jxtym [jntkjcm `s lfdfnm hf`jne
+<ce> yt xktye ubkmlbb. Yj ns dyeiftim ljdthbt.
+<ce> Rfrfz nj `tlyfz leif ghbytckf ljvjq gfexmt
+<ce> zqwj, bp rjnjhjuj rjytxyj *t dskegbkcz gfer.
+<ce> Gj[j*t tuj cgenfkb c zqwjv itkrjghzlf. ^njn
+<ce> jke[ lf*t yt vj*tn pfgkfnbnm yfv pf bpuyfybt
+<ce> ndfhb. ~snm vj*tn tckb ns cjukfcbimcz cltkfnm
+<ce> @nj `tcgkfnyj, nj vs `eltv jnyjcbnmcz r nt`t
+<ce> `jktt `kfujcrkjyyj. Ljujdjhbkbcm?
+
+RefuseQuest:  [1001]
+<ce> Z nfr b levfk, xnj ns yt
+<ce> hf`jne botim.
+
+AcceptQuest:  [1002]
+<ce> Cfvjt dhtvz gjrfpfnm ct`z.
+<ce> Gfer d _house_. E`tq tuj
+<ce> ctujlyz b z pfvjkdk< pf nt`z ckjdtxrj.
+
+QuestComplete:  [1004]
+<ce> Nt`z *ltn gfenbyf, %pcf.
+<ce> Cltkfq lj`hjt ltkj b `eltim
+<ce> ghtlcnfdkznm lkz Ubkmlbb ~jqwjd
+<ce> jghtltktyysq bynthtc.
+
+RumorsDuringQuest:  [1005]
+<ce> Cks[fkb ghj blbjnf, rjnjhsq ghbgth ljvjq
+<ce> gfexmt zqwj? Ntgthm e ytuj ljvf cblbn
+<ce> djcmvbyjubq lheu, rjnjhsq gsnftncz
+<ce> ckjgfnm tuj yf pfdnhfr!
+
+RumorsPostfailure:  [1006]
+<ce> ^njn ukegtw `sk gfhfkbpjdfy b e`bn ubufyncrbv
+<ce> gferjv. D cdjtv cj`cndtyyjv ljvt!
+
+RumorsPostsuccess:  [1007]
+<ce> Ds njn, rnj e`bk `jkmijuj gferf.
+<ce> Dfv cktletn djqnb d hzls Ubkmlbb ~jqwjd
+<ce> bkb xnj-nj d @njv hjlt.
+
+QuestorPostsuccess:  [1008]
+<ce> Jnkbxyfz hf`jnf c @nbv ubufyncrbv gferjv.
+
+QuestorPostfailure:  [1009]
+<ce> Tckb ns yt dsyjcbim gferjd, pfxtv `thtimcz
+<ce> pf hf`jne, rjnjhe< pfdtljvj dsgjkybnm
+<ce> yt cvj*tim?
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ubkmlbz ~jqwjd bp ___qgiver_
+ yfyzkf vtyz e`bnm ubufyncrjuj gferf,
+ rjnjhsq euytplbkcz d _house_.
+ Hf`jne ye*yj dsgjkybnm ctujlyz.
+
+Message:  1011
+<ce> _monster_ vthnd.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+
+Place _house_ local random
+
+Clock _2dung_ 1.00:00 0 flag 1 range 0 1
+
+Foe _monster_ is Spider
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _house_
+	log 1010 step 0
+	create npc at _house_
+	place foe _monster_ at _house_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _monster_ saying 1011
+
+_S.02_ task:
+	when _qgclicked_ and _S.01_
+	give pc nothing
+	end quest
+
+_qgclicked_ task:
+    clicked npc _qgiver_
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.01_
+	clear _qgclicked_ _clearclick_
+	--removed duplicate clearclick

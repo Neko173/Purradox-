@@ -1,0 +1,109 @@
+-- Quest: C:\QUESTS\WORKING\C0B20Y08.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: temple
+-- Repute: 20
+-- QuestId: 8
+Messages: 12
+Quest: C0B20Y08
+DisplayName: J`hzl bcregktybz
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ujdjhzn, ds jlby bp cfvs[ dthys[ cke*bntktq
+<ce> [hfvf. Z [jxe, xnj`s ds dsgjkybkb jlye
+<ce> *bpytyyj df*ye< pflfxe lkz yfc. %god
+<ce> ytljdjkty yfvb. Yt pflfdfqntcm djghjcjv,
+<ce> gjxtve. Yfif tlbycndtyyfz yflt*lf -
+<ce> - j`hzl bcregktybz. Lkz wthtvjybb yfv
+<ce> ye*ty jlby htfutyn: _ingredient_.
+<ce> Vjb bcnjxybrb ujdjhzn, xnj rjt-xnj vj*yj
+<ce> yfqnb d ___dungeon_.
+<ce> Ds cjukfcys dsgjkybnm @ne hf`jne?
+
+RefuseQuest:  [1001]
+<ce> F dfif ghtlfyyjcnm [hfve yt
+<ce> nfr e* b dtkbrf, rfr z
+<ce> gjkfufk, %pcn.
+
+AcceptQuest:  [1002]
+<ce> Wthtvjyb< ytj`[jlbvj ghjdtcnb d
+<ce> ntxtybt =traveltime_ lytq. {hfv
+<ce> pfgkfnbn dfv _gold_ pjkjns[.
+<ce> Yfv ye*ty njkmrj ytpfuhzpytyysq
+<ce> j`hfptw _ingredient_.
+<ce> Lf `eltn c dfvb `kfujckjdtybt
+<ce> %god, xnj`s ds gjyzkb, rjulf
+<ce> yfqltnt nj, xnj ye*yj.
+
+QuestComplete:  [1004]
+<ce> Ds yfikb? _ingredient_!
+<ce> ~j*tcndj `eltn evbhjndjhtyj.
+<ce> Ds jnkbxyj gjhf`jnfkb. Djn
+<ce> dfif yfuhflf.
+
+RumorsDuringQuest:  [1005]
+Cnhfyyst cke[b ... [jlzn ghj __qgiver_.
+   <--->
+Gj[j*t d __qgiver_ `skf ghjdtltyf ythfphtityyfz jhubz.
+   <--->
+Rnj-nj yfpdfk bvz %god pfljv yfgthtl dj dhtvz wthtvjybb d __qgiver_.
+
+RumorsPostfailure:  [1006]
+__qgiver_ dct tot yt d kflf[ cj cdjbv `j*tcndjv.
+
+RumorsPostsuccess:  [1007]
+__qgiver_ dthyek hfcgjkj*tybt cdjtuj `j*tcndf.
+
+QuestorPostsuccess:  [1008]
+Ds evbhjndjhbkb %god, %pct. Xtv z vjue `snm gjktpty?
+
+QuestorPostfailure:  [1009]
+Gjrf %god ytyfdblbn __qgiver_, z `ele ytyfdbltnm dfc, %pct.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp __qgiver_,
+ d ___qgiver_, hfccrfpfk vyt, xnj b[ `j*tcndj
+ hfpuytdfyj. Ytj`[jlbv ytpfuhzpytyysq
+ j`hfptw _ingredient_ bp ___dungeon_
+ lkz ghjdtltybz j`hzlf jxbotybz.
+ ^nj ljk*yj `snm d herf[ _qgiver_
+ d __qgiver_ d ntxtybt =traveltime_ lytq.
+
+Message:  1011
+<ce> ^nj nj cfvjt! Z xedcnde< xbcnjne
+<ce> @njuj htfutynf _ingredient_.
+<ce> Ntgthm ytvtlktyyj djpdhfofqntcm
+<ce> r _qgiver_.
+
+
+
+QBN:
+Item _ingredient_ organs
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _dungeon_ remote dungeon
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+
+--	Quest start-up:
+	place item _ingredient_ at _dungeon_
+	start timer _traveltime_
+	reveal _dungeon_
+	log 1010 step 0
+
+_traveltime_ task:
+	end quest
+
+_questdone_ task:
+	toting _ingredient_ and _qgiver_ clicked
+	give pc _gold_
+	end quest
+
+_S.02_ task:
+	clicked item _ingredient_ say 1011

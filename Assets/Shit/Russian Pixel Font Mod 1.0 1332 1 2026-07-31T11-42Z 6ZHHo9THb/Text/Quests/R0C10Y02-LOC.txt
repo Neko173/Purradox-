@@ -1,0 +1,184 @@
+-- Quest: C:\QUESTS\WORKING\R0C10Y02.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 2
+Messages: 31
+Quest: R0C10Y02
+DisplayName: Rjynhf`fylf pjkjnf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vyt ye*ty ytrnj, rnj vj*tn jnytcnb cgtwbfkmysq
+<ce> ghtlvtn vjtve pyfrjvjve d ___contact_.
+<ce> Dpfvty yf ytuj ds gjkexbnt lheujq ghtlvtn. Tckb ds
+<ce> ghbytctnt @njn ghtlvtn vyt j`hfnyj, z `ele cxfcnkbd
+<ce> djpyfuhflbnm dfc _reward_ pjkjnsvb vjytnfvb.
+<ce> Cjukfcys?
+
+RefuseQuest:  [1001]
+<ce> Ytn? Rfr *fkrj! F z ujnjdbkcz dfc
+<ce> otlhj jn`kfujlfhbnm.
+
+AcceptQuest:  [1002]
+<ce> Jxtym [jhjij! Djpmvbnt @njn ckbnjr pjkjnf b
+<ce> jnytcbnt tuj =contact_,
+<ce> ghjpdfyyjve _contact_ d vtcnj, yfpsdftvjt
+<ce> __contact_ d ___contact_.
+<ce> Gjnjhjgbntcm. Tckb ds yt lj`thtntcm
+<ce> d __contact_ pf =1stparton_ lytq,
+<ce> _contact_ etltn, b
+<ce> ybrjve bp yfc yt gjcxfcnkbdbncz, jcj`tyyj dfv
+<ce> Elfxb dfv.
+
+QuestFail:  [1003]
+<ce> Kb`j ds tot yt yfxbyfkb, kb`j ghbikb
+<ce> bpdbybnmcz pf ghjdfk. ^nj nfr, %pcf?
+<ce> Lf, z jxtym cbkmyj hfpjxfhjdfy.
+<ce> Dfif ytcgjcj`yjcnm cbkmyj jckj*ybkf vj< *bpym
+<ce> Gjkfuf<, xnj d cktle<obq hfp z `ele
+<ce> jcvjnhbntkmytt. Djy jnc<lf, %pcf. Ctqxfc *t.
+
+QuestComplete:  [1004]
+<ce> Jnkbxyj, %pcf, ds dthyekbcm
+<ce> c vjbv _item2_, rfr b j`tofkb. Dfif
+<ce> lj`ktcnm b [hf`hjcnm b dghfdle dtkbrb! Z edthty
+<ce> vs jwtybv dfie lfkmytqie< cke*`e gj ljcnjbycnde
+<ce> d `kb*fqitv `eleotv. ~kfujlfh<.
+
+RumorsDuringQuest:  [1005]
+<ce> Pltcm `sk @njn =contact_, dscghfibdfz, yt dbltk kb z %ra.
+   <--->
+<ce> Ytrbq =contact_ hfpscrbdfk %ra c _item1_ ytlfdyj.
+
+RumorsPostfailure:  [1006]
+<ce> Lf, _questgiver_, z cksifk, dp`tity
+<ce> ytrbv %ra yftvybrjv.
+   <--->
+<ce> _questgiver_ dct tot gjkfuftncz yf yftvybrjd b
+<ce> z cksifk, xnj %g rbgtk jn uytdf.
+
+RumorsPostsuccess:  [1007]
+<ce> Z cksifk, xnj _questgiver_ yfrjytw-nfrb gjkexbk ytrbq
+<ce> _item2_, rjnjhsq %g `sk ye*ty.
+   <--->
+<ce> _questgiver_ djcgtdftn lbabhfv`s @njve
+<ce> %ra yftvybre.
+
+QuestorPostsuccess:  [1008]
+Ye plhfdcndeq cyjdf, vjq <ysq lheu. Z yt pf`sk j ndjb[ eckeuf[.
+   <--->
+F, %pcf. Hfl dbltnm dfc cyjdf.
+
+QuestorPostfailure:  [1009]
+<ce> Xnj, @nj ybrxtvysq %ra.
+<ce> E nt`z `elen `jkmibt ghj`ktvs.
+   <--->
+<ce> Lf, yte*tkb @nj ybrxtvysq
+<ce> rehmth. B gjxtve `s nt`t yt egjkpnb jnc<lf
+<ce> ghjxm cb< *t ctreyle, f?
+
+
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_
+ bp ___questgiver_ gjckfk vtyz
+ r rjynfrnyjve kbwe _contact_ d ___contact_,
+ xnj`s ljcnfdbnm ckbnjr pjkjnf @njve
+ =contact_ d __contact_.
+ Pjkjnj ljk*yj `snm d %g4 herf[ yt gjplytt
+ =1stparton_ lytq, xnj`s z gjkexbk
+ ghbxbnf<oe<cz vyt yfuhfle.
+
+Message:  1011
+%qdt:
+ Z ljcnfdbk pjkjnj
+ _contact_, rjnjhsq lfk vyt _item2_,
+ xnj`s z jnytc tuj _questgiver_.
+
+Message:  1020
+<ce> ^njn pjkjnjq ckbnjr, ljk*yj `snm, ljdjkmyj
+<ce> nz*tk. Rfr yfcxtn njuj, xnj z jcdj`j*e nt`z
+<ce> jn ytuj? Lfdfq tuj c<lf,
+<ce> b z gjpdjk< nt`t eqnb gj lj`he, gj pljhjde.
+
+Message:  1021
+<ce> Rfrjq [hf`hsq vfksq!
+<ce> Edthty, xnj hfccrf*e dctv vjbv lhepmzv,
+<ce> yfcrjkmrj ds vj*tnt `snm lkz yb[ gjktpys.
+
+Message:  1030
+<ce> F, nfr ds b tcnm njn rehmth.
+<ce> Jnkbxyj, jnkbxyj. Ctqxfc, jnytcbnt
+<ce> @njn _item2_ ytvtlktyyj yfpfl r
+<ce> _questgiver_, b %g djpyfuhflbn dfc, rfr b
+<ce> j`tofk. C dfvb ghbznyj bvtnm ltkj,
+<ce> %pcf!
+
+
+
+QBN:
+Item _reward_ gold
+Item _item1_ gold_bar
+Item _item2_ magic_item
+
+Person _questgiver_ face 76 group Questor
+Person _contact_ face 80 group Local_3.0 remote
+
+
+Clock _1stparton_ 00:00 0 flag 1 range 1 4
+Clock _2ndparton_ 00:00 0 flag 1 range 1 4
+
+Foe _thief_ is Spellsword
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1010 step 0
+	get item _item1_
+	create npc _contact_
+
+_pcgetsgold_ task:
+	toting _item2_ and _questgiver_ clicked
+	give pc _reward_
+	end quest
+
+_queston_ task:
+	when _1stparton_ and not _npcclicked_
+	when _2ndparton_
+	change repute with _questgiver_ by -20
+	end quest
+
+variable _qgclicked_
+_npcclicked_ task:
+	toting _item1_ and _contact_ clicked
+	start timer _2ndparton_
+	log 1011 step 1
+	get item _item2_ saying 1030
+
+until _npcclicked_ performed:
+	create foe _thief_ every 5 minutes 5 times with 25% success
+
+variable _1stparton_
+variable _pchasitem1_
+variable _pchasitem2_
+yes task:
+	have _item1_ set _S.09_
+
+variable _no_
+_S.09_ task:
+	give item _item1_ to _thief_
+	say 1021
+--moved "saying 1021" to new line. bad argument
+	restrain foe _thief_
+
+_S.10_ task:
+	injured _thief_
+	prompt 1020 yes yes no _no_
+
+variable _2ndparton_
+_S.12_ task:
+	when _queston_ or _pcgetsgold_
+	make _item2_ permanent
+	make _item1_ permanent

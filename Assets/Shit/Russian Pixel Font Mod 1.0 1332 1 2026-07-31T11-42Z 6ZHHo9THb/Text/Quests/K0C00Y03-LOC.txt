@@ -1,0 +1,227 @@
+-- Edited for Daggerfall Unity by Jay_H
+Quest: K0C00Y03
+DisplayName: Rjynhf`fylf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> E dfc yt `eltn ghj`ktv, tckb ytvyjuj
+<ce> gjhf`jnftnt rjynhf`fylbcnjv yf vtyz,
+<ce> %pcf? Hbcr yt bcrk<xty,
+<ce> yj b yfuhflf cnjbn njuj. Xnj crf*tnt
+<ce> yfcxtn gkfns d _gold_ pjkjns[?
+   <--->
+<ce> Rjynhf`fylf - jndhfnbntkmyjt ckjdj, yt
+<ce> nfr kb? Ljk*ty crfpfnm, xnj vyt ye*yj
+<ce> ljcnfdbnm yt`jkmie< gfhnb< ktufkmyjuj
+<ce> njdfhf d vtcnj, ult xfcnm @njq gfhnbb
+<ce> hfphtityf, f xfcnm yt cjdctv pfrjyyf.
+<ce> Dfv bynthtcyj?
+
+RefuseQuest:  [1001]
+<ce> Vs ybrjulf yt dbltkbcm. Gjvybnt
+<ce> @nj, %pcf.
+   <--->
+<ce> Hfp ds jnrfpsdftntcm, z `jkmit
+<ce> yt [jxe dbltnm dfc.
+
+AcceptQuest:  [1002]
+<ce> Dtkbrjktgyj. Djn gkfy, %pcf.
+<ce> E vtyz tcnm yt`jkmit ltkj gj dsdjpe
+<ce> _item_ d __conhouse_,
+<ce> yj vjb j`sxyst futyns `skb gjqvfys cnhf*tq
+<ce> %t'f. Tckb ds cvj*tnt ljcnfdbnm
+<ce> _item_ d __conhouse_
+<ce> d vtcnj gjl yfpdfybtv _conhouse_,
+<ce> vjq rkbtyn _contact_ lfcn dfv
+<ce> _gold_ pjkjns[, rfr z b j`tofk.
+<ce> Yt pfujdfhbdfqnt c pfrjyybrfvb, gjrf yt
+<ce> bp`fdbntcm jn _item_ b yt jgjplfqnt
+<ce> d _conhouse_, e dfc =queston_ lytq,
+<ce> byfxt z gjkj*e dc< cdj< *bpym, xnj`s
+<ce> hfpheibnm dfie htgenfwb< d kbwt
+<ce> ghfdbntkmcndf, ghtcnegyjuj vbhf b tot
+<ce> rjt-rjuj. Yj z edthty, xnj ds vtyz yt
+<ce> gjldtltnt. Ecgt[jd, lbnz vjt.
+<ce> Ljcnfdmnt _qgiver_ hfljcnm.
+
+QuestComplete:  [1004]
+<ce> Z xedcndjdfk ct`z, rfr yf bujkrf[,
+<ce> j*blfz dfc, %pcf. Fuf,
+<ce> _item_. {jhjitt rfxtcndj.
+<ce> Djn djpmvbnt _gold_ pjkjns[.
+<ce> Ghbznyj bvtnm ltkj c dfvb b
+<ce> c _qgiver_.
+
+RumorsDuringQuest:  [1005]
+Rjynhf`fylf _item_ vt*le ___qgiver_ b __conhouse_ gjpjhbn dtcm htubjy %reg.
+   <--->
+%t ghbyzk vths r ghtrhfotyb< rjynhf`fyls _item_.
+
+RumorsPostsuccess:  [1007]
+Gj[j*t rjynhf`fylf _item_ ybrjulf yt ghtrhfnbncz d %reg. Jxtym gkj[j.
+   <--->
+%rt %rn yfpyfxbk _qgiver_ cgtwbfkmysv yf`k<lfntktv d djqyt ghjnbd rjynhf`fyls.
+
+QuestorPostsuccess:  [1008]
+_contact_ crfpfk vyt, xnj ds cghfdbkbcm djdhtvz. ~kfujlfh< dfc.
+
+QuestorPostfailure:  [1009]
+<ce> Vj*tn ds b ghtlfkb vtyz, f vj*tn `snm
+<ce> ghjcnj gkj[jq rjynhf`fylbcn. D k<`jv
+<ce> ckexft yfv yt j xtv `jkmit ujdjhbnm.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp
+ ___qgiver_ lfk vyt gfhnb<
+ _item_. xnj`s nfqyj ghjdtpnb d __conhouse_.
+ Bvz cdzpyjuj _contact_ b %g `eltn
+ *lfnm d _conhouse_.
+ Tcntcndtyyj vyt yflj bp`tufnm rjynfrnjd
+ c ujhjlcrjq cnhf*tq d @njv gentitcndbb.
+ E vtyz =queston_ lytq,
+ xnj`s lj`hfnmcz lj vtcnf.
+
+Message:  1011
+Ljhjujq lheu %pcf,
+<ce>
+  Dfc gjlcnfdbkb. _contact_
+yt d _conhouse_. Nfv dfc j*blftn
+pfcflf d kbwt hswfhz gj bvtyb =guard_.
+Tckb ds [jnbnt ljcnfdbnm _item_,
+ytcbnt @nj rj vyt d __contact2_ d
+___contact2_.
+<ce>
+_contact2_
+<ce> ----
+
+Message:  1012
+<ce> Rjydthn ktu dfv d herb
+<ce> rfr-`elnj bp ybjnrelf.
+
+Message:  1013
+%qdt:
+ Vyt ghbikj gbcmvj jn rjuj-nj gj bvtyb
+ _contact2_, crfpfdituj, xnj
+ _conhouse_ @nj kjdeirf. Vyt `skj
+ ghtlkj*tyj jnlfnm _item_ d herb
+ @njuj _contact2_ d nfdthyt, xnj d
+ ___contact2_, __contact2_.
+
+Message:  1014
+<ce> F, ds gjkexbkb vjt gbcmvj. {jhjibt
+<ce> yjdjcnb lkz dfc. Ckj*bkfcm dtcmvf
+<ce> ytghbznyfz cbnefwbz, f z yt [jxe,
+<ce> xnj`s ds `skb djdktxtys d @nb ltkf.
+<ce> Z pf`the _item_ d
+<ce> j`vty yf vjb eckeub gj jxbotyb<
+<ce> dfitq htgenfwbb gjckt dvtifntkmcndf
+<ce> dfc d rjynhf`fylbcncrbt ltkf.
+<ce> Yt cnjbn `kfujlfhyjcntq.
+
+Message:  1015
+<ce> Gjujlb-rf vbyenre. Yfv ye*ty yt ns.
+<ce> Njkmrj _qgiver_ b _item_.
+<ce> Jcnfdm @nj b cvj*tim eqnb
+<ce> jnc<lf yf cdjb[ lde[, [jhjij?
+   <--->
+<ce> Gjckeifq, ybxtuj kbxyjuj. Ghjcnj jnlfq
+<ce> vyt _item_ b z crf*e vjtve
+<ce> `jcce, xnj yt dbltk nt`z.
+<ce> Ljujdjhbkbcm?
+
+Message:  1016
+<ce> Cjj`hfpbntkmysq gfhybif.
+<ce> F ntgthm e`bhfqcz jnc<lf.
+
+Message:  1017
+<ce> _qgiver_ yt j`hfletncz,
+<ce> tckb ns jcnfdbim _item_ e ct`z,
+<ce> yj chjr ljcnfdrb lfdyj ghjitk.
+<ce> Gjghj`eq ntgthm ghjlfq @nj
+<ce> rjve-yb`elm lheujve...
+
+
+
+QBN:
+Item _gold_ gold
+Item _item_ drug
+Item _letter_ letter used 1011
+
+Person _qgiver_ group Questor
+Person _contact_ face 1 group Innkeeper remote
+Person _contact2_ group Innkeeper remote
+
+Place _conhouse_ remote house2
+
+Clock _2letter_ 03:20 06:40
+Clock _queston_ 00:00 0 flag 1 range 2 5
+
+Foe _guard_ is Knight
+
+--	Quest start-up:
+	dialog link for person _contact_
+	start timer _queston_
+	log 1010 step 0
+	get item _item_
+	pick one of _whip_ _S.02_
+	legal repute -10
+	place npc _contact_ at _conhouse_
+--legal repute set to - and + 10 only. 100 for mere smuggling is ridiculous.
+
+variable _traveltime_
+_whip_ task:
+	pc at _conhouse_ set _S.04_
+	start timer _2letter_
+
+variable _S.02_
+variable _S.03_
+_S.04_ task:
+	hide npc _contact_
+	place foe _guard_ at _conhouse_
+
+_S.05_ task:
+	injured _guard_
+	prompt 1015 yes _deed_ no _no_
+
+_deed_ task:
+	take _item_ from pc
+	--classic would transfer the item from pc to guard. DFU requires a take item action.
+	give item _item_ to _guard_
+	say 1016
+	restrain foe _guard_
+
+_2letter_ task:
+	_letter_ used do _S.08_
+	give pc _letter_ notify 1012
+
+_S.08_ task:
+	log 1013 step 1
+
+_reward_ task:
+	toting _item_ and _contact_ clicked
+	give pc _gold_
+	legal repute +10
+	end quest
+
+_S.10_ task:
+	toting _item_ and _contact2_ clicked
+
+_S.11_ task:
+	when _S.10_ and _whip_
+	say 1014
+	legal repute +10
+	end quest
+
+_S.12_ task:
+	when _queston_ and _S.14_
+	say 1017
+	make _item_ permanent
+
+_queston_ task:
+	have _item_ set _S.14_
+	end quest
+
+variable _S.14_
+variable _no_

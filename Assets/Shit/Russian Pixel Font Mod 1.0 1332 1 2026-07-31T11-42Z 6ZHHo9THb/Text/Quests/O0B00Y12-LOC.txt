@@ -1,0 +1,151 @@
+-- Quest: C:\QUESTS\WORKING\O0B00Y12.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: thief
+-- Repute: 0
+-- QuestId: 12
+Messages: 36
+Quest: O0B00Y12
+DisplayName: Ljcnfdrf ghtgfhfnjd
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcf, e vtyz lkz nt`z hf`jntyrf.
+<ce> Bynthtcyj? Ye*yj ljcnfdbnm yt`jkmijq
+<ce> gfrtn d ___contact1_.
+<ce> Xnj crf*tim?
+
+RefuseQuest:  [1001]
+<ce> Cubym c ukfp vjb[.
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj. Djn gfrtn. ^nj _drugs_.
+<ce> Ye*yj ljcnfdbnm d ___contact1_.
+<ce> Rfr vj*yj hfymit. _contact1_
+<ce> dcnhtnbn nt`z d __contact1_.
+<ce> Jcnjhj*ytt. Tckb [jnm ckjdtxrj
+<ce> ghjhjybim, e yfc vjuen `snm
+<ce> ytghbznyjcnb c rjynhf`fylbcnfvb,
+<ce> pf[fgfdibvb `bpytc d %reg.
+
+QuestFail:  [1003]
+<ce> Hfpdt z yt ujdjhbk "rfr vj*yj hfymit"?
+
+QuestComplete:  [1004]
+<ce> Hfl, xnj nt`t dct elfkjcm. ^nbv
+<ce> k<`bntkzv ybxtuj yt cdtnbn ghjnbd
+<ce> yfitq jhufybpfwbb. Djn _gold_ pjkjns[
+<ce> pf ndjb eckeub. {jhjifz hf`jnf.
+
+RumorsDuringQuest:  [1005]
+<ce> Ujdjhzn e Ubkmlbb Djhjd rfrbt-nj ghj`ktvs c
+<ce> rjynhf`fylbcncrjq ifqrjq.
+
+RumorsPostfailure:  [1006]
+<ce> Gj[j*t Ubkmlbz Djhjd [jxtn yfkj*bnm kfge yf
+<ce> rjynhf`fylysq `bpytc %reg.
+
+RumorsPostsuccess:  [1007]
+<ce> Gj[j*t Ubkmlbz Djhjd cj`bhftncz hfpj`hfnmcz c rjyrehtynfvb
+<ce> rjynhf`fylbcnfvb, rjnjhst ghbxbyz<n bv ytghbznyjcnb.
+
+QuestorPostsuccess:  [1008]
+<ce> ^q, cnfhsq lj`hsq lheu, %pcn, z gjvy< nt`z. Vjq kexibq gjcskmysq.
+
+QuestorPostfailure:  [1009]
+<ce> Nfr nfr nfr...rjynhf`fylbcn, rjnjhsq yt vj*tn ljcnfdbnm njdfh. Xtuj ns [jxtim?
+
+Message:  1020
+%qdt:
+ Z yf genb d ___contact1_
+ c vbccbtq gj ljcnfdrt _drugs_
+ lkz _contact1_, rnj dcnhtnbn
+ vtyz d __contact1_.
+ Vtyz ghtleghtlbkb ghj `fylbnjd
+ bp rjyrehbhe<otq uheggbhjdrb.
+
+Message:  1021
+%qdt:
+ Gjkextyj erfpfybt jn _contact1_.
+ %g yt vj*tn dcnhtnbnmcz cj vyjq d
+ ___contact1_.  %g crfpfk jnghfdkznmcz
+ d ___contact2_,
+ ghbdtpnb njdfh r
+ =contact2_ d __contact2_.
+
+Message:  1030
+%pcn --
+<ce>
+  Ghjie ghjotybz, yj z yt vjue dcnhtnbnmcz
+c dfvb d ___contact1_, rfr gkfybhjdfkjcm.
+Pltcm cnfkj ckbirjv ujhzxj lkz vtyz. Levf<,
+yflj gtht*lfnm. Tcnm fkmnthyfnbdyjt vtcnj
+d ___contact2_. Bobnt nfv =contact2_,
+rjnjhsq *ltn dfc d __contact2_.
+<ce>
+~elmnt jcnjhj*ytt,
+<ce>
+_contact1_
+<ce> ----
+
+Message:  1031
+<ce> Vfktymrbq, uhzpysq j`jhdfytw lthyek
+<ce> dfc pf herfd. Jy dhexbk dfv rkjxjr
+<ce> `evfub, gjckt xtuj cvskcz pf eukjv.
+
+Message:  1035
+<ce> Rjulf *t dfif ubkmlbz gjqvtn yfrjytw,
+<ce> xnj vs rjynhjkbhetv _drugs_-`bpytc
+<ce> d %reg?
+
+
+
+QBN:
+Item _drugs_ drug
+Item _note_ letter used 1030
+Item _gold_ gold
+
+Person _contact1_ group Group_5.1 remote
+Person _questgiver_ group Questor
+Person _contact2_ group Local_3.0 remote
+
+
+Clock _qtime_ 00:00 0 flag 1 range 3 5
+Clock _S.01_ 1.00:00 2.18:40
+
+Foe _enemy_ is Assassin
+
+--	Quest start-up:
+	start timer _S.01_
+	start timer _qtime_
+	log 1020 step 0
+	get item _drugs_
+
+_qtime_ task:
+	end quest
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+	say 1003
+
+_S.01_ task:
+	_note_ used do _readnote_
+	create foe _enemy_ every 10 minutes 10 times with 10% success
+	hide npc _contact1_
+	give pc _note_ notify 1031
+
+_readnote_ task:
+	log 1021 step 1
+
+variable _S.03_
+_success_ task:
+	toting _drugs_ and _contact1_ clicked
+	toting _drugs_ and _contact2_ clicked
+	give pc _gold_
+	end quest
+--removed unnecessary delay
+
+_S.06_ task:
+	injured _enemy_
+	say 1035

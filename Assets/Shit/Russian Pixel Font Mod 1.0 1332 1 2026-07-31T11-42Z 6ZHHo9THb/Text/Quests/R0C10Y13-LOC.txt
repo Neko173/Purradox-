@@ -1,0 +1,121 @@
+-- Quest: C:\QUESTS\WORKING\R0C10Y13.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 13
+Messages: 21
+Quest: R0C10Y13
+DisplayName: Vbhyjt ghtlkj*tybt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> E vtyz pflfybt lbgkjvfnbxtcrjq df*yjcnb.
+<ce> Lfhs vbhf, rjnjhsvb yflj j`vtyznmcz.
+<ce> Yt jrf*tnt kb vyt eckeue b yt gthtlflbnt
+<ce> kb ds gjlfhjr vjtve lheue, _contact_?
+
+RefuseQuest:  [1001]
+<ce> Xnj jnnfkrbdftn dfc jn @njuj pflfybz,
+<ce> wtyf, ytelj`cndf bkb @nj pflfybt yb*t
+<ce> dfituj ljcnjbycndf, %pcf?
+<ce> Ye kflyj, z kturj yfqle lheujuj %ra,
+<ce> pfbynthtcjdfyyjuj d ghjldb*tybb
+<ce> gj ujcelfhcndtyyjq ktcnybwt.
+
+AcceptQuest:  [1002]
+<ce> Jxtym [jhjij, %pcf.
+<ce> Ckeifqnt dybvfntkmyj: ljcnfdmnt @nj - _item_
+<ce> dj ldjhtw d __palace_ b yfqlbnt nfv =contact_.
+<ce> ^nj b `eltn _contact_. %g *ltn dfc
+<ce> b pfgkfnbn pf dfib nhels. Jnghfdkzqntcm
+<ce> d genm. Yt gjldtlbnt vtyz, %pcf.
+
+QuestFail:  [1003]
+<ce> ~scnhtt jnghfdkzqntcm! Ytn dhtvtyb
+<ce> yf gecnst hfpujdjhs! E dfc e*t
+<ce> tcnm hf`jnf.
+
+QuestComplete:  [1004]
+<ce> J, rfrfz dtkbrjktgyfz dtobwf.
+<ce> ^nj _questgiver_ ghbckfk?
+<ce> Xnj *, vt*le yfvb `skj ghjcnjt
+<ce> ytljhfpevtybt. Djn _reward_ pjkjns[
+<ce> pf dfib eckeub, %pcf.
+
+RumorsDuringQuest:  [1005]
+Ujdjhzn _contact_ gjlevsdftn j ghtrhfotybb jnyjitybq c _questgiver_.
+   <--->
+_questgiver_ cktljdfkj `s erhtgbnm jnyjitybz c _contact_.
+
+RumorsPostfailure:  [1006]
+_questgiver_ b _contact_ cnfkb tot lfkmit lheu jn lheuf, xtv rjulf-kb`j hfymit.
+   <--->
+Vtyz yt elbdbn, tckb _contact_ b _questgiver_ jrjyxfntkmyj hfpheuf<ncz.
+
+RumorsPostsuccess:  [1007]
+Gj[j*t _contact_ b jrhe*f<obt ghbznyj elbdktys gjlfhrjv jn _questgiver_.
+   <--->
+%god! _questgiver_ gjlfhbk _item_  _contact_. Hfpdt * @nj yt [jhjij?
+
+QuestorPostsuccess:  [1008]
+F, @nj vjq gjckfyybr vbhf. Rfr blen dfib ltkf, lheu vjq?
+   <--->
+%oth, @nj *t yfi edf*ftvsq rehmth. Rfr gj*bdftnt?
+
+QuestorPostfailure:  [1009]
+<ce> Cdjtq ytelfxtq c ljcnfdrjq _item_
+<ce> d herb _contact_ ds gjxnb hfpheibkb
+<ce> vjb gkfys gj ecnfyjdktyb< vbhys[
+<ce> jnyjitybq, %pcf.
+<ce> Ghjxm c ukfp vjb[!
+
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_ gjj`tofk
+ vyt _reward_ pjkjns[, tckb
+ z c[j*e dj ldjhtw d __palace_
+ b jnytce nelf lfhs vbhf, _item_.
+ Gjlfhjr ghtlyfpyfxty lkz kbxyjcnb gj bvtyb
+ _contact_. Vye ye*yj eghfdbnmcz
+ d ntxtybt =queston_ lytq.
+
+Message:  1020
+<ce> Hfpdt _questgiver_
+<ce> ybxtuj yt gthtlfdfk lkz vtyz?
+<ce> Ghjrkznbt, jgznm @nb ukegst ienrb ...
+
+
+
+QBN:
+Item _reward_ gold
+Item _item_ trinket
+
+Person _questgiver_ group Questor
+Person _contact_ face 1 group Local_3.0 remote
+
+Place _palace_ remote palace
+
+Clock _queston_ 00:00 0 flag 1 range 0 2
+
+--	Quest start-up:
+	start timer _queston_
+	log 1010 step 0
+	get item _item_
+	place npc _contact_ at _palace_
+
+_pcgetsgold_ task:
+	toting _item_ and _contact_ clicked
+	give pc _reward_
+	change repute with _questgiver_ by +20
+	end quest
+--removed unnecessary delay
+
+_queston_ task:
+	make _item_ permanent
+	change repute with _questgiver_ by -20
+	end quest
+
+_npcclicked_ task:
+	clicked npc _contact_ say 1020

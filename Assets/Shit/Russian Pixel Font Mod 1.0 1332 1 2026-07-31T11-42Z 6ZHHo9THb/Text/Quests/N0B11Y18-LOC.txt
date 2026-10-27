@@ -1,0 +1,315 @@
+-- Quest: C:\QUESTS\WORKING\N0B11Y18.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 11
+-- QuestId: 18
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 64
+Quest: N0B11Y18
+DisplayName: ~sdibq cneltyn Xfcnm I
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pct, gj[j*t ds ltqcndbntkmyj nfr ghtlfyys
+<ce> Ubkmlbb Vfujd... bkb vyt @nj njkmrj rf*tncz?
+<ce> E vtyz tcnm jxtym df*yjt pflfybt, b z [jxe,
+<ce> xnj`s bv pfyzkbcm bvtyyj ds.
+
+RefuseQuest:  [1001]
+<ce> Vyt ltqcndbntkmyj gjrfpfkjcm.
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj. Ntgthm r ltke. Jlby vfu gj bvtyb
+<ce> ~fknfv Uhtqvfy gjlybvftn vznt* ghjnbd yfc, b, gjrf
+<ce> @nj dct tot d cnflbb yfxfkf, yfv ytj`[jlbvj
+<ce> e`hfnm tuj. Vjq lj`hsq extybr gjrfpsdfk `jkmibt
+<ce> cgjcj`yjcnb, yj lhtdybt pfrjys Ubkmlbb jrfpfkbcm
+<ce> tve yt gj gktxe. R cj*fktyb< bvtyyj jyb tcnm
+<ce> jcyjdf dctq *bpyb Ubkmlbb b `tp yb[ ytkmpz j`jqnbcm.
+<ce> Yfv elfkjcm epyfnm, xnj jy ctqxfc ghjdjlbn rfrbt-nj
+<ce> bccktljdfybz, cenm rjnjhs[ yfv jxtym yt yhfdbncz.
+<ce> Xthtp =qtime_ lytq jyb `elen pfrjyxtys.
+<ce> Kf`jhfnjhbz yfpsdftncz __rebelhouse_. Cnegfqnt nelf
+<ce> b gjcnfhfqntcm ecnhfybnm @ne euhjpe.
+
+QuestFail:  [1003]
+<ce> Blbnt, %pcn.
+
+QuestComplete:  [1004]
+<ce> Djpmvbnt @njn gjlfhjr, _reward_, rfr
+<ce> pyfr vjtq ghbpyfntkmyjcnb pf dfib ltkf.
+
+Message:  1020
+%qdt:
+ Vyt ghbikjcm dpznm pflfybt gj
+ gjbcre b eybxnj*tyb< vznt*yjuj vfuf gj
+ bvtyb ~fknfv Uhtqvfy, rjnjhsq yf[jlbncz d kf`jhfnjhbb
+ __rebelhouse_.
+ Rfr njkmrj pflfybt `eltn dsgjkytyj, ye*yj
+ `eltn cjj`obnm j` @njv vfue _questgiver_ bp
+ Ubkmlbb Vfujd ujhjlf ___questgiver_.
+ Vyt lfkb =qtime_ lytq.
+
+Message:  1021
+%qdt:
+ Z levf<, htitybt gjoflbnm ~fknfvf Uhtqvfyf `skj
+ ghfdbkmysv. Ntgthm vyt yflj cjj`obnm vfue
+ _questgiver_ j njv, xnj d kf`jhfnjhbb
+ __rebelhouse_ cktls ~fknfvf Uhtqvfyf yfqnb
+ yt elfkjcm, b jcnfdbnm @nj gbcmvj.
+
+Message:  1030
+<ce> Bnfr, _questgiver_ tot hfp jnghfdkztn
+<ce> jlyjuj bp cdjb[ kfrttd xnj`s erjkjnm vtyz.
+<ce> E cnfhbrjd, rjnjhst `tpdskfpyj cblzn d Ubkmlbb
+<ce> Vfujd, ytn nzub r ghbrk<xtybzv, ytn xedcndf
+<ce> jgfcyjcnb, ytn ybrfrb[ pf`jn b jyb ybxtve nfr
+<ce> b yt yfexfncz. Z lf*t yt gjlevf< ybxtuj ltkfnm
+<ce> ghjnbd yb[, rhjvt njuj, xnj` eqnb bp gjl b[
+<ce> rjynhjkz. B njkmrj kbim bp-pf njuj, xnj z ghjcnj
+<ce> yt vjue *bnm gj b[ ghfdbkfv, Ubkmlbz [jxtn vtyz
+<ce> eybxnj*bnm! Gjxtve ds nfr cvbhtyyj gjdbyetntcm
+<ce> bv, e`bdfz gj pfrfpe, rfr yftvysq e`bqwf?
+<ce> Bltvnt cj vyjq, `hjcbv bv dspjd! Dctv!
+
+Message:  1031
+<ce> Xeltcyj! Dctuj kbim crf*bnt cnfhjve vfue
+<ce> _questgiver_, xnj vtyz pltcm yt `skj.
+<ce> Yj jcnfdmnt %g2 @nj gbcmvj.
+<ce> Vyt ye*yj `eltn bcxtpyenm, yj z yfqle
+<ce> dfc jxtym `scnhj, b yfc `elen *lfnm
+<ce> dtkbrbt ltkf!
+
+Message:  1032
+<ce> Xnj *, dfv `eltn jxtym nz*rj.
+<ce> Pfobofqntcm!
+
+Message:  1040
+Ljhjujq lheu _questgiver_,
+<ce>
+  Ghjie ghjotybz, xnj nfr dct gjkexbkjcm. Z
+c yjcnfkmubtq dcgjvbyf< nt lyb, ghjdtltyyst.
+c dfvb. Gjvybnt kb ds nt lyb, rjulf vyt, gjckeiyj
+crkjybdibcm, ghb[jlbkjcm ckeifnm dfc nfr, rfr `elnj
+dfv `skj xtve yfexbnm vtyz, rhjvt gjdnjhtybz cne[ib[
+`fkkfl j ghjikjv dtkbxbb? =mage1_, fh[bvfu
+=mage3_ -- d b[ lyb Ubkmlbz Vfujd `skf
+xtv-nj, pfcke*bdf<obv edf*tybz.
+  Ljdjkmyj! Z yt vjue ghtlkj*bnm cdj< dthyjcnm
+Ubkmlbb, gjrf jyf yt ghtrhfnbn gjlfdkznm
+dct byfrjvsckbz.
+<ce>
+  Tckb ds ghbiktnt rj vyt tot rjuj-yb`elm bp
+cdjb[ gjl[fkbvjd, vyt ghbltncz pfobofnmcz. Cxbnfqnt
+@nj ghtleght*ltybtv.
+<ce>
+Dfi gjrjhysq extybr,
+<ce>
+~fknfv Uhtqvfy
+
+Message:  1041
+<ce> Xnj...rfrfz lthpjcnm! E vtyz ytn
+<ce> ckjd! Ntgthm ds dblbnt, xnj ~fknfvf
+<ce> Uhtqvfyf ytj`[jlbvj jcnfyjdbnm
+<ce> k<`jq wtyjq, lj njuj rfr jy gjljhdtn
+<ce> dct nj, yf xtv jcyjdsdftncz Ubkmlbz.
+<ce> Jxtym ytghbznyj, xnj ds egecnbkb @ne
+<ce> *fkre< vjire, yj z yt `ele *fktnm tuj
+<ce> *fkre< *bpym.
+
+Message:  1042
+<ce> Jxtym [jhjij, %pct. Ubkmlbz Vfujd yt
+<ce> cvj*tn ds*bnm, tckb vs yt `eltv
+<ce> bcgjkyznm cdjb cj`cndtyyst ghfdbkf,
+<ce> rfrbvb `s *tcnjrbvb jyb yt rfpfkbcm.
+
+Message:  1050
+<ce> ~hjcmnt @ne `tpyflt*ye< lhfre b
+<ce> blbnt cj vyjq!
+
+Message:  1051
+<ce> Db*e, ds ujnjds ghbpyfnm vj< njxre
+<ce> phtybz. Gjdtctkbvcz dvtcnt!
+
+Message:  1052
+<ce> _questgiver_, rf*tncz, ghjdthztn
+<ce> dfie ghtlfyyjcnm. Yj ye*yj kb `snm hf`jv
+<ce> ghfdbk b ecnfdjd?
+<ce> Ghbcjtlbyzqntcm r vjtq dtctkjq cnft!
+
+Message:  1053
+<ce> Ds bcgsnsdftnt vjt nthgtybt, yj z
+<ce> lf< dfv gjcktlybq ifyc.
+<ce> Jcnfyjdbntcm, b z pf`ele dct,
+<ce> xnj `skj.
+
+Message:  1060
+<ce> Rf*tncz, yfv kexit `skj `s ltkfnm @nj cyfhe*b.
+
+Message:  1061
+<ce> {f [f, yt pltcm!
+
+Message:  1062
+<ce> Vfu _questgiver_ pf`sdftn dctv crfpfnm j
+<ce> vjb[ vfubxtcrb[ pyfybz[, rjulf %g ghjgjdtletn
+<ce> j vjtq ytgjrjhyjcnb.
+
+Message:  1063
+<ce> Cyjdf yt gjkexbkjcm, vjq ljhjujq lheu. Gjxtve
+<ce> dfib yfcnfdybrb yt gjrfpfkb dfv @nb nh<rb?
+
+
+
+QBN:
+Item _letter_ letter used 1040
+Item _reward_ magic_item
+
+Person _rebel_ named Baltham_Greyman
+Person _questgiver_ group Questor
+
+Place aide remote dungeon
+Place _rebelhouse_ remote house1
+
+Clock _qtime_ 00:00 0 flag 17 range 0 2
+Clock _S.04_ 00:01 00:05
+Clock _S.05_ 00:01 00:10
+Clock _S.06_ 00:01 00:14
+Clock _healer_ 00:02 00:18
+
+Foe _mage1_ is Mage
+Foe _mage2_ is Mage
+Foe _mage3_ is Mage
+Foe _mage4_ is Mage
+Foe _F.04_ is Mage
+
+--	Quest start-up:
+	start timer _qtime_
+	log 1020 step 0
+	place npc _rebel_ at _rebelhouse_
+
+_qtime_ task:
+	end quest
+
+_S.01_ task:
+	clicked npc _rebel_
+	prompt 1030 yes _S.02_ no _S.03_
+	hide npc _rebel_
+	--changed "place npc _rebel_ at aide" to "hide" action. Classic would transfer the NPC away, hiding is far easier
+
+_qgclicked_ task:
+  clicked npc _questgiver_
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.01_
+	say 1003
+	clear _qgclicked_ _clearclick_
+
+_S.02_ task:
+	start quest 502 502
+	log 1021 step 1
+	get item _letter_
+	say 1031
+	remove foe _mage2_
+	remove foe _F.04_
+	remove foe _mage1_
+	remove foe _mage4_
+	remove foe _mage3_
+	--changed "place foe _mage2_ at aide" etc to "remove foe," same as with hide npc reason
+
+_S.03_ task:
+	start timer _S.04_
+	--S.14 timer was nonexistent. changed to S.04
+	say 1032
+    hide npc _rebel_
+	place foe _mage1_ at _rebelhouse_
+	cast Spell_Reflection spell on _mage1_
+
+_S.04_ task:
+	pc at _rebelhouse_ set _S.19_
+	remove foe _mage1_
+	say 1060
+--"place foe" not known to support "say ###." moved to its own line.
+--changed "place foe at false dungeon" to "remove foe"
+
+_S.05_ task:
+	create foe _mage3_ every 1 minutes 1 times with 100% success
+	say 1061
+	start timer _S.06_
+	remove foe _mage2_
+--"create foe" not known to support "say ###." moved to its own line.
+--changed "place foe at false dungeon" to "remove foe"
+
+_S.06_ task:
+	create foe _mage4_ every 1 minutes 1 times with 100% success
+	say 1062
+	start timer _healer_
+	remove foe _mage3_
+	--"create foe" not known to support "say ###." moved to its own line.
+	--changed "place foe at false dungeon" to "remove foe"
+
+_healer_ task:
+	create foe _F.04_ every 1 minutes 1 times with 100% success
+	say 1063
+	remove foe _mage4_
+	--"create foe" not known to support "say ###." moved to its own line.
+	--changed "place foe at false dungeon" to "remove foe"
+
+_S.08_ task:
+	killed 1 _mage2_
+	killed 1 _F.04_
+	killed 1 _mage4_
+	killed 1 _mage3_
+	killed 1 _mage1_
+
+_S.09_ task:
+	when _S.08_ or _S.02_
+	stop timer _healer_
+	stop timer _S.06_
+	stop timer _S.05_
+	stop timer _S.04_
+
+_S.10_ task:
+	injured _mage1_
+	cast Heal spell on _mage1_
+
+_S.11_ task:
+	injured _mage2_
+	prompt 1050 yes _S.02_ no _S.03_
+	cast Heal spell on _mage2_
+
+_S.12_ task:
+	injured _mage3_
+	prompt 1051 yes _S.02_ no _S.03_
+	cast Heal spell on _mage3_
+
+_S.13_ task:
+--boar task renamed to _S.13_. Variables should have underscores
+	injured _mage4_
+	prompt 1052 yes _S.02_ no _S.03_
+
+
+_S.14_ task:
+	injured _F.04_
+	prompt 1053 yes _S.02_ no _S.03_
+
+_S.15_ task:
+	toting _letter_ and _questgiver_ clicked
+	say 1041
+
+_success_ task:
+	when _qgclicked_ and _S.08_
+	say 1042
+
+_pcgetsgold_ task:
+	when _S.15_ or _success_
+	give pc _reward_
+	end quest
+
+variable _S.19_
+_S.20_ task:
+	when _S.04_ and not _S.19_ and not _S.08_
+	create foe _mage2_ every 1 minutes 1 times with 100% success
+	start timer _S.05_
+	cast Spell_Reflection spell on _mage2_

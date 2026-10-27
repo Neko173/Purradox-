@@ -1,0 +1,123 @@
+-- Quest: C:\QUESTS\WORKING\O0B2XY08.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: thief
+-- Repute: 2X
+-- QuestId: 8
+Messages: 11
+Quest: O0B2XY08
+DisplayName: Wtyyjt hfcntybt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Plhfdcndeq, %pcf. Vtyz pjden
+<ce> _qgiver_. Ltkj jxtym otrjnkbdjt,
+<ce> ns vj*tim pfhf`jnfnm _gold_
+<ce> pjkjns[, tckb ghbytctim
+<ce> vyt yfhrjnbr, _drugs_. Z
+<ce> levf<, ns pyftim, xnj @nj nfrjt.
+<ce> ^nj hfcntybt, dspsdf<ott cbkmye<
+<ce> pfdbcbvjcnm. Djpmvtimcz?
+
+RefuseQuest:  [1001]
+<ce> Tckb rnj-nj epyftn, j xtv
+<ce> vs c nj`jq ctqxfc ujdjhbkb,
+<ce> %pcn, z yfqle nt`z gjl ptvktq,
+<ce> gjl djljq b d cfvjv J`kbdbjyt.
+
+AcceptQuest:  [1002]
+<ce> Blb d ujhjl __mansion_.
+<ce> Nfv yfqltim ghbnjy _mansion_.
+<ce> Enfob jnnelf hfcntymbwt _drugs_.
+<ce> Dthybcm c ybv lj bc[jlf =traveltime_ lytq,
+<ce> b nt`z djpyfuhflzn.
+
+QuestComplete:  [1004]
+<ce> Ghjcnj gjkj*b @nj d vjq rfhvfy.
+<ce> {jhjij. Yflt<cm, ybrnj yt dbltk,
+<ce> rfr nt`t @nj elfkjcm cltkfnm. _gold_
+<ce> pjkjns[ ndjb, %pcn.
+
+RumorsDuringQuest:  [1005]
+Dct elbdkz<ncz njve, jnrelf nhfdrf _drugs_ gjzdkztncz d ujhjlt __mansion_.
+
+RumorsPostfailure:  [1006]
+D ghbnjyt _mansion_ d ujhjlt __mansion_ rjulf-nj ghjlfdfkb yfhrjnbr _drugs_. Ljghjlfdfkbcm.
+
+RumorsPostsuccess:  [1007]
+_mansion_ d ujhjlt __mansion_ juhf`bkb, yj dkfltktw yt j`hfnbkcz r cnhf*t.
+
+QuestorPostsuccess:  [1008]
+Jnytcbntcm r @njve c <vjhjv, %pcf. Ltkj c nhfdrjq _drugs_ lj cb[ gjh yt enb[kj.
+
+QuestorPostfailure:  [1009]
+<ce> %oth, %pcf. Ytkmpz `skj
+<ce> ljdthznm nt`t nfrjt ltkj.
+<ce> Tckb ns pf[jxtim pfrjyxbnm tuj,
+<ce> njulf ghb`tq gthdjuj, rnj `eltn %ra
+<ce> b rjuj pjden %pcn. J`kbdbjy
+<ce> nt`z gj`thb.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp Ubkmlbb Djhjd
+ ujhjlf ___qgiver_ pfgkfnbn
+ vyt, tckb z ghbytce ytvyjuj
+ nhfdrb _drugs_ bp ghbnjyf _mansion_
+ d ujhjlt __mansion_.
+ Vyt ye*yj dthyenmcz d ntxtybt
+ =traveltime_ lytq pf ltymufvb.
+
+
+
+QBN:
+Item _drugs_ drug
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _mansion_ remote house1
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Battle_mage
+Foe _F.01_ is Iron_atronach
+Foe _F.02_ is Daedra_seducer
+Foe _F.03_ is Werewolf
+
+--	Quest start-up:
+	place item _drugs_ at _mansion_
+	start timer _traveltime_
+	log 1010 step 0
+	pc at _mansion_ set _S.01_
+
+_traveltime_ task:
+	end quest
+
+_S.01_ task:
+	pick one of _guard1_ _guard2_ _guard3_ _guard4_
+
+_questdone_ task:
+	toting _drugs_ and _qgiver_ clicked
+	give pc _gold_
+	end quest
+
+_guard1_ task:
+	create foe _F.00_ every 4 minutes 1 times with 10% success
+
+_guard2_ task:
+	create foe _F.01_ every 4 minutes 1 times with 10% success
+
+_guard3_ task:
+	create foe _F.02_ every 4 minutes 1 times with 10% success
+
+_guard4_ task:
+	create foe _F.03_ every 4 minutes 1 times with 10% success
+
+_S.07_ task:
+	clicked item _drugs_
+
+_S.08_ task:
+	when _S.07_ and _traveltime_
+	make _drugs_ permanent

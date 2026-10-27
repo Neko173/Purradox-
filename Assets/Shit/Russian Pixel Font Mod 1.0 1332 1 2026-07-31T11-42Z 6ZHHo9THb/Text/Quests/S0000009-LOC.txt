@@ -1,0 +1,248 @@
+-- Quest: C:\QUESTS\WORKING\S0000009.Qbn.
+-- Main story quest.
+-- QuestId: 9
+Messages: 22
+Quest: S0000009
+DisplayName: Ghtlfntkmcndj ^kbptqy
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ds dsukzlbnt lf*t `jktt ibrfhyj, xtv
+<ce> jnpsdfkcz j Dfc kjhl Del`jhy. K<`k<
+<ce> gjujdjhbnm c xtkjdtrjv ltqcndbz!
+<ce> Z pyf<, xnj ds botnt ytrbq ghtlvtn,
+<ce> %pcf. Njntvysq cnjk` bkb xnj-nj dhjlt
+<ce> njuj? Tcnm e vtyz jlby pyfrjvsq,
+<ce> dtcmvf bynthtcyfz kbxyjcnm - =contact_.
+<ce> E ytuj tcnm rjt-xnj, xnj vj*tn Dfv
+<ce> gjvjxm. Tckb Ds cjghjdjlbnt vj<
+<ce> repbye _foil_ r _contact_, nj
+<ce> gjkexbnt @nj. Cjukfcbntcm kb Ds
+<ce> jrfpfnm vyt @ne yt`jkmie< eckeue?
+
+RefuseQuest:  [1001]
+<ce> Ytn? Rfr @nj e*fcyj! Vjz `tlyfz repbyf
+<ce> `eltn jxtym jujhxtyf. Ds yt nfr e*
+<ce> b jnpsdxbds, rfr ujdjhbk kjhl Del`jhy.
+
+AcceptQuest:  [1002]
+<ce> Djc[bnbntkmyj! ^nj `eltn jnkbxyjt
+<ce> ghbrk<xtybt. _foil_ ghjcnj j`j*ftn
+<ce> gentitcndjdfnm b tltn ghjdtcnb rfrjt-
+<ce> -nj dhtvz c _contact_. Jnghfdkzqntcm
+<ce> d ___contact_, ____contact_,
+<ce> d vtcntxrj c yfpdfybtv __contact_.
+<ce> %g pfgkfnbn dfv =reward_ pjkjns[ pf
+<ce> cjghjdj*ltybt %g4 _foil_. Ds yfdthyjt
+<ce> nj*t j`j*ftnt jgfcyst vbccbb?
+
+QuestFail:  [1003]
+<ce> Vyt yt j xtv c dfvb hfpujdfhbdfnm.
+
+QuestComplete:  [1004]
+<ce> %pcf! Rfrbv j`hfpjv...z [jxe crfpfnm,
+<ce> xnj hflf dbltnm dfc. _foil_ nj*t.
+<ce> Djn djpmvbnt dfit pjkjnj. ~skj jxtym
+<ce> bynthtcyj gjujdhbnm c dfvb. Yfv gjhf!
+
+RumorsDuringQuest:  [1005]
+Ytrjnjhjt dhtvz yfpfl nen `skf uheggf ntvys[ kbxyjcntq, bynthtcjdfdib[cz yftvybrjv-%ra.
+   <--->
+Ghbywtccf ^kbptqy ghjdtkf ytrjnjht dhtvz d D@qhtcncrb[ gecnjif[. Nfr ujdjhzn.
+
+RumorsPostfailure:  [1006]
+Cks[fkb ghj `fylbnjd, ecnhjbdib[ pfcfle @njve %ra? Xelyjq `bpytc, z levf<.
+   <--->
+Nt gfhyb, ecnhjbdibt pfcfle @njve %ra yt bp pltiyb[ vtcn. Yftvyst e`bqws.
+
+RumorsPostsuccess:  [1007]
+Cks[fk, xnj jlby ytpyfrjvtw yfyzk fccfccbyjd e`bnm jlyjuj yftvybrf-%ra.
+   <--->
+_contact_ `sk jxtym `tpevty, yfcrjkmrj @nj vj*tn `snm. Yfdthyjt jy `eltn hfl edbltnm %g4 repbye.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ghbywtccf ^kbptqy gjghjcbkf vtyz cjghjdjlbnm
+ tt repbye _foil_ d ___contact_, ____contact_
+ r _contact_. %g pfgkfnbn =reward_ b lfcn
+ byajhvfwb< jnyjcbntkmyj Njntvf.
+
+Message:  1011
+<ce> Dytpfgyj _foil_ e`tuftn ghjxm, %g4
+<ce> `tcievyst ifub `tppdexyj hfcndjhz<ncz
+<ce> d ntyz[.
+
+Message:  1012
+<ce> %pcf, @nj yt vjz dbyf!
+<ce> Vtyz yfyzkb gjlcnfdbnm dfc! Djn, djpmvbnt
+<ce> _reward_ pjkjns[. Jlby gfhtym d cthjv gkfot
+<ce> [jhjij pfgkfnbk vyt, xnj`s z gjikf c dfvb.
+<ce> Pyftnt, z njkmrj ctqxfc dcgjvybkf. E vtyz
+<ce> cjdthityyj ckexfqyj tcnm kbiybt ltymub:
+<ce> _bribe_ pjkjns[. Gjxtve `s dfv yt dpznm b[,
+<ce> f z ghjcnj eqle.
+
+Message:  1013
+E`tq %pcn ght*lt, xtv jy epyftn.
+Bcgjkmpeq k<`jq ghtlkju.
+<ce>
+-- D.
+
+Message:  1015
+<ce> Ekbxysq j`jhdfytw gjl`t*fk c
+<ce> djgkzvb: "Cjj`otybt lkz %pcn jn
+<ce> xtkjdtrf d cthjv". Gfhybirf e`t*fk
+<ce> ght*lt, xtv xtv ds ecgtkb tuj gjqvfnm,
+<ce> evelhbdibcm jcnfdbnm dfv pfgbcre.
+
+Message:  1016
+%pcn,
+<ce>
+  Vjq lj`hsq lheu kjhl Del`jhy crfpfk,
+xnj ds uthjq, rjnjhjve vj*yj ljdthznm.
+~ele jxtym ghbpyfntkmyf, tckb ds yfqltnt
+dhtvz lkz hfpujdjhf. Vj*tn `snm ds
+dsgjkybnt lkz vtyz rjt-xnj. Z otlhj
+jn`kfujlfh<.
+<ce>
+Ghbywtccf ^kbptqy
+pfvjr D@qhtcn
+
+Message:  1018
+%pcf,
+<ce>
+  Tckb yt [jxtim evthtnm rfr Kbpfylec,
+ghtrhfnb cdjt hfccktljdfybt ytvtlktyyj.
+Ns ltqcndbntkmyj [jxtim hbcrjdfnm
+cdjtq *bpym< hflb vthndtwf?
+Pf nj`jq cktlzn.
+
+Message:  1019
+%pcn ye*yj eybxnj*bnm. ~tp dfhbfynjd.
+<ce>
+-- D.
+
+Message:  1020
+<ce> _foil_ ujdjhbn: "Rnj `skb @nb
+<ce> dfhdfhs? Jyb gjxnb ljcnfkb dfc!
+<ce> Vj*tn `snm dfv djj`ot cnjbn pf`snm
+<ce> ghj ghbphfr Kbpfylecf?"
+
+Message:  1021
+<ce> _foil_ ujdjhbn: "Ds jxtym cbkmys.
+<ce> Cbkmytt, xtv ^kbptqy ghj dfc
+<ce> ujdjhbkf".
+
+
+
+QBN:
+Item _note_ letter used 1013
+Item _reward_ gold
+Item _letter45_ letter used 1018
+Item _letter46_ letter used 1016
+Item _bribe_ gold
+
+Person _elysana_ named Princess_Elysana atHome
+Person _foil_ face 115 faction The_Prostitutes female remote
+Person _contact_ group Local_3.3 remote
+Person Woodborne face 1 named Lord_Woodborne
+
+Clock _giveLetter_ 7.00:00 14.00:00
+Clock _S.14_ 2.00:00 0 flag 1 range 0 1
+
+Foe _barbarians_ is Barbarian
+Foe _knights_ is Knight
+
+--	Quest start-up:
+	start timer _giveLetter_
+	give pc _letter45_ notify 1015
+	add _elysana_ as questor
+	start task _spawnBarbarians_
+	start task _spawnKnights_
+
+_npcclicked_ task:
+	clicked npc _contact_
+	start timer _S.14_
+	hide npc _contact_
+
+_S.01_ task:
+	when not _foilGone_ and _npcclicked_
+	give pc _reward_
+	drop _foil_ face
+
+_S.02_ task:
+	when _foilGone_ and _npcclicked_
+	get item _reward_
+	get item _bribe_
+	say 1012
+	drop _foil_ face
+
+_yes_ task:
+	log 1010 step 0
+	say AcceptQuest
+	add _foil_ face
+	change repute with _elysana_ by -25
+	unset _clickedElysana_
+
+_no_ task:
+	say RefuseQuest
+	end quest
+
+_S.05_ task:
+	injured _barbarians_
+	give item _note_ to _barbarians_
+
+_S.06_ task:
+	injured _knights_
+	give item _letter45_ to _knights_
+
+_S.07_ task:
+	killed 3 _barbarians_
+	unset _spawnBarbarians_
+
+_slainBarbarians_ task:
+	when _S.07_ and _yes_
+	say 1020
+
+_spawnBarbarians_ task:
+	send _barbarians_ every 70 minutes 10 times with 10% success
+
+_S.08_ task:
+	killed 2 _knights_
+	unset _spawnKnights_
+
+_slainKnights_ task:
+	when _S.08_ and _yes_
+	say 1021
+
+_spawnKnights_ task:
+	send _knights_ every 91 minutes 10 times with 10% success
+
+_foilGone_ task:
+	when _slainKnights_ and _slainBarbarians_ and not _daytime_
+	say 1011
+	drop _foil_ face
+
+_daytime_ task:
+	daily from 06:00 to 18:00
+
+_giveLetter_ task:
+	give pc _letter46_ silently
+
+_clickedElysana_ task:
+	clicked npc _elysana_
+
+_S.13_ task:
+	when _clickedElysana_ and _giveLetter_
+	prompt QuestorOffer yes _yes_ no _no_
+
+_clearclick_ task:
+	when _clickedElysana_ and not _giveLetter_
+	clear _clickedElysana_ _clearclick_
+
+_S.14_ task:
+	end quest
+
+FinishedMantellanCrux _S.15_
+	end quest

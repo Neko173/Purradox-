@@ -1,0 +1,140 @@
+-- Quest: C:\QUESTS\WORKING\N0B00Y08.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 0
+-- QuestId: 8
+Messages: 12
+Quest: N0B00Y08
+DisplayName: Yfkj*bnm pfrkbyfybt cyf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> ~kfujhjlysq _warrior_ gjvjufk
+<ce> yfitq ubkmlbb dj vyjub[ ghtlghbznbz[.
+<ce> K<`jq yfi dhfu `sk b %g4 dhfujv. Vs
+<ce> gjkexbkb dtcnm, xnj dtlmvf ghjrkzkf
+<ce> %g4 `tccjyybwtq.
+<ce> Ghjcnjt pfrkbyfybt cyf gjvj*tn %g2.
+<ce> ~snm vj*tn ds cvj*tnt gjvjxm?
+<ce> Z pfgkfxe _gold_ pjkjns[.
+   <--->
+<ce> Tckb ds cgjcj`ys dspsdfnm ghjcntqitt
+<ce> pfrkznbt cyf, nj dfib cgjcj`yjcnb
+<ce> gjyflj`zncz jlyjve yfitve [jhjitve
+<ce> lheue. _warrior_ ghjrkzkb
+<ce> `tccjyybwtq, f ghjcnjt pfrkbyfybt
+<ce> vj*tn cyznm tuj. Vjue ghtlkj*bnm
+<ce> _gold_ pjkjns[ d j`vty yf @ne ghjcne<
+<ce> eckeue.
+
+RefuseQuest:  [1001]
+<ce> |fkm. %oth, dtlm Cjy @nj jlyj
+<ce> bp ghjcntqib[ pfrkbyfybq. Levf<,
+<ce> dfv yt vtifkj `s bpexbnm tuj [jhjitymrj.
+
+AcceptQuest:  [1002]
+<ce> Ghtrhfcyj. Ctqxfc z crf*e gjcskmyjve,
+<ce> xnj vs yt `eltv bcgjkmpjdfnm lheub[
+<ce> pfrkznbq rhjvt Cyf.
+<ce> Djpvj*yj, exbnsdfz %g4 ghtlsleobq
+<ce> jgsn c pfrkznbzvb ghjrkznbz, ghtjljktnm
+<ce> %g2 cdjq cnhf[ `eltn ytkturj. _warrior_
+<ce> *bdtn d _castle_ d __castle_.
+<ce> E _warrior_ `eltn jnkbxyfz pfobnf b djjhe*tybt.
+<ce> Djpdhfofqntcm lj bcntxtybz =queston_ lytq
+<ce> c [jhjibvb bpdtcnbzvb.
+
+QuestComplete:  [1004]
+<ce> Z cksifk, xnj yfi gfwbtyn
+<ce> `erdfkmyj ghjdfkbkcz d uke`jrbq cjy,
+<ce> yt ecgtd cltkfnm b lde[ ifujd. Yflt<cm
+<ce> %g ghjcgbn lj cktle<otuj ghfplybrf
+<ce> Yjdjq |bpyb. Xnj *t lkz dfc, edf*ftvsq %ra,
+<ce> ds njkmrj xnj pfhf`jnfkb _gold_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+~tlysq _warrior_ yt cgbn e*t ytcrjkmrj lytq. Levf<, crjhj @nj cdtltn %g4 c evf.
+   <--->
+Gj[j*t, xnj dtlmvf, ghjrkzdifz _warrior_ `tccjyybwtq hf`jnfkf yf y%g4.
+
+RumorsPostfailure:  [1006]
+_warrior_ b Ubkmlbz Vfujd jnkbxyj kflzn lheu c lheujv. Gjxtve `s bv b yt gjvjxm %g2.
+   <--->
+E _warrior_ pfrk<xty vbh c dtlmvfvb, yj yt gjkextyj ghjotybt Ubkmlbb Vfujd.
+
+RumorsPostsuccess:  [1007]
+_warrior_ lj cb[ gjh lhs[ytn, yfcrjkmrj vyt bpdtcnyj. Ntgthm e*t jgfcf<ncz, xnj %g djj`ot yt ghjcytncz.
+   <--->
+Dtlmvf, yfckfdifz ghjrkznbt, gjrkzkfcm jnjvcnbnm bcwtkbditve %g4.
+
+QuestorPostsuccess:  [1008]
+Ds gjvjukb yfv yfkflbnm [jhjibt jnyjitybz c _warrior_. Xnj z vjue cltkfnm lkz dfc?
+
+QuestorPostfailure:  [1009]
+<ce> Ds gjnthgtkb ytelfxe, rjulf yt cvjukb
+<ce> gjvjxm _warrior_. Eqlbnt c vjb[ ukfp.
+<ce> ~snm vj*tn cj dhtvtytv z b pf`ele dfi
+<ce> ghjrjk, %pcn.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ubkmlbz Vfujd ljujdjhbkfcm cj vyjq
+ yfckfnm Cjy yf gjrhjdbntkz ubkmlbb
+ vfujd gj bvtyb _warrior_.
+ E vtyz =queston_ lytq, xnj`s lj`hfnmcz
+ lj vtcnf yfpyfxtybz: _castle_ d __castle_,
+ ult *bdtn _warrior_, ecgtiyj yfkj*bnm yf
+ y%g4 pfrkbyfybt b dthyenmcz c ljrkfljv
+ d ubkmlb<, d ___qgiver_.
+
+Message:  1011
+<ce> _warrior_ yt c[jlz c vtcnf
+<ce> gjuhe*ftncz d uke`jrbq
+<ce> wtkbntkmysq cjy.
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+Person _warrior_ face 219 group Group_5.0 female remote
+Person _witch_ face 218 factiontype Witches_Coven female remote
+
+Place _castle_ remote house1
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Warrior
+
+--	Quest start-up:
+	start timer _queston_
+	log 1010 step 0
+	pc at _castle_ set _S.05_
+	restrain foe _F.00_
+	create npc at _castle_
+	place foe _F.00_ at _castle_
+
+_queston_ task:
+	end quest
+
+_reward_ task:
+	when _qgclicked_ and _out_
+	give pc _gold_
+	change repute with _witch_ by -5
+	end quest
+
+_S.02_ task:
+	when _qgclicked_ and not _out_
+	clear _qgclicked_ _S.02_
+
+_out_ task:
+	say 1011
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_S.05_ task:
+	cast Sleep spell do _out_

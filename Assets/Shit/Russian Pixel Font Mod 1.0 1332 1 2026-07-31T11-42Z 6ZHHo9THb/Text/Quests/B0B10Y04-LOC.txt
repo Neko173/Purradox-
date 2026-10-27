@@ -1,0 +1,177 @@
+-- Quest: C:\QUESTS\WORKING\B0B10Y04.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 10
+-- QuestId: 4
+Messages: 18
+Quest: B0B10Y04
+DisplayName: ~tpevysq yftvybr
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Lj`hj gj*fkjdfnm, %pcn. Vtyz
+<ce> pjden _qgiver_. Jhlty gjkybncz
+<ce> cke[fvb j `tphfccelyjv jhrcrjv yftvybrt,
+<ce> rjnjhjuj cktletn jcnfyjdbnm. Yt [jnbnt
+<ce> kb ds dpznmcz pf @nj ltkj?
+
+RefuseQuest:  [1001]
+<ce> Dfif crhjvyjcnm ltkftn dfv xtcnm,
+<ce> %pcf. Djpdhfofqntcm,
+<ce> rjulf `eltnt yt nfr vzurjcthltxys.
+
+AcceptQuest:  [1002]
+<ce> Ghtrhfcyj. D ntvyjq lsht ytgjlfktre jnc<lf,
+<ce> ghjrkznjv vtcnt, yfpsdftvjv ___mondung_,
+<ce> tcnm _soldier_ gj bvtyb =soldier_,
+<ce> rjnjhsq ljujdjhbkcz c uheggjq vfujd-jncnegybrjd,
+<ce> `jkmit bpdtcnys[ rfr ytrhjvfyns, eybxnj*bnm
+<ce> %reg. ~snm vj*tn jy xedcndetn, xnj jib`cz
+<ce> c %t, f vj*tn `snm @nj dctuj kbim ytj`]zcybvfz
+<ce> zhjcnm, rjnjhe< jhrb bcgsnsdf<n rj dctv k<lzv.
+<ce> Jxtym df*yj jcnfyjdbnm tuj ght*lt, xtv tuj cktgfz
+<ce> zhjcnm b vfubz jncnegybrjd djpsvt<n rfnfcnhjabxtcrbt
+<ce> htpekmnfns. Jcnfyjdbnt tuj, %pcf
+<ce> k<`sv cgjcj`jv. Tckb d ntxtybt =2mondung_ lytq ds yt
+<ce> dthytntcm c dtcnm<, xnj cbnefwbz hfphtityf,
+<ce> yfib hswfhb cfvb pfqvencz @njq hf`jnjq, tckb `eltn
+<ce> yt ckbirjv gjplyj. Vjkbntcm, xnj`s @njuj yt
+<ce> ckexbkjcm.
+
+QuestFail:  [1003]
+<ce> Hfpdt ds yt ljk*ys ctqxfc `snm d
+<ce> ___mondung_, %pcf?
+
+QuestComplete:  [1004]
+<ce> {jhjij, %pcf. Jhrb e`hfkbcm bp
+<ce> ___mondung_, nfr xnj dfie vbccb<
+<ce> vj*yj cxbnfnm pfdthityyjq. Ds djbcnbye
+<ce> ljcnjqysq xkty yfituj jhltyf.
+
+RumorsDuringQuest:  [1005]
+___mondung_ bltfkmyjt vtcnj lkz erhsnbz jhrjd -- jyj elfktyj jn dct[ ljhju.
+   <--->
+Jhrb b vfub-jncnegybrb pfntdf<n xnj-nj e*fcyjt d %reg.
+
+RumorsPostfailure:  [1006]
+^nf vtcnyjcnm ghjrkznf vfufvb. ^nj vjukf `snm djqyf, xevf, ujkjl, f vj*tn b dct dvtcnt.
+   <--->
+Ybrnj yt pyftn rfr jcnfyjdbnm ytxtcnbdsq fkmzyc jhrjd b vfujd.
+
+RumorsPostsuccess:  [1007]
+Dytpfgyj jhrb eikb bp ___mondung_. B[ kblth nj kb `jkty, nj kb vthnd.
+   <--->
+%reg cgfcty cfvjgj*thndjdfybtv [hf`hjuj b bpj`htnfntkmyjuj yftvybrf-%ra.
+
+QuestorPostsuccess:  [1008]
+Ghbdtncnde<, %pct. Rfr blen ltkf e E`bqws Jhrjd?
+
+QuestorPostfailure:  [1009]
+Jhrb b vfub `skb `tp*fkjcnyj ghjuyfys jnc<lf. Xnj *, @nj ljk*yj `skj ckexbnmcz.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp __qgiver_
+ d ___qgiver_ [jxtn jcnfyjdbnm
+ _soldier_, yfcnhjtyyjuj eybxnj*bnm
+ %reg. Jhr j`bnftn d rfrjq-nj lsht,
+ yfpsdftvjq ___mondung_, cj
+ cdjbvb djqcrfvb. E vtyz =2mondung_ lyz, xnj`s
+ hfpj`hfnmcz c @njq euhjpjq b dthyenmcz
+ r __qgiver_.
+
+Message:  1013
+<ce> Dfc c[dfnbk pf here rfrjq-nj xevfpsq gfhybirf,
+<ce> dcexbdibq dfv d here uhzpysq rjydthn. Rjytxyj
+<ce> *t jy yt gj[jlbk yf ghjatccbjyfkmyjuj rehmthf,
+<ce> ldbufkcz jy dtcmvf `scnhj, ds lf*t yt ecgtkb
+<ce> c[dfnbnm tuj pf irbhre.
+
+Message:  1014
+<ce> Ds e`bkb _soldier_.
+
+Message:  1015
+<ce> Fuf, @nb djkjcs. Bnfr, jyf dct tot *bdf... Z
+<ce> ljk*ty ljkj*bnm j` @njv Hfcrfksdfntk<-Xthtgjd,
+<ce> xnj tuj djpk<`ktyyfz ktlb yt et[fkf bp %reg.
+<ce> Cgfcb`j, xnj ghtleghtlbkb vtyz, %pcf.
+<ce> Tckb vjq [jpzby ghbytctn cvthnm b hfphe[e
+<ce> d %reg ghb gjllth*rt tuj vfujd-cj<pybrjd,
+<ce> jy vj*tn e`bnm *tyobye, rjnjhfz pyfxbn lkz
+<ce> ytuj `jkmit, xtv *f*lf rhjdfdjuj djpvtplbz,
+<ce> rjnjhjt jy yjcbn d ct`t c %t.
+<ce> Tot hfp `kfujlfh< dfc, lheu vjq.
+
+Message:  1017
+<ce> Z cksifk ds ghbytckb `kfubt bpdtcnbz, %pct.
+<ce> Gecnm %god `kfujckjdbn b [hfybn dfc. Z
+<ce> levf<, e vtyz tcnm xtv jn`kfujlfhbnm dfc b
+<ce> dshfpbnm cdj< ghbpfntkmyjcnm. Djn, z dpzk @nj
+<ce> e jlyjq ujcgj*b, gj*fktditq vtyz. ^nj nfrjt
+<ce> rhfcbdjt, xnj z yb pf xnj yt ghjlfk `s @nj,
+<ce> lf*t d ujkjlye< gjhe. Djpmvbnt @nj d pyfr
+<ce> vjtq `kfujlfhyjcnb.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+
+Place _mondung_ remote dungeon1
+Place tavern local tavern
+
+Clock _2mondung_ 00:00 0 flag 17 range 0 2
+Clock _2letter_ 00:50 2.18:40
+
+Foe _soldier_ is Orc_warlord
+Foe _note_ is 2 Orc
+Foe _F.02_ is Orc_sergeant
+Foe _hunter_ is Orc_shaman
+
+--	Quest start-up:
+	start timer _2mondung_
+	reveal _mondung_
+	log 1010 step 0
+
+_2mondung_ task:
+	end quest
+
+variable _2letter_
+_S.02_ task:
+	when _qgclicked_ and _questdone_
+	give pc nothing
+	change repute with _qgiver_ by +10
+	end quest
+
+variable _S.03_
+variable _S.04_
+until _S.04_ performed:
+	pc at _mondung_ set _S.07_
+
+_S.05_ task:
+	killed 1 _soldier_
+	say 1014
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_S.07_ task:
+	create foe _note_ every 100 minutes 100 times with 12% success
+	create foe _F.02_ every 107 minutes 50 times with 10% success
+	create foe _hunter_ every 113 minutes 20 times with 8% success
+	place foe _soldier_ at _mondung_
+
+_questdone_ task:
+	when _S.05_ or _S.04_
+
+_S.09_ task:
+	when _2mondung_ and not _questdone_
+
+variable _S.10_
+_clearclick_ task:
+	when _qgclicked_ and not _questdone_
+	say 1003
+	clear _qgclicked_ _clearclick_

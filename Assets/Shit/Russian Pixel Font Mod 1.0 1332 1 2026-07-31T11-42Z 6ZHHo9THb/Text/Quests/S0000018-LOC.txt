@@ -1,0 +1,162 @@
+-- Quest: C:\QUESTS\WORKING\S0000018.Qbn.
+-- Main story quest.
+-- QuestId: 18
+Messages: 31
+Quest: S0000018
+DisplayName: Gskm `tpvznt*yjq cvthnb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Pyfxbn Vtljhf botn Ghf[ Dtxyjuj Gjrjz.
+<ce> Z cltkf< @nj, yj njkmrj d pyfr edf*tybz
+<ce> gfvznb rjhjkz Kbpfylecf. Ghf[ vj*yj yfqnb
+<ce> d ___crypt_ yf tt jcnhjdt. Crf*b Vtljht,
+<ce> xnj wtyf @njuj - tt gjllth*rf d vjb[
+<ce> ghbnzpfybz[ yf cthlwt. Jyf pyftn, xnj @nj
+<ce> jpyfxftn.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Vtljhf ghbikf rj vyt d dbltybb b hfccrfpfkf,
+ xnj ghbphfr Kbpfylecf vj*yj ecgjrjbnm, tckb
+ z cvjue e`tlbnm Ujhndjuf, gjdtkbntkz jhrjd,
+ hfccrfpfnm, ult yf[jlbncz Ghf[.
+
+Message:  1011
+%qdt:
+ Z gjj`ofkcz c Ujhndjujv. Jy ghbpyfk, xnj
+ Ghf[ Dtxyjuj Gjrjz vj*yj yfqnb d ___crypt_
+ yf jcnhjdt ~fkabthf. Jy nfr*t ghjbycnhernbhjdfk
+ vtyz crfpfnm Vtljht, xnj jyf ljk*yf jrfpfnm
+ tve gjllth*re d tuj ghbnzpfybz[ yf cthlwt
+ Nfq`thf Ctgnbvf, xtuj `s @njq tq yb cnjbkj.
+
+Message:  1015
+<ce> Dfit phtybt gjvenbkjcm b vbh gjlthyekcz
+<ce> lsvrjq. Bp cthjuj nevfyf ghjcnegbkj
+<ce> *tycrjt kbwj. Vtljhf!
+<ce>
+<ce> "%pcf. Ndjb ecbkbz gj vjtve jcdj`j*ltyb<
+<ce> yt ghjikb dgecne<. Z j`yfhe*bkf, xnj tcnm
+<ce> gjhjijr, rjnjhsq vj*tn ecgjrjbnm le[ vjtuj
+<ce> djpk<`ktyyjuj Kbpfylecf. Ghfdlf yf[jlbncz
+<ce> @nj d herf[ Ujhndjuf, gjkrjdjlwf jhrjd, d
+<ce> tuj cnfkmyjq wbnfltkb d Jhcbybevt. Blb nelf
+<ce> b gjbob cgjcj` e`tlbnm tuj lfnm
+<ce> @nj nt`t. Ghbytcb gjhjijr vyt d `fiy<
+<ce> Lbhtyyb rfr njkmrj gjkexbim tuj".
+<ce>
+<ce> Phtybt ghjzcybkjcm. Byjulf dfv [jntkjcm
+<ce> `s, xnj`s djkit`ybws jnghfdkzkb cdjb
+<ce> gjckfybz j`sxysv cgjcj`jv, rfr ghjcnst
+<ce> k<lb.
+
+Message:  1016
+Gfrtn c fynhfwbnjdj-xthysv gjhjirjv.
+
+Message:  1020
+^njn gthufvtyn bcgjkmpjdfkcz d rfxtcndt
+egfrjdrb lkz gjhjirf. Xfcnm ntrcnf yf ytv
+cnfkj ytdjpvj*yj ghjxtcnm.
+<ce>
+Ktlb Vtl...
+<ce>
+...hfcgjkj*tybt. Jyb yfvthtdf<ncz e`bnm tuj.
+Z hfpjckfk .....ltq, xnj`s jcnfyjdbnm b[. Ds
+ljk*ys gjllth*fnm vtyz. Tckb j`yfhe*bncz, xnj
+z cjdthibk yfgfltybt yf rjhjktdcrb[ cjdtnybrjd
+D@qh.......*t tckb jyb yf cfvjv ltkt zdkz<ncz
+yftvysvb e`bqwfvb, vjq yfhjl ybrjulf yt gjkexbn
+nfrjt *t edf*tybt b cnfnec rfr Rfl*b........
+......rb. C dfitq *t gjvjom< b gjllth*rjq z
+v................ uthjtv bvgthbb b pfdjtdfnm
+edf*tybt lkz vjtuj yfhjlf.
+<ce>
+Ujhndju
+<ce>
+Gjkrjdjl.......
+
+Message:  1030
+<ce> ~tpeckjdyj @nj Ghf[ Dtxyjuj Gjrjz. Xnj *t
+<ce> yfcxtn gbcmvf, nj @nj gbcmvj Ujhndjuf vyt,
+<ce> rjnjhjt z nfr b yt gjkexbkf. Bp gbcmvf z
+<ce> epyfkf, xnj tuj jhrcrbt djbntkb `skb e`bns
+<ce> ghb gjgsnrt gjvtifnm fccfccbyfv. Ujhndju
+<ce> b tuj jhrb yf cfvjv ltkt yt nfrbt e* b
+<ce> pkjltb, rfr vj*tn gjrfpfnmcz.
+<ce>
+<ce> ^fldbh b ldjh D@qhtcnf ybrjulf jcj`tyyj b yt
+<ce> `skb ghtlfys ltke bvgthbb. E`bqcndj rjhjkz
+<ce> @nj cfvfz yfcnjzofz bpvtyf. Z cdthie djpvtplbt,
+<ce> yj dyfxfkt vyt ye*yj gjyznm, gjxtve ^fldbh
+<ce> gjitk yf @nj hbcrjdjt ltkj.
+<ce>
+<ce> Vyt gjnht`etncz vtczw yf ghbujnjdktybt Ghf[f.
+<ce> Djpdhfofqcz rj vyt gj bcntxtybb @njuj dhtvtyb
+<ce> b z lfv nt`t cyflj`mt dvtcnt c bycnherwbtq
+<ce> gj tuj ghbvtytyb<.
+
+
+
+QBN:
+Item _spider_ lich_dust used 1016
+Item _letter_ letter used 1020
+
+Person _medora_ named Medora atHome
+Person _gortwog_ named Gortwog atHome
+
+Place _orsinium_ permanent OrsiniumCastle2
+Place _crypt_ remote dungeon0
+
+Clock _delay_ 00:02 0 flag 1 range 0 1
+Clock _S.01_ 00:02 0 flag 1 range 0 1
+Clock _S.06_ 30.00:00 0 flag 1 range 0 1
+
+Foe _mummy_ is Mummy
+
+--	Quest start-up:
+	dialog link for item _spider_
+	dialog link for item _letter_
+	start timer _S.06_
+	reveal _crypt_
+
+_delay_ task:
+	start timer _S.01_
+	log 1010 step 0
+	reveal _orsinium_ in province 26 at 146892
+	say 1015
+
+_S.01_ task:
+	drop _medora_ face
+
+_S.02_ task:
+	clicked npc _gortwog_
+	log 1011 step 1
+	give item _letter_ to _mummy_
+	give item _spider_ to _mummy_
+	say QuestorOffer
+	place foe _mummy_ at _crypt_
+
+_S.03_ task:
+	toting _spider_ and _medora_ clicked
+	start quest 22 22
+	say 1030
+	change repute with _gortwog_ by +10
+	change repute with _medora_ by +15
+	end quest
+
+variable _S.04_
+_S.05_ task:
+	repute with _medora_ exceeds 0 do _S.04_
+	level 10 completed
+
+variable _S.06_
+_S.07_ task:
+	when _S.06_ and _S.04_ and _S.05_
+	start timer _delay_
+	add _medora_ face
+
+until _S.07_ performed:
+	mute npc _medora_
+	mute npc _gortwog_

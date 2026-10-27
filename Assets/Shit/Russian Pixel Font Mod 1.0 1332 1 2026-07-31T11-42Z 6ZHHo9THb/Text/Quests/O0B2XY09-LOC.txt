@@ -1,0 +1,124 @@
+-- Quest: C:\QUESTS\WORKING\O0B2XY09.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: thief
+-- Repute: 2X
+-- QuestId: 9
+Messages: 11
+Quest: O0B2XY09
+DisplayName: ~jufnsq regtw
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ns vj*tim yfpsdfnm vtyz _qgiver_.
+<ce> Vyt elfkjcm ghjy<[fnm j gfhnbb njdfhf
+<ce> _coastal_, rjnjhsq ytlfdyj ghbj`htk
+<ce> jlby njhujdtw. Nt`t ye*yj gjobgfnm
+<ce> tuj ytvyjuj b ghbytcnb njdfh c<lf.
+<ce> Z pfgkfxe nt`t _gold_ pjkjns[.
+<ce> Tcnm *tkfybt?
+
+RefuseQuest:  [1001]
+<ce> Blb jnc<lf, %pcn.
+<ce> Vyt ye*ty djh, rjnjhsq
+<ce> wtybn cdjt bvz.
+
+AcceptQuest:  [1002]
+<ce> D ujhjlt __mansion_ yfqlb
+<ce> ljv _mansion_. _coastal_
+<ce> ytnhelyj `sltn jnscrfnm
+<ce> Ghbytcb rhfltyjt vyt.
+<ce> Tckb ns ecgttim pf =traveltime_ lytq,
+<ce> z djpyfuhf*e nt`z. Djghjcs
+<ce> tcnm? Jnkbxyj, ghbcnegfq.
+
+QuestComplete:  [1004]
+<ce> J[[j! Njdfh lf*t kexit, xtv
+<ce> vyt ghtlcnfdkzkjcm.
+<ce> Lth*b cdjb ltymub. _gold_ pjkjns[.
+<ce> Njkmrj yt nhfnm b[ dct yf dsgbdre
+<ce> bkb ghjcnbnenjr.
+
+RumorsDuringQuest:  [1005]
+Dxthf d ujhjl __mansion_ ghbdtpkb yjdsq njdfh,- _coastal_. Yj ybrnj yt pyftn relf.
+
+RumorsPostfailure:  [1006]
+E rjuj-nj ljk*yj `skj gjkexbnmcz yfqnb _coastal_ d ujhjlrt __mansion_. Dkfltkmws edjpzn njdfh.
+
+RumorsPostsuccess:  [1007]
+Bynthtcyj, nj vtcnj, ult lth*fkb njdfh _coastal_, ytlfdyj juhf`bkb.
+
+QuestorPostsuccess:  [1008]
+Yflt<cm, ns yt gjnhfnbim dct ltymub yf dsgbdre b ghjcnbnenjr, %pcf?
+
+QuestorPostfailure:  [1009]
+<ce> Xnj nt`t yflj? Nt`t j`]zcybkb, ult
+<ce> yfqnb njdfh _coastal_, Yj ns ckjyztimcz
+<ce> djrheu lj nt[ gjh, gjrf dct yt ghjgfltn.
+<ce> Ghjcnj dfkb jnc<lf, %pcf. Ns
+<ce> vjz cfvfz `jkmifz ujkjdyfz `jkm.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp Ubkmlbb
+ Djhjd yfybvftn vtyz erhfcnm
+ ytvyjuj ljhjujuj njdfhf _coastal_
+ bp ljvf _mansion_ d ujhjlt
+ __mansion_. Gjnjv vyt ye*yj `eltn
+ dthyenmcz d ujhjl ___qgiver_
+ d e`t*bot djhjd __qgiver_ d ntxtybt
+ =traveltime_ lytq pf jgkfnjq.
+
+
+
+QBN:
+Item _coastal_ mineral
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _mansion_ remote generalstore
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Battle_mage
+Foe _F.01_ is Iron_atronach
+Foe _F.02_ is Daedra_seducer
+Foe _F.03_ is Werewolf
+
+--	Quest start-up:
+	place item _coastal_ at _mansion_
+	start timer _traveltime_
+	log 1010 step 0
+	pc at _mansion_ set _S.01_
+
+_traveltime_ task:
+	end quest
+
+_S.01_ task:
+	pick one of _guard1_ _guard2_ _guard3_ _guard4_
+
+_questdone_ task:
+	toting _coastal_ and _qgiver_ clicked
+	give pc _gold_
+	end quest
+
+_guard1_ task:
+	create foe _F.00_ every 2 minutes 1 times with 10% success
+
+_guard2_ task:
+	create foe _F.01_ every 2 minutes 1 times with 10% success
+
+_guard3_ task:
+	create foe _F.02_ every 2 minutes 1 times with 10% success
+
+_guard4_ task:
+	create foe _F.03_ every 2 minutes 1 times with 10% success
+
+_S.07_ task:
+	clicked item _coastal_
+
+_S.08_ task:
+	when _S.07_ and _traveltime_
+	make _coastal_ permanent

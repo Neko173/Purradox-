@@ -1,0 +1,310 @@
+-- Quest: C:\QUESTS\WORKING\A0C00Y16.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 16
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 55
+Quest: A0C00Y16
+DisplayName: Ltkj j ghjgfditv xtkjdtrt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vtyz pjden _questgiver_. Yt
+<ce> vjukb `s ds gjvjxm yfqnb vjtuj lheuf?
+<ce> Z vjue pfgkfnbnm _gold_ pjkjns[.
+   <--->
+<ce> Gj*fkeqcnf, gjvjubnt vyt! Ghjgfk vjq lheu
+<ce> _missingperson_. ~j<cm, xnj %g vj*tn `snm
+<ce> d `tlt. Z pfgkfxe dfv _gold_ pjkjns[,
+<ce> tckb ds yfqltnt %g4.
+
+RefuseQuest:  [1001]
+<ce> Lj`hjuj lyz, %ra. Gjboe rjuj-yb`elm tot.
+   <--->
+<ce> Yte*tkb ybrnj yt d cjcnjzybb gjvjxm vyt?
+   <--->
+<ce> Nsczxb bpdbytybq. Vyt rfpfkjcm ds
+<ce> ljcnfnjxyj cvtksq fdfyn<hbcn.
+
+AcceptQuest:  [1002]
+<ce> Vjb vjkbnds ecksifys. Z yt dbltk _missingperson_
+<ce> e*t 4 lyz b jxtym `tcgjrj<cm. Gjcktlybq hfp
+<ce> %g4 dbltkb d rjvgfybb _friend1_ b _friend2_.
+<ce> Levf< dfv cnjbn yfxfnm c yb[. Tckb ds yt yfqltnt
+<ce> _missingperson_ d ntxtybt lde[ lytq, vj*tnt
+<ce> ghtrhfnbnm gjbcrb.
+
+QuestComplete:  [1004]
+<ce> Djn j`tofyyst _gold_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+<ce> Z cksifk, xnj _questgiver_ jnxfzyyj
+<ce> botn _missingperson_.
+
+RumorsPostfailure:  [1006]
+<ce> Ybrnj yt dbltk _missingperson_
+<ce> e*t ytcrjkmrj lytq. Yt bcrk<xtyj, xnj %g
+<ce> e*t vthnd. Z cksifk, xnj _questgiver_
+<ce> `sk chf*ty @nbv bpdtcnbtv.
+
+RumorsPostsuccess:  [1007]
+<ce> Crf*bnt, ds ckexfqyj yt njn cfvsq %ra, rjnjhsq
+<ce> gjvju jnscrfnm _missingperson_ lkz _questgiver_?
+
+QuestorPostsuccess:  [1008]
+<ce> Rfr *t z vjue jnrfpfnm %ra, rjnjhsq
+<ce> yfitk _missingperson_ lkz vtyz?
+
+QuestorPostfailure:  [1009]
+<ce> Gjybvf<, @nj yt dfif jib`rf, xnj ds yt
+<ce> cvjukb yfqnb _missingperson_
+<ce> Yfikb %g4 ntkj c gththtpfyysv ujhkjv.
+<ce> Jcnfdmnt vtyz.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Z cjukfcbkcz gjvjxm _questgiver_ yfqnb
+ _missingperson_. %g jncencndetn e*t xtnsht
+ lyz. Tlbycndtyyjt, xnj bpdtcnyj, xnj %g
+ `sk pfvtxty d rjvgfybb _friend2_ b
+ _friend1_. Tckb z yt eghfdk<cm pf ldf lyz,
+ nj yt gjkexe gkfne.
+
+Message:  1021
+<ce> Ds botnt _missingperson_?
+<ce> {vvv, %g ghzxtncz d __missingperson_,
+<ce> njkmrj yt ujdjhbnt @nj _questgiver_.
+<ce> _missingperson_ gjrkzkcz ybrjulf
+<ce> `jkmit yt ujdjhbnm c _questgiver_.
+<ce> Yt cghfibdfqnt vtyz, gjxtve.
+
+Message:  1022
+<ce> Yt dcnhtxfkcz kb vyt _missingperson_?
+<ce> Rjytxyj. Cnhf*f gjqvfkf %g4 pf rhf*e
+<ce> bp [hfvf. _questgiver_ `eltn d zhjcnb,
+<ce> rjulf %g jcdj`jlbncz.
+
+Message:  1023
+<ce> Ckexfqyj yt _questgiver_ hfccrfpfk dfv
+<ce> j` @njv? Yt cjvytdf<cm d @njv. %oth, %g
+<ce> ghjdtk yf lyz[ ytxtcnysq gjtlbyjr c
+<ce> _missingperson_. _missingperson_
+<ce> eitk bp ujhjlf b c nt[ gjh %g4 yt dbltkb.
+<ce> Ytn, z yt pyf<, relf %g eitk.
+
+Message:  1024
+<ce> _missingperson_? Lf, z
+<ce> pyf<, xnj ckexbkjcm c ybv.
+<ce> Jy `sk e`bn, djn xnj ckexbkjcm.
+<ce> Vjq lheu Cvfqkb jxtym dt*kbdj
+<ce> gjghjcbk tuj pjkjnj, yj jy
+<ce> yfxfk uhe`bnm d jndtn. Dfv cnjbn
+<ce> gjpyfrjvbnmcz cj Cvfqkb b lheubvb
+<ce> vjbvb lhepmzvb. Dpznm @njuj %ra,
+<ce> Cvfqkb!
+
+Message:  1031
+<ce> _missingperson_? Ff... yt dbltk
+<ce> tuj e*t ytcrjkmrj lytq.
+<ce> Gjghj`eqnt cghjcbnm _friend3_, vj*tn
+<ce> jy xnj pyftn.
+
+Message:  1032
+<ce> %oth. Z yt dbltk _missingperson_
+<ce> c gjpfdxthfiytuj lyz. Dfv cnjbn cghjcbnm
+<ce> e _friend4_ bkb _friend1_.
+<ce> Jlby bp yb[ vj*tn xnj-nj pyfnm.
+
+Message:  1033
+<ce> _friend1_ crfpfk dfv, xnj z vjue
+<ce> pyfnm xnj-nj ghj _missingperson_?
+<ce> Yt cnjbkj lf*t `tcgjrjbnmcz. Dct, xnj
+<ce> z pyf<, xnj yfgbdibcm ghjikjq yjxm<
+<ce> jy relf-nj eitk. Yflt<cm c ybv yt
+<ce> ckexbkjcm ybxtuj gkj[juj.
+
+Message:  1034
+<ce> Ghjcnbnt, yj z yt dbltk _missingperson_
+<ce> e*t lfdyj. Yt pyf<, gjxtve _friend2_
+<ce> jnghfdbk dfc rj vyt... F ds yt j`hfofkbcm
+<ce> r _friend1_?
+
+Message:  1040
+<ce> Xnj ds pltcm ltkftnt? Z `jkmit
+<ce> yt *tkf< dbltnm _questgiver_.
+<ce> ^q! Jngecnbnt vtyz! Ds yt vj*tnt
+<ce> ghjcnj nfr ghjnfobnm vtyz gj ekbwt
+<ce> r ytve.
+
+Message:  1050
+<ce> _missingperson_! Z tckb xtcnyj
+<ce> e*t b yt yfltzkcz, xnj ds yfqltnt tuj,
+<ce> %pcn. _missingperson_,
+<ce> ns ult ghjgflfk? Z `tcgjrjbkcz j nt`t.
+<ce> %pcf, z pf`bhf< tuj jnc<lf.
+
+Message:  1051
+<ce> Bnfr, _missingperson_ ghzxtncz,
+<ce> lf? Gjqle-rf pf`the tuj bp tuj erhjvyjuj
+<ce> vtcntxrf. Ds vyt jxtym gjvjukb, %pcn.
+
+Message:  1052
+<ce> D n<hmvt! Vyt yflj gjcgtibnm.
+<ce> ~snm vj*tn ghbltncz lfnm dpznre
+<ce> vbhjdjve celmt.
+
+Message:  1053
+<ce> Nfr. _missingperson_ eitk
+<ce> bp ujhjlf. Yt cktljdfkj tve ltkfnm
+<ce> @njuj. Z gjxnb ghjcnbk tuj.
+
+Message:  1054
+<ce> Vthnd! Rfr @njv vjukj ghjbpjqnb?
+<ce> Yflt<cm ds pfcnfdbkb Cvfqkb gj*fktnm
+<ce> j` @njv, %pcn! Rfrjt ujhtcnyjt
+<ce> bpdtcnbt.
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _questgiver_ group Questor
+Person _missingperson_ face 1 group Group_6.0 local
+Person _friend1_ group Local_3.1 local
+Person _friend2_ group Local_3.1 local
+Person _friend3_ group Local_3.1 local
+Person _friend4_ group Local_4.1 local
+
+Place _hidingplace_ local random
+
+Clock _S.16_ 2.00:00
+--removed flags to make exact two days
+
+Clock _delay_ 00:00
+
+Foe _F.00_ is 3 Barbarian
+
+--	Quest start-up:
+	dialog link for person _friend4_
+	dialog link for person _missingperson_
+	dialog link for location _hidingplace_ person _friend3_
+	start timer _S.16_
+	log 1010 step 0
+	pick one of _S.00_ _S.02_ _S.03_ _S.01_
+	create npc _friend4_
+	create npc _friend2_
+	create npc _friend3_
+	create npc _friend1_
+
+_S.00_ task:
+	place npc _missingperson_ at _hidingplace_
+
+variable _S.01_
+variable _S.02_
+variable _S.03_
+_S.04_ task:
+	clicked npc _friend1_
+
+_S.05_ task:
+	clicked npc _friend2_
+
+_S.06_ task:
+	clicked npc _friend3_
+
+_S.07_ task:
+	clicked npc _friend4_
+
+_S.08_ task:
+	when _S.00_ and _S.04_
+	add dialog for location _hidingplace_
+	say 1021
+
+_S.09_ task:
+	when _S.02_ and _S.05_
+	say 1022
+
+_S.10_ task:
+	when _S.03_ and _S.06_
+	say 1023
+
+_S.11_ task:
+	when _S.01_ and _S.07_
+	create foe _F.00_ every 1 minutes 1 times with 100% success
+	say 1024
+
+_S.12_ task:
+	when not _S.00_ and _S.04_
+	add dialog for person _friend3_
+	say 1031
+
+_S.13_ task:
+	when not _S.02_ and _S.05_
+	add dialog for person _friend4_
+	say 1032
+
+_S.14_ task:
+	when not _S.03_ and _S.06_
+	say 1033
+
+_S.15_ task:
+	when not _S.01_ and _S.07_
+	say 1034
+
+_S.16_ task:
+	end quest
+
+_S.17_ task:
+	killed 1 _F.00_
+	hide npc _friend4_
+
+_S.18_ task:
+	clicked npc _questgiver_
+
+_clearclick_ task:
+	when not _yes_ and _S.18_
+	clear _S.18_ _clearclick_
+
+_yes_ task:
+	when _S.08_ or _S.09_ or _S.10_ or _S.11_ or _S.22_
+
+_givereward_ task:
+	when _yes_ and _S.18_
+	start timer _delay_
+
+_delay_ task:
+	give pc _gold_
+	end quest
+
+_S.22_ task:
+	clicked npc _missingperson_
+	add _missingperson_ face saying 1040
+	hide npc _missingperson_
+
+_S.23_ task:
+	when _S.22_ and _S.18_
+	drop _missingperson_ face
+
+_S.24_ task:
+	when _S.18_ and _S.08_ and not _S.22_
+	say 1051
+
+_S.25_ task:
+	when _S.18_ and _S.09_
+	say 1052
+
+_S.26_ task:
+	when _S.18_ and _S.10_
+	say 1053
+
+_S.27_ task:
+	when _S.18_ and _S.11_
+	say 1054
+
+_S.28_ task:
+	when _S.18_ and _S.22_
+	say 1050
+--removed unnecessary check. quest can remained "unsolved" after unexpectedly finding the quarry and returning to QG.

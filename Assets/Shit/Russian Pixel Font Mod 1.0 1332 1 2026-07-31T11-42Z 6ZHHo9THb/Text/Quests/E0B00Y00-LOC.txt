@@ -1,0 +1,149 @@
+-- Quest: C:\QUESTS\WORKING\E0B00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Arkay
+-- Repute: 0
+-- QuestId: 0
+Messages: 21
+Quest: E0B00Y00
+DisplayName: Jcrdthytyysq [hfv
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vs rfr hfp botv rjuj-nj, gj[j*tuj yf dfc. Tcnm
+<ce> jlby hfpheityysq [hfv, yfpsdftncz ___mondung_.
+<ce> Yfdthyjt ds cksifkb j` @njv. Dhtvz jn dhtvtyb
+<ce> @nb hfpdfkbys cnfyjdzncz ghb`t*botv pkf, yj
+<ce> vs buyjhbhetv tuj dkbzybt. Ljk*ty cj`k<lfnmcz
+<ce> `fkfyc vt*le hfpkbxysvb cbkfvb. F djn ctqxfc
+<ce> `fkfyc yfheity. Vyt ye*ty rnj-nj cgjcj`ysq
+<ce> dsghfdbnm tuj. Lkz dfc @nf hf`jnf ghbtvktvf?
+   <--->
+<ce> ~sk yfheity `fkfyc cbk pkjv, pfhjlbdibvcz d
+<ce> ___mondung_ b @nj euhj*ftn yfibv
+<ce> gjgsnrfv b ecbkbzv dytcnb ufhvjyb< d %reg.
+<ce> Yfv ye*ty uthjq yfdhjlt dfc, xnj`s gjctnbnm
+<ce> ___mondung_ b yfdtcnb nfv gjhzljr.
+<ce> Cltkftnt @ne hf`jne?
+
+RefuseQuest:  [1001]
+<ce> Rfr gtxfkmyj. Xnj *, vs gjbotv
+<ce> rjuj-nj gjcujdjhxbdtt.
+
+AcceptQuest:  [1002]
+<ce> Dtkbrjktgyj, %pcf. Dct, xnj
+<ce> yfv ye*yj, @nj e`bnm vjueotcndtyyjuj kbrfynhjgf,
+<ce> gjctkbditujcz d ___mondung_. ^nj
+<ce> euhj*ftn hfcghjcnhfytyb< dkbzybz yfituj
+<ce> jhltyf d @njq cnhfyt. Tckb ds yt dthytntcm
+<ce> xthtp =1stparton_ lytq, vs gjiktv rjuj-nj
+<ce> bp cdjb[, f ds vj*tnt pf`snm ghj yfuhfle.
+<ce> Yfxbyfqnt ltqcndjdfnm ytvtlktyyj. Elfxyjuj
+<ce> genb b elfxb dfv!
+   <--->
+<ce> %oth, @nj [jhjij, %pcf.
+<ce> Vs vj*tv lfnm dfv =1stparton_ lytq, xnj`s ds
+<ce> djccnfyjdbkb hfdyjdtcbt d ___mondung_,
+<ce> f cfvsq `scnhsq genm ljcnbuyenm tuj - e`bnm
+<ce> gjctkbditujcz d pltiyb[ uke`byf[ kbrfynhjgf.
+<ce> Gjnjhjgbntcm, %pcf. Tckb ds yt dthytntcm
+<ce> xthtp =1stparton_ lytq, nj vj*tnt pf`snm
+<ce> ghj yfuhfle.
+
+
+QuestFail:  [1003]
+<ce> Gjnjhfgkbdfqntcm, %pcf.
+<ce> E dfc yt nfr e* b vyjuj dhtvtyb, xnj`s
+<ce> e`bnm j`jhjnyz. _1stparton_ vbyen, tckb
+<ce> `snm njxysvb.
+
+QuestComplete:  [1004]
+<ce> Ds jrfpfkb `jkmie< eckeue [hfve Fhrtz,
+<ce> %pcf. ^nj ltzybt yt `eltn pf`snj.
+<ce> Gjkexbnt dfib _reward_ pjkjns[
+<ce> -- ds ltqcndbntkmyj pfcke*bkb @nj.
+
+RumorsDuringQuest:  [1005]
+Z cksifk, xnj ult-nj d jrhtcnyjcnz[ `hjlbn j`jhjntym.
+   <--->
+Z cksifk, xnj ult-nj d ___mondung_ gjctkbkcz rf`fy-j`jhjntym.
+   <--->
+Yt cks[fkb, xnj ckexbkjcm ghjikjq yjxm<? Djkxbq djq?
+
+RumorsPostfailure:  [1006]
+Djkrb - yfcnjzobt rjxtdybrb, gjkfuf<. Z cksifk, xnj yfi djkr ldbyekcz relf-nj <*ytt.
+   <--->
+Vjq repty crfpfk, xnj yfi rf`fy-j`jhjntym gjlfkcz relf-nj yf <uf.
+
+RumorsPostsuccess:  [1007]
+Z cksifk, xnj djkrjv-j`jhjnytv `sk ytrbq cdzotyybr!
+   <--->
+Vyjubt ntgthm xedcnde<n ct`z d `tpjgfcyjcnb gjckt cvthnb rf`fyf-j`jhjnyz.
+   <--->
+Ds cks[fkb, xnj kbrfynhjg `sk e`bn rfrbv-nj %ra?
+
+QuestorPostsuccess:  [1008]
+Xtv vjue gjvjxm djccnfyjdbditve `fkfyc cbk d ___mondung_?
+
+QuestorPostfailure:  [1009]
+Ds gjnthgtkb ytelfxe c @nbv j`jhjnytv, %pcf. Z jxtym ytljdjkty.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_ bp
+ [hfvf Fhrtz yfyzk vtyz pf _reward_ pjkjns[
+ e`bnm j`jhjnyz, iyshz<otuj d hfqjyt
+ ___mondung_, ytrjulf `sdituj xktyjv
+ @njuj [hfvf. E vtyz =1stparton_ lytq,
+ xnj`s dthyenmcz d ___questgiver_.
+
+Message:  1020
+<ce> Ds e`bkb kbrfynhjgf
+<ce> bp ___mondung_.
+
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ group Questor
+
+Place _mondung_ remote dungeon4
+
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
+
+Foe _wolf_ is Werewolf
+Foe boar is Wereboar
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1010 step 0
+	pick one of _wereboar_ _werewolf_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _mondead_
+	give pc _reward_
+	end quest
+
+_mondead_ task:
+	killed 1 _wolf_ saying 1020
+	killed 1 boar saying 1020
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+
+_1stparton_ task:
+	end quest
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_
+	say 1003
+	clear _qgclicked_ _clearclick_
+
+_werewolf_ task:
+	place foe _wolf_ at _mondung_
+
+_wereboar_ task:
+	place foe boar at _mondung_

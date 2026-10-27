@@ -1,0 +1,163 @@
+-- Quest: C:\QUESTS\WORKING\C0C00Y11.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: temple
+-- Repute: 0
+-- QuestId: 11
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 81
+Quest: C0C00Y11
+DisplayName: |ekbr
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ds yt xkty __qgiver_,
+<ce> %pcn. Yj dsukzlbnt
+<ce> dyeif<obvb ljdthbt.
+<ce> Djn xnj z dfv crf*e. Ljv d
+<ce> __house_ pfgjkjybkf yt*bnm.
+<ce> Yfv ye*ty rnj-nj, rnj cvj*tn
+<ce> bpuyfnm tt ghjxm. Cltkfqnt
+<ce> @nj, b @nj bpvtybn yfit
+<ce> jnyjitybt r dfv.
+
+RefuseQuest:  [1001]
+<ce> ^nj yt tcnm [jhjij
+<ce> d ukfpf[ __qgiver_.
+
+AcceptQuest:  [1002]
+<ce> Tckb ytxbcnm ckbirvj cbkmyf lkz dfc,
+<ce> yt ltkfqnt ukegs[ gjcnegrjd. Blbnt
+<ce> d _house_ d __house_.
+<ce> E dfc =traveltime_ lytq bkb
+<ce> vs dspjdtv rjuj-nj lheujuj.
+
+QuestComplete:  [1004]
+<ce> Pyfxbn ds jxbcnbkb @nj vtcnj, lf?
+<ce> ^nj jxtym [jhjij, z pfvjkdk< pf
+<ce> dfc ckjdtxrj gthtl bthfh[fvb.
+
+RumorsDuringQuest:  [1005]
+_house_ pfgjkjybkj vyjuj vjueotcndtyys[, pks[ le[jd, nfr ujdjhzn.
+
+RumorsPostfailure:  [1006]
+_house_ dct tot dj dkfcnb ghbphfrjd, ytcvjnhz yf gjgsnrb ==qgiver_.
+
+RumorsPostsuccess:  [1007]
+Yfrjytw nj, d _house_ jcnfkbcm njkmrj lj`hst, [hfyzobt ljv le[b.
+
+QuestorPostsuccess:  [1008]
+J, ghbdtn, vjq lheu, @rpjhwbcn. Xtv z vjue gjvjxm?
+
+QuestorPostfailure:  [1009]
+Z lfk dfv ifyc jnkbxbnmcz, yj phz gjnhfnbk dhtvz.
+   <--->
+Ds ltqcndbntkmyj levftnt, xnj z e*t pf`sk ghj _house_, %pct?
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp __qgiver_,
+ d ___qgiver_ lfk vyt
+ ifyc jxbcnbnm _house_
+ d __house_ jn gjctkbditqcz
+ nfv yt*bnb. E vtyz =traveltime_
+ lytq yf dc< hf`jne.
+
+Message:  1011
+<ce> D ght*ytq *bpyb z gjcnhjbk @njn ljv.
+<ce> Gj rfrjve ghfde cvthnyst dnjhukbcm
+<ce> d vjb gjcvthnyst cys?
+
+Message:  1012
+<ce> Xnj *, ds [jnz `s gjgsnfkbcm. Z
+<ce> yt `ele ujdjhbnm j dfc gkj[j, yj
+<ce> `jkmituj yt j`tof<, %pcn.
+
+Message:  1080
+<ce> Dlj`fdjr, djn rfhnf
+<ce> r ___newdung_,
+<ce> ytxtcnbdfz lshf, nfv lf*t ybrjuj
+<ce> d *bds[ nj yt jcnfkjcm. Cltkfqnt
+<ce> vbkjcnm lkz %reg b eybxnj*mnt
+<ce> dct[ gjctkbdib[cz nfv ndfhtq.
+
+
+
+QBN:
+Item boobyprize gold range 2 to 2
+
+Person _qgiver_ group Questor
+
+Place _house_ remote house2
+Place _newdung_ remote dungeon
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _ghost_ is Ghost
+Foe _skeleton_ is Skeletal_warrior
+Foe _wraith_ is Wraith
+Foe _zombie_ is Zombie
+
+--	Quest start-up:
+	start timer _traveltime_
+	log 1010 step 0
+	pick one of _map_ _nomap_ _nomap_
+	pick one of _S.02_ _S.03_ _S.04_ _S.05_
+	pc at _house_ set _S.08_
+	create npc at _house_
+
+_traveltime_ task:
+	end quest
+
+_questdone_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _questdone_ and _S.06_
+	give pc nothing
+	end quest
+
+_S.02_ task:
+	place foe _ghost_ at _house_
+
+_S.03_ task:
+	place foe _skeleton_ at _house_
+
+_S.04_ task:
+	place foe _wraith_ at _house_
+
+_S.05_ task:
+	place foe _zombie_ at _house_
+
+_S.06_ task:
+	killed 1 _ghost_
+	killed 1 _skeleton_
+	killed 1 _wraith_
+	killed 1 _zombie_
+
+_S.07_ task:
+	injured _wraith_ saying 1011
+	injured _zombie_ saying 1011
+	injured _ghost_ saying 1011
+	injured _skeleton_ saying 1011
+
+_S.08_ task:
+               start task _try_
+
+variable _try_
+_S.09_ task:
+	when _try_ and _questdone_ and not _S.06_
+	say 1012
+	end quest
+
+_clearclick_ task:
+	when _questdone_ and not _S.06_
+	clear _questdone_ _clearclick_
+
+variable _map_
+variable _nomap_
+_S.13_ task:
+	when _map_ and _questdone_
+    say 1080
+	reveal _newdung_ readmap

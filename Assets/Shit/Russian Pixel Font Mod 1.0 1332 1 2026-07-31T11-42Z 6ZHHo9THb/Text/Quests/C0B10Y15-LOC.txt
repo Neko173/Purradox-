@@ -1,0 +1,181 @@
+-- Quest: C:\QUESTS\WORKING\C0B10Y15.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: temple
+-- Repute: 10
+-- QuestId: 15
+Messages: 41
+Quest: C0B10Y15
+DisplayName: Htkbrdbz
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pct, __questgiver_ ye*lftncz d
+<ce> dfitq gjvjob d ckj*yjv ltkt djpdhfotybz
+<ce> jlyjuj bp ghbpyfrjd %god, - _item_.
+<ce> Dfv ye*yj `eltn `hjcbnm dspjd cbkt
+<ce> vjueotcndtyyjuj dhfuf, - =lich_,
+<ce> @nj dspsdfntkm, rjnjhsq ghtlfk [hfv
+<ce> b j`hfnbkcz rj pke. Ntgthm jy kbx b
+<ce> _item_ gjl j[hfyjq.  Djpmvtntcm?
+
+RefuseQuest:  [1001]
+<ce> Z gjybvf<.  Kbx ckbirjv jgfcysq ghjnbdybr
+<ce> lkz dfitq vjkjljcnb b ytjgsnyjcnb.
+<ce> Djpvj*yj, rjulf ds cnfytnt cbkmytt,
+<ce> ghb[jlbnt b gjghj`eqnt tot hfp
+<ce> %god `eltn c dfvb.
+
+AcceptQuest:  [1002]
+<ce> Z djc[bof<cm dfitq cvtkjcnm<, yj vtyz
+<ce> ghj`bhftn lhj*m njkmrj ghb vsckb j`
+<ce> jgfcyjcnb, c rjnjhjq ds cnjkrytntcm.
+<ce> =lich_ j[hfyztn _item_,
+<ce> dyenhb ___mondung_. Pfgjvybnt,
+<ce> ytn ytj`[jlbvjcnb eybxnj*fnm kbxf,
+<ce> ye*yj njkmrj yfqnb _item_ b
+<ce> dthyenm d [hfv __questgiver_ pltcm.
+<ce> Tckb vs yt gjkexbv dtcnjxrb jn dfc xthtp
+<ce> =qtime_ lytq, nj cgjtv pfegjrjqye< gj dfv.
+<ce> Lf `kfujckjdbn dfc %god, %pcn.
+
+QuestFail:  [1003]
+<ce> Z gjybvf< dfit yt*tkfybt evbhfnm,
+<ce> %pcf, yj j*blfybt yt cltkftn
+<ce> jgfcyjcnm vtymit.
+
+QuestComplete:  [1004]
+<ce> %god, [dfkf nt`t! E vtyz lf*t
+<ce> yt `skj yflt*ls yf nj, xnj e dfc
+<ce> dct gjkexbncz.
+<ce> %god `kfujckjdbn dct dfib ltkf.
+<ce> D pyfr `kfujlfhyjcnb [hfvf
+<ce> ghbvb @njn `kfujckjdktyysq
+<ce> gjlfhjr, _reward_
+
+RumorsDuringQuest:  [1005]
+<ce> __questgiver_ yflttncz yfqnb lfdyj gjnthzyye< dtom, _item_,
+<ce> yj rnj gj*tkftn gjbcrfnm tt yf dble e kbxf =lich_?
+
+RumorsPostfailure:  [1006]
+<ce> Vyt bpdtcnyj, xnj __questgiver_ dthbn d nj, xnj
+<ce> _item_ ybrjulf yt yfqltncz d crktgt ___mondung_ gjckt dctuj.
+
+RumorsPostsuccess:  [1007]
+<ce> Ds cksifkb, xnj ytrbq %ra djitk d crktg ___mondung_
+<ce> b dthyekcz c dtom<, ghbyflkt*fotq [hfve __questgiver_?
+
+QuestorPostsuccess:  [1008]
+<ce> %pcf, vs dctulf hfls dfc ghbdtncndjdfnm gjckt njuj,
+<ce> rfr ds ve*tcndtyyj chf*fkbcm c kbxtv!
+
+QuestorPostfailure:  [1009]
+<ce> Z yt dby< dfc d njv, xnj ds yt cvjukb
+<ce> dthyenm yfie htkbrdb< _item_ bp crktgf
+<ce> ___mondung_, yj vyt jxtym yt yhfdbncz
+<ce> nj, xnj ds dpzkbcm pf pflfybt, c
+<ce> rjnjhsv pfdtljvj yt cvjukb `s cghfdbnmcz.
+
+Message:  1015
+<ce> Pkjdtobq ujkjc itgxtn bp ybjnrelf,
+<ce>
+<ce> "_item_ yt vj*tn ghbyflkt*fnm dfv
+<ce> bkb @nbv ctynbvtynfkmysv lehfrfv bp
+<ce> [hfvf __questgiver_.
+<ce> Gj@njve z djpdhfof< ct`t nj, xnj dctulf.
+<ce> vyt ghbyflkt*fkj"
+<ce>
+<ce> _item_ bcxtpftn.
+
+Message:  1020
+%qdt:
+ __questgiver_ bp [hfvf ___questgiver_
+ jnghfdkztn vtyz dthyenm cdzotyysq
+ ghtlvtn, _item_, bp crktgf ___mondung_.
+ ^ne htkbrdb< j[hfyztn kbx, =lich_.
+ Vyt yt j`zpfntkmyj eybxnj*fnm kbxf,
+ yj ye*yj yfqnb htkbrdb< b dthyenm tt d
+ ntxtybt =qtime_ lytq.
+
+Message:  1030
+<ce> ^nj ltqcndbntkmyj _item_ bp [hfvf
+<ce> __questgiver_.
+
+Message:  1035
+<ce> Xnj? Ds yt njkmrj yfikb cdzotyysq
+<ce> pyfr, _item_, yj nfr*t eybxnj*bkb
+<ce> pkj`yjuj kbxf? %god ltqcndbntkmyj
+<ce> `kfujdjkbn r dfv. D yfitv [hfvt
+<ce> dfc *ltn dtkbrjt `eleott.
+
+Message:  1040
+<ce> =lich_ ibgbn d zhjcnb:
+<ce>
+<ce> "Ns, [hfvjdfz cj`frf bp __questgiver_,
+<ce> ybrjulf yt gjkexbim vjq fvektn,
+<ce> _item_! Z @nj cltkfk b z dkflt<
+<ce> @nbv. B ybrnj vtyz yt jcnfyjdbn,
+<ce> lf*t cvthnm"
+
+
+
+QBN:
+Item _item_ talisman
+Item _reward_ magic_item
+
+Person _questgiver_ group Questor
+
+Place _mondung_ remote dungeon
+
+Clock _qtime_ 00:00 0 flag 17 range 0 2
+Clock _shortdelay_ 00:02 0 flag 1 range 0 1
+
+Foe _lich_ is Lich
+
+--	Quest start-up:
+	place item _item_ at _mondung_
+	start timer _qtime_
+	reveal _mondung_
+	log 1020 step 0
+	place foe _lich_ at _mondung_
+
+_qtime_ task:
+	have _item_ set _S.07_
+
+_S.01_ task:
+	toting _item_ and _questgiver_ clicked
+	give pc _reward_
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.01_
+	say 1003
+	clear _qgclicked_ _clearclick_
+
+_S.02_ task:
+	killed 1 _lich_
+
+_S.03_ task:
+	when _S.01_ and _S.02_
+	say 1035
+	change repute with _questgiver_ by +7
+
+_pickupitem_ task:
+	clicked item _item_
+	start timer _shortdelay_
+	say 1030
+
+variable _shortdelay_
+_S.06_ task:
+	when _shortdelay_ and not _S.02_
+	say 1040
+
+_S.07_ task:
+	say 1015
+
+_S.08_ task:
+    when _S.01_ or _qtime_
+    end quest

@@ -1,0 +1,113 @@
+-- Quest: C:\QUESTS\WORKING\O0B20Y02.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: thief
+-- Repute: 20
+-- QuestId: 2
+Messages: 11
+Quest: O0B20Y02
+DisplayName: Wtyysq ghtlvtn
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Nbit, nbit. Vtyz yfpsdf<n...
+<ce> ytdf*yj, ghjcnj pjdb vtyz
+<ce> _qgiver_. Lkz nt`z tcnm
+<ce> hf`jntyrf yf ubkmlb<. Gkfnf
+<ce> j`sxyfz. Pfqvtimcz?
+
+RefuseQuest:  [1001]
+<ce> {jhjij, xnj z yt hfccrfpsdf<
+<ce> dct gjlhj`yjcnb chfpe. Blb jnc<lf.
+
+AcceptQuest:  [1002]
+<ce> Djj`ot-nj vyt yt yhfdbncz dct
+<ce> djkit`yjt, yj ljku nht`etn..
+<ce> Nt`t ye*yj `eltn erhfcnm jlye
+<ce> vfubxtcre< `tpltkeire,-_magicitem_
+<ce> bp ljvf _mansion_ d ujhjlrt
+<ce> __mansion_. Cltkrf yfif `eltn
+<ce> hfcnjhuyenf xthtp =traveltime_ lytq.
+<ce> Ecgttim?. F[ lf... Ljv [jhjij j[hfyztncz.
+
+QuestComplete:  [1004]
+<ce> Njdfh pltcm? Jnkbxyj.
+<ce> J`sxyfz wtyf pf nfre< hf`jne
+<ce> _gold_ pjkjns[. B ybrjve b
+<ce> ybult yt hfccrfpsdfq j` @njv ltkt.
+
+RumorsDuringQuest:  [1005]
+D jcj`yzrt _mansion_ d ujhjlt __mansion_ [hfybncz `jkmifz rjkktrwbz vfubxtcrb[ ghtlvtnjd.
+
+RumorsPostfailure:  [1006]
+_magicitem_ e`hfkb bp ljvf _mansion_  lkz `jkmitq `tpjgfcyjcnb.
+
+RumorsPostsuccess:  [1007]
+_magicitem_ erhfkb bp jcj`yzrf _mansion_.  Rfrjq crfylfk.
+
+QuestorPostsuccess:  [1008]
+Cnhfyyj dbltnm vtyz nen, %pcf? Levftim, z e`tue dvtcnt c @njq dtom<,- _magicitem_?
+
+QuestorPostfailure:  [1009]
+<ce> _magicitem_ eytckb bp jcj`yzrf
+<ce> _mansion_, %pcf. Lheubvb ckjdfvb.
+<ce> ndjz pflfxf ghjdfktyf.
+<ce> E[jlb.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_, (nfr %g yfpsdftn ct`z)
+ bp Ubkmlbb pfrk<xftn cj vyjq cltkre
+ yf ljcnfdre vfubxtcrjq dtobws bp ljvf
+ _mansion_ d vtcntxrt
+ __mansion_. _magicitem_ [jhjij j[hfyz<n.
+ E vtyz tcnm =traveltime_ lytq
+ xnj`s ghbytcnb @ne inere d ujhjl
+ ___qgiver_ d vtcnj __qgiver_.
+
+
+
+QBN:
+Item _magicitem_ magic_item
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _mansion_ remote house1
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is 2 Spellsword
+Foe _F.01_ is Gargoyle
+Foe _F.02_ is Flesh_atronach
+Foe _F.03_ is Ghost
+
+--	Quest start-up:
+	place item _magicitem_ at _mansion_
+	start timer _traveltime_
+	log 1010 step 0
+	pc at _mansion_ set _S.01_
+
+_traveltime_ task:
+	end quest
+
+_S.01_ task:
+	pick one of _guard1_ _guard2_ _guard3_ _guard4_
+
+_questdone_ task:
+	toting _magicitem_ and _qgiver_ clicked
+	give pc _gold_
+	end quest
+
+_guard1_ task:
+	create foe _F.00_ every 4 minutes 1 times with 10% success
+
+_guard2_ task:
+	create foe _F.01_ every 4 minutes 1 times with 10% success
+
+_guard3_ task:
+	create foe _F.02_ every 4 minutes 1 times with 10% success
+
+_guard4_ task:
+	create foe _F.03_ every 4 minutes 1 times with 10% success

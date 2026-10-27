@@ -1,0 +1,239 @@
+-- Quest: C:\QUESTS\WORKING\S0000012.Qbn.
+-- Main story quest.
+-- QuestId: 12
+Messages: 22
+Quest: S0000012
+DisplayName: Rehmth bvgthfnjhf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ghbdtncnde<, %pcn. Z vyjuj
+<ce> cksifkf j dfc. F ctqxfc ds ghbikb rj vyt
+<ce> c jxtym bynthtcyjq bcnjhbtq jlyjuj j`vfyf.
+<ce> Ujhybxyfz Rbylfccf crfpfkf, xnj Fe`r-b
+<ce> dcrhskf gbcmvj bvgthfnjhf, ghtlyfpyfxtyyjt
+<ce> lkz vtyz. Vjue ghtlgjkj*bnm, %pcf,
+<ce> xnj @nj gbcmvj ybrjulf yt gjgfltn rj vyt.
+<ce>
+<ce> Z [jntkf `s, xnj`s ds epyfkb j` @njv
+<ce> gj`jkmit, %pcn. ^nj vj*tn `snm jgfcyj.
+<ce> Dvtifntkmcndj d ltkf Fe`r-b vj*tn dp`tcbnm
+<ce> Ujnhblf, vyt kb yt pyfnm cdjtuj csyf.
+<ce> Cjukfcys kb ds yf @nj?
+
+RefuseQuest:  [1001]
+<ce> Fe`r-b ljk*yj `snm rhenj j`dtkf dfc djrheu
+<ce> cdjtuj gfkmxbrf, %pcn. Yflt<cm,
+<ce> ds ds*bdtnt njkmrj `kfujlfhz tt gfnhjyf*e.
+
+AcceptQuest:  [1002]
+<ce> {jhjij. E vtyz e*t lfdyj pfhjlbkbcm gjljphtybz
+<ce> j ytkjzkmyjcnb Fe`r-b r bvgthfnjhe. Jyf ljxm
+<ce> gjrjqyjuj rjhjkz Rfvthjyf, ghfdbdituj dctv
+<ce> {fvvthatkjv bp cdjtq wbnfltkb d Ctynbytkt.
+<ce>
+<ce> Vjq ve*, rjhjkm Kbpfylec, lf [hfybn tuj leie
+<ce> %god, evth d Rhbyufbyt, rfr b rjhjkm Rfvthjy.
+<ce> Ntkj Kbpfylecf yt `skj yfqltyj, gj@njve tve
+<ce> djpdtkb vjyevtyn d njv vtcnt, ult dgjkyt vjukf
+<ce> `s `snm tuj yfcnjzofz ecsgfkmybwf. J[...z
+<ce> jnjikf jn ntvs.
+<ce>
+<ce> _messenger_ bcgjkmpetncz bvgthfnjhjv d hjkb
+<ce> gjcskmyjuj d Lfuuthajkkt. %g `sdftn d hfpys[
+<ce> vtcnf[ htubjyf, hfpyjcz gjckfybz. Rcnfnb,
+<ce> _messenger_ xkty Hswfhtq Lhfrjyf.
+<ce> Blbnt d __dispatcher_ d ___dispatcher_
+<ce> b cghjcbnt ytrnj gj bvtyb _dispatcher_.
+<ce> %g vj*tn pyfnm, ult yf[jlbncz _messenger_.
+<ce> Gjghj`eqnt hfpj`hfnmcz, gjxtve gbcmvj,
+<ce> flhtcjdfyyjt vyt, gjgfkj d herb Fe`r-b.
+
+QuestComplete:  [1004]
+<ce> Fuf! Ntgthm gjyznyj. Ehb@km Ctgnbv gjcskfk
+<ce> cjj`otybt rjhjktdt Lfuuthajkkf. D nj dhtvz rjhjktdjq
+<ce> `skf z. Yj ghjikj dhtvz b vjq ljhjujq Kbpfylec
+<ce> evth, f Fe`r-b cnfkf rjhjktdjq. Vs ljk*ys epyfnm,
+<ce> xnj `skj d @njv gbcmvt. Z ybrjulf yt ljdthzkf
+<ce> Fe`r-b.
+<ce>
+<ce> Dxthf z gjkexbkf gbcmvj jn ghbywtccs Vjhufqb
+<ce> bp D@qhtcnf, d rjnjhjv jyf cjj`obkf, xnj rjt-xnj
+<ce> pyftn j njv, xnj `skj d gbcmvt bvgthfnjhf.
+<ce> Ctqxfc nfv ghfdbn ctvmz, rjnjhjq yt yhfdbncz
+<ce> ghfdktybt bvgthfnjhf. Dthybntcm rj vyt, tckb
+<ce> yfqltnt, r rjve gjgfkj @nj gbcmvj.
+<ce>
+<ce> Jnkbxyj, ds gjrfpfkb cdj< rjvgtntynyjcnm,
+<ce> %pcn. Ghbvbnt _jewelry_ d pyfr vjtq
+<ce> `kfujlfhyjcnb. E vtyz ytn ybrfrjuj *tkfybz
+<ce> jcnfdkznm tot xnj-yb`elm Fe`r-b.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Vbybcthf, vfnm-rjhjktdf Ujnhblf, gjghjcbkf
+ vtyz hfccktljdfnm, gjxtve gbcmvj tq jn
+ bvgthfnjhf gjgfkj d herb rjhjktds Fe`r-b.
+ Z vjue epyfnm j` @njv bp ecn bvgthfnjhcrjuj
+ gjckfyybrf _messenger_, j vtcnjyf[j*ltybb
+ rjnjhjuj z vjue cghjcbnm _dispatcher_ bp
+ ___dispatcher_. Jyb j`f zdkz<ncz xktyfvb
+ jhltyf Hswfhb Lhfrjyf. Vbybcthf nfr*t lfkf
+ vyt rjkmwj c gtxfnrjq, rjnjhjt pfcnfdbnm b[
+ vyt ljdthznm.
+
+Message:  1011
+%qdt:
+ Rjkmwj Vbybcths hfpdzpfkj zpsr ljdthtyyjve
+ kbwe. %g hfccrfpfk vyt, xnj _messenger_
+ `eltn d __palace_ d _palace_
+ d ntxtybt =2palace_ lytq.
+
+Message:  1015
+<ce> Gbcmvj bvgthfnjhf? Vyt cnslyj dcgjvbyfnm j`
+<ce> @njv, %pcf. Gbcmvj `skj gj[botyj e vtyz
+<ce> yf cktle<obq *t ltym, rfr z tuj gjkexbk. Z
+<ce> ybrjulf yt xbnfk tuj. Z yfltzkcz, xnj gbcmvj
+<ce> tot dthytncz bkb bvgthfnjh gjiktn lheujt.
+<ce> Tckb ns yfqltim @nj gbcmvj, `ele jxtym
+<ce> ghbpyfntkty, tckb ns gjpdjkbim vyt kbxyj
+<ce> dhexbnm tuj Vbybctht.
+
+Message:  1016
+<ce> Nt`t lf*t yt cnjbkj gsnfnmcz yfqnb gbcmvj
+<ce> bvgthfnjhf, %pcn. F ctqxfc
+<ce> ns pfgkfnbim pf @nj cdjtq *bpym<.
+
+Message:  1017
+  ^njn %ra ljk*ty `snm e`bn. Pfcflf yf
+tuj genb d ___dispatcher_, xnj vj*tn
+`snm kexit. Ukegtw yfvthtdftncz pflfnm
+gfhe djghjcjd yf[jlzotvecz nfv _dispatcher_.
+<ce>
+--- F.
+
+Message:  1019
+Rjkmwj c gtxfnrjq erhfityj uth`jv Lfuuthajkkf b kbxysv uth`jv Kbpfylecf.
+
+Message:  1020
+<ce> Z _dispatcher_.
+<ce> D j`sxyjv ckexft z yt cnfk `s hfccrfpsdfnm
+<ce> Yt-Xktye Hswfhtq Lhfrjyf, rfr yfqnb _messenger_.
+<ce> B dct *t z ghtlfy rjhjktdt Vbybctht. F tot z
+<ce> pyf<, xnj _messenger_ j`tpukfdbk gjcktlytuj
+<ce> gsnfditujcz ecnhjbnm tve kjdeire.
+<ce> %g `eltn d _palace_ d __palace_ d ntxtybt
+<ce> =2palace_. Gjghj`eq gjbob %g4 nfv.
+
+Message:  1021
+<ce> {j! Nt`z ljk*yj `snm ghtleght*lfkb, xnj z
+<ce> hswfhm Lhfrjyf yf cke*`t e bvgthfnjhf. Tckb
+<ce> @nj gjgsnrf gjqvfnm vtyz d kjdeire, nj ns
+<ce> vj*tim gj*fktnm j` @njv.
+<ce>
+<ce> {vvv. Lf, z _dispatcher_. ^nj rjkmwj e`tlbkj
+<ce> vtyz, xnj ns ltqcndbntkmyj yf cke*`t e Vbybcths.
+<ce> Ytrjnjhjt dhtvz yfpfl z ljcnfdbk gbcmvj
+<ce> bvgthfnjhf, flhtcjdfyyjt rjhjktdt Lfuuthajkkf.
+<ce> F tckb z yt jib`f<cm, Fe`r-b, f yt Vbybcthf,
+<ce> zdkztncz rjhjktdjq Lfuuthajkkf. Crf*b Vbybctht,
+<ce> xnj z jxtym cthmtpyj jnyjiecm r cdjbv j`zpfyyjcnzv.
+<ce> Z tot yb hfpe yt ljcnfdbk gbcmvj yt gj njve
+<ce> flhtce. Rjhjktdf Fe`r-b lfkf vyt _jewelry_
+<ce> d pyfr `kfujlfhyjcnb. Gjrf*b @nj Vbybctht,
+<ce> gecnm jyf gjqvtn, xnj z ghtlfyysq ckeuf b
+<ce> dthty cdjtve Jhltye.
+
+
+
+QBN:
+Item signetRing ring anyInfo 1019
+Item letter47 letter used 1017
+Item _jewelry_ trinket
+
+Person _Mynisera_ face 96 named Mynisera atHome
+Person _messenger_ face 1 faction The_Knights_of_the_Dragon remote
+Person _dispatcher_ faction The_Knights_of_the_Dragon remote
+Person _aubki_ named Queen_Aubk-i atHome
+
+Place _location_ remote random
+Place _palace_ remote palace
+
+Clock _2palace_ 00:00 0 flag 1 range 0 2
+Clock _S.07_ 2.00:00 0 flag 1 range 0 1
+
+Foe _F.00_ is Nightblade
+
+--	Quest start-up:
+	dialog link for item signetRing
+	add _Mynisera_ as questor
+
+_S.00_ task:
+	clicked npc _Mynisera_
+	prompt QuestorOffer yes _yes_ no _no_
+	add _aubki_ as questor
+
+_yes_ task:
+	add dialog for item signetRing
+	log 1010 step 0
+	get item signetRing
+	say AcceptQuest
+	create npc at _location_
+	place npc _dispatcher_ at _location_
+
+_no_ task:
+	say RefuseQuest
+	end quest
+
+_S.03_ task:
+	clicked npc _dispatcher_
+	start timer _2palace_
+	log 1011 step 1
+	say 1020
+
+_2palace_ task:
+	start timer _S.07_
+	place npc _messenger_ at _palace_
+
+_S.05_ task:
+	toting signetRing and _messenger_ clicked
+	stop timer _S.07_
+	get item _jewelry_
+	get item signetRing
+	say 1021
+
+variable _S.06_
+_S.07_ task:
+	drop _aubki_ as questor
+	drop _Mynisera_ as questor
+	end quest
+	destroy _messenger_
+
+_S.08_ task:
+	clicked npc _aubki_
+
+_preventspawn_ task:
+	when _S.08_ and not _yes_
+	clear _S.08_ _preventspawn_
+
+_S.09_ task:
+	injured _F.00_ saying 1016
+	give item letter47 to _F.00_
+
+_S.10_ task:
+	toting _jewelry_ and _Mynisera_ clicked
+	give pc _jewelry_
+	start quest 20 20
+	take signetRing from pc
+	change repute with _aubki_ by -10
+	change repute with _Mynisera_ by +20
+	drop _Mynisera_ as questor
+	drop _aubki_ as questor
+	end quest
+
+_S.11_ task:
+	when _yes_ and _S.08_
+	say 1015
+	change repute with _aubki_ by -10
+	send _F.00_ every 500 minutes 10 times with 50% success

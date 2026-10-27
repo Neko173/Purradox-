@@ -1,0 +1,184 @@
+-- Quest: C:\QUESTS\WORKING\S0000003.Qbn.
+-- Main story quest.
+-- QuestId: 3
+Messages: 21
+Quest: S0000003
+DisplayName: Jcdj`j*ltybt Vtljhs
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vjt gjxntybt, %pcf. Z Vtljhf
+<ce> Lbhtyyb, `sdifz djkit`ybwf ghb ldjht
+<ce> Lfuuthajkkf. Z pfbynthtcjdfyf d jrfpfybb dfv
+<ce> gjvjob gj bpuyfyb< le[f rjhjkz Kbpfylecf, yj
+<ce> vyt ytj`[jlbvj pfdthibnm cdjb ntreobt ltkf.
+<ce> Tckb ds yfytctnt dbpbn jlyjq djkit`ybwt, nj
+<ce> z cvjue cyznm ghjrkznbt c `fiyb Lbhtyyb.
+<ce> Cjukfcys kb ds cltkfnm @nj lkz vtyz?
+
+RefuseQuest:  [1001]
+<ce> Ds jnrfpfkb jxtym ye*lf<otvecz d dfitq
+<ce> gjvjob, %pcf. Yflt<cm cjdtcnm
+<ce> yt `eltn dfc vexbnm.
+
+AcceptQuest:  [1002]
+<ce> Z `ele e dfc d ytjgkfnyjv ljkue,
+<ce> %pcf. Yekmafuf, vfnm vjtuj
+<ce> gjdtkbntkz Kbpfylecf, ghjckfdktyysq
+<ce> vbcnbr, yj z cksifkf, xnj gjnthz csyf
+<ce> ddthukf tt d gexbye ujhz b `tpevbz.
+<ce> Tckb @nj ytghfdlf, nj jyf cvj*tn b
+<ce> lf*t pf[jxtn gjvjxm vyt. Vyt ye*yf
+<ce> jlyf htlrfz dtobwf, hju Dtkbrjuj
+<ce> Tlbyjhjuf, xnj`s hfp`bnm ghjrkznbt,
+<ce> yfkj*tyyjt yf `fiy< Lbhtyyb. Tckb
+<ce> Yekmafuf b d cfvjv ltkt `tpevyf,
+<ce> nj ds cfvb ljk*ys jcvjnhtnm tt pfvjr
+<ce> d gjbcrf[ hjuf b ghbytcnb tuj vyt.
+<ce> Z `ele *lfnm dfituj djpdhfotybz
+<ce> =2shedungent_ lytq.
+
+QuestFail:  [1003]
+<ce> ~tp hjuf z ghjcnj yt d cjcnjzybb
+<ce> gjvjxm dfv, %pcf.
+
+QuestComplete:  [1004]
+<ce> Ds ecgtiyj ds`hfkbcm bp @njuj jgfcyjuj
+<ce> ghtlghbznbz, %pcf, yj dgthtlb dfc
+<ce> *ltn tot vyjuj bcgsnfybq. Ghbytcz hju ds
+<ce> gjvjukb vyt cyznm ghjrkznbt, yfkj*tyyjt
+<ce> dljdcnde<otq rjhjktdjq yf vj< `fiy<.
+<ce> Yflt<cm z vjue hfccxbnsdfnm yf dfc b d
+<ce> lfkmytqitv. F ctqxfc djpmvbnt d rfxtcndt
+<ce> yfuhfls djn @ne dtom: _magicitem_.
+
+RumorsDuringQuest:  [1005]
+Ybrnj b `kbprj yt gjl[jlbn r jcnhjde ~fkabthf c nt[ gjh rfr nfv j`jcyjdfkfcm rjhjktdf J`kbdbjyf.
+   <--->
+Rjulf-nj ~fkabthf `sk vtcnjv jnls[f lkz bp`hfyys[. Ntgthm @nj cnhfyf vthnds[.
+
+RumorsPostfailure:  [1006]
+Jxfhjdfntkmyfz atz `skf pfrk<xtyf pkjv tt cj`cndtyyjuj djkit`yjuj vfcnthcndf.
+   <--->
+Yfl `sditq dtlmvjq Lfuuthajkkf ljdkttn ghjrkznbt %god. ~fkabthf ghjrkzn yfdtrb.
+
+RumorsPostsuccess:  [1007]
+Dtkbrbq uthjq cgfc `tlye< Ktlb bp ~fkabths jn ghjrkznbz pkjq rjhjktds.
+   <--->
+Ytrbq %ra cyzk ghjrkznbt, yfkj*tyyjt yf Ktlb bp ~fkabthf b dthyek ptvk< r *bpyb.
+
+QuestorPostsuccess:  [1008]
+<ce> Cjtlbyzzcm, vsckb b cjdtns hfdys yflt*lt.
+<ce> Jgfcyjcnm nfbkfcm d nfrjv dtkbrjktgyjv
+<ce> hfpdktxtybb. Gjitlibq pf vyjq jlyf*ls,
+<ce> ntgthm ght`sdftn d ytdpujlf[. F @nj
+<ce> hfdyjcbkmyj hebyfv! Dtxysv, dtxysv b
+<ce> dtxysv hebyfv. J[, lbnz vjt, ye gjxtve ns
+<ce> yt gjckeifkcz vtyz. Ndjb eib, ndjt rhfcbdjt
+<ce> b ujhljt, yj cvthnyjt kbwj, ndjq hjn, ndjb
+<ce> `hjdb. J[ ujht vyt ujht.
+   <--->
+<ce> Ckjdf vjuen e`bdfnm, b ytrjve ntgthm ghjxtcnm b[!
+<ce> Cnb[b, cnb[b kt*fn d jcyjdt pfrkznbq, rfr
+<ce> e*fcyjt ghjrkznbt yt`tc! Ghjrkznsq J`kbdbjy!
+<ce> Vjq vfkmxbr! Vjq vfkmxbr vthnd b gecnm dtcm
+<ce> Nfvhb@km lhj*bn d cnhf[t, gjrf r ytve yt
+<ce> ghbltn gjrjq.
+   <--->
+<ce> Crf*b, `jubyz, xnj pf cnhfyyfz ghbxbyf! Xnj pf
+<ce> cnhtkf j`jhdfkf ls[fybt vjtuj k<`bvjuj Kbpfylecf?
+<ce> ~sk kb jy gj[jhjyty b `kfujckjdkty, f dct vjb
+<ce> hexyst gnbxrb ghtdhfnbkbcm d rkfl`botycrb[ djhjy?
+<ce> Dtplt bcrfkf z, d pfuhj`yjv vbht, d gjlptvyjv b
+<ce> vt*le vbhfvb, yj nfr b yt yfikf cdtn leib vjtuj
+<ce> csyf. J[, `tpevbt dcrjhvbkf uhelm< z cdjtq.
+   <--->
+<ce> Vs dctuj kbim rfr vthndst cntys bkb pfgtxfnfyyst
+<ce> vjubks, rjnjhst hfpheitys b ytn jn yfc jndtnf.
+<ce> J, @njn vhfxysq vbh, d rfre< ntym bkb ntvyjne
+<ce> yt`snbz ct`z gjuhe*ftn hfcgenyfz b e*fcf<ofz
+<ce> *bpym k<ltq. Rfr *t yfitk Kbpfylec cvthnm cdj<?
+<ce> Eds, vyt @nj ytbpdtcnyj. Pf`dtybt uhzltn bkm ytn?
+<ce> Z xedcnde<, rfr `kbprf r ytve, bkb @nj dctuj
+<ce> kbim pthrfkj, gjrfpsdf<ott jujym, jrenfdibq
+<ce> dtcm vbh. Z yt vjue pfcyenm: d vjtq gjleirt
+<ce> dvtcnj gthbys cgkjim bujkrb.
+
+QuestorPostfailure:  [1009]
+<ce> Rjytxyj z lfv Vtljht hju Dtkbrjuj Tlbyjhjuf.
+<ce> Jyf `skf afdjhbnrjq vjtuj djpk<`ktyyjuj
+<ce> csyf Kbpfylecf ytcvjnhz yb yf xnj.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Vtljhf, `sdifz ghbldjhyfz djkit`ybwf
+ Lfuuthajkkf gjckfkf vtyz d Itleyutyn d
+ ujhf[ Dhjnufhbb. Itleyutyn - ljv Yekmafub,
+ vfnthb Kbpfylecf. Nfv vyt ye*yj jnscrfnm
+ hju Dtkbrjuj Tlbyjhjuf. Tckb Yekmafuf yt
+ cvj*tn vyt gjvjxm, vyt ye*yj j`scrfnm tt
+ pfvjr b yfqnb hju dj xnj `s nj yb cnfkj.
+ E vtyz =2shedungent_ lyz, xnj`s dthyenmcz d
+ `fiy< Lbhtyyb.
+
+Message:  1020
+<ce> Bpzoysq, pfrhextyysq hju c gkfdysvb
+<ce> bpub`fvb, pfrfyxbdftncz jcnhsv rfr
+<ce> bujkrf rjyxbrjv. Ds ytjlyjrhfnyj
+<ce> cksifkb xnj hju tlbyjhjuf cjcnjbn
+<ce> bp xbcntqitq `tkjcyt*yjq rjcnb.
+<ce> E @njuj *t hjuf wdtn `jkmit gj[j*
+<ce> yf ctht`hzysq.
+
+
+
+QBN:
+Item horn horn used 1020
+Item _magicitem_ magic_item
+
+Person _medora_ named Medora atHome
+Person _nulfaga_ named Nulfaga atHome
+
+Place _huntstart_ permanent Shedungent4
+
+Clock _2shedungent_ 00:00 0 flag 17 range 0 2
+
+
+--	Quest start-up:
+	prompt QuestorOffer yes yes no _no_
+
+_2shedungent_ task:
+	end quest
+
+_S.01_ task:
+	clicked npc _nulfaga_
+
+variable _S.02_
+variable _S.03_
+variable _S.04_
+_S.05_ task:
+	when _S.01_ and not _S.09_
+	say QuestorPostsuccess
+	clear _S.01_ _S.05_
+
+variable _S.06_
+yes task:
+	place item horn at _huntstart_ marker 1
+	start timer _2shedungent_
+	log 1010 step 0
+	reveal _huntstart_ in province 16 at 50966
+	say AcceptQuest
+
+_no_ task:
+	say RefuseQuest
+	end quest
+
+LiftedCurse _S.09_
+MedoraGotHorn _S.10_
+	toting horn and _medora_ clicked
+	give pc _magicitem_
+	start quest 18 18
+	change repute with _medora_ by +10
+	mute npc _medora_
+	end quest

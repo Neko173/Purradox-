@@ -1,0 +1,192 @@
+-- Quest: C:\QUESTS\WORKING\A0C00Y08.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 8
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 34
+Quest: A0C00Y08
+DisplayName: Yftvysq e`bqwf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vjt bvz ytdf*yj. Dct xnj dfv ye*yj pyfnm, xnj vyt
+<ce> ye*ty rnj-nj, rnj yt `jbncz ghjkbnm xe*e< rhjdm,
+<ce> crf*tv, pf _gold_ pjkjns[. Njkmrj crf*bnt vyt,
+<ce> tckb pfbynthtcjdfkbcm. Yt djpmvtnt kb ds @ne
+<ce> hf`jne?
+   <--->
+<ce> Iiii! Yf gjknjyf yb*t. Ght*lt xtv z crf*e
+<ce> xnj-kb`j, ds ckexfqyj yt bp nt[ %ra, rjnjhst
+<ce> e`bdf<n hflb pjkjnf? Rfr yfcxtn _gold_ pjkjns[?
+   <--->
+<ce> Z boe rjuj-nj, rnj yt gflftn d j`vjhjr ghb dblt
+<ce> rhjdb. Xtkjdtxtcrjq rhjdb. Ds e`mtnt xtkjdtrf
+<ce> pf, crf*tv, _gold_ pjkjns[?
+
+RefuseQuest:  [1001]
+<ce> Ds ybrjulf vtyz yt dbltkb.
+   <--->
+<ce> Ghjdfkbdfq. Z yt [jxe, xnj`s yfc edbltkb dvtcnt.
+   <--->
+<ce> Ghtrhfcyj. Ds[jl djy nfv.
+
+AcceptQuest:  [1002]
+<ce> Z [jxe cvthnb _darkb_. Ghj`ktvf d nj, xnj
+<ce> Ntvyjt ~hfncndj yt [jxtn `hfnmcz pf @ne hf`jne.
+<ce> Yt [jxe `snm j`zpfyysv bv. Vyt ye*ty ytpfdbcbvsq
+<ce> jlbyjxrf. Cltkfqnt hf`jne b djpdhfofqntcm lj bc[jlf
+<ce> ytltkb b z pfgkfxe dfv _gold_ pjkjns[. Ghjcnj
+<ce> cghjcbnt j _questgiver_, z `ele *lfnm ytgjlfktre.
+
+QuestComplete:  [1004]
+<ce> Djpvtplbt cdthibkjcm! D k<`jv ckexft dfv kexit
+<ce> e`hfnmcz bp ujhjlf. Z cksifk, xnj ~hfncndj botn
+<ce> dbyjdybrf. Djn dfib ltymub %pcf.
+
+RumorsDuringQuest:  [1005]
+<ce> Z cksifk, xnj _questgiver_ ytyfdblbn _darkb_.
+   <--->
+<ce> _darkb_ rfr-nj cdzpfy c Ntvysv ~hfncndjv.
+
+RumorsPostsuccess:  [1007]
+<ce> Rnj-nj e`bk _darkb_, f yfhjl vjkxbn!
+   <--->
+<ce> Cks[fkb ghj e`bqcndj? _darkb_ `sk e`bn
+<ce> yftvysv e`bqwtq.
+   <--->
+<ce> Vyt ybrjulf yt yhfdbkcz _darkb_. Z hfl,
+<ce> xnj rnj-nj yfrjytw-nj hfpj`hfkcz c ybv.
+<ce> Z cksifk, xnj d @njv pfvtifyj Ntvyjt
+<ce> ~hfncndj.
+
+QuestorPostsuccess:  [1008]
+<ce> Gjnbit gj*fkeqcnf. Ds e`bkb _darkb_ lkz
+<ce> vtyz b rjytxyj *t z yt jcnfyecm d ljkue, b`j
+<ce> z yt [jxe, xnj`s k<lb levfkb ghj vtyz, xnj z
+<ce> yt lth*e ckjdj.
+
+QuestorPostfailure:  [1009]
+<ce> Z lfk dfv hf`jne, f ds tt yt dsgjkybkb.
+<ce> Dct xnj ye*yj `skj cltkfnm - @nj e`bnm
+<ce> _darkb_. F ctqxfc e*t ckbirjv gjplyj, f
+<ce> ~hfncndj ujybncz pf vyjq. Jcnfdmnt vtyz
+<ce> d gjrjt.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ghbyzn rjynhfrn yf e`bqcndj _darkb_.
+ E vtyz hjdyj ytltkz, xnj`s dthyenmcz r
+ _questgiver_ bp ___questgiver_ c
+ bpdtcnbtv j dsgjkytyyjq hf`jnt.
+
+Message:  1015
+<ce> _darkb_ yt vthnd! Ds xnj, cjdctv
+<ce> vtyz pf lehfrf lth*bnt, %pcf?
+
+Message:  1021
+<ce> Gjvjubnt! E`bdf<n! Gjvjubnt!
+
+Message:  1022
+<ce> {f! Lf rfrjq bp nt`z fccfccby? R jhe*b<! R jhe*b<!
+
+Message:  1023
+<ce> Z hfyty! %oth!
+
+Message:  1024
+<ce> Nhec! Ns yfgfk yf vtyz `tpj dczrjq ghbxbys.
+
+Message:  1030
+<ce> _questgiver_?  Vyt ytvyjuj bpdtcnyj j ytv.
+<ce> ~jbncz pf ct`z.
+
+Message:  1031
+<ce> Z cksifk, xnj e _questgiver_ tcnm cnhfyyst lhepmz.
+<ce> Yj z dfv ybxtuj yt ujdjhbk.
+
+Message:  1032
+<ce> {jhjibq dscjrjgjcnfdktyysq uhf*lfyby.
+<ce> Cghjcbnt rjuj-yb`elm tot.
+
+Message:  1033
+<ce> _darkb_ j`sxyj j`htnftncz d _place_,
+<ce> yj z yt [jxe dvtibdfnmcz d %g4 ltkf.
+<ce> ^nj ghjcnj lhe*tcrbq cjdtn.
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _questgiver_ group Questor anyInfo 1030 rumors 1031
+Person _darkb_ face 1 faction The_Dark_Brotherhood remote anyInfo 1032 rumors 1033
+
+Place _place_ local random
+
+Clock _S.00_ 7.00:00 0 flag 1 range 0 1
+
+Foe _bard_ is Bard
+Foe _rogue_ is Rogue
+Foe _archer_ is Archer
+Foe _spellsword_ is Spellsword
+
+--	Quest start-up:
+	start timer _S.00_
+	log 1010 step 0
+	pc at _place_ set _S.11_
+	place npc _darkb_ at _place_
+
+_S.00_ task:
+	end quest
+
+_S.01_ task:
+	restrain foe _archer_
+	place foe _archer_ at _place_
+
+_S.02_ task:
+	restrain foe _bard_
+	place foe _bard_ at _place_
+
+_S.03_ task:
+	restrain foe _rogue_
+	place foe _rogue_ at _place_
+
+_S.04_ task:
+	restrain foe _spellsword_
+	place foe _spellsword_ at _place_
+
+variable _S.05_
+_S.06_ task:
+	injured _rogue_ saying 1023
+	injured _archer_ saying 1021
+	injured _bard_ saying 1022
+	injured _spellsword_ saying 1024
+
+_S.07_ task:
+	killed 1 _archer_
+	killed 1 _bard_
+	killed 1 _rogue_
+	killed 1 _spellsword_
+	change repute with _darkb_ by -20
+	legal repute -20
+--nerfed legal repute, not fair for normal gameplay
+
+_S.08_ task:
+	clicked npc _questgiver_
+
+_clearclick_ task:
+	when _S.08_ and not _S.07_
+	say 1015
+	clear _S.08_ _clearclick_
+--added an additional clear clearclick here. Otherwise this clearing function would stop working after the first click.
+
+_S.10_ task:
+	when _S.08_ and _S.07_
+	give pc _gold_
+	end quest
+
+_S.11_ task:
+	pick one of _S.01_ _S.02_ _S.03_ _S.04_
+	hide npc _darkb_

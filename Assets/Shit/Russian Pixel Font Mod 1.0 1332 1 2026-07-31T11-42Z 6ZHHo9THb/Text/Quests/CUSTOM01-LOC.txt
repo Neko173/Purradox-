@@ -1,0 +1,113 @@
+---- Gjkmpjdfntkmcrbq rdtcn gj eybxnj*tyb< pjv`b b crtktnjd
+---- lj nt[ gjh, gjrf ytrhjvfyn yt dsqltn bp erhsnbz.
+
+Quest: CUSTOM01
+DisplayName: Jn pfrfnf lj cfvjq Cvthnb
+
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Z yflt<cm, ns yt `jbimcz ntvyjns, %pcn...
+<ce> Rfrjq-nj ytrhjvfyn gjlybvftn jhls pjv`b b
+<ce> crtktnjd d ___graveyard_. E yfc tcnm rjynhfrn
+<ce> yf nj, xnj`s gjrjyxbnm c *bpym< @njuj ytujlzz
+<ce> b gjkj*bnm rjytw b[ pkjltzybzv. Pf @nj ns
+<ce> gjkexbim _reward_ pjkjns[.
+
+RefuseQuest:  [1001]
+<ce> Ytrhjvfyns - [bnhjt ltkj, %pcn.
+<ce> Z yt dby< dfc pf nj, xnj ds ghjgecnbkb @nj vbvj eitq.
+
+AcceptQuest:  [1002]
+<ce> Pljhjdj. Jnghfdkzqntcm d ___graveyard_ gjckt
+<ce> yfcnegktybz ntvyjns b e`bdfqnt pjv`b b crtktnjd yf
+<ce> rkfl`bot cyfhe*b, gjrf ytrhjvfyn yt hfpjpkbncz
+<ce> yfcnjkmrj, xnj dsqltn bp erhsnbz b dcnhtnbncz c
+<ce> dfvb kbwjv r kbwe. E dfc `eltn =timeLimit_ lytq,
+<ce> xnj`s dthyenmcz rj vyt, rjulf pfrjyxbnt. E vtyz
+<ce> `elen *lfnm dfc dfib _reward_ pjkjns[.
+
+QuestFail:  [1003]
+<ce> Z hfpjxfhjdfy d dfc, %pcn.
+<ce> Ntgthm z ljk*ty gthtlfnm rjynhfrn rjve-nj `jktt yflt*yjve.
+
+QuestComplete:  [1004]
+<ce> {jhjifz hf`jnf, uthjq. Ds cgfckb vyjuj ytdbyys[ *bpytq.
+
+Message:  1020
+<ce> Rjulf @nf yt*bnm gflftn, ds xedcndetnt,
+<ce> rfr ptvkz db`hbhetn gjl yjufvb. Ytrhjvfyn pltcm!
+
+Message:  1030
+<ce> "Ns pfgkfnbim... cdjtq... leijq!"
+<ce> Ytrhjvfyn gflftn yf ptvk<. Fhvbz
+<ce> yt*bnb hfccttncz b `jkmit yt `eltn
+<ce> euhj*fnm `kbpkt*fobv lthtdyzv.
+
+Message:  1040
+%qdt:
+ Ubkmlbz ~jqwjd ___questgiver_ yfyzkf
+ vtyz, xnj`s z e`bk `tcgjrjqyjuj
+ ytrhjvfynf ghzvj d kjujdt,
+ ___graveyard_. Z ljk*ty e`bdfnm
+ crtktnjd b pjv`b yf rkfl`bot cyfhe*b
+ yjxm<, gjrf lmzdjk yt dsqltn bp
+ erhsnbz. E vtyz tcnm =timeLimit_
+ lytq, xnj`s e`bnm ytrhjvfynf b
+ dthyenmcz pf cdjtq jgkfnjq.
+
+
+QBN:
+
+Item _reward_ gold
+
+Person _questgiver_ group Questor male
+
+Place _graveyard_ remote graveyard
+
+Clock _timeLimit_ 00:00 0 flag 17 range 0 2
+
+Foe _zombie_ is Zombie
+Foe _skeleton_ is Skeletal_warrior
+Foe _necromancer_ is Battle_mage
+
+--	Quest start-up:
+	start timer _timeLimit_
+	reveal _graveyard_
+	pc at _graveyard_ set _onsite_
+	log 1040 step 0
+
+_timeLimit_ task:
+	end quest
+
+variable _onsite_
+_daytime_ task:
+	daily from 05:00 to 18:00
+
+_attackPlayer_ task:
+	when _onsite_ and not _daytime_ and not _necromancerDead_
+	create foe _zombie_ every 5 minutes indefinitely with 60% success
+	create foe _skeleton_ every 5 minutes indefinitely with 60% success
+
+_summonNecromancer_ task:
+	killed 4 _zombie_
+	killed 4 _skeleton_
+	say 1020
+	create foe _necromancer_ every 1 minutes 1 times with 100% success
+
+_necromancerDead_ task:
+	killed _necromancer_
+	say 1030
+
+_questorClicked_ task:
+	clicked npc _questgiver_
+
+_clearclick_ task:
+	when _questorClicked_ and not _necromancerDead_
+	say 1003
+	clear _questorClicked_ _clearclick_
+
+_rewardPlayer_ task:
+	when _questorClicked_ and _necromancerDead_
+	give pc _reward_
+	end quest

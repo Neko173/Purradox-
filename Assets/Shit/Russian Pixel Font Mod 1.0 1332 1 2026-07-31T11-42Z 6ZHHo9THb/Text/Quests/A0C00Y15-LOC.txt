@@ -1,0 +1,277 @@
+-- Quest: C:\QUESTS\WORKING\A0C00Y15.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 15
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 21
+Quest: A0C00Y15
+DisplayName: Rehmth
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Z cksifk j dfc, %pcn.
+<ce> Z _questgiver_. Vjue
+<ce> z gjghjcbnm dfc j` jljk*tybb? Yt
+<ce> ljdjlbkjcm kb dfv ghj[jlbnm xthtp
+<ce> ___pickupregion_ rjulf-kb`j?
+<ce> Tckb nfr, nj vyt ye*yj ljcnfdbnm
+<ce> nelf gjcskre rjt-rjve. ~ele hfl
+<ce> pfgkfnbnm dfv _gold_ pjkjns[.
+   <--->
+<ce> Dfif htgenfwbz bltn dgthtlb dfc,
+<ce> %pcn. Vyt ye*ty gjcskmysq.
+<ce> Rfr ds cvjnhbnt yf nj, xnj`s gjctnbnm
+<ce> ___pickupregion_? Vjue kb
+<ce> z gjghjcbnm dfc ljcnfdbnm nelf gjcskre
+<ce> lkz vtyz? Z pfgkfxe _gold_ pjkjns[
+<ce> pf djpvj*yst nhelyjcnb.
+
+RefuseQuest:  [1001]
+<ce> Jxtym gkj[j.
+   <--->
+<ce> Z gjboe rjuj-yb`elm lheujuj.
+   <--->
+<ce> Ljk*yj `snm ds yt njn %pcn,
+<ce> j rjnjhjv vyt ljdjlbkjcm cksifnm.
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj! Ljcnfdmnt @ne gjcskre
+<ce> d ___pickupregion_ b yfqlbnt
+<ce> nfv _pickupregion_. %g pfgkfnbn
+<ce> dfv. Ytj`[jlbvj ljcnfdbnm lj bc[jlf
+<ce> =traveltime_ lytq.
+<ce> Djn gfrtn.
+   <--->
+<ce> Rfrfz elfxf! Vjq lheu - _pickupregion_
+<ce> *bdtn d ___pickupregion_. Ghjcnj
+<ce> yfqlbnt tuj b jnlfqnt gjcskre. %g
+<ce> dfv pfgkfnbn. Kexit `s dfv eghfdbnmcz
+<ce> lj bc[jlf =traveltime_ lytq.
+<ce> Djn gjcskrf.
+
+QuestComplete:  [1004]
+<ce> Z yfltzkcz, xnj _questgiver_
+<ce> yfqltn cgjcj` ljcnfdbnm gjcskre djdhtvz.
+<ce> %g `sk nfr pfyzn d gjcktlytt dhtvz.
+<ce> Djn dfib _gold_ pjkjns[, rfr b j`tofyj.
+
+RumorsDuringQuest:  [1005]
+<ce> Jhrb jgznm ghbxbyz<n ytelj`cndf.
+
+RumorsPostfailure:  [1006]
+<ce> Ujdjhzn, xnj d Lfuuthajkkt dbltkb
+<ce> le[ rjhjkz Kbpfylecf.
+
+RumorsPostsuccess:  [1007]
+<ce> Vjhcrjq injhv pfnjgbk rjhf`km e gj`tht*mz
+<ce> Lfuuthajkkf. Z cksifk, xnj yf ytv gksk
+<ce> ghtlcnfdbntkm bvgthfnjhf.
+
+QuestorPostsuccess:  [1008]
+<ce> Vjt crhjvyjt cgfcb`j pf ljcnfdre @njuj
+<ce> gfrtnf d ___pickupregion_.
+
+QuestorPostfailure:  [1009]
+<ce> Ytujlzq! Xnj ds cltkfkb c vjtq gjcskrjq?
+<ce> Ghjlfkb? Jyf nfr b yt lj`hfkfcm lj
+<ce> ___pickupregion_. E[jlbnt.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_ bp
+ ___questgiver_ yfyzk vtyz lkz
+ ljcnfdrb gjcskrb r _pickupregion_,
+ d ___pickupregion_.
+ Yf dct ghj dct e vtyz =traveltime_ lytq.
+
+Message:  1011
+<ce> ^nf rybuf yt bvttn wtys.
+<ce> _pickupregion_ yt dbltk @ne
+<ce> rjgb< _book_
+<ce> e*t vyjuj ktn.
+
+Message:  1012
+<ce> _pickupregion_ ye*lftncz d @njv
+<ce> _ingredient_ lkz jcj`juj cjhnf
+<ce> gbdf, rjnjhjt %g dfhbn.
+
+Message:  1013
+<ce> ^nf _jewelry_ - lfh
+<ce> r _pickupregion_, c rjnjhsv pfrk<xtyf
+<ce> ljujdjhtyyjcnm.
+
+Message:  1014
+<ce> ^nj jcj`sq _mensclothing_,
+<ce> rjnjhsq vjz vfnm cltkfkf lkz
+<ce> _pickupregion_ r ghfplybre.
+
+Message:  1015
+<ce> _pickupregion_ pfrfpfk @ne
+<ce> rfhnbye _painting_.
+<ce> Ytj`[jlbvj ljcnfdbnm djdhtvz.
+
+Message:  1016
+<ce> _pickupregion_ ye*lftncz d @njv
+<ce> _potion_ rfr vj*yj crjhtt.
+
+Message:  1017
+<ce> _pickupregion_ uhjpbn jgfcyjcnm
+<ce> ^nj - _weapon_ - ljk*yj
+<ce> ghblfnm tve edthtyyjcnb.
+
+Message:  1018
+<ce> Z ghbj`htk @nj ghtrhfcyjt _womensclothing_
+<ce> lkz *tys _pickupregion_.
+<ce> ~eltn jxtym ytrhfcbdj, tckb gjcskrf yt
+<ce> `eltn ljcnfdktyf d chjr.
+
+Message:  1019
+<ce> Xnj ds [jnbnt? _questgiver_?
+<ce> Lf, %g j`tofk ghbckfnm ytrjnjhjt
+<ce> dhtvz yfpfl gjcskre. Tckb z
+<ce> yt gjkexe djdhtvz, `eltn ckbirjv
+<ce> gjplyj.
+
+Message:  1020
+<ce> Z pyf<, xnj e dfc tcnm gjcskrf jn
+<ce> _questgiver_. Lfqnt tt
+<ce> vyt b dfv yt ghbxbyzn dhtlf.
+
+
+
+QBN:
+Item _book_ book0
+Item _womensclothing_ womens_clothing
+Item _potion_ misc
+Item _mensclothing_ mens_clothing
+Item _painting_ portrait
+Item _weapon_ weapon
+Item _ingredient_ large_plant
+Item _jewelry_ trinket
+Item _gold_ gold
+
+Person _questgiver_ face 137 group Questor
+Person _pickupregion_ face 232 group Local_3.0 remote
+
+Clock _traveltime_ 00:00 0 flag 1 range 1 4
+--precise timer needed due to short time limit
+
+Foe _thief_ is Burglar
+
+--	Quest start-up:
+	start timer _traveltime_
+	log 1010 step 0
+	pick one of _S.01_ _S.10_
+	pick one of _S.14_ _S.15_ _S.15_ _S.15_
+	create npc _pickupregion_
+
+_traveltime_ task:
+	end quest
+
+_S.01_ task:
+	pick one of _S.02_ _snitch0_ _S.04_ _S.05_
+--added underscores to snitch0
+
+_S.02_ task:
+	get item _book_ saying 1011
+
+_snitch0_ task:
+	get item _ingredient_ saying 1012
+
+_S.04_ task:
+	get item _jewelry_ saying 1013
+
+_S.05_ task:
+	get item _mensclothing_ saying 1014
+
+_S.06_ task:
+	get item _painting_ saying 1015
+
+_S.07_ task:
+	get item _potion_ saying 1016
+
+_S.08_ task:
+	get item _weapon_ saying 1017
+
+_S.09_ task:
+	get item _womensclothing_ saying 1018
+
+_S.10_ task:
+	pick one of _S.06_ _S.07_ _S.08_ _S.09_
+
+_S.11_ task:
+	toting _jewelry_ and _pickupregion_ clicked
+	toting _mensclothing_ and _pickupregion_ clicked
+	toting _painting_ and _pickupregion_ clicked
+	toting _potion_ and _pickupregion_ clicked
+	toting _weapon_ and _pickupregion_ clicked
+	toting _book_ and _pickupregion_ clicked
+	toting _ingredient_ and _pickupregion_ clicked
+	toting _womensclothing_ and _pickupregion_ clicked
+	give pc _gold_
+	end quest
+--removed unnecessary delay
+
+_S.12_ task:
+	clicked npc _pickupregion_
+
+_S.13_ task:
+	when _S.12_ and not _S.11_
+	say 1019
+	clear _S.12_ _S.13_
+
+_S.14_ task:
+	create foe _thief_ every 200 minutes 3 times with 10% success
+
+variable _S.15_
+_S.16_ task:
+	injured _thief_
+	prompt 1020 yes _yes_ no _no_
+
+_yes_ task:
+	restrain foe _thief_
+
+variable _no_
+_yes1_ task:
+	when _yes_ and _S.02_
+	take _book_ from pc
+	give item _book_ to _thief_
+--added "take X from pc" for all yes# tasks.
+
+_yes2_ task:
+	when _yes_ and _snitch0_
+	take _ingredient_ from pc
+	give item _ingredient_ to _thief_
+
+_yes3_ task:
+	when _yes_ and _S.04_
+	take _jewelry_ from pc
+	give item _jewelry_ to _thief_
+
+_yes4_ task:
+	when _yes_ and _S.05_
+	take _mensclothing_ from pc
+	give item _mensclothing_ to _thief_
+
+_ring_ task:
+	when _yes_ and _S.06_
+	take _painting_ from pc
+	give item _painting_ to _thief_
+
+_yes6_ task:
+	when _yes_ and _S.07_
+	take _potion_ from pc
+	give item _potion_ to _thief_
+
+_note_ task:
+	when _yes_ and _S.08_
+	take _weapon_ from pc
+	give item _weapon_ to _thief_
+
+_poet_ task:
+	when _yes_ and _S.09_
+	take _womensclothing_ from pc
+	give item _womensclothing_ to _thief_

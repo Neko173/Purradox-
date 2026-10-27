@@ -1,0 +1,109 @@
+-- Quest: C:\QUESTS\WORKING\M0C00Y13.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: fighter
+-- Repute: 0
+-- QuestId: 13
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: M0C00Y13
+DisplayName: J[jnf yf dfhdfhjd
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Z _qgiver_.
+<ce> Ubkmlbz ~jqwjd yt lftn hf`jne rjve
+<ce> gjgfkj. Tckb `s e vtyz yt `skf nfrfz
+<ce> yfghz*tyyfz cbnefwbz cj cdj`jlysvb vtxfvb,
+<ce> rfr ctqxfc, z `s gjckfk nt`z ghjxm,
+<ce> %pcn. Vyt ye*ty djby, rjnjhsq yt
+<ce> gj`jbncz `hjcbnm dspjd ytcrjkmrbv
+<ce> dfhdfhfv, rjnjhst ceobt lbrfhb.
+<ce> Cltkfq @ne hf`jne b z pfvjkdk< pf
+<ce> nt`z ckjdtxrj d ubkmlbb. Ljujdjhbkbcm?
+
+RefuseQuest:  [1001]
+<ce> Ns ltkftim `jkmie< jib`re,
+<ce> %pcn. ~jkmit yt gsnfqcz
+<ce> bcrfnm pltcm hf`jne.
+
+AcceptQuest:  [1002]
+<ce> Dtlb cdj< `htyye< neire d
+<ce> _house_. Dsujyb jnnelf
+<ce> dfhdfhjd lj yfcnegktybz enhf b
+<ce> hf`jnf `eltn dsgjkytyf.
+
+QuestComplete:  [1004]
+<ce> Xtuj ns *ltim? Gjhtpfnmcz `jbimcz?
+<ce> Ult tot yfqnb nfre< hf`jne, rjnjhfz
+<ce> vj*tn gjcke*bnm nt`t ghjgecrjv
+<ce> d Ubkmlb< ~jqwjd.
+
+RumorsDuringQuest:  [1005]
+<ce> Jgznm dfhdfhs cjdthibkb yf`tu yf athvs.
+
+RumorsPostfailure:  [1006]
+<ce> Dfhdfhs ecgtkb juhf`bnm xtnsht [enjhf,
+<ce> gjrf d @nj ltkj yt ddzpfkfcm Ubkmlbz ~jqwjd.
+
+RumorsPostsuccess:  [1007]
+<ce> Ds ckexfqyj yt njn %ra, rjnjhsq
+<ce> ghjuyfk ghjxm dfhdfhjd?
+
+QuestorPostsuccess:  [1008]
+<ce> Ds jnkbxyj cghfdbkbcm c @nbvb dfhdfhfvb,
+<ce> %pcf. Dct yt nfr e* b gkj[j.
+
+QuestorPostfailure:  [1009]
+<ce> Z ljdthbk nt`t hfpj`hfnmcz c dfhdfhfvb.
+<ce> Gjckt ndjtuj ghjdfkf z gjik< nelf
+<ce> rjuj-yb`elm lheujuj.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ubkmlbz ~jqwjd bp ___qgiver_
+ yfyzkf vtyz hfpj`hfnmcz c ghj`ktvjq
+ d dblt dfhdfhjd, hfpuhf`kz<ob[
+ _house_.
+ Yf dsgjkytybt e vtyz hjdyj cenrb.
+
+Message:  1011
+<ce> _monster_ vthnd.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+
+Place _house_ local random
+
+Clock _2dung_ 1.00:00 0 flag 1 range 0 1
+
+Foe _monster_ is Barbarian
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _house_
+	log 1010 step 0
+	place foe _monster_ at _house_
+	create npc at _house_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _monster_ saying 1011
+
+_S.02_ task:
+	when _qgclicked_ and _S.01_
+	give pc nothing
+	end quest
+
+_qgclicked_ task:
+               clicked npc _qgiver_
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.01_
+	clear _qgclicked_ _clearclick_

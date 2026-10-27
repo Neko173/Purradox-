@@ -1,0 +1,266 @@
+-- Quest: C:\QUESTS\WORKING\S0000502.Qbn.
+-- Main story quest.
+-- QuestId: 502
+Messages: 71
+Quest: S0000502
+DisplayName: ~sdibq cneltyn Xfcnm II
+-- Message panels
+QRC:
+
+QuestComplete:  [1004]
+<ce> Tcnm nen rjt-xnj, yfl xtv z hf`jnfk.
+<ce> Gjcvjnhbnt, rfr @nj dfv yhfdbncz.
+<ce> Z d djcnjhut!
+
+Message:  1020
+%qdt:
+ ~fknfv Uhtqvfy, gjdcnfytw vfu,
+ rjnjhsq jlyf*ls gjvjufk vyt,
+ gjghjcbk vtyz gjdcnhtxfnmcz c
+ tuj gjcskmysv d _tavern_
+ d __tavern_.
+
+Message:  1021
+%qdt:
+ Fnhjyf[, rjnjhjuj gjckfk ~fknfv Uhtqvfy,
+ ghjbyajhvbhjdfk vtyz, xnj vfu [jntk `s
+ pfhexbnmcz vjtq gjvjom< d bccktljdfybb
+ `fiyb Lbhtyyb yf jcnhjdt ~fkabthf.
+ ~fknfv Uhtqvfy dcnhtnbn vtyz nfv,
+ ytgjlfktre.
+
+Message:  1030
+%pcn:  Ghbdtncnde<!
+<ce>
+  Z yfltzkcz, xnj edtljvktybt ljikj
+lj dfc. Yt [jntkb `s gjexfcndjdfnm d
+yt`jkmijv ghbrk<xtybb? Tckb lf, nj
+yfqlbnt vjtuj gjckfyybrf d _tavern_
+d __tavern_.
+<ce>
+Dfi gfhnyth d ltkf[ Pfghtnyjq Vfubb,
+<ce>
+~fknfv Uhtqvfy
+
+Message:  1031
+<ce> Kturbq pfgf[ jgkfdktyyjuj rfvyz rjcyekcz
+<ce> dfituj yjcf, rfr njkmrj ds ghjikb d ldthm.
+<ce> Djy nfv ckexfqyj yt fnhjyf[ cnjbn?
+<ce> C pfgbcrjq, ghbigbktyyjq r tuj cgbyt,
+<ce> yf j`hfnyj cnjhjyt rjnjhjq yfgbcfyj: "ELFHM VTYZ".
+
+Message:  1032
+<ce> Fnhjyf[ uke[j ghjbpytc:
+<ce>
+<ce> "Ghbdtncnde<, %pcn. Z =atronach_,
+<ce> crhjvysq ckeuf vfuf ~fknfvf Uhtqvfyf.
+<ce> %g [jntk `s epyfnm, yt [jxtim kb ns bccktljdfnm
+<ce> `fiy< Lbhtyyb yf jcnhjdt ~fkabthf dvtcnt c ybv.
+<ce> ^nj vfubxtcrjt vtcnj gjkyj ytdjj`hfpbvs[ xeltc.
+<ce> Vjq gjdtkbntkm `eltn *lfnm nt`z nfv d
+<ce> ntxtybt =towertime_ lytq".
+<ce>
+<ce> C gjcktlybv ckjdfvb =atronach_
+<ce> hfcndjhztncz d rke`f[ xthyjuj lsvf.
+
+Message:  1040
+<ce> %pcf, hfl dbltnm dfc cyjdf!
+<ce> Gj[j*t ds yfxfkb gjbcrb `tp vtyz.
+<ce> Djy njn ceyler, rjnjhsq e dfc d herf[,
+<ce> d ytv tcnm nj, xnj z boe. Yt `eltnt
+<ce> djphf*fnm, tckb z pf`the @nj?
+<ce> ~jkmijt cgfcb`j!
+
+Message:  1041
+<ce> %pcf, z hfl, xnj ds cjukfcbkbcm
+<ce> cjcnfdbnm rjvgfyb< vjtq crhjvyjq gthcjyt.
+<ce> Ckeifqnt, z boe jlye jcj`e< dtobwe,
+<ce> _item_, rjnjhfz, rfr z levf<,
+<ce> [hfybncz ult-nj dyenhb `fiyb Lbhtyyb.
+<ce> Vj*tnt jcnfdbnm ct`t dct, xnj yfqltnt,
+<ce> dct xnj ye*yj vyt - @nj djn nfrfz
+<ce> irfnekrf. Bnfr, ghbcnegbv, lf?
+
+Message:  1042
+<ce> Fuf, djn _item_, nj xnj z bcrfk.
+<ce> {vv, z gjkfufk, xnj nfv `eltn [jnm
+<ce> rfrfz-nj j[hfyf... [t-[t...
+
+Message:  1043
+<ce> Xnj *, `skj jxtym dtctkj.
+<ce> ~snm vj*tn tot rfr-yb`elm
+<ce> gthtctxtvcz. Nf-nf!
+
+Message:  1050
+<ce> Djn nt`t! B djn nt`t! Ns,
+<ce> cnfhfz ghjuybdifz inerf!
+
+Message:  1051
+<ce> ^nj le[! Rfr yfcxtn djn
+<ce> @njuj!
+
+Message:  1052
+<ce> Xthn gj`thb, eyjcbv yjub
+<ce> jnc<lf! Tckb `s vyt njkmrj
+<ce> elfkjcm pfcnfdbnm hf`jnfnm
+<ce> @nj pfrkznbt...
+
+Message:  1070
+<ce> Yfl dfitq ujkjdjq pfrhe*bkcz djhjy, gjnjv jy
+<ce> ctk yf dfit gktxj. Cnhfyyj, yj d tuj rk<dt
+<ce> dsuhfdbhjdfyyfz nf`kbxrf. Djhjy crjcbk
+<ce> yf dfc ukfpf-`ecbyrb, dsgecnbk nf`kbxre
+<ce> ghzvj d dfi rfhvfy b ektntk ghjxm.
+
+
+
+QBN:
+Item _letter_ letter used 1030
+Item _item_ item class 1 subclass 10
+Item _reward_ item class 4 subclass 3
+
+Person _rebel_ face 1 named Baltham_Greyman
+
+Place _tavern_ remote tavern
+Place _direni1_ permanent DirenniTower2
+Place _direni2_ permanent DirenniTower3
+--Place aide remote dungeon
+--changed _L.00_ and _L.01_. Quest system could not compile those symbols.
+--using _direni1_ and _direni2_ now.
+--"aide" concept useful in Daggerfall but obsolete for DFU.
+
+Clock _S.00_ 31.06:00 93.18:00
+Clock _S.03_ 30.00:00 0 flag 1 range 0 1
+Clock _towertime_ 31.06:00 0 flag 1 range 0 1
+Clock _S.18_ 00:01 0 flag 1 range 0 1
+Clock _outgoing_ 62.12:00 97.05:20
+--moving the delay from the start of Part 3 to the end of Part 2.
+--The engine could not find a place to put Baltham Greyman
+--in Isle of Balfiera. Hopefully in 2-3 months the player
+--moves to a region compatible with Part 3.
+
+Foe _atronach_ is Iron_atronach
+Foe _guardian_ is Fire_daedra
+Foe _monster1_ is Mummy
+Foe _monster2_ is Zombie
+
+--	Quest start-up:
+	start timer _S.00_
+	pc at _direni1_ set _S.10_
+
+_S.00_ task:
+	pc at _tavern_ set _S.05_
+	_letter_ used do _readletter_
+	place item _item_ at _direni2_
+	start timer _S.03_
+	give pc _letter_ notify 1070
+	place npc _rebel_ at _direni1_
+
+_S.01_ task:
+	injured _atronach_
+	start timer _towertime_
+	log 1021 step 1
+	reveal _direni1_ in province 9 at 204718
+	say 1032
+	remove foe _atronach_
+	--replaced "place foe at remote dungeon" with "remove foe." Always cleaner implementation.
+
+_readletter_ task:
+	log 1020 step 0
+
+variable _S.03_
+_S.04_ task:
+	clicked npc _rebel_
+
+_S.05_ task:
+	say 1031
+	restrain foe _atronach_
+	place foe _atronach_ at _tavern_
+
+_S.06_ task:
+	clicked item _item_
+	place foe _guardian_ at _direni2_
+
+_S.07_ task:
+	when _S.04_ and not _S.06_
+	hide npc _rebel_
+	say 1041
+	add _rebel_ face
+	start task _accompany_
+
+variable _accompany_
+--S.07 is a tremendously faulty task here, so I have to add "accompany"
+--as a permanent countermeasure.
+
+_S.08_ task:
+	toting _item_ and _rebel_ clicked
+	hide npc _rebel_
+	say 1040
+	give pc _reward_
+	start task _goout_
+
+_outgoing_ task:
+	start quest 503 503
+	end quest
+--moved sequel quest to here from "atronach injured" above.
+--DFU considered the Baltham Greyman from 502 to also be the
+--one from 503, mixing the quests together. 503 will now only
+--start when 502 is successfully finished.
+
+_S.09_ task:
+	when _S.06_ and _accompany_
+--	place item _item_ at aide
+	start timer _S.18_
+	say 1042
+--action to move item to hidden dungeon is obsolete in DFU.
+
+variable _S.10_
+_S.11_ task:
+	when _S.10_ and _accompany_ and not _goout_
+	create foe _monster2_ every 7 minutes 10 times with 20% success
+	create foe _monster1_ every 5 minutes 10 times with 20% success
+
+_S.12_ task:
+	injured _monster1_
+	say 1050
+	cast Gods'_Fire spell on _monster1_
+	unset _S.12_
+
+_S.13_ task:
+	injured _monster2_
+	say 1051
+	cast Lightning spell on _monster2_
+	unset _S.13_
+
+_S.14_ task:
+	when _S.03_ and not _S.01_
+	end quest
+
+variable _towertime_
+_S.16_ task:
+	when not _S.10_ and _accompany_
+	when _towertime_ and _accompany_
+	say 1043
+
+_S.17_ task:
+	when _S.16_ and _S.09_
+	give pc _reward_
+	start task _goout_
+
+_goout_ task:
+	remove log step 0
+	remove log step 1
+	drop _rebel_ face
+	take _item_ from pc
+	start timer _outgoing_
+--go out task added to ensure you can fail the quest without triggering Part 3.
+--any time you're victorious and leave the tower, Part 3 should trigger.
+
+_S.18_ task:
+	say 1052
+	cast Banish_Daedra spell on _guardian_
+
+_timeup_ task:
+	when _towertime_ and not _goout_
+	when _S.16_ and not _goout_
+	end quest

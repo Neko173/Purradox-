@@ -1,0 +1,187 @@
+-- Quest: C:\QUESTS\WORKING\Q0C0XY02.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: witch
+-- Repute: 0X
+-- QuestId: 2
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 21
+Quest: Q0C0XY02
+DisplayName: Rjdfhysq gjlfhjr
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ns [jxtim gjvjxm ==qgiver_,
+<ce> %pcf? Vyjubt ghb[jlbkb r yfv lkz
+<ce> bcwtktybz, f pfntv jndjhfxbdfkbcm jn
+<ce> yfc b b[ hns jnrhsdfkbcm kbim lkz njuj,
+<ce> xnj`s ghjrkbyfnm yfc, f b[ j`tofybz
+<ce> cnfyjdbkbcm euhjpfvb. Pf `kfujlfhyjcnm
+<ce> ==qgiver_ yt cjukfcbimcz
+<ce> kb ns yfrfpfnm jlyjuj jncnegybrf
+<ce> lkz ctcnhbycndf?
+
+RefuseQuest:  [1001]
+<ce> Ybxtuj kexit ytkmpz `skj crfpfnm?
+<ce> %oth, bvtytv ==daedra_,
+<ce> gjkfuf< kexit yt yflj `skj j`tofnm
+<ce> njuj, xnj yt vj*tim dsgjkybnm, z
+<ce> jxtym jujhxtyf.
+
+AcceptQuest:  [1002]
+<ce> Djbcnbye nfr? Tckb cltkftim, njulf e
+<ce> yfc lkz nt`z tcnm _mitem_, rjnjhe<
+<ce> vs cltkftv lkz nt`z. Jnghfdkzqcz d
+<ce> __tavern_ b gjbob nfv njuj, rnj yfc
+<ce> ghtlfk, pkjltq =man_, yfpsdf<obq
+<ce> ct`z _man_.
+<ce> Lfq tve djn @ne dtobwe _jewelry_
+<ce> b crf*b, xnj @nj gjlfhjr jn tuj ght*ytq
+<ce> djpk<`ktyyjq, f gjnjv djpdhfofqcz. Nt`t
+<ce> yflj gjnjhjgbnmcz, _jewelry_ yt jcnfdbn
+<ce> jn tuj `skjq rhfcjns b cktlf.
+<ce> ==qgiver_ `eltn *lfnm nt`z d ntxtybt
+<ce> =queston_ lytq. Lf eks`ytncz
+<ce> nt`t elfxf ==daedra_ d ndjtv
+<ce> cdzotyyjv pflfybb.
+
+--needed to change %g on line 36 due to gender mismatches
+
+QuestComplete:  [1004]
+<ce> Lj`hsq lheu %pcf, ndjt j`tofybt
+<ce> ==qgiver_ dsgjkytyj.
+<ce> Djn _mitem_, rfr b `skj j`tofyj.
+<ce> ~tlyfuf _man_.
+<ce> Yflt<cm tuj eghzxen uke`jrj cj cdjbvb
+<ce> cnhflfybzvb, ght*lt xtv jy yfkj*bn yf
+<ce> ct`z herb.
+
+RumorsDuringQuest:  [1005]
+_man_ - yfcnjzobq ghbvth xtkjdtrf, cltkfdituj rfhmthe cdjbvb herfvb. Ghbvth lkz gjlhf*fybz.
+   <--->
+==qgiver_ jxtym vcnbntkmys.
+
+RumorsPostfailure:  [1006]
+_man_ cvttncz yfl vsckm<, xnj jy xnj-nj ljk*ty ==qgiver_.
+   <--->
+_man_ eitk bp __tavern_. B jy `sk jxtym hfccnhjty.
+
+RumorsPostsuccess:  [1007]
+_man_ ghtdhfnbkcz d e*fcyjt cnhfibkbot ghzvj yf ukfpf[ e gjctnbntktq nfdthys _tavern_.
+   <--->
+_man_ ljk*yj `snm cnjhujdfkcz c lf@lhf. %oth, rfrfz e*fcyfz celm`f.
+
+QuestorPostsuccess:  [1008]
+Djbcnbye nfr, z yflt<cm xnj nt`t ghbujlbkfcm yfif dtobwf _mitem_, %pcf.
+
+QuestorPostfailure:  [1009]
+<ce> Yfit djpvtplbt lkz _man_
+<ce> yt pfdthityj! E`bhfqcz ghjxm jnc<lf
+<ce> bkb tuj nhfubxtcrfz celm`f gjcnbuytn
+<ce> nt`z, %pcf.
+
+Message:  1011
+<ce> _man_ `kfujlfhbn dfc pf
+<ce> _jewelry_. Jy ghbvthztn @nj yf ct`z,
+<ce> rjulf ds ujdjhbnt, rnj gjckfk tve @nj.
+<ce> D tuj ukfpf[ vtkmrftn cnhf[ ghb egjvbyfybb
+<ce> bvtyb ==qgiver_, f gjnjv cnhf[
+<ce> ghtdhfoftncz d `jkm.
+
+Message:  1012
+<ce> Nt`z gjckfkb yt e`bdfnm, f ghjcnj
+<ce> jnlfnm tve _jewelry_!
+<ce> Ghjrkznmt! E`bqwf! _man_
+<ce> ljk*ty `sk gjuhepbnmcz d gexbye cnhflfybq
+<ce> pf cdj< yfukjcnm, f yt evthtnm `tp `jkb.
+<ce> ==daedra_ ghjrkbyftn
+<ce> nt`z, %pcf.
+
+Message:  1020
+%qdt:
+ ==qgiver_ bp
+ %reg gjckfkb vtyz jnlfnm
+ _jewelry_ ve*xbyt gj bvtyb
+ _man_ d __tavern_.
+ Vyt gjcjdtnjdfkb bp`fdbnmcz jn
+ _jewelry_ rfr vj*yj `scnhtt, gjnjve
+ xnj @nj "yt jcnfdbn jn tuj `skjq
+ rhfcjns b cktlf". Vyt ye*yj
+ dhexbnm _jewelry_ d tuj herb
+ b dthyenmcz r ==qgiver_ d
+ ntxtybt =queston_ lytq.
+
+
+
+QBN:
+Item _jewelry_ trinket
+Item _mitem_ magic_item
+
+Person _qgiver_ group Questor
+Person _daedra_ face 1 factiontype Daedra remote
+Person _man_ faction Dancers male remote
+--Group 7.0 wouldn't work, needed a local site. Dancers is sufficient for the quest
+
+Place _tavern_ remote tavern
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _zombie_ is Zombie
+Foe _harpy_ is Harpy
+Foe _daedroth_ is Daedroth
+Foe _giant_ is Giant
+
+--	Quest start-up:
+	dialog link for person _daedra_
+	start timer _queston_
+	log 1020 step 0
+	get item _jewelry_
+	place npc _man_ at _tavern_
+
+_queston_ task:
+	end quest
+
+_S.01_ task:
+	toting _jewelry_ and _man_ clicked
+	pick one of _S.04_ _S.02_ _S.03_ _S.05_
+	hide npc _man_
+	say 1011
+
+_S.02_ task:
+	place foe _giant_ at _tavern_
+
+_S.03_ task:
+	place foe _harpy_ at _tavern_
+
+_S.04_ task:
+	place foe _daedroth_ at _tavern_
+
+_S.05_ task:
+	place foe _zombie_ at _tavern_
+
+_S.06_ task:
+	killed 1 _giant_
+	killed 1 _harpy_
+	killed 1 _zombie_
+	killed 1 _daedroth_
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_S.08_ task:
+	when _qgclicked_ and _S.06_
+	say 1012
+	--this was 1020, could not be correct. changed to 1012.
+	change repute with _man_ by -15
+	make pc ill with Witches'_Pox
+	end quest
+
+_reward_ task:
+	when _qgclicked_ and _S.01_ and not _S.06_
+	give pc _mitem_
+	end quest
+
+_S.10_ task:
+	when _qgclicked_ and not _S.01_
+	clear _qgclicked_ _S.10_

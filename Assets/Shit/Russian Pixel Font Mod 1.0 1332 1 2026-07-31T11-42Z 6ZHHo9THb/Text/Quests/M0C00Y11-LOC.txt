@@ -1,0 +1,110 @@
+-- Quest: C:\QUESTS\WORKING\M0C00Y11.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: fighter
+-- Repute: 0
+-- QuestId: 11
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: M0C00Y11
+DisplayName: J[jnf yf ubufyncrjuj crjhgbjyf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vj*tim yfpsdfnm vtyz _qgiver_.
+<ce> J`sxyj vs lftv hf`jne njkmrj xktyfv ubkmlbb.
+<ce> Yj xnj-nj tcnm d nt`t nfrjt, xnj dyeiftn
+<ce> ljdthbt, %pcn. Djn xnj z crf*e.
+<ce> Ghbitk pfghjc yf eybxnj*tybt ubufyncrjuj
+<ce> crjhgbjyf. Cltkfq @nj b ubkmlbz gthtcvjnhbn
+<ce> cdjt jnyjitybt r nt`t. Ljujdjhbkbcm?
+
+RefuseQuest:  [1001]
+<ce> Z gsnfkcz `snm [jhjibv, yj
+<ce> c nj`jq @nj nhelyj ltkfnm.
+<ce> E`bhfqcz jnc<lf.
+
+AcceptQuest:  [1002]
+<ce> D nt`t tcnm yfgjhbcnjcnm, %pcf, vyt @nj
+<ce> yhfdbncz. Gj[j*t @nj crjhgbjy c`t*fk bp xmtq-nj
+<ce> xfcnyjq rjkktrwbb. J`jcyjdfkcz jy d _house_.
+<ce> E`tq @nj cjplfybt ctujlyz b gjnjv
+<ce> gjujdjhbv.
+
+QuestComplete:  [1004]
+<ce> Yflt<cm ns yt bp vzurjntks[, rfr ujdjhzn
+<ce> dct djrheu. Yflt<cm @nb k<lb gthtvtyzn
+<ce> cdjt vytybt.
+
+RumorsDuringQuest:  [1005]
+<ce> Cks[fkb ghj `tlyjuj ukegwf, rjnjhsq
+<ce> yfitk crjhgbjyf d cdjtv ljvt? Jy
+<ce> yfgbkcz lj xthnbrjd.
+
+RumorsPostfailure:  [1006]
+<ce> Rfrjq-nj gmzysq lehtym dkjvbkcz d cdjq
+<ce> ljv b `sk e`bnm ubufyncrbv crjhgbjyjv.
+<ce> Gj[j*t, xnj Ubkmlbz ~jqwjd yt cnfkf
+<ce> dsgjkyznm cdj< hf`jne.
+
+RumorsPostsuccess:  [1007]
+<ce> D Ubkmlbb ~jqwjd jnkbxyst ht`znf.
+<ce> Jyb e`bkb `jkmijuj crjhgbjyf, rjnjhjuj
+<ce> yfikb d xmtv-nj ljvt.
+
+QuestorPostsuccess:  [1008]
+<ce> {jhjifz hf`jnf c @nbv crjhgbjyjv.
+<ce> C nfrbvb ecgt[fvb nt`z crjhj vj*yj
+<ce> `eltn ghbyznm d ubkmlb<.
+
+QuestorPostfailure:  [1009]
+<ce> Dct, xnj z ghjcbk - e`bnm `jkmijuj
+<ce> crjhgbjyf. Ns `tpyflt*ty, %ra.
+
+QuestLogEntry:  [1010]
+%qdt:
+<ce> Ubkmlbz ~jqwjd bp ___qgiver_
+<ce> gjghjcbkf vtyz e`bnm ubufyncrjuj
+<ce> crjhgbjyf, rjnjhsq j`jcyjdfkcz d
+<ce> _house_. Hf`jne ye*yj dsgjkybnm ctujlyz.
+
+Message:  1011
+<ce> _monster_ vthnd.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+
+Place _house_ local random
+
+Clock _2dung_ 1.00:00 0 flag 1 range 0 1
+
+Foe _monster_ is Giant_scorpion
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _house_
+	log 1010 step 0
+	place foe _monster_ at _house_
+	create npc at _house_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _monster_ saying 1011
+
+_S.02_ task:
+	when _qgclicked_ and _S.01_
+	give pc nothing
+	end quest
+
+_qgclicked_ task:
+               clicked npc _qgiver_
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.01_
+	clear _qgclicked_ _clearclick_

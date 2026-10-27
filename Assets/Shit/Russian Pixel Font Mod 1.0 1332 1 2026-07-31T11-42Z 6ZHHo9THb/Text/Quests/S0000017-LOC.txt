@@ -1,0 +1,158 @@
+-- Quest: C:\QUESTS\WORKING\S0000017.Qbn.
+-- Main story quest.
+-- QuestId: 17
+Messages: 23
+Quest: S0000017
+DisplayName: |bdjgbcm D@qhtcnf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pcn! Lj`hj gj*fkjdfnm d Ctynbytk.
+<ce> Edthtyf xnj ds `eltnt xedcndjdfnm
+<ce> ct`z jxtym rjvajhnyj. Gjpdjkmnt vyt
+<ce> hfccnfdbnm dct njxrb. Vjq csy, ghbyw
+<ce> Kjnfy, ujdjhbk vyt, xnj ds edf*ftvsq
+<ce> b dspsdf<obq ljdthbt %ra. Vyt rfr hfp
+<ce> ye*ty rnj-nj dhjlt dfc. Z pfgkfxe
+<ce> dfv _gold_ pjkjns[, tckb ds ghjybrytnt
+<ce> d pfvjr D@qhtcn b pf`thtnt jnnelf
+<ce> ctvtqye< htkbrdb<, ghtlyfpyfxtyye<
+<ce> rjhjktv Kbpfylecjv lkz vtyz.
+<ce> Cltkftnt @nj lkz vtyz?
+
+RefuseQuest:  [1001]
+<ce> {vvv. Levf< vyt yflj gthtcvjnhtnm
+<ce> dfit gjkj*tybt ghb yfitv ldjht.
+
+AcceptQuest:  [1002]
+<ce> Rfrfz otlhjcnm! Nfv tcnm jlyf dtom,
+<ce> rfhnbyf, rjnjhfz cghznfyf ult-nj
+<ce> dyenhb pfvrf D@qhtcn. Z *tkf< @ne
+<ce> dtom gj ghbxbyfv, rjnjhst pyfnm dfv
+<ce> yt j`zpfntkmyj. Ghbytcbnt @nj rj vyt
+<ce> b z pfgkfxe dfv _gold_ pjkjns[.
+
+QuestComplete:  [1004]
+<ce> %pcf, djn dfib ltymub: _gold_ pjkjns[.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Rjhjktdf Frjhbnb gjhexbkf vyt ghjybryenm
+ d pfvjr D@qhtcn. Ult-nj d tuj gjlptvtkmz[
+ [hfybncz rfhnbyf, rjnjhe< jyf *tkftn.
+ Tckb z cvjue dhexbnm tq *tkftvjt, jyf
+ pfgkfnbn vyt _gold_ pjkjns[.
+
+Message:  1011
+Edf*ftvsq %pcn,
+<ce>
+  J*blftv dfituj ghbcencndbz ghb yfitv ldjht
+lj jrjyxfybz cktle<otuj ctpjyf. Ghbyw
+Kjnfy htrjvtyljdfk dfc b jxtym [jhjij
+jnpsdfkcz.
+<ce>
+Frjhbnb
+Rjhjktdf Ctynbytkf
+
+Message:  1012
+<ce> Ltdjxrf-gf*, yjczofz uth` Ctynbytkf, vjkxf
+<ce> dhexbkf dfv pfgtxfnfyysq rjydthn. Buyjhbhez
+<ce> dfib djghjcs jyf gjdthyekfcm e eikf ghjxm.
+
+Message:  1013
+<ce> Xtv ljkmit ds cvjnhbnt yf rfhnbye, ntv `jkmit
+<ce> pfvtxftnt ldb*tybt yf [jkcnt. Cktps dscnegf<n
+<ce> bp ukfp, rjulf ds dblbnt, xnj nfv yfxbyftn
+<ce> ghjbc[jlbnm.
+
+Message:  1015
+<ce> Cwtyf yf rfhnbyt vtyztncz b lhj*bn.
+<ce> Ds zcyj hfpkbxftnt ghjcnhfycndj dyenhb
+<ce> ifnhf. Ytcrjkmrj xtkjdtr d kbdhtz[ ldjhf
+<ce> D@qhtcn frnbdyj lbcrenbhe<n c xtkjdtrjv,
+<ce> yjczobv gkfo c @v`ktvjq Lfuuthajkkf. Jlby
+<ce> bp ghtlcnfdbntktq D@qhtcnf pf[jlbn cpflb
+<ce> xtkjdtrf bp Lfuuthajkkf, j`yf*ftn rby*fk
+<ce> b yfyjcbn njve cvthntkmysq elfh gjl ht`hf.
+<ce> Rfhnbyrf necryttn, nfr *t rfr b eufcftn
+<ce> *bpym d tuj ntkt.
+
+Message:  1020
+<ce> Gjghj`etnt bcgjkmpjdfnm rfhnbye?
+
+Message:  1021
+<ce> Jnkbxyj. Tt cdjqcndf ytljcnegys k<`jve
+<ce> yt rjhjktdcrjq rhjdb. Ds gjrfpfkb ct`z
+<ce> yt njkmrj ghtlfyysv, yj b gjckeiysv.
+
+Message:  1022
+<ce> Ds ckbirjv vyjuj levftnt, %pcn.
+<ce> Nj xnj ds dbltkb, yt ghtlyfpyfxtyj lkz
+<ce> gjcnjhjyyb[ ukfp. ^nj ltkj bcrk<xbntkmyj
+<ce> rjhjktdcrjq ctvmb b ghtlyfpyfxtyj njkmrj
+<ce> lkz rjhjktdcrjq ctvmb.
+
+
+
+QBN:
+Item _letter_ letter used 1011
+Item _item_ Lysandus_death used 1013
+Item _gold_ gold
+
+Person _Akorithi_ named Queen_Akorithi atHome
+
+Place _wayrest_ permanent WayrestCastle
+
+Clock _2letter_ 7.00:00 14.00:00
+
+
+--	Quest start-up:
+	dialog link for item _item_
+	start timer _2letter_
+	add _Akorithi_ as questor
+
+_2letter_ task:
+	give pc _letter_ notify 1012
+
+yes task:
+	_item_ used do _S.05_
+	place item _item_ at _wayrest_ marker 0
+	add dialog for item _item_
+	log 1010 step 0
+	say AcceptQuest
+
+_no_ task:
+	say RefuseQuest
+	drop _Akorithi_ as questor
+	end quest
+
+_S.03_ task:
+	clicked npc _Akorithi_
+
+_S.04_ task:
+	when _S.03_ and _2letter_
+	prompt QuestorOffer yes yes no _no_
+
+_clearclick_ task:
+	when _S.03_ and not _2letter_
+	clear _S.03_ _clearclick_
+
+_S.05_ task:
+	say 1015
+
+_S.06_ task:
+	toting _item_ and _Akorithi_ clicked
+	give pc _gold_
+	start quest 10 10
+	prompt 1020 yes _S.07_ no _S.08_
+	drop _Akorithi_ as questor
+	end quest
+
+_S.07_ task:
+	say 1022
+	change repute with _Akorithi_ by +10
+
+_S.08_ task:
+	say 1021
+	change repute with _Akorithi_ by +15

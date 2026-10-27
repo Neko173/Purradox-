@@ -1,0 +1,203 @@
+-- Quest: C:\QUESTS\WORKING\K0C00Y09.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: merchant
+-- Repute: 0
+-- QuestId: 9
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 15
+Quest: K0C00Y09
+DisplayName: Djpvtotybt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vjq `sdibq gfhnyth d __qgiver_,
+<ce> _enemy_, dpzk ljk< yfib[ lj[jljd, `jkmie<,
+<ce> xtv tve gjkfuftncz, b cvskcz bp ___qgiver_.
+<ce> Gecnm z b yt bp vcnbntkmys[ k<ltq, yj `sk `s
+<ce> ghbpyfntkty, tckb `s ds ghbdtkb _enemy_
+<ce> j`hfnyj rj vyt, xnj`s yfqnb j`]zcytybt
+<ce> ckexbditvecz. Z pfgkfxe dfv _gold_ pjkjns[,
+<ce> tckb ds ghbdtltnt tuj *bdsv b _lessgold_
+<ce> pjkjns[, tckb ds ckexfqyj e`mtnt tuj.
+   <--->
+<ce> ^njn ghjrkznsq _enemy_ pfcnfdbk vtyz
+<ce> gjdthbnm tve, dnthcz d vjt ljdthbt, f gjnjv
+<ce> cvskcz cj pyfxbntkmyjq xfcnm< vjb[ c`tht*tybq.
+<ce> Ctqxfc vyt ye*ys yt cnjkmrj ltymub, crjkmrj
+<ce> cghfdtlkbdjt djpvtplbt. Z [jxe, xnj`s ds
+<ce> dscktlbkb tuj b ghbdtkb rj vyt. Z pfgkfxe dfv
+<ce> _gold_ pjkjns[. Ds cjukfcys?
+   <--->
+<ce> Z boe j[jnybrf yf k<ltq, bkb tckb `snm
+<ce> njxysv, j[jnybrf yf _enemy_.
+<ce> Rfr ds vj*tnt edbltnm, jy cvskcz bp ujhjlf,
+<ce> yt pfgkfnbd gj cdjbv cxtnfv. Yfqnb tuj -
+<ce> - ltkj ghbywbgf. Yt vjue j`tofnm `jkmit, xtv
+<ce> _gold_ pjkjns[ pf ecgtiyst gjbcrb, yj vjz
+<ce> htgenfwbz `eltn gjheityf, tckb z gjpdjk< cdjbv
+<ce> ljk*ybrfv et[fnm bp ___qgiver_
+<ce> c vjbv pjkjnjv. Ds cjukfcys yfqnb @njuj
+<ce> e`k<lrf?
+
+RefuseQuest:  [1001]
+<ce> Ytn? Xnj *, gjqle j`hfoecm d Ubkml<
+<ce> ~jqwjd b yfqve tot rjuj-yb`elm.
+   <--->
+<ce> Jxtym gkj[j. Lfqnt pyfnm, tckb
+<ce> gthtvtybnt cdjt htitybt.
+
+AcceptQuest:  [1002]
+<ce> {jhjij. _enemy_ pjden =enemy_,
+<ce> b gj cke[fv %g crhsdftncz d ___mondung_.
+<ce> E dfc ghbvthyj =queston_ lytq. Gjckt @njuj chjrf
+<ce> z jnrf*ecm gkfnbnm, lf*t tckb ecksie j dfc.
+<ce> Gjvybnt -- =enemy_
+<ce> dtcmvf cbkty, nfr xnj tckb `eltn lhfrf,
+<ce> gjcnfhfqntcm yt e`bnm tuj.
+<ce> Elfxb, %pcf.
+   <--->
+<ce> Njulf ghbcnegbv r ltke. Vjb bcnjxybrb crfpfkb,
+<ce> xnj _enemy_ erhskcz d ___mondung_
+<ce> b ghj`eltn nfv ghbvthyj =queston_ lytq. Z
+<ce> c ytnthgtybtv `ele *lfnm =enemy_, @nj bvz
+<ce> _enemy_. Gjcnfhfqntcm yt e`bdfnm tuj.
+<ce> Elfxb.
+   <--->
+<ce> Ds lj`hsq lj e*fcf, %pcf.
+<ce> Lj vtyz ljikb cke[fb, xnj _enemy_ crhsdftncz
+<ce> ult-nj d hfqjyt ___mondung_, `tp j[hfys,
+<ce> jlby d cehjds[ eckjdbz[ cdjtq htpbltywbb.
+<ce> Tuj bvz =enemy_ b z yflt<cm, xnj ds ghbdtltnt
+<ce> tuj rj vyt d ntxtybt =queston_ lytq,
+<ce> gj djpvj*yjcnb *bdsv. Yt hfpjxfheqnt vtyz.
+
+QuestComplete:  [1004]
+<ce> F, ltym lj`hsq, =enemy_.
+<ce> Gj[j*t, xnj yfv tcnm j xtv gjujdjhbnm...
+<ce> yfghbvth j yfitv ltkt, yt nfr kb?
+<ce> %pcf, z `kfujlfh< dfc, xnj ds cltkfkb
+<ce> gentitcndbt _enemy_ rfr vj*yj `jktt
+<ce> rjvajhnysv. Djn j`tofyyjt pjkjnj.
+
+RumorsDuringQuest:  [1005]
+_qgiver_ blbjn, hfp pfdtk ltkj c rtv-nj yfdhjlt =enemy_.
+   <--->
+_qgiver_ yt ljk*ty `jkmit ljdthznm =enemy_ -- %g cfvsq yfcnjzobq djh.
+
+RumorsPostfailure:  [1006]
+Gj[j*t =enemy_ cvskcz, ghb[dfnbd c cj`jq rjt-xnj. F _qgiver_ nfr *t `tpevty, rfr b j`bnfntkb J`kbdbjyf.
+
+RumorsPostsuccess:  [1007]
+_qgiver_ ghfrnbretn lhtdy<< nt[ybre gsnjr %ra yf =enemy_.
+   <--->
+Vyt lf*t ytvyjuj *fkm _enemy_ -- dtlm jy ntgthm d herf[ _qgiver_.
+
+QuestorPostsuccess:  [1008]
+J, ghbdtn, %pcf. =enemy_ nj*t crfpfk `s ghbdtn ... tckb `s e ytuj `sk zpsr. {f-[f-[f.
+
+QuestorPostfailure:  [1009]
+<ce> Ds *t yt levftnt, xnj vyt ltqcndbntkmyj tcnm j xtv c dfv ujdjhbnm, %pcf?
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp
+ __qgiver_ d ___qgiver_
+ gjcskftn vtyz d ___mondung_
+ yfqnb cevfc`hjlf _enemy_ gj bvtyb
+ =enemy_ b ghbdtcnb tuj
+ j`hfnyj d __qgiver_. E vtyz
+ =queston_ lytq, xnj`s cltkfnm dct
+ rfr gjkfuftncz b *tkfntkmyj, xnj`s
+ =enemy_ gjgfk d herb _qgiver_
+ *bdsv b ytdhtlbvsv.
+
+Message:  1011
+<ce> _qgiver_ *tkfk gjkexbnm
+<ce> =enemy_ *bdsv, yj ds
+<ce> gj[j*t e`bkb tuj.
+
+Message:  1012
+<ce> Fq! %oth,
+<ce> Z clf<cm!
+   <--->
+<ce> Clf<cm! Clf<cm!
+   <--->
+<ce> Yt e`bdfqnt vtyz!
+<ce> Z clf<cm!
+
+Message:  1013
+<ce> =enemy_ e`tuftn ghjxm, rjulf
+<ce> ds gjcvjnhtkb d lheue< cnjhjye. Ds
+<ce> egecnbkb cdjq ifyc. Ntgthm gjplyj blnb
+<ce> pf yfuhfljq.
+
+Message:  1014
+<ce> Xnj *, z *tkfk gjkexbnm =enemy_
+<ce> *bdsv, yj gjkfuf<, xnj ds e`bkb tuj ytcvjnhz
+<ce> yf vjt gj*tkfybt. Djn _lessgold_ pjkjns[
+<ce> yt nfr vyjuj, rfr ds vjukb `s gjkexbnm, yj
+<ce> dct *t z dfv ghbpyfntkty.
+
+--removed erroneous blank msg inside 1014
+
+
+QBN:
+Item _gold_ gold range 50 to 150
+Item _lessgold_ gold range 10 to 45
+
+Person _qgiver_ group Questor
+
+Place _mondung_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _enemy_ is Ranger
+
+--	Quest start-up:
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	place foe _enemy_ at _mondung_
+
+_queston_ task:
+	end quest
+
+_S.01_ task:
+	injured _enemy_
+	say 1012
+
+_killmon_ task:
+	killed 1 _enemy_
+	say 1011
+
+_S.03_ task:
+	when _S.01_ and not _killmon_
+	add foe _enemy_ face
+	remove foe _enemy_
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+variable _S.05_
+_S.06_ task:
+	when _qgclicked_ and _killmon_
+	get item _lessgold_
+	say 1014
+	make _lessgold_ permanent
+	end quest
+
+_reward_ task:
+	when _S.03_ and _qgclicked_
+	give pc _gold_
+	end quest
+
+_S.08_ task:
+	when _queston_ and _S.03_
+	say 1013
+	drop foe _enemy_ face
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.01_
+	clear _qgclicked_ _clearclick_

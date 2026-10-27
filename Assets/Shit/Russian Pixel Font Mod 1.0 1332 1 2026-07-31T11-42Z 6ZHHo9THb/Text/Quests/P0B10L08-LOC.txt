@@ -1,0 +1,271 @@
+-- Quest: C:\QUESTS\WORKING\P0B10L08.Qbn.
+-- StartsBy: letter
+-- Questee: member
+-- Questor: vampire
+-- Repute: 10
+-- QuestId: 8
+Messages: 22
+Quest: P0B10L08
+DisplayName: Ntcn yf htibntkmyjcnm
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+Error: Questtext 1000 Called.
+
+RefuseQuest:  [1001]
+Error: Questtext 1001 Called.
+
+AcceptQuest:  [1002]
+Error: Questtext 1002 Called.
+
+QuestFail:  [1003]
+Error: Questtext 1003 Called.
+
+QuestComplete:  [1004]
+<ce> Ds ghjckfdbkb ctvm< %vam
+<ce> @njq yjxm<, %pcf. If`fi ==daedra_
+<ce> dscrfpfk dfv b yfv cdjt edf*tybt.
+<ce> Yb jlby hjl dfvgbhjd yt ljcnbufk nfrjuj.
+<ce> Dfi rhjdysq jntw gthtlfk dfv @njn rfvtym
+<ce> _gem_, rfr cbvdjk dfituj ecnjqxbdjuj
+<ce> gjkj*tybz d ctvmt %vam.
+
+RumorsDuringQuest:  [1005]
+Cnhfyyst dtob ndjhzncz d gjlptvtkmt ___mondung_. Lf*t j`sxysq cnhfyybr crf*tn @nj.
+
+RumorsPostfailure:  [1006]
+Gjrjq ghbitk d gjlptvtkmt ___mondung_, yj pdtplf lf@lhf ujhbn jxtym zhrj.
+
+RumorsPostsuccess:  [1007]
+___mondung_ yf[jlbncz d gjrjt. Lf*t pdtplf lf@lhf dxthf ujhtkf cgjrjqytt.
+
+QuestorPostsuccess:  [1008]
+Error: Questtext 1008 Called.
+
+QuestorPostfailure:  [1009]
+Error: Questtext 1009 Called.
+
+QuestLogEntry:  [1010]
+      __vamp_
+       ___vamp_
+<ce>
+Ljhjujq cjhjlbx %pcn,
+<ce>
+  %vam ye*lftncz d dfc.
+Ghbtp*fqnt ytvtlktyyj.
+<ce>
+Dctulf dfi lheu d Cvthnb.
+<ce>
+<ce> _vamp_
+<ce> ----
+
+Message:  1011
+<ce> F, %pcf, z db*e, ds gjkexbkb vjt gbcmvj.
+<ce> Cnfhtqibyf yfitq ctvmb, dfi rhjdysq
+<ce> jntw ghjcbn bvtyyj dfc hfccktljdfnm ltkj,
+<ce> rjnjhjt tuj jxtym nhtdj*bn. Djn, djpmvbnt
+<ce> rjgb< gbcmvf, rjnjhjt jy yfitk ghbrjkjnsv
+<ce> r ldthb cdjtuj cdznbkbof  rby*fkjv. Jxtdblyj,
+<ce> xnj njn, rnj cltkfk @nj, jny<lm yt ckf` b,
+<ce> dblbvj *tkftn ghjdthbnm vjom hjlf %vam
+<ce> yf ct`t. Jnghfdkzqntcm d gjlptvtkmt,
+<ce> egjvzyenjt d gbcmvt - ___mondung_ b
+<ce> yfqlbnt njuj lf@lhf, rnj yfpsdftn ct`z
+<ce> _daedra_. Ljrf*bnt %g2 xnj hjl %vam yt
+<ce> c`jhbot yt*tyjr, rjnjhsv vj*yj cgjrjqyj
+<ce> euhj*fnm bkb dscvtbdfnm b[. Dcz ckfdf
+<ce> ctvmb %vam `eltn c dfvb, %pcf.
+<ce> Djpdhfofqntcm xthtp =queston_ yjxtq
+<ce> cj obnjv bkb yf obnt. Yt gjldtlbnt yfc,
+<ce> %pcn.
+
+Message:  1012
+%qdt:
+ _vamp_ d ujhjlt ___vamp_
+ gthtlftn vyt gbcmvj c gjlgbcm< -
+ _daedra_ bp gjlptvtkmz
+ ___mondung_. ^nj gbcmvj
+ dcgjkjibkj yfi hjl, %vam. Vyt
+ ytj`[jlbvj jnghfdbnmcz nelf
+ b pfcnfdbnm fdnjhf gjlfdbnmcz
+ cdjbvb ckjdfvb. E vtyz tcnm =queston_
+ yjxtq xnj`s gjrjyxbnm c @nbv
+ b dthyenmcz d bvtybt __vamp_.
+
+Message:  1013
+Gjufyst rhjdjcjcs.
+<ce>
+  Vjq if`fi jpf`jxty ntv, xnj dfib xeljdbof,
+dfib yttcntcndtyyst vtirb c rhjdm<, yjxyst
+geufkf bvt<n bcrk<xbntkmyjt ghfdj yf
+cdjt *enrjt pfyznbt d ghjdbywbb %reg, b
+lf*t vjb cj`cndtyyst ltnb `jzncz
+hfcibhznm cdj< dkfcnm, gjnjve rfr `jzncz
+gthdj`snyjq cbks hjlf %vam. Jlyfrj,
+nhecs `skb yfrfpfys b vjq if`fi gtht[jlbn d
+yfcnegktybt.
+  Tckb gjxntyyst cnthdznybrb, rjnjhst
+bvtye<n ct`z ctvmtq %vam, bvt<n [jnm njkbre
+njuj vjueotcndf, rjnjhjt if`fi nfr
+ghtedtkbxbdftn, gecnm ghbven vjq dspjd.
+Byfxt, gecnm `elen ujnjds r njve, xnj bv
+ghbltncz cbkmyj gjntcybnmcz, b`j %reg
+bvttn yt jxtym `jkmie< nthhbnjhb<, xnj`s
+dvtcnbnm tot b ctvm< %vam c b[ vtkjxyjq
+ghtcnegyjcnm<.
+  Z lf@lhf _daedra_ bp If`fif
+==daedra_. Gjkfuf<, gthxfnrf `hjityf.
+Z `ele *lfnm dfituj jndtnf d gjlptvtkmt
+___mondung_.
+<ce> ----
+
+Message:  1014
+%qdt:
+ Vyt `skj ljcnfdktyj gbcmvj jn
+ ctvmb %vam. _vamp_ ghjcbn
+ vtyz ytvtlktyyj ghb`snm d vtcnj,
+ yfpsdftvjt __vamp_ d ujhjlt ___vamp_.
+
+Message:  1015
+<ce> Lj`hj gj*fkjdfnm d ___mondung_,
+<ce> %pcn. Rfr z gjybvf<, ds pltcm
+<ce> gj gjhextyb< ctvmb %vam
+<ce> xnj`s gjlndthlbnm, xnj If`fi
+<ce> ==daedra_, Ghbyw J`kbdbjyf
+<ce> dghtlm `eltn ukfdtycndjdfnm
+<ce> d ghjdbywbb %reg?
+
+Message:  1016
+<ce> Nheckbdsq rhjdjcjc.
+<ce> Lkz vtyz @nj yt cnfkj
+<ce> ytj*blfyyjcnm<, yj tot
+<ce> `skf yflt*lf. Ds
+<ce> bcnbyyjt lbnz cdjtuj hjlf.
+
+Message:  1017
+<ce> Ds `hjcbkb dspjd ghtdjc[jlcnde
+<ce> if`fif ==daedra_ gthtl,
+<ce> vjbv kbwjv, vthndsq xthdzr?
+<ce> J, lf! =daedroth_ yfckflbncz
+<ce> hfpvfksdfybtv d vere dfib[
+<ce> lthprb[ rjcntq! Gecnm vyt
+<ce> gjrf*en nfrjuj xktyf hjlf
+<ce> %vam, rjnjhsq
+<ce> chf*ftncz nfr*t [jhjij,
+<ce> rfr b [dfcnftn!
+
+Message:  1018
+<ce> Ds cksibnt, rfr ==daedra_
+<ce> vscktyyj ujdjhbn dfv:
+<ce> "Ds ljrfpfkb, xnj rkfy
+<ce> %vam ltqcndbntkmyj
+<ce> pfcke*bdftn edf*tybz.
+<ce> Vj*tnt crfpfnm dfitve ukfdt,
+<ce> xnj ghjdbwbz %reg
+<ce> dfif. Ds bynthtcysq
+<ce> j`hfptw, %pcn.
+<ce> Vs dcrjht dcnhtnbvcz cyjdf".
+
+Message:  1019
+<ce> Ds jgjpjhbkb hjl %vam,
+<ce> %pcf. If`fi ==daedra_
+<ce> `hjcbk yfv dspjd,b ds
+<ce> ntgthm d ytghjcnjv
+<ce> gjkj*tybb. Cnslbntcm.
+
+Message:  1021
+<ce> Cnjys b kzpufymt vtnfkkf ljytckbcm lj dfc.
+<ce> Ult-nj hzljv ikj chf*tybt. Ds gj`t*fkb yf
+<ce> pder b, gj[j*t, ecgtkb rfr hfp djdhtvz. Lf@lhjn,
+<ce> cnjz yfl gjdth*tyysv dfvgbhjv, e*t cj`bhfkcz
+<ce> djypbnm tve d uhelm jhe*bt. Ghsuyed, ds bpdthyekbcm
+<ce> b gjlcnfdbkb cdjt jhe*bt gjl elfh. Lf@lhjn c
+<ce> elbdktybtv jcnfyjdbkcz. Yj tot `jkmit jy elbdbkcz
+<ce> rkbyre, njhxfotve bp cdjtq uhelb...
+<ce> Dfvgbh c nz*tksv cnjyjv gsnfkcz gjlyznmcz yf yjub.
+<ce> Elbdbntkmyj, rfr e ytuj djj`ot [dfnbkj cbk
+<ce> yfytcnb cvthntkmysq elfh. Ds gjl`t*fkb r ytve b
+<ce> gjgsnfkbcm gjvjxm.
+<ce> "Yt yflj, yt cnjbn. Vyt dct hfdyj ghtlcnjbn
+<ce> evthtnm, yj yt jrjyxfntkmyj. Z cvjue
+<ce> djphjlbnmcz",- ghj[hbgtk jy, gflfz yf ptvk<.
+<ce> "Vtyz gjckfkb ljcnfdbnm dfv cjj`otybt",- itgnfk jy,
+<ce> gsnfzcm xnj-nj yfqnb d crkflrf[ gkfof. Ds `scnhj
+<ce> jnscrfkb nj, j xtv jy ujdjhbk - gbcmvj.
+<ce> "Pf`bhfqnt b e[jlbnt. Crjhj b[ fhvbz `eltn pltcm.
+<ce> J`j vyt yt `tcgjrjqntcm, z cltkfk cdjt ltkj".
+<ce> Ds c[dfnbkb gbcmvj b gj`t*fkb gjlfkmit jn @njuj
+<ce> vtcnf, f dfvgbh nfr b jcnfkcz kt*fnm yf ptvkt.
+
+
+
+QBN:
+Item _letter_ letter used 1010
+Item _letter2_ letter used 1013
+Item _gem_ gem
+
+Person _vamp_ factiontype Vampire_Clan local
+Person _daedra_ face 1 factiontype Daedra remote
+
+Place _mondung_ remote dungeon7
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _daedroth_ is Daedroth
+
+--	Quest start-up:
+	dialog link for person _vamp_
+	start timer _queston_
+	_letter_ used do _readletter_
+	give pc _letter_ notify 1021
+
+_queston_ task:
+	end quest
+
+_vampclicked_ task:
+	clicked npc _vamp_
+	reveal _mondung_
+	log 1012 step 1
+	get item _letter2_
+	say 1011
+	place npc _daedra_ at _mondung_
+
+_failure_ task:
+	say 1016
+	change repute with _vamp_ by -5
+	change repute with _daedra_ by -10
+	destroy _daedra_
+
+_success_ task:
+	killed 1 _daedroth_
+	say 1018
+	change repute with _daedra_ by +10
+
+_nononono_ task:
+	when _vampclicked_ and not _failure_ and not _success_
+	clear _vampclicked_
+
+_daedclicked_ task:
+	clicked npc _daedra_
+	prompt 1015 yes _failure_ no _challenge_
+
+_challenge_ task:
+	create foe _daedroth_ every 1 minutes 1 times with 100% success
+	hide npc _daedra_
+	say 1017
+
+_badpcn_ task:
+	when _vampclicked_ and _failure_
+	say 1019
+	end quest
+
+_reward_ task:
+	when _vampclicked_ and _success_
+	give pc _gem_
+	make _gem_ permanent
+	end quest
+
+_readletter_ task:
+	add dialog for person _vamp_
+	log 1014 step 0

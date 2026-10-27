@@ -1,0 +1,210 @@
+1.	Rhjvt kerf b cnhtk ds ghtlgjxbnftnt ___.
+a.	rjhjnrbt rkbyrb
+	#4416
+	33 +9
+	28 +3
+	IT 3 3 0
+b.	herjgfiysq `jq
+	#4417
+	33 +9
+	30 +3
+	IT 2 1 0
+c.	njgjhs b ctrbhs
+	#4418
+	33 +9
+	31 +3
+	IT 3 15 0
+d.	negjt jhe*bt
+	#4419
+	33 +9
+	32 +3
+	IT 3 13 0
+e.	vtxb
+	#4205
+	33 +9
+	29 +3
+	IT 3 9 0
+
+2.	Hflb xtuj ds dtltnt *bpym gjkye< ghbrk<xtybq?
+a.	`jufncnd
+	#4560
+	GP +500
+b.	ckfds
+	#4561
+	r4 +10
+	r2 +10
+c.	pyfybq
+	#4562
+	IT 7 0 0
+d.	dtctkjuj dhtvzghjdj*ltybz
+	#4563
+	1 +3
+	2 +3
+e.	gjvjob lheubv
+	#4564
+	r0 +10
+
+3.	Rfrjq bp yb*tgthtxbcktyys[ yfdsrjd ds bpexfkb `jkmit dctuj?
+a.	edjhfxbdfybt
+	20 +6
+b.	crhsnyjcnm
+	16 +6
+c.	elfh d cgbye
+	19 +6
+d.	dpkjv
+	13 +6
+e.	rfhvfyybxtcndj
+	15 +6
+f.	crfkjkfpfybt
+	18 +6
+g.	rhbnbxtcrbt elfhs
+	34 +6
+h.	`tu
+	21 +6
+i.	ghs*rb
+	3 +6
+
+4.	D ltncndt dfibv ghjpdbotv `skj ___.
+a.	Rhjkbr
+	3 +6
+b.	Hs`rf
+	17 +6
+c.	|bdxbr
+	21 +6
+d.	Pflbhf
+	30 +6
+e.	J`tpmzyf
+	18 +6
+
+5.	Bp dct[ ytghbznys[ nbgjd ds `jkmit dctuj ytyfdblbnt ___.
+a.	[fy*tq-cdzotyybrjd
+	#4212
+	AE M 8 12 +3
+b.	lmzdjkmcrb[ djkit`ybrjd
+	#4213
+	AE M 8 2 +4
+c.	ukegs[ rhtcnmzy
+	#4214
+	AE M 8 8 +3
+d.	`tcghtltkmobrjd `fhjyjd
+	#4215
+	AE M 8 17 +4
+
+6.	Ds bcgsnsdftnt cbvgfnb< r ___.
+a.	lbrbv ufhgbzv
+	#4428
+	5 +6
+b.	ghjcnjleiysv dtkbrfyfv
+	#4429
+	6 +6
+c.	`kbcnfntkmysv lhfrjyfv
+	#4430
+	7 +6
+d.	hfpdzpysv ybvafv
+	#4431
+	8 +6
+e.	*tcnjrbv lf@lhf
+	#4432
+	9 +6
+f.	gfcnjhfkmysv lhtdjk<lmv
+	#4433
+	10 +6
+g.	gthdj`snysv rtynfdhfv
+	#4434
+	11 +6
+h.	dhtlysv `tcfv
+	#4435
+	12 +6
+
+7.	Dfv nhelytt dctuj ___.
+a.	cjghjnbdkznmcz zlfv
+	RP -10
+b.	cnjznm yf gjcne
+	FT -5
+c.	`snm d njkgt
+	RR -5
+d.	bp`tufnm `jktpytq
+	RD -5
+e.	cjghjnbdkznmcz pfrkznbzv
+	MR -5
+f.	chf*fnmcz b j`jhjyznmcz
+	TH -5
+
+8.	C ltncndf ds cj[hfybkb ___.
+a.	100 pjkjns[ vjytn
+	GP +100
+b.	rybue
+	IT 7 0 0
+c.	rjkxfy cnhtk
+	IT 3 18 0
+	IT 3 18 0
+	IT 3 18 0
+	IT 3 18 0
+	IT 3 18 0
+	IT 3 18 0
+	IT 3 18 0
+	IT 3 18 0
+	IT 3 18 0
+	IT 3 18 0
+	IT 3 18 0
+	IT 3 18 0
+d.	rbhfce
+	IT 2 0 0
+
+9.	Ds xedcndetnt ct`z e<nyj ___.
+a.	yf ndthljq gjdth[yjcnb
+	21 +4
+b.	d djlt
+	17 +4
+c.	yf dtndz[ lthtdmtd
+	18 +4
+d.	dtplt, ult ntvyj
+	16 +4
+e.	d ghbcencndbb lheub[ k<ltq
+	1 +2
+	2 +2
+
+10.	Gjkextyyjt djpyfuhf*ltybt 200 pjkjns[ vjytn,
+	Ds gjnhfnbkb `s ___.
+a.	ytn, cj[hfy< ltymub.
+	GP +200
+b.	yf @`jybnjdsq rby*fk
+	IT 3 0 7
+c.	yf gjregre htlrjq rybub
+	IT 7 0 0
+d.	yf lhfujwtyysq rfvtym
+	IT 14 0 0
+e.	yf ctht`hzysq gjcj[
+	IT 3 2 2
+
+11.	Dct cdjt cdj`jlyjt dhtvz ds ghtlgjxbnfkb nhfnbnm yf nhtybhjdrb ___.
+a.	c rby*fkfvb
+	28 +6
+b.	herjgfiyjve `j<
+	30 +6
+c.	chf*tyb< c njgjhjv
+	31 +6
+d.	c negsv jhe*btv
+	32 +6
+e.	cnhtkm`t bp kerf
+	33 +6
+f.	c vtxfvb
+	29 +6
+
+12.	Dfibv `kbprbv lheujv `sk ___.
+a.	vjyf[
+	#4212
+	AF O 8 12 +1
+b.	vfu
+	#4213
+	AF O 8 2 +1
+c.	*ekbr
+	#4214
+	AF O 8 8 +1
+d.	djby
+	#4215
+	AF O 8 17 +1
+e.	fccfccby
+	#4216
+	AF O 8 11 +1
+

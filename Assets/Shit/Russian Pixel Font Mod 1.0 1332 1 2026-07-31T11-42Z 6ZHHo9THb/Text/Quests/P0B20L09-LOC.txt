@@ -1,0 +1,177 @@
+-- Quest: C:\QUESTS\WORKING\P0B20L09.Qbn.
+-- StartsBy: letter
+-- Questee: member
+-- Questor: vampire
+-- Repute: 20
+-- QuestId: 9
+Messages: 22
+Quest: P0B20L09
+DisplayName: Fdfyufhl
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+Error: Questtext 1000 Called
+
+RefuseQuest:  [1001]
+Error: Questtext 1001 Called
+
+AcceptQuest:  [1002]
+Error: Questtext 1002 Called
+
+QuestFail:  [1003]
+Error: Questtext 1003 Called
+
+QuestComplete:  [1004]
+<ce> Ghbdtncnde< dfc, bcnht`bntkm j`jhjnytq!
+<ce> Dfi rhjdysq jntw `sk jxtym hfl ecksifnm,
+<ce> xnj dfif dskfprf pfrjyxbkfcm ecgtiyj.
+<ce> {hfybnt rksr dfitq *thnds, rfr cbvdjk
+<ce> ckfds d ctvmt %vam.
+
+RumorsDuringQuest:  [1005]
+___mondung_ - jlyj bp gjlptvtkbq, d rjnjhjt ybrnj ybrjulf yt djqltn. Ybrjulf.
+
+RumorsPostfailure:  [1006]
+Ytlfdyj bp gjlptvtkmz ___mondung_ cksifkb gj`tlysq djq.
+
+RumorsPostsuccess:  [1007]
+D rfnfrjv`f[ ___mondung_ dct nb[j b ghbdtnkbdj. Rfr d vjubkt...
+
+QuestorPostsuccess:  [1008]
+Error: Questtext 1008 Called
+
+QuestorPostfailure:  [1009]
+Error: Questtext 1009 Called
+
+QuestLogEntry:  [1010]
+      __vamp_
+       ___vamp_
+<ce>
+ %pcn,
+<ce>
+Ds ye*ys hjle %vam.
+Chjxyj gjzdkzqntcm.
+<ce>
+<ce> Dfi lheu d Cvthnb,
+<ce>
+    _vamp_
+<ce> ----
+
+Message:  1011
+<ce> Dfif ckfdf bltn dgthtlb dfc, %pcn.
+<ce> Lj`hjuj dfv dtxthf. Cnfhtqibys ctvmb
+<ce> %vam crjhj cj`bhf<ncz ghjdtcnb j`hzl
+<ce> d ghjdbywbb %reg, yj, rfr `elnj `s d
+<ce> yfcvtire, d lhtdytv [hfvt ___mondung_,
+<ce> ult jyb [jntkb cj`hfnmcz, j`jcyjdfkfcm ctvmz
+<ce> j`jhjnytq. Evjkz<, gjrf*bnt @nbv gfhfpbnfv
+<ce> b dctv, rnj c ybvb pfjlyj, xnj ___mondung_
+<ce> ghbyflkt*bn hjle %vam, b vs yt nthgbv
+<ce> ytpdfys[ ujcntq. E`tqnt dct[, rjuj cvj*tnt,
+<ce> drk<xfz b[ ukfde - rf`fyf-j`jhjnyz. Tckb ds
+<ce> dthytntcm d ntxtybt =queston_ yjxtq c jlybv
+<ce> bp tuj rksrjd, rkfy %vam `eltn `jktt xtv
+<ce> `kfujlfhty. Elfxb.
+
+Message:  1012
+%qdt:
+ Vyt ghbytckb gbcmvj bp
+ ujhjlf ___vamp_ jn ctvmb
+ %vam. _vamp_ j*blftn
+ vjtuj chjxyjuj ghb`snbz d
+ vtcnj __vamp_.
+
+Message:  1013
+%qdt:
+ _vamp_ jnghfdkztn vtyz
+ d hfpheityysq [hfv ___mondung_,
+ ult rexrf j`jhjnytq bvtkf cvtkjcnm
+ dnjhuyenmcz d dkfltybz rkfyf %vam. Vyt
+ ye*yj j`]zcybnm @nbv ytcxfcnysv ndfhzv,
+ xnj jyb yf ytdthyjv genb, b dthyenmcz
+ b dthyenmcz yfpfl d ntxtybt =queston_ yjxtq
+ c rksrjv b[ dj*frf.
+
+Message:  1017
+<ce> ~ktlysq vfkmxbr c lbrbvb ukfpfvb
+<ce> jnlfk dfv pfgbcre b bcxtp
+<ce> dj nmvt.
+
+Message:  1020
+<ce> =wereboar_, dj*fr j`jhjnytq,
+<ce> evbhftn. Ntgthm jyb `elen pyfnm,
+<ce> rfr dnjhufnmcz dj dkfltybz
+<ce> rkfyf %vam.
+
+Message:  1021
+<ce> Gj*fkeq z yt `ele e`bdfnm dfc,
+<ce> rhjdjcjc. Djpdhfofqntcm b cjj`obnt
+<ce> ctvmt %vam, xnj =wereboar_
+<ce> jnghfdbk dfc yfpfl, gjnjve rfr
+<ce> ds yt vj*tnt buhfnm xtcnyj.
+
+
+
+QBN:
+Item _letter_ letter used 1010
+Item _I.01_ tusk
+
+Person _vamp_ factiontype Vampire_Clan local
+
+Place _mondung_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Werewolf
+Foe _wereboar_ is Wereboar
+
+--	Quest start-up:
+	dialog link for person _vamp_
+	pc at _mondung_ set _S.07_
+	_letter_ used do _readletter_
+	have _letter_ set _S.09_
+	give pc _letter_ notify 1017
+	place foe _wereboar_ at _mondung_
+
+_queston_ task:
+	change repute with _vamp_ by -5
+	end quest
+
+_vampclicked_ task:
+	clicked npc _vamp_
+
+_S.06_ task:
+	when _vampclicked_
+	reveal _mondung_
+	log 1013 step 1
+	say 1011
+
+_nononono_ task:
+	when _vampclicked_ and not _S.04_
+	clear _vampclicked_ _nononono_
+
+_reward_ task:
+	toting _I.01_ and _vamp_ clicked
+	give pc _I.01_
+	end quest
+
+_S.04_ task:
+	killed 1 _wereboar_
+	say 1020
+
+_readletter_ task:
+	add dialog for person _vamp_
+	log 1012 step 0
+	create npc _vamp_
+
+_S.07_ task:
+	create foe _F.00_ every 12 minutes 30 times with 50% success
+
+_S.08_ task:
+	injured _wereboar_
+	give item _I.01_ to _wereboar_
+	say 1021
+
+_S.09_ task:
+	start timer _queston_

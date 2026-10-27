@@ -1,0 +1,136 @@
+-- Quest: C:\QUESTS\WORKING\N0B20Y05.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 20
+-- QuestId: 5
+Messages: 41
+Quest: N0B20Y05
+DisplayName: Jgfcysq djkit`ybr
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ytcjvytyyj ds e*t cksifkb ghj cevfcitlituj
+<ce> rjkleyf. _wizard_. J`kflfybt juhjvyjq cbkjq
+<ce> cdtkj tuj c evf. %rt %rn htibk yfxfnm
+<ce> `jtdst ltqcndbz ghjnbd ytuj, yj @nj negbrjdfz
+<ce> cnhfntubz. %t gjghjcbk yfc gjckfnm
+<ce> rjuj-yb`elm eybxnj*bnm @njuj vfuf-gcb[jgfnf.
+<ce> Yfuhfljq dsgjkybditve `eltn vfubx. _reward_.
+<ce> Cltkftnt kb ds @nj lkz yfc?
+   <--->
+<ce> Yfhjl htubjyf %reg evjkztn ubkmlb<
+<ce> dcnfnm uhelm< yf pfobne ghjnbd cevfcitlituj
+<ce> vfuf, rjnjhsq ytrjnjhjt dhtvz yfpfl ddthuyek
+<ce> cnhfye d gexbye cnhf[f b e*fcf. Fh[vfubcnh
+<ce> cj`cndtyyjhexyj gjlgbcfk ghbrfp, `kfujlfhz
+<ce> rjnjhjve vs j`zpfys cltkfnm nfr. Pyf<, xnj
+<ce> extyjt pfdtltybt yt dslftn kturb[ gjhextybq,
+<ce> yj `snm vj*tn ds jrf*tntcm cgjcj`ys `hjcbnm
+<ce> dspjd `tpevwe b hfcxktybnm tuj yf recjxrb?
+
+RefuseQuest:  [1001]
+<ce> Ghjrkznbt! Z nfr hfccxbnsdfk yf dfc
+<ce> d @njv ghtlghbznbb.
+
+AcceptQuest:  [1002]
+<ce> Ghtrhfcyj, z pyfk, xnj ds yt jcnfdbnt yfc
+<ce> d `tlt, %pcf. Bnfr, _wizard_ `eltn
+<ce> d cdjtq kf`jhfnjhbb, ___mondung_, d ntxtybt
+<ce> ghbvthyj =1stparton_ lytq ght*lt xtv ldbytncz d
+<ce> yjdjt vtcnj. %t [jxtn, xnj`s vfu evth lj bc[jlf
+<ce> =1stparton_ lytq, njulf jy yt ecgttn ghjbpdtcnb
+<ce> `jkmib[ hfpheitybq. Edblbvcz xthtp =1stparton_ lytq.
+<ce> ~kfujlfh< jn dctuj cthlwf b ... elfxb, %pcf!
+
+QuestFail:  [1003]
+<ce> Levf< dfv cktletn pfyznmcz ltkjv, j
+<ce> rjnjhjv vs c dfvb ljujdfhbdfkbcm,
+<ce> yt nfr kb?
+
+QuestComplete:  [1004]
+<ce> B cyjdf ds gjhfpbkb vtyz cdjbv evtybtv
+<ce> b @aatrnbdyjcnm< ltqcndbq, %pcf.
+<ce> Jnkbxyfz hf`jnf -- %t `eltn ljdjkty.
+<ce> Djn dfit djpyfuhf*ltybt rfr b `skj
+<ce> j`tofyj -- _reward_. Dkfltqnt.
+
+RumorsDuringQuest:  [1005]
+Ubkmlbz Vfujd gjckfk rjuj-nj hfpj`hfnmcz c vfujv `tpevwtv d ___mondung_.
+   <--->
+Dct pfnfbd ls[fybt *len, rfrjq *t cktle<obq ifu cltkftn `tpevtw.
+
+RumorsPostfailure:  [1006]
+Lf*t Ubkmlbz Vfujd ybxtuj yt vj*tn gjltkfnm c @nbv gcb[jv.
+   <--->
+Ybrnj yt pyftn, ult @njn _wizard_ ctqxfc, yj gjrf jy yt evhtn, yt`tpjgfcyj ctqxfc dtplt.
+
+RumorsPostsuccess:  [1007]
+Yflt<cm vs gjcktlybt, rnj cksifk j` @njv `tpevwt bp ___mondung_.
+   <--->
+Yfrjytw-nj djwfhbkfcm nbibyf b vs vj*tv dlj[yenm cgjrjqyj.
+
+QuestorPostsuccess:  [1008]
+Ghbdtncnde<, %pcf. Yflt<cm @njn gcb[ yt ghbxbybk dfv dhtlf.
+
+QuestorPostfailure:  [1009]
+<ce> Nfr...ds dthyekbcm, yj dtlm vfu-`tpevtw
+<ce> bp ___mondung_ dct tot *bd, nfr?
+<ce> Ds `tpyflt*ys, %pcf.
+
+Message:  1030
+%qdt:
+ Ubkmlbz Vfujd bp ___questgiver_ gjghjcbkf
+ vtyz e`bnm rjkleyf bp ___mondung_.
+ Vyt ye*yj pfrjyxbnm c @nbv lj bc[jlf =1stparton_ lytq
+ b dthyenmcz pf djpyfuhf*ltybtv.
+
+Message:  1040
+<ce> _wizard_ e`bn. Ds e`bkb vfuf
+<ce> `tpevwf bp ___mondung_.
+
+
+
+QBN:
+Item _reward_ magic_item
+
+Person _questgiver_ group Questor
+Person _wizard_ face 249 faction The_Mages_Guild remote
+
+Place _mondung_ remote dungeon9
+
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Mage
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1030 step 0
+	place foe _monster_ at _mondung_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _mondead_
+	give pc _reward_
+	unset _qgclicked_
+	end quest
+
+variable _queston_
+_mondead_ task:
+	killed 1 _monster_
+	say 1040
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+
+_1stparton_ task:
+	end quest
+
+variable _2ndparton_
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_
+	say 1003
+	clear _qgclicked_ _clearclick_
+--added full clearclick action. was mere variable previously.

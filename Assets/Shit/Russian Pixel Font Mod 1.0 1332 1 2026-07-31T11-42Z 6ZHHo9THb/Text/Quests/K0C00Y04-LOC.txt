@@ -1,0 +1,234 @@
+-- Quest: C:\QUESTS\WORKING\K0C00Y04.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: merchant
+-- Repute: 0
+-- QuestId: 4
+Messages: 17
+Quest: K0C00Y04
+DisplayName: Ldf nhecf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> E vtyz `jkmibt pfnhelytybz, z `j<cm.
+<ce> _lover_ b z ... jnkbxyj gjybvfkb
+<ce> lheu lheuf, yj %g4 djpk<`ktyysq
+<ce> xtkjdtr cnfhs[ ghbywbgjd. Vtyz dspdfkb
+<ce> yf le@km. R cxfcnm< _competitor_,
+<ce> vjq cjgthybr yt pyftn, rfr z dsukz*e.
+<ce> Ds vjukb `s dsqnb dvtcnj vtyz. Cjukfcys
+<ce> cltkfnm @nj pf _gold_ pjkjns[?
+<ce> ~ele jxtym `kfujlfhty.
+   <--->
+<ce> =competitor_ pltcm d %cn,
+<ce> xnj`s `hjcbnm vyt dspjd. Gjkfuf< @nj
+<ce> dspdfyj cke[fvb, xnj z j`tcxtcnbk bvz
+<ce> %g4 k<`bvjq _lover_. Yt nfr e*
+<ce> vyjuj k<ltq cnfhjq pfrfkrb d %reg.
+<ce> Vyt ye*ty rnj-nj, rnj dscnegbn dvtcnj
+<ce> vtyz yf le@kb. Ds yt cjukfcbkbcm `s
+<ce> cltkfnm @nj pf _gold_ pjkjns[?
+
+RefuseQuest:  [1001]
+<ce> Ytn? ^nj jxtym gkj[j. Xnj *,
+<ce> gjghj`e< gjbcrfnm rjuj-nj tot,
+<ce> rnj pf[jxtn gjvjxm vyt.
+
+AcceptQuest:  [1002]
+<ce> Jxtym [jhjij, %pcf. Gecnm _competitor_
+<ce> gjkexbn @njn jndtn. Ds yfqltnt tuj
+<ce> d __competitor_.
+<ce> Hfccxbnsdf< yf dfit djpdhfotybt xthtp
+<ce> =queston_ lytq, c gj`tljq, pf
+<ce> yfuhfljq. Elfxb, lheu vjq!
+
+QuestComplete:  [1004]
+<ce> Xtcnm djccnfyjdktyf, lf, vjq kexibq
+<ce> lheu, %ra? Djn _gold_ pjkjns[.
+<ce> F ctqxfc vyt ye*yj yfytcnb dbpbn
+<ce> vjtq ljhjujq _lover_ b crfpfnm
+<ce> tq j` bc[jlt bcgsnfybz ... erhsd
+<ce> rjt-rfrbt afrns rjytxyj.
+
+RumorsDuringQuest:  [1005]
+_lover_, ujdjhzn, ghbxbyf cvthntq `jkmit, xtv xevf.
+   <--->
+Gjcktlybq k<`jdybr _lover_ evth e ytt yf herf[ gsnfzcm eljdktndjhbnm ... tt *tkfybz.
+   <--->
+Tckb _lover_ pf[jxtn, xnj`s bp-pf ytt hfpsuhfkfcm le@km ... %oth, nfr b `eltn.
+
+RumorsPostfailure:  [1006]
+_lover_ `hjcbkf _competitor_ b _qgiver_ nj*t.
+   <--->
+Vt*le _lover_, _competitor_ b _qgiver_ dct rjyxtyj.
+
+RumorsPostsuccess:  [1007]
+_lover_ b _qgiver_ cyjdf dvtcnt. ^nj nfr hjvfynbxyj.
+   <--->
+_qgiver_ e`bk =competitor_ b dct bp-pf k<`db r _lover_.
+
+QuestorPostsuccess:  [1008]
+^nj xtcnm lkz vtyz gjvjxm dfv, %pcf. Dtlm vs pyftv, xnj nfrjt xtcnm, yt nfr kb?
+
+QuestorPostfailure:  [1009]
+Dfc gjghjcbkb gjlvtybnm vtyz, blbjn! Bkb ds e*t pf`skb?
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_
+ bp __qgiver_, ___qgiver_
+ `sk dspdfy yf le@km b gjckfk vtyz gjlvtybnm tuj.
+ _competitor_, c rtv vyt yflj lhfnmcz,
+ ljk*ty gjkexbnm jndtn yf dspjd. Yfqnb tuj vj*yj
+ d __competitor_ d ___competitor_. Gjckt
+ le@kb vyt ye*yj dthyenmcz r _qgiver_
+ pf jgkfnjq d __qgiver_. Dct hflb k<`db
+ r _lover_.
+
+
+Message:  1011
+  Z, _qgiver_ bp ___qgiver_,
+gjlndth*lf< jndtn yf dspjd.
+<ce>
+  Pf vyjq jcnftncz ghfdj ds`jhf vtcnf,
+ult vs dcnhtnbvcz. ^nj vtcnj pltcm
+b ctqxfc.
+<ce>
+  ^njn rjynhfrn jabwbfkmyj hfphtity.
+Jnrfp jn gjtlbyrf `tp dblbvs[ yf
+nj ghbxby dktxtn gjnth< dfitq
+xtcnb d gjkyjv j`]tvt.
+<ce>
+_qgiver_ bp ___qgiver_
+<ce> ----
+
+Message:  1012
+<ce> Ds, @@@, _qgiver_? Ljk*yj `snm
+<ce> dfv ye*ty lheujq xtkjdtr gj bvtyb
+<ce> _competitor_, cfvsq yfcnjzobq
+<ce> b cbkmysq, [v, _duelist_.
+<ce> Ds yfqltnt tuj d _arena_.
+<ce> Elfxb, _qgiver_. Yflt<cm
+<ce> yf dfie gj`tle!
+   <--->
+<ce> Ds _qgiver_ ...
+<ce> %oth, z dcnhtxecm c dfvb
+<ce> d _arena_. Gjpdjkmnt njkmrj vyt
+<ce> gthtjltnmcz d jlt*ls _duelist_.
+<ce> Ghjofqnt!
+
+Message:  1013
+<ce> Ds d _arena_,
+<ce> ult _competitor_ cj`bhfkcz
+<ce> dcnhtnbnmcz c dfvb.
+
+Message:  1014
+<ce> Gj *tkfyb< _qgiver_,
+<ce> ds e`bkb _duelist_ d
+<ce> xtcnm _competitor_.
+<ce> Ye*yj djpdhfofnmcz r yfybvfntk<.
+<ce> B gjxtcnb b ckfdf djccnfyjdktys.
+
+Message:  1015
+<ce> Rfrfz lbrjcnm! C jlyjq cnjhjys
+<ce> _competitor_, ytjntcfyysq `jkdfy,
+<ce> dspdfdibq yf gjtlbyjr _qgiver_.
+<ce> C lheujq cnjhjys nheckbdsq _qgiver_,
+<ce> gjckfdibq dfc dvtcnj ct`z. Cgfcb`j,
+<ce> xnj ljytckb @nj lj vjtuj dybvfybz!
+<ce> E vtyz yt nfr e* vyjuj ltytu, yj vjue
+<ce> ghtlkj*bnm dfv _lovgold_ pjkjns[
+<ce> dvtcnj njuj, xnj dfv gjj`tofk @njn lehtym.
+   <--->
+<ce> Rfr @nj hjvfynbxyj! Njkmrj ghtlcnfdmnt --
+<ce> _competitor_ b _qgiver_
+<ce> ujnjds bphe`bnm lheu lheuf yf recjxrb
+<ce> hflb vtyz. %oth, rfr `s pf[dfnsdf<ot
+<ce> @nj yb `skj, z yt vjue ljgecnbnm @njuj.
+<ce> Z etle bp ___lover_ yfdctulf, yj
+<ce> dyfxfkt ghbvbnt @nb _lovgold_ pjkjns[,
+<ce> rjnjhst dfv gjj`tofk _qgiver_.
+<ce> Z yt vjue gjdpjkbnm dfv jcnfnmcz `tp ltytu,
+<ce> gjnjve xnj ds ghtljndhfnbkb le@km.
+<ce> Elfxb dfv, %pcf.
+   <--->
+<ce> Lfdfqnt-rf hfp`thtvcz dj dctv. ^njn blbjn
+<ce> _competitor_ htdyetn vtyz r
+<ce> _qgiver_ b dspdfk tuj yf le@km.
+<ce> F @nj nheckbdjt xeljdbot _qgiver_
+<ce> gjckfkj dfc dvtcnj ct`z yf @ne le@km?
+<ce> Gjxtve *t z ljk*yf k<`bnm b[ gjckt @njuj?
+<ce> Djpmve @nj yf pfvtnre. Djn _lovgold_ pjkjns[
+<ce> dvtcnj njuj, xnj dfv gjj`tofk _qgiver_.
+<ce> Yt `eltn ybrfrjq le@kb.
+
+Message:  1016
+%qdt:
+ _competitor_ e`t*fk, rjulf z ghbytc
+ jndtn yf tuj dspjd yf le@km.
+ Le@kb dct tot ghtlcnjbn cjcnjznmcz, yj
+ ghjbc[jlbnm jyf `eltn d _arena_ d
+ __arena_.
+
+
+
+QBN:
+Item _gold_ gold
+Item _dueler_ letter used 1011
+--added underscores to dueler
+Item _lovgold_ gold
+
+Person _qgiver_ group Questor
+Person _lover_ group Group_7.0 local
+Person _competitor_ group Group_7.1 local
+--UESP suggests any gender is possible
+
+Place _arena_ local house2
+Place _loverhome_ local house
+--lover wouldn't appear in any local place
+
+Clock _queston_ 3.01:20 5.23:20
+
+Foe _duelist_ is Spellsword
+
+--	Quest start-up:
+	start timer _queston_
+	log 1010 step 0
+	get item _dueler_
+	place npc _lover_ at _loverhome_
+
+_queston_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _duelist_
+	say 1014
+
+_S.02_ task:
+	toting _dueler_ and _competitor_ clicked
+	pc at _arena_ set _S.04_
+	log 1016 step 1
+	say 1012
+	place foe _duelist_ at _arena_
+
+_S.03_ task:
+	toting _dueler_ and _lover_ clicked
+	get item _lovgold_
+	say 1015
+	make _lovgold_ permanent
+	end quest
+
+_S.04_ task:
+	say 1013
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_reward_ task:
+	when _qgclicked_ and _S.01_
+	give pc _gold_
+	end quest
+
+until _reward_ performed:
+	clear _qgclicked_

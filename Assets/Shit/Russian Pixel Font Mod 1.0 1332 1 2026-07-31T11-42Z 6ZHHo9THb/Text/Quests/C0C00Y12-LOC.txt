@@ -1,0 +1,163 @@
+-- Quest: C:\QUESTS\WORKING\C0C00Y12.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: temple
+-- Repute: 0
+-- QuestId: 12
+Messages: 21
+Quest: C0C00Y12
+DisplayName: Gj[botyysq ghtlvtn
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> J`sxyj vs yt lftv hf`jne ntv, rnj
+<ce> yt zdkztncz xktyjv __qgiver_.
+<ce> Yj rfr `s nj yb `skj, ctqxfc
+<ce> vs ghjcnj yt ecgtdftv pf dctv.
+<ce> Rfrjq-nj `tccns*bq djh erhfk
+<ce> bp [hfvf _religitem_.
+<ce> Jlby cdzotyybr [jhjij hfccvjnhtk
+<ce> ghtcnegybrf. ^nj `sk ekbxysq
+<ce> djhbirf, =thief_ gj bvtyb
+<ce> _thief_, rjnjhsq pf[jlbk d [hfv
+<ce> yf lyz[, ghtntylez yf xktycndj.
+<ce> Dscktlbnt @njuj djh b dthybnt
+<ce> gj[botyye< dtom, njulf vs `eltv
+<ce> r dfv `jktt `kfujcrkjyys.
+
+RefuseQuest:  [1001]
+<ce> Z lf< dfv ifyc, f ds gk<tnt vyt
+<ce> d kbwj. ~jkmit yt *lbnt jn
+<ce> vtyz `kfuj*tkfntkmyjcnb.
+
+AcceptQuest:  [1002]
+<ce> Dfv ye*yj dthyenmcz d ntxtybt
+<ce> =traveltime_ lytq. Gjckt
+<ce> bcntxtybz chjrf yfi hswfhcrbq
+<ce> jhlty djpmvtncz pf gjbcrb, f
+<ce> djn ds gjnthztnt cdjq ifyc.
+
+QuestComplete:  [1004]
+<ce> Dct hfls dfv, %pcn.
+<ce> _religitem_ dthyekcz yf cdjt
+<ce> vtcnj d [hfvt. Ds pfcke*bkb
+<ce> `kfujcrkjyyjcnm %god.
+
+RumorsDuringQuest:  [1005]
+<ce> _thief_ is holed up in _thiefplace_ in __thiefplace_.  A good
+<ce> place to hide from __qgiver_.
+
+RumorsPostfailure:  [1006]
+Gj[j*t __qgiver_ ybrjulf yt gjkexbn _religitem_ j`hfnyj.
+
+RumorsPostsuccess:  [1007]
+_thief_ gthtlfkb d herb ghfdjcelbz, f __qgiver_ gjkexbk _religitem_ j`hfnyj.
+
+QuestorPostsuccess:  [1008]
+Ds *t yt levftnt, xnj z pf`sk, rnj dthyek yfv _religitem_, %pcf.
+
+QuestorPostfailure:  [1009]
+Yfi _religitem_ ghjgfk yfdctulf, f ds tot [jnbnt j xtv-nj gjujdjhbnm? Ytgjcnb*bvj!
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_, bp __qgiver_
+ d ___qgiver_, lftn vyt ifyc
+ yfqnb _religitem_,
+ rjnjhsq gj[bnbk =thief_ gj bvtyb _thief_.
+ E vtyz =traveltime_ lytq, xnj`s
+ pfdthibnm hf`jne.
+
+Message:  1011
+<ce> %oth!  {hfv yfyzk yftvybrf,
+<ce> xnj`s pf`hfnm rfre-nj `tcgjktpye<
+<ce> `tpltkeire? %oth,
+<ce> z `sk edthty, xnj jyf yt
+<ce> ghtlcnfdkztn ybrfrjq wtys.
+<ce> Djn, pf`bhfqnt tt. Bnfr, gj[j*t
+<ce> @nf dtobwf cnjbn vyjuj ljhj*t...
+<ce> Gjvjubnt!! ^njn %ra juhf`bk
+<ce> yfib rfhvfys!
+
+Message:  1012
+<ce> Gjcnjhjyybq! Gjlybvfqnt nhtdjue!
+<ce> Gjcnjhjyybq d plfybb!
+
+Message:  1013
+<ce> _thief_... pyfrjvjt bvz, yj njxyj
+<ce> yt vjue crfpfnm. Rf*tncz rnj-nj c
+<ce> nfrbv bvtytv crhskcz d
+<ce> __thiefplace_, lf? Bpdbybnt,
+<ce> `jkmit ybxtv yt vjue gjvjxm.
+   <--->
+<ce> =decoy_?  Edthty, z pyf< tuj. |bdtn d
+<ce> ___decoy_.
+   <--->
+<ce> Tckb ds ujdjhbnt j =thief_, nj gj[j*t
+<ce> @nj rnj-nj bp __thiefplace_,
+<ce> jlyf*ls pfktpibq d vjq rfhvfy.
+
+Message:  1014
+<ce> Rjytxyj, z pyf< @njuj rhsctysif. Ghjdthmnt
+<ce> _thiefplace_ d __thiefplace_.
+<ce>
+<ce> _thief_? Lf, jy crhsdftncz d
+<ce> _thiefplace_ d __thiefplace_.
+<ce> Yflt<cm, ds hfp`thtntcm c ybv
+<ce> rfr cktletn!
+
+Message:  1020
+<ce> _thief_ dhexftn dfv _religitem_,
+<ce> gjckt xtuj hfcndjhztncz d ntyz[.
+<ce> Cfvjt dhtvz ltkfnm yjub!
+
+
+
+QBN:
+Item _religitem_ religious
+
+Person _qgiver_ group Questor
+Person _thief_ face 229 faction The_Thieves_Guild male remote anyInfo 1014 rumors 1013
+Person _decoy_ face 92 group Local_3.1 male remote
+
+Place _thiefplace_ remote house2
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _burglar_ is Burglar
+Foe _rogue_ is Rogue
+
+--	Quest start-up:
+	dialog link for person _decoy_
+	start timer _traveltime_
+	log 1010 step 0
+	pc at _thiefplace_ set _S.04_
+	place npc _thief_ at _thiefplace_
+
+_traveltime_ task:
+	make _religitem_ permanent
+	end quest
+
+_questdone_ task:
+	toting _religitem_ and _qgiver_ clicked
+	give pc nothing
+	end quest
+
+_S.02_ task:
+	injured _rogue_ saying 1012
+	injured _burglar_ saying 1012
+
+_S.03_ task:
+	clicked npc _thief_
+	get item _religitem_ saying 1011
+	hide npc _thief_
+	say 1020
+--exchanged 1011 and 1020 for better dialogue
+
+variable _S.04_
+_S.05_ task:
+	when _S.04_ and _S.03_
+	create foe _rogue_ every 5 minutes 2 times with 80% success
+	create foe _burglar_ every 5 minutes 2 times with 70% success
+--drastically increased spawn chance, from 3 and 2%. Nearly impossible to see them otherwise. Also reduced spawn time from 50 to 5.

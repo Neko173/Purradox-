@@ -1,0 +1,222 @@
+-- Quest: C:\QUESTS\WORKING\R0C30Y25.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 30
+-- QuestId: 25
+Messages: 36
+Quest: R0C30Y25
+DisplayName: ~fylf djhjd
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vyt ye*ty rnj-nj, rnj cvj*tn ljcnfdbnm jlye
+<ce> dtobwe vjtve pyfrjvjve d ___contact_.
+<ce> D j`vty ds gjkexbnt lheue< dtobwe. Tckb ds
+<ce> ghbytctnt tt vyt, `ele hfl pfgkfnbnm dfv
+<ce> _reward_ pjkjns[.
+<ce> Cjukfcys?
+
+RefuseQuest:  [1001]
+<ce> Ytn? Jxtym *fkm. Z *lfk
+<ce> lheujuj jndtnf.
+
+AcceptQuest:  [1002]
+<ce> Jxtym [jhjij. Djpmvbnt @njn ckbnjr pjkjnf
+<ce> b jnytcbnt tuj jlyjve =contact_
+<ce> gj bvtyb _contact_ d vtcntxrt gjl yfpdfybtv
+<ce> __contact_ d ___contact_.
+<ce> Dfv ye*yj gjnjhfgkbdfnmcz.
+<ce> _contact_ yt bp njuj cjhnf k<ltq, xnj
+<ce> `elen *lfnm ktybds[ gjcskmys[.
+<ce> Jxtym [jhjij, elfxb dfv, %pcf.
+<ce> ~ele *lfnm dfituj djpdhfotybz xthtp =1stparton_ lytq.
+
+QuestFail:  [1003]
+<ce> Gj*fkeqcnf, yt `tcgjrjqnt vtyz, gjrf
+<ce> yt ghbytctnt vyt nj, xnj z *le.
+
+QuestComplete:  [1004]
+<ce> Dtkbrjktgyj, %pcf, ds dthyekbcm c vjtq
+<ce> pfxfhjdfyyjq dtobwtq _item2_ rfr b j`tofkb.
+<ce> Z cks[fk, xnj e dfc `skb yt`jkmibt nhelyjcnb
+<ce> gj genb b e*t yfxfk `tcgjrjbnmcz, xnj ds
+<ce> gjnthzkbcm. D pyfr vjtq ghbpyfntkmyjcnb pf
+<ce> jnkbxyj dsgjkytyye< hf`jne z lj`fdk<
+<ce> vfubxtcrbq ghtlvtn _item3_
+<ce> r j`tofyyjq cevvt _reward_ pjkjns[.
+<ce> Edthty, @nj dfv ghbujlbncz d `kb*fqitv `eleotv.
+<ce> Tot hfp `kfujlfh< dfc.
+
+RumorsDuringQuest:  [1005]
+Pltcm `sk =contact_, cghfibdfdibq, yt dbltkb kb vs pltcm %ra.
+   <--->
+Ytrbq =contact_ bcrfk %ra c _item1_ ytrnjhjt dhtvz yfpfl.
+
+RumorsPostfailure:  [1006]
+{vv, _questgiver_, ujdjhzn, jxtym ytljdjkty rfrbv-nj %ra-yftvybrjv.
+   <--->
+_questgiver_ dct tot cnjhjybncz yftvybrjd gjckt njuj, rfr jlby bp yb[ gjldtk tuj.
+
+RumorsPostsuccess:  [1007]
+Ujdjhzn, _questgiver_ yfrjytw-nj gjkexbk nj, xnj bcrfk - _item2_.
+   <--->
+_questgiver_ djplfdfk vjkbnds rfrjve-nj %ra-yftvybre.
+
+QuestorPostsuccess:  [1008]
+Xnj z vjue cltkfnm lkz dfc, vjq [hf`hsq <ysq gjcskmysq?
+   <--->
+~ele hfl gjvjxm xtv eujlyj vjtve k<`bvjve gjcskmyjve.
+
+QuestorPostfailure:  [1009]
+<ce> Ljcnfdrf gjcskrb jrfpfkfcm ckbirjv ... ckj*yjq,
+<ce> lf? F, ytghj[jlbvfz negjcnm dct[ vjkjls[ %ra.
+<ce> E[jlbnt ctqxfc *t, %pcf.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_ bp
+ ___questgiver_ gjcskftn vtyz
+ r _contact_ bp __contact_ d ___contact_,
+ cj ckbnrjv pjkjnf. Pjkjnj ye*yj ljcnfdbnm
+ b dhtyenmcz d __questgiver_ d ntxtybt
+ =1stparton_ lytq, xnj`s gjkexbnm _reward_
+ pfjkjns[, rjnjhst j`tofk _questgiver_.
+
+Message:  1011
+<ce> Bpevbntkmyj, %pcf. Z ghjcnj nfrb j`j*f<
+<ce> pjkjnj, f ds? Xnj *, djpmvbnt
+<ce> _item2_ b jnytcbnt @nj r _questgiver_.
+<ce> Yflt<cm ds gjvybnt ljhjue d ___questgiver_.
+
+Message:  1015
+_qgenemy_ ... Levf< %g bp __thievesguild_.
+   <--->
+_qgenemy_?  Gjbobnt d jrhtcnyjcnz[ __thievesguild_. Vj*tn `snm rnj xnj b pyftn.
+
+Message:  1016
+<ce> _qgenemy_ dnzyen d ytpfrjyyst cltkrb c __thievesguild_.
+<ce> Gjbobnt _thievesguild_ -- nfv %g vj*tn ghjdjlbnm cdjt dhtvz.
+
+Message:  1020
+<ce> Rfr njkmrj ds gthtdthyekb yfgflfdituj, nj
+<ce> gjxedcndjdfkb, rfrjt-nj itdtktybt cpflb.
+<ce> Rhftirjv ukfpf ds pfvtnbkb abuehe, cnhtvzoe<cz
+<ce> e<t*fnm rfr vj*yj lfkmit, gjrf r dfv yt
+<ce> dthyekfcm cgjcj`yjcnm cjj`hf*fnm.
+
+Message:  1021
+=thief_,
+<ce>
+  Wtkm - %ra gj bvtyb %pcn,
+rjnjhsq ytctn _item2_ jn
+__contact_.  Ghbytcb _item2_
+rj vyt.  |bnm bkb evthtnm rehmthe,
+yf ndjtq cjdtcnb.
+<ce>
+<ce> _qgenemy_
+<ce> ----
+
+Message:  1030
+<ce> %oth, ns rnj b rfrbv vfrfhjv pltcm?!
+<ce> Ljk*yj `snm ns njn cfvsq rehmth jn
+<ce> _questgiver_! Pyfxbn =thief_ dct *t yt e`bk
+<ce> nt`z. Vjt lj`hjt cthlwt, dctulf jyj ddzpsdftn
+<ce> vtyz d ytghbznyjcnb ... Cnhf*f!
+<ce> E`tqnt @njuj yfheibntkz!!
+
+Message:  1035
+Gthufvtyn hfcrhsdftn vtcnjyf[j*ltybt
+If`fif Djkys d Vbhrdjct, xnj `s @nj
+yb pyfxbkj.
+
+
+QBN:
+Item _reward_ gold
+Item _item1_ gold_bar
+Item _item2_ magic_item
+Item _letter_ letter used 1021
+Item _item3_ magic_item
+Item _map_ letter used 1035
+
+Person _questgiver_ face 72 group Questor
+Person _contact_ faction Dancers remote
+-- Person:    1 80 -1 0 13278 0 0.
+
+Person _qgenemy_ face 1 faction The_Thieves_Guild remote anyInfo 1015 rumors 1016
+
+Place _thievesguild_ remote house1
+Place totambuCoven permanent MyrkwasaCoven
+
+Clock _1stparton_ 00:00 0 flag 17 range 1 4
+Clock _2ndparton_ 00:00 0 flag 1 range 2 5
+
+Foe _thief_ is 2 Nightblade
+Foe _F.01_ is Thief
+Foe _guards_ is Rogue
+
+--	Quest start-up:
+	dialog link for location _thievesguild_ person _qgenemy_
+	start timer _1stparton_
+	log 1010 step 0
+	get item _item1_
+	pick one of _yesmap_ _nomap_ _nomap_ _nomap_
+	_map_ used do _readmap_
+	create npc _contact_
+
+_pcgetsgold_ task:
+	toting _item2_ and _questgiver_ clicked
+	give pc _reward_
+	give pc _item3_
+	end quest
+
+_queston_ task:
+	when _2ndparton_
+	when _1stparton_ and not _pchasitem2_
+	make _item1_ permanent
+	make _item2_ permanent
+	change repute with _questgiver_ by -20
+	end quest
+
+variable _qgclicked_
+_npcclicked_ task:
+	toting _item1_ and _contact_ clicked
+	create foe _thief_ every 10 minutes 3 times with 100% success
+	get item _item2_
+	say 1011
+
+variable _1stparton_
+variable _pchasitem1_
+_pchasitem2_ task:
+	pc at _thievesguild_ set _S.10_
+-	place item _item2_ at _thievesguild_
+- this duplicate was placed on the floor for some reason, should not be
+	start timer _2ndparton_
+
+variable yes
+_S.08_ task:
+	injured _thief_
+	give item _letter_ to _thief_
+	say 1020
+	have _item2_ set _pchasitem2_
+
+variable _no_
+_S.10_ task:
+	give item _item2_ to _F.01_
+	restrain foe _F.01_
+	place foe _F.01_ at _thievesguild_
+
+_S.11_ task:
+	injured _F.01_
+	create foe _guards_ every 2 minutes 6 times with 50% success
+	say 1030
+	change repute with _qgenemy_ by -20
+
+variable _2ndparton_
+_yesmap_ task:
+	give item _map_ to _F.01_
+
+variable _nomap_
+_readmap_ task:
+	reveal totambuCoven in province 46 at 423290

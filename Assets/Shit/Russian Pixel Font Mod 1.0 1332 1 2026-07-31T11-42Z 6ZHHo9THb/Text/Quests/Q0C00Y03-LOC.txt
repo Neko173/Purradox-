@@ -1,0 +1,169 @@
+-- Quest: C:\QUESTS\WORKING\Q0C00Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: witch
+-- Repute: 0
+-- QuestId: 3
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 14
+Quest: Q0C00Y03
+DisplayName: Cdzpb c j`otcndtyyjcnm<
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> ==qgiver_ ltqcndbntkmyj
+<ce> [jntk `s bcgjkmpjdfnm ndjt evtybt d
+<ce> dtcmvf f`cehlyjv, yj jxtym cthmtpyjv
+<ce> ltkt. Lkz nt`z yt ctrhtn, xnj dtlmv
+<ce> d %reg ghtpbhf<n. Ljkujt dhtvz
+<ce> yfv e*t ybrnj yt ljdthztn, pf yfie cbke
+<ce> b etlbytyyjcnm, rjnjhst ltkf<n yfc cbkjq,
+<ce> rjnjhjq ckj*yj vfybgekbhjdfnm. Vs epyfkb
+<ce> ghj kjdeire, rjnjhfz d crjhjv dhtvtyb
+<ce> uhjpbn j`heibnmcz yf yfc b yfv ye*ty
+<ce> rnj-nj, rnj cvj*tn j`tpdhtlbnm tt.
+<ce> Ns yt cjukfcbimcz yf @nj pflfybt pf
+<ce> _gem_?
+
+RefuseQuest:  [1001]
+<ce> Jnrfpsdftimcz? %oth,
+<ce> ==qgiver_ yfrf*en bp-pf
+<ce> nhecjcnb yfib[ cj<pybrjd.
+
+AcceptQuest:  [1002]
+<ce> ~thtimcz? Njulf djn, nen tcnm lbnz,
+<ce> yfpsdf<ott ct`z _child_.
+<ce> Vs yfikb tuj ytcrjkmrj lytq yfpfl,
+<ce> `hjityysv cdjbvb hjlbntkzvb. Ytcjvytyyj,
+<ce> @nj lbnz jcnfdbkb pltcm, xnj`s yfib dhfub
+<ce> vjukb ljrfpfnm yfie djdktxtyyjcnm d @nb
+<ce> ltkf -- dj xnj ns levftim? Xtkjdtxtcrbt
+<ce> *thndjghbyjitybz? Cjdhfotybt ytdbyys[?
+<ce> Lth*e gfhb, d gj[botybt k<ltq.
+<ce> _child_ ujdjhbn, xnj hjlbntkb
+<ce> *bden d _home_ d __home_.
+<ce> Cjghjdjlb ht`tyrf ljvjq, yj `thtubcm.
+<ce> Yfib dhfub vjuen gjgsnfnmcz e`bnm dfc j`jb[,
+<ce> xnj`s yt ljgecnbnm djpdhfotybz ht`tyrf
+<ce> ljvjq. Djpdhfofqcz d ntxtybt =queston_ lytq
+<ce> bkb hfymit b vs jnlflbv nt`t _gem_.
+<ce> Elfxb.
+
+QuestComplete:  [1004]
+<ce> Jxtym [jhjij, xnj _child_
+<ce> e*t ljvf. ~snm vj*tn lj`hjnf, ghjzdktyyfz
+<ce> ==qgiver_ hfpdttn [jnz `s xfcnm
+<ce> vbajd j yfitq xeljdboyjcnb lkz cktle<otuj
+<ce> gjrjktybz. Djn _gem_. Cgfcb`j
+<ce> pf gjvjom, %pcf.
+
+RumorsDuringQuest:  [1005]
+Gj cke[fv ==qgiver_ tot [e*t, xtv gj[bnbntkb.
+   <--->
+Tckb _child_ yf yfqlen, ==qgiver_ cj*uen.
+
+RumorsPostfailure:  [1006]
+Ujdjhzn ==qgiver_ gj[bnbkb =child_. ~tlyjt lbnz.
+   <--->
+==qgiver_ yt vjuen jghjdthuyenm cks[b, xnj jyb gj[bnbkb ht`tyrf.
+
+RumorsPostsuccess:  [1007]
+==qgiver_ yt gj[bofkb _child_ -- ht`tyjr cfv crfpfk j` @njv.
+   <--->
+Tckb dthbnm ckjdfv _child_, ==qgiver_ gjvjukb, f yt ghbxbybkb dhtlf.
+
+QuestorPostsuccess:  [1008]
+Pf ghjzdktyye< lj`hjne r _child_ b ==qgiver_, z hflf ujdjhbnm c nj`jq.
+
+QuestorPostfailure:  [1009]
+<ce> Vs gjghjcbkb nt`z cjghjdjlbnm
+<ce> _child_ ljvjq,
+<ce> f d htpekmnfnt ytelfxf. Ljdjkmyj dpfbvys[
+<ce> j`dbytybq. E[jlb ghjxm bp ==qgiver_,
+<ce> xthnjd %ra.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Vyt ye*yj ljcnfdbnm `hjityyjuj e if`fif
+ ==qgiver_ ht`tyrf ljvjq.
+ _child_, ht`tyjr,
+ *bdtn d _home_ d __home_.
+ Dhfub dtlmv vjuen gjgsnfnmcz e`bnm
+ yfc, xnj`s lbnz yt dthyekjcm ljvjq.
+
+Message:  1011
+<ce> "Djn pltcm z *bde! ^nj vjq
+<ce> ljv!" _child_
+<ce> jlfhbdftn dfc gjwtketv d otre,
+<ce> "~kfujlfh< nt`z, %pcf!"
+
+Message:  1012
+<ce> "K<`bntkm dtlmv! Jnhjlmt
+<ce> _daedra_!" - hfplfkcz ujkjc.
+   <--->
+<ce> "Yt ljgecnbv, xnj`s jnhjlmt
+<ce> ==daedra_ b ==qgiver_
+<ce> *bkb!" - dsrhbryek rnj-nj.
+   <--->
+<ce> "%god erhtgbn vjb herb
+<ce> d `jhm`t ghjnbd gtirb b jnhjlmz
+<ce> bcxflbq flf, ==qgiver_!" -
+<ce> - ghjrhbxfk ujkjc.
+
+Message:  1013
+<ce> "Z lj`thecm lj ljvf cfvjcnjzntkmyj" -
+<ce> - crfpfkj lbnz, ecrjkmpyed jn dfc
+<ce> b hfcndjhbdibcm d cevthrf[ c
+<ce> gjhfpbntkmyjq kjdrjcnm<.
+
+
+
+QBN:
+Item _gem_ gem
+
+Person _qgiver_ group Questor
+Person _child_ face 105 faction Children
+Person _daedra_ face 69 factiontype Daedra male remote
+
+Place _home_ remote house2
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _warrior_ is Warrior
+
+--	Quest start-up:
+	create foe _warrior_ every 15 minutes 40 times with 100% success msg 1012
+	start timer _queston_
+	log 1010 step 0
+	pc at _home_ set _S.01_
+	add _child_ face
+
+_queston_ task:
+	end quest
+
+_S.01_ task:
+	say 1011
+	drop _child_ face
+	start task _S.07_
+--added start task S.07. 07 was turning off when S.01 deactivated.
+
+_reward_ task:
+	when _S.03_ and _S.07_
+	give pc _gem_
+	end quest
+
+_S.03_ task:
+	clicked npc _qgiver_
+
+_S.04_ task:
+	when _S.03_ and not _S.07_
+	clear _S.03_ _S.04_
+
+_S.05_ task:
+	when _queston_ and not _S.07_
+	say 1013
+
+variable _S.06_
+variable _S.07_
+--changed S.07 to empty variable instead of "when S.01"

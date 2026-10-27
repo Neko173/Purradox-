@@ -1,0 +1,116 @@
+-- Quest: C:\QUESTS\WORKING\R0C10Y10.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 10
+Messages: 11
+Quest: R0C10Y10
+DisplayName: Gjcnfdrf djjhe*tybz
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Crf*bnt, ds yt [jnbnt pfhf`jnfnm _reward_
+<ce> pjkjns[ njkmrj pf nj, xnj
+<ce> ljcnfdbnt vfktymre< gjcskre
+<ce> vjtve futyne?
+   <--->
+<ce> Vyt ye*yf eckeuf xtkjdtrf chtlyb[
+<ce> cgjcj`yjcntq,c `kfujhfpevbtv dsit chtlytuj
+<ce> b ujnjdjuj yf ytghtcnb*ye< hf`jne
+<ce> rehmthf pf _reward_ pjkjns[.
+<ce> Ds nfrjq xtkjdtr?
+
+RefuseQuest:  [1001]
+<ce> D cfvjv ltkt? Dthjznyj, ckbirjv pfyzns? Vyjuj nthztnt.
+
+AcceptQuest:  [1002]
+<ce> Jnkbxyj! Djn _weapon_.
+<ce> _contact_ d ___contact_
+<ce> ljk*ty bvtnm tuj yt gjplytt =queston_
+<ce> lytq. Yflt<cm, @njuj dhtvtyb ljcnfnjxyj.
+<ce> Ds epyftnt _contact_ --
+<ce> bobnt =contact_.
+<ce> Elfxb. ~kfujlfh< dfc.
+
+QuestFail:  [1003]
+<ce> Yt cvjukb dsgjkybnm ghjcne< ljcnfdre,
+<ce> %pcf? Z yflt<cm, ds yt j*blftnt
+<ce> yfuhfls pf @nj.
+
+QuestComplete:  [1004]
+<ce> Hfl dbltnm dfc, %pcf. F nfr*t
+<ce> _weapon_. Jnkbxyj! Djn nt
+<ce> _reward_ pjkjns[, rjnjhst
+<ce> gjj`tofk dfv _questgiver_.
+
+RumorsDuringQuest:  [1005]
+_questgiver_, z cksifk, dct tot ghjvsikztn rjynhf`fyljq.
+   <--->
+Pf gjcktlytt dhtvz ghjbpjitk gjhfpbntkmysq hjcn rjynhf`fyls.
+
+RumorsPostfailure:  [1006]
+Ytrnj yfitk jxtym ghtktcnysq _weapon_ ytlfdyj ult-nj ytgjlfktre.
+   <--->
+Z cksifk, _questgiver_ cdbhtg rfr fl r ytrjtve %ra fdfyn<hbcne.
+
+RumorsPostsuccess:  [1007]
+Ytrbq _contact_ dct rhenbkcz jrjkj _weapon_.
+   <--->
+Rjynhf`fylf htkbubjpysvb fhntafrnfvb - ytcjvytyyj, yjdjt `jkmijt ghtcnegktybt.
+
+QuestorPostsuccess:  [1008]
+F, vjq rehmth. Ghtktcnyj! Xtv vjue dfv gjvjxm?
+   <--->
+Lf, gj[j*. Nfr @nj ds ltkfkb vfktymre< ljcnfdre lkz vtyz ytlfdyj, f?
+
+QuestorPostfailure:  [1009]
+<ce> Ds dsukzlbnt d njxyjcnb, rfr
+<ce> %ra, rnj ghjdfkbk vjt gjhextybt
+<ce> j ljcnfdrt. Pf`fdyj. E`bhfqntcm ghjxm.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_ bp
+ __questgiver_, ___questgiver_
+ gjckfk vtyz ljcnfdbnm _weapon_
+ cj<pybre, gj bvtyb _contact_.
+ Z ljk*ty gthtlfnm _weapon_
+ d herb _contact_ yt gjplytt =queston_
+ lytq. =contact_
+ njxyj ljk*ty yf[jlbncz d vtcnt, yfpdfyyjv
+ __contact_ d ___contact_.
+
+
+
+QBN:
+Item _weapon_ weapon
+Item _reward_ gold
+
+Person _questgiver_ face 112 group Questor
+Person _contact_ group Local_3.0 remote
+
+
+Clock _queston_ 00:00 0 flag 1 range 1 2
+
+
+--	Quest start-up:
+	start timer _queston_
+	log 1010 step 0
+	get item _weapon_
+	create npc _contact_
+
+_pcgetsgold_ task:
+	toting _weapon_ and _contact_ clicked
+	give pc _reward_
+	end quest
+
+variable _pchasitem_
+variable _npcclicked_
+_queston_ task:
+	make _weapon_ permanent
+	change repute with _questgiver_ by -20
+	end quest
+
+variable _1stparton_

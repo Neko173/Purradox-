@@ -1,0 +1,152 @@
+-- Quest: C:\QUESTS\WORKING\O0B10Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: thief
+-- Repute: 10
+-- QuestId: 3
+Messages: 11
+Quest: O0B10Y03
+DisplayName: Gjctotybt [hfvf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ghbdtn, e vtyz tcnm hf`jntyrf,
+<ce> tckb, rjytxyj, yflj. Vtyz pjden
+<ce> _qgiver_. Jlby vfksq [jxtn
+<ce> cdzotyye< theyle bp [hfvf
+<ce> _temple_, -_religiousitem_.
+<ce> Pfqvtimcz?
+
+RefuseQuest:  [1001]
+<ce> Z `ele bvtnm nt`z d dble, %pcn
+<ce> tckb gjldthytncz `jktt bynthtcyfz
+<ce> hf`jnf.
+
+AcceptQuest:  [1002]
+<ce> {jhjij. Njulf ckeifq.
+<ce> Blb d [hfv _temple_
+<ce> xnj d hfqjyt ujhjlf __temple_.
+<ce> Pf`thb _religiousitem_ b ghbytcb
+<ce> vyt. Gjkexbim pf @nj j`sxysq
+<ce> ujyjhfh. _gold_ pjkjns[.
+<ce> Z lf< nt`t =traveltime_ lytq, b [jxe,
+<ce> xnj`s @nf inexrf `skf e vtyz.
+
+QuestComplete:  [1004]
+<ce> Ghbdtn. Ghtlcnfdkztim, @nb ghblehrb
+<ce> yt [jnzn gkfnbnm... Jyb, yfdthyjt,
+<ce> yt ghtlcnfdkz<n ct`t, rfr `skj
+<ce> ckj*yj ljcnfnm @ne [htym. Yflt<cm
+<ce> jyb yt cjdctv tot xjryekbcm, xnj`s
+<ce> j`vfysdfnm vtyz. ^nj gkj[fz bltz.
+<ce> Ye ybxtuj. Vjz ckfdyfz `hfndf ghbnfobn
+<ce> b[ pf eib.
+<ce> F djj`ot-nj, %pcf, [jhjifz hf`jnf. B,
+<ce> ukfdyjt, djdhtvz. Lth*b. ^nj pf ndjb
+<ce> eckeub.
+
+RumorsDuringQuest:  [1005]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostfailure:  [1006]
+_temple_, gj[j*t, jxtym [jhjij j[hfyztncz.
+
+RumorsPostsuccess:  [1007]
+Rfrjq-nj gfhtym, frjkbn [hfvf _temple_, pfgkfnbk djhfv, xnj`s jyb ghjybrkb d tuj *t [hfv.
+
+QuestorPostsuccess:  [1008]
+Rfr ltkf, %pcf? Z dct tot *le bpdtcnbq jn gfhyz, rjnjhsq yfc yfyzk.
+
+QuestorPostfailure:  [1009]
+<ce> Vyt ytdf*yj, j[hfyzkcz kb
+<ce> @njn [hfv Kjhljv dctuj
+<ce> J`kbdbjyf, %pcf!
+<ce> Yt [jxe lf*t cksifnm ybrfrb[
+<ce> jghfdlfybq. Ljdthbt ubkmlbb
+<ce> r nt`t gjljhdfyj.
+<ce> Blb gjuekzq.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp Ubkmlbb Djhjd
+ ujhjlf  ___qgiver_ lftn vyt pflfybt
+ erhfcnm _religiousitem_
+ bp [hfvf _temple_ ujhjlf
+ __temple_. Yf dct e vtyz tcnm
+ =traveltime_ lytq. Dtobwe ye*yj ghbytcnb
+ j`hfnyj.
+
+
+
+QBN:
+Item _religiousitem_ religious
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _temple_ remote temple
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is 2 Knight
+Foe _F.01_ is Giant_scorpion
+Foe _F.02_ is Monk
+Foe _F.03_ is Zombie
+
+--	Quest start-up:
+	place item _religiousitem_ at _temple_
+	start timer _traveltime_
+	log 1010 step 0
+	pc at _temple_ set _S.01_
+
+_traveltime_ task:
+	make _religiousitem_ permanent
+	change repute with _qgiver_ by -5
+	end quest
+
+_S.01_ task:
+	pick one of _guard1_ _guard2_ _guard3_ _guard4_
+
+_questdone_ task:
+	toting _religiousitem_ and _qgiver_ clicked
+	give pc _gold_
+	end quest
+
+_guard1_ task:
+	create foe _F.00_ every 4 minutes 1 times with 10% success
+
+_guard2_ task:
+	create foe _F.01_ every 4 minutes 1 times with 10% success
+
+_guard3_ task:
+	create foe _F.02_ every 4 minutes 1 times with 10% success
+
+_guard4_ task:
+	create foe _F.03_ every 4 minutes 1 times with 10% success

@@ -1,0 +1,115 @@
+-- Quest: C:\QUESTS\WORKING\00B00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Julianos
+-- Repute: 0
+-- QuestId: 0
+Messages: 32
+Quest: 00B00Y00
+DisplayName: Wtyf pyfybq
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> D Irjkt L*ekbfyjcf ceotcndetn tlbycndtyyjt ghfdbkj --
+<ce> -- pyfybt ghbyflkt*bn dctv. R ytcxfcnm< d yfitv jhltyt
+<ce> `skb jlby njdfhbo, rjnjhsq pf`sk @nj ghfdbkj. Tuj yflj
+<ce> yfrfpfnm. Tckb vs pfgkfnbv dfv _reward_ pjkjns[,
+<ce> cjukfcbntcm kb ds dscktlbnm b e`bnm `sdituj xktyf
+<ce> yfitq irjks?
+
+RefuseQuest:  [1001]
+<ce> Rfrjt hfpjxfhjdfybt. Kflyj, yfqltv rjuj-yb`elm gjcujdjhxbdtt.
+
+AcceptQuest:  [1002]
+<ce> {jhjij. ^nj `kelyjt lbnz -
+<ce> - yfqn`ktql gj bvtyb =monster_,
+<ce> yfitlibq e`t*bot d cdjtq kf`jhfnjhbb,
+<ce> d ___mondung_. Tckb ds yt dthytntcm
+<ce> lj bc[jlf =1stparton_ lytq c rhjdm< bpuyfyybrf
+<ce> yf cdjb[ herf[, vs `eltv cxbnfnm, xnj ds gjnthgtkb
+<ce> ytelfxe bkb cujdjhbkbcm c =monster_, f dfit
+<ce> djpyfuhf*ltybt `eltn jnlfyj `jktt elfxkbdjve.
+<ce> Z dct crfpfk, vjb herb xbcns. Elfxb b ghjofqnt.
+
+QuestFail:  [1003]
+Gjrf yfqn`ktql *bd, z yt *tkf< j`ofnmcz c dfvb, %pcf.
+
+QuestComplete:  [1004]
+<ce> Jxtym [jhjifz hf`jnf. Djn dfit djpyfuhf*ltybt
+<ce> _reward_ pjkjns[. Vs jxtym `kfujlfhys dfv.
+
+
+RumorsDuringQuest:  [1005]
+Z cksifk ult-nj d ___mondung_ j`bnftn yfqn`ktql, ghjlf<obq pfrkbyfybz pf ltymub.
+   <--->
+Htytufns pfrkbyfntkb jxtym jgfcys. Yflt<cm @njn _monster_ gjkexbn cdjt.
+
+RumorsPostfailure:  [1006]
+Gj[j*t xnj =monster_ c`t*fk b dct tot ghjlftn cdjb pfrkbyfybz.
+   <--->
+Z cksifk, xnj Irjkf L*ekbfyjcf jpdexbkf djk< Hswfhcrjuj Yfcnfdybrf rjve-nj.
+
+RumorsPostsuccess:  [1007]
+Yfrjytw-nj @njuj htytufnf ljcnfkb. Ytkmpz ljgecrfnm, xnj`s ytlbcwbgkbybhjdfyyst vfub hfcgecrfkbcm.
+   <--->
+Jxtym *fkm, xnj @njn _monster_ gjqvfy. Z cksifk e ytuj `skf gkjljhjlyfz gjxdf.
+
+QuestorPostsuccess:  [1008]
+<ce> Ds %pcn. Rfr dfif hf`jnf yfcxtn =monster_,
+<ce> htytufnf-pfrkbyfntkz, tckb gjvybnt?
+
+QuestorPostfailure:  [1009]
+<ce> {vvv. Ds xnj, cjdctv pf`hjcbkb hf`jne gj eybxnj*tyb<
+<ce> htytufnf-pfrkbyfntkz =monster_, f?
+
+Message:  1030
+%qdt:
+ Irjkf L*ekbfyjcf d ___questgiver_
+ yfyzkf vtyz e`bnm jlyjuj `tuktwf
+ _monster_ bp b[ [hfvf,
+ =monster_. E vtyz =1stparton_ lytq yf
+ dsgjkytybt pflfybz.
+ Bcrfnm yflj d ___mondung_.
+
+Message:  1031
+<ce> =monster_ e`bn.
+<ce> Irjkf `eltn ljdjkmyf.
+
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ group Questor
+
+Place _mondung_ remote dungeon9
+
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Nightblade
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1030 step 0
+	place foe _monster_ at _mondung_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _mondead_
+	give pc _reward_
+	end quest
+
+_mondead_ task:
+	killed 1 _monster_ saying 1031
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+
+_1stparton_ task:
+	end quest
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_
+	say 1003
+	clear _qgclicked_ _clearclick_

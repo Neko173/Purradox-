@@ -1,0 +1,143 @@
+-- Quest: C:\QUESTS\WORKING\J0B00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Zenithar
+-- Repute: 0
+-- QuestId: 0
+Messages: 31
+Quest: J0B00Y00
+DisplayName: Yfuhflf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Tckb ds cdj`jlys lkz yfqvf, e vtyz tcnm
+<ce> hf`jnf lkz dfc. ^nj vfktymrjt uhzpyjt
+<ce> ltkmwt, drk<xf<ott d ct`z yfrfpfybt
+<ce> jlyjuj djhf. Gkfnf pf hf`jne cjcnfdbn
+<ce> _reward_ pjkjns[. Xnj levftnt, @nj
+<ce> pdexbn lkz dfc ghbtvktvj?
+
+RefuseQuest:  [1001]
+<ce> Rfrjt hfpjxfhjdfybt. Xnj *, vs gjbotv
+<ce> rjuj-nj gjcujdjhxbdtt.
+
+AcceptQuest:  [1002]
+<ce> D yfib[ ltkf[ vs dctulf cnfhftvcz `snm yf
+<ce> cnjhjyt pfrjyf, yj d lfyyjv ckexft yfv
+<ce> ye*yj jghfdlfybt. ^njn djh, rfr dblbnt,
+<ce> yfukj uhf`bn jlby bp yfib[ rfhfdfyjd b
+<ce> dsye*lftn yfc ghbcnegbnm r htibntkmysv
+<ce> ltqcndbzv. Ytcks[fyyfz yfukjcnm. Ds
+<ce> yfqltnt @njuj djhbire d cdjtv erhsnbb d
+<ce> ___mondung_.
+<ce> Djpdhfofqntcm d ntxtybt =1stparton_ lytq.
+
+QuestFail:  [1003]
+<ce> Kexit `s dfv gjitdtkbnmcz, %pcf.
+<ce> E dfc dctuj kbim =1stparton_ lytq,
+<ce> xnj`s e`bnm *ekbrf.
+
+QuestComplete:  [1004]
+<ce> Jxtym [jhjifz hf`jnf, %pcf.
+<ce> ^nj `eltn [jhjibq ehjr ghjxbv
+<ce> hjvfynbrfv c `jkmijq ljhjub. Djn
+<ce> dfif yfuhflf - _reward_ pjkjns[.
+
+RumorsDuringQuest:  [1005]
+^njn ghblehjr d jlbyjxre cgjcj`ty gjdthuyenm d rhf[ @rjyjvbre.
+   <--->
+<ce> Jyb levf<n, xnj @nj ghjcnj djh, yj @njn *ekbr dtcmvf
+<ce> bcrecty dj dkfltybb c rkbyrjv.
+
+RumorsPostfailure:  [1006]
+^njn *ekbr gthtvtcnbkcz d lheujt erhsnbt, f ljhjub dct tot yt`tpjgfcys.
+   <--->
+Yt pyf<, gjxtve @njuj hjvfynbrf c `jkmijq ljhjub tot yt fhtcnjdfkb. ^nj *t jxtym kturj.
+
+RumorsPostsuccess:  [1007]
+Regws cxfcnkbds, xnj b[ bp`fdbkb jn yfljtdituj bv djhf.
+   <--->
+Vtyz yt djkyetn, xnj jyb cdzpfkbcm c yfqn`ktqljv. Ljhjub nj dct tot yt`tpjgfcys.
+
+QuestorPostsuccess:  [1008]
+Rjytxyj *t z gjj`of<cm c dfv, %pcf. Z dct tot gjvy<, xnj ds e`bkb @njuj hfp`jqybrf.
+
+QuestorPostfailure:  [1009]
+~kfujyfvthtybt Ptybnfhf ghjljk*ftn nthznm cdjb ltymub. ^nj yt cvtiyj.
+
+Message:  1020
+<ce> Ljk*yj `snm ns bp ~kfujyfvthtybz.
+<ce> Ghbujnjdmcz r cvthnb, j[jnybr
+<ce> pf ujkjdfvb!
+
+Message:  1030
+%qdt:
+ ~kfujyfvthtybt Ptybnfhf gjckfkj vtyz e`bnm
+ djhf, hfpuhf`kz<otuj tt rfhfdfys.
+ ___mondung_ - erhsnbt @njuj *ekbrf.
+ Vyt ye*yj e`bnm tuj b dthyenmcz d
+ ___questgiver_ d ntxtybt
+ =1stparton_ lytq.
+
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ group Questor
+
+Place _mondung_ remote dungeon
+
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
+
+Foe _monster1_ is Nightblade
+Foe _monster2_ is Assassin
+Foe _monster3_ is Thief
+Foe _monster4_ is Spellsword
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1030 step 0
+	pick one of _S.05_ _S.06_ _S.07_ _S.08_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _mondead_
+	give pc _reward_
+	end quest
+
+_mondead_ task:
+	killed 1 _monster4_
+	killed 1 _monster2_
+	killed 1 _monster1_
+	killed 1 _monster3_
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+
+_1stparton_ task:
+	end quest
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_
+	say 1003
+	clear _qgclicked_ _clearclick_
+
+_S.05_ task:
+	place foe _monster1_ at _mondung_
+
+_S.06_ task:
+	place foe _monster2_ at _mondung_
+
+_S.07_ task:
+	place foe _monster3_ at _mondung_
+
+_S.08_ task:
+	place foe _monster4_ at _mondung_
+
+_S.09_ task:
+	injured _monster4_ saying 1020
+	injured _monster3_ saying 1020
+	injured _monster2_ saying 1020
+	injured _monster1_ saying 1020

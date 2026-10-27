@@ -1,0 +1,1122 @@
+{
+    "Breton": {
+        "setCount": 6,
+        "sets": [
+            {
+                "setIndex": 0,
+                "parts": [
+                    "Ntjl",
+                    "Fyl",
+                    "~tl",
+                    "Gth",
+                    "Hjl",
+                    "Ujyl",
+                    "^ld",
+                    "Vjhl",
+                    "Fuh",
+                    "Nhbcn",
+                    "Ley",
+                    "Fkf`",
+                    "En"
+                ]
+            },
+            {
+                "setIndex": 1,
+                "parts": [
+                    "jh",
+                    "byfr",
+                    "bdbh",
+                    "bdfk",
+                    "bhbr",
+                    "jhzy",
+                    "fhl",
+                    "by",
+                    "brnjh",
+                    "fyt",
+                    "bcnfbh",
+                    "fcnsh",
+                    "bcnsh"
+                ]
+            },
+            {
+                "setIndex": 2,
+                "parts": [
+                    "Vjhu",
+                    "Udby",
+                    "^k",
+                    "Bc",
+                    "^kbp",
+                    "Dbrn",
+                    "Kbc",
+                    "Dfyy",
+                    "Rhbcn",
+                    "^dtk",
+                    "Rfhjk",
+                    "~fh`",
+                    "~tkkfl"
+                ]
+            },
+            {
+                "setIndex": 3,
+                "parts": [
+                    "fyyf",
+                    "bdbhf",
+                    "fqy",
+                    "jklf",
+                    "f`bn",
+                    "fecf",
+                    "jhz",
+                    "bccf",
+                    "bhhz",
+                    "by",
+                    "byf",
+                    "fhf",
+                    "jyf"
+                ]
+            },
+            {
+                "setIndex": 4,
+                "parts": [
+                    "{jr",
+                    "Del",
+                    "Qtjv",
+                    "{bhn",
+                    "Rbyu",
+                    "Uhby",
+                    "U@h",
+                    "Vfcnth",
+                    "Veh",
+                    "Rjggth",
+                    "~frbyu",
+                    "^i",
+                    "Ebr"
+                ]
+            },
+            {
+                "setIndex": 5,
+                "parts": [
+                    "ebyu",
+                    "[fec",
+                    "ckb",
+                    "rhjan",
+                    "ckb",
+                    "[fhn",
+                    "abkl",
+                    "cnjy",
+                    "byu",
+                    "cvbn",
+                    "[fv",
+                    "njy",
+                    "ajhl"
+                ]
+            }
+        ]
+    },
+    "Redguard": {
+        "setCount": 5,
+        "sets": [
+            {
+                "setIndex": 0,
+                "parts": [
+                    "~",
+                    "~f",
+                    "~j",
+                    "~k",
+                    "~m",
+                    "W",
+                    "Wb",
+                    "Wf",
+                    "Wm",
+                    "X",
+                    "L",
+                    "Lm",
+                    "L[",
+                    "A",
+                    "Am",
+                    "Ak",
+                    "A[",
+                    "Af",
+                    "U",
+                    "Uk",
+                    "Uh",
+                    "U[",
+                    "R",
+                    "Rk",
+                    "Rh",
+                    "R[",
+                    "K",
+                    "K[",
+                    "V",
+                    "Vf",
+                    "V[",
+                    "Vm",
+                    "Y",
+                    "Y[",
+                    "H",
+                    "Hf",
+                    "H[",
+                    "Hk",
+                    "C",
+                    "Cf",
+                    "Ck",
+                    "Cn",
+                    "I",
+                    "Ih",
+                    "N",
+                    "Nm",
+                    "Nk",
+                    "N[",
+                    "D",
+                    "Dk",
+                    "Dm"
+                ]
+            },
+            {
+                "setIndex": 1,
+                "parts": [
+                    "f",
+                    "t",
+                    "b",
+                    "j",
+                    "e"
+                ]
+            },
+            {
+                "setIndex": 2,
+                "parts": [
+                    "n[",
+                    "x",
+                    "hw",
+                    "hl",
+                    "*",
+                    "hr",
+                    "kk",
+                    "u",
+                    "hu",
+                    "hx",
+                    "un",
+                    "hn",
+                    "abk",
+                    "kl",
+                    "hv",
+                    "hy",
+                    "hg",
+                    "kg",
+                    "h",
+                    "c",
+                    "i",
+                    "hn",
+                    "cn",
+                    "rn",
+                    "d",
+                    "p"
+                ]
+            },
+            {
+                "setIndex": 3,
+                "parts": [
+                    "fy",
+                    "ty",
+                    "by",
+                    "jy",
+                    "ey",
+                    "t",
+                    "fv",
+                    "tv",
+                    "bv",
+                    "jv",
+                    "ev",
+                    "n",
+                    "rt",
+                    "'rthy",
+                    "hy",
+                    "th",
+                    "fh",
+                    "bh",
+                    "eh",
+                    "nt",
+                    "nf",
+                    "nty"
+                ]
+            },
+            {
+                "setIndex": 4,
+                "parts": [
+                    "b",
+                    "-b",
+                    "-cb",
+                    "nb",
+                    "nf",
+                    "nf",
+                    "`f",
+                    "*f",
+                    "af",
+                    "rf",
+                    "cf",
+                    "rb",
+                    "uf",
+                    "rf",
+                    "-t"
+                ]
+            }
+        ]
+    },
+    "Nord": {
+        "setCount": 4,
+        "sets": [
+            {
+                "setIndex": 0,
+                "parts": [
+                    "^h",
+                    "Rq",
+                    "Njh`",
+                    "Atyh",
+                    "Vjl*",
+                    "Byuv",
+                    "Fcu",
+                    "Fk",
+                    "~q",
+                    "Cjhh",
+                    "{fh",
+                    ">hu",
+                    "Ekh"
+                ]
+            },
+            {
+                "setIndex": 1,
+                "parts": [
+                    "br",
+                    "@kl",
+                    "ty",
+                    "bc",
+                    "@yc",
+                    "fh",
+                    "th",
+                    "fhbr",
+                    "jhy",
+                    "fhrt",
+                    "fkl",
+                    "fy",
+                    "fhyt"
+                ]
+            },
+            {
+                "setIndex": 2,
+                "parts": [
+                    "{tkk",
+                    "L*bn",
+                    "Rbhcn",
+                    "Ekk",
+                    "Fy",
+                    "~tn",
+                    "{fy",
+                    "Vjhu",
+                    "Ljh",
+                    "Vtn",
+                    "^kk",
+                    "Cbkk",
+                    "Byu "
+                ]
+            },
+            {
+                "setIndex": 3,
+                "parts": [
+                    "t",
+                    "nt",
+                    "ty",
+                    "f",
+                    "yt",
+                    "byf",
+                    "bf"
+                ]
+            }
+        ]
+    },
+	"DarkElf": {
+        "setCount": 6,
+        "sets": [
+            {
+                "setIndex": 0,
+                "parts": [
+                    "Ieh",
+                    "Pfy",
+                    "Ifk",
+                    "^ht`",
+                    "Ybc",
+                    "Dfybr",
+                    "{tk",
+                    "Pbh",
+                    "Neh",
+                    "Ek",
+                    "Rfc",
+                    "Fpfh"
+                ]
+            },
+            {
+                "setIndex": 1,
+                "parts": [
+                    "br",
+                    "afh",
+                    "bvfh",
+                    "jy",
+                    "bk",
+                    "fby",
+                    "ctn[",
+                    "rfy",
+                    "bvfk",
+                    "bty",
+                    "gfh",
+                    "fn["
+                ]
+            },
+            {
+                "setIndex": 2,
+                "parts": [
+                    "Kjk",
+                    "Dfqy",
+                    "Nf`",
+                    "Kbk",
+                    "{tr",
+                    "Dthv",
+                    "Ith",
+                    "Ltv",
+                    "Ujku",
+                    "Rhe",
+                    "Itk",
+                    "Y@a"
+                ]
+            },
+            {
+                "setIndex": 3,
+                "parts": [
+                    "n[",
+                    "bf[",
+                    "bnf[",
+                    "bn",
+                    "fnf[",
+                    "byf[",
+                    "bdf[",
+                    "jyf[",
+                    "jnf[",
+                    "@kkt",
+                    "j`f[",
+                    "@nbc"
+                ]
+            },
+            {
+                "setIndex": 4,
+                "parts": [
+                    "H'",
+                    "^yfr",
+                    "Flk",
+                    "{tk`",
+                    "Vjf`",
+                    "Cfbk",
+                    "H'pfv",
+                    "N'hbp",
+                    "C'n[",
+                    "Uhek",
+                    "Fdfk",
+                    "Hfkk"
+                ]
+            },
+            {
+                "setIndex": 5,
+                "parts": [
+                    "bc",
+                    "ek",
+                    "fy",
+                    "jyt",
+                    "ty",
+                    "tyfh",
+                    "jy",
+                    "fv",
+                    "fby",
+                    "`her",
+                    "fhjy",
+                    "fn[bk"
+                ]
+            }
+        ]
+    },
+    "HighElf": {
+        "setCount": 6,
+        "sets": [
+            {
+                "setIndex": 0,
+                "parts": [
+                    "Cjkb",
+                    "Rjhhb",
+                    "Kjdb",
+                    "Kbkkfyl",
+                    "Vbn[",
+                    "Rtkrtvvt",
+                    "Rfkf",
+                    "Cfhe",
+                    "Cfe",
+                    "Ufy",
+                    "Rjht",
+                    "Cbht"
+                ]
+            },
+            {
+                "setIndex": 1,
+                "parts": [
+                    "yfh",
+                    "kbfy",
+                    "nfh",
+                    "hbk",
+                    "hf",
+                    "hbbk",
+                    "vjy",
+                    "vfy",
+                    "hjy",
+                    "lfka",
+                    "kkjy",
+                    "kfc"
+                ]
+            },
+            {
+                "setIndex": 2,
+                "parts": [
+                    "Rjhb",
+                    "Wbv`f",
+                    "Dfkkb",
+                    "Ptyj",
+                    "Kjhf",
+                    "Cfeh",
+                    "Vjh",
+                    "Gcb",
+                    "Kbkb",
+                    "Fylhf",
+                    "Rf",
+                    "If"
+                ]
+            },
+            {
+                "setIndex": 3,
+                "parts": [
+                    "vbz",
+                    "kbyf",
+                    "yf",
+                    "cfhf",
+                    "kbz",
+                    "yf",
+                    "ctajyf",
+                    "if",
+                    "nf",
+                    "ubybz"
+                ]
+            },
+            {
+                "setIndex": 4,
+                "parts": [
+                    "Uft",
+                    "Fl",
+                    "Nhjv",
+                    "^kcby",
+                    "Rf@v",
+                    "{fq",
+                    "Cbkby",
+                    "Qjh",
+                    "Cgtkk",
+                    "Cnjhv",
+                    "Uhtq",
+                    "Kfhtn["
+                ]
+            },
+            {
+                "setIndex": 5,
+                "parts": [
+                    "jhby",
+                    "bfy",
+                    "ec",
+                    "jh",
+                    "bht",
+                    "dfnx",
+                    "nfh",
+                    "fk",
+                    "`bylth",
+                    "kjrr",
+                    "fbht",
+                    "bec"
+                ]
+            }
+        ]
+    },
+    "WoodElf": {
+        "setCount": 6,
+        "sets": [
+            {
+                "setIndex": 0,
+                "parts": [
+                    "^kbc",
+                    "Fy",
+                    "Fhf",
+                    "Cbk",
+                    "Fh",
+                    "Kb",
+                    "Rj",
+                    "Ktuj",
+                    "Nf",
+                    "Hbf",
+                    "Rfhj",
+                    "Gfkb"
+                ]
+            },
+            {
+                "setIndex": 1,
+                "parts": [
+                    "nfy",
+                    "lhb@km",
+                    "ujhy",
+                    "dfy",
+                    "xth",
+                    "ufy",
+                    "hbv",
+                    "kfc",
+                    "ybc",
+                    "vfy",
+                    "l@kk",
+                    "yjh"
+                ]
+            },
+            {
+                "setIndex": 2,
+                "parts": [
+                    "Vby",
+                    "E",
+                    "Cb",
+                    "Rfc",
+                    "Kbkbc",
+                    "Hbkkb",
+                    "Kfht",
+                    "Ab",
+                    "Cbk",
+                    "Ktuj",
+                    "Ltc"
+                ]
+            },
+            {
+                "setIndex": 3,
+                "parts": [
+                    "ubyf",
+                    "yf",
+                    "kthdf",
+                    "cfylhf",
+                    "cf",
+                    "abyf",
+                    "nbf",
+                    "ybf",
+                    "lhf",
+                    "kfylhf"
+                ]
+            },
+            {
+                "setIndex": 4,
+                "parts": [
+                    "Vjcc",
+                    "Jfr",
+                    "Dbkkje",
+                    "Gfqy",
+                    "Athy",
+                    "Bdb",
+                    "Yfqn",
+                    "Cghbyu",
+                    "Iflb",
+                    "~ke",
+                    "Hbdth",
+                    "Ajhtcn"
+                ]
+            },
+            {
+                "setIndex": 5,
+                "parts": [
+                    "del",
+                    "njhy",
+                    "dbyl",
+                    "[jkkje",
+                    "gek",
+                    "hey",
+                    "itql",
+                    "`her",
+                    "dtqk",
+                    "crbq",
+                    "ltqk",
+                    "ktqr"
+                ]
+            }
+        ]
+    },
+    "Khajiit": {
+        "setCount": 6,
+        "sets": [
+            {
+                "setIndex": 0,
+                "parts": [
+                    "Vjl*",
+                    "F`'",
+                    "Fr'",
+                    "Vj",
+                    "Yf",
+                    "Vj[fv",
+                    "Cby",
+                    "Jv",
+                    "{ec",
+                    "Fv",
+                    "Af'",
+                    "If",
+                    "Pfy'",
+                    "Pf'",
+                    "F['"
+                ]
+            },
+            {
+                "setIndex": 1,
+                "parts": [
+                    "nf`f",
+                    "nf`t",
+                    "lek",
+                    "`fh",
+                    "`bk",
+                    "vtl",
+                    "lth",
+                    "bh",
+                    "cjel",
+                    "cbty",
+                    "u[",
+                    "fh",
+                    "ybh",
+                    "yjel",
+                    "rbh",
+                    "ehf`b"
+                ]
+            },
+            {
+                "setIndex": 2,
+                "parts": [
+                    "Af",
+                    "Fpb",
+                    "If",
+                    "Vj",
+                    "Cj",
+                    "^kf",
+                    "Yf",
+                    "Cf",
+                    "F",
+                    "Pf",
+                    "Rb",
+                    "{f",
+                    "Nf",
+                    "Hb",
+                    "Hf"
+                ]
+            },
+            {
+                "setIndex": 3,
+                "parts": [
+                    "nbvf",
+                    "hb`f",
+                    "pbnf",
+                    "f[by",
+                    "l*fy",
+                    "[hfpfl",
+                    "[t[",
+                    "chby",
+                    "hfz",
+                    "[nfh",
+                    "ibvf",
+                    "atkbp",
+                    "f[yb",
+                    "[fyf",
+                    "ybnf"
+                ]
+            },
+            {
+                "setIndex": 4,
+                "parts": [
+                    "|f",
+                    "~fhf",
+                    "Pf",
+                    "Cb",
+                    "{fvve",
+                    "Rb",
+                    "Vf[",
+                    "Cf",
+                    "Hj",
+                    "F",
+                    "Hfq",
+                    "Cjk",
+                    "{f",
+                    "Nfdfr",
+                    "Pf"
+                ]
+            },
+            {
+                "setIndex": 5,
+                "parts": [
+                    "[fy",
+                    "`ec",
+                    "[bh",
+                    "rfh",
+                    "hf`b",
+                    "yfq",
+                    "lfdb",
+                    "dfylb",
+                    "cnft",
+                    "vyby",
+                    "cgjjh",
+                    "nfyb",
+                    "`bhb",
+                    "jyb",
+                    "vfyyb"
+                ]
+            }
+        ]
+    },
+    "Imperial": {
+        "setCount": 6,
+        "sets": [
+            {
+                "setIndex": 0,
+                "parts": [
+                    "Nb`",
+                    "Rkfel",
+                    "Feuecn",
+                    "Rfkbu",
+                    "Yth",
+                    "Uthvfy",
+                    "Gbk",
+                    "Lbjrktn",
+                    "Fynbujy",
+                    "Ltvtnh",
+                    "Fktrc",
+                    ">k",
+                    "{th"
+                ]
+            },
+            {
+                "setIndex": 1,
+                "parts": [
+                    "thbec",
+                    "bec",
+                    "ec",
+                    "ekf",
+                    "jc",
+                    "brec",
+                    "fnt",
+                    "bfy",
+                    "bltc",
+                    "bjc",
+                    "fylhjc",
+                    "bfh",
+                    "frktc"
+                ]
+            },
+            {
+                "setIndex": 2,
+                "parts": [
+                    "Nf`",
+                    "Gth",
+                    "Nthh",
+                    "Fhn",
+                    "Fa",
+                    ">l",
+                    "{th",
+                    "Fn[",
+                    "Ltv",
+                    "Nbh",
+                    "{tr",
+                    "Ybr",
+                    "Vfrtl"
+                ]
+            },
+            {
+                "setIndex": 3,
+                "parts": [
+                    "bf",
+                    "brkf",
+                    "bfyf",
+                    "tvbc",
+                    "byf",
+                    "bntf",
+                    "hjlbnt",
+                    "tyf",
+                    "tnthf",
+                    "jcsyf",
+                    "fntf",
+                    "jvtlf",
+                    "jybf"
+                ]
+            },
+            {
+                "setIndex": 4,
+                "parts": [
+                    "Rft",
+                    "Fylhj",
+                    "Feuec",
+                    "Rfkb",
+                    "Gth",
+                    "Vfu",
+                    "Ntj",
+                    "Rcth",
+                    "Ufk",
+                    "Nb`th",
+                    "Rf",
+                    "Vt",
+                    "Yb"
+                ]
+            },
+            {
+                "setIndex": 5,
+                "parts": [
+                    "cfh",
+                    "rktc",
+                    "nec",
+                    "uekec",
+                    "ctec",
+                    "vec",
+                    "ljhec",
+                    "ytc",
+                    "kec",
+                    "cbjy",
+                    "ccbec",
+                    "ltc",
+                    "vtfy"
+                ]
+            }
+        ]
+    },
+    "Monster1": {
+        "setCount": 3,
+        "sets": [
+            {
+                "setIndex": 0,
+                "parts": [
+                    "Uhjk",
+                    "Nhbwth",
+                    "Yjh",
+                    "Ctr",
+                    "Vjh",
+                    "Qt",
+                    "Dthv",
+                    "Nhju",
+                    "Crj",
+                    "Cfi",
+                    "Djq",
+                    "Fp",
+                    "Zu",
+                    "Lhe",
+                    "Lfu",
+                    "Uhev",
+                    "Dt",
+                    "{tp",
+                    "Crek",
+                    "Uhjv",
+                    "Fy",
+                    "Hfnn",
+                    "{tk",
+                    "Vjh",
+                    "Uhbg"
+                ]
+            },
+            {
+                "setIndex": 1,
+                "parts": [
+                    "fy",
+                    "f",
+                    "uf",
+                    "j",
+                    "hb",
+                    "yj",
+                    "b",
+                    "kj",
+                    "hf",
+                    "t",
+                    "e",
+                    "hf",
+                    "jn",
+                    "fh",
+                    "th",
+                    "bh"
+                ]
+            },
+            {
+                "setIndex": 2,
+                "parts": [
+                    "njh",
+                    "djh",
+                    "hfn[",
+                    "kfn[",
+                    "ujy",
+                    "u[e",
+                    "nhfw",
+                    "ljy",
+                    "ec",
+                    "kfc",
+                    "nty",
+                    "njn[",
+                    "[jn[",
+                    "ujl",
+                    "ljn[",
+                    "kjn[",
+                    "hjrr",
+                    "hjuu",
+                    "rthh",
+                    "njhh",
+                    "`bn[",
+                    "heujn[",
+                    "ujn[",
+                    "lh@ll",
+                    "afyuu"
+                ]
+            }
+        ]
+    },
+    "Monster2": {
+        "setCount": 4,
+        "sets": [
+            {
+                "setIndex": 0,
+                "parts": [
+                    "Ltv",
+                    "|e`",
+                    "Vfh",
+                    "Fcv",
+                    "~ffk",
+                    "Lbcg",
+                    "Uth",
+                    "Vf@k",
+                    "~fk",
+                    "{jvey",
+                    "Vjhr",
+                    "Cf["
+                ]
+            },
+            {
+                "setIndex": 1,
+                "parts": [
+                    "ju",
+                    "b`k",
+                    "bk",
+                    "jl",
+                    "t`",
+                    "fn",
+                    "s",
+                    "t`h",
+                    "ex",
+                    "ek",
+                    "efu",
+                    "bfv"
+                ]
+            },
+            {
+                "setIndex": 2,
+                "parts": [
+                    "jhujy",
+                    "@rc",
+                    "bn[",
+                    "tec",
+                    "ek",
+                    "th",
+                    "jy",
+                    "fyrc",
+                    "bn[th",
+                    "fc",
+                    "jn[",
+                    "byrc"
+                ]
+            },
+            {
+                "setIndex": 3,
+                "parts": [
+                    "f",
+                    "f[",
+                    "bf",
+                    "bf[",
+                    "tyf",
+                    "tccf",
+                    "ekkf",
+                    "eyf",
+                    "ekkf[",
+                    "eya[",
+                    "bdf[",
+                    "bdf"
+                ]
+            }
+        ]
+    },
+    "Monster3": {
+        "setCount": 4,
+        "sets": [
+            {
+                "setIndex": 0,
+                "parts": [
+                    "Dkfl",
+                    "Vjh",
+                    "Ufh",
+                    "~fkmn",
+                    "Yt`e[",
+                    "Dth",
+                    "Lfhr",
+                    "Vfuy",
+                    "Kbn",
+                    "Cnfl",
+                    "~fh",
+                    "Bydth",
+                    "Rjhh",
+                    "Ytrhjv"
+                ]
+            },
+            {
+                "setIndex": 1,
+                "parts": [
+                    "bv",
+                    "@[",
+                    "@k",
+                    "@p",
+                    "@y",
+                    "j`",
+                    "ek",
+                    "bd",
+                    "byu",
+                    "bdfh",
+                    "ju[",
+                    "jv",
+                    "jd",
+                    "fy"
+                ]
+            },
+            {
+                "setIndex": 2,
+                "parts": [
+                    "jy",
+                    "fec",
+                    "@jy",
+                    "fh",
+                    "tppfh",
+                    "fv",
+                    "jh",
+                    "ec",
+                    "jn",
+                    "bec",
+                    "ekjy",
+                    "qn",
+                    "fy",
+                    "bjy"
+                ]
+            }
+			{
+                "setIndex": 3,
+                "parts": [
+                    "Kjhl",
+                    "Uhfa",
+                    "~fhjy",
+                    "Dbrjyn",
+                    "Vfhrbp",
+                    "Uthwju"
+                ]
+            },
+        ]
+    }
+}

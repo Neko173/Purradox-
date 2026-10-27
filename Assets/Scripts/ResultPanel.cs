@@ -38,10 +38,10 @@ public class ResultsPanel : MonoBehaviour
         int steps = GameManager.Instance.stepCount;
 
         // Текст шагов
-        stepsText.text = "" + steps / 2;
+        stepsText.text = "" + steps;
 
         // Звёзды
-        int stars = CalculateStars(steps / 2);
+        int stars = CalculateStars(steps);
         SetStar(star1, stars >= 1);
         SetStar(star2, stars >= 2);
         SetStar(star3, stars >= 3);

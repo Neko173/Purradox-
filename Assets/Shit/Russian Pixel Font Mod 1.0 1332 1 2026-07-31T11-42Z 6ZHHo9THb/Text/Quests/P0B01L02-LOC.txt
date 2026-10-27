@@ -1,0 +1,181 @@
+-- Quest: C:\QUESTS\WORKING\P0B01L02.Qbn.
+-- StartsBy: letter
+-- Questee: member
+-- Questor: vampire
+-- Repute: 01
+-- QuestId: 2
+Messages: 31
+Quest: P0B01L02
+DisplayName: Dfvgbhcrfz htkbrdbz
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+Vjq ljhjujq lheu, %pcf.
+<ce>
+  E yfc tcnm lkz dfc jlyj yt`jkmijt gjhextybt,
+rjnjhjt gjvj*tn ljrfpfnm, xnj ds gj ghfde
+pfybvftnt dfit vtcnj d ctvmt %vam. Ltkj
+pfrk<xftncz d njv, xnj jlyf bp yfib[ ctvtqys[
+wtyyjcntq - _vamprelic_, kt*bn d gskb,
+rfr gjcktlybq rkjxjr vecjhf, d kf`jhfnjhbb
+__itemdung_, ghbyflkt*fotq Ubkmlbb
+Vfujd. Jcdj`jlbnt tt bp @njq uhzpyjq n<hmvs
+ght*lt, xtv vfub ds`hjczn dtcm cdjq vecjh
+jnnelf.F cltkf<n jyb @nj xthtp =1stparton_ lytq.
+Rfr njkmrj _vamprelic_ `eltn d dfib[ herf[,
+ghb[jlbnt rj vyt. Z `ele *lfnm dfc d ntxtybt
+=1stparton_ yjxtq d vtcnt gjl yfpdfybtv
+__vampire_, xnj d ujhjlt ___vampire_.
+Z =vampire_. Vtyz `eltn kturj epyfnm.
+C ytnthgtybtv *le yfituj pyfrjvcndf,
+xnj`s gj`tctljdfnm c ujhfplj vtymibvb
+ajhvfkmyjcnzvb, %pcf.
+Gjcnfhfqntcm yt hfpjxfhjdsdfnm vtyz.
+<ce>
+Dfi lheu d Cvthnb
+    _vampire_ hjlf %vam
+<ce> ----
+
+RefuseQuest:  [1001]
+Error: Dagtext 1001 Called.
+
+AcceptQuest:  [1002]
+Error: Dagtext 1002 Called.
+
+QuestComplete:  [1004]
+<ce> Ckfdf Yjxb, %pcf, ds pltcm
+<ce> Lf, rjytxyj, z b tcnm _vampire_.
+<ce> %vam yfrjytw-nj
+<ce> dcnegbn d pfrjyyjt dkfltybt
+<ce> cdjtq wtyyjcnm< - _vamprelic_.
+<ce> Rcnfnb, yt gbnfqnt ybpvtyys[
+<ce> bkk<pbq, xnj dfv pfgkfnzn pf @nj.
+<ce> Dfv b nfr `skf jrfpfyf dtkbrfz
+<ce> xtcnm cke*bnm ctvmt %vam.
+
+RumorsDuringQuest:  [1005]
+{jlzn cke[b, xnj Ubkmlbz Vfujd bp`fdbkfcm jn uhels cnfhjuj, ytye*yjuj `fhf[kf.
+   <--->
+Rnj-nj lf*t dbltk cgtwbfkmye< cdfkre, yf rjnjhe< ds`hfcsdf<n vecjh dct Ubkmlbb Vfujd.
+
+RumorsPostfailure:  [1006]
+Lf*t ytcvjnhz yf dc< ctrhtnyjcnm, wfhzoe< d Ubkmlbb Vfujd, nfv tcnm rjt-xnj wtyyjt, xnj vj*yj erhfcnm.
+   <--->
+Jyb, yfrjytw, ds`hjcbkb dct cnfhmt yf cdfkre.
+
+RumorsPostsuccess:  [1007]
+Nhb pdtpls cjpdtplbz Kjrfylf zhrj gskfkb dxthf yjxm<. ^nj [jhjifz ghbvtnf lkz dct[ ytxtcnbds[ ltk.
+   <--->
+Ubkmlbz Vfujd `skf jpflfxtyf @njq rhf*tq. Rjve vjukf gjyflj`bnmcz nfrfz `tpltkeirf?
+
+QuestorPostsuccess:  [1008]
+Vjt gjxntybt, %pcn. Ghbvbnt `kfujlfhyjcnb pf _vamprelic_.
+
+QuestorPostfailure:  [1009]
+<ce> %pcf, `jkmit ytn dhtvtyb
+<ce> Vjt nthgtybt bcczrkj.
+<ce> D gbcmvt `skj xtnrjt
+<ce> erfpfybt yfqnb _vamprelic_.
+<ce> Ye b ult *t?.. Ds ghjbpdtkb
+<ce> jxtym gkj[jt dgtxfnktybt, %pcf.
+<ce> Jxtym gkj[j...
+
+QuestLogEntry:  [1010]
+Ceotcndj gj[j*tuj dblf yf[jlbncz ghzvj yf %di jnc<lf d ljvt __vampire_.
+   <--->
+=vampire_ gj bvtyb _vampire_ *ltn rjuj-nj d jcj`yzrt __vampire_. Blbnt  yf %di.
+
+Message:  1011
+_vampire_ bp ctvmb %vam zdkztncz yfcnfdybrjv vjkjls[ dfvgbhjd.
+   <--->
+_vampire_ bp vjkjls[ xktyjd ctvmb %vam, yj vjkjljcnm yt hfdyf cbkt b `kfujhjlcnde.
+
+Message:  1013
+Dctuj kbim _vamprelic_. Dsukzlbn yt jxtym ghbznyj.
+   <--->
+_vamprelic_. Dsukzlbn jxtym nfbycndtyyj...
+
+Message:  1015
+Bp njuj, xnj vyt bpdtcnyj, @nj _vamprelic_ bp dscituj rheuf ctvmb %vam.
+   <--->
+_vamprelic_ bcgjkmpe<n d nfqys[ hbnefkf[ ukfd ctvmb %vam.
+
+Message:  1020
+%qdt:
+ Vyt gthtlfkb gbcmvj jn dfvgbhf gj bvtyb
+ _vampire_ bp ujhjlf ___vampire_. D ntxtybt
+ =1stparton_ yjxtq vyt ye*yj dsrhfcnm jlye
+ dtom - _vamprelic_. Lkz @njuj yflj
+ ghjybryenm d kf`jhfnjhb< Ubkmlbb
+ Vfujd - __itemdung_. Rfr njkmrj
+ dct `eltn pfrjyxtyj, _vamprelic_ yflj
+ dthyenm. _vampire_ `eltn *lfnm d ljvt __vampire_.
+
+Message:  1030
+<ce> Yf ljhjut cj`hfkfcm `jkmifz njkgf, rjnjhfz
+<ce> xnj-nj dsrhbrbdfkf b f[fkf xthtp rf*le<
+<ce> ltcznm ctreyl. Dfv cnfkj bynthtcyj, xnj *t
+<ce> nfv nfrjt. Gjljqlz gj`kb*t, ds edbltkb d wtynht
+<ce> rheuf vfuf, rjnjhsq gjrfpsdfk ajrecs.
+<ce> Ghtphbntkmyj ecvt[yedibcm, - tot `s, dtlm ds
+<ce> nfrbt ajrecs ghjltksdfkb tot d ltcznbktnytv
+<ce> djphfcnt, ds e*t `skj ldbyekbcm dgthtl, rfr xnj-nj
+<ce> ytphbvjt pfcnfdbkj dfc jcnfyjdbnmcz. Gjdbyezcm
+<ce> xmtq-nj djkt, ds j`thyekbcm b dpukzyekb yf vfuf.
+<ce> Njn cvjnhtk ghzvj yf dfc, gjxnb yt vbufz b ibhjrj
+<ce> eks`fzcm. Vt*le ntv, herb tuj ghjljk*fkb ltkfnm
+<ce> gfccs b *tcns. Jy cltkfk rfrjq-nj jxtym cnhfyysq
+<ce> gfcc, b ds yf vuyjdtybt jcnjk`tytkb... Jy ghbjnrhsk
+<ce> dfv cdjt bcnbyyjt kbwj. Cthfz rj*f, rhfcyst ukfpf,
+<ce> rksrb...Dfv dct @nj `skj pyfrjvj. Jwtgtytybt
+<ce> cgfkj, b ds ghjljk*bkb cdjq genm, pyfz, xnj dcrjht
+<ce> ghjbpjqltn. Ds ikb gj ljhjut, ljcnfdfz bp-pf gfpe[b
+<ce> cdthnjr, rjnjhsq gjzdbkcz e dfc gjckt @njq dcnhtxb.
+<ce> Vfuf zdyj gjckfkb dcnhtnbnm bvtyyj dfc...
+<ce> F njkgf nfr ybxtuj b yt pfvtnbkf...
+
+
+
+QBN:
+Item _vamprelic_ religious anyInfo 1013 used 1015
+Item _letter_ letter used QuestorOffer
+
+Person _vampire_ factiontype Vampire_Clan remote anyInfo 1011 rumors 1010
+
+Place _itemdung_ remote magery
+
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
+
+Foe _mages_ is Mage
+Foe _battlemage_ is Battle_mage
+
+--	Quest start-up:
+	place item _vamprelic_ at _itemdung_
+	_letter_ used do _readletter_
+	have _letter_ set _S.06_
+	give pc _letter_ notify 1030
+
+variable _pcgetsgold_
+_vampclicked_ task:
+	toting _vamprelic_ and _vampire_ clicked
+	give pc nothing
+	change repute with _vampire_ by +5
+	end quest
+
+_pchasitem_ task:
+	clicked item _vamprelic_
+	create foe _mages_ every 2 minutes 2 times with 25% success
+	create foe _battlemage_ every 1 minutes 4 times with 25% success
+
+_1stparton_ task:
+	make _vamprelic_ permanent
+	change repute with _vampire_ by -5
+	end quest
+
+variable _clearclick_
+_readletter_ task:
+	log 1020 step 0
+
+_S.06_ task:
+	start timer _1stparton_

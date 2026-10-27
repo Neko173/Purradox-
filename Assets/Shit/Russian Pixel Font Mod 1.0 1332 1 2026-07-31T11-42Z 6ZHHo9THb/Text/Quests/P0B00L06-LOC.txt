@@ -1,0 +1,360 @@
+-- Quest: C:\QUESTS\WORKING\P0B00L06.Qbn.
+-- StartsBy: letter
+-- Questee: member
+-- Questor: vampire
+-- Repute: 0
+-- QuestId: 6
+Messages: 24
+Quest: P0B00L06
+DisplayName: Cvthntkmyjt pyfybt
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+Error: Questtext 1000 Called
+
+RefuseQuest:  [1001]
+Error: Questtext 1001 Called
+
+AcceptQuest:  [1002]
+Error: Questtext 1002 Called
+
+QuestFail:  [1003]
+Error: Questtext 1003 Called
+
+QuestComplete:  [1004]
+<ce> Ghjcnj dtkbrjktgyj! Ds xbnfkb @nj? Rjytxyj
+<ce> *t xbnfkb. Rfrfz *t dct-nfrb @nj xeim!
+<ce> Rjulf-nj lfdysv lfdyj `sk tot jlby nfrjq vfu,
+<ce> e rjnjhjuj nj*t `skb gjlj`yst ghtlcnfdktybz
+<ce> j dfvgbhf[. Rfr *t tuj pdfkb... Ytn,
+<ce> e*t yt dcgjvy<... Ytdf*yj.
+<ce> Xnj rfcftncz dfc, nj ds [jhjij gjhf`jnfkb.
+<ce> Jxtym [jhjij. Vjt gjxntybt, %pcn...
+
+RumorsDuringQuest:  [1005]
+_mage_ d kf`jhfnjhbb ___mondung_ cnfdbn gjcktly<< njxre d cdjtq rybut.
+   <--->
+ ___mondung_ - pkjdtott b vhfxyjt vtcnj, jlyfrj jyj jxtym lf*t gjl[jlbn lkz nfrb[ rfr _mage_, xnj`s pfrjyxbnm cdj< hf`jne d nbibyt b cgjrjqcndbb.
+
+RumorsPostfailure:  [1006]
+=mage_ - fdnjh nhelf j dfvgbhf[, jxtdblyj, pfcke*bk dybvfybt Ubkmlbb Vfujd.
+   <--->
+Cfv Fh[vfubcnh bpexftn @ne hf`jne. _mage_ vj*tn ujhlbnmcz cj`jq.
+
+RumorsPostsuccess:  [1007]
+Nfvhb@km ybrjulf yt epyftn, yfl xtv c nfrbv nheljv hf`jnfk `tlysq =mage_ gj bvtyb _mage_.
+   <--->
+%g e*t ybxtuj yt cvj*tn hfccrfpfnm, b gjgjkpen cke[b, xnj %g4 hf`jnjq `skj cbkmyjt pfrkbyfybt ghjnbd Lf@lhf. Nfr `eltn kexit.
+
+QuestorPostsuccess:  [1008]
+Error: Questtext 1008 Called. Whoopsy
+
+QuestorPostfailure:  [1009]
+Error: Questtext 1009 Called. My Bad
+
+QuestLogEntry:  [1010]
+      __vamp_
+       ___vamp_
+<ce>
+Lf ght`eltn c dfvb Yjxm, %pcn.
+<ce>
+  |fkrbt `tpvjpukst dfhdfhs, rjnjhst
+gj ytljhfpevtyb< yfpsdf<n ct`z Ubkmlbtq
+Vfujd, gjgsnfkbcm tot hfp yfqnb rk<x r
+hfpuflrt yfituj ceotcndjdfybz. B yf @njn
+hfp bv, gj[j*t xnj-nj elfkjcm. Rjytxyj, cfvj
+nj, xnj Ubkmlbz Vfujd xnj-yb`elm ljdtltn lj
+rjywf, dsukzlbn ytdjpvj*ysv, yj yfv ye*yj
+ghbyznm vths ghtljcnjhj*yjcnb.
+<ce>
+  |le dfc nfr crjhj, yfcrjkmrj @nj
+djpvj*yj. Vtcnj ds yfqltnt d yfxfkt gbcmvf.
+<ce>
+Dfi dtxysq lheu d Cvthnb,
+<ce>
+    _vamp_
+<ce> ----
+
+Message:  1011
+%qdt:
+ Vyt ghbytckb gbcmvj
+ jn dfvgbhf gj bvtyb _vamp_ bp
+ ctvmb %vam. Vtyz j*blf<n d vtcnt
+ gjl yfpdfybtv __vamp_.
+ Vyt ye*yj ghb`snm d gjctktybt ___vamp_
+ nfr crjhj, yfcrjkmrj @nj djpvj*yj.
+
+Message:  1012
+<ce> Lj`hjq Yjxb, lbnz. Z hfccrf*e dfv yt`jkmie<,
+<ce> yj pf`fdye< bcnjhb<. Ytrjnjhst, jcj`j jlfhtyyst
+<ce> kbxyjcnb bp Ubkmlbb Vfujd, gjcnjzyyj ljrexf<n
+<ce> yfv cdjbvb cnhfyysvb gjneufvb. Ntgthm jyb
+<ce> djpyfvthbkbcm djj`ot hfcrhsnm nfqye yfituj
+<ce> ceotcndjdfybz b ghtdhfnbnm dct[ dfvgbhjd j`hfnyj.
+<ce> d k<ltq. B, rfr yb cnhfyyj, bv lf*t xnj-nj
+<ce> elfkjcm dszcybnm. Rjytxyj, vfkjdthjznyj, xnj
+<ce> jyb djj`ot xtuj-nj ljcnbuyen, yj vfu, rjnjhsq
+<ce> djpukfdkztn bccktljdfybz, gj rhfqytq vtht,
+<ce> ljcnfnjxyj velh lkz njuj, xnj`s gjgsnfnmcz
+<ce> crhsnmcz. Njkmrj djn ghznfnmcz ult-yb`elm d
+<ce> ghjdbywbb %reg jn ctvmb %vam gj vtymitq vtht
+<ce> `tcgjktpyj. Tcntcndtyyj vs %g4 dscktlbkb. %g4
+<ce> pjden _mage_ b %g pfybvftncz cjxbybntkmcndjv
+<ce> d kf`jhfnjhbb ___mondung_.
+<ce> Ye, f ntgthm r ltke. Vyt jxtym ye*yj dpukzyenm
+<ce> yf %g4 pfgbcb. Bp yb[ vj*yj `eltn gjyznm, rfr
+<ce> lfktrj pfikb @nb vfub. _mage_, rfr z gjybvf<,
+<ce> [hfybn b[ ghb ct`t, yfbdyj gjkfufz,
+<ce> xnj nfr jyb `elen d yfb`jkmitq `tpjgfcyjcnb.
+<ce> Gj[j*t, ghbltncz ljrfpfnm %g2, xnj %g cbkmyj
+<ce> jib`ftncz. Ljcnfymnt b[ lkz vtyz, %pcf.
+<ce> Blbnt *t, b gecnm Yjxm erhjtn dfc.
+
+Message:  1013
+Vjq ljhjujq cnfhsq lheu %pcn,
+<ce>
+  Tckb ds rjulf-yb`elm `eltnt d
+hfqjyt ___mg_, `skj `s jxtym rcnfnb lkz
+yfc, tckb `s ds yfdtlfkbcm d vtcnj __mg_.
+Dfc nfv vj*tn j*blfnm ekexitybt vfnthbfkmyjuj
+cjcnjzybz b `jktt djpdsityyjt xedcndj
+njuj, xnj ds cvjukb gjvjxm dfibv
+lhepmzv bp Ubkmlbb Vfujd.
+<ce>
+  Yflt<cm, ds cjukfcbntcm, b z dcrjht `ele
+bvtnm eljdjkmcndbt dbltnm dfc.
+<ce>
+<ce>
+Dfi dthysq lheu yt njkmrj d Cvthnb,
+<ce>
+    _mg_
+<ce> ----
+
+Message:  1014
+<ce> "Cnjq",- hfplfkcz uhjvrbq jrhbr. Ds pfcnskb
+<ce> yf vtcnt,levfz, xnj `s vjukj cnhf*t gjyflj`bnmcz
+<ce> jn dfc. Ve*xbyf d nz*tkjq `hjyt yf kjiflb,
+<ce> pfrjdfyyjq d kfns, ytcgtiyj gjl]t[fk r dfv,
+<ce> ckjdyj pyfz, xnj ds ybrelf yt ltytntcm.
+<ce> "Nffr, xnj e yfc pltcm... Hfp`jb, uhf`t*b,
+<ce> djhjdcndj, e`bqcndf dczrbt... Tcnm pf xnj
+<ce> gjcflbnm dfc pf htitnre yfljkuj, f nj b ujkjde
+<ce> c gktx",- dtctkj gjcvtbdfzcm ghjbpytc lj`ktcnysq
+<ce> cnhf*.
+<ce> "F vt*le ntv, gjrf ds pfybvftntcm @nbvb buhfvb
+<ce> d gtcjxybwt, jlby `kfujhjlysq ujcgjlby jxtym
+<ce> *tkftn dbltnm dfc", - c @nbvb ckjdfvb jy cyzk
+<ce> gthxfnre, ljcnfk jnnelf gbcmvj b ghjnzyek dfv.
+<ce> "Gjcgtibnt b gjvybnt: dct cjdctv yt nfr, rfr
+<ce> vj*tn gjrfpfnmcz yf gthdsq dpukzl", - cyjdf
+<ce> ecvt[yekcz jy, ghbjnrhsdfz d e[vskrt lkbyyst
+<ce> jcnhst rksrb.
+
+Message:  1015
+<ce> J, %oth, %pcn, @nj ds?
+<ce> Ckfdf `jufv, ds jnrkbryekbcm yf vjq pjd.
+<ce> Dghjxtv, byfxt b `snm yt vjukj. Dtlm ds
+<ce> xtcnys, e dfc ujhzxtt cthlwt, cbkmysq le[,
+<ce> `kfujhjlyst gjvscks. Ghjie dfc, gjvjubnt
+<ce> djkit`ybre, rjnjhsq `jbncz, xnj %g4
+<ce> bccktljdfybz vjuen `snm yfqltys b eybxnj*tys
+<ce> gfkfxfvb bp vtcnyjq ctvmb dfvgbhjd.
+<ce> Ckbirjv vyjuj rhjgjnkbdjq hf`jns `skj
+<ce> cltkfyj, xnj`s gjnthznm tt ghjcnj nfr. Vs
+<ce> dct `skb `s dfv jxtym j`zpfys, tckb `s ds
+<ce> cjukfcbkbcm ghbqnb d %g4 kf`jhfnjhb< gjl
+<ce> yfpdfybtv ___mondung_ b pf`hfnm @nb
+<ce> `tcwtyyst pfgbcb. Yflj dctuj kbim yfqnb
+<ce> @njuj cnfhjuj, vfktymrjuj, bcgeufyyjuj
+<ce> djkit`ybrf. Evjkz<, gjvjubnt yfv...
+
+Message:  1016
+<ce> %oth! Vjb `tcwtyyst pfvtnrb!
+<ce> Ghjxm, rhjdjcjc! Bpslb!
+
+Message:  1017
+<ce> Vbyenjxre! Ds ltqcndbntkmyj
+<ce> njn %ra, rjnjhjuj z *le, xnj`s
+<ce> gthtlfnm cdjq *ehyfk?
+
+Message:  1018
+<ce> Ghbvbnt vjb bcrhtyybt bpdbytybz,
+<ce> %pcn. Vjb ythds d gjcktlytt dhtvz
+<ce> cjdctv hfcifnfys. Djn. Djpmvbnt
+<ce> b `elmnt jcnjhj*ys. Yt ljdthzqnt ybrjve.
+<ce> Xktys ctvmb dfvgbhjd %vam vjuen `snm ult eujlyj.
+
+Message:  1019
+%qdt:
+ _mg_ bp
+ vtcnf __mg_, xnj yf[jlbncz d gjctktybb
+ ___mg_, ghjcbn vtyz jnghfdbnmcz d gjlptvye<
+ kf`jhfnjhb< ___mondung_, xnj`s pf`hfnm
+ rybue hf`jns vfuf gj bvtyb _mage_
+ b dthyenm tt d wtkjcnb b cj[hfyyjcnb
+ d gjctktybt ___mg_. _mage_ *ltn vtyz,
+ yj %g4 dcnhtxf cj vyjq vj*tn `snm
+ yt bp ghbznys[. D cfvjv ltkt,
+ dfvgbhjv vj*tn jrfpfnmcz rf*lsq...
+
+Message:  1020
+  Ctvmz %vam ltqcndbntkmyj pfybvftn
+ukfdtycnde<ott gjkj*tybt d ghjdbywbb
+%reg, jlyfrj @nj ybrjbv j`hfpjv yt
+jpyfxftn, xnj nfrjt *t gjkj*tybt jyb bvt<n
+dj dctv Bkbfrcrjv pfkbdt. (gjlcnfdmnt c<lf
+Vjynfkbjy, Dhfptnb, Ufkfhb, Ctktye, yfrjytw,
+vtkrbt ctvmb njuj *t nbgf... cgbcjr vj*yj
+ghjljk*fnm lj `tcrjytxyjcnb).
+Rfr *t vj*yj bpktxbnmcz jn dfvgbhbpvf?
+(rybuf "Dfvgbhs pfkbdf Bkbfr" gj @njve gjdjle,
+ccskftncz yf J`otcndj ~sdib[ Dfvgbhjd)
+Jndtn lf<n vyjujrhfnyst dcnhtxb b `tctls,
+bp rjnjhs[ vyt elfkjcm epyfnm, xnj lkz @njuj
+ytj`[jlbvj eybxnj*bnm yfb`jktt cbkmyjuj xktyf
+hjlf, xmtq rhjdm< `sk pfhf*ty `jkmyjq.
+(Yt`jkmifz cyjcrf: =vamp_ d vtcntxrt ___vamp_
+jxtym bynthtcetncz vjtq hf`jnjq. Dthjznyfz
+`tctlf bkb kjdeirf?) Dfvgbhs ghjybrkb d
+rjhjktdcrbq ldjh, Ntvyjt `hfncndj, lf*t d
+Ubkmlb< Vfujd d ghjdbywbb %reg, dtplt,
+ult njkmrj vj*yj. Dcz ghjdbywbz %reg
+pfhf*tyf ctvmtq %vam. Djpvj*yj,
+lf*t `jkmit, xtv ghjcnj pfhf*tyf. Gjljphtdftvsq
+ljk*ty ghjqnb cnfylfhnye< ghjdthre (e*t
+pfgfntynjdfyye<) b gjcvjnhtnm, xnj gjkexbncz.
+Ytj`[jlbvj: djkjcs ybvas, cdzotyysq cbvdjk, b
+nfr lfktt, b nfr lfktt. F nfr*t jxtym vyjuj
+cdj`jlyjuj dhtvtyb (%god, rfr *t tuj yt [dfnftn)
+b nz*tksq hfpujdjh c rfpyfxttv b ukfdjq Ubkmlbb
+j` edtkbxtybb hfc[jljd yf bccktljdfybz, byfxt
+dct @nj yb r xtve yt ghbdtltn...
+
+Message:  1021
+%qdt:
+ Vfu gj bvtyb
+ _mage_ yf[jlbncz cjdctv `kbprj
+ r hfpuflrt ceotcndjdfybz ctvmb %vam
+ b _vamp_ jnghfdkztn vtyz d
+ xnj`s dsrhfcnm @nb pfgbcb. Crjhtt dctuj
+ _mage_ [hfybn b[ ghb ct`t, rfr
+ `elnj @nj pfobnbn b[ jn vtyz...
+
+Message:  1022
+<ce> B @nj dct, xnj nfr ye*lfkjcm d
+<ce> pfobnt? J[, _mage_... Cjdthityytqibq `htl
+<ce> cevfcitlituj! Jlyfrj, z gjkfuf<, ds
+<ce> yt vjukb jib`bnmcz. Djn. Djpmvbnt _mggold_ pjkjns[
+<ce> pf dfie lj`hjcjdtcnye< ljcnfdre "djn @njuj".
+
+Message:  1023
+<ce> Ds pfvtnbkb jlyjuj nbgf, rjnjhsq dfv xtv-nj yt
+<ce> gjyhfdbkcz. Dhjlt `s jy dsukzltk j`sxyj, yj xnj-nj
+<ce> `skj yt nfr. ~ke*lf<obq dpukzl, ythdyj lhj*fobt herb,
+<ce> ythjdyfz gj[jlrf... Djpvj*yj, jy `sk gmzy, f vj*tn `snm...
+<ce> Ds gjljikb gj`kb*t b chfpe dct gjyzkb. ^njn xtkjdtr
+<ce> crjhj ljk*ty `eltn evthtnm... Xnj`s djcrhtcyenm e*t
+<ce> d lheujv j`kbxmt. Yj njkmrj jy j` @njv tot yt pyfk.
+<ce> Jy gjcvjnhtk yf dfc b, rf*tncz, xnj-nj dcgjvybk.
+<ce> Gj vtymitq vtht dpukzl tuj cnfk xtnrbv.
+<ce> "Gj[j*t, z ljk*ty gthtlfnm @nj dfv", - c @nbvb
+<ce> ckjdfvb jy jnlfk dfv gbcmvj, - "Bkb yt dfv, bkb
+<ce> djj`ot ybxtuj yt yflj",- tuj hfcceljr ghjzcybkcz
+<ce> njkmrj yf vuyjdtybt.
+<ce> Dpzd gbcmvj, ds gjikb lfkmit, e*t yt d cbkf[ ybxtv
+<ce> gjvjxm.
+
+
+
+QBN:
+Item _letter_ letter used 1010
+Item letter37 letter used 1013
+Item research1 letter used 1020
+Item _mggold_ gold
+
+Person _vamp_ factiontype Vampire_Clan local
+Person _mg_ faction The_Mages_Guild local
+Person _mage_ face 1 group Group_5.1 remote
+
+Place _mondung_ remote dungeon9
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+Clock _2ndparton_ 00:10 00:30 flag 9 range 0 0
+
+Foe _sorceror_ is Sorceror
+
+--	Quest start-up:
+	dialog link for person _vamp_
+	dialog link for location _mondung_ person _mg_
+	repute with _mg_ exceeds 15 do _S.04_
+	give item research1 to _sorceror_
+	letter37 used do _S.14_
+	_letter_ used do _readletter_
+	have _letter_ set _S.15_
+	give pc _letter_ notify 1023
+	place foe _sorceror_ at _mondung_
+
+_queston_ task:
+	change repute with _vamp_ by -10
+	end quest
+
+_vampclicked_ task:
+	clicked npc _vamp_
+	reveal _mondung_
+	log 1021 step 2
+	say 1012
+
+variable _S.02_
+_2ndparton_ task:
+	give pc letter37 notify 1014
+
+_S.04_ task:
+	start timer _2ndparton_
+
+_S.05_ task:
+	clicked npc _mg_
+	reveal _mondung_
+	log 1019 step 3
+	say 1015
+
+_contact_ task:
+	injured _sorceror_
+
+variable _S.07_
+_S.08_ task:
+	when _contact_ and _S.05_
+	prompt 1017 yes _S.09_ no _S.10_
+
+_S.09_ task:
+	get item research1
+	say 1018
+	restrain foe _sorceror_
+
+_S.10_ task:
+	when _contact_ and not _S.05_
+	say 1016
+
+_S.11_ task:
+	toting research1 and _mg_ clicked
+	get item _mggold_
+	say 1022
+	make _mggold_ permanent
+	change repute with _vamp_ by -20
+	change repute with _mg_ by +10
+	end quest
+
+_S.12_ task:
+	toting research1 and _vamp_ clicked
+	give pc nothing
+	end quest
+
+_readletter_ task:
+	add dialog for person _vamp_
+	log 1011 step 0
+
+_S.14_ task:
+	add dialog for person _mg_
+
+_S.15_ task:
+	start timer _queston_

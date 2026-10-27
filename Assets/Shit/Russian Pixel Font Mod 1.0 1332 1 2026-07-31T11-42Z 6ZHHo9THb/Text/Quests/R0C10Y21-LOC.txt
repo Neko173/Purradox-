@@ -1,0 +1,134 @@
+-- Quest: C:\QUESTS\WORKING\R0C10Y21.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 21
+Messages: 16
+Quest: R0C10Y21
+DisplayName: {hfv jhrjd
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vjq hjlcndtyybr, _qgfriend_,
+<ce> gjghjcbk vtyz gjcjltqcndjdfnm d jlyjq
+<ce> otrjnkbdjq cbnefwbb. Nfr gjkexbkjcm,
+<ce> xnj tcnm ... [hfv, jcdzotyysq, rfr `s @nj
+<ce> ghfdbkmyj nj crfpfnm, @nbvb jndhfnbntkmysvb
+<ce> jhrfvb. Vs [jnbv hfpheibnm @nj, gjrf
+<ce> @nj djpvj*yj. Z vjue ghtlkj*bnm
+<ce> _reward_ pjkjns[. Vjue kb z
+<ce> hfccxbnsdfnm yf dfie gjvjom, %pcf?
+
+
+RefuseQuest:  [1001]
+<ce> Ds xnj, lheu jhrjd?
+<ce> %oth, ghjxm c ukfp vjb[!
+
+AcceptQuest:  [1002]
+<ce> ~kfujlfh< dfc pf cjukfcbt, %pcf.
+<ce> Djn rfr vs [jnbv bcgjkmpjdfnm dfib cgjcj`yjcnb.
+<ce> Dfv ye*yj ghjrhfcnmcz d ___mondung_
+<ce> b eybxnj*bnm nfr yfpsdftvjuj ifvfyf ghzvj
+<ce> d [hfvt. Tckb ecgtnm cltkfnm @nj gthtl yfibv
+<ce> yfktnjv yf @nj uytplj, @nj cltkftn yfie
+<ce> hf`jne ktuxt gthsirf. Rjulf cltkftnt hf`jne,
+<ce> ljkj*bntcm dj ldjhtw d ___qgfriend_.
+<ce> Nfv dfv pf dct b pfgkfnzn.
+<ce> E dfc tcnm =1stparton_ lytq.
+
+QuestFail:  [1003]
+<ce> Gjhf jnghfdkznmcz r ___mondung_,
+<ce> %pcf. Gkfy e*t d ltqcndbb, vs
+<ce> hfccxbnsdftv yf dfc.
+
+QuestComplete:  [1004]
+<ce> Ghbdtncnde< dfc, %pcf. Gthdjrkfccyfz
+<ce> hf`jnf c @nbv djy<xbv b ne[ksv ifvfyjv.
+<ce> Rfr jyb gjcvtkb jhufybpjdfnm cdjq
+<ce> rfyyb`fkmcrbq rekmn yf vjtq ptvkt!
+<ce> D jncencndbt kblthf jyb dct hfp`tuencz
+<ce> rnj relf. Djn dfib _reward_ pjkjns[.
+<ce> ~elmnt cxfcnkbds.
+
+RumorsDuringQuest:  [1005]
+Pltcm d ___mondung_ tcnm jhrcrjt cjj`otcndj, rjnjhjt `tcgjrjbn _qgfriend_.
+   <--->
+___mondung_ vyjubt ujls yfpfl `sk jhrcrbv [hfvjv. Ctqxfc jyb djpdhfof<ncz.
+
+RumorsPostfailure:  [1006]
+^nf uflcrfz j`obyf jhrjd hfpjuyfyf leyjdtybtv djqcrf _qgfriend_.
+   <--->
+~tlyzuf _qgfriend_ nfr b yt cvj*tn jnjvcnbnm jhrfv bp ___mondung_.
+
+RumorsPostsuccess:  [1007]
+^nj `eltn [jhjibq ehjr @nj cdbyjhsksv ltutythfnfv-rfyyb`fkfv.
+   <--->
+%god lf `kfujckjdbn _qgfriend_ b _questgiver_ b @njuj ytbpdtcnyjuj cjklfnf %ra.
+
+QuestorPostsuccess:  [1008]
+Cks[fkb gjcktly<< ienre ghj jhrjd? Vjq repty hfccrfpsdfk ghj dfie jnkbxye< hf`jne.
+   <--->
+Vjq repty dgtxfnkty dfitq hf`jnjq c ifvfyjv, lheu vjq.
+
+QuestorPostfailure:  [1009]
+<ce> Vjq repty ujdjhbn, xnj ds nfr b
+<ce> yt cvjukb e`bnm ifvfyf. Vyt yt
+<ce> j xtv hfpujdfhbdfnm c dfvb.
+
+Message:  1011
+=qgfriend_, lf? Dthjznysq cj<pybr _questgiver_ d ghj`ktvt c jhrfvb.
+   <--->
+_qgfriend_ - zhsq afyfnbr eybxnj*tybz jhrjd.
+
+Message:  1012
+<ce> Ds e`bkb jhrcrjuj ifvfyf.
+
+Message:  1015
+%qdt:
+ E vtyz =1stparton_ lytq, xnj`s e`bnm ifvfyf jhrjd
+ d ___mondung_, gjnjv gjqnb b ljkj*bnmcz dj
+ ldjhtw r _qgfriend_ d ___qgfriend_.
+ Vyt pfgkfnzn _reward_ pjkjns[
+ pf cvthnm ifvfyf.
+
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ face 112 group Questor
+Person _qgfriend_ group Noble remote anyInfo 1011
+Person _dummyorc_ faction Orsinium remote
+
+Place _mondung_ remote dungeon4
+
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
+
+Foe _monster_ is Orc_shaman
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1015 step 0
+	place foe _monster_ at _mondung_
+
+_1stparton_ task:
+	end quest
+
+_pcgetsgold_ task:
+	when _mondead_ and _npcclicked_
+	give pc _reward_
+	change repute with _qgfriend_ by +20
+	end quest
+
+variable _queston_
+_mondead_ task:
+	killed 1 _monster_
+	say 1012
+	change repute with _dummyorc_ by -30
+	create npc _qgfriend_
+
+_npcclicked_ task:
+	clicked npc _qgfriend_

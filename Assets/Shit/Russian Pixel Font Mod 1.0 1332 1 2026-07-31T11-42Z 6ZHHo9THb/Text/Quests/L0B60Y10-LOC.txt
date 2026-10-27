@@ -1,0 +1,146 @@
+-- Quest: C:\QUESTS\WORKING\L0B60Y10.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 60
+-- QuestId: 10
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 24
+Quest: L0B60Y10
+DisplayName: Dtnthfy
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> ^nj vj*tn `snm ckj*ysv, lf*t lkz
+<ce> dfc, %pcf. Wtkm - jlby bp kexib[
+<ce> `jqwjd dj dctv %reg.
+<ce> Edthtys, xnj [jnbnt @ne hf`jne?
+
+RefuseQuest:  [1001]
+<ce> Yt dbybnt ct`z. ^nj ltkj vjukj
+<ce> `snm ckbirjv jgfcysv.
+
+AcceptQuest:  [1002]
+<ce> Dj dczrjv ckexft, ds vj*tnt gjgsnfnmcz.
+<ce> Hf`jnf dfif, vjubkmobr. Yf @njn hfp wtkm - jny<lm
+<ce> yt ukflbfnjh c fhtys. Vs ujdjhbv j dtnthfyt
+<ce> ~tnjycrjq djqys, e`bditv ltdznths[, tckb
+<ce> cke[b dthys. Yfghfdkzqntcm d _mondung_
+<ce> d ___mondung_. Ds kturj epyftim tuj
+<ce> gj [hjvjnt. Jy `sk hfyty rjgmtv d rjktyj
+<ce> yf djqyt d chf*tybb. Djpdhfofqntcm
+<ce> xthtp =1stparton_ cenjr.
+
+QuestFail:  [1003]
+<ce> Yt pyf<, rjuj @nj ds nfv e`bkb,
+<ce> yj @nj yt yfif wtkm.
+<ce> Djpdhfofqntcm d ___mondung_ b
+<ce> pfrjyxbnt nj, hflb xtuj dfc yfyzkb!
+
+QuestComplete:  [1004]
+<ce> Rfrjt chf*tybt! Z e*t cksifk j` @njv!
+<ce> Ds *t pyftnt, xnj cgktnyb pltcm jgtht*f<n
+<ce> kjiflm, vxfoe<cz ufkjgjv. Djn - _reward_ pjkjns[
+<ce> pf hf`jne, %pcf.
+
+RumorsDuringQuest:  [1005]
+Jxtym *fkm ... xnj *t @nj ndjhbncz d Lfuuthajkkt?
+
+RumorsPostfailure:  [1006]
+Z cksifk, xnj rjhjktdf `thtvtyyf. Gj rhfqytq vtht @nj nj, xnj e dct[ yf ecnf[!
+
+RumorsPostsuccess:  [1007]
+Ds cksifkb j njv uthjt djqys? E`bn d gjtlbyrt. Rfr *fkm.
+
+QuestorPostsuccess:  [1008]
+Dfif c[dfnrf c ntv uthjtv djqys lj cb[ gjh e dct[ yf ecnf[, %pcn.
+
+QuestorPostfailure:  [1009]
+Ds yt cevtkb e`bnm @njuj uthjz djqys. ~hfncndj ybrjulf yt ghjoftn ghjdfkjd!
+
+Message:  1020
+%qdt:
+ E vtyz pfrfp Ntvyjuj ~hfncndf
+ yf uthjz djqys d _mondung_,
+ d ___mondung_. Ltkj ljk*yj `snm
+ pfdthityj d ntxtybt =1stparton_ cenjr.
+
+Message:  1021
+<ce> "Ds ghtecgtkb...nfv, ult dct...
+<ce> cjklfns...~tnjycrjq djqys gjnthgtkb ytelfxe".
+<ce>
+<ce> Rjynhfrn dsgjkyty.
+
+Message:  1022
+<ce> "Yt cxbnfq vtyz rfktrjq kbim bp-pf njuj,
+<ce> xnj z [hjvjq. Z dct tot d cjcnjzybb
+<ce> hfpjhdfnm nt`z yf xfcnb!"
+
+Message:  1023
+<ce> ^nj yt xtkjdtr! ^nj dfvgbh!
+
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ face 112 group Questor
+
+Place _mondung_ remote weaponstore
+
+Clock _1stparton_ 00:00 0 flag 18 range 0 2
+
+Foe _F.00_ is Ancient_vampire
+Foe _F.01_ is Ranger
+Foe _F.02_ is Monk
+Foe _F.03_ is Barbarian
+
+--	Quest start-up:
+	start timer _1stparton_
+	log 1020 step 0
+	pick one of _S.06_ _S.07_ _S.08_ _onehour_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _S.02_
+	give pc _reward_
+	end quest
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+
+--removed duplicate clearclick here
+
+_S.02_ task:
+	killed 1 _F.00_ saying 1021
+	killed 1 _F.03_ saying 1021
+	killed 1 _F.02_ saying 1021
+	killed 1 _F.01_ saying 1021
+
+variable _queston_
+_1stparton_ task:
+	end quest
+
+variable _2ndparton_
+_S.06_ task:
+	place foe _F.00_ at _mondung_
+
+_S.07_ task:
+	place foe _F.01_ at _mondung_
+
+_S.08_ task:
+	place foe _F.02_ at _mondung_
+
+_onehour_ task:
+	place foe _F.03_ at _mondung_
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.02_
+	say 1003
+	clear _qgclicked_ _clearclick_
+
+_S.11_ task:
+	injured _F.03_ saying 1022
+	injured _F.02_ saying 1022
+	injured _F.01_ saying 1022
+	injured _F.00_ saying 1023

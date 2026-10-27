@@ -1,0 +1,171 @@
+-- Quest: C:\QUESTS\WORKING\K0C00Y08.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: merchant
+-- Repute: 0
+-- QuestId: 8
+Messages: 13
+Quest: K0C00Y08
+DisplayName: Htlrfz rybuf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ds cks[fkb ghj _book_?
+<ce> ^nj jxtym htlrjt bplfybt, afrnbxtcrb tuj yt
+<ce> ceotcndjdfkj, yj z yfitk rjgb<, [hfyzoe<cz d
+<ce> gjlptvtkmt pltcm d %reg. Z lfv
+<ce> dfv _upfront_ pjkjns[ ctqxfc b _gold_ pjkjns[
+<ce> gjckt njuj, rfr rybuf `eltn d vjb[ herf[.
+<ce> Cjukfcys?
+   <--->
+<ce> Z boe jlye jcj`tyye< rybue, rjnjhe< yt yfqnb yb
+<ce> d jlyjv vfufpbyt, lf*t gj fcnhjyjvbxtcrjq wtyt.
+<ce> Elbdbntkmyj, yj z epyfk, xnj tcnm jlby @rptvgkzh,
+<ce> rjnjhsq yf[jlbncz ytlfktrj d jlyjv bp gjlptvtkbq.
+<ce> Tckb ds djpmvtntcm pf gjbcrb rybub, z lfv dfv
+<ce> _upfront_ pjkjns[ ctqxfc b tot _gold_ pjkjns[,
+<ce> rjulf ds dthytntcm. Vs ljujdjhbkbcm, %pcf?
+
+RefuseQuest:  [1001]
+<ce> Ghtrhfcyj. Z gjboe lheujuj
+<ce> bcrfntkz ghbrk<xtybq.
+
+AcceptQuest:  [1002]
+<ce> {jhjij. Z lf< dfv =queston_ lytq, xnj`s dsnfobnm
+<ce> rybue bp ___mondung_ b dthyenmcz.
+<ce> Dthytntcm gjp*t chjrf, ghj _gold_ pjkjns[ vj*tnt
+<ce> pf`snm. Rybuf yfpsdftncz _book_.
+<ce> Elfxb, %pcf.
+
+QuestComplete:  [1004]
+<ce> F[, bpevbntkmyj. Djn _gold_ pjkjns[,
+<ce> rfr b `skj j`tofyj. ~jkmijt
+<ce> cgfcb`j, %pcf.
+
+RumorsDuringQuest:  [1005]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostfailure:  [1006]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostsuccess:  [1007]
+_qgiver_ hfl yjdjve ghbj`htntyb<, rfr j`j*hfdifzcz ufhgbz.
+
+QuestorPostsuccess:  [1008]
+Xnj z vjue cltkfnm lkz dfc, j [hf`hsq %ra, rjnjhsq ghbytc vyt _book_?
+
+QuestorPostfailure:  [1009]
+<ce> Rjulf rybuf _book_ gjnthzkfcm
+<ce> cyjdf, d vj< ujkjde pfrhfkbcm
+<ce> cjvytybz d dfitq rjvgtntywbb.
+<ce> Ghjdfkbdfqnt.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp
+ __qgiver_ d ___qgiver_
+ gjcskftn vtyz d ___mondung_ yf
+ gjbcrb rybub _book_,
+ jxtym htlrjq rybub. Vyt pfgkfnzn _gold_
+ pjkjns[ gj djpdhfotybb d ntxtybt =queston_ lytq.
+
+Message:  1011
+<ce> Ds gjlj`hfkb
+<ce> _book_.
+
+Message:  1012
+<ce> _qgiver_ `eltn ytljdjkty.
+<ce> Dhtvz lfltyyjt yf gjbcrb rybub
+<ce> ghjikj.
+
+
+
+QBN:
+Item _gold_ gold
+Item _upfront_ gold range 5 to 50
+Item _book_ book2
+
+Person _qgiver_ group Questor
+
+Place _mondung_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+
+--	Quest start-up:
+	place item _book_ at _mondung_
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	get item _upfront_
+	make _upfront_ permanent
+
+_queston_ task:
+	have _book_ set _S.03_
+	end quest
+
+_S.01_ task:
+	clicked item _book_
+	say 1011
+
+_S.02_ task:
+	toting _book_ and _qgiver_ clicked
+	give pc _gold_
+	end quest
+
+_S.03_ task:
+	say 1012
+	make _book_ permanent

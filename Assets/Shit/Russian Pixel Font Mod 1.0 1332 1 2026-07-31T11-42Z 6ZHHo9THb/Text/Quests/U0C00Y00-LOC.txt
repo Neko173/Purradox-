@@ -1,0 +1,209 @@
+-- Quest: C:\QUESTS\WORKING\U0C00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: Boethiah
+-- Repute: 0
+-- QuestId: 0
+Messages: 43
+Quest: U0C00Y00
+DisplayName: Pflfybt ~j@nbb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Cbkf, [f! Xnj vj*tn ghtphtyysq ghtcvsrf<obqcz %ra
+<ce> pyfnm ghj yfcnjzoe< cbke? Ns bvttim ddble,
+<ce> xnj [jxtim bvtnm djpvj*yjcnm yflhfnm pflybwe
+<ce> jrhe*f<obv nt`z cvthnysv, yt nfr kb? Ye xnj *,
+<ce> @nj vj*yj ecnhjbnm. {jxe ltvjycnhfwbb ndjtuj
+<ce> [fhfrnthf, ljcnfnjxyjuj, xnj`s bcgjkmpjdfnm nj, xnj
+<ce> z nt`t lfv. E`mtim kb ns rjt-rjuj pf @nj?
+
+RefuseQuest:  [1001]
+<ce> Aaee, vtyz njiybn jn nt`z. Yt cvtq
+<ce> `jkmit ghbpsdfnm vtyz, %pcf,
+<ce> gjrf yt gjlhfcntim bkb yt yfexbimcz
+<ce> lhfnmcz.
+
+AcceptQuest:  [1002]
+<ce> Bnfr, d k<`jv ckexft vs ldb*tvcz d dthyjv
+<ce> yfghfdktybb. Cgtkkcdjhl, rjnjhjuj yflj e`bnm,
+<ce> =monster_, `tpeghtxyj jxfhjdfntkmyfz b
+<ce> vbkjcthlyfz pflybwf, rjnjhfz xthnjdcrb vyt
+<ce> yfljtkf pf ghjitlibt ujls. Ns yfqltim %g4
+<ce> d %g4 rhtgjcnb d vtcntxrt gjl yfpdfybtv
+<ce> ___mondung_. Njkmrj yt levfq, xnj =monster_ -
+<ce> yt*tyrf b cjdctv yt pyftn c rfrjq cnjhjys `hfnm
+<ce> vtx. {jxe, xnj`s ndjz hf`jnf elfkfcm, f z
+<ce> nt`t lfv pf @nj ytgkj[jq gjlfhjr. Gjckt e`bqcndf
+<ce> dcnhtnmcz c _qgfriend_, vjb futynjv d
+<ce> ___qgfriend_. Ghjcnj gjbob =qgfriend_,
+<ce> jrjkfxbdf<otujcz d jrhtcnyjcnz[ __qgfriend_.
+<ce> B yt pfcnfdkzq %g4 *lfnm. Z crf*e, xnj`s nt`z
+<ce> *lfkb d ntxtybt =1stparton_ lytq. ^nj `jktt xtv
+<ce> ljcnfnjxyj. Z `ele yf`k<lfnm pf dctv @nbv.
+
+QuestFail:  [1003]
+<ce> Ldbufq lfkmit, %ra. Yfv
+<ce> yt j xtv ujdjhbnm.
+
+QuestComplete:  [1004]
+<ce> Nfr, ns %pcn. {vv, f ns
+<ce> yt nfr [bk, rfr ujdjhbkf ~j@nbz. Ghbvb
+<ce> @nj rfr rjvgkbvtyn. Djn, djpmvb @nj.
+<ce> ~j@nbz gthtlfkf lkz nt`z _artifact_.
+<ce> Jyf levftn, xnj @nj gjvj*tn nt`t d gjbcrf[
+<ce> cbks b dkfcnb. Jyf pfbynthtcjdfyf d nt`t,
+<ce> @nj `tp cjvytybz. Z dbltk tt eks`re, rjulf
+<ce> jyf ghjbpyjcbkf ckjdj "[bksq".
+
+RumorsDuringQuest:  [1005]
+D cktle<obq hfp, rjulf `elen ds`jhs v@hf, `ele ujkjcjdfnm pf =monster_.
+   <--->
+Xnj pf xeltcysq, lj`hsq b dtkbrjleiysq xtkjdtr @njn =monster_. R xtcnb htubjyf %reg.
+
+RumorsPostfailure:  [1006]
+Rnj dj dctv Nfvhb@kt jndf*bkcz gjrecbnmcz yf *bpym =monster_? ~kfujlfhtybt `jue %god, %g d gjhzlrt.
+   <--->
+=monster_ gjldthucz yfgfltyb< fccfccbyf. Cxfcnmt, xnj e`bqwf `sk ytjgsnty.
+
+RumorsPostsuccess:  [1007]
+Rfrfz nhfutlbz lkz dctuj htubjyf %reg. Xnj pf vjycnh e`bk =monster_?
+   <--->
+%oth, yt vjue gjdthbnm, xnj =monster_ vthnd. Rfrfz nhfutlbz, e*fcyfz jib`rf.
+
+Message:  1011
+_qgfriend_, nfr pjden jlyjuj ythfpujdjhxbdjuj nbgf =qgfriend_ d __qgfriend_.
+   <--->
+@nj bvz njuj jlyjuj pflbhs d __qgfriend_, d yfghfdktybb yf %di.
+
+Message:  1012
+_qgfriend_, jlby bp futynjd ~j@nbb d Nfvhb@kt.
+   <--->
+_qgfriend_, leitdysq leitue`, hf`jnf<obq yf ~j@nb<.
+
+Message:  1013
+~j@nbz, lf@lhf, ghbywtccf *tcnjrjcnb b gsnjr. Ytghjcnfz ktlb.
+   <--->
+Jyf ghbywtccf J`kbdbjyf, jlyf bp ghbywtd lf@lhf b cfvfz yfcnjzofz e`bqwf.
+
+Message:  1014
+<ce> _artifact_ pfoboftn dkfltkmwf jn hfpkbxys[ gjdht*ltybq.
+Jujym b Dscfcsdfybt |bpyb, ldt df*ys[ dtob.
+
+QuestLogEntry:  [1010]
+%qdt:
+ ~j@nbz pfrk<xbkf cj vyjq rjynhfrn. Ye*yj e`bnm
+ cgtkkcdjhlf gj bvtyb =monster_, rjnjhsq *bdtn
+ d cdjtq rhtgjcnb d vtcntxrt gjl yfpdfybtv ___mondung_,
+ d j`vty yf fhntafrn _artifact_. Gjckt e`bqcndf
+ yflj dcnhtnbnmcz c futynjv ~j@nbb _qgfriend_ d
+ __qgfriend_ bp ___qgfriend_ d ntxtybt =1stparton_ lytq.
+
+Message:  1030
+<ce> Ds pfrjyxbkb cdj< xfcnm cltkrb c
+<ce> ~j@nbtq -- =monster_ vthnd.
+
+Message:  1040
+=monster_:
+<ce>
+  E`bhfqcz ytvtlktyyj bp ___mondung_!
+~j@nbz crfpfkf vyt, xnj nt`t ye*yj
+dsgjkybnm cdj< xfcnm rjynhfrnf. Vs vj*tv
+gjlbcrenbhjdfnm j ndjtv yt`kfujhfpevbb
+d lheujt dhtvz, yj ctqxfc nt`t yflj blnb
+d vtcnj yfpyfxtyyjq dcnhtxb. Rjulf z
+pfrjyxe c ljujdjhtyyjcnm< gj dsldjhtyb< nt`z
+bp htubjyf %reg, nj cfv dcnhtxecm c nj`jq.
+<ce>
+~thtub ct`z.
+<ce>
+    _mfriend_
+    ___mfriend_
+<ce> ----
+
+Message:  1041
+<ce> Jnrelf ns pltcm ... %oth!
+<ce> Z pyf<, xnj =monster_ crjhj vtyz
+<ce> e`mtn. Ckeifq, gjckt vjtuj gbcmvf
+<ce> vjz *bpym ntgthm ybxtuj yt cnjbn
+<ce> b z kbibkcz gjllth*rb b pfobns.
+<ce> Ns yfqltim %g4 d ___hideout_.
+<ce> Z evsdf< herb...
+
+Message:  1042
+%qdt:
+ =monster_ ecrjkmpyek jn vtyz
+ d ___mondung_, yj vyt cnfkj bpdtcnyj,
+ xnj %g ntgthm ghzxtncz d
+ ___hideout_.
+ Dnjhjq hfp %g yt eqltn jn vtyz.
+
+
+
+QBN:
+Item _artifact_ artifact Ebony_Mail anyInfo 1014
+Item _letter_ letter used 1040
+
+Person _questgiver_ face 112 named Boethiah anyInfo 1013
+Person _qgfriend_ group Librarian anyInfo 1011 rumors 1012
+Person _mfriend_ group Local_4.0 remote
+
+Place _mondung_ remote dungeon2
+Place _hideout_ remote dungeon6
+
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
+Clock _escapetime_ 00:00 0 flag 1 range 2 3
+
+Foe _monster_ is Spellsword
+Foe _monster1_ is Spellsword
+
+--	Quest start-up:
+	dialog link for person _mfriend_
+	start timer _escapetime_
+	reveal _mondung_
+	log 1010 step 0
+	_letter_ used do _readletter_
+	place foe _monster_ at _mondung_
+
+_1stparton_ task:
+	end quest
+
+variable _2ndparton_
+_pcgetsgold_ task:
+	when _npcclicked_ and _mondead_
+	give pc _artifact_
+	end quest
+--removed unnecessary delay
+
+_mondead_ task:
+	killed 1 _monster_
+	killed 1 _monster1_
+	say 1030
+
+_npcclicked_ task:
+	clicked npc _qgfriend_
+
+_clearclick_ task:
+	when _npcclicked_ and not _mondead_
+	say 1003
+	clear _npcclicked_ _clearclick_
+
+_escapetime_ task:
+	start timer _1stparton_
+
+_S.08_ task:
+	when _escapetime_ and not _mondead_
+	place item _letter_ at _mondung_
+	remove foe _monster_
+	place foe _monster1_ at _hideout_
+--added monster1 due to duplicate monster issue
+
+_S.09_ task:
+	clicked npc _mfriend_
+	reveal _hideout_
+	log 1042 step 1
+	say 1041
+
+_readletter_ task:
+	add dialog for person _mfriend_

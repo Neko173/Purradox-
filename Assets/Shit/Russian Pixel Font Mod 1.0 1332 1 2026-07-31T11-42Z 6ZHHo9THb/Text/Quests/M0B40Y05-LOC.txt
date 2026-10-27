@@ -1,0 +1,228 @@
+-- Quest: C:\QUESTS\WORKING\M0B40Y05.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 40
+-- QuestId: 5
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 81
+Quest: M0B40Y05
+DisplayName: J[jnf yf cghbuufyf
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ytcrjkmrj lhjdjctrjd yfyzkb Ubkmlb<
+<ce> e`bnm cghbuufyf.
+<ce> Celz gj dctve vjycnh yfgfk yf yb[,
+<ce> rjulf jyb pfybvfkbcm pfujnjdrjq
+<ce> lhjd d ktce. {jxtim dpznmcz pf
+<ce> @ne hf`jne, %pcn?
+
+RefuseQuest:  [1001]
+<ce> Ljdjkmyj xtcnyj. Cdj`jlty.
+<ce> Z gjboe rjuj-nj vtytt pfyznjuj.
+
+AcceptQuest:  [1002]
+<ce> Ldt gjgsnrb ecnhjbnm pfcfle yt
+<ce> edtyxfkbcm ecgt[jv. Cghbuufy dtcmvf
+<ce> evty jrfpfkcz. Nt`t yflj gjqnb d tuj
+<ce> kjujdj d ___dungeon_.
+<ce> Djpdhfofqcz d ntxtybt =2dung_ lytq
+<ce> b gjkexbim d yfuhfle _gold_ pjkjns[.
+
+QuestFail:  [1003]
+<ce> Cghbuufy gjhe`kty d otgrb?
+<ce> Ndjz elfkm ltkftn nt`t xtcnm,
+<ce> %pct.
+
+QuestComplete:  [1004]
+<ce> Djn ndjt pjkjnj: _gold_.
+<ce> Dct rfr b `skj j`tofyj.
+
+RumorsDuringQuest:  [1005]
+<ce> Z cks[fk, _woodsman_ gjl`bdftn
+<ce> lhjdjctrjd yf `jhm`e cj cghbuufyfvb.
+<ce> ^nj *t ghjcnj cvtiyj. Ybrjulf yt cks[fk,
+<ce> xnj`s cghbuufys ghtlcnfdkzkb lkz yfc
+<ce> euhjpe.
+
+RumorsPostfailure:  [1006]
+<ce> Tot jlby lhjdjctr vthnd. Z cksifk,
+<ce> @nj `sk _woodsman_. Gj[j*t bv cnjbn
+<ce> gjbcrfnm lheujt vtcnj lkz he`rb ktcf.
+
+RumorsPostsuccess:  [1007]
+<ce> Z lfdyj e*t yt cksifk ghj cghbuufyjd.
+<ce> Ljk*yj `snm jyb eikb jnc<lf.
+
+QuestorPostsuccess:  [1008]
+<ce> Jnkbxyfz hf`jnf c @nbvb cghbuufyfvb.
+
+QuestorPostfailure:  [1009]
+<ce> Cghbuufys ckbirjv rhens lkz nt`z?
+<ce> Xnj ckexbkjcm? Ns, %ra, bcgeufkcz b
+<ce> cghznfkcz?
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ubkmlbz ~jqwjd bp ___qgiver_
+ yfyzkf vtyz e`bnm cghbuufyf,
+ nthhjhbpbhe<otuj vtcnys[ lhjdjctrjd.
+ Jy ghzxtncz d ___dungeon_.
+ Vyt lfkb =2dung_ lyz yf
+ dsgjkytybt hf`jns.
+
+Message:  1011
+<ce> Cghbuufy vthnd.
+<ce> Yfrjytw-nj lhjdjctrb vjuen
+<ce> cgjrjqyj dplj[yenm.
+
+Message:  1020
+<ce> Ns yfgflftim yf vtyz `tp ghbxbys,
+<ce> %ra. Lf, z yfgflfk yf ue`bntktq
+<ce> ktcf. Tckb `s ns pyfk, crjkmrj vjb[
+<ce> cjhjlbxtq jyb e`bkb. Cvju `s ns
+<ce> elth*fnm cdjb rjhyb d ptvkt b yt
+<ce> yfrfpsdfnm e`bqw ndjb[ ltntq? Z
+<ce> yt bvt< ghjnbd nt`z ybxtuj gkj[juj.
+<ce> E`tlb lhjdjctrjd j`hfofnmcz c
+<ce> ktcjv `tht*ytt b z jcnfdk< b[ d gjrjt.
+<ce> Ns cltkftim @nj lkz vtyz?
+
+Message:  1021
+<ce> Ukfdysq dbyjdybr - _woodsman_,
+<ce> jy he`bn lthtdmz `tp hfp`jhe.
+<ce> Blb d ___woodsman_ b djpmvb c ytuj
+<ce> j`tofybt dtcnb ct`z frrehfnytt. ~jkmit
+<ce> yt bob vtyz. Z `ele pyfnm, dsgjkytyj kb
+<ce> vjt pflfybt bkb ytn gj njve, rfr `elen
+<ce> hf`jnfnm lhjdjctrb.
+
+Message:  1022
+<ce> Ntgthm z `ele pyfnm, rfrjdj ljdthznm
+<ce> ceotcnde bp gkjnb. Ctqxfc z djplfv
+<ce> nt`t pf nhels ndjb.
+
+Message:  1023
+<ce> {f, @nb lthtdzirb [jnzn pfrk<xbnm
+<ce> cltkre, lf? Xnj *, gjkfuf< z cvjue
+<ce> e`tlbnm cdjb[ ht`zn he`bnm njkmrj
+<ce> dphjckst lthtdmz. Yj tckb @nb...
+<ce> @nb...tot hfp yfgflen yf yfc, vs
+<ce> cj**tv dct, dgkjnm lj gj`tujd, rjnjhst
+<ce> yfv gjgflencz! Vj*tim cxbnfnm, xnj
+<ce> vs ljujdjhbkbcm, %pcn.
+
+Message:  1025
+<ce> Nt`t elfkjcm cltkfnm nfr, xnj lhjdjctrb
+<ce> b cghbuufys gjkflbkb `tp lhfrb?
+<ce> Bpevbntkmyj, %pcn! Lfktrj gjqltim,
+<ce> c nfrbv jcnhsv evjv, rfr e nt`z.
+
+Message:  1030
+%qdt:
+ Cghbuufy e`tlbk vtyz, xnj r yfcbkb<
+ tuj dsyelbkb. Gj[j*t xnj lhjdjctr
+ gj bvtyb _woodsman_
+ bp ___woodsman_ edktrcz he`rjq ktcf.
+ Tckb vyt elfcncz eujdjhbnm _woodsman_
+ he`bnm ktc frrehfnytt, @nj ceotcndj
+ ghtrhfnbn ghjkbdfnm xe*e< rhjdm.
+
+Message:  1080
+<ce> ^[, xnj-nj ctujlyz z lj`hsq. Djn rfhnf r
+<ce> vtcntxre gjl yfpdfybtv ___newdung_.
+<ce> Jyj gjkyj vjycnhjd, rjnjhs[ yflj e`bnm,
+<ce> cjrhjdbo, rjnjhst yflj hfpuhf`bnm, d j`otv
+<ce> vyjuj xtuj nfv tcnm. Dtctkbcm yf gjkye<
+<ce> rfneire.
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+Person _woodsman_ face 168 group Resident2 remote
+
+Place _dungeon_ remote dungeon
+Place _newdung_ remote dungeon
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+Clock _end_ 00:00
+
+Foe _monster_ is Spriggan
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	pick one of _map_ _nomap_
+	place foe _monster_ at _dungeon_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _monster_ saying 1011
+	hide npc _woodsman_
+	remove log step 1
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_normalvict_ task:
+    when _qgclicked_ and _S.01_
+	say 1003
+    start task _victory_
+--1003 appears to be a victory statement for kill path
+
+_victory_ task:
+	give pc _gold_
+    start timer _end_
+--	end quest
+--this would cause double quest ending, for double reputation gain
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.01_ and not _S.07_
+	clear _qgclicked_ _clearclick_
+
+_S.04_ task:
+	injured _monster_
+
+_injtalk_ task:
+    when _S.04_ and not _S.01_
+	prompt 1020 yes _yes_ no _no_
+
+_yes_ task:
+	add dialog for person _woodsman_
+	log 1030 step 1
+	say 1021
+	restrain foe _monster_
+
+_no_ task:
+	say 1022
+
+_S.07_ task:
+	clicked npc _woodsman_
+
+_notkill_ task:
+	when _S.07_ and _injtalk_ and not _S.01_
+    say 1023
+	change repute with _woodsman_ by +10
+
+_S.08_ task:
+	when _qgclicked_ and _notkill_
+	say 1025
+	start task _victory_
+
+variable _map_
+variable _nomap_
+_S.11_ task:
+	when _map_ and _victory_
+	reveal _newdung_ readmap
+    say 1080
+
+_end_ task:
+    end quest

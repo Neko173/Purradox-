@@ -1,0 +1,138 @@
+-- Quest: C:\QUESTS\WORKING\C0B00Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: temple
+-- Repute: 0
+-- QuestId: 3
+Messages: 13
+Quest: C0B00Y03
+DisplayName: Ghjgfdibq extysq
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> %pct, jlby bp yfib[ cke*bntktq,
+<ce> =cleric_ gj bvtyb
+<ce> _cleric_ ghjgfk dj dhtvz
+<ce> fh[tjkjubxtcrb[ hfcrjgjr. Vj*tn
+<ce> gjvj*tnt yfv yfqnb %g4?
+   <--->
+<ce> ~j<cm, xnj jlby bp yfib[ kexib[
+<ce> extys[, _cleric_
+<ce> ghjgfk dj dhtvz bccktljdfybz jlyjuj
+<ce> hfpheityyjuj [hfvf. Yt gjvj*tnt
+<ce> yfv yfqnb %g4?
+
+RefuseQuest:  [1001]
+<ce> Jxtym ghfdbkmyfz njxrf phtybz:
+<ce> `snm jnrhjdtyysv dj dctv,
+<ce> %pcf.
+
+AcceptQuest:  [1002]
+<ce> ^nj [jhjij, [jhjij. Bnfr,
+<ce> _cleric_ et[fk d
+<ce> ___mondung_ ldt ytltkb
+<ce> yfpfl, xnj`s ghjdthbnm, rfr blen
+<ce> hfcrjgrb. Djpvj*yj, xnj dct d gjhzlrt,
+<ce> yj ... Z lf< dfv =queston_ lytq
+<ce> c]tplbnm nelf, yfqnb _cleric_
+<ce> b dthyenmcz j`hfnyj. Lf ght`eltn c
+<ce> dfvb %god, %pct.
+<ce> Elfxb.
+
+QuestComplete:  [1004]
+<ce> Fuf, %pct b lj`hsq
+<ce> _cleric_, @nj [jhjij cyjdf
+<ce> dbltnm dfc *bdsvb b ytdhtlbvsvb d
+<ce> __qgiver_. Z jgfcfkcz [elituj,
+<ce> tckb xtcnyj.
+
+RumorsDuringQuest:  [1005]
+_cleric_ `sk ukegwjv, xnj`s gjqnb `tp jhe*bz d ___mondung_.
+   <--->
+___mondung_ - yt vtcnj lkz extys[ =cleric_ yfdhjlt _cleric_.
+
+RumorsPostfailure:  [1006]
+Dct e*t gjnthzkb yflt*le, xnj rjulf-yb`elm edblzn _cleric_ cyjdf.
+   <--->
+__qgiver_ jujhxty ghjgf*tq _cleric_.
+
+RumorsPostsuccess:  [1007]
+Dct `kfujlfhyjcnb @njve %ra, xnj _cleric_ yfxfk hf`jns gj yfgbcfyb< bcnjhbb ghjbc[j*ltybz ___mondung_.
+   <--->
+Ecgt[ d hjpscrt _cleric_ pyfxbntkmyj gjlyzk dfc d ukfpf[ __qgiver_.
+
+QuestorPostsuccess:  [1008]
+Pf nj xnj ds cltkfkb lkz _cleric_, z gjvjue dfc d xtv eujlyj, %pcf.
+
+QuestorPostfailure:  [1009]
+Z dct tot gjvy< ltkj c _cleric_, %pcf. Jcnfdmnt vtyz.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp __qgiver_
+ gjckfk vtyz d ___mondung_
+ hfpscrfnm cdzotyybrf gj bvtyb _cleric_,
+ ghjgfdituj ult-nj nfv. E vtyz =queston_
+ lytq, xnj`s yfqnb =cleric_ b
+ dthyenmcz d ___qgiver_
+ d __qgiver_.
+
+Message:  1011
+<ce> ~j*t, dtlm z njkmrj yfxfk cdjb bccktljdfybz,
+<ce> <ysq %ra. Yte*tkb ghjikj nfr vyjuj dhtvtyb?
+<ce> Rfr `scnhj ktnbn dhtvz. Ye kflyj, `elmnt
+<ce> nfr k<`tpys cjghjdjlbnm vtyz gj genb
+<ce> d [hfv, vjq lj`hsq lheu %pcf ...
+   <--->
+<ce> ~kfujlfhtybt %god, ds ghbikb.
+<ce> Z `hjlbk pltcm d gjbcrf[ ds[jlf
+<ce> jrjkj ytltkb. Z ctqxfc *t gjqle c
+<ce> dfvb d [hfv.
+
+Message:  1012
+<ce> "^@@, z pyf< genm jnc<lf,", -
+<ce> - jnvf[yekcz jn dfc _cleric_.
+
+
+
+QBN:
+
+Person _qgiver_ group Questor
+Person _cleric_ face 105 factiontype Temple
+
+Place _mondung_ remote dungeon4
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+
+--	Quest start-up:
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	place npc _cleric_ at _mondung_
+
+_queston_ task:
+	end quest
+
+_S.01_ task:
+	clicked npc _cleric_
+	hide npc _cleric_
+	say 1011
+	add _cleric_ face
+
+_reward_ task:
+	when _qgclicked_ and _S.01_
+	give pc nothing
+	end quest
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_S.04_ task:
+	when _qgclicked_ and not _S.01_
+	clear _qgclicked_ _S.04_
+
+_cick_ task:
+	when _S.01_ and _queston_
+	say 1012

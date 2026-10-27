@@ -1,0 +1,226 @@
+-- Quest: C:\QUESTS\WORKING\O0A0AL00.Qbn.
+-- StartsBy: letter
+-- Questee: initiate
+-- Questor: thief
+-- Repute: 0
+-- QuestId: 0
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 31
+Quest: O0A0AL00
+DisplayName: Rdfkbabrfwbjyysq @rpfvty
+-- Message panels
+QRC:
+
+QuestComplete:  [1004]
+<ce> Tot jlby yjdbxjr. Z elbdkz<cm, ult Ubkmlbz
+<ce> b[ dct[ yf[jlbn. F, z cvjnh<, jyb gjckfkb
+<ce> dfc pf ytrjtq dtom<, ghbyflkt*fotq vfue.
+<ce> D gjcktlytt dhtvz @nj dtcmvf gjgekzhyjt
+<ce> bcgsnfybt. Xnj *. Gjplhfdkz<! _clothing_
+<ce> e dfc, b ds jnysyt gjkyjghfdysq xkty Ubkmlbb
+<ce> Djhjd. C @njuj vjvtynf dctulf, rjulf `s ds
+<ce> yb djikb d k<`jq ujhjl, dfv cjj`ofn, ult
+<ce> vs yf[jlbvcz.
+<ce> Byjulf z *fkt< j njv, xnj ghfdbkf Ubkmlbb ytps`ktvs.
+<ce> Djn b ctqxfc vyt ghbltncz pfgkfnbnm dfv pf @njn
+<ce> `tcgjktpysq vecjh, nfr rfr ds erhfkb tuj gj pflfyb<.
+<ce> Ubkmlbb. Djn. Djpmvbnt.
+<ce>
+<ce>
+<ce> Lf. Tot rjt-xnj. E dfc d cj`cndtyyjcnb ntgthm tcnm
+<ce> crhjvyjt e`t*bot ___dungeon_. Djn rfhnf. Elfxb!
+
+
+RumorsDuringQuest:  [1005]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostfailure:  [1006]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostsuccess:  [1007]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Cnhfyysq ybobq cj cnfkmyjq [dfnrjq
+ gthtlfk vyt gbcmvj. Rnj-nj bp Ubkmlbb
+ Djhjd pfcnfk vtyz pf pfyznbtv, rjnjhjt
+ bv yt jxtym gjyhfdbkjcm, b Ubkmlbz dspsdftn
+ vtyz r ct`t yf hfpujdjh. E vtyz tcnm ds`jh:
+ ghbvryenm r ybv bkb cnfnm b[ dhfujv.
+
+Message:  1020
+<ce> Ds pfvtnbkb jlyjukfpjuj gjghjifqre,
+<ce> cblzotuj d uhzpb b htibkb lfnm tve
+<ce> ytcrjkmrj vjytn. Rfr njkmrj ds ghjnzyekb
+<ce> tve here, jy c*fk tt, ckjdyj cnfkmysvb
+<ce> rktofvb, b ghbnzyek dfc r ct`t: "Yt
+<ce> cnjbn... vyt e*t pfgkfnbkb", - ghjibgtk
+<ce> jy dfv yf e[j. Ds dsdthyekbcm b e`t*fkb.
+<ce> Rjulf ds jcnfyjdbkbcm, xnj`s jnlsifnmcz,
+<ce> nj c elbdktybtv j`yfhe*bkb d hert
+<ce> rkjxjr `evfub.
+
+Message:  1018
+<ce> _clothing_ e dfc.
+<ce> Ds ecksifkb ijhj[ `evfub
+<ce> b htibkb jcvjnhtnm dybvfntkmyj
+<ce> nj, xnj dpzkb.
+
+Message:  1019
+_thiefmember_
+___endbuilding_
+<ce> ----
+
+Message:  1024
+%pcn,
+  Ds pfybvfkbcm djhjdcndjv.
+Lf*t yt gsnfqntcm jnhbwfnm @nj
+bkb jghfdlsdfnmcz. Dfc pfcnfkb
+c gjkbxysv. Jlyfrj, nj, rfr ds
+@nj cltkfkb,  pfcke*bkj jlj`htybt
+vyjub[ pfcke*tyys[ djhjd.
+Ntgthm ds`bhfqnt jlyj bp lde[. Kb`j ds
+ghbcjtlbyztntcm r Ubkmlbb Djhjd,
+kb`j *ltnt ytghbznys[ gjcktlcndbq.
+Tckb ds gj*tkftnt ghbcjtlbybnmcz, nj
+dfv ye*yj `eltn d ntxtybt =traveltime_ lytq
+erhfcnm rjt-xnj bp jcj`yzrf __mansion_.
+^nj dctuj kbim _clothing_.
+Gecnm @nj `eltn pyfrjv dfituj cjukfcbz.
+Ltqcndeqnt. Vs *ltv dfc.
+Lf. B tot. _mansion_ jxtym ljhj*bn
+@njq dtom<.
+
+Message:  1030
+<ce> Djh! Z gjrf*e nt`t, rfr rhfcnm e vfujd.
+<ce> ^njn ehjr ns yt crjhj pf`eltim.
+
+
+
+QBN:
+Item _clothing_ womens_clothing
+Item _letter_ letter used 1024
+Item _note_ letter used 1019
+Item _gold_ gold range 1 to 1
+
+Person _thiefmember_ face 88 faction The_Thieves_Guild remote
+Person _npc_ face 218 group Group_6.0 female remote
+
+Place _mansion_ remote house1
+Place _dungeon_ remote dungeon
+-- Added to allow joining while quest system is still being finished:
+Place _endbuilding_ remote random
+
+Clock _traveltime_ 90.00:01 0 flag 1 range 0 1
+
+Foe _F.00_ is Mage
+
+--	Quest start-up:
+	place item _clothing_ at _mansion_
+	_letter_ used do _readletter_
+	give pc _letter_ notify 1020
+                place npc _thiefmember_ at _endbuilding_
+
+_traveltime_ task:
+	end quest
+
+_questdone_ task:
+	toting _clothing_ and _thiefmember_ clicked
+	give pc _gold_
+	reveal _dungeon_ readmap
+	end quest
+
+_S.02_ task:
+	create foe _F.00_ every 3 minutes 3 times with 25% success
+
+_S.03_ task:
+	clicked item _clothing_ say 1018
+	get item _note_
+
+_readletter_ task:
+	pc at _mansion_ set _S.02_
+	start timer _traveltime_
+	log 1010 step 0
+
+_S.05_ task:
+	injured _F.00_
+	say 1030

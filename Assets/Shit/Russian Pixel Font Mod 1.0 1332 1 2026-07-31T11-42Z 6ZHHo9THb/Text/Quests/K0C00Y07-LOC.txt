@@ -1,0 +1,334 @@
+-- Quest: C:\QUESTS\WORKING\K0C00Y07.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: merchant
+-- Repute: 0
+-- QuestId: 7
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 100
+Quest: K0C00Y07
+DisplayName: Dsreg
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vjz `tlyfz k<`jdm _victim_
+<ce> `skf gj[botyf Ubkmlbtq Djhjd.
+<ce> Ds gjvj*tnt vyt?
+   <--->
+<ce> Ubkmlbz Djhjd pf`hfkf vj< k<`jdm
+<ce> _victim_ e vtyz b ntgthm
+<ce> nht`etn dsreg. Vyt ye*ty rnj-nj,
+<ce> vjueobq dthyenm vyt vj< k<`jdm,
+<ce> k<`sv gentv. Gj*fkeqcnf,
+<ce> gjvjubnt vyt?
+
+RefuseQuest:  [1001]
+<ce> E dfc ktlzyjt cthlwt,
+<ce> %pcf. Gjkfuf< vyt kbxyj
+<ce> ghbltncz dcnhtnbnmcz c @nbvb
+<ce> gj[bnbntkzvb.
+   <--->
+<ce> Njulf gjboe rjuj
+<ce> lheujuj, %pcn.
+
+AcceptQuest:  [1002]
+<ce> Z yt vjue pfgkfnbnm vyjuj, %pcf.
+<ce> Gjxnb dct vjt pjkjnj gjnhfxtyj yf gjregre
+<ce> rfvyz lkz dsregf, yj ds cvj*tnt gjkexbnm
+<ce> xfcnm vjb[ c`tht*tybq, _gold_ pjkjns[,
+<ce> rjulf vjz lhf*fqifz k<`jdm _victim_
+<ce> dthytncz j`hfnyj.
+<ce> Gj[bnbntkb [jnzn, xnj`s _gem_ `sk
+<ce> ljcnfdkty d __kidnapper_ d
+<ce> ___kidnapper_ b e vtyz tcnm yt `jkmit,
+<ce> xtv =2ransom_ lytq. D __kidnapper_,
+<ce> yflj yfqnb =kidnapper_,
+<ce> rjnjhjuj pjden _kidnapper_.
+<ce> Ytn ybxtuj df*ytt `tpjgfcyjcnb _victim_,
+<ce> yj tckb ds evelhbntcm cj[hfybnm dsreg, nj
+<ce> vjz `kfujlfhyjcnm `eltn `tpuhfybxyf.
+<ce> Rfr e*t crfpfyj, @nj dct, xnj e vtyz tcnm.
+<ce> Elfxb b `kfujckjdbn dfc %god.
+   <--->
+<ce> Cdznsq %god. Djn _gem_, rjnjhsq
+<ce> nht`e<n gj[bnbntkb lkz dsregf. Tckb ds cvj*tnt
+<ce> yfqnb cgjcj` cgfcnb _victim_
+<ce> `tp egkfns dsregf, vjz `kfujlfhyjcnm `eltn
+<ce> `tpvthyf. Gjckt gjregrb, vjb c`tht*tybz gjxnb
+<ce> rjyxbkbcm. Rjytxyj *t ds vj*tnt gjkexbnm d
+<ce> jgkfne _gold_ pjkjns[, rfr njkmrj _victim_
+<ce> dthytncz -- gecnm vjb c`tht*tybz bcnjofncz,
+<ce> yj @nj cnjbn njuj. ~elmnt edthtys, xnj
+<ce> dsreg dsgkfxty yt hfymit, xtv xthtp
+<ce> =2ransom_ lytq. E gj[bnbntktq tcnm cdzpyjq
+<ce> d __kidnapper_ d ___kidnapper_,
+<ce> =kidnapper_ gj bvtyb _kidnapper_. Rfr
+<ce> njkmrj ghjqltn =2ransom_ lytq, %g gjiktn
+<ce> pyfr cdjbv lhepmzv, ult `s jyb yt `skb b
+<ce> jyb e`m<n *thnde. Yt ljgecnbnt `tls.
+<ce> Elfxb, lheu.
+
+Message:  1099
+<ce> _victim_! J, `kfujlfhtybt
+<ce> %god, ds *bds. B, lj`hsq uthjq %pcf,
+<ce> ds yt bcgjkmpjdfkb dsreg _gem_.
+<ce> Yt pyf<, rfr dfc `kfujlfhbnm. Djn _gold_
+<ce> pjkjns[, rfr b `skj j`tofyj, yj @njuj
+<ce> ytljcnfnjxyj. Vjz uke`jxfqifz
+<ce> `kfujlfhyjcnm, vjq lheu.
+
+QuestComplete:  [1004]
+<ce> Djpmvbnt @nj. ^nj dfit, lheu vjq.
+
+RumorsDuringQuest:  [1005]
+Tldf kb _qgiver_ cvj*tn dsgkfnbnm dsreg pf _victim_.
+   <--->
+Gj[botybt _victim_ yfgeufkj dct[ d ___qgiver_.
+
+RumorsPostfailure:  [1006]
+Djhs, gj[bnbdibt _victim_, ybrjulf yt `elen jce*ltys.
+
+RumorsPostsuccess:  [1007]
+_victim_ hfpscrfk e djhjd elbdbntkmysq yftvybr %ra.
+
+QuestorPostsuccess:  [1008]
+Ds hfpscrfkb _victim_, %pcf. Rjytxyj *t z gjvjue dfv xtv cvjue.
+
+QuestorPostfailure:  [1009]
+<ce> Gjckeifq, z yt [jxe `jknfnm yb c
+<ce> nj`jq yb c rtv kb`j tot. Gjxtve `s
+<ce> nt`t yt pfnryenmcz?
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ bp
+ __qgiver_, ___qgiver_
+ gjcskftn vtyz c _gem_ lkz
+ dsregf cdjtq k<`db, _victim_
+ e Ubkmlbb Djhjd. Dsreg ljk*ty `snm
+ dsgkfxty d ntxtybt =2ransom_ lytq, byfxt
+ jyb e`m<n _victim_.
+ _kidnapper_ - cdzpyjq gj[bnbntktq,
+ j*blf<ob[ vtyz d __kidnapper_ d
+ ___kidnapper_.
+ Rjytxyj *t _qgiver_ [jxtn, tckb
+ @nj djpvj*yj, hfpscrfnm _victim_
+ `tp egkfns dsregf.
+
+Message:  1011
+<ce> Jnlfnm _gem_
+<ce> d herb _kidnapper_?
+
+Message:  1012
+<ce> Ns %pcf, @? Ubkmlbz Djhjd yfikf nt`z,
+<ce> gfhybif. J, %oth, z db*e.
+<ce> Ns hf`jnftim yf _qgiver_, vs
+<ce> ljk*ys `snm edthtys, xnj %g pfgkfnbn
+<ce> `tp `fkls.
+
+Message:  1013
+<ce> _victim_ pfgkfnbn pf ndj<
+<ce> ukegjcnm! %oth, %g
+<ce> evhtn hfymit, xtv ghjqltn =queston_
+<ce> lytq! =thug_!
+<ce> Pfrjgfqnt @njuj %ra
+<ce> yf pflytv ldjhbrt!
+   <--->
+<ce> =thug_! E`bnm @njuj negjuj
+<ce> %ra, f gjnjv cltkfqnt nj *t
+<ce> cfvjt c _victim_.
+
+Message:  1014
+<ce> Ds jn _qgiver_?
+<ce> %oth, `kfujlfhtybt %god! ~scnhtt,
+<ce> e`bhftvcz jnc<lf!
+
+Message:  1015
+=thug_,
+<ce>
+  Ubkmlbz [jxtn bcgjkmpjdfnm ndjb vecreks
+lkz j`sxyjuj gj[botybz. Bvz *thnds _victim_.
+Gjckt gj[botybz *thnds bp cdjtuj ljvf d
+__qgiver_ d ___qgiver_,
+blb d ___mondung_.
+  Genm r ___mondung_ erfpfy
+yb*t. Yflt<cm @nj yt ckbirjv nhelysq gkfy
+lkz nt`z.
+<ce>
+_kidnapper_
+<ce> ----
+
+Message:  1016
+<ce> %pcf, rjytxyj *t z pyf<,
+<ce> xnj ds ltkftnt. Vyt ghbznyj gjkexbnm
+<ce> j`hfnyj _gem_, f yt jcnfdbnm tuj
+<ce> d j`vty yf _victim_.
+<ce> Tckb %g evhtn, z yt j`hfle<cm.
+
+Message:  1017
+<ce> _victim_! Cdznsq %god,
+<ce> ds d gjhzlrt! ~kfujlfh< dfc, vjq
+<ce> lheu. Gjkfuf< ds yt pfgkfnbkb
+<ce> dsreg, %pcf,
+<ce> yj ytn ybxtuj df*ytt, xtv *bpym
+<ce> _victim_.
+<ce> Djn _gold_ pjkjns[, rfr
+<ce> b j`tofyj.
+
+Message:  1018
+<ce> Yt elbdbntkmyj, xnj ubkmlbb ns
+<ce> yhfdbimcz. Edthty, jyb e*t ecksifkb
+<ce> j` @njv, %pcf. Ntgthm blb
+<ce> j`hfnyj r _qgiver_ b
+<ce> crf*b tve, xnj`s jngecnbkb
+<ce> _victim_. Ghbznyj bvtnm
+<ce> c dfvb ltkj.
+
+Message:  1019
+<ce> F, [jhjij. Gecnm _qgiver_
+<ce> pyftn, xnj _victim_
+<ce> d `tpjgfcyjcnb d ___qgiver_.
+<ce> Lj dcnhtxb.
+
+Message:  1020
+<ce> Lf, _victim_ ljcnfdbkb ght*lt,
+<ce> xtv ds ghb`skb, %pcf.
+<ce> ~kfujlfh< dfc pf nj, xnj ds
+<ce> ghtlcnfkb gthtl e*fcysv _kidnapper_
+<ce> dvtcnj vtyz. Djn _gold_ pjkjns[,
+<ce> rfr b `skj j`tofyj.
+
+Message:  1021
+<ce> _victim_ ujdjhbn dfv, xnj
+<ce> %g vj*tn cfvjcnjzntkmyj yfqnb genm r
+<ce> cdjtq k<`db _qgiver_ jnc<lf,
+<ce> `kfujlfhbn dfc b e`tuftn ghjxm.
+
+Message:  1022
+<ce> Ntgthm, _victim_
+<ce> njxyj nheg.
+
+
+
+QBN:
+Item _gem_ gem
+Item _gold_ gold range 5 to 25
+Item _map_ letter used 1015
+
+Person _qgiver_ group Questor
+Person _victim_ face 1 group Group_7.0 local
+Person _kidnapper_ face 36 faction The_Thieves_Guild male remote
+
+Place _mondung_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+Clock _2ransom_ 00:00 0 flag 17 range 1 2
+
+Foe _thug_ is Rogue
+
+--	Quest start-up:
+	start timer _2ransom_
+	start timer _queston_
+	log 1010 step 0
+	get item _gem_
+	_map_ used do _S.08_
+	place npc _victim_ at _mondung_
+
+_queston_ task:
+	have _gem_ set _S.20_
+	end quest
+
+variable _2ransom_
+_S.02_ task:
+	toting _gem_ and _kidnapper_ clicked
+	repute with _kidnapper_ exceeds 10 do _S.05_
+
+_S.03_ task:
+	say 1019
+
+_S.04_ task:
+	create foe _thug_ every 1 minutes 1 times with 100% success
+	get item _gem_
+	give item _map_ to _thug_
+	hide npc _kidnapper_
+	say 1013
+
+_S.05_ task:
+	prompt 1012 yes _S.07_ no _S.04_
+
+_S.06_ task:
+	when _S.02_ and not _S.05_
+	prompt 1011 yes _S.03_ no _S.04_
+
+_S.07_ task:
+	get item _gem_
+	say 1018
+
+_S.08_ task:
+	reveal _mondung_
+
+_S.09_ task:
+	clicked npc _victim_
+	hide npc _victim_
+	say 1014
+	add _victim_ face
+
+_reward_ task:
+	when _S.11_ and _S.09_
+	say 1099
+	change repute with _qgiver_ by +15
+	change repute with _kidnapper_ by -10
+
+_S.11_ task:
+	toting _gem_ and _qgiver_ clicked
+	clear _qgclicked_
+
+_S.12_ task:
+	when _S.11_ and not _S.09_ and not _S.04_
+	get item _gem_
+
+_S.13_ task:
+	when _S.11_ and not _S.09_ and _S.04_
+	say 1016
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+	have _gem_ set _S.15_
+
+variable _S.15_
+_S.16_ task:
+	when _qgclicked_ and not _S.15_ and _S.09_
+	say 1017
+	change repute with _qgiver_ by +8
+
+_S.17_ task:
+	when _qgclicked_ and _S.07_
+	when _qgclicked_ and _S.03_
+	say 1020
+
+_S.18_ task:
+	when not _S.15_ or not _S.09_ or not _S.03_ or not _S.07_
+	clear _qgclicked_
+
+_S.19_ task:
+	when _queston_ and _S.09_ and not _qgclicked_
+	say 1021
+
+_S.20_ task:
+	make _gem_ permanent
+
+_S.21_ task:
+	when _queston_ and not _S.09_ and not _S.07_ and not _S.17_
+	say 1022
+	change repute with _qgiver_ by -5
+
+_S.22_ task:
+	when not _S.09_ and _S.11_
+	get item _gem_
+	clear _S.11_
+
+_givereward_ task:
+	when _reward_ or _S.16_ or _S.17_
+	give pc _gold_
+	end quest

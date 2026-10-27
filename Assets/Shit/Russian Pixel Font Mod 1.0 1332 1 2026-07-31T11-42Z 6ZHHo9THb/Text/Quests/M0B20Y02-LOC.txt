@@ -1,0 +1,148 @@
+-- Quest: C:\QUESTS\WORKING\M0B20Y02.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 20
+-- QuestId: 2
+Messages: 81
+Quest: M0B20Y02
+DisplayName: Uheggf ubufynjd
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Vlf, tcnm nen yt`jkmifz hf`jnrf lkz nt`z.
+<ce> Z `s yt lfk tt rjve gjgfkj, yj z pyf<, -
+<ce> ns [jhjibq hf`jnybr. Ghj`ktvf - ifqrf
+<ce> *f*leob[ rhjdb ubufynjd. Jgkfnf gj dscitve
+<ce> hfphzle: _reward_ pjkjns[.
+<ce> Bltn?
+
+RefuseQuest:  [1001]
+<ce> Ye kflyj, rfr-yb`elm hfp`thtvcz.
+<ce> Gj[j*t lkz nt`z `jkmit ybxtuj ytn.
+
+AcceptQuest:  [1002]
+<ce> Gj herfv, %pcf. Pfrfpxbr erfpfk vtcnj,
+<ce> ult j`jcyjdfkbcm @nb ubufyns: ___mondung_.
+<ce> Jy ujdjhbn, nfv b[ itcnthj, b jy yt pfgkfnbn,
+<ce> tckb dct itcnthj yt `elen nhegfvb xthtp
+<ce> =1stparton_ lytq. Gjyznyj? Ye xnj *, [jhjij,
+<ce> %pcf.
+
+QuestFail:  [1003]
+<ce> Hfpdt vj*tv vs nhfnbnm dhtvz yf `jknjdy<
+<ce> gjrf @nb itcnthj ubufynjd ghjljk*f<n
+<ce> lsifnm?
+
+QuestComplete:  [1004]
+<ce> Gj[j*t ubufyns yt gjljphtdfkb, xnj ujcnm
+<ce> ghbitk gj b[ leie, yt nfr kb, %pcf?
+<ce> Djn ndjb pjkjnst, _reward_, rfr `skj
+<ce> j`tofyj.
+
+RumorsDuringQuest:  [1005]
+Lf, ___mondung_, - nfv gjctkbkfcm uheggf ubufynjd, yj jyb ybrjuj yt `tcgjrjzn.
+   <--->
+Ujdjhzn %t *tkftn gjrjyxbnm c @nbvb ubufynfvb hfp b yfdctulf.
+
+RumorsPostfailure:  [1006]
+Xnj-nj cgeuyekj @nb[ ubufynjd. Bynthtcyj, xnj `s @nj vjukj `snm?
+   <--->
+Tckb `s z `sk jlybv bp @nb[ ubufynjd, z `s nj*t jnc<lf c]t[fk. Ckbirjv k<lyj.
+
+RumorsPostsuccess:  [1007]
+Bynthtcyj, ljkuj kb `eltn gecnjdfnm ___mondung_, lj njuj rfr pfzdbncz cktle<ofz gfhnbz ubufynjd...
+   <--->
+Xtcnyj ujdjhz, ytvyjuj *fkrj @nb[ ubufynjd. Jyb d j`otv-nj ybrjuj yt nhjufkb.
+
+QuestorPostsuccess:  [1008]
+<ce> Ubufyns - rhtgrbq jhtitr, [jhjij
+<ce> chf`jnfyj. Lfktrj gjqltim, %pcf.
+
+QuestorPostfailure:  [1009]
+<ce> Ubufyns - @nj ckbirjv, f? Vj*tn `snm
+<ce> Ubkmlbb cktljdfkj gjckfnm nt`z yf `jhm`e
+<ce> c gbuvtzvb?
+
+QuestLogEntry:  [1010]
+<ce> Dct ubufyns vthnds.
+
+Message:  1020
+<ce> ^nj nthhbnjhbz UBUFYNJD!
+<ce> Jnghfdkzqcz d cdjb *fkrbt ptvkb,
+<ce> yfpjqkbdfz ve[f-%ra!
+   <--->
+<ce> Dxthf z c]tk nfrjuj *t,
+<ce> %ra - `skj jxtym drecyj.
+   <--->
+<ce> Vtkre< leijyre dsnhzce!
+<ce> D ktgtire hfpvf*e!
+
+Message:  1030
+%qdt:
+ Ubkmlbz ~jqwjd bp ___questgiver_
+ yfyzkf vtyz, xnj`s eybxnj*bnm rkfy ubufynjd,
+ xmt e`t*bot - ___mondung_. Xnj`s gjkexbnm
+ djpyfuhf*ltybt ytj`[jlbvj dsgjkybnm
+ pflfybt b dthyenmcz d Ubkmlb< yt gjplytt
+ xtv pf =1stparton_ lytq.
+
+Message:  1080
+<ce> ^q, %pct, tckb ns botim, rjuj `s
+<ce> ghbrjyxbnm, djn, lth*b rfhne -
+<ce> ___newdung_. Nfv @njuj lj`hf
+<ce> ghtljcnfnjxyj.
+
+
+
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ group Questor
+
+Place _mondung_ remote dungeon13
+Place _newdung_ remote dungeon
+
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Giant
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1030 step 0
+	pick one of _map_ _nomap_ _nomap_ _nomap_
+	pc at _mondung_ set _S.01_
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _mondead_
+	give pc _reward_
+	end quest
+
+_S.01_ task:
+	create foe _monster_ every 15 minutes 15 times with 50% success
+
+_mondead_ task:
+	killed 6 _monster_
+	say 1010
+
+_qgclicked_ task:
+	clicked npc _questgiver_
+
+_1stparton_ task:
+	end quest
+
+_S.05_ task:
+	injured _monster_ saying 1020
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_
+	clear _qgclicked_ _clearclick_
+
+variable _map_
+variable _nomap_
+_S.09_ task:
+	when _map_ and _pcgetsgold_
+	reveal _newdung_ readmap
+    say 1080

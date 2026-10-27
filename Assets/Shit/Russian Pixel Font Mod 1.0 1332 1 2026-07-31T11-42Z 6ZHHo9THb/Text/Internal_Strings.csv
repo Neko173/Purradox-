@@ -1,0 +1,1594 @@
+Key,Value
+about_internal_strings,"D @njq nf`kbwt cnhjr [hfybncz ntrcn, rjnjhsq `sk *tcnrj pfrjlbhjdfy d AFKK.T{T b ntrcn, eybrfkmysq lkz Lfuuthafkk Eybns."
+pleaseSelectYourHomeProvince,"Gj*fkeqcnf, ds`thbnt cdj< hjlye< ghjdbywb<..."
+saveGame,"Cj[hfybnm buhe"
+loadGame,"Pfuhepbnm buhe"
+thingJustDied,"%s gjub`ftn."
+gameSaved,"Buhf cj[hfytyf."
+gameLoaded,"Buhf pfuhe*tyf."
+thisHouseHasNothingOfValue,"D @njv ljvt ytn ybxtuj wtyyjuj."
+findLocationPrompt,"Ddtlbnt yfpdfybt vtcnf: "
+rightHandEquipped,"Ghfdfz herf @rbgbhjdfyf."
+leftHandEquipped,"Ktdfz herf @rbgbhjdfyf."
+usingRightHand,"Bcgjkmpetncz jhe*bt d ghfdjq hert."
+usingLeftHand,"Bcgjkmpetncz jhe*bt d ktdjq hert."
+itemHasBroken,"%s ckjvfyj."
+itemHasBrokenPlural,"%s ckjvfys."
+cannotCarryGold,"Ds yt vj*tnt eytcnb cnjkmrj pjkjnf."
+cannotFloat,"Ds ytctnt ckbirjv vyjuj, xnj`s elth*fnmcz yf gkfde."
+youHaveNoArrows,"E dfc ytn cnhtk."
+oldSaveNoTrade,"Pfuhe*tyj cnfhjt cj[hfytybt d gjvtotybb, jryj njhujdkb yt `eltn hf`jnfnm, gj*fkeqcnf, dsqlbnt b cyjdf djqlbnt d plfybt."
+theBodyHasNoTreasure,"Ybxtuj ytn."
+youAreTooFarAway,"Ds ckbirjv lfktrj..."
+youSeeAn,"^nj %s."
+youSeeA,"^nj %s."
+youSeeADeadPerson,"^nj vthndsq xtkjdtr."
+youSeeADead,"^nj vthndsq %s."
+youCollectArrows,"Ds dslthubdftnt cdjb cnhtks bp nhegf."
+loiterHowManyHours,"Crjkmrj xfcjd `tpltkmybxfnm: "
+restHowManyHours,"Crjkmrj xfcjd jnls[fnm: "
+potionRecipeFor,"Htwtgn Ptkmz %po"
+potionRecipeWeight,"Dtc: %kg ru"
+potionOf,"Ptkmt %po"
+letterPrefix,"Gbcmvj: "
+multipleAssignments,"E dfc ytcrjkmrj pflfybq..."
+youAreEntering,"Ntgthm ds d %s"
+storeClosed,"Vfufpby pfrhsn. Xfcs hf`jns c %d1:00 lj %d2:00."
+guildClosed,"Ubkmlbz pfrhsnf. Xfcs hf`jns c %d1:00 lj %d2:00."
+any,"`kb*fqibq %s"
+arkayDesc,"~ju Hj*ltybz b Cvthnb"
+zenDesc,"~ju Nhelf b Njhujdkb"
+maraDesc,"~jubyz K<`db"
+akatoshDesc,"~ju Dhtvtyb"
+julianosDesc,"~ju Kjubrb"
+dibellaDesc,"~jubyz Rhfcjns"
+stendarDesc,"~ju Vbkjcthlbz"
+kynarethDesc,"~jubyz Djple[f"
+interactionIsNowInMode,"Ht*bv dpfbvjltqcndbz - %s."
+steal,"rhf*f"
+grab,"dpznm"
+info,"byajhvfwbz"
+dialogue,"hfpujdjh"
+residence,"Htpbltywbz"
+youSee,"^nj %s."
+theNamedResidence,"Htpbltywbz %s"
+playerResidence,"Ljv %s"
+materialIneffective,"Vfnthbfk jhe*bz yt@aatrnbdty."
+successfulBackstab,"Ecgtiysq elfh d cgbye!"
+languagePacified,"%e ecvbhty yfdsrjv %s"
+lockpickingSuccess,"Pfvjr cj otkxrjv jnrhsdftncz."
+lockpickingFailure,"Yt hfp`kjrbhetncz."
+magicLock,"^nj vfubxtcrbq pfvjr..."
+lockpickChance1,"^njve pfvre ytxtuj dfc `jznmcz..."
+lockpickChance2,"~skj `s xeljv, tckb `s ds dpkjvfkb @njn pfvjr..."
+lockpickChance3,"^njn pfvjr, gj[j*t, pf ghtltkfvb dfib[ yfdsrjd..."
+buildingNames,"{hfv Frfnjif
+{hfv Fhrtz
+{hfv Lb`tkks
+{hfv L*ekbfyjcf
+{hfv Rbyfhtn
+{hfv Vfhs
+{hfv Cntylfhhf
+{hfv Ptybnfhf
+pfk Jhltyf Djhjyf
+pfk Hswfhtq Lhfrjyf
+pfk Hswfhtq Cjds
+pfk Jhltyf Cdtxb
+pfk Hswfhtq Gkfvtyb
+pfk Djbycndf Ujhyf
+pfk Hswfhtq Hjps
+pfk Hswfhtq Rjktcf
+pfk Jhltyf Crfhf`tz
+pfk Hswfhtq Zcnht`f
+pfk Ubkmlbb Vfujd
+pfk Ubkmlbb ~jqwjd
+gjcnjzksq ldjh
+`b`kbjntxysq pfk
+repytw
+vfufpby jhe*bz
+vfufpby fk[bvbb
+`fyr
+ryb*ysq vfufpby
+vfufpby jlt*ls
+<dtkbhysq vfufpby
+kjv`fhl"
+lockpickChance,"Ds cjvytdftntcm d cdjtq cgjcj`yjcnb jnrhsnm @njn pfvjr...
+^njn pfvjr dsukzlbn ckj*ysv...
+^njn pfvjr `hjcbk `s dfv dspjd...
+^njn pfvjr jrfpfkcz `s [jhjibv bcgsnfybtv...
+Ds levftnt, xnj cvj*tnt dpkjvfnm @njn pfvjr...
+^njn pfvjr rf*tncz jnyjcbntkmyj ghjcnsv...
+Dfc pf`fdkztn @njn pfvjr...
+Ds cvttntcm yfl rfxtcndjv @njuj pfvrf...
+Ds dblbnt *fkrjt gjlj`bt pfvrf...
+^njn pfvjr - jcrjh`ktybt dfib[ cgjcj`yjcntq..."
+youPinchedGoldPiece,"Ds cnfobkb 1 pjkjne< vjytne."
+youPinchedGoldPieces,"Ds cnfobk %d pjkjns[ vjytn."
+youAreNotSuccessful,"Ds yt lj`bkbcm ecgt[f..."
+daysUntilFreedom,"%d lytq lj cdj`jls."
+skillImprove,"Dfi yfdsr %s ekexibkcz."
+mustDistributeBonusPoints,"Ds ljk*ys hfcghtltkbnm dct `jyecyst jxrb."
+enterNewName,"Ddtlbnt yjdjt bvz: "
+affiliation,"Jhufybpfwbb"
+rank,"Hfyu"
+serviceQuests,"Gjkexbnm pflfybt"
+serviceSell,"Ghjlfnm"
+serviceBanking,"~fyrjdcrbt eckeub"
+serviceIdentify,"Bltynbabwbhjdfnm"
+serviceBuySpells,"Regbnm Pfrkbyfybz"
+serviceTraining,"J`extybt"
+serviceTeleport,"Ntktgjhnfwbz"
+serviceMakeSpells,"Cjplfnm pfrkbyfybz"
+serviceBuyMagicItems,"Regbnm vfubxtcrbt ghtlvtns"
+serviceSellMagicItems,"Ghjlfnm vfubxtcrbt ghtlvtns"
+serviceDaedraSummon,"Dspjd lf@lhf"
+serviceMakeMagicItems,"Bpujnjdktybt vfubxtcrb[ ghtlvtnjd"
+serviceRepairs,"Htvjyn"
+serviceDonate,"Cltkfnm gj*thndjdfybt"
+serviceCure,"Dsktxbnm `jktpym"
+serviceSpymaster,"Igbjyf*"
+serviceMakePotions,"Bpujnjdktybt ptkbq"
+serviceBuyPotions,"Regbnm ptkmz"
+serviceBuySoulgems,"Regbnm rfvyb lei"
+serviceReceiveArmor,"Gjkexbnm `hjy<"
+serviceReceiveHouse,"Gjkexbnm ljv"
+serviceReceiveHouseAlready,"Ds e*t gjkexbkb cdjq ljv."
+accessMembersOnly,"Xnj`s gjkexbnm ljcneg, ytj`[jlbvj bvtnm `jktt dscjrbq hfyu."
+serviceCured,"Ds bcwtktys."
+serviceSummonCost1,"%pcn, gkfnf pf vj< gjgsnre "
+serviceSummonCost2,"dspjdf %dae cjcnfdbn "
+serviceSummonCost3," pjkjns[."
+roomFreeForKnightSuchAsYou,"Rjvyfnf `tcgkfnyf lkz nfrjuj hswfhz, rfr ds."
+roomFreeDueToHeartsDay,"Rjvyfnf `tcgkfnyf d cdzpb c Lytv Cthlwf."
+youAreNotHungry,"Ds yt ujkjlys."
+exhaustedInWater,"Ecnfkjcnm jljktdftn dfc b jnghfdkztn d djlzye< vjubke..."
+youFeelSomewhatBad,"E dfc gkj[jt cfvjxedcndbt"
+avoidDeath,"Gj vbkjcnb Cntylfhhf, ds gtht*bkb dthye< cvthnm!"
+pronounHe,"jy"
+pronounShe,"jyf"
+pronounHim,"tve"
+pronounHer,"tq"
+pronounHis,"tuj"
+pronounHers,"tt"
+pronounHimself,"cfv"
+pronounHerself,"cfvf"
+city,"ujhjl"
+village,"lthtdyz"
+hamlet,"lthtdeirf"
+farm,"athvf"
+shack,"[b*byf"
+manor,"gjvtcnmt"
+community,"j`obyf"
+shrine,"cdznbkbot"
+King,"Rjhjkm"
+Queen,"Rjhjktdf"
+Duke,"Uthwju"
+Duchess,"Uthwjubyz"
+Marquis,"Vfhrbp"
+Marquise,"Vfhrbpf"
+Count,"Uhfa"
+Countess,"Uhfabyz"
+Baron,"~fhjy"
+Baroness,"~fhjytccf"
+Lord,"Kjhl"
+Lady,"Ktlb"
+revered,"gjxntyysq uhf*lfyby"
+esteemed,"gjxtnysq uhf*lfyby"
+honored,"pfcke*tyysq uhf*lfyby"
+admired,"gjxbnftvsq uhf*lfyby"
+respected,"edf*ftvsq uhf*lfyby"
+dependable,"yflt*ysq uhf*lfyby"
+aCommonCitizen,"j`sxysq uhf*lfyby"
+hated,"ytyfdbcnysq uhf*lfyby"
+pondScum,"vhfpm"
+aVillain,"pkjltq"
+aCriminal,"ghtcnegybr"
+aScoundrel,"ytujlzq"
+undependable,"ytyflt*ysq uhf*lfyby"
+unknown,"ybrjve yt bpdtcnys"
+Broken,"Ckjvfyysq"
+Useless,"~tcgjktpysq"
+Battered,"Gjnhtgfyysq"
+Worn,"Bpyjityysq"
+Used,"Gjyjityysq"
+SlightlyUsed,"Ckturf gjyjityysq"
+AlmostNew,"Gjxnb Yjdsq"
+New,"Yjdsq"
+Nothing,"Ybxtuj"
+local,"vtcnysq"
+tavern,"nfdthyf"
+Attempted_Breaking_And_Entering,"Gjgsnrf dpkjvf b ghjybryjdtybz"
+Trespassing,"Ytpfrjyyjt ghjybryjdtybt"
+Breaking_And_Entering,"Dpkjv b ghjybryjdtybt"
+Assault,"Yfktn"
+Murder,"E`bqcndj"
+Tax_Evasion,"Erkjytybt jn egkfns yfkjujd"
+Criminal_Conspiracy,"Ghtcnegysq cujdjh"
+Vagrancy,"~hjlz*ybxtcndj"
+Smuggling,"Rjynhf`fylf"
+Piracy,"Gbhfncndj"
+High_Treason,"Ujcelfhcndtyyfz bpvtyf"
+Pickpocketing,"Rfhvfyyfz rhf*f"
+Theft,"Rhf*f"
+Treason,"Ghtlfntkmcndj"
+Loan_Default,"Ghjchjxrf gj pfqve"
+Regular_Punishment_String,"inhfa %gtp pjkjns[ b %dip lytq d n<hmvt"
+Banishment,"Bpuyfybt"
+Execution,"Rfpym"
+cannotChangeTransportationIndoors,"Ds yt vj*tnt bpvtybnm cgjcj` gthtldb*tybz d gjvtotybb."
+cannotTravelWithEnemiesNearby,"Ds yt vj*tnt gentitcndjdfnm, rjulf gj`kbpjcnb dhfub."
+cannotTravelIndoors,"Ds yt vj*tnt gentitcndjdfnm, yf[jlzcm d gjvtotybb."
+powersUnknown,"J`kflftn ytbpdtcnysvb cbkfvb."
+itemPowers,"Rfcn ghb bcgjkmpjdfybb:
+Rfcn ghb elth*fybb:
+Rfcnjdfnm ghb elfht:
+Ljgjkybntkmyst jxrb pfrkbyfybq
+Gjntywbfk ghjnbd
+Djccnfyfdkbdftn pljhjdmt
+Dfvgbhbxtcrbq @aatrn
+Edtkbxtybt dtcf
+Htvjynbhetn ghtlvtns
+Gjukjoftn pfrkbyfybz
+Ekexiftn yfdsrb
+Dtc gthmtd
+Erhtgkztn ljcgt[b
+Ekexiftn nfkfyns
+{jhjij cjxtnftncz c
+Ghbdzpfyyjcnm leib
+Ghtlvtn gjhnbncz
+Gjkmpjdfntkm gjkexftn ehjy
+Ghj`ktvs cj phtybtv
+Ghj`ktvs c [jlm`jq
+Ybprbq ehjy ghjnbd
+Gbzdrf pljhjdmz
+Gkj[bt htfrwbb
+Ljgjkybntkmysq dtc
+Jckf`kztn `hjy<
+Gkj[jt jnyjitybt r"
+enemyNames,"Rhscf
+~tc
+Cghbuufy
+Ubufyncrfz ktnexfz vsim
+Vtldtlm uhbpkb
+Cf`ktpe`sq nbuh
+Gfer
+Jhr
+Rtynfdh
+Dthdjkma
+Ybvaf
+Hs`f-e`bqwf
+Jhr cth*fyn
+Ufhgbz
+Dthdtghm
+Crtktn djby
+Dtkbrfy
+Pjv`b
+Ghbdbltybt
+Vevbz
+Ubufyncrbq crjhgbjy
+Jhr ifvfy
+Ufhuekmz
+Ghbphfr
+Jhr Gjkrjdjltw
+Ktlzyjq lf@lhf
+Juytyysq lf@lhf
+Lf@lhjn
+Dfvgbh
+Lf@lhf-cjj`kfpybntkm
+Lhtdybq dfvgbh
+Kjhl Lf@lhf
+Kbx
+Lhtdybq Kbx
+Lhfujykbyu
+Juytyysq Fnhjyf[
+|tktpysq Fnhjyf[
+Fnhjyf[ bp gkjnb
+Ktlzyjq Fnhjyf[
+Kjiflm
+Lhfujykbyu
+Lhteu
+Kfvbz
+Vfu
+Djby ckjdf
+~jtdjq vfu
+Rjkley
+Ktrfhm
+Vtx yjxb
+~fhl
+Dpkjvobr
+|ekbr
+Frhj`fn
+Djh
+Fccfccby
+Vjyf[
+Kexybr
+Htqyl*th
+Dfhdfh
+Djby
+Hswfhm
+Ujhjlcrjq cnhf*ybr"
+extraSpellPtsTimes,"pbvjq
+dtcyjq
+ktnjv
+jctym<
+dj dhtvz gjkyjkeybz
+dj dhtvz gjkevtczwf
+d yjdjkeybt
+hzljv c yt*bnm<
+d`kbpb lf@lhf
+hzljv c uevfyjblfvb
+hzljv c *bdjnysvb"
+regensHealthTimes,"d k<`jt dhtvz
+lytv
+yjxm<"
+vampiricEffectRanges,"yf hfccnjzybb
+ghb elfhf["
+increasedWeightAllowances,"ljgjkybntkmyj 25%
+ljgjkybntkmyj 50%"
+improvedTalents,"cke[
+fnktnbpv
+ghbkbd flhtyfkbyf"
+itemDeteriorateLocations,"dct dhtvz
+ghb cdtnt cjkywf
+d cdzns[ vtcnf["
+userTakesDamageLocations,"yf cjkytxyjv cdtne
+d cdzns[ vtcnf["
+enemyGroupNames,"yt*bnm
+Lf@lhf
+uevfyjbls
+*bdjnyst"
+healthLeechStopConditions,"ghb k<`jv bcgjkmpjdfybb
+tckb yt bcgjkmpetncz t*tlytdyj
+tckb yt bcgjkmpetncz t*tytltkmyj"
+badReactionFromEnemyGroups,"uevfyjbls
+*bdjnyst
+Lf@lhf"
+repWithGroups,"J`sdfntkb
+Njhujdws
+Extyst
+Ldjhzycndj
+Ghtcnegybrb
+Dct"
+youReceiveGoldPieces,"Ds gjkexbkb %s pjkjns[ vjytn."
+bankPurchasePrice,"Wtyf: %s pjkjns[ vjytn."
+youHaveRentedRoom,"E dfc cyznf rjvyfnf d %s yf %d xfcjd."
+haveNotRentedRoom,"Ds yt cybvfkb pltcm rjvyfne."
+expiredRentedRoom,"Chjr fhtyls @njq rjvyfns bcntr."
+tavernAle,"^km (1 pjkjnjq)"
+tavernBeer,"Gbdj (1 pjkjnjq)"
+tavernMead,"Vtljde[f (2 pjkjns[)"
+tavernWine,"Dbyj (3 pjkjns[)"
+tavernBread,"{kt` (1 pjkjnjq)"
+tavernBroth,"~ekmjy (1 pjkjnjq)"
+tavernCheese,"Csh (2 pjkjns[)"
+tavernFowl,"Gnbwf (3 pjkjns[)"
+tavernGruel,"Rfif (2 pjkjns[)"
+tavernPie,"Gbhju (2 pjkjns[)"
+tavernStew,"Hfue (3 pjkjns[)"
+pressButtonToFireSpell,"Yf*vbnt ryjgre, xnj`s ghjbpytcnb pfrkbyfybt."
+climbingMode,"Ht*bv rfhf`rfymz"
+rappelMode,"Ht*bv cgecrf"
+hangingMode,"Ht*bv dbctybz"
+acuteHearing,"Jcnhsq cke["
+adrenalineRush,"Ghbkbd flhtyfkbyf"
+athleticism,"Fnktnbpv"
+bonusToHit,"~jyec r gjgflfyb<"
+expertiseIn,"^rcgthnbpf"
+immunity,"Bvveybntn"
+increasedMagery,"Ecbktyyfz vfubz"
+rapidHealing,"~scnhjt bcwtktybt"
+regenerateHealth,"Htutythfwbz pljhjdmz"
+resistance,"Cjghjnbdktybt"
+spellAbsorption,"Gjukjotybt pfrkbyfybq"
+animals,"|bdjnyst"
+daedra,"Lf@lhf"
+humanoid,"Uevfyjbls"
+undead,"Yt*bnm"
+axe,"Njgjhs"
+bluntWeapon,"Negjt jhe*bt"
+handToHand,"~jq `tp jhe*bz"
+longBlade,"Lkbyyst rkbyrb"
+missileWeapon,"Lfkmyj`jqyjt jhe*bt"
+shortBlade,"Rjhjnrbt rkbyrb"
+toDisease,"r `jktpyb"
+toFire,"r juy<"
+toFrost,"r vjhjpe"
+toMagic,"r vfubb"
+toParalysis,"r gfhfkbxe"
+toPoison,"r zle"
+toShock,"r ijre"
+intInSpellPoints15,"Jxrb pfrkbyfybq = 1.5 [ BYN"
+intInSpellPoints175,"Jxrb pfrkbyfybq = 1.75 [ BYN"
+intInSpellPoints2,"Jxrb pfrkbyfybq = 2 [ BYN"
+intInSpellPoints3,"Jxrb pfrkbyfybq = 3 [ BYN"
+intInSpellPoints,"Jxrb pfrkbyfybq = 1 [ BYN"
+general,"j`obq"
+inDarkness,"d ntvyjnt"
+inLight,"yf cdtne"
+whileImmersed,"ghb gjuhe*tybb d djle"
+criticalWeakness,"Rhbnbxtcrfz ckf`jcnm"
+damage,"Ehjy"
+darknessPoweredMagery,"Vfubz, ecbktyyfz nmvjq"
+forbiddenArmorType,"Pfghtotyysq nbg `hjyb:"
+forbiddenMaterial,"Pfghtotyysq vfnthbfk:"
+forbiddenShieldTypes,"Pfghtotyyst nbgs obnjd:"
+forbiddenWeaponry,"Pfghtotyyjt jhe*bt:"
+inabilityToRegen,"Ytdjpvj*yjcnm djccnfyfdkbdfnm jxrb pfrkbyfybq"
+lightPoweredMagery,"Cdtnjcbkmyfz vfubz"
+lowTolerance,"Ybprfz njkthfynyjcnm"
+phobia,"Aj`bz"
+fromHolyPlaces,"jn cdzns[ vtcn"
+fromSunlight,"jn cjkytxyjuj cdtnf"
+lowerMagicAbilityDaylight,"Cyb*tybt vfubxtcrb[ cgjcj`yjcntq ghb lytdyjv cdtnt"
+unableToUseMagicInDaylight,"Ytdjpvj*yj bcgjkmpjdfnm vfub< ghb lytdyjv cdtnt"
+chain,"Rjkmxe*ysq"
+leather,"Rj*f"
+plate,"Gkfcnbyxfnsq"
+adamantium,"Flfvfyn"
+daedric,"Lf@lhbxtcrbq"
+dwarven,"Uyjvcrbq"
+ebony,"^`jybn"
+elven,"^kmabqcrbq"
+iron,"|tktpj"
+mithril,"Vbahbk"
+orcish,"Jhrcrbq"
+silver,"Ctht`hj"
+steel,"Cnfkm"
+buckler,"~frkth"
+kiteShield,"Nehybhysq obn"
+roundShield,"Rheuksq obn"
+towerShield,"~fityysq obn"
+lowerMagicAbilityDarkness,"Cyb*tybt vfubxtcrb[ cgjcj`yjcntq d ntvyjnt"
+unableToUseMagicInDarkness,"Ytdjpvj*yj bcgjkmpjdfnm vfub< d ntvyjnt"
+helpAttributes,"Fnhb`ens"
+helpClassName,"Bvz rkfccf"
+helpGeneral,"J`obt cdtltybz"
+helpReputations,"Htgenfwbz"
+helpSkillAdvancement,"Hfpdbnbt yfdsrjd"
+helpSkills,"Yfdsrb"
+helpSpecialAdvantages,"Jcj`st ghtbveotcndf"
+helpSpecialDisadvantages,"Jcj`st ytljcnfnrb"
+lower,"Yb*t"
+higher,"Dsit"
+unchanged,"~tp bpvtytybq"
+elsweyr,"^kmcdtqh"
+blackMarsh,"Xthyjnjgmt"
+hammerfell,"{fvvthatkk"
+highRock,"{fq Hjr"
+morrowind,"Vjhhjdbyl"
+skyrim,"Crfqhbv"
+sumurset,"Cfvvthctn"
+valenwood,"Dfktydel"
+rollingHills,"[jkvs"
+desertLand,"gecnsyz"
+mountains,"ujhs"
+swamps,"`jkjnf"
+forests,"ktcf"
+shores,"`thtuf"
+medical,"Vtlbwbyf"
+etiquette,"^nbrtn"
+streetwise,"|fhujy"
+jumping,"Ghs*rb"
+harpy,"Zpsr ufhgbq"
+giantish,"Zpsr dtkbrfyjd"
+dragonish,"Zpsr lhfrjyjd"
+nymph,"Zpsr ybva"
+aedric,"F@lhbxtcrbq"
+spriggan,"Zpsr cghbuufyjd"
+centaurian,"Zpsr rtynfdhjd"
+impish,"Zpsr `tcjd"
+lockpicking,"Dpkjv"
+mercantile,"Njhujdkz"
+pickpocket,"Rfhvfyyst rhf*b"
+stealth,"Crhsnyjcnm"
+swimming,"Gkfdfybt"
+climbing,"Kfpfybt"
+backstabbing,"Elfh d cgbye"
+dodging,"Erkjytybt"
+running,"~tu"
+destruction,"Hfpheitybt"
+restoration,"Djccnfyjdktybt"
+illusion,"Bkk<pbb"
+alteration,"Bpvtytybt"
+thaumaturgy,"Nfevfnehubz"
+mysticism,"Vbcnbwbpv"
+archery,"Cnhtkm`f bp kerf"
+criticalStrike,"Rhbnbxtcrbq elfh"
+strength,"Cbkf"
+intelligence,"Byntkktrn"
+willpower,"Cbkf djkb"
+agility,"Kjdrjcnm"
+endurance,"Dsyjckbdjcnm"
+personality,"{fhfrnth"
+speed,"Crjhjcnm"
+luck,"Elfxf"
+STR,"CBK"
+INT,"BYN"
+WIL,"DJK"
+AGI,"KJD"
+END,"DSY"
+PER,"{FH"
+SPD,"CRH"
+LUC,"ELX"
+breton,"~htnjy"
+redguard,"Htlufhl"
+darkElf,"Ntvysq @kma"
+highElf,"Dscibq ^kma"
+woodElf,"Ktcyjq @kma"
+khajiit,"Rfl*bn"
+argonian,"Fhujybfyby"
+vampire,"Dfvgbh"
+werewolf,"Dthdjkma"
+wereboar,"Dthdtghm"
+vraseth,"Dhfctn"
+haarvenu,"{ffhdtye"
+thrafey,"Nhfatq"
+lyrezi,"Kbhtpb"
+montalion,"Vjynfkbjy"
+khulari,"{ekfhb"
+garlythi,"Ufhkbnb"
+anthotis,"Fynjnbc"
+selenu,"Ctktye"
+lockedExteriorDoor,"Pfrhsnj."
+canOnlyCastOncePerDay,"Vj*tn `snm bcgjkmpjdfyj njkmrj jlby hfp d ltym..."
+youNeedToHuntTheInnocent,"Ds xedcndetnt gjnht`yjcnm j[jnbnmcz yf ytdbyys[..."
+youDreamOfTheMoon,"Ds cyjdf vtxnftnt j keyt..."
+inventoryWhileShapechanged,"Ds yt vj*tnt gjkexbnm ljcneg r bydtynfh< ghb bpvtytybb ajhvs..."
+youGetNoResponse,"Ds yt gjkexftnt jndtnf."
+copyLogbookInfo,"Ktdsq rkbr: crjgbhjdfnm dsltktyysq ntrcn. Ghfdsq rkbr: crjgbhjdfnm dtcm hfpujdjh."
+east,"djcnjrt"
+northeast,"ctdthj-djcnjrt"
+north,"ctdtht"
+northwest,"ctdthj-pfgflt"
+west,"pfgflt"
+southwest,"<uj-pfgflt"
+south,"<ut"
+southeast,"<uj-djcnjrt"
+thisPlace,"@nj vtcnj"
+AnyNews,"Xnj yjdjuj?"
+WhereAmI,"Ult z yf[j*ecm?"
+AnswerTextWhereAmI,"Ds yf[jlbntcm d {0} d {1}."
+YouAreInSameBuilding,"Ds yfikb {0}. Ds pltcm."
+NpcInSameBuilding,"{0} ult-nj pltcm, d {1}."
+PreviousList,"Ghtlsleobq cgbcjr"
+General,"J`ott"
+Regional,"Htubjyfkmyjt"
+Alchemists,"Fk[bvbrb"
+Armorers,"Jhe*tqybrb"
+Banks,"~fyrb"
+Bookstores,"Ryb*yst vfufpbys"
+Clothingstores,"Vfufpbys jlt*ls"
+Gemstores,">dtkbhyst vfufpbys"
+Generalstores,"Vfufpbys"
+Guilds,"Ubkmlbb"
+Libraries,"~b`kbjntrb"
+Pawnshops,"Kjv`fhls"
+Taverns,"Nfdthys"
+Weaponsmiths,"Repytws"
+Localtemples,"Vtcnyst [hfvs"
+Sir,"C@h"
+Ma'am,"V@v"
+oldLeaderFate0,"evth jn cthltxyjq ytljcnfnjxyjcnb"
+oldLeaderFate1,"egfk b elfhbkcz ujkjdjq"
+oldLeaderFate2,"evth jn xevs"
+oldLeaderFate3,"eitk d jncnfdre gjl lfdktybtv"
+oldLeaderFate4,"`sk cdthuyen"
+oldLeaderFate5,"`sk yfqlty e`bnsv d cdjtq gjcntkb"
+toBeReplacedStringRegional,"Fys"
+replacementStringRegional,"fys"
+comma,", "
+resolvingError,"...ytdf*yj..."
+chameleon,"{fvtktjy"
+charm,"Jxfhjdfybt"
+comprehendLanguages,"Gjybvfybt zpsrjd"
+continuousDamage,"Gjcnjzyysq ehjy"
+createItem,"Cjplfnm ghtlvtn"
+cure,"Dsktxbnm"
+detect,"J`yfhe*bnm"
+disintegrate,"Ltpbyntuhfwbz"
+dispel,"Hfcctznm"
+drain,"Jgecnjibnm"
+elementalResistance,"Cjghjnbdktybt cnb[bzv"
+fortifyAttribute,"Erhtgktybt fnhb`enf"
+freeAction,"Cdj`jlf ltqcndbq"
+heal,"Bcwtktybt"
+identify,"Bltynbabwbhjdfnm"
+invisibility,"Ytdblbvjcnm"
+levitate,"Ktdbnfwbz"
+light,"Cdtn"
+lock,"Pfvjr"
+morphSelf,"Bpvtybnm ct`z"
+open,"Jnrhsnm"
+pacify,"Evbhjndjhbnm"
+paralyze,"Gfhfkbpjdfnm"
+regenerate,"Htutythfwbz"
+shadow,"Ntym"
+shield,"Obn"
+silence,"Nbibyf"
+slowfall,"Pfvtlktyyjt gfltybt"
+soulTrap,"Kjdeirf lei"
+spellReflection,"Jnhf*tybt pfrkbyfybq"
+spellResistance,"Cjghjnbdktybt pfrkbyfybzv"
+teleport,"Ntktgjhn"
+transfer,"Gthtyjc"
+waterBreathing,"Djlyjt ls[fybt"
+waterWalking,"{j*ltybt gj djlt"
+fire,"Jujym"
+frost,"Vjhjp"
+magicka,"Vfubz"
+poison,"Zl"
+shock,"Ijr"
+enemy,"Dhfu"
+magic,"Vfubz"
+treasure,"Cjrhjdbot"
+fatigue,"Ecnfkjcnm"
+health,"Pljhjdmt"
+spellPoints,"Jxrb pfrkbyfybq"
+disease,"~jktpym"
+paralyzation,"Gfhfkbpfwbz"
+animal,"|bdjnyst"
+normal,"Yjhvfkmysq"
+TRUE,"NHET"
+noName,"-ytn-bvtyb-"
+youDontHaveTheSpellPoints,"Dfv yt [dfnftn vfubb."
+youAreSilenced,"Ds jytvtkb"
+youAreParalyzed,"Ds gfhfkbpjdfys."
+youFeelDrained,"Ds bcnjotys."
+youAreFortified,"Ds erhtgktys."
+youAreInvisible,"Ds ytdblbvs."
+youAreLevitating,"Ds ktdbnbhetnt."
+youAreRegenerating,"Ds htutythbhetnt."
+youAreBlending,"Ckbnbt c ntyzvb."
+youAreAShade,"Ds - ntym."
+slowFallActive,"Frnbdyj vtlktyyjt gfltybt."
+saveVersusSpellMade,"Cgfc`hjcjr ghjnbd pfrkbyfybz dsgjkyty."
+spellEffectFailed,"^aatrn pfrkbyfybz yt chf`jnfk."
+spellAbsorbed,"Pfrkbyfybt `skj gjukjotyj."
+spellReflected,"Pfrkbyfybt `skj jnhf*tyj."
+spellResisted,"Pfrkbyfyb< `skj jrfpfyj cjghjnbdktybt."
+readyToLock,"Ujnjdyjcnm r pfgbhfyb<."
+readyToOpen,"Ujnjdyjcnm r jnrhsnb<."
+doorLocked,"Ldthm ntgthm pfgthnf."
+doorAlreadyLocked,"Ldthm e*t pfgthnf."
+openFailed,"Pfvjr ckbirjv vjoysq."
+noSpellbook,"E dfc ytn rybub pfrkbyfybq!"
+sunlightDamageFastTravelDay,"Ds yt vj*tnt yfxfnm `scnhjt gentitcndbt lytv."
+trapActive,"Kjdeirf frnbdyf."
+trapHumanoid,"Kjdeirf yt ltqcndetn yf uevfyjbljd."
+trapSuccess,"Leif d kjdeirt."
+trapFail,"Kjdeirf yt chf`jnfkf."
+trapNoneEmpty,"E dfc ytn gecns[ kjdeitr lkz leib!"
+chameleonForm,"Ajhvf [fvtktjyf"
+cureDisease,"Bpktxtybt `jktpyb"
+curePoison,"Bpktxtybt jnhfdktybz"
+healing,"Bcwtktybt"
+healTrue,"Bcnbyyjt bcwtktybt"
+levitation,"Ktdbnfwbz"
+orcStrength,"Cbkf jhrf"
+purification,"Jxbotybt"
+resistFire,"Cjghjnbdktybt juy<"
+resistFrost,"Cjghjnbdktybt vjhjpe"
+resistPoison,"Cjghjnbdktybt zle"
+resistShock,"Cjghjnbdktybt ijre"
+restorePower,"Djccnfyjdktybt @ythubb"
+shadowForm,"Ajhvf ntyb"
+slowFalling,"Pfvtlktyyjt gfltybt"
+stamina,"Dsyjckbdjcnm"
+LeatherCuirass,"Rj*fyfz rbhfcf"
+LeatherGauntlets,"Rj*fyst gthxfnrb"
+LeatherGreaves,"Rj*fyst gjyj*b"
+LeatherLeftPauldron,"Rj*fysq ktdsq yfgktxybr"
+LeatherRightPauldron,"Rj*fysq ghfdsq yfgktxybr"
+LeatherHelm,"Rj*fysq iktv"
+LeatherBoots,"Rj*fyst cfgjub"
+ChainCuirass,"Rjkmxe*yfz rbhfcf"
+ChainGauntlets,"Rjkmxe*yst gthxfnrb"
+ChainGreaves,"Rjkmxe*yst gjyj*b"
+ChainLeftPauldron,"Rjkmxe*ysq ktdsq yfgktxybr"
+ChainRightPauldron,"Rjkmxe*ysq ghfdsq yfgktxybr"
+ChainHelm,"Rjkmxe*ysq iktv"
+ChainBoots,"Rjkmxe*yst cfgjub"
+SteelCuirass,"Cnfkmyfz rbhfcf"
+SteelGauntlets,"Cnfkmyst gthxfnrb"
+SteelGreaves,"Cnfkmyst gjyj*b"
+SteelLeftPauldron,"Cnfkmyjq ktdsq yfgktxybr"
+SteelRightPauldron,"Cnfkmyjq ghfdsq yfgktxybr"
+SteelHelm,"Cnfkmyjq iktv"
+SteelBoots,"Cnfkmyst cfgjub"
+SteelBuckler,"Cnfkmyjq obn"
+SteelDagger,"Cnfkmyjq rby*fk"
+SteelLongsword,"Cnfkmyjq lkbyysq vtx"
+SteelStaff,"Cnfkmyjq gjcj["
+ShortBow,"Rjhjnrbq ker"
+Arrows,"Cnhtks"
+SteelBattleAxe,"Cnfkmyjq `jtdjq njgjh"
+Robes,"Hj`s"
+CastWhenUsed,"Rfcn ghb bcgjkmpjdfybb:"
+CastWhenHeld,"Rfcn ghb elth*fybb:"
+CastWhenStrikes,"Rfcnjdfnm ghb elfht:"
+ExtraSpellPts,"Ljgjkybntkmyst jxrb pfrkbyfybq"
+PotentVs,"Gjntywbfk ghjnbd"
+RegensHealth,"Djccnfyfdkbdftn pljhjdmt"
+VampiricEffect,"Dfvgbhbxtcrbq @aatrn"
+IncreasedWeightAllowance,"Edtkbxtybt ljgecnbvjuj dtcf"
+RepairsObjects,"Htvjynbhetn ghtlvtns"
+AbsorbsSpells,"Gjukjoftn pfrkbyfybz"
+EnhancesSkill,"Ekexiftn yfdsrb"
+FeatherWeight,"Dtc gthf"
+StrengthensArmor,"Erhtgkztn ljcgt[b"
+ImprovesTalents,"Ekexiftn nfkfyns"
+GoodRepWith,"{jhjitt jnyjitybt r"
+SoulBound,"Ghbdzpfyyjcnm leib"
+ItemDeteriorates,"Ghtlvtn gjhnbncz"
+UserTakesDamage,"Gjkmpjdfntkm gjkexftn gjdht*ltybz"
+VisionProblems,"Ghj`ktvs cj phtybtv"
+WalkingProblems,"Ghj`ktvs c [jlm`jq"
+LowDamageVs,"Ybprbq ehjy ghjnbd"
+HealthLeech,"Gbzdrf pljhjdmz"
+BadReactionsFrom,"Gkj[bt htfrwbb"
+ExtraWeight,"Ljgjkybntkmysq dtc"
+WeakensArmor,"Jckf`kztn `hjy<"
+BadRepWith,"Gkj[jt jnyjitybt r"
+inHolyPlaces,"d cdzns[ vtcnf["
+wheneverUsed,"ghb rf*ljv bcgjkmpjdfybb"
+unlessUsedDaily,"tckb yt bcgjkmpetncz t*tlytdyj"
+unlessUsedWeekly,"tckb yt bcgjkmpetncz t*tytltkmyj"
+fromHumanoids,"jn uevfyjbljd"
+fromAnimals,"jn *bdjnys["
+fromDaedra,"jn lf@lhf"
+duringWinter,"pbvjq"
+duringSpring,"dtcyjq"
+duringSummer,"ktnjv"
+duringFall,"jctym<"
+duringFullMoon,"d gjkyjkeybt"
+duringHalfMoon,"d xtndthnm keys"
+duringNewMoon,"d yjdjkeybt"
+nearUndead,"jrjkj yt*bnb"
+nearDaedra,"hzljv c lf@lhf"
+nearHumanoids,"d`kbpb uevfyjbljd"
+nearAnimals,"jrjkj *bdjnys["
+undeadLower,"yt*bnm"
+humanoidLower,"uevfyjbl"
+animalsLower,"*bdjnyst"
+animalsUpper,"|bdjnyst"
+allTheTime,"dctulf"
+inSunlight,"lytv"
+inDarknessLower,"yjxm<"
+atRange,"yf hfccnjzybb"
+whenStrikes,"ghb elfhf["
+add25Percent,"ljgjkybntkmyj 25%"
+add50Percent,"ljgjkybntkmyj 50%"
+hearing,"cke["
+athleticismLower,"fnktnbpv"
+adrenalineRushLower,"ghbkbd flhtyfkbyf"
+commoners,"J`sdfntkb"
+merchants,"Njhujdws"
+scholars,"Extyst"
+nobility,"Ldjhzycndj"
+underworld,"Ghtcnegybrb"
+all,"Dct"
+noRoomInItem,"D ghtlvtnt ytn vtcnf..."
+noEnchantments,"Ds yt gjlujnjdbkb xfhs lkz @njuj ghtlvtnf."
+noMonstersNearby,"Vjycnhjd gj`kbpjcnb ytn."
+Fire,"Jujym"
+Frost,"Vjhjp"
+Poison,"Zl"
+Shock,"Ijr"
+Magicka,"Vfubz"
+Animal,"|bdjnyjt"
+Undead,"Yt*bnm"
+Humanoid,"Uevfyjbl"
+Daedra,"Lf@lhf"
+dialogButtonInfo,"Frnbdyst pflfybz; Pfdthityyst pflfybz; Pfgbcyfz ryb*rf; Cjj`otybz"
+activeQuests,"Frnbdyst rdtcns"
+activeQuestsInfo,"Otkrybnt gj frnbdyjve pflfyb<, c geyrnjv yfpyfxtybz, xnj`s yfxfnm gentitcndbt."
+finishedQuests,"Pfdthityyst rdtcns"
+finishedQuestsInfo,"Otkrybnt gj pfgbcb, xnj`s gthtvtcnbnm tt. Ghfdsq otkxjr, xnj`s elfkbnm."
+notebook,"Pfgbcyfz ryb*rf"
+notebookInfo,"Otkrybnt gj pfvtnrt, xnj`s gthtvtcnbnm tt. Ghfdsq otkxjr, xnj`s elfkbnm. Otkxjr yf gecnjv vtcnt, xnj`s lj`fdbnm yjde< pfvtnre."
+messages,"Cjj`otybz"
+messagesInfo,"Bcnjhbz cjj`otybq, ytlfdyj gjrfpfyys[ yf @rhfyt"
+confirmMoveHead,"Gthtvtcnbnm pfgbcm"
+confirmMove,"Ds [jnbnt gthtvtcnbnm @ne pfgbcm?"
+confirmMove2,"(jyf `eltn hfpvtotyf gthtl pfgbcm<, rjnjhe< otkrytim)"
+confirmRemoveHead,"Elfkbnm pfgbcm"
+confirmRemove,"Edthtys, xnj [jnbnt elfkbnm @ne pfgbcm?"
+confirmRemove2,"(jyf `eltn elfktyf `tp djpvj*yjcnb djccnfyjdktybz)"
+confirmFindHead,"Gentitcndbt r vtcne"
+confirmFind,"Ds [jnbnt jnrhsnm rfhne vbhf, xnj`s jnghfdbnmcz d: "
+confirmFind2,"(Ghbvtxfybt: ds cvj*tnt jnrfpfnmcz jn gentitcndbz yf rfhnt vbhf)"
+enterNote,"Yfgbib cdj< pfvtnre: "
+completedQuest,"pfdthity"
+endedQuest,"pfrjyxty"
+finishQuestHeader,"{0} ({1}: {2}): "
+quest,"Pflfybt"
+noteHeader,"{0} d {1}: "
+houseDeed,"Ds gjkexbkb ljrevtyns b ntgthm dkflttnt ljvjv d ujhjlt %town d %region."
+levelProgress,"Ghjuhtcc lj cktle<otuj ehjdyz: {0}%"
+readMap,"J`yfhe*tyj vtcnjgjkj*tybt %map gjckt bpextybz rfhns."
+readMapTG,"Ubkmlbz Djhjd hfcrhskf vtcnjyf[j*ltybt nofntkmyj j[hfyztvjq cjrhjdboybws gjl yfpdfybtv %map."
+readMapDB,"Ntvyjt ~hfncndj hfcrhskj ctrhtn ytrjnjhs[ crktgjd c cjrhjdbofvb, hfcgjkj*tyys[ ult-nj d vtcnt gjl yfpdfybtv %map."
+readMapFail,"Dfv e*t bpdtcnyj vtcnj, erfpfyyjt yf @njq rfhnt."
+howManyItems,"Crjkmrj (vfrc {0})?"
+wagonFullGold,"D dfitq gjdjprt vj*tn gjvtcnbnmcz njkmrj {0} pjkjns[."
+itemsIdentified,"Ghtlvtns bltynbabwbhjdfys."
+repairDone,"Ujnjdj"
+repairDays,"%d lytq"
+interruptRepair,"Pf`hfnm ghtlvtn lj tuj htvjynf?"
+repairNote,"Jcnfdbk {0} yf htvjyn d {1}."
+doesntNeedIdentify,"^nj yt nht`etn bltynbabrfwbb."
+goldAmount,"{0} pjkjns["
+goldWeight,"Dtc: {0} ru"
+letterOfCredit,"Ds gjkexftnt jgkfne dtrctktv."
+stealSuccess,"Dct gjkexbkjcm."
+stealFailure,"Xnj-nj gjikj yt nfr..."
+cannotRemoveItem,"Ds yt vj*tnt cyznm @njn ghtlvtn."
+cannotCarryAnymore,"Ds yt vj*tnt eytcnb `jkmit dtotq."
+cannotHoldAnymore,"Dfif ntkt*rf e*t yt vj*tn dvtcnbnm `jkmit dtotq."
+cannotUseThis,"Ds yt vj*tnt bcgjkmpjdfnm @nj."
+equippingWeapon,"^rbgbhjdfyj: %s"
+lightDouse,"Ds gjneibkb %it."
+lightLight,"Ds pf*buftnt %it."
+lightDies,"Dfi %it vthwftn b ufcytn."
+lightEmpty,"E dfituj %it yt jcnfkjcm njgkbdf."
+lightRefuel,"Ds pfghfdkztim cdjq %it `enskrjq vfckf."
+lightFull,"Dfi %it pfgjkyty."
+kgSrc,"ru"
+kgRep,"ru"
+damSrc,"jxrb eoth`f"
+damRep,"ehjy"
+arSrc,"htqnbyu `hjyb"
+arRep,"`hjyz"
+northern,"c ctdthf"
+southern,"c <uf"
+noWagon,"E dfc ytn gjdjprb."
+exitTooFar,"Ds[jl yf[jlbncz ckbirjv lfktrj, xnj`s ds vjukb lj`hfnmcz lj cdjtq gjdjprb."
+bookUnavailable,"Rybuf bcgjhxtyf b ntgthm ytxbnf`tkmyf."
+unknownAuthor,"Fdnjh ytbpdtcnty"
+cannotDeleteVamp,"Ytdjpvj*yj elfkbnm cgtwbfkmyst pfrkbyfybz dfvgbhjd."
+cannotDeleteWere,"Ytdjpvj*yj elfkbnm cgtwbfkmyjt pfrkbyfybt kbrfynhjgbb."
+noRecipes,"E dfc ytn htwtgnjd."
+potionMixed,"Dfit ptkmt `skj ghbujnjdktyj."
+potionFailed,"Bp @nb[ byuhtlbtynjd yt gjkexbkjcm @aatrnbdyjuj ptkmz."
+reqIngredients,"E dfc ytn ye*ys[ byuhtlbtynjd."
+region,"Htubjy"
+account,"Cxtn"
+loan,"Pftv"
+dueDate,"Chjr gjufitybz"
+noAccount,"Ytn frrfeynf"
+loanReminder,"E dfc tcnm pftv d hfpvtht {0} pjkjns[ vjytn, gjlkt*fobq dsgkfnt "
+loanReminder2,"xthtp {0} vtczwtd d {1}"
+classicIcons,"Rkfccbrf"
+suggestedIcons,"Ghtlkj*tyyst"
+serviceMembersOnly,"Vjb eckeub ghtlyfpyfxtys njkmrj lkz xktyjd jhufybpfwbb."
+serviceDonateHowMuch,"Crjkmrj ltytu gj*thndjdfnm: "
+curedDisease,"Ds dsktxbkbcm."
+freeHolidayCuring,"Ds ktxbntcm `tcgkfnyj `kfujlfhz ctujlyziytve ghfplybre."
+gettingQuests1,"{v, lfdfqnt z gjcvjnh<, rfrbt pflfybz e yfc tcnm."
+gettingQuests2,"Gj*fkeqcnf, yf`thbntcm nthgtybz b gjlj*lbnt ytvyjuj, %pcf."
+illegalRestWarning,"Hfp`bdfnm kfuthm d ujhjlt bkb hzljv c ybv ytpfrjyyj. Ghjljk*bnm?"
+cannotLoiterMoreThanXHours1,"Ds yt vj*tnt `tpltkmybxfnm `jkmit "
+cannotLoiterMoreThanXHours2,"xtv {0} xfcjd gjlhzl."
+automapToolTipTextGridButton,"Ktdsq otkxjr: gthtrk<xtybt vt*le 2D dbljv cdth[e b 3D dbljv (ujhzxfz rkfdbif: {0})\rghfdsq otkxjr: djpdhfn jcb dhfotybz d gjkj*tybt buhjrf (ujhzxfz rkfdbif: {1})\rrjktcj vsib ddth[ ghb yfdtltybb yf ryjgre: edtkbxtybt gthcgtrnbds (njkmrj 3D ht*bv)\rrjktcj vsib dybp ghb yfdtltybb yf ryjgre: evtymitybt gthcgtrnbds (njkmrj 3D ht*bv)"
+automapToolTipForwardButton,"Ktdsq otkxjr: gthtvtotybt njxrb j`pjhf dgthtl (ujhzxfz rkfdbif: {0})\rghfdsq otkxjr: gthtvtotybt jcb dhfotybz dgthtl (ujhzxfz rkfdbif: {1})"
+automapToolTipBackwardButton,"Ktdsq otkxjr: gthtvtotybt njxrb j`pjhf yfpfl (ujhzxfz rkfdbif: {0})\rghfdsq otkxjr: gthtvtotybt jcb dhfotybz yfpfl (ujhzxfz rkfdbif: {1})"
+automapToolTipLeftButton,"Ktdsq otkxjr: gthtvtotybt njxrb j`pjhf dktdj (ujhzxfz rkfdbif: {0})\rghfdsq otkxjr: gthtvtotybt jcb dhfotybz dktdj (ujhzxfz rkfdbif: {1})"
+automapToolTipRightButton,"Ktdsq otkxjr: gthtvtotybt njxrb j`pjhf dghfdj (ujhzxfz rkfdbif: {0})\rghfdsq otkxjr: gthtvtotybt jcb dhfotybz dghfdj (ujhzxfz rkfdbif: {1})"
+automapToolTipRotateLeftButton,"otkxjr ktdjq ryjgrjq vsib: gjdthyenm gjlptvtkmt dktdj (ujhzxfz rkfdbif: {0})\rotkxjr ghfdjq ryjgrjq vsib: gjdthyenm rfvthe dktdj (ujhzxfz rkfdbif: {1})"
+automapToolTipRotateRightButton,"ktdsq otkxjr: gjdthyenm gjlptvtkmt dghfdj (ujhzxfz rkfdbif: {0})\rghfdsq otkxjr: gjdthyenm rfvthe dghfdj (ujhzxfz rkfdbif: {1})"
+automapToolTipUpstairsButton,"Otkxjr ktdjq ryjgrjq vsib: edtkbxtybt njxrb j`pjhf (ujhzxfz rkfdbif: {0})\r Otkxjr ghfdjq ryjgrjq vsib: edtkbxtybt ehjdyz ahfuvtynf (ujhzxfz rkfdbif: {1})\r Ehjdtym ahfuvtynf vj*yj nfr*t htuekbhjdfnm"
+automapToolTipDownstairsButton,"Otkxjr ktdjq ryjgrjq vsib: evtymitybt njxrb j`pjhf (ujhzxfz rkfdbif: {0})\r Otkxjr ghfdjq ryjgrjq vsib: evtymitybt ehjdyz ahfuvtynf (ujhzxfz rkfdbif: {1})\r Ehjdtym ahfuvtynf vj*yj nfr*t htuekbhjdfnm"
+automapToolTipPanelCompass,"Ktdsq rkbr: gthtrk<xbnm ajrec (ujhzxfz rkfdbif: {0})\r vfzxrb: rhfcysq ... buhjr, ptktysq ... d[jl, cbybq ... jcm dhfotybz \r\r ghfdsq otkxjr: c`hjcbnm dbl (ujhzxfz rkfdbif: {1})\r\r ldjqyjq otkxjr ktdjq ryjgrjq vsib d jryt lkz cjplfybz+htlfrnbhjdfybz pfvtnrb vfhrthf \r ldjqyjq otkxjr ktdjq ryjgrjq vsib (+Ctrl) d jryt lkz cjplfybz vfhrthf \r ldjqyjq otkxjr ktdjq ryjgrjq vsib yf vfhrtht lkz lj`fdktybz/htlfrnbhjdfybz pfvtnrb \r ldjqyjq otkxjr ghfdjq ryjgrjq vsib yf vfhrtht lkz tuj elfktybz \r ldjqyjq otkxjr ghfdjq ryjgrjq vsib d jryt lkz gjpbwbjybhjdfybz jcb dhfotybz \r ldjqyjq otkxjr chtlytq ryjgrjq vsib d jryt lkz wtynhbhjdfybz dblf \r ldjqyjq otkxjr ktdjq ryjgrjq vsib yf vfhrtht j`yfhe*tyyjuj gjhnfkf lkz gtht[jlf \r r gjlrk<xtyyjve gjhnfke-ntktgjhnthe"
+automapPlayerPositionBeacon,"vfzr gjkj*tybz buhjrf"
+automapRotationPivotAxis,"jcm dhfotybz"
+automapEntranceExitPositionBeacon,"vfzr gjkj*tybz d[jlf/ds[jlf"
+automapEntranceExit,"d[jl/ds[jl"
+automapPlayerMarker,"vfhrth buhjrf"
+automapTeleporterEntrance,"ntktgjhn (d[jl)"
+automapTeleporterExit,"ntktgjhn (ds[jl)"
+exteriorAutomapBuildingTypeAlchemist,"Fk[bvbr"
+exteriorAutomapBuildingTypeArmorer,"Jhe*tqybr"
+exteriorAutomapBuildingTypeBank,"~fyr"
+exteriorAutomapBuildingTypeBookseller,"Rybujnjhujdtw"
+exteriorAutomapBuildingTypeClothingStore,"Vfufpby jlt*ls"
+exteriorAutomapBuildingTypeFurnitureStore,"Vt`tkmysq vfufpby"
+exteriorAutomapBuildingTypeGemStore,">dtkbhysq vfufpby"
+exteriorAutomapBuildingTypeGeneralStore,"Vfufpby"
+exteriorAutomapBuildingTypeGuildHall,"Pfk ubkmlbb"
+exteriorAutomapBuildingTypeHouseForSale,"Ljv yf ghjlf*e"
+exteriorAutomapBuildingTypeLibrary,"~b`kbjntrf"
+exteriorAutomapBuildingTypePalace,"Ldjhtw"
+exteriorAutomapBuildingTypePawnShop,"Kjv`fhl"
+exteriorAutomapBuildingTypeTavern,"Nfdthyf"
+exteriorAutomapBuildingTypeTemple,"{hfv"
+exteriorAutomapBuildingTypeWeaponSmith,"Repybwf"
+exteriorAutomapBuildingTypeUnknown,"Ytbpdtcnyj"
+exteriorAutomapToolTipTextGridButton,"otkxjr ktdjq ryjgrjq vsib: gthtrk<xtybt yf cktle<obq ht*bv ghjcvjnhf (ujhzxfz rkfdbif: {0})\r ljcnegyst ht*bvs ghjcvjnhf: \r- jhbubyfkmysq (ujhzxfz rkfdbif {1})\r- ljgjkybntkmysq: drk<xftn ljgjkybntkmyst plfybz (ujhzxfz rkfdbif {2})\r- dct: drk<xftn ljgjkybntkmyst plfybz, yfptvyst rdfhnbhs (ujhzxfz rkfdbif {3})\r- gthtrk<xtybt ntrcnehs ajyf c gjvjom< {4}, {5}, {6}, {7}"
+exteriorAutomapToolTipForwardButton,"Otkxjr ktdjq ryjgrjq vsib: gthtvtotybt ddth[ (ujhzxfz rkfdbif: {0})\r Otkxjr ghfdjq ryjgrjq vsib: gthtvtotybt r ctdthyjq uhfybwt hfcgjkj*tybz (ujhzxfz rkfdbif: {1})"
+exteriorAutomapToolTipBackwardButton,"Otkxjr ktdjq ryjgrjq vsib: gthtvtotybt dybp (ujhzxfz rkfdbif: {0})\r Otkxjr ghfdjq ryjgrjq vsib: gthtvtotybt r <*yjq uhfybwt hfcgjkj*tybz (ujhzxfz rkfdbif: {1})"
+exteriorAutomapToolTipLeftButton,"Otkxjr ktdjq ryjgrjq vsib: gthtvtotybt dktdj (ujhzxfz rkfdbif: {0})\r Otkxjr ghfdjq ryjgrjq vsib: gthtvtotybt r pfgflyjq uhfybwt hfcgjkj*tybz (ujhzxfz rkfdbif: {1})"
+exteriorAutomapToolTipRightButton,"Otkxjr ktdjq ryjgrjq vsib: gthtvtotybt dghfdj (ujhzxfz rkfdbif: {0})\r Otkxjr ghfdjq ryjgrjq vsib: gthtvtotybt r djcnjxyjq uhfybwt hfcgjkj*tybz (ujhzxfz rkfdbif: {1})"
+exteriorAutomapToolTipRotateLeftButton,"Otkxjr ktdjq ryjgrjq vsib: gjdjhjn rfhns dktdj (ujhzxfz rkfdbif: {0})\r Otkxjr ghfdjq ryjgrjq vsib: gjdjhjn rfhns djrheu gjpbwbb buhjrf\r dktdj (ujhzxfz rkfdbif: {1})"
+exteriorAutomapToolTipRotateRightButton,"Ktdsq otkxjr: gjdjhjn rfhns dghfdj (ujhzxfz rkfdbif: {0})\r Ghfdsq otkxjr: gjdjhjn rfhns djrheu gjpbwbb buhjrf\r dghfdj (ujhzxfz rkfdbif: {1})"
+exteriorAutomapToolTipUpstairsButton,"Otkxjr ktdjq ryjgrjq vsib: edtkbxtybt vfcinf`f (ujhzxfz rkfdbif: {0}\r Otkxjr ghfdjq ryjgrjq vsib: ghbvtytybt vfrcbvfkmyjuj vfcinf`f)"
+exteriorAutomapToolTipDownstairsButton,"Otkxjr ktdjq ryjgrjq vsib: evtymibnm vfcinf` (ujhzxfz rkfdbif: {0}\r Otkxjr ghfdjq ryjgrjq vsib: ghbvtybnm vbybvfkmysq vfcinf`)"
+exteriorAutomapToolTipPanelCompass,"Ktdsq otkxjr: ajrecbhjdrf gjpbwbb buhjrf (ujhzxfz rkfdbif: {0})\r ghfdsq otkxjr: c`hjc dblf (ujhzxfz rkfdbif: {1})"
+loading,"Bltn pfuheprf..."
+classicSave,"Rkfccbrf"
+cancel,"Jnvtyf"
+renameSave,"Gthtbvty."
+deleteSave,"Elfkbnm"
+switchChar,"Gthcjyf*"
+savePrompt,"Cj[hfybnm buhe"
+loadPrompt,"Pfuhepbnm buhe"
+saveButton,"Cj[hfybnm"
+loadButton,"Pfuhepbnm"
+enterSaveName,"Ddtlbnt bvz cj[hfytybz"
+selectSaveName,"Ds`thbnt cj[hfytybt"
+confirmDeleteSave,"Edthtys, xnj [jnbnt elfkbnm cj[hfytybt?"
+confirmOverwriteSave,"Gthtpfgbcfnm @nj cj[hfytybt?"
+youMustEnterASaveName,"Ds ljk*ys ddtcnb bvz cj[hfytybz."
+youMustSelectASaveName,"Ds ljk*ys ds`hfnm bvz cj[hfytybz."
+noSavesFound,"Cj[hfytybz yt yfqltys. Pfuhepbnm rkfccbxtcrjt cj[hfytybt?"
+cannotSaveNow,"Ds yt vj*tnt cj[hfybnmcz ctqxfc."
+addEffect,"Lj`fdbnm @aatrn"
+buySpell,"Regbnm pfrkbyfybt"
+newSpell,"Yjdjt pfrkbyfybt"
+exit,"Ds[jl"
+casterOnly,"Yf ct`z"
+byTouch,"Ghbrjcyjdtybt"
+singleTargetAtRange,"Jlbyjxyfz wtkm yf hfccnjzybb"
+areaAroundCaster,"J`kfcnm djrheu ct`z"
+areaAtRange,"J`kfcnm yf hfccnjzybb"
+fireBased,"Yf jcyjdt juyz"
+coldBased,"Yf jcyjdt [jkjlf"
+poisonBased,"Yf jcyjdt zlf"
+shockBased,"Yf jcyjdt ijrf"
+magicBased,"Yf jcyjdt vfubb"
+selectIcon,"Ds`hfnm pyfxjr"
+nextIcon,"Cktle<obq pyfxjr"
+previousIcon,"Ghtlsleobq pyfxjr"
+nameSpell,"Bvz pfrkbyfybz"
+enterSpellName,"Ddtlbnt bvz pfrkbyfybz: "
+noEffectsError,"Ds ljk*ys lj`fdbnm r @njve pfrkbyfyb< [jnz `s jlby @aatrn."
+deleteSpell,"Ds [jnbnt elfkbnm @nj pfrkbyfybt?"
+sortSpells,"Ds [jnbnt jncjhnbhjdfnm pfrkbyfybz?"
+effectNotFoundError,"-@aatrn yt yfqlty-"
+noItemToActivate,"E dfc ytn ghbujlyjuj vfubxtcrjuj ghtlvtnf"
+Akatosh,"Frfnji"
+Arkay,"Fhrtq"
+Dibella,"Lb`tkkf"
+Julianos,"L*ekbfyjc"
+Kynareth,"Rbyfhtn"
+Mara,"Vfhf"
+Stendarr,"Cntylfhh"
+Zenithar,"Ptybnfh"
+removeKeybind,"Ds edthtys, xnj [jnbnt elfkbnm ghbdzpre rkfdbi lkz {0} ({1})?"
+nord,"Yjhl"
+settingsNotApplied,"Ghbvtxfybt: Ytrjnjhst bpvtytybz vjuen yt ghbvtyznmcz lj nt[ gjh, gjrf ds yt gthtpfgecnbnt buhe."
+doneButton,"Ujnjdj"
+temple,"[hfv"
+unknownPowers,"Ytbpdtcnyst cbks"
+cannotBeRepaired,"^nj yt gjlkt*bn htvjyne."
+youNeverAwaken,"Ds `jkmit yt ghjcyekbcm."
+modSettings,"Yfcnhjqrb vjljd"
+gameEffectsSettings,"Yfcnhjqrb @aatrnjd"
+antialiasing,"Cukf*bdfybt"
+ambientOcclusion,"Pfntytybt"
+bloom,"Cdtxtybt"
+motionBlur,"Hfpvsnbt ldb*tybz"
+vignette,"Dbymtnrf"
+depthOfField,"Uke`byf htprjcnb"
+antialiasingTip,"Ghblfnm `jktt ukflrbq dbl"
+enable,"Drk<xbnm"
+fxaa,"A{FF"
+smaa,"CVFF"
+taa,"NFF"
+none,"Ytn"
+method,"Vtnjl"
+fxaaFastMode,"~scnhsq ht*bv A{FF"
+low,"Ybprbq"
+medium,"Chtlybq"
+high,"Dscjrbq"
+smaaQuality,"CVFF Rfxtcndj"
+taaSharpness,"NFF Htprjcnm"
+disabled,"Jnrk<xtyj"
+setPageDefaults,"Gj evjkxfyb<"
+ambientOcclusionTip,"Pfntvyztn crkflrb b jndthcnbz"
+scalableAmbientObscurance,"Vfcinf`bhetvfz pfntvytyyjcnm"
+multiScaleVolumetricObscurance,"Vyjujvfcinf`yfz j`]tvyfz pfntvytyyjcnm"
+scalableAmbient,"Vfcinf`bhetvjt jrhe*tybt"
+multiScaleVolumetric,"Vyjujvfcinf`ysq j`]tv"
+intensity,"Byntycbdyjcnm"
+lowest,"Cfvsq ybprbq"
+ultra,"Ekmnhf"
+radius,"Hflbec"
+quality,"Rfxtcndj"
+thickness,"Njkobyf"
+bloomTip,"Cltkfnm cdtnkst j`kfcnb cdtnzobvbcz"
+threshold,"Gjhju"
+diffusion,"Hfcghjcnhfytybt"
+bloomFastMode,"~scnhsq ht*bv `k<hf"
+motionBlurTip,"Cbvekbhetn j`]trns, ldbuf<obtcz `scnhtt rfvths"
+shutterAngle,"Eujk pfndjhf"
+sampleCount,"Rjkbxtcndj ds`jhjr"
+vignetteTip,"Pfntvytybt r rhfzv @rhfyf"
+smoothness,"Ukflrjcnm"
+roundness,"Jrheukjcnm"
+rounded,"Jrheuksq"
+depthOfFieldTip,"Cbvekbhetn ajrec rfvthyjuj j`]trnbdf"
+focusDistance,"Ajrecyjt hfccnjzybt"
+aperture,"Lbfahfuvf"
+focalLength,"Ajrecyjt hfccnjzybt"
+maxBlurSize,"Vfrcbvfkmysq hfpvth hfpvsnbz"
+small,"Vfktymrbq"
+large,"~jkmijq"
+veryLarge,"Jxtym `jkmijq"
+ditherTip,"Ghbvtytybt ievf lkz evtymitybz wdtnjds[ gjkjc"
+dither,"Lbpthbyu"
+colorBoost,"~ecn wdtnf"
+colorBoostTip,"Gjdsitybt zhrjcnb wdtnjd d`kbpb rfvths"
+dungeonScale,"Vfcinf` gjlptvtkmz"
+interiorScale,"Vfcinf` bynthmthf"
+exteriorScale,"Dytiybq vfcinf`"
+dungeonFalloff,"Cvtotybt gjlptvtkmz"
+retroMode,"Htnhj-ht*bv"
+retroModeTip,"Htylthbyu vbhf d `jktt ybprb[ hfphtitybz["
+mode,"Ht*bv"
+retroModeOff,"Dsrk"
+retroMode320x200,"320[200"
+retroMode640x400,"640[400"
+off,"Dsrk"
+posterizationFull,"Gjcnthbpfwbz (gjky)"
+posterizationMinusSky,"Gjcnthbpfwbz (`tp yt`f)"
+palettizationFull,"Gfktnnbpfwbz (gjky)"
+palettizationMinusSky,"Gfktnnbpfwbz (`tp yt`f)"
+postProcess,"Gjcnj`hf`jnrf"
+retroModeAspectCorrection,"Rjhhtrwbz cjjnyjitybz cnjhjy"
+FourThree,"4:3"
+SixteenTen,"16:10"
+notEnoughSpellpointsLeft,"E dfc ytljcnfnjxyj jxrjd pfrkbyfybq."
+totalIdentified,"{0} bp {1} bltynbabwbhjdfyj."
+dispelMagicSuccess,"Elfkjcm hfcctznm vfub<..."
+dispelMagicFailed,"Hfcctznm vfub< yt gjkexbkjcm..."
+smallerDungeonsChanged,"Bpvtytybt hfpvthjd gjlptvtkmz ghb yf[j*ltybb d ytv. Gthtvtotybt buhjrf r ds[jle bp gjlptvtkmz."
+youNote,"Ds jnvtxftnt: "
+customName,"Cdjt bvz: "
+StoresA,"%ef:
+%cn: Yfbkexibq
+Ytj`[jlbvsq
+Kjhl %ef:
+Ghbrk<xtyxtcrbq
+Cnhfyysq
+%ef: {jhjibq
+Dsujlysq
+Dbynf*ysq
+Bvgthfnjhcrbq
+%cn:
+%ef: Jcyjdyjq
+Ghtdjc[jlysq
+%ef: Rfxtcndtyysq
+Gthdjrkfccysq
+%rt ghtlcnfdkztn:
+Xtvgbjycrbq
+C@h %ef:
+Ktlb %ef:"
+GeneralStoresB,"Ds`jh
+Njdfh Lkz Ljvf
+Vt[fybpv
+Vfufpby Cyfhz*tybz
+Yf`jh J`jheljdfybz
+Vfufpby J`jheljdfybz
+Pfgfc
+Geyrn Cyf`*tybz
+Vfufpby Njdfhjd
+Eybdthvfu
+Eybdthcfv
+Njhujdsq Ldjh
+Hsyjr
+Vfufpby Rthfvbrb
+Crkfl"
+WeaponStoresB,"Jhe*tqysq Vfufpby
+Vfufpby Djjhe*tybz
+Vfufpby Jhe*tqys[ Njdfhjd
+J`hfptw Djjhe*tybz
+Fhctyfk
+Ghjbpdjlbntkm Jhe*bz
+Ds`jh Rkbyrjd
+Repytw
+Vtnfkkbcn
+Jhe*tqybr"
+ArmorStoresB,"Jhe*tqysq Crkfl
+Ds`jh Rjkmxeu
+Vfufpby Pfobns
+Ds`jh ~hjyb
+Ds`jh Obnjd
+Obn ^ubls
+Vfcnth Gj |tktpe
+Repytw
+Vtnfkkbcn
+Jhe*tqysq Vfcnth
+Vjkjnj`jtw
+Repytxysq Wt["
+BookStoresB,"Ryb*ysq Hzl
+Hsyjr Rybu
+Ryb*ysq Vfufpby
+Rybujnjhujdtw
+Ryb*ysq Wtynh
+Ghjlfdtw Rybu
+Ryb*ysq Rbjcr
+Vfufpby Fynbrdfhys[ Rybu"
+LibraryStoresB,"~b`kbjntxysq Geyrn
+Ryb*ysq Pfk
+Xbnfkmysq Pfk
+Pfk Ge`kbxyjq ~b`kbjntrb
+Bcnjhbr
+Pfk C Rybufvb
+Ctvbyfhbev
+Kbwtq"
+ClothingStoresB,"Jlt*ysq Vfufpby
+Vfufpby Jltzybq
+Yfhzl
+Vfufpby Ujnjdjuj Gkfnmz
+Rjcn<v
+Vfufpby J`kfxtybq
+Vfufpby E`hfycndf
+Vfufpby Vjlys[ Yfhzljd
+Gjibd Jlt*ls
+Ds`jh ^rbgbhjdrb
+Vfufpby Erhfitybq"
+AlchemyStoresB,"Ds`jh Nhfd
+Vfufpby Ptktyb
+Vfufpby Cgtwbq
+Vfufpby Ktxt`ys[ Chtlcnd
+Ds`jh Ghjnbdjzlbq
+Ljrnjh
+Vfufpby Vtlbrfvtynjd
+Vfufpby Ptkbq
+Ds`jh Yfcnjtr
+Vfufpby Ktrfhcndtyys[ Chtlcnd
+Ds`jh ^kbrcbhjd
+Fgntxysq Geyrn
+Fgntrfhm
+Ds`jh Vfptq
+Vfufpby Ktrfhcnd
+Nhfdzyjq Cfl
+Vfufpby Lkz Afhvfwtdnjd
+{bvbxtcrbq Yf`jh
+{bvbrfn
+^rcgthbvtyn
+Fk[bvbr
+Fk[bvbxtcrbq Hfcndjh
+Vtnfkkehu"
+GemStoresB,"Vbythfk
+Cfvjwdtn
+>dtkbhysq Cfkjy
+Ghb`fv`fc
+Lhfujwtyysq Rfvtym
+Vfufpby ~b*enthbb
+>dtkbh
+Ceylexjr
+>dtkbhysq Vfufpby
+Juhfyobr"
+PawnStoresB,"Kjv`fhl
+Hjcnjdobr
+~kjibysq Hsyjr
+~fpfh
+Hfpdfk
+Ctrjyl-{tyl
+Pfkju
+Fynbrdfhbfn"
+FurnitureStoresB,"Ds`jh Vt`tkb
+Vt`tkmobr
+Lbpfqyth
+Vfufpby Vt`tkb
+Ltrjh
+Gkjnybr
+Cnjkzh
+Vfcnth
+Lhjdjctr"
+LivestockStoresB,"Crjnjdjl
+Pfdjlxbr
+Ljvfiybq Crjn
+Pdthm
+Pdthtr
+J[jnybr
+|bdjnyjdjl
+|bdjnysq Vbh
+Pdthbytw"
+TavernsA,"Rjhjktdf b
+Rjhjktdcrbq
+Uhzpysq
+Xthysq
+Rhjn b
+Ptktysq
+Rhfcysq
+Pjkjnjq
+~tksq
+Ctht`hzysq
+Vfkbyjdsq
+Ktnf<obq
+Nfywe<obq
+Cvt<obqcz
+~tcgjrjqysq
+|f*leobq
+Ytcxfcnysq
+Cxfcnkbdsq
+Lmzdjkmcrbq
+H*fdsq
+Dj<obq
+Rhbxfobq
+Ktnexfz Vsim b
+Ktd b
+Hscm b
+Uyjv b
+~j`h b
+Kbcf b
+Vsim b
+Cdbymz b
+Gthj b
+|f`f b
+Rhscf b
+Lbrbq
+Gken b
+Vthndsq"
+TavernsB,"Entc
+Rediby
+Uhjn
+Rjn
+Gtc
+Uj`kby
+Uhbajy
+Lhfrjy
+K<ljtl
+Ubufyn
+L*byy
+Djkr
+Tuthm
+Rby*fk
+Xthtg
+Vtx
+Cnhf*
+Gjuht`
+Iktv
+Pfvjr
+Re`jr
+Jhtk
+Uyjv
+T*
+Veirtn
+Cehjr
+Crjhgbjy
+~fhcer
+Rjptk
+Lbrj`hfp
+|htw
+Jktytyjr
+Jktym
+Dfhdfh
+Gken
+Uthjq"
+houseForSale,"Ljv yf ghjlf*e"
+theBankOf,"~fyr"
+daggerfall,"Lfuuthajkk"
+wayrest,"D@qhtcn"
+sentinel,"Ctynbytk"
+palace,"Ldjhtw"
+regionNames,"Gecnsyz Fkbr'h
+Ujhs Lhfrjymtuj {djcnf
+Ghtlujhmz Uktygjqynf
+Entcs Lfuuthajkkf
+Qtjhn ~ehhjektyl
+Ldbyyty
+Hfdtyycrbq ktc
+Ltdbkhjr
+Vfktrycrbq ktc
+Jcnhjd ~fkabthf
+~fynf
+Lfr'ahjy
+Jcnhjdf d Pfgflyjq Bkbfrcrjq `e[nt
+Nfvfhbkby Gjqyn
+Crfks Ktqykby
+Htrf ~m<kcft
+Dhjnufhbfycrbt ujhs
+Lfuuthajkk
+Uktygjqyn
+~tnjybz
+Ctynbytk
+Fynbrkth
+K@qykby
+D@qhtcn
+Lthtdyz Uty Ntv {fq Hjr
+Lthtdyz Uty Hfq {fvvthatkk
+Hfqjy Jhcbybev
+Crtaabyunjycrbq ktc
+Gj`tht*mt pfkbdf {fvvthatkk
+Gj`tht*mt {fvvthatkkf
+Gj`tht*mt pfkbdf {fq-Hjr
+Vjhcrjt gj`tht*mt {fq-Hjr
+Yjhnveh
+Vtytdbz
+Fkmrfqh
+Rj@uhbz
+~[jhbfyt
+Rfv`hbz
+Ahbubz
+Ehdfq
+Brfkjy
+Lf@ybz
+Ifkujhf
+F`b`jy-Ujhf
+Rfqhe
+Gjnfuj
+Vshrdfcf
+Fzcjamz
+Nbujyec
+Rjpfyctn
+Cfnfrfkffv
+Njnfv`e
+Vehyjn
+^atc
+Cfynfrb
+Fynbabkjc
+~thufvf
+Ufdjljy
+Nekey
+~jkjnf Uktyev`hs
+Bktccfycrbt [jkvs
+Rb`bfls"
+ocean,"Jrtfy"
+unknownUpper,"Ytbpdtcnyj"
+switchToRegion,"Gthtqnb yf htubjy {0}"
+locationInRegionProvince,"{0} d ghjdbywbb {1}"
+dayNames,"Cfylfc
+Vjhylfc
+Nbhlfc
+Vbllfc
+Nehlfc
+Ahtlfc
+Kjhlfc"
+monthNames,"Enhtyytq pdtpls
+Djc[jlf cjkywf
+Gthdjuj pthyf
+Herb lj*lz
+Dnjhjuj pthyf
+Cthtlbys ujlf
+Dscjrjuj cjkywf
+Gjcktlytuj pthyf
+Juyz jxfuf
+Yfxfkf vjhjpjd
+Pfrfnf cjkywf
+Dtxthytq pdtpls"
+birthSignNames,"Hbnefk
+K<`jdybr
+Kjhl
+Vfu
+Ntym
+Rjym
+Extybr
+Djby
+Ktlb
+~fiyz
+Fnhjyf[
+Djh"
+seasonNames,"Jctym
+Dtcyf
+Ktnj
+Pbvf"
+longDateTimeFormatString,"{0:00}:{1:00}:{2:00}, {3}, {4}t {6:00}, 3^ {7}"
+dateTimeFormatString,"{0:00}:{1:00}:{2:00}, {3}t {5:00}, 3^ {6}"
+dateFormatString,"{0}, {1}t {3:00}"
+ingredientFormatString,"{0} {1}"
+longWeaponNameFormatString,"{1} ({0})"
+longArmorNameFormatString,"{1} ({0})"
+strRatings,"*fkrb
+[hegrb
+ckf`s
+yb*t chtlytuj
+gjchtlcndtyys
+ljdjkmyj cbkmys
+cgjhnbdys
+jxtym cbkmys
+vjoys
+cdth[xtkjdtr"
+intRatings,"jdjo
+negbwf
+gjkjevys
+negs
+gjchtlcndtyys
+[bnhs
+ljdjkmyj evys
+jxtym evys
+utybfkmys
+utybq"
+wilRatings,"`tpdjkmys
+gjrjhys
+gfccbdys
+dbnftnt d j`kfrf[
+`tpfgtkkzwbjyys
+cnf`bkmys
+edthtyys
+ytgjrjkt`bvs
+jxtym cjchtljnjxtys
+ghjcdtnktyys"
+agiRatings,"edfktym
+yterk<*b
+ytgjdjhjnkbds
+ytkjdrb
+gjchtlcndtyys
+kjdrb
+ghjdjhys
+ub`rb
+jxtym kjdrb
+dbhnejpys"
+endRatings,"`jkmys
+gkfxtdys
+ytgjcnjzyys
+ytecnjqxbds
+jrjkj chtlytuj
+dsit chtlytuj
+jxtym pljhjds
+dsyjckbds
+nbnfy
+`tccvthnys"
+perRatings,"jndhfnbntkmys
+ytgjgekzhys
+fyjybvys
+ytghbnzpfntkmys
+ytghbvtxfntkmys
+bynthtcys
+jxfhjdfntkmys
+jxtym bynthtcys
+fdnjhbntnys
+[fhbpvfnbxys"
+spdRatings,"ytfrnbdys
+dzks
+jxtym vtlktyys
+vtlktyys
+jrjkj chtlytuj
+dsit chtlytuj
+`scnhs
+`scnhjyjub
+vjkybtyjcys
+vtntjh"
+lucRatings,"ghjrkzns
+`tpyflt*ys
+yt`kfujghbznys
+ytcxfcnys
+gjchtlcndtyys
+ljdjkmyj elfxkbds
+elfxkbds
+cxfcnkbds
+jxtym cxfcnkbds
+j`kfcrfys `jufvb"
+Mage,"Vfu"
+Spellsword,"Pfrkbyfntkm"
+Battlemage,"~jtdjq vfu"
+Sorcerer,"Rjkley"
+Healer,"Wtkbntkm"
+Nightblade,"Yjxyjq rkbyjr"
+Bard,"~fhl"
+Burglar,"Dpkjvobr"
+Rogue,"~hjlzuf"
+Acrobat,"Frhj`fn"
+Thief,"Djh"
+Assassin,"Fccfcby"
+Monk,"Vjyf["
+Archer,"Kexybr"
+Ranger,"Htqyl*th"
+Barbarian,"Dfhdfh"
+Warrior,"Djby"
+Knight,"Hswfhm"
+Custom,"Ghbrk<xtytw"
+darkBrotherhoodRanks,"Extybr
+Gjlvfcnthmt
+Jgthfnjh
+E`bqwf
+Gfkfx
+Rfhfntkm
+Nthvbyfnjh
+Fccfcby
+Ntvysq ~hfn
+Vfcnth-Fccfcby"
+fightersRanks,"Extybr
+Gjlvfcnthmt
+Vtxybr
+Pfobnybr
+J`jhjybntkm
+Cnhf*
+{hfybntkm
+Xtvgbjy
+Djby
+Vfcnth"
+knightlyOrderRanks,"Fcgbhfyn
+Jhe*tyjctw
+Ufkfyn
+Itdfkmt
+{hfybntkm
+Hswfhm-`hfn
+Rjvfylbh
+Vfhifk
+Ctytifkm
+Gfkflby"
+magesRanks,"Extybr
+Gjlvfcnthmt
+Ghbpsdfntkm
+Rjkley
+Vfu
+Xfhjltq
+Dtlmvfr
+Djkit`ybr
+Ukfdysq Djkit`ybr
+Fh[bvfu"
+templeRanks,"Yjdbxjr
+Gjcdzotyysq
+Frjkbn
+Fltgn
+Rehfnjh
+Extybr
+~hfn
+Ghtlcrfpfntkm
+Vfcnth
+Gfnhbfh["
+thievesRanks,"Extybr
+Gjlvfcnthmt
+Djhbirf
+Ghtcnegybr
+Uhf`bntkm
+~fylbn
+Djh
+Ukfdfhm
+Jhufybpfnjh
+Ukfdysq djh"
+darkSister,"Ntvyfz Ctcnhf"
+nonMember,"yt xkty"
+knightSister,"Hswfhcrfz Ctcnhf"
+matriarch,"Vfnhbfh["
+sister,"Ctcnhf"
+daedricSkill,"Zpsr lf@lhf"
+orcishSkill,"Zpsr jhrjd"
+midDateTimeFormatString,"{0:00}:{1:00}:{2:00} {3:00} {4:00} 3^ {5}"
+hthDamageFormatString,"Ehjy yfdsrf {0}: {1}-{2}"
+affiliationFormatString,"{0} (htg: {1})"
+answers_5404,"ker
+ker cnhtkf
+fh`fktn
+kerb
+fh`fktns"
+answers_5406,"jlby
+1"
+answers_5423,"`kfujndjhbntkm
+`kfujltntkm
+cgjycjh
+lfhbntkm
+vtwtyfn"
+answers_5424,"pfnrybcm
+pfvjkxb
+PFRHJQCZ
+PFRHJQ
+PFRHSNM
+PFRHJQNT
+PF{KJGYB
+pfrhjqcz
+pfrhjq
+pfrhsnm
+pfrhjqnt
+pf[kjgyb
+enb[yb
+pfrhjq hjn"
+answers_5464,"lf
+ye lf
+jr
+z cjukfcty
+cjukfcty
+fuf
+[jhjij
+rjytxyj
+jnkbxyj
+jrtq
+yt djghjc
+eue"
+random,"Ckexfqyj"
+nordSurnameImmutableSuffix,"cty"
+confirmDefaultControls,"C`hjcbnm eghfdktybt yf pyfxtybz gj-evjkxfyb<?"
+saveLoadPromptFormat,"{0}. Gthcjyf* '{1}'"

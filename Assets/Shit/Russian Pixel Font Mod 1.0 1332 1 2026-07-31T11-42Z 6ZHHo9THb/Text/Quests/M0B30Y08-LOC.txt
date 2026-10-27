@@ -1,0 +1,142 @@
+-- Quest: C:\QUESTS\WORKING\M0B30Y08.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 30
+-- QuestId: 8
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 81
+Quest: M0B30Y08
+DisplayName: Ljvfiybt hfp`jhrb
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Ytvyj*rj cjhf bp bp`s, %pcf. Ljdjkmyj
+<ce> xelyjuj, yflj crfpfnm. __house_ - jlyf
+<ce> *tyobyf [jxtn xnj`s @nj vtcnj, tt *bkbot,
+<ce> jxbcnbkb jn... tt ve*f. Jlyf ghj`ktvf -
+<ce> jy djj`ot-nj lfdyj evth. Djpvtimcz pf nfre<
+<ce> hf`jne?
+
+RefuseQuest:  [1001]
+<ce> Jxtym *fkm. J`sxyj nfre< hf`jne ghtlkfuf<n
+<ce> njkmrj [hfvfv. Ns egecrftim jnkbxye<
+<ce> djpvj*yjcnm, %pcn.
+
+AcceptQuest:  [1002]
+<ce> Tt ve* - pjv`b. D ntxtybt lyz jy crhsdftncz
+<ce> ult-nj. Jyf ybrjulf tuj yt dbltkf lytv. Gj
+<ce> yjxfv jy `hjlbn djrheu ljvf. Xnj`s bp`fdbnm
+<ce> tuj jn cnhflfybq b dthyenmcz c<lf e nt`z tcnm
+<ce> =2dung_ lytq, b pf @nj ns gjkexbim _gold_
+<ce> pjkjns[.
+
+QuestComplete:  [1004]
+<ce> Xnj, cnfhbr b ghfdlf nfr djyzk, rfr ujdjhzn?
+<ce> Rfr uhzpyjt `tkmt, jcnfdktyyjt yf ytltk< gjl
+<ce> lj*ltv? Ye, djn ndjz yfuhflf, %pcn.
+
+RumorsDuringQuest:  [1005]
+<ce> Ds cksifkb? Jlyf cnfhfz crkjxybwf
+<ce> *fkjdfkfcm, xnj tt ve* dthyekcz bp
+<ce> vjubks, xnj`s ljybvfnm tt.
+
+RumorsPostfailure:  [1006]
+<ce> ^ne *tyobye yfikb vthndjq d tt cj`cndtyyjv
+<ce> ljvt. F hzljv c ytq yfikb bcnktdibq nheg
+<ce> tt lfdyj evthituj ve*f.
+
+RumorsPostsuccess:  [1007]
+<ce> Ujdjhzn Ubkmlbz ~jqwjd jnhzlbkf jlyjuj
+<ce> bp cdjb[ rhens[ djzr xnj`s hfpj`hfnmcz
+<ce> c @nbv pjv`b. Jyb [jhjibt ht`znf,
+<ce> @nf ubkmlbz.
+
+QuestorPostsuccess:  [1008]
+<ce> {jhjij chf`jnfyj c @nbv pjv`b, %pcn.
+
+QuestorPostfailure:  [1009]
+<ce> Pjv`b - @nj jrfpfkjcm ckbirjv? Yt cktletn
+<ce> `hfnmcz pf hf`jne, rjnjhe< ns yt vj*tim
+<ce> dsgjkybnm.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Ubkmlbz ~jqwjd ujhjlf ___qgiver_
+ gjhexbkf vyt jxbcnbnm ljv _house_
+ d __house_ jn pjv`b, rjnjhsq j`bnftn
+ nfv. E vtyz tcnm =2dung_ lytq yf
+ dsgjkytybt pflfybz.
+
+Message:  1011
+<ce> _monster_ vthnd. Ntgthm tuj *tyf
+<ce> vj*tn cgfnm cgjrjqyj.
+
+Message:  1080
+<ce> ^q, %pcf, tckb gj-ndjtve ghbrjyxbnm
+<ce> pjv`b - @nj dtctkj, djpmvb @ne
+<ce> rfhne - genm r jlyjq lsht, yfctktyyjq
+<ce> vjycnhfvb, gjl yfpdfybtv ___newdung_.
+<ce> Ghjcnj yt`jkmifz ghjuekrf lkz nfrjuj uthjz.
+
+
+
+QBN:
+Item _gold_ gold
+
+Person _qgiver_ group Questor
+
+Place _house_ remote random
+Place _newdung_ remote dungeon
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Zombie
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _house_
+	log 1010 step 0
+	pick one of _map_ _map_ _nomap_ _nomap_
+	pc at _house_ set _S.04_
+	create npc at _house_
+
+_2dung_ task:
+	end quest
+
+_mondead_ task:
+	killed 1 _monster_ saying 1011
+
+_S.02_ task:
+	when _qgclicked_ and _mondead_ and _nomap_
+	give pc _gold_
+	end quest
+
+_mapvict_ task:
+	when _qgclicked_ and _mondead_ and _map_
+	give pc _gold_
+	reveal _newdung_ readmap
+    say 1080
+	end quest
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_
+	clear _qgclicked_ _clearclick_
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+variable _S.04_
+_S.05_ task:
+	daily from 05:00 to 19:00
+
+_S.06_ task:
+	when _S.04_ and not _S.05_
+	place foe _monster_ at _house_
+
+variable _map_
+variable _nomap_
+_S.09_ task:
+	when _map_ and _S.02_
+

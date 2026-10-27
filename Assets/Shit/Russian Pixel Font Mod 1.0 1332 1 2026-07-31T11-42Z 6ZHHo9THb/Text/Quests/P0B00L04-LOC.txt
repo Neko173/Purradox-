@@ -1,0 +1,255 @@
+-- Quest: C:\QUESTS\WORKING\P0B00L04.Qbn.
+-- StartsBy: letter
+-- Questee: member
+-- Questor: vampire
+-- Repute: 0
+-- QuestId: 4
+Messages: 17
+Quest: P0B00L04
+DisplayName: Cnfhsq dhfu
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+Error: Questtext 1000 called.
+
+RefuseQuest:  [1001]
+Error: Questtext 1001 called.
+
+AcceptQuest:  [1002]
+Error: Questtext 1002 called.
+
+QuestComplete:  [1004]
+<ce> Xnj nfrjt, %pcf? Ds gsnftntcm crhsnm
+<ce> gtxfkm?!! Z gjybvf< ...
+<ce> E vtyz ltqcndbntkmyj `skf `jktt xtv dtcrfz
+<ce> ghbxbyf eybxnj*bnm jlyjuj bp dfib[ jnghscrjd.
+<ce> J[. Dct @nb ckf`jcnb cvthnys[... cvthntkmyst
+<ce> ckf`jcnb. ~elmnt dsit @njuj, byfxt dfv
+<ce> ybrjulf yt cnfnm jlybv bp yfc.
+<ce> Dct nj, xnj ds cltkfkb -
+<ce> jxtym nz*tkj ghbyznm, yj yflj `snm
+<ce> [kflyjrhjdysv. Ds e*t cltkfkb jlby ifu
+<ce> r njve, xnj`s cnfnm gjkyjghfdysv xktyjv
+<ce> ctvmb %vam. Vjb gjplhfdktybz!..
+
+RumorsDuringQuest:  [1005]
+=vampire_ crjhj gjxedcndetn drec cdjtq cbks d gjkyjq vtht, b tuj yt jcnfyjdbnm.
+   <--->
+Crktg ___mondung_ ljk*ty `sk `snm jcrdthyty. Dct... ntgthm e*t ckbirjv gjplyj.
+
+RumorsPostfailure:  [1006]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+RumorsPostsuccess:  [1007]
+E vtyz `sk *fh ... yj dct ghjikj.
+   <--->
+Z nhb xfcf hfpujdfhbdfk j gjujlt.
+   <--->
+Jnkbxyfz gjujlf lkz @njuj dhtvtyb ujlf.
+   <--->
+Ljdjkmyj nfrb ghj[kflyj d %cn lkz @njuj dhtvtyb ujlf.
+   <--->
+Edthty, ctujlyz pyfxbntkmyj ntgktt, xtv `skj d ghjikjv ujle.
+   <--->
+Vjz pfvtxfntkmyfz ntnz bcrfkf cgtwbfkbcnf gj dctve Nfvhb@k<.
+   <--->
+Dtcmvf pf`fdyj, rjulf d @nj dhtvz yf ekbwt e*t ntvyj.
+   <--->
+Vs ljk*ys djpldbuyenm gfvznybr djqyt.
+   <--->
+Ltnbirb d @nb lyb `fke<ncz cj cdjtq vfubtq. %oth, yt pyf< xnj b crfpfnm.
+   <--->
+Ghjikjq yjxm< vyt ghbcybkcz elbdbntkmysq cjy.
+   <--->
+Vyt hfccrfpfkb jnkbxye< ienre. %jok
+   <--->
+%jok Rjytxyj *t @nj dctuj kbim ienrf.
+   <--->
+%jok Yt vjukb `s ds j`]zcybnm, xnj dct @nj pyfxbn?
+   <--->
+E cdjlf pfrjyjd d %reg vyjuj [jhjib[ cnjhjy b jlyf gkj[fz.
+
+QuestorPostsuccess:  [1008]
+Error: Questtext 1008 Called
+
+QuestorPostfailure:  [1009]
+Error: Questtext 1009 Called
+
+QuestLogEntry:  [1010]
+      __vamp_
+       ___vamp_
+<ce>
+Lf ght`eltn c dfvb Yjxm, %pcn.
+<ce>
+  Djpvj*yj ds gjvybnt genybrf,
+rjnjhjuj jlyf*ls dcnhtnbkb,- =vampire_?
+Drecyfz, cjxyfz, ckturf vfkjrhjdyfz,
+yj, d wtkjv, ytpf`sdftvfz gbof. Xnj *,
+`thtubntcm, @nf gbof djccnfkf bp cdjtq
+vjubks.
+<ce>
+  E ctvmb %vam tcnm cthmtpyst
+jgfctybz, cdzpfyyst c dfibvb
+yfcktlybrfvb. Vs ljk*ys gjujdjhbnm
+j` @njv, rjulf edblbvcz.
+<ce>
+Dfi dtxysq lheu d Cvthnb,
+<ce> _vamp_
+<ce> ----
+
+Message:  1011
+<ce> Vfktymrbq `ktlysq vfkmxbr ceyek
+<ce> gbcmvj d dfie here b vjvtynfkmyj bcxtp,
+<ce> ckjdyj vsim.
+
+Message:  1012
+%qdt:
+ _vamp_ bp ctvmb %vam iktn
+ vyt gbcmvj c ghjcm`jq rfr vj*yj `scnhtt
+ ghb`snm d ujhjljr ___vamp_ d vtcnj
+ gjl yfpdfybtv __vamp_.
+
+Message:  1013
+<ce> Lj`hjq Yjxb, rhjdm jn vjtq rhjdb.
+<ce> E vtyz b e dfc tcnm ghtbynthtcytqitt ltkj.
+<ce> Jlyf bp dfib[ lfdyb[ *thnd djccnfkf bp vjubks.
+<ce> =vampire_.. Yt pyf<, ujdjhbn kb dfv @nj bvz
+<ce> j xtv-nj. D k<`jv ckexft vs ghjdthzkb
+<ce> %g4, rfr ghjdthzkb dfc, xnj`s gjyznm
+<ce> ltqcndbntkmyj kb %g2 lfhjdfyj `tccvthnbt
+<ce> d cjjndtncndbb c %g4 hjljckjdyjq.
+<ce> R cj*fktyb<, @nj yt nfr. C rf*ljq rfgktq
+<ce> rhjdb, rjnjhe< %g gmtn, %g4 *f*lf
+<ce> edtkbxbdftncz ltcznbrhfnyj. ~tpevysq vjkjljq
+<ce> dfvgbh, jgmzytyysq cdjbvb djpvj*yjcnzvb,
+<ce> pfnthzkcz d ghjdbywbb, b @nj `jkmifz euhjpf
+<ce> lkz dctuj ceotcndjdfybz dfvgbhjd.
+<ce> Jnghfdkzqntcm d %g4 crktg ___mondung_ b
+<ce> eybxnj*mnt ifkjdkbdjt lbnz dfitq rhjdb.
+<ce> Z gjybvf<, @nj ytkturj `eltn cltkfnm, yj
+<ce> gjvybnt j` jndtncndtyyjcnb, rjnjhfz kt*bn yf dfc.
+<ce> Z `ele *lfnm dfituj cjj`otybz d ntxtybt
+<ce> =queston_ yjxtq. B jxtym yflt<cm, xnj ds
+<ce> yt gjldtltnt. Byfxt...byfxt yfib yfceoyst
+<ce> ghj`ktvs `elen ghjcnj ltncrjq crfprjq.
+<ce> Cnegfqnt, b gecnm Yjxm c`tht*tn dfc.
+
+Message:  1014
+%qdt:
+ _vamp_ jncskftn vtyz r
+ gjlptvtkm< ___mondung_, ult vyt
+ ytj`[jlbvj dthyenm d
+ ghf[ cdjt cjplfybt.
+ =vampire_ cdjbv `tcrjynhjkmysv
+ gjdtltybtv euhj*ftn dctv ctvmzv dfvgbhjd.
+ E vtyz tcnm =queston_ yjxtq,
+ xnj`s gjrjyxbnm c @nbv b
+ dthyenmcz d ___vamp_.
+
+Message:  1015
+<ce> Kexit yt yflj *fktnm hjpub, vjq
+<ce> cjplfntkm. Ds njkmrj bcgjhnbnt vtyz.
+   <--->
+<ce> J lf, z pyf< dfc. Dfit kbwj, bpvfpfyyjt
+<ce> d vjtq rhjdb, - @nj `skj gjcktlytt,
+<ce> xnj vyt elfkjcm edbltnm... Xnj *t ds
+<ce> cnjbnt? Blbnt *t, j`ybvbnt cdjt xflj.
+   <--->
+<ce> Dfit kbwj... kbwj vjtuj
+<ce> rjivfhf, %pcn. Ds bp nt[,
+<ce> rnj ghjrkzk vtyz. Ds j`htrkb
+<ce> vtyz yf nfrjt ceotcndjdfybt...
+
+Message:  1016
+<ce> =vampire_ evbhftn d
+<ce> gjcktlybq hfp jrjyxfntkmyjq
+<ce> cvthnm<. Ds dsgjkybkb @nj
+<ce> pflfybt b vj*tnt djpdhfofnmcz
+<ce> yfpfl, r dfitve gjhexbntk<
+<ce> cj cgjrjqyjq cjdtcnm<. {jnz,
+<ce> rnj vj*tn gjhexbnmcz pf cjdtcnm...
+<ce> _vamp_ *ltn dfc.
+
+
+
+QBN:
+Item _letter_ letter used 1010
+
+Person _vamp_ factiontype Vampire_Clan local
+
+Place _mondung_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+Clock _S.05_ 00:00 0 flag 17 range 1 4
+
+Foe _vampire_ is Vampire
+
+--	Quest start-up:
+	dialog link for location _mondung_ person _vamp_
+	_letter_ used do _readletter_
+	have _letter_ set _S.08_
+	give pc _letter_ notify 1011
+	place foe _vampire_ at _mondung_
+
+_vampclicked_ task:
+	clicked npc _vamp_
+
+_S.07_ task:
+	when _vampclicked_
+	reveal _mondung_
+	log 1014 step 1
+	say 1013
+
+_S.01_ task:
+	killed 1 _vampire_
+	say 1016
+
+until _S.01_ performed:
+	clear _vampclicked_
+
+_queston_ task:
+	end quest
+
+_S.03_ task:
+	injured _vampire_
+	say 1015
+
+_reward_ task:
+	when _vampclicked_ and _S.01_
+	give pc nothing
+	end quest
+
+variable _S.05_
+_readletter_ task:
+	add dialog for person _vamp_
+	log 1012 step 0
+
+_S.08_ task:
+	start timer _queston_
