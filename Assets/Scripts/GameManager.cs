@@ -6,20 +6,14 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     public bool hasMilkBowl = false;
-
     public int stepCount;
+    public float levelTime = 0f;       // остаток времени на финише (для инфо)
+    public bool isLevelFailed = false; // ← новое: провал по таймеру
 
     void Awake()
     {
-        // Простой синглтон — один менеджер на всю игру
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
     }
 
     public void CollectMilkBowl()

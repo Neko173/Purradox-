@@ -9,6 +9,8 @@ public class ResultsPanel : MonoBehaviour
 
     [Header("UI элементы")]
     public TextMeshProUGUI stepsText;
+    public TextMeshProUGUI timeText;
+    public TextMeshProUGUI titleText;   // ← заголовок "Победа!" / "Время вышло!"
     public Image star1;
     public Image star2;
     public Image star3;
@@ -17,16 +19,21 @@ public class ResultsPanel : MonoBehaviour
     public int stepsFor3Stars = 20;
     public int stepsFor2Stars = 40;
 
+    [Header("Заголовки")]
+    public string winTitle = "Победа!";
+    public string failTitle = "Время вышло!";
+    public Color winTitleColor = Color.white;
+    public Color failTitleColor = new Color(1f, 0.4f, 0.4f);
+
     void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            gameObject.SetActive(false); // скрываем, но НЕ уничтожаем
+            gameObject.SetActive(false);
         }
         else if (Instance != this)
         {
-            // Если это дубликат — просто выключаем его, не уничтожаем
             gameObject.SetActive(false);
         }
     }
@@ -35,13 +42,27 @@ public class ResultsPanel : MonoBehaviour
     {
         gameObject.SetActive(true);
 
+        bool failed = GameManager.Instance.isLevelFailed;
         int steps = GameManager.Instance.stepCount;
+        float timeLeft = GameManager.Instance.levelTime;
 
-        // Текст шагов
-        stepsText.text = "" + steps;
+        // Заголовок
+        if (titleText != null)
+        {
+            titleText.text = failed ? failTitle : winTitle;
+            titleText.color = failed ? failTitleColor : winTitleColor;
+        }
 
-        // Звёзды
-        int stars = CalculateStars(steps);
+        // Шаги
+        if (stepsText != null)
+            stepsText.text = "" + steps;
+
+        // Время (показываем остаток или 00:00 при провале)
+        if (timeText != null)
+            timeText.text = failed ? "00:00" : LevelTimer.FormatTime(timeLeft);
+
+        // Звёзды: при провале — ни одной
+        int stars = failed ? 0 : CalculateStars(steps);
         SetStar(star1, stars >= 1);
         SetStar(star2, stars >= 2);
         SetStar(star3, stars >= 3);
@@ -56,12 +77,12 @@ public class ResultsPanel : MonoBehaviour
 
     void SetStar(Image star, bool active)
     {
+        if (star == null) return;
         star.color = active ? Color.white : new Color(0.3f, 0.3f, 0.3f, 1f);
     }
 
     public void OnNextLevelButton()
     {
         SceneManager.LoadScene("lvlSelect1");
-        Debug.Log("Загрузка сцены");
     }
 }
