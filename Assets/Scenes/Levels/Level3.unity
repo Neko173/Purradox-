@@ -519,11 +519,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ResultsPanel
   stepsText: {fileID: 1851679828}
+  timeText: {fileID: 0}
+  titleText: {fileID: 0}
   star1: {fileID: 763427509}
   star2: {fileID: 2057967124}
   star3: {fileID: 1672008270}
   stepsFor3Stars: 20
   stepsFor2Stars: 40
+  winTitle: "\u041F\u043E\u0431\u0435\u0434\u0430!"
+  failTitle: "\u0412\u0440\u0435\u043C\u044F \u0432\u044B\u0448\u043B\u043E!"
+  winTitleColor: {r: 1, g: 1, b: 1, a: 1}
+  failTitleColor: {r: 1, g: 0.4, b: 0.4, a: 1}
 --- !u!114 &490860126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1231,11 +1237,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ResultsPanel
   stepsText: {fileID: 0}
+  timeText: {fileID: 0}
+  titleText: {fileID: 0}
   star1: {fileID: 0}
   star2: {fileID: 0}
   star3: {fileID: 0}
   stepsFor3Stars: 20
   stepsFor2Stars: 40
+  winTitle: "\u041F\u043E\u0431\u0435\u0434\u0430!"
+  failTitle: "\u0412\u0440\u0435\u043C\u044F \u0432\u044B\u0448\u043B\u043E!"
+  winTitleColor: {r: 1, g: 1, b: 1, a: 1}
+  failTitleColor: {r: 1, g: 0.4, b: 0.4, a: 1}
 --- !u!4 &1044653941
 Transform:
   m_ObjectHideFlags: 0
@@ -1609,6 +1621,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   hasMilkBowl: 0
   stepCount: 0
+  levelTime: 0
+  isLevelFailed: 0
 --- !u!4 &1176200069
 Transform:
   m_ObjectHideFlags: 0
@@ -2188,7 +2202,7 @@ GameObject:
   - component: {fileID: 1649124623}
   - component: {fileID: 1649124622}
   - component: {fileID: 1649124624}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}

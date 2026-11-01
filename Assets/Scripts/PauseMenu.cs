@@ -6,12 +6,14 @@ public class PauseMenu : MonoBehaviour
     [Header("UI")]
     public GameObject pausePanel;        // Панель паузы (изначально выключена)
     public GameObject pauseButton;       // Кнопка паузы на HUD (опционально)
+    public GameObject restartButton;
 
     private bool isPaused = false;
 
     void Start()
     {
         if (pausePanel != null) pausePanel.SetActive(false);
+        Debug.Log("Дэбаг");
     }
 
     void Update()
@@ -34,6 +36,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;                 // Останавливаем игровое время
         if (pausePanel != null) pausePanel.SetActive(true);
         if (pauseButton != null) pauseButton.SetActive(false);
+        if (restartButton != null) restartButton.SetActive(false);
     }
 
     public void Resume()
@@ -44,6 +47,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         if (pausePanel != null) pausePanel.SetActive(false);
         if (pauseButton != null) pauseButton.SetActive(true);
+        if (restartButton != null) restartButton.SetActive(true);
     }
 
     // Кнопка "Заново" в меню паузы

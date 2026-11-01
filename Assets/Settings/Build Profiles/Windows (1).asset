@@ -28,6 +28,45 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/SettingsMenu.unity
     m_guid: 54cc2a77529725248b26c6eaacf0795c
+  - m_enabled: 1
+    m_path: Assets/Scenes/lvlSelect1.unity
+    m_guid: 56f8cc0ca5c806d47acba5e361c2c278
+  - m_enabled: 1
+    m_path: Assets/Scenes/Levels/Level1.unity
+    m_guid: 37c150754578af0428e9f03c03570751
+  - m_enabled: 1
+    m_path: Assets/Scenes/Levels/Level2.unity
+    m_guid: c5062a61aacf9ca46a09c61e8079be6f
+  - m_enabled: 1
+    m_path: Assets/Scenes/Levels/Level3.unity
+    m_guid: 2ffced3c3aa831a4c9f617f4c0175709
+  - m_enabled: 1
+    m_path: Assets/Scenes/Levels/Level4.unity
+    m_guid: 22905a1ec45492d4f94842558a54102c
+  - m_enabled: 1
+    m_path: Assets/Scenes/Levels/Level5.unity
+    m_guid: 6fe02ce56961abc4299cd37cfa8e8aa2
+  - m_enabled: 1
+    m_path: Assets/Scenes/Levels/Level6.unity
+    m_guid: d90de5d04bde77f42a05b01f9af1d08c
+  - m_enabled: 1
+    m_path: Assets/Scenes/Levels/Level7.unity
+    m_guid: 4535d0901a465fe4392826f59a71a7cc
+  - m_enabled: 1
+    m_path: Assets/Scenes/Levels/Level8.unity
+    m_guid: 62ed0c6f180d5524986c57c22a26a418
+  - m_enabled: 1
+    m_path: Assets/Scenes/Levels/Level9.unity
+    m_guid: f87202d4e2c647f4a962a5dd4f510916
+  - m_enabled: 1
+    m_path: Assets/Scenes/Levels/LevelComponents.unity
+    m_guid: f00150a32fbb4bb4ab00497a3e59b847
+  - m_enabled: 1
+    m_path: Assets/Scenes/lvlSelect.unity
+    m_guid: bc4d7b05220ddd84ca811f678cb3526e
+  - m_enabled: 1
+    m_path: Assets/Scenes/SampleScene.unity
+    m_guid: 8c9cfa26abfee488c85f1582747f6a02
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:

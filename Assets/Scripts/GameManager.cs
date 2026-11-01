@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
@@ -7,8 +6,6 @@ public class GameManager : MonoBehaviour
 
     public bool hasMilkBowl = false;
     public int stepCount;
-    public float levelTime = 0f;       // остаток времени на финише (для инфо)
-    public bool isLevelFailed = false; // ← новое: провал по таймеру
 
     void Awake()
     {

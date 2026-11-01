@@ -30,15 +30,6 @@ public class Door : MonoBehaviour
         if (!GameManager.Instance.hasMilkBowl) return;
 
         hasTriggered = true;
-
-        LevelTimer timer = FindObjectOfType<LevelTimer>();
-        if (timer != null)
-        {
-            timer.StopTimer();
-            GameManager.Instance.levelTime = timer.GetRemainingTime(); // остаток на финише
-        }
-
-        GameManager.Instance.isLevelFailed = false;   // победа
         ResultsPanel.Instance.Show();
     }
 }
