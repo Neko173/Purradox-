@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class RollingBall : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed = 3f;
     public float gridSize = 1f;
 
     private Vector2 targetPos;
@@ -21,6 +21,7 @@ public class RollingBall : MonoBehaviour
         {
             // Штука для анимации вращения
             transform.Rotate(0, 0, -rollDirection.x * 360f * Time.deltaTime * 2f);
+            transform.Rotate(0, 0, -rollDirection.y * 360f * Time.deltaTime * 2f);
 
             transform.position = Vector2.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
 

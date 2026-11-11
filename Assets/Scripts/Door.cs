@@ -30,6 +30,7 @@ public class Door : MonoBehaviour
         if (!GameManager.Instance.hasMilkBowl) return;
 
         hasTriggered = true;
+
         ResultsPanel.Instance.Show();
     }
 }

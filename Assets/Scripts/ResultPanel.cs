@@ -20,32 +20,44 @@ public class ResultsPanel : MonoBehaviour
     public int stepsFor2Stars = 40;
 
     void Awake()
+{
+    Debug.Log("Попытка инициализации ResultsPanel. Instance = " + (Instance == null ? "null" : "уже есть!"));
+    
+    if (Instance == null)
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            gameObject.SetActive(false);
-        }
-        else if (Instance != this)
-        {
-            gameObject.SetActive(false);
-        }
+        Instance = this;
+        gameObject.SetActive(false);
     }
+    else
+    {
+        Debug.Log("Уничтожаю дубликат: " + gameObject.name);
+        Destroy(gameObject);
+    }
+}
 
     public void Show()
     {
-        gameObject.SetActive(true);
-        
-        if (pauseButton != null) pauseButton.SetActive(false);
-        if (restartButton != null) restartButton.SetActive(false);
+        Debug.Log("1. Show() вызван");
+    gameObject.SetActive(true);
+    Debug.Log("2. Панель включена. activeSelf = " + gameObject.activeSelf);
 
-        int steps = GameManager.Instance.stepCount;
-        stepsText.text = "" + steps;
+    int steps = GameManager.Instance.stepCount;
+    Debug.Log("3. Шагов: " + steps);
 
-        int stars = CalculateStars(steps);
-        SetStar(star1, stars >= 1);
-        SetStar(star2, stars >= 2);
-        SetStar(star3, stars >= 3);
+    if (stepsText != null)
+    {
+        stepsText.text = "Шагов: " + steps;
+    }
+    else
+    {
+        Debug.LogError("4. ОШИБКА: stepsText равен null! Перетащи текст в Inspector.");
+    }
+
+    int stars = CalculateStars(steps);
+    if (star1 != null) SetStar(star1, stars >= 1);
+    if (star2 != null) SetStar(star2, stars >= 2);
+    if (star3 != null) SetStar(star3, stars >= 3);
+    Debug.Log("5. Звёзды настроены");
     }
 
     int CalculateStars(int steps)
