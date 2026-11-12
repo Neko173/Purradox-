@@ -12,52 +12,61 @@ public class ResultsPanel : MonoBehaviour
     public Image star1;
     public Image star2;
     public Image star3;
-    public GameObject pauseButton;       
+    public GameObject pauseButton;
     public GameObject restartButton;
 
     [Header("Пороги звёзд")]
     public int stepsFor3Stars = 20;
     public int stepsFor2Stars = 40;
 
+    private CanvasGroup canvasGroup;
+
     void Awake()
-{
-    Debug.Log("Попытка инициализации ResultsPanel. Instance = " + (Instance == null ? "null" : "уже есть!"));
-    
-    if (Instance == null)
     {
-        Instance = this;
-        gameObject.SetActive(false);
+        // Настройка синглтона
+        if (Instance == null)
+        {
+            Instance = this;
+            
+            // Получаем CanvasGroup
+            canvasGroup = GetComponent<CanvasGroup>();
+            if (canvasGroup == null)
+            {
+                Debug.LogError("На объекте " + gameObject.name + " нет компонента Canvas Group! Добавь его.");
+                return;
+            }
+
+            // Скрываем панель при старте (не выключая объект)
+            canvasGroup.alpha = 0f;
+            canvasGroup.blocksRaycasts = false;
+            canvasGroup.interactable = false;
+        }
+        else
+        {
+            // Уничтожаем дубликат (если он есть)
+            Destroy(gameObject);
+        }
     }
-    else
-    {
-        Debug.Log("Уничтожаю дубликат: " + gameObject.name);
-        Destroy(gameObject);
-    }
-}
 
     public void Show()
     {
-        Debug.Log("1. Show() вызван");
-    gameObject.SetActive(true);
-    Debug.Log("2. Панель включена. activeSelf = " + gameObject.activeSelf);
+        if (canvasGroup != null)
+        {
+            // Показываем панель
+            canvasGroup.alpha = 1f;
+            canvasGroup.blocksRaycasts = true;
+            canvasGroup.interactable = true;
+            pauseButton.SetActive(false);
+            restartButton.SetActive(false);
+        }
 
-    int steps = GameManager.Instance.stepCount;
-    Debug.Log("3. Шагов: " + steps);
+        int steps = GameManager.Instance.stepCount;
+        if (stepsText != null) stepsText.text = "Шагов: " + steps;
 
-    if (stepsText != null)
-    {
-        stepsText.text = "Шагов: " + steps;
-    }
-    else
-    {
-        Debug.LogError("4. ОШИБКА: stepsText равен null! Перетащи текст в Inspector.");
-    }
-
-    int stars = CalculateStars(steps);
-    if (star1 != null) SetStar(star1, stars >= 1);
-    if (star2 != null) SetStar(star2, stars >= 2);
-    if (star3 != null) SetStar(star3, stars >= 3);
-    Debug.Log("5. Звёзды настроены");
+        int stars = CalculateStars(steps);
+        if (star1 != null) SetStar(star1, stars >= 1);
+        if (star2 != null) SetStar(star2, stars >= 2);
+        if (star3 != null) SetStar(star3, stars >= 3);
     }
 
     int CalculateStars(int steps)
@@ -69,13 +78,11 @@ public class ResultsPanel : MonoBehaviour
 
     void SetStar(Image star, bool active)
     {
-        if (star == null) return;
         star.color = active ? Color.white : new Color(0.3f, 0.3f, 0.3f, 1f);
     }
 
     public void OnNextLevelButton()
     {
         SceneManager.LoadScene("lvlSelect1");
-        Debug.Log("Загрузка сцены");
     }
 }
