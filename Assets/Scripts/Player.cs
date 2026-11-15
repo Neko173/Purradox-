@@ -40,6 +40,26 @@ public class PlayerGridMovement : MonoBehaviour
 
         if (direction == Vector2.zero) return;
 
+        Collider2D currentTeleport = Physics2D.OverlapCircle(transform.position, 0.3f, LayerMask.GetMask("Default"));
+    bool isStandingOnTeleport = (currentTeleport != null && currentTeleport.CompareTag("Teleport"));
+
+    Vector2 targetCell = (Vector2)transform.position + direction * gridSize;
+
+    // 1. Проверяем, нет ли телепорта в ЦЕЛЕВОЙ клетке
+    Collider2D teleportCollider = Physics2D.OverlapCircle(targetCell, 0.3f, LayerMask.GetMask("Default"));
+    if (teleportCollider != null && teleportCollider.CompareTag("Teleport"))
+    {
+        Teleport tp = teleportCollider.GetComponent<Teleport>();
+        if (tp != null && tp.linkedTeleport != null)
+        {
+            transform.position = tp.linkedTeleport.transform.position;
+            targetPos = transform.position;
+            GameManager.Instance.AddStep();
+            return;
+        }
+    }
+
+
         // 1. СНАЧАЛА проверяем лунку в целевой клетке
         Vector2 checkPos = (Vector2)transform.position + direction * gridSize;
         Collider2D pitCol = Physics2D.OverlapCircle(checkPos, 0.3f, LayerMask.GetMask("Triggers"));

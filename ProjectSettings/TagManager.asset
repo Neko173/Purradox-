@@ -9,6 +9,7 @@ TagManager:
   - MilkBowl
   - Door
   - Pit
+  - Teleport
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Obstacles
   - Triggers
   - Pits
-  - 
+  - Milk
   - 
   - 
   - 
