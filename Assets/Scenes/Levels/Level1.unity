@@ -1123,6 +1123,14 @@ PrefabInstance:
       propertyPath: panelObject
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7943263885886304663, guid: 1918e5863d4ce6d408d83203f4a9a3f1, type: 3}
+      propertyPath: stepsFor2Stars
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7943263885886304663, guid: 1918e5863d4ce6d408d83203f4a9a3f1, type: 3}
+      propertyPath: stepsFor3Stars
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 8594441308135343942, guid: 1918e5863d4ce6d408d83203f4a9a3f1, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
