@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6280458004172178936}
   - component: {fileID: 2711540404281658477}
   - component: {fileID: 987201269676942552}
+  - component: {fileID: 9128353187758498859}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -30,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.5, y: 3.5, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,7 +85,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -6045110389800113485, guid: fb743dd945cdfbc4a983624291ba6e24, type: 3}
+  m_Sprite: {fileID: -7899952551773681108, guid: ae0e479c80776a244800db268b591d75, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -174,7 +175,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.13, y: 0.18}
+    oldSize: {x: 1.17, y: 1.47}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -182,3 +183,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.13, y: 0.18}
   m_EdgeRadius: 0
+--- !u!114 &9128353187758498859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8443908933832255850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38e299c2d462c54687968aa8b9d611f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSpriteSwitcher
+  spriteUp: {fileID: 6808952432623335636, guid: 490701a57fbd2bf479eb41fc3bc8662d, type: 3}
+  spriteDown: {fileID: -7899952551773681108, guid: ae0e479c80776a244800db268b591d75, type: 3}
+  spriteLeft: {fileID: -7309104208010916672, guid: 63436875e3ebf1846a480864cea1cd7d, type: 3}
+  spriteRight: {fileID: 1879116137117346813, guid: 87d6ddf917764c443837db70a0473215, type: 3}

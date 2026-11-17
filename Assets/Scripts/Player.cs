@@ -98,6 +98,9 @@ public class PlayerGridMovement : MonoBehaviour
 
     void MoveToCell(Vector2 direction)
     {
+        PlayerSpriteSwitcher switcher = GetComponent<PlayerSpriteSwitcher>();
+        if (switcher != null) switcher.SetDirection(direction);
+
         targetPos = new Vector2(
             transform.position.x + direction.x * gridSize,
             transform.position.y + direction.y * gridSize

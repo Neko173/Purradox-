@@ -2,7 +2,16 @@ using UnityEngine;
 
 public class MilkBowl : MonoBehaviour
 {
+    [Tooltip("Спрайт пустой миски")]
+    public Sprite emptyBowlSprite;
+
     private bool isCollected = false;
+    private SpriteRenderer spriteRenderer;
+
+    void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -12,7 +21,10 @@ public class MilkBowl : MonoBehaviour
         {
             isCollected = true;
             GameManager.Instance.CollectMilkBowl();
-            gameObject.SetActive(false); // миска исчезает
+            if (spriteRenderer != null && emptyBowlSprite != null)
+            {
+                spriteRenderer.sprite = emptyBowlSprite;
+            }
         }
     }
 }
