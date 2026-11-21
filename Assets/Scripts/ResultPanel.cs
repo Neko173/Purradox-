@@ -14,6 +14,7 @@ public class ResultsPanel : MonoBehaviour
     public Image star3;
     public GameObject pauseButton;
     public GameObject restartButton;
+    public GameObject StepsCounterUI;
 
     [Header("Пороги звёзд")]
     public int stepsFor3Stars = 20;
@@ -49,25 +50,27 @@ public class ResultsPanel : MonoBehaviour
     }
 
     public void Show()
+{
+    if (canvasGroup != null)
     {
-        if (canvasGroup != null)
-        {
-            // Показываем панель
-            canvasGroup.alpha = 1f;
-            canvasGroup.blocksRaycasts = true;
-            canvasGroup.interactable = true;
-            pauseButton.SetActive(false);
-            restartButton.SetActive(false);
-        }
-
-        int steps = GameManager.Instance.stepCount;
-        if (stepsText != null) stepsText.text = "Шагов: " + steps;
-
-        int stars = CalculateStars(steps);
-        if (star1 != null) SetStar(star1, stars >= 1);
-        if (star2 != null) SetStar(star2, stars >= 2);
-        if (star3 != null) SetStar(star3, stars >= 3);
+        canvasGroup.alpha = 1f;
+        canvasGroup.blocksRaycasts = true;
+        canvasGroup.interactable = true;
     }
+
+    int steps = GameManager.Instance.stepCount;
+    if (stepsText != null) stepsText.text = "Шагов: " + steps;
+
+    int stars = CalculateStars(steps);
+    if (star1 != null) SetStar(star1, stars >= 1);
+    if (star2 != null) SetStar(star2, stars >= 2);
+    if (star3 != null) SetStar(star3, stars >= 3);
+
+    // --- СОХРАНЯЕМ ПРОГРЕСС ---
+    int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    int levelNumber = currentSceneIndex - 2;
+    GameManager.Instance.CompleteLevel(levelNumber);
+}
 
     int CalculateStars(int steps)
     {

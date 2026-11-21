@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -7,12 +8,18 @@ public class GameManager : MonoBehaviour
     public bool hasMilkBowl = false;
     public int stepCount = 0;
 
+    // Прогресс: сколько уровней пройдено (по умолчанию 0)
+    public int unlockedLevels = 1; 
+
     void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Сохраняем менеджер между сценами
+            DontDestroyOnLoad(gameObject);
+            
+            // Загружаем сохранённый прогресс при запуске игры
+            unlockedLevels = PlayerPrefs.GetInt("UnlockedLevels", 1);
         }
         else
         {
@@ -20,13 +27,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void Start()
+    void OnEnable()
     {
-        ResetLevelData(); // Сбрасываем данные при старте каждой сцены
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
-    public void ResetLevelData()
+    void OnDisable()
     {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Сбрасываем данные уровня, но НЕ прогресс
         hasMilkBowl = false;
         stepCount = 0;
     }
@@ -41,18 +54,23 @@ public class GameManager : MonoBehaviour
         stepCount++;
     }
 
-    void OnEnable()
-{
-    UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
-}
+    // Вызывать при успешном прохождении уровня
+    public void CompleteLevel(int currentLevelIndex)
+    {
+        // Если текущий уровень равен или больше открытых, открываем следующий
+        if (currentLevelIndex >= unlockedLevels)
+        {
+            unlockedLevels = currentLevelIndex + 1;
+            PlayerPrefs.SetInt("UnlockedLevels", unlockedLevels);
+            PlayerPrefs.Save(); // Сохраняем на диск
+            Debug.Log("Уровень пройден! Открыт уровень: " + unlockedLevels);
+        }
+    }
 
-void OnDisable()
-{
-    UnityEngine.SceneManagement.SceneManager.sceneLoaded -= OnSceneLoaded;
-}
-
-void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
-{
-    ResetLevelData();
-}
+    public void ResetProgress()
+    {
+        unlockedLevels = 1;
+        PlayerPrefs.SetInt("UnlockedLevels", 1);
+        PlayerPrefs.Save();
+    }
 }

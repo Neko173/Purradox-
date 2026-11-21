@@ -3123,6 +3123,7 @@ GameObject:
   - component: {fileID: 2090858373}
   - component: {fileID: 2090858372}
   - component: {fileID: 2090858371}
+  - component: {fileID: 2090858375}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3225,6 +3226,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2090858375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090858370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6552909f15421c34992fd853e3d7a0a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelSelectMenu
+  level1Button: {fileID: 1829404092}
+  level2Button: {fileID: 518223526}
+  level3Button: {fileID: 1993387858}
+  level4Button: {fileID: 79017756}
+  level5Button: {fileID: 2064893063}
+  level6Button: {fileID: 1858710641}
+  level7Button: {fileID: 1796023844}
+  level8Button: {fileID: 1100463993}
+  level9Button: {fileID: 758199922}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
