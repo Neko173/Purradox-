@@ -49,6 +49,7 @@ public class RollingBall : MonoBehaviour
 
         rollDirection = direction;
         isRolling = true;
+        AudioManager.Instance?.PlayBoxPush();
         MoveOneCell(direction);
         return true;
     }
@@ -87,6 +88,7 @@ public class RollingBall : MonoBehaviour
             {
                 // Лунка не заткнута — падаем в неё
                 pit.Fill();
+                AudioManager.Instance?.PlayHole();
                 gameObject.SetActive(false);
                 return;
             }

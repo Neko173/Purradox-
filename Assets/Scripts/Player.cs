@@ -7,14 +7,18 @@ public class PlayerGridMovement : MonoBehaviour
 
     private Vector2 targetPos;
     private bool isMoving = false;
+    private PlayerSpriteSwitcher spriteSwitcher;
 
     void Start()
     {
         targetPos = transform.position;
+        spriteSwitcher = GetComponent<PlayerSpriteSwitcher>();
     }
 
     void Update()
     {
+        if (Time.timeScale == 0f) return;
+
         if (isMoving)
         {
             transform.position = Vector2.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
@@ -23,6 +27,8 @@ public class PlayerGridMovement : MonoBehaviour
             {
                 transform.position = targetPos;
                 isMoving = false;
+                if (spriteSwitcher != null) spriteSwitcher.SetMoving(false);
+                AudioManager.Instance?.StopStep();
             }
             return;
         }
@@ -40,27 +46,29 @@ public class PlayerGridMovement : MonoBehaviour
 
         if (direction == Vector2.zero) return;
 
-        Collider2D currentTeleport = Physics2D.OverlapCircle(transform.position, 0.3f, LayerMask.GetMask("Default"));
-    bool isStandingOnTeleport = (currentTeleport != null && currentTeleport.CompareTag("Teleport"));
+        Vector2 targetCell = (Vector2)transform.position + direction * gridSize;
 
-    Vector2 targetCell = (Vector2)transform.position + direction * gridSize;
-
-    // 1. Проверяем, нет ли телепорта в ЦЕЛЕВОЙ клетке
-    Collider2D teleportCollider = Physics2D.OverlapCircle(targetCell, 0.3f, LayerMask.GetMask("Default"));
-    if (teleportCollider != null && teleportCollider.CompareTag("Teleport"))
-    {
-        Teleport tp = teleportCollider.GetComponent<Teleport>();
-        if (tp != null && tp.linkedTeleport != null)
+        // 1. Проверяем, нет ли телепорта в ЦЕЛЕВОЙ клетке
+        Collider2D teleportCollider = Physics2D.OverlapCircle(targetCell, 0.3f, LayerMask.GetMask("Default"));
+        if (teleportCollider != null && teleportCollider.CompareTag("Teleport"))
         {
-            transform.position = tp.linkedTeleport.transform.position;
-            targetPos = transform.position;
-            GameManager.Instance.AddStep();
-            return;
+            Teleport tp = teleportCollider.GetComponent<Teleport>();
+            if (tp != null && tp.linkedTeleport != null)
+            {
+                if (spriteSwitcher != null)
+                {
+                    spriteSwitcher.SetDirection(direction);
+                    spriteSwitcher.SetMoving(false);
+                }
+                transform.position = tp.linkedTeleport.transform.position;
+                targetPos = transform.position;
+                GameManager.Instance.AddStep();
+                AudioManager.Instance?.PlayPortal();
+                return;
+            }
         }
-    }
 
-
-        // 1. СНАЧАЛА проверяем лунку в целевой клетке
+        // 2. Проверяем лунку в целевой клетке
         Vector2 checkPos = (Vector2)transform.position + direction * gridSize;
         Collider2D pitCol = Physics2D.OverlapCircle(checkPos, 0.3f, LayerMask.GetMask("Triggers"));
 
@@ -70,11 +78,12 @@ public class PlayerGridMovement : MonoBehaviour
             if (pit != null && !pit.isFilled)
             {
                 // Лунка не заткнута — стоим, даже если там коробка
+                if (spriteSwitcher != null) spriteSwitcher.SetDirection(direction);
                 return;
             }
         }
 
-        // 2. Только теперь проверяем препятствия через Raycast
+        // 3. Проверяем препятствия через Raycast
         int obstacleMask = LayerMask.GetMask("Obstacles");
         Vector2 rayStart = (Vector2)transform.position + direction * 0.5f;
         RaycastHit2D hit = Physics2D.Raycast(rayStart, direction, gridSize * 0.5f, obstacleMask);
@@ -87,19 +96,28 @@ public class PlayerGridMovement : MonoBehaviour
         {
             PushableBox box = hit.collider.GetComponent<PushableBox>();
             if (box != null && box.TryPush(direction)) MoveToCell(direction);
+            else if (spriteSwitcher != null) spriteSwitcher.SetDirection(direction);
         }
         else if (hit.collider.CompareTag("Ball"))
         {
             RollingBall yarn = hit.collider.GetComponent<RollingBall>();
             if (yarn != null && yarn.TryPush(direction)) MoveToCell(direction);
+            else if (spriteSwitcher != null) spriteSwitcher.SetDirection(direction);
         }
-        // иначе — стена, стоим
+        else if (spriteSwitcher != null)
+        {
+            spriteSwitcher.SetDirection(direction);
+        }
     }
 
     void MoveToCell(Vector2 direction)
     {
-        PlayerSpriteSwitcher switcher = GetComponent<PlayerSpriteSwitcher>();
-        if (switcher != null) switcher.SetDirection(direction);
+        if (spriteSwitcher == null) spriteSwitcher = GetComponent<PlayerSpriteSwitcher>();
+        if (spriteSwitcher != null)
+        {
+            spriteSwitcher.SetDirection(direction);
+            spriteSwitcher.SetMoving(true);
+        }
 
         targetPos = new Vector2(
             transform.position.x + direction.x * gridSize,
@@ -107,5 +125,6 @@ public class PlayerGridMovement : MonoBehaviour
         );
         isMoving = true;
         GameManager.Instance.AddStep(); // считаем шаг
+        AudioManager.Instance?.PlayStep();
     }
 }

@@ -44,6 +44,7 @@ public class PushableBox : MonoBehaviour
             transform.position.y + direction.y * gridSize
         );
         isMoving = true;
+        AudioManager.Instance?.PlayBoxPush();
         return true;
     }
 }

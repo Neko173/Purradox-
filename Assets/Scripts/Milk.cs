@@ -21,6 +21,7 @@ public class MilkBowl : MonoBehaviour
         {
             isCollected = true;
             GameManager.Instance.CollectMilkBowl();
+            AudioManager.Instance?.PlayMilk();
             if (spriteRenderer != null && emptyBowlSprite != null)
             {
                 spriteRenderer.sprite = emptyBowlSprite;

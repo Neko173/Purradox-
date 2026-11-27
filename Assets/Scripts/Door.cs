@@ -13,10 +13,10 @@ public class Door : MonoBehaviour
 
     void Start()
     {
-        doorCollider = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        doorCollider = GetComponents<BoxCollider2D>()[0];
-        
+        var colliders = GetComponents<BoxCollider2D>();
+        if (colliders.Length > 0) doorCollider = colliders[0];
+
         if (spriteRenderer != null)
         {
             closedDoorSprite = spriteRenderer.sprite; // Запоминаем закрытый спрайт
@@ -24,38 +24,39 @@ public class Door : MonoBehaviour
     }
 
     void Update()
-{
-    // Защита: если GameManager ещё не создан — ничего не делаем
-    if (GameManager.Instance == null) return;
-
-    bool isOpen = GameManager.Instance.hasMilkBowl;
-
-    if (isOpen != isCurrentlyOpen)
     {
-        isCurrentlyOpen = isOpen;
-        
-        if (doorCollider != null) 
-            doorCollider.enabled = !isOpen;
+        // Защита: если GameManager ещё не создан — ничего не делаем
+        if (GameManager.Instance == null) return;
 
-        if (spriteRenderer != null)
+        bool isOpen = GameManager.Instance.hasMilkBowl;
+
+        if (isOpen != isCurrentlyOpen)
         {
-            spriteRenderer.sprite = isOpen ? openDoorSprite : closedDoorSprite;
+            isCurrentlyOpen = isOpen;
+
+            if (doorCollider != null)
+                doorCollider.enabled = !isOpen;
+
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.sprite = isOpen ? openDoorSprite : closedDoorSprite;
+            }
+
+            if (isOpen)
+            {
+                AudioManager.Instance?.PlayDoor();
+            }
         }
     }
-}
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Дверь: OnTriggerEnter2D сработал с " + other.name);
-        
         if (hasTriggered) return;
         if (!other.CompareTag("Player")) return;
-
-        Debug.Log("Дверь: игрок обнаружен. Миска собрана? " + GameManager.Instance.hasMilkBowl);
-
-        if (!GameManager.Instance.hasMilkBowl) return;
+        if (GameManager.Instance == null || !GameManager.Instance.hasMilkBowl) return;
 
         hasTriggered = true;
+        AudioManager.Instance?.PlayDoor();
         ResultsPanel.Instance.Show();
     }
 }
